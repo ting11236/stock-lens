@@ -62,3 +62,9 @@ PR／`codex/**` 分支執行 `Stock Lens checks`：單元測試加真實 TWSE �
 ## 未來跨裝置同步
 
 可保留 GitHub Pages 前端，另接 Supabase Auth + Postgres。只同步 `user_id / symbol / category_override`，用 Row Level Security 限制使用者只讀寫自己的記錄；行情仍由現有公共 JSON 提供。前端僅持公開 anon key，service-role key 不可放在網站。此版不啟用帳號或雲端個人資料庫。
+
+### 排序與股價走勢
+
+全部股票與我的自選股共用「排序欄位」及「排序方向」選單。可按股價、PE、PB、PS、PEG、主要估值倍數由低到高或由高到低排列；缺值固定排在最後，切換排序會回到第一頁。主要倍數跨分類意義不同，建議先選同一分類。
+
+點選股票後，收盤價下方的「查看股價走勢」會在新分頁開啟對應 TWSE 代號的 TradingView 圖表。本站不爬取 TradingView 行情；圖表可用性、資料延遲及功能以 TradingView 為準。
