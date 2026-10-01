@@ -1,0 +1,32 @@
+name: Stock Lens checks
+on:
+  pull_request:
+  push:
+    branches: ['codex/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: stock-lens-checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m unittest discover -s tests -v
+      - run: node --test tests/app.test.cjs
+      - name: 真實 TWSE 來源整合驗證
+        run: python update_snapshot.py
+      - name: 保存待審核網站預覽（不部署）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock-lens-preview
+          path: site

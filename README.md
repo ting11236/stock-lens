@@ -1,46 +1,64 @@
-# Stock Lens｜雲端每日股票分類估值網站
+# Stock Lens｜上市台股分類估值研究
 
-這一版是**免安裝的靜態網頁**，部署到 GitHub Pages 後，Mac、iPhone、iPad、Windows 都只需開啟網址。**Python 僅在 GitHub 雲端排程執行**，不用在你的電腦啟動。網站保留五類股票、專屬估值規則、原始 PE/PB/PS/PEG、CSV 匯入／匯出、人工分類、TradingView / Investing.com 人工查核。
+[開啟網站](https://ting11236.github.io/stock-lens/) · [每日更新](https://github.com/ting11236/stock-lens/actions) · [資料來源與計算口徑](docs/data-sources.md)
 
-## 最短上線流程（第一次設定，之後不用再做）
+沿用 HTML/CSS/JavaScript、Python 標準函式庫、GitHub Actions 與 GitHub Pages，無須登入、後端或付費服務。五類估值區間及研究提示沿用原版；數據不足、指標不適用或規則空白區间不給確定買賣結論。
 
-1. 登入 https://github.com/new ，建立名稱 `stock-lens` 的 **Public** 儲存庫，預設分支使用 `main`。GitHub 免費版的 Pages 需要公開儲存庫；公開網站與公開原始碼都可被其他人存取，請勿放入個人秘密或不具再發布授權的資料。
-2. 在新儲存庫點 **Add file → Upload files**，上傳這個壓縮檔解壓縮後**資料夾裡的所有內容**，包括 `.github/workflows/daily-publish.yml`（Mac Finder 用 `⌘ + Shift + .` 顯示隱藏資料夾）。請保留檔案的相對路徑，並選擇 **Commit directly to main**。
-3. 打開儲存庫的 **Settings → Pages → Build and deployment → Source → GitHub Actions**。前往 **Actions → 每日更新與發布 Stock Lens → Run workflow** 手動執行第一次部署。完成後，Pages 設定頁會顯示網站網址，一般形式是 `https://你的帳號.github.io/stock-lens/`。
+## 使用
 
-如果一開始 push 自動觸發的流程失敗（因當時還沒開啟 Pages），請完成第 3 步後在 Actions 按 **Run workflow** 重新執行即可。**請到 Settings → Pages 選擇 GitHub Actions，並在 Actions 手動執行第一次工作流程，確認 Pages 發布成功。**
+- **全部股票**：搜尋股票代號、名稱、產業或分類。可依分類、股價、主要估值倍數篩選與排序，每頁 50 檔。不同指標不能直接橫向比較，建議先選同一分類。
+- **我的自選股**：按 ☆ 加入，再按 ★ 移除。股價與指標直接取自每日市場資料。
+- 點選股票，查看股價日期、原始 PE/PB/PS/PEG、EPS、成長率、毛利率、ROE、研究提示及外部查核連結。展開來源區可看各欄位日期、口徑與缺值原因。
+- 詳細資料的「個人研究分類」可以人工覆寫，選「自動」恢復。
+- 自選清單與人工分類存在 `stock_lens_preferences_v2` localStorage；不同瀏覽器設定檔各自獨立，共用同一設定檔會共用設定。換裝置不會同步。舊版分類覆寫及台股清單會遷移，舊手動股價不覆蓋官方行情。
+- 每次開啟都重新下載雲端快照。儲存設定失敗時會提示，請用 CSV 備份。
+- 自選 CSV 至少含 `symbol`，例如 `2330` 或 `2330.TW`；`category` 可選填。匯入合併代號與分類，不採用 CSV 內的報價覆蓋官方資料。舊版多欄位 CSV 仍可讀取台股代號與分類。完整市場 CSV 在「資料說明」下載。
 
-## 每天更新什麼
+## 每日更新與失敗處理
 
-- 每天**台灣時間 18:20**（GitHub cron：UTC 10:20）在雲端執行，將新資料寫入 `site/data/stocks.json` 並重新部署。排程可能延後，並非保證準點；部分 public repos 長期無活動時，GitHub 可能停用排程，需於 Actions 重新啟用。
-- 預設使用 [政府資料開放平臺資料集 11547](https://data.gov.tw/dataset/11547) 指向的 **臺灣證券交易所 TWSE OpenAPI**：`BWIBBU_ALL`（本益比／股價淨值比）與 `STOCK_DAY_AVG_ALL`（收盤價）。出處標示「TWSE／政府開放資料」；價格與財報資料可能不同期，非即時行情。資料提供者與授權請見資料集頁面。
-- **PS、PEG、ROE、毛利、成長率、美股、上櫃股不在上述兩個 TWSE 資料集內**，預設顯示「—」或「尚無授權資料」，不會捏造。要自動更新這些欄位，需要接入**具相應展示／發布權利**的來源。
-- 若當天一檔讀取失敗，會保留該股前一次有效資料並顯示「⏳ 舊快照」與各股資料日期；如果全部失敗，仍保留先前已發布網站，且不虛報成功更新。未曾成功載入前會顯示清楚標記的**虛構教學資料**。
+每天台灣時間 **18:20**（UTC `20 10 * * *`）嘗試更新。官方只公布每日／月／季頻率，未承諾固定完成時刻；GitHub 排程可能延後。網站依 API 的 Date、年度／季別、資料年月顯示實際期間，絕不用下載时间代替交易日期。
 
-## 加入你的授權 PS / PEG 資料（選用）
+公司名冊限定四碼上市普通股，含外國第一上市及創新板；不含 ETF、權證、特別股、TDR、上櫃及美股。`watchlist.json` 保留作舊版參考，已不限制下載範圍。
 
-如果有獲得適當展示許可、可透過 HTTPS 下載的 CSV，至 **Settings → Secrets and variables → Actions → New repository secret** 建立 `STOCK_LENS_CSV_URL`，值填入該 HTTPS CSV 的 URL（可包含由資料商提供的授權查詢參數）。排程將自動讀取 CSV；同股票的官方台股 `price/pe/pb` 仍優先採用 TWSE，CSV 用來補充 `ps/peg/毛利/成長率/ROE`。美股或上櫃可整筆從 CSV 提供。
+- `stocks.json` 與 `stocks.csv`：有效市场快照及所有欄位來源。
+- `status.json`：成功／部分失敗／失敗及狀態開始時間。
+- `financial-history.json`：逐期保留一般業累計損益與母公司權益，供完整期間推算；不含個人自選。
+- 公司名冊、價格或估值來源失敗、格式不符、涵蓋率低於 90%，或名冊異常縮水，保留整份前次快照；發布失敗狀態，Actions 最終回報失敗。
+- 財務來源失敗，已有欄位保留原日期並標記舊值。沒有有效值則顯示「—」。初次執行失敗也可開啟網站，清楚呈現空狀態。
+- 同數值、期間、來源與狀態不變時，不改下載時間、不改檔案。每次嘗試時間可查 Actions 日誌；JSON 的下載時間表示該版本第一次成功取得的時間。
+- 前端會依最近股價日期與台灣時間提醒可能過期；已排除一般週末，但未建立完整休市日曆，國定假日可能出現提醒。
 
-CSV 標頭使用：`symbol,name,category,industry,price,currency,pe,pb,ps,peg,gross_margin,revenue_growth,earnings_growth,roe,trailing_eps,net_income,peg_basis,quote_time,source`。數字用純值，百分比用**百分點**（70% 填 70）。URL 與權杖**不要**寫進 `index.html`、`watchlist.json` 或公開儲存庫。如果資料商需要 Bearer Token 或其他驗證格式，需要針對該 API 修改雲端 `licensed_csv_snapshot`，不能直接填 URL 代替所有 API。
+## 財務資料限制
 
-Yahoo Finance / yfinance **不是已授權的公開再發布資料來源**；本部署版本預設**不會**向 Yahoo、TradingView 或 Investing.com 自動爬取資料。三站的個股連結僅用於人工查核。
+目前可直接取得收盤價、PE、PB、殖利率、累計 EPS、單月營收年增率、累計毛利率。PS、ROE、TTM EPS 成長與歷史 PEG 需要完整且可比的歷史資料；初次執行通常缺少，因此顯示「—」，不年化半年數字、不反推 EPS、不以營收成長代替 EPS 成長。
 
-## 修改觀察清單與分類
+後續逐季累積可比的一般業財報後才計算。金融等特殊業別的財報推算尚未接入；官方 EPS、PE/PB 仍照常顯示。歷史資料如遇公司重編、拆併股或會計口徑變更，已保存的過去季度未必是重編後資料，衍生指標須人工查核，不應直接視為預測或買賣訊號。
 
-- 雲端每天會讀取根目錄 `watchlist.json` 的 `symbols`（預設 10 檔，最多 40 檔）；在 GitHub 網頁中編輯後 Commit 到 `main`，會自動觸發發布工作。四位台股代碼沒有附檔名會自動轉 `.TW`；上櫃需填 `.TWO`。
-- 網頁上的「加入股票」、分類與指標人工修改存在**該瀏覽器 localStorage**，不會自動寫進 GitHub；要讓新股票每天由雲端更新，仍須加入 `watchlist.json` 並確保其來源有授權資料。
-- 分類不代表投資建議。預設觀察清單中的產業／分類是研究起點；新股票如無足夠資訊會顯示「待分類」。
-- 五類主指標：週期 PB、重資產金融 PB、前期虧損 PS（依毛利分流）、高成長 PEG、穩定獲利 PE（沒有自訂區間，因此不自動給便宜昂貴評價）。
+原有選用的 `STOCK_LENS_CSV_URL` Actions secret 仍可補充**已取得公開展示授權**的 CSV。每欄需有 `<field>_date` 或 `financial_data_date`，並提供 `source`。PEG 另外必須提供 `peg_basis=historical|forward` 及 `peg_period`。價格、PE、PB 保持官方來源優先。網址與權杖不寫入公開快照或錯誤訊息；`source` 請填可公開的來源名稱或文件網址。此版本只合併上市普通股。
 
-## 專案結構
+## 開發與驗證
 
-- `site/index.html`：網頁。
-- `site/data/stocks.json`：每日快照（首次部署為空）。
-- `watchlist.json`：雲端要追蹤的股票。
-- `update_snapshot.py`：雲端取得／整理資料、缺值與失敗保留。
-- `.github/workflows/daily-publish.yml`：每日排程、自動部署。
-- `tests/test_snapshot.py`：不依賴真實網路的邏輯測試。
+```sh
+python -m unittest discover -s tests -v
+node --test tests/app.test.cjs
+python update_snapshot.py
+python -m http.server 8000 --directory site
+```
 
-## 注意
+開啟 `http://localhost:8000`。不要直接以 file:// 開啟，因瀏覽器會限制讀取 JSON。
 
-公開 GitHub Pages **不是私人網站**。TWSE 的開放資料受其對應開放授權約束，應保留來源與必要的授權標示；其他交易所、資料商或 Yahoo 提供的行情，不應在未取得適當權利時直接公開散布。GitHub Actions 排程只是每天嘗試更新資料，無法保證每檔股票、每項財報當天都有新值。網站僅供研究，不提供自動交易或保證買賣訊號。
+PR／`codex/**` 分支執行 `Stock Lens checks`：單元測試加真實 TWSE 整合下載，將 `site/` 上傳為 `stock-lens-preview` artifact，**不部署 Pages**。只有 main 的每日工作流程會提交資料及發布正式網站。合併後若需重跑，可在「每日更新與發布 Stock Lens」選 main → Run workflow。Pages Source 維持 GitHub Actions。
+
+## 檔案
+
+- `site/index.html`：兩個股票頁面、規則與資料說明。
+- `site/styles.css`：淺色 Dashboard 與手機、平板、桌面 RWD。
+- `site/app.js`：沿用原版估值規則，處理搜尋、排序、個人分類、自選與 CSV。
+- `update_snapshot.py`：官方資料下載、验证、合併、來源日期、衍生指標、失敗保留與去重。
+- `.github/workflows/daily-publish.yml`：18:20 更新及 main Pages 發布。
+- `.github/workflows/ci.yml`：PR 驗證，無正式站發布權限。
+- `tests/`：日期、來源缺值、更新失敗、重複執行、自選持久化、CSV、分類及估值邊界測試。
+
+## 未來跨裝置同步
+
+可保留 GitHub Pages 前端，另接 Supabase Auth + Postgres。只同步 `user_id / symbol / category_override`，用 Row Level Security 限制使用者只讀寫自己的記錄；行情仍由現有公共 JSON 提供。前端僅持公開 anon key，service-role key 不可放在網站。此版不啟用帳號或雲端個人資料庫。

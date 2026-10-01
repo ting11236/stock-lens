@@ -4,52 +4,57 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - 'site/data/stocks.json'
+      - 'site/data/**'
+      - 'docs/**'
   schedule:
-    # 台灣時間每天 18:20，即 UTC 10:20
+    # 台灣時間 18:20；GitHub 排程可能延後。
     - cron: '20 10 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
 concurrency:
   group: stock-lens-pages
   cancel-in-progress: false
 
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
+    outputs:
+      update_outcome: ${{ steps.update.outcome }}
     steps:
-      - name: 取得專案
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: 準備 Python（僅在 GitHub 雲端執行）
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: 取得每日股票資料
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 檢查資料處理與前端邏輯
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/app.test.cjs
+      - name: 取得每日資料；失敗仍發布舊資料與狀態
+        id: update
+        continue-on-error: true
         env:
           STOCK_LENS_CSV_URL: ${{ secrets.STOCK_LENS_CSV_URL }}
         run: python update_snapshot.py
-      - name: 保留最新快照
+      - name: 保留有變更的快照、CSV 與更新狀態
         run: |
-          if ! git diff --quiet -- site/data/stocks.json; then
+          if ! git diff --quiet -- site/data || test -n "$(git ls-files --others --exclude-standard site/data)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add site/data/stocks.json
-            git commit -m 'data: 每日股票資料快照'
+            git add site/data
+            git commit -m 'data: 更新上市台股快照與來源狀態'
             git push origin HEAD:main
           fi
-      - name: 設定 GitHub Pages
-        uses: actions/configure-pages@v5
-      - name: 打包網站
-        uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: ./site
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -60,6 +65,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: 發布網站
-        id: deployment
+      - uses: actions/configure-pages@v5
+      - id: deployment
         uses: actions/deploy-pages@v4
+  report:
+    needs: [build, deploy]
+    if: always() && needs.build.outputs.update_outcome == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo '官方資料更新失敗或部分失敗。已嘗試發布上次有效資料與失敗狀態；請查看 build 與 deploy。'
+          exit 1
