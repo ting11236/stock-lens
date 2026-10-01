@@ -1,6 +1,6 @@
 {
   "status": "partial",
-  "fetched_at": "2026-10-01T06:40:53.972767+00:00",
+  "fetched_at": "2026-10-01T07:32:19.426741+00:00",
   "source": "TWSE 政府開放資料",
   "stocks": [
     {
@@ -27,7 +27,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     },
     {
       "symbol": "2317.TW",
@@ -53,7 +53,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     },
     {
       "symbol": "1301.TW",
@@ -79,7 +79,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     },
     {
       "symbol": "2002.TW",
@@ -105,7 +105,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     },
     {
       "symbol": "2603.TW",
@@ -131,7 +131,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     },
     {
       "symbol": "2881.TW",
@@ -157,7 +157,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     },
     {
       "symbol": "2882.TW",
@@ -183,7 +183,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     },
     {
       "symbol": "2454.TW",
@@ -209,7 +209,7 @@
       "source": "TWSE／政府開放資料",
       "quote_time": null,
       "financial_data_date": "2026-09-30",
-      "snapshot_at": "2026-10-01T06:40:53.972767+00:00"
+      "snapshot_at": "2026-10-01T07:32:19.426741+00:00"
     }
   ],
   "errors": {
