@@ -128,11 +128,14 @@ async function fetchLive(){
  finally{state.busy=false;$('fetchBtn').disabled=false}
 }
 const NUM_FIELDS=['price','pe','pb','ps','peg','eps','trailing_eps','revenue_growth','earnings_growth','gross_margin','roe','dividend_yield'];
+let clearedWatchlist=null;
 function init(){
  CATS.forEach(c=>$('categoryFilter').insertAdjacentHTML('beforeend',`<option>${esc(c.id)}</option>`));$('categoryFilter').insertAdjacentHTML('beforeend','<option>待分類</option>');
  document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));$('search').oninput=e=>{state.search=e.target.value.trim().toLowerCase();state.page=1;render()};$('categoryFilter').onchange=e=>{state.filter=e.target.value;state.page=1;render()};$('sort').onchange=e=>{state.sort=e.target.value;render()};
  for(const k of ['priceMin','priceMax','metricMin','metricMax'])$(k).oninput=e=>{state[k]=finite(e.target.value);state.page=1;render()};
  $('clearFilters').onclick=()=>{state.search='';state.filter='全部';$('search').value='';$('categoryFilter').value='全部';for(const k of ['priceMin','priceMax','metricMin','metricMax']){state[k]=null;$(k).value=''}state.page=1;render()};
+ $('clearWatchBtn').onclick=()=>{if(!state.watchlist.length)return;clearedWatchlist=[...state.watchlist];state.watchlist=[];persist();$('undoWatchBtn').hidden=false;setTab('watchlist');showNotice('自選股已清空。可按「復原清空」恢復；重新整理前有效。','ok')};
+ $('undoWatchBtn').onclick=()=>{if(!clearedWatchlist)return;state.watchlist=[...new Set([...clearedWatchlist,...state.watchlist])];clearedWatchlist=null;persist();$('undoWatchBtn').hidden=true;render()};
  $('prevPage').onclick=()=>{state.page--;render()};$('nextPage').onclick=()=>{state.page++;render()};$('fetchBtn').onclick=fetchLive;$('importBtn').onclick=()=>$('csvFile').click();$('exportBtn').onclick=exportWatchlist;$('csvFile').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>2_000_000)throw Error('CSV 超過 2 MB');importWatchlist(await file.text())}catch(err){showNotice('匯入失敗：'+err.message,'error')}e.target.value=''};
  window.addEventListener('storage',e=>{if(e.key===KEY){const p=readPreferences(localStorage);state.watchlist=p.watchlist;state.overrides=p.overrides;render()}});
  render();fetchLive();

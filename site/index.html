@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Stock Lens｜上市台股分類估值研究</title>
-<link rel="stylesheet" href="styles.css"><script src="app.js?v=empty-watchlist-1" defer></script>
+<link rel="stylesheet" href="styles.css"><script src="app.js?v=empty-watchlist-2" defer></script>
 </head>
 <body>
 <div class="shell">
-<header class="topbar"><a class="brand" href="./"><span class="logo">S↗</span><span>Stock Lens<small>台股分類估值研究</small></span></a><div class="top-actions"><button class="button" id="importBtn">匯入自選 CSV</button><button class="button" id="exportBtn">匯出自選 CSV</button><button class="button primary" id="fetchBtn">↻ 更新資料</button></div></header>
+<header class="topbar"><a class="brand" href="./"><span class="logo">S↗</span><span>Stock Lens<small>台股分類估值研究</small></span></a><div class="top-actions"><button class="button" id="importBtn">匯入自選 CSV</button><button class="button" id="clearWatchBtn">清空自選股</button><button class="button" id="undoWatchBtn" hidden>復原清空</button><button class="button" id="exportBtn">匯出自選 CSV</button><button class="button primary" id="fetchBtn">↻ 更新資料</button></div></header>
 <main>
 <section class="hero"><div><div class="eyebrow">TAIWAN EQUITY RESEARCH</div><h1>從商業本質，讀懂股票估值。</h1><p>五種分類，各有適用的指標。保留原始數字，讓每個研究判斷都有依據。</p></div><div class="market-summary"><span><b id="marketCount">—</b>上市股票</span><span><b id="marketDate">—</b>最近股價日期</span></div></section>
 <div id="notice" class="notice" role="status">正在載入市場資料…</div><p class="tiny" id="lastUpdated">每日台灣時間 18:20 嘗試更新；非即時行情。</p>
