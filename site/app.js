@@ -55,7 +55,9 @@ const KEY='stock_lens_preferences_v2';
 function readPreferences(storage){
  try{const saved=JSON.parse(storage.getItem(KEY)||'null');if(saved&&Array.isArray(saved.watchlist))return saved;
  const legacy=JSON.parse(storage.getItem('stock_lens_web_v1')||'{}');
- return {watchlist:(legacy.watchlist||[]).filter(s=>/^\d{4}\.TW$/.test(s)),overrides:Object.fromEntries(Object.entries(legacy.overrides||{}).filter(([,v])=>CATS.some(c=>c.id===v.category)||v.category==='待分類').map(([k,v])=>[k,v.category]))};
+ // Legacy watchlist was also populated by cloud refreshes; it is not a record
+ // of stocks explicitly chosen by the visitor. Only migrate classifications.
+ return {watchlist:[],overrides:Object.fromEntries(Object.entries(legacy.overrides||{}).filter(([,v])=>CATS.some(c=>c.id===v.category)||v.category==='待分類').map(([k,v])=>[k,v.category]))};
  }catch{return {watchlist:[],overrides:{}}}
 }
 const preferences=(()=>{try{return readPreferences(window.localStorage)}catch{return {watchlist:[],overrides:{}}}})();
