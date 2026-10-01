@@ -1,0 +1,65 @@
+name: 每日更新與發布 Stock Lens
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'site/data/stocks.json'
+  schedule:
+    # 台灣時間每天 18:20，即 UTC 10:20
+    - cron: '20 10 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: stock-lens-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: 取得專案
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: 準備 Python（僅在 GitHub 雲端執行）
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 取得每日股票資料
+        env:
+          STOCK_LENS_CSV_URL: ${{ secrets.STOCK_LENS_CSV_URL }}
+        run: python update_snapshot.py
+      - name: 保留最新快照
+        run: |
+          if ! git diff --quiet -- site/data/stocks.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add site/data/stocks.json
+            git commit -m 'data: 每日股票資料快照'
+            git push origin HEAD:main
+          fi
+      - name: 設定 GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: 打包網站
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 發布網站
+        id: deployment
+        uses: actions/deploy-pages@v4
