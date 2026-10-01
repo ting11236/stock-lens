@@ -262,7 +262,9 @@ def preserve_fields(rows, previous, failed, now):
             prior = prev.get('field_meta',{}).get(key)
             dependencies = {'roe':{'income','balance'},'ps':{'income','companies','prices'},'peg':{'income','prices'}}
             source_failed = bool(dependencies.get(key,set()) & set(failed)) or any(meta['source'] == BASE+SOURCES[n] for n in failed)
-            if prior and (source_failed or (prior.get('date') and meta.get('date') and prior['date'] > meta['date'])):
+            if key == 'price' and prior and s[key] is None and prev.get(key) is not None:
+                s[key], s['field_meta'][key] = prev[key], dict(prior,stale_reason='本次未提供有效收盤價，保留最近可取得的價格及原交易日期')
+            elif prior and (source_failed or (prior.get('date') and meta.get('date') and prior['date'] > meta['date'])):
                 s[key], s['field_meta'][key] = prev.get(key), dict(prior,stale_reason='本次來源失敗或日期倒退，沿用前次有效值')
             elif prior and s[key] == prev.get(key) and {k:v for k,v in meta.items() if k!='downloaded_at'} == {k:v for k,v in prior.items() if k not in ('downloaded_at','stale_reason')}:
                 meta['downloaded_at'] = prior['downloaded_at']

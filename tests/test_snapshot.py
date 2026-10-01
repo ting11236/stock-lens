@@ -56,6 +56,13 @@ class SnapshotTests(unittest.TestCase):
         f=feeds();previous={'stocks':u.build_rows(f,{},'first')};f.pop('margins')
         rows=u.preserve_fields(u.build_rows(f,{},'second'),previous,{'margins':'failed'},'second')
         self.assertEqual(rows[0]['gross_margin'],60);self.assertEqual(rows[0]['field_meta']['gross_margin']['downloaded_at'],'first');self.assertIn('stale_reason',rows[0]['field_meta']['gross_margin'])
+    def test_no_trade_keeps_last_close_and_actual_date(self):
+        f=feeds();previous={'stocks':u.build_rows(f,{},'first')}
+        f['prices'][0].update(Date='1151001',ClosingPrice='--')
+        s=u.preserve_fields(u.build_rows(f,{},'second'),previous,{},'second')[0]
+        self.assertEqual(s['price'],100.5)
+        self.assertEqual(s['price_date'],'2026-09-30')
+        self.assertIn('未提供有效收盤價',s['field_meta']['price']['stale_reason'])
     def test_update_idempotent_and_failure_preserves_bytes(self):
         f=feeds()
         def loader(n):return n,copy.deepcopy(f[n]),None
