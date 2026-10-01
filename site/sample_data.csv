@@ -1,0 +1,6 @@
+symbol,name,category,industry,price,currency,pe,pb,ps,peg,gross_margin,revenue_growth,earnings_growth,roe,trailing_eps,net_income
+EXAMPLE-G,示範成長公司,高成長股,AI 軟體,120,TWD,24,5.2,9.0,0.80,72,35,30,22,5.0,100000000
+EXAMPLE-B,示範金融公司,重資產股,銀行,30,TWD,11,0.90,2.5,1.30,46,6,5,12,2.7,100000000
+EXAMPLE-C,示範鋼鐵公司,週期股,鋼鐵,20,TWD,8,0.73,1.1,1.80,17,-12,-25,2,2.5,100000000
+EXAMPLE-S,示範 SaaS 公司,前期虧損企業,SaaS 軟體,40,USD,,3.8,4.2,,78,38,,,-1.8,-25000000
+EXAMPLE-P,示範成熟企業,穩定獲利股,成熟消費,85,TWD,15.4,2.1,1.8,1.75,42,8,7,16,5.5,100000000
