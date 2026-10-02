@@ -68,3 +68,13 @@ PR／`codex/**` 分支執行 `Stock Lens checks`：單元測試加真實 TWSE �
 全部股票與我的自選股共用「排序欄位」及「排序方向」選單。可按股價、PE、PB、PS、PEG、主要估值倍數由低到高或由高到低排列；缺值固定排在最後，切換排序會回到第一頁。主要倍數跨分類意義不同，建議先選同一分類。
 
 點選股票後，收盤價下方的「查看股價走勢」會在新分頁開啟對應 TWSE 代號的 TradingView 圖表。本站不爬取 TradingView 行情；圖表可用性、資料延遲及功能以 TradingView 為準。
+
+## 全市場公司研究摘要
+
+每檔股票明細新增公司業務、近年營收／獲利來源、轉型方向、新發展項目。可用「公司研究」選單篩選已有摘要／待查核，並查看實際涵蓋進度。首批 4 家已建立附來源的研究初稿，其餘待分批查核；**不是全市場深度摘要已完成**。
+
+每段附資料期間與來源連結，另列發布日期、查閱日期及限制。逾 14 天未查核會提醒；營收占比不視為獲利占比、計画不視為成果。讀取研究資料失敗不影響股價、自選股及排序。
+
+研究資料由 Codex 每週查核並透過待審 PR 更新，合併後才發布；GitHub Actions 僅驗證與產生全市場索引，不自行生成網路研究。完整維護、來源及排程限制見 [公司研究維護規則](docs/company-research.md)。
+
+本機驗證：`python build_research.py`（先備妥 stocks.json）與 `python build_research.py --validate-only`。原始研究在 `research/companies.json`；網站檔案為 `site/data/company-research.json`。

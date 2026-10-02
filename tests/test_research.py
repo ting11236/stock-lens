@@ -1,0 +1,60 @@
+import copy
+import json
+import tempfile
+import unittest
+from datetime import date
+from pathlib import Path
+import build_research as r
+
+
+def note():
+    return {'name': '公司A', 'reviewed_at': '2026-10-02',
+            'limitations': ['未提供分部獲利'],
+            'sources': {'annual': {'title': '年報', 'publisher': '公司A',
+                'url': 'https://example.com/report', 'published_at': None,
+                'accessed_at': '2026-10-02'}},
+            'business': {'text': '已查核業務', 'period': '2025 年', 'sources': ['annual']}}
+
+
+class ResearchTests(unittest.TestCase):
+    def test_all_market_without_fabricating_missing_content(self):
+        payload = r.build([{'symbol': '1234.TW', 'name': '公司A'},
+                           {'symbol': '5678.TW', 'name': '公司B'}], {'1234.TW': note()})
+        self.assertEqual(payload['coverage'], {'total': 2, 'researched': 1, 'pending': 1})
+        missing = payload['profiles']['5678.TW']
+        self.assertIsNone(missing['reviewed_at'])
+        self.assertNotIn('business', missing)
+
+    def test_names_must_match_before_reusing_research(self):
+        payload = r.build([{'symbol': '1234.TW', 'name': '新名稱'}], {'1234.TW': note()})
+        self.assertEqual(payload['profiles']['1234.TW']['status'], 'pending')
+
+    def test_dates_sources_and_urls_are_required(self):
+        for modify in [
+            lambda n: n.update(reviewed_at='2099-01-01'),
+            lambda n: n['business'].update(sources=['missing']),
+            lambda n: n['business'].update(period=''),
+            lambda n: n['sources']['annual'].update(url='javascript:alert(1)'),
+            lambda n: n['sources']['annual'].update(url='https://user:password@example.com'),
+            lambda n: n['sources']['annual'].update(published_at='2026-10-03'),
+        ]:
+            n = note(); modify(n)
+            with self.assertRaises(ValueError): r.validate({'1234.TW': n}, date(2026, 10, 2))
+
+    def test_idempotence_and_invalid_input_preserves_published_file(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d); (root/'site/data').mkdir(parents=True); (root/'research').mkdir()
+            (root/'site/data/stocks.json').write_text(json.dumps({'stocks':[{'symbol':'1234.TW','name':'公司A'}]}))
+            source = root/'research/companies.json'
+            source.write_text(json.dumps({'1234.TW':note()}))
+            r.run(root); target = root/'site/data/company-research.json'
+            before = target.read_bytes(); stamp = target.stat().st_mtime_ns
+            r.run(root)
+            self.assertEqual(target.stat().st_mtime_ns, stamp)
+            bad = note(); bad['business']['sources'] = ['missing']
+            source.write_text(json.dumps({'1234.TW':bad}))
+            with self.assertRaises(ValueError): r.run(root)
+            self.assertEqual(target.read_bytes(), before)
+
+
+if __name__ == '__main__': unittest.main()

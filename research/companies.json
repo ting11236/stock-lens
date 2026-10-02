@@ -1,0 +1,212 @@
+{
+  "2330.TW": {
+    "name": "台積電",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "annual": {
+        "title": "2025 年報／股東報告",
+        "url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+        "publisher": "台積電",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      },
+      "q2": {
+        "title": "2026 Q2 營運報告（第 1–3 頁）",
+        "url": "https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/qr/phase4_reports/2026-07/bf09036349a253e83f78155099133806cad0320b/2Q26%20ManagementReport.pdf",
+        "publisher": "台積電",
+        "published_at": "2026-07-16",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "專業晶圓代工，替客戶製造晶片；應用涵蓋高效能運算、手機、車用與物聯網。",
+      "period": "2025 年報",
+      "sources": [
+        "annual"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年營業利益率為 50.8%，高於 2024 年的 45.7%。2026 Q2 高效能運算與手機分別占營收 66%、22%，不是獲利占比；該季另有世界先進持股處分及評價利益 632 億元，不能全部視為經常性本業成長。",
+      "period": "2024–2025 年／2026 Q2",
+      "sources": [
+        "annual",
+        "q2"
+      ]
+    },
+    "transition": {
+      "text": "維持專業代工模式，擴充先進製程、封裝與海外產能；較適合視為核心業務升級，而非退出原本業務。此分類是依年報整理的研究判讀。",
+      "period": "2025 年報",
+      "sources": [
+        "annual"
+      ]
+    },
+    "developments": {
+      "text": "2 奈米已於 2025 Q4 進入量產。年報規劃 N2P、A16 於 2026 下半年量產；本摘要尚未查核其後實際進度，不把計畫視為已完成。",
+      "period": "2025 年報所述進度與計畫",
+      "sources": [
+        "annual"
+      ]
+    },
+    "limitations": [
+      "未取得各應用平台的獨立獲利占比。",
+      "新項目的最新進度仍待補查，來源涵蓋範圍不等同所有近期新聞。"
+    ]
+  },
+  "2317.TW": {
+    "name": "鴻海",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fy": {
+        "title": "2025 全年與第四季財報新聞稿",
+        "url": "https://www.honhai.com/en-us/press-center/events/foxconn-events/1978",
+        "publisher": "鴻海",
+        "published_at": "2026-03-16",
+        "accessed_at": "2026-10-02"
+      },
+      "q2": {
+        "title": "2025 第二季財報及 AI 基礎建設布局",
+        "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1812",
+        "publisher": "鴻海",
+        "published_at": "2025-08-14",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "電子製造與系統整合業務涵蓋雲端網路、智慧消費電子、電腦與零組件；AI 伺服器為近年的重要業務。",
+      "period": "2025 年營運回顧",
+      "sources": [
+        "fy",
+        "q2"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年歸屬母公司淨利約 1,893 億元，EPS 13.61 元。2025 Q4 雲端網路產品營收首度在消費電子旺季超過智慧消費電子；這代表營收結構改變，不能直接推算兩者獲利占比。",
+      "period": "2025 年／2025 Q4",
+      "sources": [
+        "fy"
+      ]
+    },
+    "transition": {
+      "text": "公司將 AI 列為新五年轉型策略的核心，從電子代工延伸到 AI 伺服器及資料中心整合。轉型方向已提出，成果仍須持續對照財報。",
+      "period": "2026-03 策略說明",
+      "sources": [
+        "fy"
+      ]
+    },
+    "developments": {
+      "text": "2025 年公告與東元合作發展模組化資料中心方案，並規劃活化俄亥俄州基地生產雲端網路產品；此處記錄公告計畫，尚未核實後續完工及營收貢獻。",
+      "period": "2025-08 公告",
+      "sources": [
+        "q2"
+      ]
+    },
+    "limitations": [
+      "本輪以 2025 全年與部分公告建立初稿；2026 半年報及完整近三年比較尚待補齊。",
+      "產品類別營收並非產品類別淨利，未取得完整分部獲利拆解。"
+    ]
+  },
+  "2308.TW": {
+    "name": "台達電",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "letter": {
+        "title": "2025 董事長致股東報告",
+        "url": "https://www.deltaww.com/en-US/investors/chairman-statement",
+        "publisher": "台達電子",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      },
+      "expo": {
+        "title": "COMPUTEX 2026 官方專頁",
+        "url": "https://www.deltaww.com/en-US/landing/Computex-2026",
+        "publisher": "台達電子",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "以電源與散熱技術為基礎，業務包含電源電子、基礎設施、自動化及交通應用；AI 資料中心是近期擴展方向。",
+      "period": "2025 年營運回顧",
+      "sources": [
+        "letter"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年營收約 5,549 億元、年增 32%，營業利益約 839 億元。公司指出液冷業務成為成長動力；該敘述不等於已揭露 AI 或液冷的獲利占比。",
+      "period": "2025 年",
+      "sources": [
+        "letter"
+      ]
+    },
+    "transition": {
+      "text": "由電源與散熱產品延伸到資料中心系統整合及現場部署，強化整體解決方案；這是依公司業務敘述整理的方向，並非認定傳統業務已被取代。",
+      "period": "2025 年營運回顧",
+      "sources": [
+        "letter"
+      ]
+    },
+    "developments": {
+      "text": "COMPUTEX 2026 展示預製式 AI 模組化資料中心方案。產品展示屬已發生事件，但不能據此認定已大規模量產或形成重大獲利。",
+      "period": "2026-06 展會",
+      "sources": [
+        "expo"
+      ]
+    },
+    "limitations": [
+      "近三年的分部獲利比較與 2026 最新財報仍待補查。",
+      "部分官網頁面未載明發布日，保留為未提供，不以查閱日代替。"
+    ]
+  },
+  "2454.TW": {
+    "name": "聯發科",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "q1": {
+        "title": "2026 Q1 法說簡報",
+        "url": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q1/Presentation.pdf",
+        "publisher": "聯發科技",
+        "published_at": "2026-04-30",
+        "accessed_at": "2026-10-02"
+      },
+      "launch": {
+        "title": "Dimensity 9600 Pro 官方發表",
+        "url": "https://www.mediatek.com/press-room/mediatek-dimensity-9600-pro-sets-new-standard-for-flagship-smartphone-chips",
+        "publisher": "聯發科技",
+        "published_at": "2026-09-15",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "無晶圓廠 IC 設計公司，提供手機、智慧邊緣平台與電源管理晶片；產品應用包含連網、電視、運算與車用。",
+      "period": "2026 Q1",
+      "sources": [
+        "q1"
+      ]
+    },
+    "earnings": {
+      "text": "2026 Q1 手機、智慧邊緣平台、電源管理 IC 分別占營收 49%、46%、5%。合併營業利益率 15.3%，低於 2025 Q1 的 19.6%；未以產品營收占比推算各產品獲利。",
+      "period": "2025 Q1／2026 Q1",
+      "sources": [
+        "q1"
+      ]
+    },
+    "transition": {
+      "text": "產品持續結合運算、連網與裝置端 AI；可視為 IC 設計產品升級。本輪來源不足以認定整家公司已完成新業務轉型。",
+      "period": "2026-09 產品說明",
+      "sources": [
+        "launch"
+      ]
+    },
+    "developments": {
+      "text": "2026-09-15 發表採 2 奈米製程的 Dimensity 9600 Pro。公告當時預計搭載手機於該季上市；上市進度與實際營收貢獻仍需後續核對。",
+      "period": "2026-09-15 公告",
+      "sources": [
+        "launch"
+      ]
+    },
+    "limitations": [
+      "財務拆解目前採 2026 Q1，2026 Q2 與完整近三年比較尚待補齊。",
+      "產品效能宣稱來自公司測試，並非本站獨立驗證。"
+    ]
+  }
+}
