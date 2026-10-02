@@ -208,5 +208,588 @@
       "財務拆解目前採 2026 Q1，2026 Q2 與完整近三年比較尚待補齊。",
       "產品效能宣稱來自公司測試，並非本站獨立驗證。"
     ]
+  },
+  "2412.TW": {
+    "name": "中華電",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fy": {
+        "title": "2025 全年與第四季自結營運成果",
+        "url": "https://www.cht.com.tw/home/web/home/messages/2026/0203-1450",
+        "publisher": "中華電信",
+        "published_at": "2026-02-03",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "提供行動通訊、固網寬頻及企業 ICT 服務，另有國際通信、資料中心與海纜業務。",
+      "period": "2025 全年",
+      "sources": [
+        "fy"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年營業利益 485.5 億元，較 2024 年增加 3.6%；歸屬母公司淨利 386.9 億元。行動、寬頻與 ICT 支撐營收；第四季部分事業稅前利益受 3G 設備減損影響。",
+      "period": "2024–2025 年自結資料",
+      "sources": [
+        "fy"
+      ]
+    },
+    "transition": {
+      "text": "以通信基礎建設為核心，向雲端 AI 資料中心、衛星網路與資安延伸；這是業務擴展方向，尚不能據此量化新業務獲利。",
+      "period": "2026 年初提出的投資方向",
+      "sources": [
+        "fy"
+      ]
+    },
+    "developments": {
+      "text": "SJC2 與 Apricot 第一階段海纜於 2025 Q4 完成。2026 規劃增加海纜、衛星及雲端 AI 機房投資；後續完工進度待查。",
+      "period": "2025 Q4 實績／2026 計畫",
+      "sources": [
+        "fy"
+      ]
+    },
+    "limitations": [
+      "本輪採 2025 自結全年公告；2026 財報及完整三年比較待補。",
+      "來源頁標示發布日為 2026-02-03，內文開頭年份誤植為 2025；日期採頁面標示。",
+      "未取得各項新業務的獨立獲利占比。"
+    ]
+  },
+  "2881.TW": {
+    "name": "富邦金",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fy": {
+        "title": "2025 年度法人說明會新聞稿",
+        "url": "https://www.fubon.com/financialholdings/en/news/news_1260415_224470.htm",
+        "publisher": "富邦金控",
+        "published_at": "2026-03-16",
+        "accessed_at": "2026-10-02"
+      },
+      "h1": {
+        "title": "2026 年六月及上半年營運公告",
+        "url": "https://www.fubon.com/financialholdings/en/news/news_1260716_165505.htm",
+        "publisher": "富邦金控",
+        "published_at": "2026-07-15",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "以壽險、銀行、證券及產險構成金融服務集團，收益受到保險投資、存放款利差、財富管理及交易活動影響。",
+      "period": "2025 年",
+      "sources": [
+        "fy"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年金控淨利 1,209.4 億元；富邦人壽淨利 626.5 億元、台北富邦銀行 363.4 億元。銀行受惠淨利息及手續費收入成長；壽險須同時觀察投資處分、匯率及外匯準備金影響。子公司數字不直接加總為母公司淨利。",
+      "period": "2025 年／與 2024 年比較",
+      "sources": [
+        "fy"
+      ]
+    },
+    "transition": {
+      "text": "深化財富管理、交叉銷售與數位化服務；壽險朝分期繳及保障型商品調整。屬既有金融業務升級，非已退出壽險。",
+      "period": "2025 回顧／2026 策略",
+      "sources": [
+        "fy"
+      ]
+    },
+    "developments": {
+      "text": "2026 上半年銀行財富管理收入年增逾四成，產險拓展電動車保險，投信推出主動式 ETF。這些有營運進展，但不能把基金資產規模當作公司營收或獲利。",
+      "period": "2026 上半年",
+      "sources": [
+        "h1"
+      ]
+    },
+    "limitations": [
+      "尚缺完整近三年一致口徑的分部比較。",
+      "2026 保險會計及匯率制度改變，FVOCI 股票處分利得不能直接當作當期損益；本文未混加不同口徑。"
+    ]
+  },
+  "2303.TW": {
+    "name": "聯電",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fy": {
+        "title": "投資人關係：2025 年營運摘要",
+        "url": "https://www.umc.com/en/IR/ir_overview",
+        "publisher": "聯華電子",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      },
+      "q2": {
+        "title": "2026 Q2 營運公告（SEC Exhibit 99.6）",
+        "url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312526322027/umc-ex99.htm",
+        "publisher": "聯華電子／美國 SEC",
+        "published_at": "2026-07-29",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "晶圓代工公司，提供通訊、消費及運算等晶片製造服務；22／28 奈米與電源管理、感測器、微控制器相關製程是觀察重點。",
+      "period": "2026 Q2",
+      "sources": [
+        "q2"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年營收 2,376 億元、營業利益率 18.5%；2026 Q2 營業利益率 21.8%，22／28 奈米占營收 37%，產能利用率 85%。營收占比並非製程獲利占比，亦不能用單季利益率代表全年。",
+      "period": "2025 年／2026 Q2",
+      "sources": [
+        "fy",
+        "q2"
+      ]
+    },
+    "transition": {
+      "text": "延伸既有代工能力至矽光子，並採分階段擴產；屬製程與服務範圍拓展，尚不能認定新平台已成主要獲利來源。",
+      "period": "2026-07 公告",
+      "sources": [
+        "q2"
+      ]
+    },
+    "developments": {
+      "text": "公司稱 2026 年 7 月首次量產交付 12 吋光子 IC；通用矽光子平台預計 2027 年推出。董事會另核准新加坡無塵室擴充及台南新廠計畫，核准不等於完工。",
+      "period": "2026-07 實績及規劃",
+      "sources": [
+        "q2"
+      ]
+    },
+    "limitations": [
+      "完整近三年與單季業外收益拆解尚待補齊，未將歸母淨利全數解讀為代工本業。",
+      "2027 平台及擴廠仍為公司計畫，後續里程碑待追蹤。"
+    ]
+  },
+  "2353.TW": {
+    "name": "宏碁",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fy": {
+        "title": "2025 全年財務成果",
+        "url": "https://news.acer.com/acer-reports-fy2025-consolidated-revenue-of-nt27563-billion-net-income-of-nt378-billion-and-nt13-cash-dividend-per-share",
+        "publisher": "宏碁",
+        "published_at": "2026-03-12",
+        "accessed_at": "2026-10-02"
+      },
+      "q2": {
+        "title": "2026 第二季及上半年財務成果",
+        "url": "https://news.acer.com/acer-announces-q226-net-income-at-nt217-billion-highest-quarter-post-pandemic-up-1002-year-on-year",
+        "publisher": "宏碁",
+        "published_at": "2026-08-06",
+        "accessed_at": "2026-10-02"
+      },
+      "mix": {
+        "title": "2026 Q2 營收及事業組合",
+        "url": "https://news.acer.com/acer-reports-q226-revenues-at-nt8530-billion-the-highest-q2-in-13-years-up-282-year-on-year",
+        "publisher": "宏碁",
+        "published_at": "2026-07-10",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "以筆記型、桌上型電腦及顯示器為基礎，透過多家子公司拓展其他產品與服務，兼有消費、電競及商用市場。",
+      "period": "2025–2026 上半年",
+      "sources": [
+        "fy",
+        "mix"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年營業利益約 51.4 億元、年增 5.5%；2026 上半年約 25.9 億元、年增 45.9%。2025 非電腦及顯示器業務占營收 32.2%，公司稱其營業利益占比更高，但未提供精確比例。",
+      "period": "2025 全年／2026 上半年",
+      "sources": [
+        "fy",
+        "q2"
+      ]
+    },
+    "transition": {
+      "text": "多重事業引擎策略持續推進，非電腦及顯示器業務占 2026 上半年營收 34.5%；這表示組合擴展，不代表已不依賴 PC 市場。",
+      "period": "2026 上半年自結營收",
+      "sources": [
+        "mix"
+      ]
+    },
+    "developments": {
+      "text": "2026 年 8 月公告規劃在柏林發表 AI PC、電競、連網及生活裝置。該來源屬發表會前計畫，本輪尚未逐一核對後續上市與獲利貢獻。",
+      "period": "2026-08-06 公告",
+      "sources": [
+        "q2"
+      ]
+    },
+    "limitations": [
+      "營業利益與稅後淨利不同，尚缺非營業項目及各子公司的完整拆解。",
+      "2024 全年基礎及 2026 九月新品後續待補；自結營收組合與董事會財報可能有小幅調整。"
+    ]
+  },
+  "2002.TW": {
+    "name": "中鋼",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fin": {
+        "title": "2026 八月自結合併損益與產品營收",
+        "url": "https://www.csc.com.tw/csc_c/ss/fin/fin.html",
+        "publisher": "中國鋼鐵",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      },
+      "climate": {
+        "title": "氣候變遷風險、機會與低碳轉型",
+        "url": "https://www.csc.com.tw/csc/esg/env/env1.html",
+        "publisher": "中國鋼鐵",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "核心業務是鋼鐵產品，集團另有非鐵材料、營建及貿易等收入；應分開觀察鋼材銷量、單位毛利及業外收入。",
+      "period": "2026 年 1–8 月",
+      "sources": [
+        "fin"
+      ]
+    },
+    "earnings": {
+      "text": "2026 年 1–8 月自結營業利益約 40.8 億元，2025 同期為虧損約 33.5 億元；公司歸因鋼品銷量增加。八月單月另受單位毛利改善帶動，股利收入則較前月減少。",
+      "period": "2025／2026 年同期自結資料",
+      "sources": [
+        "fin"
+      ]
+    },
+    "transition": {
+      "text": "低碳鋼材、製程節能及智慧化是公司列出的轉型方向；仍以鋼鐵產業為核心，減碳布局不能直接等同獲利已改善。",
+      "period": "官網氣候風險與機會說明",
+      "sources": [
+        "climate"
+      ]
+    },
+    "developments": {
+      "text": "公司將汽車與再生電力材料、再生電力及儲能設施列為機會項目；本輪未取得各項目的投產或訂單證據，僅列待追蹤方向。",
+      "period": "官網機會清單；未載各案日期",
+      "sources": [
+        "climate"
+      ]
+    },
+    "limitations": [
+      "月自結資料不是年度查核財報；完整近三年比較及分部獲利待補。",
+      "財務網頁會滾動更新，本文固定記錄當次讀取的 2026 八月期間。",
+      "氣候策略頁未提供各項新案的時程，不能認定已量產或有實際財務貢獻。"
+    ]
+  },
+  "1216.TW": {
+    "name": "統一",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "annual": {
+        "title": "2025 年報（業務、研發與個體財務分析）",
+        "url": "https://ir.sp88.tw/upload/file/fin_202605051029303513.pdf",
+        "publisher": "統一企業",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "集團涵蓋食品飲料、台灣 7-ELEVEN、流通、包材及飼料等。2025 年報列連鎖店、流通與食品為主要營收來源，不宜只視為泡麵公司。",
+      "period": "2025 年報印刷頁 134–135",
+      "sources": [
+        "annual"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年母公司個體營業利益約 20.3 億元、業外淨額約 191.0 億元；個體淨利約 196.3 億元，較 2024 年減少 5.1%。個體與集團合併口徑不同，不能用此推算各通路獲利占比。",
+      "period": "2024–2025 年個體；印刷頁 178",
+      "sources": [
+        "annual"
+      ]
+    },
+    "transition": {
+      "text": "以生活品牌為核心，串聯研發製造、零售、貿易配送與合作整合，屬食品與通路體系延伸。",
+      "period": "2025 年報印刷頁 141",
+      "sources": [
+        "annual"
+      ]
+    },
+    "developments": {
+      "text": "2026 研發計畫包括新一代健康食品、保鮮技術及再生包材；列為研發方向，尚未逐項核對上市與營收。",
+      "period": "2026 計畫；印刷頁 140",
+      "sources": [
+        "annual"
+      ]
+    },
+    "limitations": [
+      "本輪未取得各事業的獲利占比及 2026 最新財報；近三年比較未完整。",
+      "英文年報合併財務分析表的年份表頭與文件年度有疑義，本文避免採該表作年度獲利比較，待中文版交叉核對。"
+    ]
+  },
+  "2618.TW": {
+    "name": "長榮航",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "annual": {
+        "title": "2025 年報（股東報告及新服務計畫）",
+        "url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+        "publisher": "長榮航空",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "以航空客運與貨運為核心，集團並有航太維修、空廚、地勤及貨運倉儲等航空周邊服務。",
+      "period": "2025 年報印刷頁 1–2",
+      "sources": [
+        "annual"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年個體客運收入 1,403 億元、年減約 3%；貨運 548 億元、年增約 5%，受 AI 與電子貨運需求支持。合併 EPS 為 4.84 元；客貨收入不是獲利占比，也不能與合併收入直接混算。",
+      "period": "2025 年／與 2024 年比較",
+      "sources": [
+        "annual"
+      ]
+    },
+    "transition": {
+      "text": "透過商務旅遊平台、AI 客服及流程自動化改善服務與效率，仍屬航空本業升級。",
+      "period": "2025 年報印刷頁 2–3",
+      "sources": [
+        "annual"
+      ]
+    },
+    "developments": {
+      "text": "年報規劃自 2026 年起更新 777-300ER 客艙，調整座椅、娛樂設備與配置；本輪未核對首架完成日期，不當作已全面換裝。",
+      "period": "2026 計畫；印刷頁 126",
+      "sources": [
+        "annual"
+      ]
+    },
+    "limitations": [
+      "2026 季報、完整三年比較及客貨運各自獲利尚待補查。",
+      "產品升級仍須追蹤實際交機、改裝及成本效益。"
+    ]
+  },
+  "2409.TW": {
+    "name": "友達",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "annual": {
+        "title": "2025 年報：股東報告及財務分析",
+        "url": "https://www.auo.com/upload/media/ir/2025_AUO_Annual_Report_EN.pdf",
+        "publisher": "友達光電",
+        "published_at": null,
+        "accessed_at": "2026-10-02"
+      },
+      "expo": {
+        "title": "SEMICON Taiwan 2026 光通訊與玻璃核心基板展示公告",
+        "url": "https://www.auo.com/en-global/New_Archive/detail/News_Archive_Product_20260831",
+        "publisher": "友達光電",
+        "published_at": "2026-08-31",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "以顯示技術為基礎，業務分成顯示、智慧移動及垂直場域解決方案，應用包含車用、醫療及零售。",
+      "period": "2025 年報",
+      "sources": [
+        "annual"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年營業虧損約 10.6 億元，較 2024 年 84.7 億元縮小；業外淨收益約 95.0 億元，涉及不動產處分及投資衡量變動等。年度轉盈不能全視為面板本業獲利。",
+      "period": "2024–2025 年；印刷頁 105",
+      "sources": [
+        "annual"
+      ]
+    },
+    "transition": {
+      "text": "透過 BHTC 與凌華等布局，從面板供應延伸為車用及場域方案供應商；組織與投資已調整，綜效仍需用後續營業利益驗證。",
+      "period": "2025 年報",
+      "sources": [
+        "annual"
+      ]
+    },
+    "developments": {
+      "text": "2026-08 公告將展示 Micro LED 光通訊與玻璃核心基板技術，面向 AI 資料中心及先進封裝。這是展示／開發階段資訊，非已量產營收證明。",
+      "period": "2026-08-31 公告",
+      "sources": [
+        "expo"
+      ]
+    },
+    "limitations": [
+      "尚缺 2026 最新季報及三大事業的完整獲利分拆。",
+      "展前公告不能證明其後實際量產；相關訂單與財務貢獻待查。"
+    ]
+  },
+  "9921.TW": {
+    "name": "巨大",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "h1": {
+        "title": "2026 上半年財務成果",
+        "url": "https://www.giantgroup-cycling.com/en-US/news/61e8f2ae-b11b-42de-80c1-5a3f2d7cc60b",
+        "publisher": "巨大集團",
+        "published_at": "2026-08-07",
+        "accessed_at": "2026-10-02"
+      },
+      "deal": {
+        "title": "擬增持鼎鎂至 96.63% 公告",
+        "url": "https://www.giantgroup-cycling.com/en-US/news/baf3c3ea-b478-49fd-b264-de3f4f396776",
+        "publisher": "巨大集團",
+        "published_at": "2026-08-21",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "自行車製造與品牌經營兼具，包含自有品牌及 OEM 代工；另透過鼎鎂經營先進合金材料製品。",
+      "period": "2026 上半年及八月公告",
+      "sources": [
+        "h1",
+        "deal"
+      ]
+    },
+    "earnings": {
+      "text": "2026 上半年稅後淨利 4.35 億元、EPS 1.11 元；第二季淨利 6.30 億元，高於半年累計，表示不可只看單季復甦。公司指出自有品牌新品、組合改善與較少折扣支持毛利。",
+      "period": "2026 上半年／Q2",
+      "sources": [
+        "h1"
+      ]
+    },
+    "transition": {
+      "text": "持續優化自有品牌產品與材料業務管理，較適合視為既有自行車產業鏈升級；本輪無證據顯示已退出代工。",
+      "period": "2026 上半年及八月公告",
+      "sources": [
+        "h1",
+        "deal"
+      ]
+    },
+    "developments": {
+      "text": "董事會核准擬以約人民幣 5.97 億元增持鼎鎂，完成後持股預計為 96.63%。對手為關係人，仍需追蹤交易完成與整合；不把核准當完成。",
+      "period": "2026-08 公告計畫",
+      "sources": [
+        "deal"
+      ]
+    },
+    "limitations": [
+      "尚缺 2024–2025 全年獲利比較及品牌／代工各自利益。",
+      "材料事業的營收比重不能當獲利比重，增持後效益待查。"
+    ]
+  },
+  "2395.TW": {
+    "name": "研華",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fy": {
+        "title": "2025 Q4 及全年法說簡報",
+        "url": "https://advcloudfiles.advantech.com/investor/Events/Advantech_4Q_2025_Investors_Meeting_English.pdf",
+        "publisher": "研華",
+        "published_at": "2026-03-04",
+        "accessed_at": "2026-10-02"
+      },
+      "q1": {
+        "title": "2026 Q1 法說簡報",
+        "url": "https://advcloudfiles.advantech.com/investor/Events/Advantech_1Q_2026_Investors_Meeting_English.pdf",
+        "publisher": "研華",
+        "published_at": "2026-05-06",
+        "accessed_at": "2026-10-02"
+      },
+      "product": {
+        "title": "MIC-743／Jetson Thor 整合展示",
+        "url": "https://www.advantech.com/en-us/resources/news/advantech-demonstrates-live-full-stack-nvidia-jetson-t",
+        "publisher": "研華",
+        "published_at": "2025-05-19",
+        "accessed_at": "2026-10-02"
+      },
+      "weda": {
+        "title": "2026 WEDA 發布及邊緣 AI 策略",
+        "url": "https://wise.advantech.com/zh-tw/materials/研華-computex-首度整合全球夥伴大會-強化全球邊緣-ai-生態系鏈結",
+        "publisher": "研華",
+        "published_at": "2026-05-14",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "工業與邊緣運算供應商，涵蓋自動化、智慧系統、嵌入式及智慧服務，服務半導體設備、交通、醫療與資料中心等應用。",
+      "period": "2026 Q1",
+      "sources": [
+        "q1"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年營業利益約 115.7 億元，較 2024 年增加約 28%。2026 Q1 智慧系統與嵌入式事業營業利益分別約 6,300 萬及 5,400 萬美元；另有未分攤費用，不能直接加總成合併淨利。",
+      "period": "2024–2025 年／2026 Q1",
+      "sources": [
+        "fy",
+        "q1"
+      ]
+    },
+    "transition": {
+      "text": "由工業運算硬體延伸到感測、網路與 AI 推論整合，強化邊緣 AI 應用；並非已全面轉為軟體訂閱模式。",
+      "period": "2025 產品公告",
+      "sources": [
+        "product"
+      ]
+    },
+    "developments": {
+      "text": "2026 年 5 月正式發布 WEDA 代理型 AI 開發架構，聚焦自動化、醫療與機器人應用。這是產品／平台發表，尚未取得獨立收入或獲利貢獻，亦不代表預告展示都已商業化。",
+      "period": "2026-05-14 公告",
+      "sources": [
+        "weda"
+      ]
+    },
+    "limitations": [
+      "財務目前涵蓋至 2026 Q1，Q2 與完整三年比較待補。",
+      "事業營業利益以美元呈現，非歸母淨利；未分攤費用不可忽略。",
+      "產品效能與整合成果為公司披露，本站未獨立測試。"
+    ]
+  },
+  "2912.TW": {
+    "name": "統一超",
+    "reviewed_at": "2026-10-02",
+    "sources": {
+      "fy": {
+        "title": "2025 年度財報新聞摘要",
+        "url": "https://ir.7-11.com.tw/tw/news-inner.php?id=188",
+        "publisher": "統一超商",
+        "published_at": "2026-02-25",
+        "accessed_at": "2026-10-02"
+      },
+      "h1": {
+        "title": "2026 第二季財報新聞摘要",
+        "url": "https://ir.7-11.com.tw/tw/news-inner.php?id=202",
+        "publisher": "統一超商",
+        "published_at": "2026-07-29",
+        "accessed_at": "2026-10-02"
+      }
+    },
+    "business": {
+      "text": "核心為台灣 7-ELEVEN，轉投資包括菲律賓 7-ELEVEN、康是美、台灣星巴克及黑貓宅急便，結合零售、餐飲與物流。",
+      "period": "2025 年",
+      "sources": [
+        "fy"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年 EPS 10.78 元；公司提醒 2024 年含山東超市處分與所得稅迴轉利益，造成較高基期。2026 上半年歸母淨利 62.65 億元、EPS 6.03 元，不能用營收成長直接代表各事業獲利成長。",
+      "period": "2024–2025 年／2026 上半年",
+      "sources": [
+        "fy",
+        "h1"
+      ]
+    },
+    "transition": {
+      "text": "向全通路生活服務平台發展，整合會員、點數、支付、電商與門市寄取件；這是既有通路經營擴展。",
+      "period": "2025–2026 上半年",
+      "sources": [
+        "fy",
+        "h1"
+      ]
+    },
+    "developments": {
+      "text": "2026 上半年已導入 DAISO 大創複合專區，並在南港與康是美、星巴克等聯合展店。可確認店型拓展，尚無單店回收期或獨立獲利數據。",
+      "period": "2026 年 4–5 月",
+      "sources": [
+        "h1"
+      ]
+    },
+    "limitations": [
+      "未取得各轉投資的完整獲利占比；尚缺 2023 年與完整三年同口徑比較。",
+      "會員數、服務據點及門市數定義不同，不能混用推估單店營收。"
+    ]
   }
 }
