@@ -25,6 +25,7 @@ jobs:
       contents: write
     outputs:
       update_outcome: ${{ steps.update.outcome }}
+      revenue_outcome: ${{ steps.revenue.outcome }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,6 +44,10 @@ jobs:
         env:
           STOCK_LENS_CSV_URL: ${{ secrets.STOCK_LENS_CSV_URL }}
         run: python update_snapshot.py
+      - name: 取得授權月營收；失敗保留歷史
+        id: revenue
+        continue-on-error: true
+        run: python update_revenue.py
       - name: 保留有變更的快照、CSV 與更新狀態
         run: |
           if ! git diff --quiet -- site/data || test -n "$(git ls-files --others --exclude-standard site/data)"; then
@@ -70,7 +75,7 @@ jobs:
         uses: actions/deploy-pages@v4
   report:
     needs: [build, deploy]
-    if: always() && needs.build.outputs.update_outcome == 'failure'
+    if: always() && (needs.build.outputs.update_outcome == 'failure' || needs.build.outputs.revenue_outcome == 'failure')
     runs-on: ubuntu-latest
     steps:
       - run: |

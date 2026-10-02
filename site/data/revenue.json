@@ -1,0 +1,12 @@
+{
+  "coverage": {},
+  "limitations": [
+    "首次部署由 Actions 產生實際資料；失敗時顯示空狀態。"
+  ],
+  "profiles": {},
+  "schema_version": 1,
+  "status": {
+    "limitation": "等待首次授權資料下載",
+    "state": "pending"
+  }
+}
