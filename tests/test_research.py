@@ -17,6 +17,22 @@ def note():
 
 
 class ResearchTests(unittest.TestCase):
+    def test_imported_overview_preserves_verified_notes_and_checks_identity(self):
+        raw = {'schema_version': 1, 'source': {'filename': 'provided.xlsx'},
+               'profiles': {'1234.TW': {'name': '公司A', 'business': '原始業務',
+                   'direction': '計畫', 'summary': '財務摘要', 'status': '部分待核',
+                   'source_reviewed_at': '2026-10-03', 'urls': ['https://example.com'],
+                   'events': [], 'outlooks': []}}}
+        stocks = [{'symbol': '1234.TW', 'name': '公司A'}]
+        payload = r.build(stocks, {'1234.TW': note()}, overview=raw)
+        self.assertEqual(payload['profiles']['1234.TW']['business'], note()['business'])
+        self.assertEqual(payload['profiles']['1234.TW']['reviewed_at'], '2026-10-02')
+        self.assertEqual(payload['coverage']['overview'], 1)
+        self.assertEqual(r.build(stocks, {}, overview=raw)['profiles']['1234.TW']['status'], 'overview')
+        self.assertEqual(r.build([{'symbol': '1234.TW', 'name': '新公司'}], {}, overview=raw)['coverage']['overview'], 0)
+        raw['profiles']['1234.TW']['events'] = [{'urls': ['javascript:alert(1)']}]
+        with self.assertRaises(ValueError): r.build(stocks, {}, overview=raw)
+
     def test_all_market_without_fabricating_missing_content(self):
         payload = r.build([{'symbol': '1234.TW', 'name': '公司A'},
                            {'symbol': '5678.TW', 'name': '公司B'}], {'1234.TW': note()})

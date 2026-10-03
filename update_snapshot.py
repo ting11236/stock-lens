@@ -152,7 +152,7 @@ def classify(s):
     if re.search('塑膠|塑化|鋼鐵|水泥|造紙|航運|面板|油電|化學|玻璃|橡膠', industry):
         return '週期股'
     if s.get('eps') is not None and s['eps'] <= 0:
-        return '前期虧損企業'
+        return '虧損企業'
     growth = s.get('revenue_growth')
     if growth is not None and growth >= 20 and re.search('半導體|雲端|資訊服務|軟體', industry) and (s.get('eps') or 0) > 0:
         return '高成長股'
@@ -161,14 +161,8 @@ def classify(s):
 
 def ttm(history, code, period, field):
     """Cumulative Jan–quarter values: prior FY + current YTD - prior YTD."""
-    y, q = period.split('-Q'); y = int(y)
-    records = history.get(code, {})
-    current = records.get(period, {}).get(field)
-    if q == '4':
-        return current
-    annual = records.get(f'{y-1}-Q4', {}).get(field)
-    prior = records.get(f'{y-1}-Q{q}', {}).get(field)
-    return annual + current - prior if all(v is not None for v in (annual,current,prior)) else None
+    from financial_ttm import trailing_value
+    return trailing_value(history.get(code, {}), period, field)
 
 
 def historical_peg(price, eps, prior_eps):
@@ -195,6 +189,7 @@ def build_rows(feeds, history, now):
             s[key] = number(value)
             s['field_meta'][key] = {'source':BASE+SOURCES[source], 'date':date, 'basis':basis,
                 'downloaded_at':now, 'reason':reason if reason else (None if number(value) is not None else '官方未提供／不適用')}
+        s.update(issued_shares=number(company.get('已發行普通股數或TDR原股發行股數')),shares_date=day(company.get('出表日期')),shares_source=BASE+SOURCES['companies'])
         price = maps.get('prices',{}).get(code,{})
         ratios = maps.get('ratios',{}).get(code,{})
         field('price',price.get('ClosingPrice'),'prices',day(price.get('Date')),'官方收盤參考價；無成交可能缺值')
