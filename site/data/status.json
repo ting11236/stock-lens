@@ -1,6 +1,15 @@
 {
-  "errors": {},
+  "errors": {
+    "balance": "JSONDecodeError：來源未通過下載或格式檢查",
+    "companies": "JSONDecodeError：來源未通過下載或格式檢查",
+    "eps": "JSONDecodeError：來源未通過下載或格式檢查",
+    "income": "JSONDecodeError：來源未通過下載或格式檢查",
+    "margins": "JSONDecodeError：來源未通過下載或格式檢查",
+    "prices": "JSONDecodeError：來源未通過下載或格式檢查",
+    "ratios": "JSONDecodeError：來源未通過下載或格式檢查",
+    "revenue": "JSONDecodeError：來源未通過下載或格式檢查"
+  },
   "latest_price_date": "2026-10-02",
-  "since": "2026-10-03T00:35:53+00:00",
-  "state": "ok"
+  "since": "2026-10-03T18:08:31+00:00",
+  "state": "failed"
 }
