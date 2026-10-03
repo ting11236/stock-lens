@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Stock Lens｜上市台股分類估值研究</title>
-<link rel="stylesheet" href="styles.css?v=20261004-beginner-14"><script src="app.js?v=20261004-beginner-14" defer></script>
+<link rel="stylesheet" href="styles.css?v=20261004-beginner-15"><script src="app.js?v=20261004-beginner-15" defer></script>
 </head>
 <body>
 <div class="shell">
@@ -34,7 +34,7 @@
 <div class="glossary-item"><dt><b>營業利益／業外／歸母淨利</b></dt><dd><p><strong>分清楚本業賺的錢、本業以外的損益，以及最後屬於母公司股東的獲利。</strong></p><details><summary>看例子、公式與注意事項</summary><p>營業利益：本業扣掉營運成本費用後的成果。業外：利息、投資等本業之外的損益。歸母淨利：扣除稅與非母公司股東份額後，屬於母公司股東的最終獲利。</p></details></dd></div>
 <div class="glossary-item"><dt><b>毛利率／殖利率</b></dt><dd><p><strong>毛利率看每元收入扣直接成本後留下多少；殖利率看現金股息相對股價多少。兩個數字在說不同的事。</strong></p><details><summary>看例子、公式與注意事項</summary><p>毛利率＝營收扣直接成本後的毛利 ÷ 營收。殖利率＝每股現金股利 ÷ 股價；歷史配息不保證未來相同。</p></details></dd></div>
 </dl></article>
-<article class="surface source-card"><h2>各項指標的口徑</h2><p>匯入財報能補計最近四季 EPS、營收與 PS。PS 使用每日股價、證交所已發行普通股數與最近四季營收；PE 的官方值保留，依最近四季 EPS 計算的本益比另列。PEG、EPS 年增率及 ROE 若仍缺比較期間或平均權益，會保留空白並說明原因。</p><p>收盤價：STOCK_DAY_AVG_ALL。PE、PB、殖利率：BWIBBU_ALL。累計基本 EPS：t187ap14_L。單月營收年增率：t187ap05_L。累計毛利率：t187ap17_L。</p><p>一般業財報 t187ap06_L_ci／t187ap07_L_ci 逐期保留歷史。完整期間累積後才計算 TTM EPS、EPS 年增率、PS、ROE 與歷史 PEG。初次使用通常沒有足夠歷史，因此顯示 —。財報千元轉元後才計算 PS，ROE 使用母公司口徑的平均權益。</p><p>歷史 PEG 使用自行計算的 PE（股價 ÷ TTM EPS）除以 TTM EPS 年增率百分點。兩期 EPS 須正值，年增率須在 1%–100%；此保守門檻是研究規則。它可能與官方 PE 口徑不同，並非預估 PEG。</p></article>
+<article class="surface source-card pe-guide"><h2>科技股、傳產股的 PE 有固定正常區間嗎？</h2><p><strong>沒有適用所有科技股或傳產股的固定 PE 範圍，務必和主要業務相近的同類股票比較。</strong>例如半導體設計與成熟製程代工，水泥與食品，生意和成長情況都不同。</p><p>PE 會受預期成長、獲利能否持續、負債風險與利率影響。本站在個股明細列出同產業、同日期的官方 PE 中間值與中間一半公司的分布，資料足夠才顯示。<strong>這些是目前市場比較資料，不是保證便宜或昂貴的界線。</strong></p><p>觀念參考：<a href="https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples" target="_blank" rel="noopener noreferrer">CFA Institute 同業倍數比較</a>、<a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/invfables/peratio.htm" target="_blank" rel="noopener noreferrer">Damodaran：PE 與成長、風險的關係</a>。</p></article><article class="surface source-card"><h2>各項指標的口徑</h2><p>匯入財報能補計最近四季 EPS、營收與 PS。PS 使用每日股價、證交所已發行普通股數與最近四季營收；PE 的官方值保留，依最近四季 EPS 計算的本益比另列。PEG、EPS 年增率及 ROE 若仍缺比較期間或平均權益，會保留空白並說明原因。</p><p>收盤價：STOCK_DAY_AVG_ALL。PE、PB、殖利率：BWIBBU_ALL。累計基本 EPS：t187ap14_L。單月營收年增率：t187ap05_L。累計毛利率：t187ap17_L。</p><p>一般業財報 t187ap06_L_ci／t187ap07_L_ci 逐期保留歷史。完整期間累積後才計算 TTM EPS、EPS 年增率、PS、ROE 與歷史 PEG。初次使用通常沒有足夠歷史，因此顯示 —。財報千元轉元後才計算 PS，ROE 使用母公司口徑的平均權益。</p><p>歷史 PEG 使用自行計算的 PE（股價 ÷ TTM EPS）除以 TTM EPS 年增率百分點。兩期 EPS 須正值，年增率須在 1%–100%；此保守門檻是研究規則。它可能與官方 PE 口徑不同，並非預估 PEG。</p></article>
 <article class="surface source-card"><h2>個人自選與人工分類</h2><p>在全部股票搜尋代號或公司名稱，按星號即可加入／移除。自選清單與人工分類存在此瀏覽器的 localStorage；重新整理會保留，每次開啟仍重新下載最新雲端資料。不同裝置不會同步；共用同一瀏覽器設定檔會共用清單。</p><p>按星號加入自選股；完整數值仍可匯出為 CSV，方便另行整理。</p></article>
 <article class="surface source-card"><h2>缺值、舊資料與查核</h2><p>主要資料來源更新失敗時，保留整份有效快照，並發布失敗狀態。部分財務來源失敗時保留已有欄位，標示舊值。若排程本身停止，網站會依股價日期提示可能過期；國定假日可能觸發提醒，請核對官方開休市日曆。</p><p>TradingView 與 Investing.com 是個股明細中的人工查核入口；本站不爬取兩站資料。每個欄位的資料期間、來源、下載時間與缺值原因都可展開查看。</p><p>資料來源：臺灣證券交易所、金融監督管理委員會證券期貨局。依 <a href="https://data.gov.tw/license" target="_blank" rel="noopener noreferrer">政府資料開放授權條款第 1 版</a> 使用；本站整理及計算結果不代表資料提供機關立場。</p></article>
 </div></section>
