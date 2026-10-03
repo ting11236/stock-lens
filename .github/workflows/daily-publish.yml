@@ -44,6 +44,8 @@ jobs:
         env:
           STOCK_LENS_CSV_URL: ${{ secrets.STOCK_LENS_CSV_URL }}
         run: python update_snapshot.py
+      - name: 驗證並產生全市場公司研究索引
+        run: python build_research.py
       - name: 取得授權月營收；失敗保留歷史
         id: revenue
         continue-on-error: true
