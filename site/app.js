@@ -45,9 +45,19 @@ const RULE_SECTIONS=[
  {id:'重資產股',rows:[['< 0.7','深度折價或資產品質疑慮','先查不良資產、減損、負債與資本適足。'],['0.7–1.0','相對淨值折價','核對 ROE、資本品質與配息可持續性。'],['1.0–1.5','績優重資產常態候選','可對照 ROE 約 10%–15% 的持續性。'],['1.5–2.0','溢價過渡區','需更多 ROE 與資產優勢支撐。'],['> 2.0','高淨值溢價','檢驗持久超額 ROE 與會計淨值口徑。']],note:'金融與保險的會計淨值、資本結構及槓桿各不相同；低於 1 倍 PB 不代表資產保本。'},
  {id:'週期股',rows:[['< 0.8','景氣低估值候選','同時排除結構性衰退、減損或資金風險。'],['0.8–1.2','折價／復甦觀察','核對產品報價、供需與產能利用率。'],['1.2–1.5','復甦過渡區','原規則未給硬性結論。'],['1.5–2.5','景氣擴張定價','注意當期 PE 可能因高峰獲利而偏低。'],['2.5–3.0','高檔過渡區','留意新增產能與景氣轉折。'],['> 3.0','極高週期估值','警惕高 PB 加極低 PE 的峰值陷阱。']],note:'塑化、鋼鐵、航運、水泥、造紙、面板、礦業、油氣與部分機械均可列入研究；PB 門檻需搭配自身歷史分位。'},
  {id:'虧損企業',rows:[['< 2','低毛利：相對可比較；高毛利：異常偏低','低 PS 可能有機會，也可能是需求衰退或現金流壓力。'],['2–5','低毛利：偏高；高毛利：相對低估值候選','高毛利企業須檢查增長、留存、成本及轉盈路徑。'],['5–10','低毛利：高風險；高毛利：擴張估值區','需要成長與毛利支撐，不能只看營收。'],['10–15','過渡／偏高區','原規則未給兩類公司完整門檻。'],['> 15','兩類均屬極高 PS','對長期高成長與商業模式要求高。']],note:'這版示意分流：毛利率 ≤30% 視為低毛利；≥50% 視為高毛利；30%–50% 不硬套。新藥研發若尚未有產品營收，PS 通常不適用。'},
- {id:'穩定獲利股',rows:[['PE（原始值）','保留，不自動貼標籤','依公司自身歷史 PE、同業、成長、利率與 ROE 比較。'],['PE ≤ 0 或缺漏','不適用','虧損、盈餘異常或資料不足時，不以 PE 評估。']],note:'你目前只指定穩定獲利股使用 PE，未給專屬區間，因此刻意不新增武斷的買／賣門檻。'}
+ {id:'穩定獲利股',rows:[['PE（原始值）','保留，不自動貼標籤','依公司自身歷史 PE、同業、成長、利率與 ROE 比較。'],['PE ≤ 0 或缺漏','不適用','虧損、盈餘異常或資料不足時，不以 PE 評估。']],note:'穩定獲利公司的合理 PE 受成長、風險與利率影響，這裡不設定通用的買進或賣出倍數。'}
 ];
-function renderRules(){$('rulesGrid').innerHTML=RULE_SECTIONS.map(section=>{const cat=CATS.find(c=>c.id===section.id);return `<article class="rule-card"><div class="eyebrow">${esc(cat.abbr)} · 專屬規則</div><h3>${esc(section.id)}</h3><p>${esc(cat.why)}</p><table><thead><tr><th>區間</th><th>情境意涵</th><th>查看重點</th></tr></thead><tbody>${section.rows.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join('')}</tbody></table><div class="rule-hint">${esc(section.note)}</div></article>`}).join('')}
+const VALUATION_GUIDE={
+ '週期股':{metric:'PB 股價淨值比（參考起點）',why:'收入與獲利會隨景氣大幅波動，先把股價與帳面淨值比較，再看景氣位置。',also:'產品報價、供需、產能利用率、資產減損，以及正常景氣時能賺多少錢。',note:'PB 也不是所有週期公司的最佳方法；可以搭配正常景氣獲利計算的 PE。景氣高峰時公司賺特別多，PE 可能很低，這時仍可能有景氣回落風險。'},
+ '重資產股':{metric:'PB 股價淨值比＋ROE 股東權益報酬率',why:'本站這類主要是金融公司。除了看股價相對淨值多少倍，也要看公司能用股東資金賺多少錢。',also:'呆帳與資產品質、資本是否充足、槓桿與獲利持續性。',note:'製造業、電廠等其他重資產公司不一定優先用 PB；也要看負債與現金流。低於帳面淨值時，先確認帳面資產是否仍有價值。'},
+ '虧損企業':{metric:'PS 股價營收比（有實際營收時）',why:'公司尚未有正的盈餘，PE 通常無法合理比較；可先看市場用多少市值評價每 1 元營收。',also:'毛利率、營收成長、每月燒多少現金、手上現金能撐多久，以及何時可能轉盈。',note:'沒有產品營收的研發型生技公司，PS 也可能算不出或沒有意義；要看研發進度與現金。不同利潤率的公司不能只比較 PS 倍數。'},
+ '高成長股':{metric:'PEG 本益成長比（盈餘成長資料可靠時）',why:'一起比較本益比與每股盈餘的成長速度，幫助理解成長預期與股價的關係。',also:'成長來自什麼、是否能持續、估計是否可靠、ROE 與現金流。',note:'成長要用 EPS，不能把營收成長直接放進 PEG。本站分類先用單月營收篩選，但 PEG 使用歷史 TTM EPS 成長；兩者是不同步驟。PEG 低於 1 也不能直接判斷便宜。'},
+ '穩定獲利股':{metric:'PE 本益比（獲利正常且可持續時）',why:'以股價相對每股盈餘多少倍，與公司的歷史及相似同業比較。',also:'本業是否持續賺錢、現金流、ROE、負債，以及一次性的投資收益或賣資產利益。',note:'同樣 PE 倍數，成長與風險不同，評價也可能不同。先確認多年獲利品質，不能只因今年 EPS 是正數就認定穩定。'}
+};
+function renderRules(){
+ $('rulesGrid').innerHTML=RULE_SECTIONS.map(section=>{const cat=CATS.find(c=>c.id===section.id),guide=VALUATION_GUIDE[section.id];return `<article class="rule-card"><h3>${esc(section.id)}</h3><div class="priority-metric"><span>★ 這類公司先看什麼？</span><strong>${esc(guide.metric)}</strong></div><p>${esc(guide.why)}</p><p><b>還要一起看：</b>${esc(guide.also)}</p><div class="rule-hint"><b>判讀重點：</b>${esc(guide.note)}</div><details><summary>本站如何自動分到這一類？</summary><p>${esc(cat.why)}</p></details><details><summary>倍數區間：學習參考，需搭配歷史與同業</summary><table><thead><tr><th>區間</th><th>參考情境</th><th>查看重點</th></tr></thead><tbody>${section.rows.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join('')}</tbody></table><div class="rule-hint">${esc(section.note)}</div></details></article>`}).join('');
+}
+
 function csvParse(text){text=String(text).replace(/^\ufeff/,'');let rows=[],row=[],val='',quoted=false;for(let i=0;i<text.length;i++){let c=text[i];if(c==='"'){if(quoted&&text[i+1]==='"'){val+='"';i++}else quoted=!quoted}else if(c===','&&!quoted){row.push(val);val=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&text[i+1]==='\n')i++;row.push(val);if(row.some(x=>x.trim()!==''))rows.push(row);row=[];val=''}else val+=c}if(quoted)throw Error('CSV 引號未封閉');row.push(val);if(row.some(x=>x.trim()!==''))rows.push(row);return rows}
 
 // Market snapshots and browser-owned preferences are deliberately stored separately.
@@ -62,7 +72,7 @@ function readPreferences(storage){
  }catch{return {watchlist:[],overrides:{}}}
 }
 const preferences=(()=>{try{return readPreferences(window.localStorage)}catch{return {watchlist:[],overrides:{}}}})();
-const state={stocks:[],watchlist:[...new Set(preferences.watchlist.filter(s=>/^\d{4}\.TW$/.test(s)))],overrides:preferences.overrides||{},tab:'all',filter:'全部',search:'',keywordSearch:'',sort:'symbol',selected:null,page:1,size:50,busy:false,payload:null,status:null,priceMin:null,priceMax:null,metricMin:null,metricMax:null,researchFilter:'all'};
+const state={stocks:[],watchlist:[...new Set(preferences.watchlist.filter(s=>/^\d{4}\.TW$/.test(s)))],overrides:preferences.overrides||{},tab:'all',filter:'全部',search:'',sort:'symbol',selected:null,page:1,size:50,busy:false,payload:null,status:null,priceMin:null,priceMax:null,metricMin:null,metricMax:null,researchFilter:'all'};
 function persist(){try{localStorage.setItem(KEY,JSON.stringify({watchlist:state.watchlist,overrides:state.overrides}));return true}catch{showNotice('瀏覽器無法儲存設定。此次修改仍可使用；請匯出 CSV 備份。','error');return false}}
 const METRIC_NAMES={pe:'PE 本益比',pb:'PB 股價淨值比',ps:'PS 股價營收比',peg:'PEG 本益成長比'};
 function metricName(abbr){return METRIC_NAMES[String(abbr).toLowerCase()]||abbr}
@@ -93,7 +103,7 @@ function researchSearchEntries(profile){
  searchCache.set(profile,entries);return entries;
 }
 function hasSearchTerm(text,term){return /^[a-z][a-z0-9 ]*$/.test(term)?new RegExp('(^|[^a-z0-9])'+term+'($|[^a-z0-9])').test(text):text.includes(term)}
-function activeSearch(){return [state.search,state.keywordSearch].filter(Boolean).join(' ')}
+function activeSearch(){return state.search}
 function keywordMatches(symbol,query=activeSearch()){
  const groups=queryGroups(query);if(!groups.length)return [];
  return researchSearchEntries(research.profiles[symbol]).filter(e=>groups.some(g=>g.some(term=>hasSearchTerm(e.normalized,term))));
@@ -264,9 +274,9 @@ const NUM_FIELDS=['price','pe','pb','ps','peg','eps','trailing_eps','revenue_gro
 let clearedWatchlist=null;
 function init(){
  CATS.forEach(c=>$('categoryFilter').insertAdjacentHTML('beforeend',`<option>${esc(c.id)}</option>`));$('categoryFilter').insertAdjacentHTML('beforeend','<option>待分類</option>');
- document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));$('search').oninput=e=>{state.search=e.target.value.trim().toLowerCase();state.page=1;render()};$('keywordSearch').oninput=e=>{state.keywordSearch=e.target.value.trim().toLowerCase();state.page=1;render()};$('categoryFilter').onchange=e=>{state.filter=e.target.value;state.page=1;render()};const applySort=()=>{state.sort=$('sort').value+$('sortDirection').value;state.page=1;render()};$('sort').onchange=applySort;$('sortDirection').onchange=applySort;
+ document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));$('search').oninput=e=>{state.search=e.target.value.trim().toLowerCase();state.page=1;render()};$('categoryFilter').onchange=e=>{state.filter=e.target.value;state.page=1;render()};const applySort=()=>{state.sort=$('sort').value+$('sortDirection').value;state.page=1;render()};$('sort').onchange=applySort;$('sortDirection').onchange=applySort;
  for(const k of ['priceMin','priceMax','metricMin','metricMax'])$(k).oninput=e=>{state[k]=finite(e.target.value);state.page=1;render()};
- $('clearFilters').onclick=()=>{state.search='';state.keywordSearch='';$('keywordSearch').value='';state.filter='全部';state.researchFilter='all';$('researchFilter').value='all';$('search').value='';$('categoryFilter').value='全部';for(const k of ['priceMin','priceMax','metricMin','metricMax']){state[k]=null;$(k).value=''}state.page=1;render()};
+ $('clearFilters').onclick=()=>{state.search='';state.filter='全部';state.researchFilter='all';$('researchFilter').value='all';$('search').value='';$('categoryFilter').value='全部';for(const k of ['priceMin','priceMax','metricMin','metricMax']){state[k]=null;$(k).value=''}state.page=1;render()};
  $('clearWatchBtn').onclick=()=>{if(!state.watchlist.length)return;clearedWatchlist=[...state.watchlist];state.watchlist=[];persist();$('undoWatchBtn').hidden=false;setTab('watchlist');showNotice('自選股已清空。可按「復原清空」恢復；重新整理前有效。','ok')};
  $('undoWatchBtn').onclick=()=>{if(!clearedWatchlist)return;state.watchlist=[...new Set([...clearedWatchlist,...state.watchlist])];clearedWatchlist=null;persist();$('undoWatchBtn').hidden=true;render()};
  $('prevPage').onclick=()=>{state.page--;render()};$('nextPage').onclick=()=>{state.page++;render()};$('fetchBtn').onclick=()=>{fetchLive();fetchResearch()};$('exportBtn').onclick=exportWatchlist;

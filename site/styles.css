@@ -12,3 +12,5 @@
 
 .keyword-search-panel{padding:14px 16px;margin:12px 0;background:#edf5f2;border:1px solid #dce8e2;border-radius:12px}.keyword-search-panel label{display:block;margin-bottom:8px}.keyword-search-panel input{display:block;width:100%;min-width:0}.keyword-search-panel p{margin:8px 0 0;line-height:1.8}
 @media(max-width:760px){.metric-card[data-category="高成長股"] .tiny,.metric-card[data-category="穩定獲利股"] .tiny{display:block;font-size:10px;line-height:1.5;margin-top:6px}}@media(max-width:460px){.metric-card:last-child{display:block;grid-column:span 2}.metric-card:last-child>strong{display:block}}
+
+.priority-metric{padding:14px 16px;margin:12px 0;background:#e5f2ed;border-left:5px solid #126957;border-radius:8px}.priority-metric span{display:block;font-weight:700;color:#126957}.priority-metric strong{display:block;font-size:20px;margin-top:7px;color:#193b58}.rule-card details{margin-top:16px}.keyword-search-panel strong{color:#20334a;font-weight:800}
