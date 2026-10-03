@@ -22,6 +22,18 @@
 <section id="rules" hidden><div class="notice warn">這些區間沿用使用者自訂研究規則。空白區間明確標記為過渡區；穩定獲利股沒有通用 PE 門檻。所有提示皆非確定買賣訊號。</div><div id="rulesGrid" class="rules-grid"></div></section>
 <section id="sources" hidden><div class="source-layout">
 <article class="surface source-card"><h2>官方資料與交易日期</h2><p>每日台灣時間 18:20 由 GitHub Actions 下載臺灣證券交易所開放資料，依上市公司名冊合併。範圍為上市公司四碼普通股（含創新板與外國第一上市公司）；不含上櫃、ETF、權證、特別股及 TDR。</p><p>股價、PE／PB 的 Date 是各自的資料日期；下載時間另行記錄。財務資料使用財報年季或營收年月。官方只公布更新頻率，沒有保證每日固定完成時刻；排程也可能延後。</p><a href="https://openapi.twse.com.tw/" target="_blank" rel="noopener noreferrer">TWSE 官方 OpenAPI ↗</a><p><a href="data/stocks.csv" class="button" download>下載全部股票 CSV</a></p></article>
+<article class="surface source-card"><h2>股票名詞，白話怎麼看？</h2><p>先看數字在說什麼，再看它的期間。同一家公司不同網站的口徑可能不同。</p><dl>
+<dt><b>TTM｜最近 12 個月</b></dt><dd>Trailing Twelve Months。最新四季加總，並非預測未來一年。可以計算營收、淨利或 EPS，不能只寫 TTM 而不說是哪一項。</dd>
+<dt><b>TTM Sales｜最近四季營收</b></dt><dd>公司最近 12 個月做了多少生意。有時簡寫 TTMS；本站寫全名，避免和盈餘混淆。營收不等於獲利。</dd>
+<dt><b>EPS｜每股盈餘</b></dt><dd>把屬於普通股股東的獲利換成每股金額，使用加權平均股數。TTM EPS 是最近 12 個月每股盈餘；累計 EPS 則從年初算到指定季度，不能互換。</dd>
+<dt><b>PE｜本益比</b></dt><dd>股價 ÷ 每股盈餘。例如股價 100 元、全年 EPS 5 元，PE 是 20 倍。可理解為每 1 元年度盈餘，市場給多少股價；不代表保證 20 年回本。虧損時通常不適用。本站官方 PE 與自行推算 TTM EPS 可能採不同口徑。</dd>
+<dt><b>PEG｜本益比相對成長率</b></dt><dd>PE ÷ EPS 年增率的百分點。例如 PE 20 倍、成長 20%，PEG 是 1。本站使用歷史 TTM EPS 成長，並非未來預測；成長為零、負值或基期太小時不宜硬算。</dd>
+<dt><b>PS｜股價營收比</b></dt><dd>公司總市值 ÷ 最近 12 個月營收。PS 2 倍表示市場用 2 元市值評價 1 元年度營收；不代表公司賺 1 元。看 PS 要一起看利潤率。</dd>
+<dt><b>PB｜股價淨值比</b></dt><dd>股價 ÷ 每股淨值。PB 0.8 倍表示股價約為帳面淨值的八折；資產能否保有價值，仍影響判讀。</dd>
+<dt><b>ROE｜股東權益報酬率</b></dt><dd>屬於母公司股東的淨利 ÷ 平均股東權益 × 100%。ROE 10% 可理解為每 100 元股東帳面資金，一年產生約 10 元獲利。本站用最近四季淨利和期初、期末平均權益；高負債也可能推高比率。</dd>
+<dt><b>營業利益／業外／歸母淨利</b></dt><dd>營業利益：本業扣掉營運成本費用後的成果。業外：利息、投資等本業之外的損益。歸母淨利：扣除稅與非母公司股東份額後，屬於母公司股東的最終獲利。</dd>
+<dt><b>毛利率／殖利率</b></dt><dd>毛利率＝營收扣直接成本後的毛利 ÷ 營收。殖利率＝每股現金股利 ÷ 股價；歷史配息不保證未來相同。</dd>
+</dl></article>
 <article class="surface source-card"><h2>各項指標的口徑</h2><p>收盤價：STOCK_DAY_AVG_ALL。PE、PB、殖利率：BWIBBU_ALL。累計基本 EPS：t187ap14_L。單月營收年增率：t187ap05_L。累計毛利率：t187ap17_L。</p><p>一般業財報 t187ap06_L_ci／t187ap07_L_ci 逐期保留歷史。完整期間累積後才計算 TTM EPS、EPS 年增率、PS、ROE 與歷史 PEG。初次使用通常沒有足夠歷史，因此顯示 —。財報千元轉元後才計算 PS，ROE 使用母公司口徑的平均權益。</p><p>歷史 PEG 使用自行計算的 PE（股價 ÷ TTM EPS）除以 TTM EPS 年增率百分點。兩期 EPS 須正值，年增率須在 1%–100%；此保守門檻是研究規則。它可能與官方 PE 口徑不同，並非預估 PEG。</p></article>
 <article class="surface source-card"><h2>個人自選與人工分類</h2><p>在全部股票搜尋代號或公司名稱，按星號即可加入／移除。自選清單與人工分類存在此瀏覽器的 localStorage；重新整理會保留，每次開啟仍重新下載最新雲端資料。不同裝置不會同步；共用同一瀏覽器設定檔會共用清單。</p><p>CSV 至少需要 symbol 欄位，例如 2330 或 2330.TW；category 可選填。匯入會合併自選清單，保留人工分類，但不會用匯入股價覆蓋官方資料。完整數值可從自選或全部股票 CSV 匯出。</p><a href="sample_data.csv" download>下載自選股 CSV 格式範例</a></article>
 <article class="surface source-card"><h2>缺值、舊資料與查核</h2><p>主要資料來源更新失敗時，保留整份有效快照，並發布失敗狀態。部分財務來源失敗時保留已有欄位，標示舊值。若排程本身停止，網站會依股價日期提示可能過期；國定假日可能觸發提醒，請核對官方開休市日曆。</p><p>TradingView 與 Investing.com 是個股明細中的人工查核入口；本站不爬取兩站資料。每個欄位的資料期間、來源、下載時間與缺值原因都可展開查看。</p><p>資料來源：臺灣證券交易所、金融監督管理委員會證券期貨局。依 <a href="https://data.gov.tw/license" target="_blank" rel="noopener noreferrer">政府資料開放授權條款第 1 版</a> 使用；本站整理及計算結果不代表資料提供機關立場。</p></article>

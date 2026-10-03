@@ -4,6 +4,8 @@ This validates editorial research; it does not manufacture summaries from prices
 Invalid input leaves the last published file untouched.
 """
 import gzip
+import copy
+from financial_ttm import rolling_financials
 import argparse
 import json
 import re
@@ -101,6 +103,10 @@ def build(stocks, records, today=None, overview=None):
             'sources': {}, 'limitations': ['公司名稱變更，需重新核對身分。' if name_changed else '尚未完成逐家公司查核；不以產業通用描述推測業務或轉型。']})
         imported = overview['profiles'].get(symbol) if overview else None
         if imported and imported['name'] == stock['name']:
+            imported = copy.deepcopy(imported)
+            financial = imported.get('financial', {})
+            if 'cumulative' in financial:
+                financial['rolling'] = rolling_financials(financial['cumulative'])
             profiles[symbol]['overview'] = imported
             if not record:
                 profiles[symbol]['status'] = 'overview'

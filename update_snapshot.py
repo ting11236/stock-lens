@@ -161,14 +161,8 @@ def classify(s):
 
 def ttm(history, code, period, field):
     """Cumulative Jan–quarter values: prior FY + current YTD - prior YTD."""
-    y, q = period.split('-Q'); y = int(y)
-    records = history.get(code, {})
-    current = records.get(period, {}).get(field)
-    if q == '4':
-        return current
-    annual = records.get(f'{y-1}-Q4', {}).get(field)
-    prior = records.get(f'{y-1}-Q{q}', {}).get(field)
-    return annual + current - prior if all(v is not None for v in (annual,current,prior)) else None
+    from financial_ttm import trailing_value
+    return trailing_value(history.get(code, {}), period, field)
 
 
 def historical_peg(price, eps, prior_eps):
