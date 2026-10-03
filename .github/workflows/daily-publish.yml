@@ -43,6 +43,8 @@ jobs:
         env:
           STOCK_LENS_CSV_URL: ${{ secrets.STOCK_LENS_CSV_URL }}
         run: python update_snapshot.py
+      - name: 驗證並產生全市場公司研究索引
+        run: python build_research.py
       - name: 保留有變更的快照、CSV 與更新狀態
         run: |
           if ! git diff --quiet -- site/data || test -n "$(git ls-files --others --exclude-standard site/data)"; then

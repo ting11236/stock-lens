@@ -3,3 +3,5 @@
 .toolbar{align-items:end;flex-wrap:wrap}.sort-control{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--sub)}.sort-control .select{min-width:145px}@media(max-width:760px){.sort-control{flex:1;min-width:140px}.sort-control .select{width:100%}}
 
 .chart-entry{margin:0 0 20px}.chart-entry .button{width:100%}.chart-entry p{margin:7px 0}
+
+.company-research{margin:20px 0;padding:16px;background:#f5f9f7;border:1px solid #d5e6dd;border-radius:10px;overflow-wrap:anywhere}.company-research h3{margin:0;font-size:17px}.company-research details{border-top:1px solid #d5e6dd;padding:7px 0}.company-research summary{font-weight:650;font-size:13px}.company-research p,.company-research li{font-size:12px;line-height:1.9}.company-research ul{padding-left:18px}.research-refs{display:flex;flex-direction:column;gap:6px;font-size:11px;margin-top:8px}.research-date{color:var(--green)}.research-toolbar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:10px 0 16px}.research-toolbar label{font-size:12px}.research-toolbar .select{margin-left:8px}
