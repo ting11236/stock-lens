@@ -26,6 +26,8 @@ jobs:
         run: python update_snapshot.py
       - name: 驗證並產生全市場公司研究索引
         run: python build_research.py
+      - name: 授權營收來源整合驗證
+        run: python update_revenue.py
       - name: 保存待審核網站預覽（不部署）
         if: always()
         uses: actions/upload-artifact@v4

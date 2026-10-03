@@ -78,3 +78,9 @@ PR／`codex/**` 分支執行 `Stock Lens checks`：單元測試加真實 TWSE �
 研究資料由 Codex 每週查核並透過待審 PR 更新，合併後才發布；GitHub Actions 僅驗證與產生全市場索引，不自行生成網路研究。完整維護、來源及排程限制見 [公司研究維護規則](docs/company-research.md)。
 
 本機驗證：`python build_research.py`（先備妥 stocks.json）與 `python build_research.py --validate-only`。原始研究在 `research/companies.json`；網站檔案為 `site/data/company-research.json`。
+
+## 月營收歷史原型（尚未完成全市場 TTM 回補）
+
+詳細頁新增月營收與 TTM 區段，保留原始千元值、TWD 元值、營收月、來源欄位、可點官方來源、出表日、下載時間及缺值／未知口徑。提供全市場 `revenue.csv`、逐月 `revenue-history.json` 與前端 `revenue.json`；每天的既有 Actions 另執行 `python update_revenue.py`，失敗保留舊資料。
+
+2026-10-02 實際取得 1,085／1,089 家、3,255 筆、2025-08／2026-07／2026-08 三個月。**目前 0 家具備可安全計算的 TTM**：授權開放 API 沒有完整歷史且未標示逐列合併／個體；不可把三個月、累計收入或有缺月的 12 筆當成 TTM。完整歷史仍待合適官方授權來源，詳見 [月營收来源、限制與整合說明](docs/monthly-revenue.md)。
