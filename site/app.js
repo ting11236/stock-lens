@@ -156,9 +156,6 @@ function visibleStocks(){
 function star(s){const watched=state.watchlist.includes(s.symbol);return `<button class="star ${watched?'on':''}" data-star="${esc(s.symbol)}" aria-label="${watched?'移除':'加入'}自選股 ${esc(s.symbol)}" aria-pressed="${watched}">${watched?'★':'☆'}</button>`}
 function wireStars(root){root.querySelectorAll('[data-star]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleWatch(b.dataset.star)})}
 function render(){
- const done=state.stocks.filter(s=>research.profiles[s.symbol]?.status==='researched').length;
- const overview=state.stocks.filter(s=>research.profiles[s.symbol]?.overview).length;
- $('researchCoverage').textContent=research.loading?'公司研究載入中…':research.error?'公司研究載入失敗；稍後按更新重試。':`公司概況 ${overview}／${state.stocks.length} 家 · 官方來源查核摘要 ${done} 家`;
  $('watchCount').textContent=state.watchlist.length;$('marketCount').textContent=state.stocks.length.toLocaleString('zh-TW');
  $('categoryCards').innerHTML=CATS.map(c=>`<button class="metric-card ${state.filter===c.id?'active':''}" data-category="${esc(c.id)}"><span class="cap">${esc(c.id)}</span><span class="category-first-metric"><b>先看 ${esc(c.abbr)}</b><small>（${esc(metricName(c.abbr).replace(c.abbr+' ',''))}）</small></span><strong>${state.stocks.map(materialize).filter(s=>s.category===c.id).length}</strong><span class="tiny">${esc(c.sub)}</span></button>`).join('');
  document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{state.filter=state.filter===b.dataset.category?'全部':b.dataset.category;$('categoryFilter').value=state.filter;state.page=1;render()});
@@ -312,12 +309,11 @@ function init(){
  CATS.forEach(c=>$('categoryFilter').insertAdjacentHTML('beforeend',`<option>${esc(c.id)}</option>`));$('categoryFilter').insertAdjacentHTML('beforeend','<option>待分類</option>');
  document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));$('search').oninput=e=>{state.search=e.target.value.trim().toLowerCase();state.page=1;render()};$('categoryFilter').onchange=e=>{state.filter=e.target.value;state.page=1;render()};const applySort=()=>{state.sort=$('sort').value+$('sortDirection').value;state.page=1;render()};$('sort').onchange=applySort;$('sortDirection').onchange=applySort;
  for(const k of ['priceMin','priceMax','metricMin','metricMax'])$(k).oninput=e=>{state[k]=finite(e.target.value);state.page=1;render()};
- $('clearFilters').onclick=()=>{state.search='';state.filter='全部';state.researchFilter='all';$('researchFilter').value='all';$('search').value='';$('categoryFilter').value='全部';for(const k of ['priceMin','priceMax','metricMin','metricMax']){state[k]=null;$(k).value=''}state.page=1;render()};
+ $('clearFilters').onclick=()=>{state.search='';state.filter='全部';state.researchFilter='all';$('search').value='';$('categoryFilter').value='全部';for(const k of ['priceMin','priceMax','metricMin','metricMax']){state[k]=null;$(k).value=''}state.page=1;render()};
  $('clearWatchBtn').onclick=()=>{if(!state.watchlist.length)return;clearedWatchlist=[...state.watchlist];state.watchlist=[];persist();$('undoWatchBtn').hidden=false;setTab('watchlist');showNotice('自選股已清空。可按「復原清空」恢復；重新整理前有效。','ok')};
  $('undoWatchBtn').onclick=()=>{if(!clearedWatchlist)return;state.watchlist=[...new Set([...clearedWatchlist,...state.watchlist])];clearedWatchlist=null;persist();$('undoWatchBtn').hidden=true;render()};
  $('prevPage').onclick=()=>{state.page--;render()};$('nextPage').onclick=()=>{state.page++;render()};$('fetchBtn').onclick=()=>{fetchLive();fetchResearch()};$('exportBtn').onclick=exportWatchlist;
  window.addEventListener('storage',e=>{if(e.key===KEY){const p=readPreferences(localStorage);state.watchlist=p.watchlist;state.overrides=p.overrides;render()}});
- $('researchFilter').onchange=e=>{state.researchFilter=e.target.value;state.page=1;render()};
  render();fetchLive();fetchResearch();
 }
 init();
