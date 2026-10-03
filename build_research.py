@@ -3,6 +3,7 @@
 This validates editorial research; it does not manufacture summaries from prices.
 Invalid input leaves the last published file untouched.
 """
+import gzip
 import argparse
 import json
 import re
@@ -63,8 +64,29 @@ def validate(records, today=None):
     return records
 
 
-def build(stocks, records, today=None):
+def validate_overview(data):
+    if not isinstance(data, dict) or data.get('schema_version') != 1 or not isinstance(data.get('profiles'), dict):
+        raise ValueError('匯入概況格式錯誤')
+    for symbol, item in data['profiles'].items():
+        if not re.fullmatch(r'\d{4,6}\.TW', symbol) or not isinstance(item, dict):
+            raise ValueError('匯入公司代號錯誤')
+        for key in ('name', 'business', 'direction', 'summary', 'status', 'source_reviewed_at'):
+            if not isinstance(item.get(key), str) or not item[key].strip():
+                raise ValueError(symbol + ' 匯入概況缺少 ' + key)
+        for key in ('urls', 'events', 'outlooks'):
+            if not isinstance(item.get(key), list):
+                raise ValueError(symbol + ' 匯入列表錯誤')
+        for url in item['urls'] + [u for key in ('events', 'outlooks') for row in item[key] for u in row.get('urls', [])]:
+            parsed = urlsplit(url)
+            if parsed.scheme != 'https' or not parsed.hostname or parsed.username or parsed.password:
+                raise ValueError(symbol + ' 匯入來源網址不安全')
+    return data
+
+
+def build(stocks, records, today=None, overview=None):
     validate(records, today)
+    if overview is not None:
+        validate_overview(overview)
     profiles = {}
     for stock in stocks:
         symbol = stock['symbol']
@@ -77,10 +99,20 @@ def build(stocks, records, today=None):
         profiles[symbol] = ({**record, 'status': 'researched'} if record else {
             'name': stock['name'], 'status': 'pending', 'reviewed_at': None,
             'sources': {}, 'limitations': ['公司名稱變更，需重新核對身分。' if name_changed else '尚未完成逐家公司查核；不以產業通用描述推測業務或轉型。']})
+        imported = overview['profiles'].get(symbol) if overview else None
+        if imported and imported['name'] == stock['name']:
+            profiles[symbol]['overview'] = imported
+            if not record:
+                profiles[symbol]['status'] = 'overview'
     researched = sum(p['status'] == 'researched' for p in profiles.values())
-    return {'schema_version': 1, 'coverage': {'total': len(profiles),
+    result = {'schema_version': 1, 'coverage': {'total': len(profiles),
             'researched': researched, 'pending': len(profiles)-researched},
             'profiles': profiles}
+    if overview is not None:
+        result['overview_source'] = overview['source']
+        result['coverage']['overview'] = sum('overview' in p for p in profiles.values())
+        result['coverage']['missing_overview'] = len(profiles) - result['coverage']['overview']
+    return result
 
 
 def run(root=ROOT):
@@ -88,7 +120,9 @@ def run(root=ROOT):
     if not stocks:
         raise ValueError('市場名冊為空，保留上一份研究索引')
     records = json.loads((root/'research/companies.json').read_text())
-    payload = build(stocks, records)
+    path = root/'research/imported-overview.json.gz'
+    overview = json.loads(gzip.decompress(path.read_bytes())) if path.exists() else None
+    payload = build(stocks, records, overview=overview)
     write_changed(root/'site/data/company-research.json', dump(payload))
     print(json.dumps(payload['coverage'], ensure_ascii=False))
 

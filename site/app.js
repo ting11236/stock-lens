@@ -69,7 +69,7 @@ function toggleWatch(symbol){state.watchlist=state.watchlist.includes(symbol)?st
 function setTab(tab){state.tab=tab;state.page=1;document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('selected',b.dataset.tab===tab);b.setAttribute('aria-selected',String(b.dataset.tab===tab))});$('dashboard').hidden=!['all','watchlist'].includes(tab);$('rules').hidden=tab!=='rules';$('sources').hidden=tab!=='sources';if(tab==='rules')renderRules();render()}
 function visibleStocks(){
  let arr=state.stocks.map(materialize).filter(s=>(state.tab!=='watchlist'||state.watchlist.includes(s.symbol))&&(state.filter==='全部'||state.filter===s.category)&&(!state.search||[s.symbol,s.name,s.industry,s.category].some(v=>String(v||'').toLowerCase().includes(state.search))));
- arr=arr.filter(s=>state.researchFilter==='all'||(state.researchFilter==='researched')===(research.profiles[s.symbol]?.status==='researched'));
+ arr=arr.filter(s=>{const p=research.profiles[s.symbol];return state.researchFilter==='all'||(state.researchFilter==='researched'?p?.status==='researched':state.researchFilter==='overview'?!!p?.overview:p?.status!=='researched')});
  const within=(v,min,max)=>(min===null&&max===null)||(v!==null&&(min===null||v>=min)&&(max===null||v<=max));
  arr=arr.filter(s=>within(finite(s.price),state.priceMin,state.priceMax)&&within(primary(s),state.metricMin,state.metricMax));
  const field=state.sort.replace(/(Asc|Desc)$/,''),direction=state.sort.endsWith('Desc')?-1:1;
@@ -85,7 +85,8 @@ function star(s){const watched=state.watchlist.includes(s.symbol);return `<butto
 function wireStars(root){root.querySelectorAll('[data-star]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleWatch(b.dataset.star)})}
 function render(){
  const done=state.stocks.filter(s=>research.profiles[s.symbol]?.status==='researched').length;
- $('researchCoverage').textContent=research.loading?'公司研究載入中…':research.error?'公司研究載入失敗；稍後按更新重試。':`公司研究：已建立 ${done}／${state.stocks.length} 家摘要，其餘待查核。`;
+ const overview=state.stocks.filter(s=>research.profiles[s.symbol]?.overview).length;
+ $('researchCoverage').textContent=research.loading?'公司研究載入中…':research.error?'公司研究載入失敗；稍後按更新重試。':`公司概況 ${overview}／${state.stocks.length} 家 · 官方來源查核摘要 ${done} 家`;
  $('watchCount').textContent=state.watchlist.length;$('marketCount').textContent=state.stocks.length.toLocaleString('zh-TW');
  $('categoryCards').innerHTML=CATS.map(c=>`<button class="metric-card ${state.filter===c.id?'active':''}" data-category="${esc(c.id)}"><span class="cap">${esc(c.id)} <b>${c.abbr}</b></span><strong>${state.stocks.map(materialize).filter(s=>s.category===c.id).length}</strong><span class="tiny">${esc(c.sub)}</span></button>`).join('');
  document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{state.filter=state.filter===b.dataset.category?'全部':b.dataset.category;$('categoryFilter').value=state.filter;state.page=1;render()});
@@ -104,16 +105,26 @@ const RESEARCH_SECTIONS=[['business','公司業務'],['earnings','近年營收�
 let research={profiles:{},loading:true,error:false};
 function safeResearchUrl(value){try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:null}catch{return null}}
 function researchAge(record,now=new Date()){return record?.reviewed_at?Math.floor((now-new Date(record.reviewed_at+'T00:00:00+08:00'))/86400000):null}
+function overviewHtml(o){
+ if(!o)return '';
+ const refs=urls=>urls.map(url=>safeResearchUrl(url)?'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeResearchUrl(url))+'">原始來源 ↗</a>':'').join(' · ');
+ const amounts=o.financial||{};
+ const table='<details><summary>年度與季度財務（億元）</summary><table><tbody>'+[['fy2024','2024 全年'],['fy2025','2025 全年'],['q32025','2025 Q3'],['q42025','2025 Q4'],['q12026','2026 Q1'],['q22026','2026 Q2'],['ttm','四季合計']].map(([k,label])=>'<tr><th>'+label+'</th><td>'+fnum(amounts[k])+'</td></tr>').join('')+'</tbody></table><p class="tiny">'+esc(amounts.basis||'口徑未提供')+'；累計數相減取得單季，四季合計依原公告口徑。</p></details>';
+ const forecasts=o.outlooks.map(x=>'<p><b>'+esc(x.type)+' · '+esc(x.period)+'</b><br>'+esc(x.scope)+' · '+esc(x.unit)+(Number.isFinite(x.low)?' '+esc(x.low)+(Number.isFinite(x.high)?'–'+esc(x.high):''):'')+'<br>'+esc(x.limitations||'')+'<br>發布：'+esc(x.published_at||'未提供')+'<br>'+refs(x.urls)+'</p>').join('');
+ const events=o.events.map(x=>'<p><b>'+esc(x.type)+' · '+esc(x.period)+'</b><br>'+esc(x.status)+'<br>'+esc(x.text)+'<br>'+refs(x.urls)+'</p>').join('');
+ return '<div class="imported-overview"><h4>全市場概況與摘要</h4><p class="tiny">使用者提供：臺灣上市公司營運研究_20261003.xlsx · 檔案查核日 '+esc(o.source_reviewed_at)+' · 匯入日 '+esc(o.imported_at)+'。本次未重新逐一查閱原始網站。</p><p><b>業務</b>：'+esc(o.business)+'</p><p><b>營收與獲利摘要</b>：'+esc(o.summary)+'</p><p><b>發展方向</b>：'+esc(o.direction)+'</p><p class="tiny">'+esc(o.status)+'<br>財務篩選：'+esc(o.financial?.screening||o.screening)+'</p><div class="research-refs">'+refs(o.urls)+'</div>'+table+'<details><summary>財測與展望（與實際數字分開）</summary>'+forecasts+'</details><details><summary>事件與待核對事項</summary>'+(events||'<p class="tiny">本檔未列事件；不代表沒有重大事件。</p>')+'</details><p class="tiny">金額為新台幣億元；缺值不是零。四季合計未逐家調整 IFRS17 或併表差異，預估未確認所有後續修正。</p></div>';
+}
 function researchHtml(stock){
  const p=research.profiles[stock.symbol],age=researchAge(p),ready=p?.status==='researched';
- const message=research.error?'研究資料載入失敗；已有內容可能為舊版本。':research.loading?'正在載入公司研究資料…':ready?'已建立摘要；仍有研究限制，請核對各段資料期間。':'待查核：這家公司尚未完成來源整理，不代表沒有轉型或新項目。';
+ const message=research.error?'研究資料載入失敗；已有內容可能為舊版本。':research.loading?'正在載入公司研究資料…':ready?'已有官方來源查核摘要，另附匯入概況；請核對各段資料期間。':p?.overview?'已匯入概況；官方來源與新項目細節仍待逐家查核。':'待查核：這家公司尚未完成來源整理，不代表沒有轉型或新項目。';
  const paragraph=(section)=>{if(!section)return '<p class="tiny">— 尚未取得足夠來源。</p>';return '<p>'+esc(section.text)+'</p><small>資料期間：'+esc(section.period)+'</small><div class="research-refs">'+section.sources.map(id=>{const ref=p.sources[id],url=safeResearchUrl(ref?.url);return url?'<a target="_blank" rel="noopener noreferrer" href="'+esc(url)+'">'+esc(ref.title)+' ↗</a>':''}).join('')+'</div>'};
- return '<section class="company-research" aria-label="公司研究摘要"><h3>公司研究摘要</h3><p class="tiny">'+esc(message)+'</p>'+(ready?'<p class="research-date">最後查核：'+esc(p.reviewed_at)+(age>=14?' · ⚠ 超過 14 天未查核':'')+'</p>':'')+RESEARCH_SECTIONS.map(([key,label])=>'<details'+(key==='business'?' open':'')+'><summary>'+label+'</summary>'+paragraph(p?.[key])+'</details>').join('')+(ready?'<details><summary>研究限制與來源日期</summary><ul>'+p.limitations.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>'+Object.values(p.sources).map(ref=>'<p class="tiny">'+esc(ref.title)+' · '+esc(ref.publisher)+'<br>發布：'+esc(ref.published_at||'來源未提供')+' · 查閱：'+esc(ref.accessed_at)+'</p>').join('')+'</details>':'')+'<p class="tiny">每週安排查核並分批補齊全市場。查核日期不等於消息日期；營收占比不等於獲利占比。</p></section>';
+ return '<section class="company-research" aria-label="公司研究摘要"><h3>公司研究摘要</h3><p class="tiny">'+esc(message)+'</p>'+(ready?'<p class="research-date">最後查核：'+esc(p.reviewed_at)+(age>=14?' · ⚠ 超過 14 天未查核':'')+'</p>':'')+overviewHtml(p?.overview)+(ready?'<h4>官方來源查核摘要</h4>':'')+(ready||!p?.overview?RESEARCH_SECTIONS.map(([key,label])=>'<details'+(key==='business'?' open':'')+'><summary>'+label+'</summary>'+paragraph(p?.[key])+'</details>').join(''):'')+(ready?'<details><summary>研究限制與來源日期</summary><ul>'+p.limitations.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>'+Object.values(p.sources).map(ref=>'<p class="tiny">'+esc(ref.title)+' · '+esc(ref.publisher)+'<br>發布：'+esc(ref.published_at||'來源未提供')+' · 查閱：'+esc(ref.accessed_at)+'</p>').join('')+'</details>':'')+'<p class="tiny">公司概況依匯入檔案，官方摘要另列查核日期。營收占比不等於獲利占比。</p></section>';
 }
 function validateResearch(data){
  if(data?.schema_version!==1||!data.profiles||Array.isArray(data.profiles)||typeof data.profiles!=='object')throw Error('研究資料格式錯誤');
  for(const [symbol,p] of Object.entries(data.profiles)){
-  if(!/^\d{4}\.TW$/.test(symbol)||!p||!['pending','researched'].includes(p.status)||!Array.isArray(p.limitations)||!p.limitations.every(x=>typeof x==='string')||!p.sources||typeof p.sources!=='object')throw Error('研究內容格式錯誤');
+  if(!/^\d{4}\.TW$/.test(symbol)||!p||!['pending','researched','overview'].includes(p.status)||!Array.isArray(p.limitations)||!p.limitations.every(x=>typeof x==='string')||!p.sources||typeof p.sources!=='object')throw Error('研究內容格式錯誤');
+  if(p.overview){const o=p.overview;if(['business','direction','summary','source_reviewed_at','imported_at','status','screening'].some(k=>typeof o[k]!=='string')||!Array.isArray(o.urls)||o.urls.some(u=>!safeResearchUrl(u))||!Array.isArray(o.events)||!Array.isArray(o.outlooks))throw Error('匯入概況格式錯誤');for(const row of [...o.events,...o.outlooks])if(!Array.isArray(row.urls)||row.urls.some(u=>!safeResearchUrl(u)))throw Error('匯入來源錯誤')}
   if(p.status==='researched'){
    if(!/^\d{4}-\d{2}-\d{2}$/.test(p.reviewed_at)||!Number.isFinite(Date.parse(p.reviewed_at)))throw Error('研究日期錯誤');
    for(const [,ref] of Object.entries(p.sources))if(!safeResearchUrl(ref.url)||typeof ref.title!=='string'||typeof ref.publisher!=='string'||typeof ref.accessed_at!=='string')throw Error('研究來源錯誤');
