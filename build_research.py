@@ -5,7 +5,7 @@ Invalid input leaves the last published file untouched.
 """
 import gzip
 import copy
-from financial_ttm import rolling_financials
+from financial_ttm import rolling_financials, derived_metrics
 import argparse
 import json
 import re
@@ -85,7 +85,7 @@ def validate_overview(data):
     return data
 
 
-def build(stocks, records, today=None, overview=None):
+def build(stocks, records, today=None, overview=None, equity_history=None):
     validate(records, today)
     if overview is not None:
         validate_overview(overview)
@@ -108,6 +108,7 @@ def build(stocks, records, today=None, overview=None):
             if 'cumulative' in financial:
                 financial['rolling'] = rolling_financials(financial['cumulative'])
             profiles[symbol]['overview'] = imported
+            profiles[symbol]['calculated_metrics'] = derived_metrics(stock, financial, (equity_history or {}).get(symbol[:-3], {}))
             if not record:
                 profiles[symbol]['status'] = 'overview'
     researched = sum(p['status'] == 'researched' for p in profiles.values())
@@ -128,7 +129,9 @@ def run(root=ROOT):
     records = json.loads((root/'research/companies.json').read_text())
     path = root/'research/imported-overview.json.gz'
     overview = json.loads(gzip.decompress(path.read_bytes())) if path.exists() else None
-    payload = build(stocks, records, overview=overview)
+    history_path = root/'site/data/financial-history.json'
+    history = json.loads(history_path.read_text()) if history_path.exists() else {}
+    payload = build(stocks, records, overview=overview, equity_history=history)
     write_changed(root/'site/data/company-research.json', dump(payload))
     print(json.dumps(payload['coverage'], ensure_ascii=False))
 

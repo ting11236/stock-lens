@@ -47,7 +47,7 @@ class SnapshotTests(unittest.TestCase):
     def test_peg_rejects_loss_tiny_or_extreme_growth(self):
         for eps,prior in [(0,2),(-1,2),(2,0),(2,-1),(2,2),(2.001,2),(20,1),(1,2)]:self.assertIsNone(u.historical_peg(20,eps,prior)[0])
     def test_classification(self):
-        cases=[({'industry':'金融保險','eps':-1},'重資產股'),({'industry':'鋼鐵工業','eps':-1},'週期股'),({'industry':'生技醫療','eps':-1},'前期虧損企業'),({'industry':'半導體業','eps':5,'revenue_growth':25},'高成長股'),({'industry':'食品','eps':5},'穩定獲利股')]
+        cases=[({'industry':'金融保險','eps':-1},'重資產股'),({'industry':'鋼鐵工業','eps':-1},'週期股'),({'industry':'生技醫療','eps':-1},'虧損企業'),({'industry':'半導體業','eps':5,'revenue_growth':25},'高成長股'),({'industry':'食品','eps':5},'穩定獲利股')]
         for s,category in cases:self.assertEqual(u.classify(s),category)
     def test_empty_invalid_source_rejected(self):
         for value in ([],{},None):

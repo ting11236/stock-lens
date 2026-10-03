@@ -31,3 +31,28 @@ class FinancialTTMTests(unittest.TestCase):
         del records['2025-Q2']['eps']
         self.assertIsNone(trailing_value(records, '2026-Q2', 'eps'))
         self.assertIsNone(rolling_financials({}))
+
+class DerivedMetricTests(unittest.TestCase):
+    def test_units_peg_and_average_equity(self):
+        from financial_ttm import derived_metrics
+        financial={'cumulative':{'2024-Q4':{'revenue':100,'eps':4,'net_income':10,'basis':'合併營業收入'},'2025-Q4':{'revenue':150,'eps':5,'net_income':15,'basis':'合併營業收入'}}}
+        stock={'price':100,'issued_shares':100000000,'shares_date':'2026-10-02','price_date':'2026-10-02'}
+        balance={'2024-Q4':{'equity':10000000},'2025-Q4':{'equity':20000000}}
+        result=derived_metrics(stock,financial,balance)
+        self.assertAlmostEqual(result['ps']['value'],100/150)
+        self.assertEqual(result['calculated_pe']['value'],20)
+        self.assertEqual(result['earnings_growth']['value'],25)
+        self.assertEqual(result['peg']['value'],.8)
+        self.assertEqual(result['roe']['value'],10)
+        self.assertEqual(result['ps']['shares_date'],'2026-10-02')
+        self.assertIsNone(derived_metrics(stock,financial,{})['roe']['value'])
+        for row in financial['cumulative'].values():row['basis']='銀行淨收益'
+        self.assertIsNone(derived_metrics(stock,financial,balance)['ps']['value'])
+
+    def test_missing_share_date_and_loss_do_not_manufacture_values(self):
+        from financial_ttm import derived_metrics
+        financial={'cumulative':{'2026-Q4':{'revenue':100,'eps':-2,'basis':'合併營業收入'}}}
+        r=derived_metrics({'price':100,'issued_shares':1000},financial)
+        self.assertIsNone(r['ps']['value'])
+        self.assertIsNone(r['calculated_pe']['value'])
+        self.assertIsNone(r['peg']['value'])
