@@ -34,3 +34,6 @@
 .detail>.rule-hint{font-size:16px;line-height:1.7}.detail>.rule-hint>b{font-size:17px}.detail>.rule-hint p{font-size:16px;margin:7px 0 0}
 
 .stock-table{font-size:16px}.stock-table th{font-size:15px}.stock-table td,.stock-table .ticker,.stock-table .ticker-name,.stock-table .major{font-size:16px}.stock-table small,.stock-table .metric-caption{font-size:13px;line-height:1.5}.stock-table .tag,.stock-table .cat-chip{font-size:14px;line-height:1.6}.stock-table td{padding-top:16px;padding-bottom:16px}
+
+.hero p{font-size:16px;line-height:1.7}.metric-card .cap{font-size:17px}.category-first-metric b{font-size:16px}.category-first-metric small{font-size:13px}.metric-card .tiny,.metric-card[data-category] .tiny{display:block;font-size:13px;line-height:1.6}.metric-card>strong{font-size:32px}.tab{font-size:16px}.keyword-search-panel label{font-size:18px}.keyword-search-panel p{font-size:15px}.keyword-search-panel input,.toolbar .select,.research-toolbar .select,.search,.select{font-size:16px}.sort-control,.research-toolbar,.toolbar{font-size:15px}.hero .tiny,.status,.data-status{font-size:14px}.peer-comparison-hint p{font-size:16px}.peer-comparison-hint small{font-size:14px}
+@media(max-width:460px){.metric-card .cap{font-size:16px}.metric-card>strong{font-size:29px}.tab{font-size:16px}.hero p{font-size:16px}}
