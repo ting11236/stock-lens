@@ -32,3 +32,5 @@
 .company-research h3{font-size:20px}.company-research h4,.company-research .quick-company-summary h4{font-size:19px}.company-research h5{font-size:17px}.company-research .quick-company-summary .overview-points,.company-research .quick-company-summary li{font-size:16px;line-height:1.7}.company-research .quick-company-summary li{margin:9px 0}
 
 .detail>.rule-hint{font-size:16px;line-height:1.7}.detail>.rule-hint>b{font-size:17px}.detail>.rule-hint p{font-size:16px;margin:7px 0 0}
+
+.stock-table{font-size:16px}.stock-table th{font-size:15px}.stock-table td,.stock-table .ticker,.stock-table .ticker-name,.stock-table .major{font-size:16px}.stock-table small,.stock-table .metric-caption{font-size:13px;line-height:1.5}.stock-table .tag,.stock-table .cat-chip{font-size:14px;line-height:1.6}.stock-table td{padding-top:16px;padding-bottom:16px}
