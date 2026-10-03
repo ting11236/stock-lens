@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Stock Lens｜上市台股分類估值研究</title>
-<link rel="stylesheet" href="styles.css?v=20261004-beginner-13"><script src="app.js?v=20261004-beginner-13" defer></script>
+<link rel="stylesheet" href="styles.css?v=20261004-beginner-14"><script src="app.js?v=20261004-beginner-14" defer></script>
 </head>
 <body>
 <div class="shell">
@@ -22,17 +22,17 @@
 <section id="rules" hidden><article class="surface source-card"><h2>先看公司怎麼賺錢，再選估值指標</h2><p><strong>明顯標記的「先看什麼」是閱讀起點。</strong>同一家公司可以同時看好幾個指標，要看它的獲利、資產和成長特性。</p><p>下方倍數區間保留為學習參考，各產業與不同時間的合理倍數會不同；先比較公司自身歷史與相似同業，再判斷原因。這些區間不是通用買賣標準。</p></article><div id="rulesGrid" class="rules-grid"></div><article class="surface source-card"><h3>估值觀念參考</h3><p>指標選擇、景氣獲利與 PEG 的解讀參考 <a href="https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples" target="_blank" rel="noopener noreferrer">CFA Institute 倍數估值教材</a>與 <a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/peg.htm" target="_blank" rel="noopener noreferrer">Damodaran 的 PEG 說明</a>。上方學習區間不是這些教材制定的通用標準。</p></article></section>
 <section id="sources" hidden><div class="source-layout">
 <article class="surface source-card"><h2>官方資料與交易日期</h2><p>每日台灣時間 18:20 由 GitHub Actions 下載臺灣證券交易所開放資料，依上市公司名冊合併。範圍為上市公司四碼普通股（含創新板與外國第一上市公司）；不含上櫃、ETF、權證、特別股及 TDR。</p><p>股價、PE／PB 的 Date 是各自的資料日期；下載時間另行記錄。財務資料使用財報年季或營收年月。官方只公布更新頻率，沒有保證每日固定完成時刻；排程也可能延後。</p><a href="https://openapi.twse.com.tw/" target="_blank" rel="noopener noreferrer">TWSE 官方 OpenAPI ↗</a><p><a href="data/stocks.csv" class="button" download>下載全部股票 CSV</a></p></article>
-<article class="surface source-card"><h2>股票名詞，白話怎麼看？</h2><p>先看數字在說什麼，再看它的期間。同一家公司不同網站的口徑可能不同。</p><dl>
-<dt><b>TTM｜最近 12 個月</b></dt><dd>Trailing Twelve Months。最新四季加總，並非預測未來一年。可以計算營收、淨利或 EPS，不能只寫 TTM 而不說是哪一項。</dd>
-<dt><b>TTM Sales｜最近四季營收</b></dt><dd>公司最近 12 個月做了多少生意。有時簡寫 TTMS；本站寫全名，避免和盈餘混淆。營收不等於獲利。</dd>
-<dt><b>EPS｜每股盈餘</b></dt><dd>把屬於普通股股東的獲利換成每股金額，使用加權平均股數。TTM EPS 是最近 12 個月每股盈餘；累計 EPS 則從年初算到指定季度，不能互換。</dd>
-<dt><b>PE｜本益比</b></dt><dd>股價 ÷ 每股盈餘。例如股價 100 元、全年 EPS 5 元，PE 是 20 倍。可理解為每 1 元年度盈餘，市場給多少股價；不代表保證 20 年回本。虧損時通常不適用。本站官方 PE 與自行推算 TTM EPS 可能採不同口徑。</dd>
-<dt><b>PEG｜本益比相對成長率</b></dt><dd>PE ÷ EPS 年增率的百分點。例如 PE 20 倍、成長 20%，PEG 是 1。本站使用歷史 TTM EPS 成長，並非未來預測；成長為零、負值或基期太小時不宜硬算。</dd>
-<dt><b>PS｜股價營收比</b></dt><dd>公司總市值 ÷ 最近 12 個月營收。PS 2 倍表示市場用 2 元市值評價 1 元年度營收；不代表公司賺 1 元。看 PS 要一起看利潤率。</dd>
-<dt><b>PB｜股價淨值比</b></dt><dd>股價 ÷ 每股淨值。PB 0.8 倍表示股價約為帳面淨值的八折；資產能否保有價值，仍影響判讀。</dd>
-<dt><b>ROE｜股東權益報酬率</b></dt><dd>屬於母公司股東的淨利 ÷ 平均股東權益 × 100%。ROE 10% 可理解為每 100 元股東帳面資金，一年產生約 10 元獲利。本站用最近四季淨利和期初、期末平均權益；高負債也可能推高比率。</dd>
-<dt><b>營業利益／業外／歸母淨利</b></dt><dd>營業利益：本業扣掉營運成本費用後的成果。業外：利息、投資等本業之外的損益。歸母淨利：扣除稅與非母公司股東份額後，屬於母公司股東的最終獲利。</dd>
-<dt><b>毛利率／殖利率</b></dt><dd>毛利率＝營收扣直接成本後的毛利 ÷ 營收。殖利率＝每股現金股利 ÷ 股價；歷史配息不保證未來相同。</dd>
+<article class="surface source-card glossary-card"><h2>股票名詞，白話怎麼看？</h2><p>先看數字在說什麼，再看它的期間。同一家公司不同網站的口徑可能不同。</p><dl>
+<div class="glossary-item"><dt><b>TTM｜最近 12 個月</b></dt><dd><p><strong>看最近四季加起來的實際成績；每次公布新一季，就更新這個範圍。</strong></p><details><summary>看例子、公式與注意事項</summary><p>Trailing Twelve Months。最新四季加總，並非預測未來一年。可以計算營收、淨利或 EPS，不能只寫 TTM 而不說是哪一項。</p></details></dd></div>
+<div class="glossary-item"><dt><b>TTM Sales｜最近四季營收</b></dt><dd><p><strong>公司最近 12 個月取得多少收入；這個數字還沒有扣成本與費用，所以不是獲利。</strong></p><details><summary>看例子、公式與注意事項</summary><p>公司最近 12 個月做了多少生意。有時簡寫 TTMS；本站寫全名，避免和盈餘混淆。營收不等於獲利。</p></details></dd></div>
+<div class="glossary-item"><dt><b>EPS｜每股盈餘</b></dt><dd><p><strong>把公司的獲利換算成每一股分到多少錢；要先分清楚是今年累計，還是最近四季。</strong></p><details><summary>看例子、公式與注意事項</summary><p>把屬於普通股股東的獲利換成每股金額，使用加權平均股數。TTM EPS 是最近 12 個月每股盈餘；累計 EPS 則從年初算到指定季度，不能互換。</p></details></dd></div>
+<div class="glossary-item"><dt><b>PE｜本益比</b></dt><dd><p><strong>股價相對每股盈餘是多少倍。要比較相似公司，並確認盈餘能持續。</strong></p><details><summary>看例子、公式與注意事項</summary><p>股價 ÷ 每股盈餘。例如股價 100 元、全年 EPS 5 元，PE 是 20 倍。可理解為每 1 元年度盈餘，市場給多少股價；不代表保證 20 年回本。虧損時通常不適用。本站官方 PE 與自行推算 TTM EPS 可能採不同口徑。</p></details></dd></div>
+<div class="glossary-item"><dt><b>PEG｜本益比相對成長率</b></dt><dd><p><strong>一起看本益比與每股盈餘的成長速度。數字低可能股價相對成長較便宜，也可能成長數字不可靠。</strong></p><details><summary>看例子、公式與注意事項</summary><p>PE ÷ EPS 年增率的百分點。例如 PE 20 倍、成長 20%，PEG 是 1。本站使用歷史 TTM EPS 成長，並非未來預測；成長為零、負值或基期太小時不宜硬算。</p></details></dd></div>
+<div class="glossary-item"><dt><b>PS｜股價營收比</b></dt><dd><p><strong>市場用多少市值評價每 1 元營收。公司仍在虧損時可參考，但還要看收入能不能變成獲利。</strong></p><details><summary>看例子、公式與注意事項</summary><p>公司總市值 ÷ 最近 12 個月營收。PS 2 倍表示市場用 2 元市值評價 1 元年度營收；不代表公司賺 1 元。看 PS 要一起看利潤率。</p></details></dd></div>
+<div class="glossary-item"><dt><b>PB｜股價淨值比</b></dt><dd><p><strong>股價相對每股帳面淨值是多少倍。例如 0.8 倍是帳面淨值的八折，但帳面資產也可能縮水。</strong></p><details><summary>看例子、公式與注意事項</summary><p>股價 ÷ 每股淨值。PB 0.8 倍表示股價約為帳面淨值的八折；資產能否保有價值，仍影響判讀。</p></details></dd></div>
+<div class="glossary-item"><dt><b>ROE｜股東權益報酬率</b></dt><dd><p><strong>看公司用股東的資金賺錢有多有效率。例如 10%，代表一年用每 100 元股東資金賺約 10 元。</strong></p><details><summary>看例子、公式與注意事項</summary><p>屬於母公司股東的淨利 ÷ 平均股東權益 × 100%。ROE 10% 可理解為每 100 元股東帳面資金，一年產生約 10 元獲利。本站用最近四季淨利和期初、期末平均權益；高負債也可能推高比率。</p></details></dd></div>
+<div class="glossary-item"><dt><b>營業利益／業外／歸母淨利</b></dt><dd><p><strong>分清楚本業賺的錢、本業以外的損益，以及最後屬於母公司股東的獲利。</strong></p><details><summary>看例子、公式與注意事項</summary><p>營業利益：本業扣掉營運成本費用後的成果。業外：利息、投資等本業之外的損益。歸母淨利：扣除稅與非母公司股東份額後，屬於母公司股東的最終獲利。</p></details></dd></div>
+<div class="glossary-item"><dt><b>毛利率／殖利率</b></dt><dd><p><strong>毛利率看每元收入扣直接成本後留下多少；殖利率看現金股息相對股價多少。兩個數字在說不同的事。</strong></p><details><summary>看例子、公式與注意事項</summary><p>毛利率＝營收扣直接成本後的毛利 ÷ 營收。殖利率＝每股現金股利 ÷ 股價；歷史配息不保證未來相同。</p></details></dd></div>
 </dl></article>
 <article class="surface source-card"><h2>各項指標的口徑</h2><p>匯入財報能補計最近四季 EPS、營收與 PS。PS 使用每日股價、證交所已發行普通股數與最近四季營收；PE 的官方值保留，依最近四季 EPS 計算的本益比另列。PEG、EPS 年增率及 ROE 若仍缺比較期間或平均權益，會保留空白並說明原因。</p><p>收盤價：STOCK_DAY_AVG_ALL。PE、PB、殖利率：BWIBBU_ALL。累計基本 EPS：t187ap14_L。單月營收年增率：t187ap05_L。累計毛利率：t187ap17_L。</p><p>一般業財報 t187ap06_L_ci／t187ap07_L_ci 逐期保留歷史。完整期間累積後才計算 TTM EPS、EPS 年增率、PS、ROE 與歷史 PEG。初次使用通常沒有足夠歷史，因此顯示 —。財報千元轉元後才計算 PS，ROE 使用母公司口徑的平均權益。</p><p>歷史 PEG 使用自行計算的 PE（股價 ÷ TTM EPS）除以 TTM EPS 年增率百分點。兩期 EPS 須正值，年增率須在 1%–100%；此保守門檻是研究規則。它可能與官方 PE 口徑不同，並非預估 PEG。</p></article>
 <article class="surface source-card"><h2>個人自選與人工分類</h2><p>在全部股票搜尋代號或公司名稱，按星號即可加入／移除。自選清單與人工分類存在此瀏覽器的 localStorage；重新整理會保留，每次開啟仍重新下載最新雲端資料。不同裝置不會同步；共用同一瀏覽器設定檔會共用清單。</p><p>按星號加入自選股；完整數值仍可匯出為 CSV，方便另行整理。</p></article>
