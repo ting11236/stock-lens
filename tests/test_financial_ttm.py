@@ -56,3 +56,29 @@ class DerivedMetricTests(unittest.TestCase):
         self.assertIsNone(r['ps']['value'])
         self.assertIsNone(r['calculated_pe']['value'])
         self.assertIsNone(r['peg']['value'])
+
+class AnnualPEGTests(unittest.TestCase):
+    def test_annual_fallback_uses_annual_pe_not_ttm_pe(self):
+        from financial_ttm import derived_metrics
+        rows={'2024-Q4':{'eps':4,'basis':'合併營業收入'},'2025-Q4':{'eps':5,'basis':'合併營業收入'},'2025-Q2':{'eps':1,'basis':'合併營業收入'},'2026-Q2':{'eps':1.2,'basis':'合併營業收入'}}
+        r=derived_metrics({'price':100,'price_date':'2026-10-02'},{'cumulative':rows})
+        self.assertAlmostEqual(r['calculated_pe']['value'],100/5.2)
+        self.assertEqual(r['earnings_growth']['value'],25)
+        self.assertEqual(r['peg']['value'],.8)
+        self.assertEqual(r['peg']['pe_used'],20)
+        self.assertEqual(r['peg']['period'],'2025-Q4')
+        self.assertEqual(r['peg']['comparison_period'],'2024-Q4')
+        self.assertEqual(r['peg']['period_mode'],'annual')
+        rows['2024-Q2']={'eps':.8,'basis':'合併營業收入'}
+        r=derived_metrics({'price':100},{'cumulative':rows})
+        self.assertEqual(r['peg']['period_mode'],'ttm')
+        self.assertEqual(r['peg']['period'],'2026-Q2')
+        self.assertAlmostEqual(r['earnings_growth']['value'],(5.2/4.2-1)*100)
+
+    def test_growth_decline_loss_basis_and_threshold(self):
+        from financial_ttm import derived_metrics
+        for old,new,basis,growth in [(4,5,'B',None),(0,5,'A',None),(-2,5,'A',None),(4,3,'A',-25),(4,-1,'A',-125),(1,4,'A',300)]:
+            rows={'2024-Q4':{'eps':old,'basis':'A'},'2025-Q4':{'eps':new,'basis':basis},'2026-Q2':{'eps':1,'basis':'A'}}
+            r=derived_metrics({'price':100},{'cumulative':rows})
+            self.assertEqual(r['earnings_growth']['value'],growth)
+            self.assertIsNone(r['peg']['value'])

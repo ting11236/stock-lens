@@ -62,7 +62,20 @@ def derived_metrics(stock, financial, equity_history=None):
     eps, sales, profit = rolling['ttm_eps'], rolling['ttms'], rolling['ttm_parent_profit']
     price, shares = stock.get('price'), stock.get('issued_shares')
     prior_eps = trailing_value(records, prior_period, 'eps')
-    growth = (eps / prior_eps - 1) * 100 if numeric(eps) and numeric(prior_eps) and eps > 0 and prior_eps > 0 else None
+    same_eps_basis = records.get(period, {}).get('basis') == records.get(prior_period, {}).get('basis')
+    growth = (eps / prior_eps - 1) * 100 if same_eps_basis and numeric(eps) and numeric(prior_eps) and prior_eps > 0 else None
+    growth_period, growth_prior_period, growth_mode, growth_eps = period, prior_period, 'ttm', eps
+    if growth is None:
+        annual_periods = sorted(p for p in records if re.fullmatch(r'\d{4}-Q4', p) and p <= period)
+        if annual_periods:
+            annual = annual_periods[-1]
+            old_annual = str(int(annual[:4])-1) + '-Q4'
+            current, previous = records[annual], records.get(old_annual, {})
+            current_eps, old_eps = current.get('eps'), previous.get('eps')
+            if current.get('basis') == previous.get('basis') and numeric(current_eps) and numeric(old_eps) and old_eps > 0:
+                growth = (current_eps / old_eps - 1) * 100
+                growth_period, growth_prior_period, growth_mode, growth_eps = annual, old_annual, 'annual', current_eps
+    peg_pe = price / growth_eps if numeric(price) and price > 0 and numeric(growth_eps) and growth_eps > 0 else None
     pe = price / eps if numeric(price) and price > 0 and numeric(eps) and eps > 0 else None
     # Ordinary operating revenue, not financial-industry net-income equivalents.
     ps = price * shares / (sales * 100000000) if rolling['basis'] == '合併營業收入' and all(numeric(v) and v > 0 for v in (price, shares, sales)) and stock.get('shares_date') else None
@@ -75,13 +88,16 @@ def derived_metrics(stock, financial, equity_history=None):
         'trailing_sales': (sales, rolling['formula']+'；億元', '缺少可比的累計營收'),
         'calculated_pe': (pe, '股價 ÷ 最近四季 EPS；與官方 PE 分開', '股價缺值或最近四季 EPS 非正'),
         'ps': (ps, '股價 × 已發行普通股數 ÷（最近四季營收 × 100,000,000 元）', '缺少股價、股數日期或正值營收；金融淨收益不套一般營收 PS'),
-        'earnings_growth': (growth, '（本期 TTM EPS ÷ 去年同季 TTM EPS − 1）× 100%', '缺少兩組正值且可比的 TTM EPS'),
-        'peg': (pe / growth if pe is not None and growth is not None and 1 <= growth <= 100 else None, '（股價 ÷ TTM EPS）÷ TTM EPS 年增率百分點', '缺少有效成長率；沿用 1%–100% 的研究門檻'),
+        'earnings_growth': (growth, ('（本年全年 EPS ÷ 前年全年 EPS − 1）× 100%' if growth_mode == 'annual' else '（本期 TTM EPS ÷ 去年同季 TTM EPS − 1）× 100%'), '缺少可比的 EPS，或前期 EPS 不大於零'),
+        'peg': (peg_pe / growth if peg_pe is not None and growth is not None and 1 <= growth <= 100 else None, ('（股價 ÷ 本年全年 EPS）÷ 全年 EPS 年增率百分點' if growth_mode == 'annual' else '（股價 ÷ TTM EPS）÷ TTM EPS 年增率百分點'), 'EPS 須為正，成長率須在 1%–100% 的本站研究範圍內'),
         'roe': (roe, 'TTM 歸母淨利 ÷ 期初期末平均母公司權益 × 100%；億元轉財報千元', '缺少同口徑期初及期末權益，不能用期末權益代替平均'),
     }
-    return {key: {'value': value, 'period': period, 'formula': formula,
+    return {key: {'value': value, 'period': growth_period if key in ('peg','earnings_growth') else period, 'formula': formula,
                   'reason': None if value is not None else reason,
-                  'comparison_period': prior_period if key in ('roe','peg','earnings_growth') else None,
+                  'comparison_period': (growth_prior_period if key in ('peg','earnings_growth') else prior_period if key == 'roe' else None),
+                  'period_mode': growth_mode if key in ('peg','earnings_growth') else None,
+                  'eps_used': growth_eps if key == 'peg' else None,
+                  'pe_used': peg_pe if key == 'peg' else None,
                   'price_date': stock.get('price_date') if key in ('calculated_pe','ps','peg') else None,
                   'shares_date': stock.get('shares_date') if key == 'ps' else None,
                   'shares_source': stock.get('shares_source') if key == 'ps' else None}
