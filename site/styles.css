@@ -45,3 +45,5 @@
 #sources .pe-guide p{font-size:16px;line-height:1.75}.peer-pe-reference p{font-size:15px!important;line-height:1.75}
 
 .comparison-important{color:#b42318;font-weight:750}
+
+.metric-help-link{color:var(--green);text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px;cursor:help}.metric-help-link:hover{text-decoration-style:solid}.glossary-item{scroll-margin-top:22px}.glossary-item:focus{outline:2px solid var(--green);outline-offset:3px}
