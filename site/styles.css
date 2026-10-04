@@ -98,3 +98,13 @@
 .summary-emphasis,.quick-company-summary li>strong,.metric-rules h4{color:#b42318;font-weight:400}.quick-company-summary li>strong{font-size:inherit}
 
 #classificationHelpBody strong{color:#b42318;font-weight:400}
+
+#researchPageTabs{display:flex;align-items:center;gap:12px;padding:10px 22px;flex:none}#researchPageTabs label{font-size:15px;white-space:nowrap}#researchPageSelect{flex:1;min-width:0;width:auto;font-size:16px;min-height:44px}.outlook-summary{background:#f4f8f5;border-left:4px solid #39745c;padding:10px 16px;margin-bottom:12px}.outlook-summary-label{color:#111;font-weight:600}.outlook-summary p{margin:10px 0}.outlook-sources{margin-bottom:20px}.outlook-sources ul{padding-left:20px}@media(max-width:700px){#researchPageTabs{padding:8px 12px;gap:8px}.research-modal-header{padding:12px}.research-modal-header h2{font-size:20px}.research-modal-body{padding:16px}.outlook-summary{padding:8px 12px}}
+
+.summary-emphasis{color:inherit;font-weight:inherit}.content-keyword{color:#b42318;font-weight:400}.key-sentence{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;color:inherit;font-weight:400}.quick-company-summary li>strong,.metric-rules h4,#classificationHelpBody strong{color:inherit;font-weight:600}
+
+.view-back-button{position:fixed;bottom:18px;left:24px;z-index:50;background:#e9f4ef;border:2px solid #39745c;color:#173c2d;box-shadow:0 3px 15px #0002;font-size:16px;min-height:46px}.glossary-card{padding-bottom:80px}@media(max-width:700px){.view-back-button{bottom:12px;left:12px;font-size:15px}}
+
+.mover-switch{display:none}@media(max-width:700px){.mover-switch{display:flex;position:sticky;top:-16px;z-index:2;gap:8px;background:#fff;padding:12px 0}.mover-switch .button{flex:1;font-size:17px;border:2px solid #39745c}.mover-switch .active{background:#39745c;color:white}.mover-card.mobile-unselected{display:none}}
+
+.view-back-button{font-size:13px;padding:6px 10px;min-height:36px;border-width:1px;bottom:12px;left:12px}

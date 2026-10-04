@@ -54,7 +54,7 @@ function industryPeReference(stock){
 function industryPeHtml(stock){return '<div class="rule-hint peer-pe-reference"><p><b>'+metricHelpLink('pe','PE 本益比：'+(finite(stock.pe)!==null?fnum(stock.pe)+' 倍':'—'),stock.pe)+'</b><small>（務必和主要業務相近的同類股票比較）</small></p><button type="button" class="button" data-peer-pe="'+esc(stock.symbol)+'" aria-haspopup="dialog">同類企業本益比 →</button></div>';}
 function industryPeDetailHtml(stock){
  const peers=industryPeReference(stock);
- return (catMeta(stock).metric==='ps'?'<p>依本站分類，這家公司優先參考 PS；這裡仍列出同類股票的 PE 區間，供你比較參考。</p>':'')+(peers?'<p>企業類別：<span class="peer-pe-key">'+esc(stock.industry)+'</span><br>資料日期：'+esc(peers.date)+'<br>有 '+peers.count+' 家公司提供正值官方 PE。</p><p><span class="peer-pe-key">同類本益比中位數：約 '+fnum(peers.median,1)+' 倍</span><br>全部正值 PE：最低 '+fnum(peers.min,1)+' 倍；最高 '+fnum(peers.max,1)+' 倍</p><p>中位數是把全部本益比由低到高排列後，取中間位置的數字；公司家數為偶數時，取中間兩個數字的平均。中位數可以當比較起點，接著還要看相近公司的成長、獲利、負債，以及公司自己過去的 PE。同業中位數、平均值、個別相似公司和自身歷史，都是可用的比較基準。低於中位數表示本益比相對偏低，可能比較便宜，也可能公司面臨問題；高於中位數表示相對偏高，也可能市場預期成長較快。</p>':'<p>目前同產業、同日期的正值官方 PE 不足 5 家；可搜尋產業名稱，逐家公司比較。</p>');
+ return (catMeta(stock).metric==='ps'?'<p>依本站分類，這家公司優先參考 PS；這裡仍列出同類股票的 PE 區間，供你比較參考。</p>':'')+(peers?'<p>企業類別：<span class="peer-pe-key">'+esc(stock.industry)+'</span><br>資料日期：'+esc(peers.date)+'<br>有 '+peers.count+' 家公司提供正值官方 PE。</p><p><span class="peer-pe-key">同類本益比中位數：約 '+fnum(peers.median,1)+' 倍</span><br>全部正值 PE：最低 '+fnum(peers.min,1)+' 倍；最高 '+fnum(peers.max,1)+' 倍</p><p class="key-sentence">中位數可以當比較起點，接著還要看相近公司的成長、獲利、負債，以及公司自己過去的 PE。</p><ul><li><span class="content-keyword">低於中位數</span>：本益比相對較低，<span class="content-keyword">可能比較便宜</span>，也可能公司面臨問題。</li><li><span class="content-keyword">高於中位數</span>：本益比<span class="content-keyword">相對偏高</span>，也可能市場預期成長較快。</li></ul><details><summary>中位數怎麼算？還有哪些比較方法？</summary><p>把全部本益比由低到高排列，取中間位置的數字；公司家數為偶數時，取中間兩個數字的平均。</p><p>同業中位數、平均值、個別相似公司和自身歷史，都是可用的比較基準。</p></details>':'<p>目前同產業、同日期的正值官方 PE 不足 5 家；可搜尋產業名稱，逐家公司比較。</p>');
 }
 function openPeerPe(symbol){const stock=state.stocks.map(materialize).find(s=>s.symbol===symbol);if(!stock)return;$('peerPeTitle').textContent=stock.name+'（'+symbol.slice(0,-3)+'）同類企業本益比';$('peerPeBody').innerHTML=industryPeDetailHtml(stock)+'<button type="button" class="button" id="peerPeFull">查看本益比完整說明 →</button>';$('peerPeFull').onclick=()=>{$('peerPePopover').hidePopover();metricHelpKey='pe';showFullMetricHelp();};highlightNarrative($('peerPeBody'));$('peerPePopover').showPopover();}
 
@@ -86,7 +86,7 @@ function renderRules(){
   const g=METRIC_READING_GUIDE[key],sections=RULE_SECTIONS.filter(section=>CATS.find(c=>c.id===section.id)?.metric===key);
   const classification=sections.map(section=>'<h5>'+esc(section.id)+'</h5>'+classificationExplanation(CATS.find(c=>c.id===section.id))).join('');
   const ranges=key==='pe'?'':sections.map(section=>'<h5>'+esc(section.id)+'</h5><div class="rule-table-wrap" tabindex="0" aria-label="估值倍數學習表，可左右捲動"><table><thead><tr><th>區間</th><th>白話解讀</th><th>還要看什麼？</th></tr></thead><tbody>'+section.rows.map(r=>'<tr>'+r.map(v=>'<td>'+esc(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div><p>'+esc(section.note)+'</p>').join('');
-  $('metric-rules-'+key).innerHTML='<h4>適合哪些公司？</h4><p>'+esc(g.who)+'</p><h4>數字怎麼看？</h4><p>'+esc(g.read)+'</p>'+(key==='pe'?'<p>同業中位數可以當比較起點，再看相近公司的成長、獲利、負債，以及公司自己過去的 PE。中位數、平均值、個別相似公司與自身歷史都是可用的比較基準。</p>':'')+'<h4>還要一起看什麼？</h4><p>'+esc(g.also)+'</p>'+(classification?'<details><summary>本站分類依據</summary>'+classification+'</details>':'')+(ranges?'<details><summary>倍數區間示例（學習參考）</summary><p>以下是學習用的示例，實際判斷要和業務相近的公司及自身歷史比較。</p>'+ranges+'</details>':'');
+  $('metric-rules-'+key).innerHTML='<h4>適合哪些公司？</h4><p>'+esc(g.who)+'</p><h4>數字怎麼看？</h4><p>'+esc(g.read)+'</p>'+(key==='pe'?'<p class="key-sentence">同業中位數可以當比較起點，再看相近公司的成長、獲利、負債，以及公司自己過去的 PE。</p><p>中位數、平均值、個別相似公司與自身歷史都是可用的比較基準。</p>':'')+'<h4>還要一起看什麼？</h4><p>'+esc(g.also)+'</p>'+(classification?'<details><summary>本站分類依據</summary>'+classification+'</details>':'')+(ranges?'<details><summary>倍數區間示例（學習參考）</summary><p>以下是學習用的示例，實際判斷要和業務相近的公司及自身歷史比較。</p>'+ranges+'</details>':'');
  }
  highlightNarrative($('rules'));
 }
@@ -124,16 +124,20 @@ function metricValueExplanation(key,value){
  return '';
 }
 function highlightNarrative(root){
- if(!root?.querySelectorAll)return;
- root.querySelectorAll('p:not(.tiny), .fused-research > li:first-child').forEach(el=>{
-  if(el.closest('table,.stat,.research-refs,details')||el.querySelector('.summary-emphasis'))return;
-  const node=[...el.childNodes].find(n=>n.nodeType===3&&n.textContent.trim().length>16);if(!node)return;
-  const text=node.textContent,match=text.match(/^\s*[^。！？\n]{16,100}[。！？]/);if(!match)return;
-  const emphasis=document.createElement('span');emphasis.className='summary-emphasis';emphasis.textContent=match[0];
-  const rest=document.createTextNode(text.slice(match[0].length));node.replaceWith(emphasis,rest);
- });
+ const doc=root?.ownerDocument;if(!doc?.createTreeWalker)return;
+ const pattern=/(?:虧損|淨損|淨利|營收|EPS|每股盈餘)?\s*(?:約|達到約)?\s*-?\d[\d,]*(?:\.\d+)?\s*(?:至\s*\d[\d,.]*\s*)?(?:億(?:新台幣|美元|歐元|元)?|萬元|元／股|%)|低碳(?:水泥|建材)|儲能|充電|電池|\d\s*奈米|大量生產|已出貨|開始供貨|由虧轉盈|由盈轉虧|現金不足|營收下降|訂單減少|海外水泥/g;
+ const walker=doc.createTreeWalker(root,4),nodes=[];let node;
+ while(node=walker.nextNode())if(!node.parentElement.closest('a,small,b,strong,h2,h3,h4,h5,h6,table,.stat,.tiny,.content-keyword,.key-sentence,summary,label,select,button,.research-refs'))nodes.push(node);
+ for(const textNode of nodes){
+  const text=textNode.textContent,matches=[...text.matchAll(pattern)].slice(0,4);if(!matches.length)continue;
+  const fragment=doc.createDocumentFragment();let pos=0;
+  for(const m of matches){fragment.append(doc.createTextNode(text.slice(pos,m.index)));const mark=doc.createElement('span');mark.className='content-keyword';mark.textContent=m[0];fragment.append(mark);pos=m.index+m[0].length;}
+  fragment.append(doc.createTextNode(text.slice(pos)));textNode.replaceWith(fragment);
+ }
 }
+
 function openMetricHelp(key,value=null){
+ const parent=$('companyFinancialDialog')?.open?$('companyFinancialDialog'):$('researchDialog')?.open?$('researchDialog'):document.body;parent.append($('metricHelpPopover'));
  const item=$('glossary-'+key);if(!item)return;
  metricHelpKey=key;
  $('metricHelpTitle').textContent=item.querySelector('dt')?.textContent||metricName(key.toUpperCase());
@@ -141,13 +145,28 @@ function openMetricHelp(key,value=null){
  $('metricHelpValue').textContent=metricValueExplanation(key,value);$('metricHelpValue').hidden=!$('metricHelpValue').textContent;
  highlightNarrative($('metricHelpPopover'));$('metricHelpPopover').showPopover();
 }
+function rememberStockView(){
+ if(state.tab==='rules')return;
+ glossaryReturn={tab:state.tab,page:state.page,selected:state.selected,scrollY:window.scrollY,
+  research:$('researchDialog')?.open?{symbol:researchView.symbol,index:researchView.index,scrollTop:$('researchPageBody').scrollTop}:null,
+  financial:$('companyFinancialDialog')?.open?{scrollTop:$('companyFinancialBody').scrollTop}:null};
+}
+function restoreStockView(){
+ const saved=glossaryReturn;setTab(saved.tab||'all');state.page=saved.page||1;if(saved.selected)state.selected=saved.selected;render();
+ requestAnimationFrame(()=>{
+  window.scrollTo({top:saved.scrollY||0,behavior:'instant'});
+  if(saved.research){openCompanyResearch(saved.research.symbol,saved.research.index,null);$('researchPageBody').scrollTop=saved.research.scrollTop||0;}
+  if(saved.financial){const stock=state.stocks.map(materialize).find(s=>s.symbol===saved.selected);if(stock){openCompanyFinancial(stock);$('companyFinancialBody').scrollTop=saved.financial.scrollTop||0;}}
+ });
+}
 function showFullMetricHelp(){
- const key=metricHelpKey;if(!key)return;
+ const key=metricHelpKey;if(!key)return;rememberStockView();
  $('metricHelpPopover').hidePopover();
+ if($('companyFinancialDialog')?.open)$('companyFinancialDialog').close();
  if($('researchDialog')?.open)$('researchDialog').close();
- if(state.tab!=='rules')glossaryReturn={tab:state.tab==='watchlist'?'watchlist':'all',page:state.page};
  setTab('rules');const target=$('glossary-'+key);target?.scrollIntoView({behavior:'smooth',block:'start'});target?.focus({preventScroll:true});
 }
+
 function wireMetricHelp(){document.querySelectorAll('[data-peer-pe]').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();openPeerPe(b.dataset.peerPe)});document.querySelectorAll('[data-metric-help]').forEach(link=>link.onclick=e=>{e.preventDefault();e.stopPropagation();openMetricHelp(link.dataset.metricHelp,link.dataset.metricValue);});}
 function linkedMetricPhrase(text){return esc(text).replace(/\b(PEG|PE|PB|PS|ROE|EPS|TTM)\b/g,abbr=>metricHelpLink(abbr.toLowerCase(),abbr));}
 function statHelpKey(key){return ({calculated_pe:'pe',trailing_eps:'eps',gross_margin:'margin',dividend_yield:'margin'})[key]||(['pe','pb','ps','peg','eps','roe','trailing_sales'].includes(key)?key:null);}
@@ -240,21 +259,45 @@ function financialOverviewSummary(o){
  return '最近 12 個月（'+r.start_period+' 至 '+r.period+'），'+(r.basis||'營收')+'合計 '+fnum(r.ttms)+' 億元；每股盈餘合計 '+fnum(r.ttm_eps)+' 元，屬於母公司股東的淨利合計 '+fnum(r.ttm_parent_profit)+' 億元。獲利來源：'+plainResearchText(o.profit_mechanism)+'。';
 }
 function outlookConclusion(x,o){
- const kind=String(x.type||''),scope=String(x.scope||'營收'),period=String(x.period||'未確認');
- const who=/法人|共識/.test(kind)?'研究機構當時估計':/長期目標|業務目標/.test(kind)?'公司希望達到的目標是':'公司當時預估';
+ const kind=String(x.type||''),rawScope=String(x.scope||'營收'),scope=rawScope.split(/[；;]/)[0],period=String(x.period||'未確認');
+ const target=/長期目標|業務目標/.test(kind),institution=/法人|共識/.test(kind);
+ const who=institution?'研究機構預估':target?'公司希望達到的目標是':'公司預估';
  const unit={'新台幣億元':'億新台幣','新台幣／億元':'億新台幣','美元／億元':'億美元','歐元億元':'億歐元'}[x.unit]||x.unit||'';
- if(!Number.isFinite(x.low))return '公司發展方向：'+plainResearchText(o.direction)+'（本份資料未提供營收預估金額）。';
- let text=who+'：'+period+' 的「'+scope+'」約 '+fnum(x.low)+(Number.isFinite(x.high)?' 至 '+fnum(x.high):'')+' '+unit+'。';
+ if(!Number.isFinite(x.low))return '公司發展方向：'+plainDirectionText(o.direction)+'（目前資料未提供營收預估金額）。';
+ const number=Number(x.low).toLocaleString('zh-TW',{maximumFractionDigits:2})+(Number.isFinite(x.high)?' 至 '+Number(x.high).toLocaleString('zh-TW',{maximumFractionDigits:2}):'');
+ const when=period.replace(/^(\d{4})Q([1-4])$/, '$1 年第 $2 季').replace(/^(\d{4})全年$/, '$1 年全年').replace(/^(\d{4})$/, '$1 年');
+ let what=/^(整體)?合併(總)?營(收|業收入)$/.test(scope)?'公司與納入財報的子公司，合計營收':scope;
+ if(/Cimpor/i.test(scope))what='台泥旗下、在歐洲與非洲經營水泥事業的 Cimpor，全年營收';
+ else if(!/營收|收入/.test(what))what+='的營收';
+ let text=who+'：'+when+'，'+what+(target?'達到約 ':'約 ')+number+' '+unit+'。';
  const match=period.match(/^(\d{4})全年$/),prior=match?o.financial?.cumulative?.[(Number(match[1])-1)+'-Q4']:null;
  if(prior?.basis==='合併營業收入'&&prior.revenue>0&&['新台幣億元','新台幣／億元'].includes(x.unit)&&/^(整體)?合併(總)?營(收|業收入)$/.test(scope)){
   const low=(x.low/prior.revenue-1)*100,high=Number.isFinite(x.high)?(x.high/prior.revenue-1)*100:null;
   const change=v=>v>=0?'增加約 '+fnum(v)+'%':'減少約 '+fnum(-v)+'%';
-  text+='與 '+(Number(match[1])-1)+' 年實際營收比較，代表'+change(low)+(high!==null?' 至 '+change(high):'')+'，這是預估情境。';
+  text+='這相當於比 '+(Number(match[1])-1)+' 年實際營收'+change(low)+(high!==null?' 至 '+change(high):'')+'。';
  }
- text+='（'+(/長期目標|業務目標/.test(kind)?'公司目標':/法人|共識/.test(kind)?'研究機構預估':'公司預估')+'，發布於 '+(x.published_at||'日期未提供')+'）';
- if(/子公司|專案|ASIC/.test(scope))text+='範圍：'+scope+'。';
+ if(/Cimpor/i.test(scope))text+='這是 Cimpor 自己的長期營收目標，台泥整個集團的營收還包含其他公司與業務。';
  return text;
 }
+function plainDirectionText(text){
+ return plainResearchText(text).replace(/先進封裝/g,'先進封裝（把晶片整合在一起，提高效能）').replace(/海外製造布局/g,'增加海外工廠').replace(/產能/g,'工廠生產能力').replace(/光充儲一體充電站/g,'結合太陽能發電、儲電與充電的站點').replace(/EnergyArk 儲能櫃/g,'EnergyArk 儲能櫃（把電存起來、需要時再供電）').replace(/設備智慧監測/g,'用電腦監測設備狀況').replace(/混凝土強度預測與配比模型/g,'預測混凝土強度、找出合適材料比例的電腦模型').replace(/量產/g,'大量生產').replace(/試產/g,'少量試做').replace(/送樣/g,'送產品樣品給客戶測試').replace(/產能利用率/g,'工廠實際開工的比例').replace(/商用/g,'正式供客戶使用').replace(/布局/g,'發展');
+}
+function companyOutlookHtml(stock,p){
+ const o=p.overview||{},valid=(o.outlooks||[]).filter(x=>Number.isFinite(x.low));
+ let direction=stock.symbol==='1101.TW'?'發展碳排放較低的水泥與建材，增加儲能、充電與電池相關業務，並整合海外水泥事業。':plainDirectionText(o.direction||p.transition?.text?.split('。')[0]||'目前資料尚未提供具體發展方向。');
+ if(!/[。！？]$/.test(direction))direction='把重點放在'+direction+'。';
+ const conclusion=x=>{const t=outlookConclusion(x,o),i=t.indexOf('：');return '<p><b class="outlook-summary-label">'+esc(t.slice(0,i+1))+'</b><span class="outlook-goal">'+esc(t.slice(i+1))+'</span></p>'};
+ const sourceMap=new Map();
+ for(const key of ['transition','developments'])for(const id of p[key]?.sources||[]){const r=p.sources?.[id];if(r)sourceMap.set(r.url,r)}
+ for(const x of valid)for(const url of x.urls||[])if(safeResearchUrl(url))sourceMap.set(url,{url,title:/Cimpor/i.test(x.scope)?'台泥：Cimpor 2030 年營收目標':x.type+' · '+x.period,published_at:x.published_at,accessed_at:x.source_reviewed_at});
+ if(o.direction)for(const url of o.urls||[])if(safeResearchUrl(url)&&!sourceMap.has(url))sourceMap.set(url,{url,title:'公司概況來源',accessed_at:o.source_reviewed_at});
+ const refs=[...sourceMap.values()].map(r=>'<li><a href="'+esc(safeResearchUrl(r.url))+'" target="_blank" rel="noopener noreferrer">'+esc(r.title)+' ↗</a><small> · '+(r.published_at?'發布 '+esc(r.published_at)+' · ':'')+'查閱 '+esc(r.accessed_at||'日期未提供')+'</small></li>').join('');
+ const entries=[p.transition,p.developments].filter(Boolean).map(x=>({...x,text:plainDirectionText(x.text).replace(/此分類是依年報整理的研究判讀。?/g,'').replace(/本摘要尚未查核其後實際進度，目前進度：公司規劃中/g,'這是年報發布時的計畫，後續進度仍待更新')}));
+ const details=stock.symbol==='1101.TW'?'<ul class="overview-points"><li><b>水泥與建材：</b>持續經營水泥業務，同時發展碳排放較低的建材、整合海外水泥事業。2026 上半年資料顯示，水泥仍是主要營收來源。</li><li><b>儲電與充電：</b>發展儲能櫃，把電存起來、需要時再供電；也提供結合太陽能發電、儲電與充電的站點，以及綠電交易服務。</li><li><b>讓工廠更容易管理：</b>英德廠從 2024 年 12 月開始使用 AI 智能礦山系統；官網列出的花蓮和平廠仍在規劃。Cimpor 已用電腦監測設備，也在研發預測混凝土強度、找出合適材料比例的模型。</li></ul>':entries.length?fusedResearchNarrative(p,entries,false):'<p>'+esc(direction)+'</p>';
+ const assumptions=valid.map(x=>'<article><h4>'+esc(x.type)+' · '+esc(x.period)+'</h4><p>'+esc(plainDirectionText(x.limitations))+'</p></article>').join('');
+ return '<section class="outlook-summary"><p><b class="outlook-summary-label">公司發展方向：</b><span class="key-sentence">'+esc(direction)+'</span></p>'+(valid.length?valid.map(conclusion).join(''):'<p>目前資料沒有提供可核對的營收目標金額。</p>')+'</section>'+(refs?'<details class="outlook-sources"><summary>查看來源與日期</summary><ul>'+refs+'</ul></details>':'')+'<h3>接下來有哪些具體工作？</h3>'+details+(assumptions?'<details><summary>查看目標的條件與補充資料</summary>'+assumptions+'</details>':'');
+}
+
 function overviewHtml(o){
  if(!o)return '';
  const refs=urls=>urls.map(url=>safeResearchUrl(url)?'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeResearchUrl(url))+'">原始來源 ↗</a>':'').join(' · ');
@@ -266,7 +309,7 @@ function overviewHtml(o){
 
  const annualRefs=Object.entries(amounts.cumulative||{}).filter(([p,v])=>p.endsWith('-Q4')&&safeResearchUrl(v.source_url)).sort().map(([p,v])=>'<li>'+esc(p.slice(0,4))+' 年全年 EPS：'+fnum(v.eps)+' 元／股 · '+refs([v.source_url])+'</li>').join('');
  const annualSources=annualRefs?'<details><summary>查看各年度 EPS 與原始來源</summary><ul>'+annualRefs+'</ul><p class="tiny">較早的年度 EPS 補自公開資訊觀測站；未逐家調整會計準則、股數變動與追溯重編差異。</p></details>':'';
- const forecasts=o.outlooks.map(x=>'<article class="outlook-note"><p><b>白話結論</b><br>'+esc(outlookConclusion(x,o))+'</p><details><summary>查看預估金額、假設與來源</summary><p><b>'+esc(x.type)+' · '+esc(x.period)+'</b><br>'+esc(x.scope)+' · '+esc(x.unit||'未提供金額單位')+(Number.isFinite(x.low)?' '+esc(x.low)+(Number.isFinite(x.high)?'–'+esc(x.high):''):'')+'<br>'+esc(plainResearchText(x.limitations))+'<br>這份預估發布於：'+esc(x.published_at||'未提供')+'<br>'+refs(x.urls)+'</p></details></article>').join('');
+ const forecasts=o.outlooks.map(x=>'<article class="outlook-note"><p>'+esc(outlookConclusion(x,o))+'</p><details><summary>查看預估金額、假設與來源</summary><p><b>'+esc(x.type)+' · '+esc(x.period)+'</b><br>'+esc(x.scope)+' · '+esc(x.unit||'未提供金額單位')+(Number.isFinite(x.low)?' '+esc(x.low)+(Number.isFinite(x.high)?'–'+esc(x.high):''):'')+'<br>'+esc(plainResearchText(x.limitations))+'<br>這份預估發布於：'+esc(x.published_at||'未提供')+'<br>'+refs(x.urls)+'</p></details></article>').join('');
  const events=o.events.map(x=>'<p><b>'+esc(x.type)+' · '+esc(x.period)+'</b><br>'+esc(x.status)+'<br>'+esc(plainResearchText(x.text))+'<br>'+refs(x.urls)+'</p>').join('');
  const bullets=text=>'<ul class="overview-points">'+String(text||'未提供').split(/[；;\n]/).filter(Boolean).map(x=>'<li>'+esc(plainResearchText(x.trim()))+'</li>').join('')+'</ul>';
  const money=(value,unit)=>Number.isFinite(value)?fnum(Math.abs(value))+' '+unit:'資料不足';
@@ -380,11 +423,11 @@ function init(){
  $('clearFilters').onclick=()=>{state.search='';state.filter='全部';state.researchFilter='all';$('search').value='';$('categoryFilter').value='全部';for(const k of ['priceMin','priceMax','metricMin','metricMax']){state[k]=null;$(k).value=''}state.page=1;render()};
  $('clearWatchBtn').onclick=()=>{if(!state.watchlist.length)return;clearedWatchlist=[...state.watchlist];state.watchlist=[];persist();$('undoWatchBtn').hidden=false;setTab('watchlist');showNotice('自選股已清空。可按「復原清空」恢復；重新整理前有效。','ok')};
  $('undoWatchBtn').onclick=()=>{if(!clearedWatchlist)return;state.watchlist=[...new Set([...clearedWatchlist,...state.watchlist])];clearedWatchlist=null;persist();$('undoWatchBtn').hidden=true;render()};
- $('prevPage').onclick=()=>{state.page--;render()};$('nextPage').onclick=()=>{state.page++;render()};$('fetchBtn').onclick=()=>{fetchLive();fetchResearch();fetchMovers();fetchCalendar()};$('exportBtn').onclick=exportWatchlist;$('returnToStocks').onclick=()=>{setTab(glossaryReturn.tab);state.page=glossaryReturn.page;render();$('listTitle').scrollIntoView({behavior:'smooth',block:'start'});};
+ $('prevPage').onclick=()=>{state.page--;render()};$('nextPage').onclick=()=>{state.page++;render()};$('fetchBtn').onclick=()=>{fetchLive();fetchResearch();fetchMovers();fetchCalendar()};$('exportBtn').onclick=exportWatchlist;$('returnToStocks').onclick=restoreStockView;
  window.addEventListener('storage',e=>{if(e.key===KEY){const p=readPreferences(localStorage);state.watchlist=p.watchlist;state.overrides=p.overrides;render()}});
  render();fetchLive();fetchResearch();initResearchUI();
 }
-const RESEARCH_PAGES=[['intro','先認識這家公司'],['metrics','用指標看公司表現'],['business','公司業務與獲利來源'],['results','最近成績'],['financial','營收與每股盈餘'],['balance','債務與資產負債表'],['outlook','未來財務與發展方向'],['events','事件與進度'],['sources','資料來源'],['calendar','會議與更新日程']];
+const RESEARCH_PAGES=[['intro','先認識這家公司'],['metrics','用指標看公司表現'],['business','公司業務與獲利來源'],['results','公司營業概況'],['balance','債務與資產負債表'],['outlook','未來財務與發展方向'],['events','事件與進度'],['sources','資料來源'],['calendar','會議與更新日程']];
 let researchView={symbol:null,index:0,pages:[],opener:null};
 function researchHtml(stock){
  const p=research.profiles[stock.symbol];
@@ -410,16 +453,15 @@ function balanceSheetHtml(stock){
  const ref=url=>safeResearchUrl(url)?'<a target="_blank" rel="noopener noreferrer" href="'+esc(safeResearchUrl(url))+'">原始財報來源 ↗</a>':'未提供來源';
  return '<h3>債務與資產負債表</h3><p><strong>報表日：'+esc(current.date)+' · '+esc(current.basis)+' · 金額單位：億元</strong></p><div class="balance-summary">'+cards.map(([label,value])=>'<div class="stat"><span>'+esc(label)+'</span><strong>'+esc(value)+'</strong></div>').join('')+'</div><ul>'+descriptions.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul><div class="research-table-wrap"><table><caption>簡明資產負債表｜期末金額</caption><thead><tr><th>項目</th>'+rows.map(r=>'<th>'+esc(r.date)+'</th>').join('')+'</tr></thead><tbody>'+fields.map(([k,label])=>'<tr><th>'+esc(label)+'</th>'+rows.map(r=>'<td>'+fnum(r[k])+'</td>').join('')+'</tr>').join('')+'</tbody></table></div><p>資產負債表是<strong>當天的帳面金額</strong>，不能把每季相加。— 表示未取得資料。</p><h4>營業現金流｜做生意有沒有帶進現金？</h4><p>'+esc(current.cashflow_period||'目前無可用期間')+'：<strong>'+fnum(current.operating_cashflow)+' 億元</strong>。這是期間內的現金流入減流出，不是銀行帳戶餘額。</p>'+(financial?'<h4>金融業監理指標</h4><p>資本適足率（'+esc(b.regulatory?.capital_type||'未取得')+'）：'+fraction(b.regulatory?.capital_adequacy??null)+'<br>逾放比率：'+fraction(b.regulatory?.npl_ratio??null)+'<br>呆帳覆蓋率：'+fraction(b.regulatory?.coverage_ratio??null)+'</p>':'')+'<p class="tiny">'+esc(b.note)+'<br>查核日：'+esc(current.reviewed_at)+'<br>'+ref(current.source_url)+' · '+ref(current.cashflow_source_url)+'</p>';
 }
-function fusedResearchNarrative(profile,entries){
+function fusedResearchNarrative(profile,entries,showSources=true){
  const seen=new Set(),items=[];
  for(const entry of entries){
   for(const raw of String(entry.text||'').split(/[。\n]/)){
    const text=plainResearchText(raw.trim());if(!text)continue;
    const signature=text.replace(/[\s，、；：()（）]/g,'')+'|'+(entry.period||'');if(seen.has(signature))continue;seen.add(signature);
    const refs=(entry.sources||[]).map(id=>profile?.sources?.[id]).filter(Boolean);
-   const citation=refs.map(ref=>{const url=safeResearchUrl(ref.url);return url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.title)+' ↗</a>':esc(ref.title);}).join('、');
-   const lead=items.length===0?text.split(/[；，]/)[0]:'';
-   const shown=lead&&lead.length<=100?'<span class="summary-emphasis">'+esc(lead)+'</span>'+esc(text.slice(lead.length)):esc(text);
+   const citation=(showSources?refs:[]).map(ref=>{const url=safeResearchUrl(ref.url);return url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.title)+' ↗</a>':esc(ref.title);}).join('、');
+   const shown=esc(text);
    items.push('<li>'+shown+'<small class="research-fact-source">'+esc(entry.period||'資料期間未提供')+(citation?' · '+citation:'')+'</small></li>');
   }
  }
@@ -446,10 +488,10 @@ function companyPages(stock){
   intro:outer(host.querySelector('.quick-company-summary')),
   metrics:companyMetricsHtml(stock),
   business:'<h3>公司做什麼、主要靠什麼賺錢？</h3>'+fusedResearchNarrative(p,businessEntries),
-  results:outer(blocks[1])+(resultsExtra?'<h3>歷年成績與獲利變化</h3>'+fusedResearchNarrative(p,[earningEntry(resultsExtra)]):''),
+  results:outer(blocks[1]).replace('</h5>','</h5><button type="button" class="button" data-company-financial>營收與每股盈餘 →</button>')+(resultsExtra?'<h3>歷年成績與獲利變化</h3>'+fusedResearchNarrative(p,[earningEntry(resultsExtra)]):''),
   financial:body(details[0]),
   balance:balanceSheetHtml(stock),
-  outlook:'<h3>接下來往哪裡發展？</h3>'+fusedResearchNarrative(p,directionEntries)+'<h3>公司或研究機構的數字預估</h3>'+((o?.outlooks||[]).some(x=>Number.isFinite(x.low))?body(details[1]):'<p>目前資料未提供可核對的數字預估。</p>'),
+  outlook:companyOutlookHtml(stock,p),
   events:body(details[2]),
   sources:body(details[3])+sources.filter(x=>x.querySelector('summary')?.textContent==='研究限制與來源日期').map(body).join(''),
   calendar:calendarCompanyHtml(stock)
@@ -463,11 +505,19 @@ function renderResearchPage(){
  $('researchCompany').textContent=stock.name+'（'+stock.symbol.slice(0,-3)+'）';$('researchPageTitle').textContent=page.label+(page.key==='balance'?'（金額單位：億元）':'');
  $('researchPageBody').innerHTML=page.html;highlightNarrative($('researchPageBody'));$('researchPageBody').scrollTop=0;wireCalendarCompanies($('researchPageBody'));
 
- $('researchPageTabs').innerHTML=researchView.pages.map((p,i)=>'<button class="button small '+(i===researchView.index?'active':'')+'" type="button" role="tab" aria-selected="'+(i===researchView.index)+'" data-modal-page="'+i+'">'+esc(p.label)+'</button>').join('');
+ $('researchPageSelect').innerHTML=researchView.pages.map((p,i)=>'<option value="'+i+'" '+(i===researchView.index?'selected':'')+'>'+esc(p.label)+'</option>').join('');
  $('researchPagePosition').textContent=(researchView.index+1)+' / '+researchView.pages.length;
  $('researchPrev').disabled=researchView.index===0;$('researchNext').disabled=researchView.index===researchView.pages.length-1;
- $('researchPageTabs').querySelector('[aria-selected="true"]')?.scrollIntoView({block:'nearest',inline:'nearest'});
- $('researchPageTabs').querySelectorAll('[data-modal-page]').forEach(b=>b.onclick=()=>changeResearchPage(Number(b.dataset.modalPage),true));wireMetricHelp();
+ $('researchPageSelect').onchange=e=>changeResearchPage(Number(e.target.value),true);$('researchPageBody').querySelector('[data-company-financial]')?.addEventListener('click',()=>openCompanyFinancial(stock));wireMetricHelp();
+}
+function openCompanyFinancial(stock){
+ const host=document.createElement('div');host.innerHTML=fullResearchHtml(stock);
+ const detail=host.querySelector('.imported-overview > details');
+ detail?.querySelector(':scope > summary')?.remove();
+ $('companyFinancialTitle').textContent=stock.name+'（'+stock.symbol.slice(0,-3)+'）｜營收與每股盈餘';
+ $('companyFinancialBody').innerHTML=detail?.innerHTML||'<p>目前尚未提供這部分資料。</p>';
+ $('companyFinancialBody').querySelectorAll('table').forEach(table=>{const wrap=document.createElement('div');wrap.className='research-table-wrap';table.replaceWith(wrap);wrap.append(table)});
+ $('companyFinancialBody').scrollTop=0;$('companyFinancialDialog').showModal();wireMetricHelp();
 }
 function changeResearchPage(value,absolute=false){const index=absolute?value:researchView.index+value;if(index<0||index>=researchView.pages.length)return;researchView.index=index;renderResearchPage();}
 function openCompanyResearch(symbol,index,opener){
@@ -476,26 +526,29 @@ function openCompanyResearch(symbol,index,opener){
 }
 function wireResearchButtons(){document.querySelectorAll('[data-research-page]').forEach(b=>b.onclick=()=>openCompanyResearch(b.dataset.researchSymbol,Number(b.dataset.researchPage),b));}
 function selectCompany(symbol){state.selected=symbol;render();if(window.matchMedia('(max-width:1099px)').matches)$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});}
-let movers={payload:null,error:false,period:'5'};
+let movers={payload:null,error:false,period:'5',view:'gainers'};
 function moverSummary(rows){const counts=new Map();for(const r of rows)counts.set(r.industry,(counts.get(r.industry)||0)+1);const sorted=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));return rows.length?'共 '+rows.length+' 家符合條件，其中'+sorted.slice(0,3).map(([name,n])=>name+' '+n+' 家').join('、')+'。'+(sorted[0]?.[1]===1?'分布較分散。':'這是榜單的產業分布。'):'這段期間沒有符合條件的股票。';}
 function renderMovers(){
+ for(const [id,view] of [['moverGainers','gainers'],['moverLosers','losers']]){$(id).setAttribute('aria-pressed',String(movers.view===view));$(id).classList.toggle('active',movers.view===view);}
  const root=$('marketMovers');if(!root)return;const p=movers.payload?.periods?.[movers.period];
  $('moversPeriod').value=movers.period;
  if(!p){$('moversContent').innerHTML='<p>'+esc(movers.error?'暫時無法載入漲跌排行，請稍後更新。':'這個期間的歷史股價尚未補齊，暫不排名。')+'</p>';return;}
- $('moversContent').innerHTML='<p class="tiny">'+(p.start?esc(p.start)+' → ':'官方前一日比較基準 → ')+esc(p.end)+' · '+p.count+' 家可比較公司 · 按漲跌百分比排名</p><div class="mover-grid">'+[['gainers','最近夯什麼？','漲幅超過 5%'],['losers','最近最不夯什麼？','跌幅超過 5%']].map(([key,title,sub])=>'<section class="mover-card"><h3>'+title+'<small>'+sub+'</small></h3><p>'+esc(moverSummary(p[key]))+'</p><ol>'+p[key].map(r=>'<li><button type="button" class="mover-company" data-mover-symbol="'+esc(r.symbol)+'"><span><b>'+esc(r.name)+'</b> '+esc(r.symbol.slice(0,-3))+'<small>'+esc(r.industry)+'</small></span><strong class="'+(r.change>0?'rise':'fall')+'">'+(r.change>0?'+':'')+pct(r.change)+'</strong></button></li>').join('')+'</ol></section>').join('')+'</div><p class="tiny">這裡的「夯／不夯」只指股價漲跌，不代表公司好壞。'+esc(movers.payload.basis)+'列出所有漲幅或跌幅超過 5% 的公司，不限十家；一般漲停、跌停公司也包含在內。漲停、跌停是單日限制，一週或一個月的累計漲跌不稱為漲停、跌停。族群依公司產業整理，未判定漲跌原因。</p>';
+ $('moversContent').innerHTML='<p class="tiny">'+(p.start?esc(p.start)+' → ':'官方前一日比較基準 → ')+esc(p.end)+' · '+p.count+' 家可比較公司 · 按漲跌百分比排名</p><div class="mover-grid">'+[['gainers','最近夯什麼？','漲幅超過 5%'],['losers','最近最不夯什麼？','跌幅超過 5%']].map(([key,title,sub])=>'<section class="mover-card '+(movers.view===key?'':'mobile-unselected')+'"><h3>'+title+'<small>'+sub+'</small></h3><p>'+esc(moverSummary(p[key]))+'</p><ol>'+p[key].map(r=>'<li><button type="button" class="mover-company" data-mover-symbol="'+esc(r.symbol)+'"><span><b>'+esc(r.name)+'</b> '+esc(r.symbol.slice(0,-3))+'<small>'+esc(r.industry)+'</small></span><strong class="'+(r.change>0?'rise':'fall')+'">'+(r.change>0?'+':'')+pct(r.change)+'</strong></button></li>').join('')+'</ol></section>').join('')+'</div><p class="tiny">這裡的「夯／不夯」只指股價漲跌，不代表公司好壞。'+esc(movers.payload.basis)+'列出所有漲幅或跌幅超過 5% 的公司，不限十家；一般漲停、跌停公司也包含在內。漲停、跌停是單日限制，一週或一個月的累計漲跌不稱為漲停、跌停。族群依公司產業整理，未判定漲跌原因。</p>';
  $('moversContent').querySelectorAll('[data-mover-symbol]').forEach(b=>b.onclick=()=>{$('moversDialog').close();state.filter='全部';state.search=b.dataset.moverSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.moverSymbol);$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});});
 }
 async function fetchMovers(){try{const response=await fetch('./data/market-movers.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error();const payload=await response.json();if(payload.schema_version!==1||!payload.periods)throw Error();for(const p of Object.values(payload.periods))for(const r of [...p.gainers,...p.losers])if(!/^\d{4}\.TW$/.test(r.symbol)||!Number.isFinite(r.change))throw Error();movers.payload=payload;movers.error=false;}catch{movers.error=true;}renderMovers();render();}
 function initResearchUI(){
  $('classificationHelpOpen').onclick=()=>{$('classificationHelpBody').innerHTML=CATS.map(c=>'<section><h3>'+esc(c.id)+' · 先看 '+esc(metricName(c.abbr))+'</h3>'+classificationExplanation(c)+'</section>').join('');highlightNarrative($('classificationHelpBody'));$('classificationHelp').showPopover();};$('classificationHelpClose').onclick=()=>$('classificationHelp').hidePopover();
  $('peerPeClose').onclick=()=>$('peerPePopover').hidePopover();
- $('peerHelpOpen').onclick=()=>$('peerHelpPopover').showPopover();$('peerHelpClose').onclick=()=>$('peerHelpPopover').hidePopover();$('peerHelpFull').onclick=()=>{$('peerHelpPopover').hidePopover();glossaryReturn={tab:state.tab==='watchlist'?'watchlist':'all',page:state.page};setTab('rules');$('rules').scrollIntoView({behavior:'smooth',block:'start'});};
+ $('peerHelpOpen').onclick=()=>$('peerHelpPopover').showPopover();$('peerHelpClose').onclick=()=>$('peerHelpPopover').hidePopover();$('peerHelpFull').onclick=()=>{rememberStockView();$('peerHelpPopover').hidePopover();setTab('rules');$('rules').scrollIntoView({behavior:'smooth',block:'start'});};
  $('calendarOpen').onclick=()=>$('calendarDialog').showModal();$('calendarClose').onclick=()=>$('calendarDialog').close();$('calendarDialog').addEventListener('close',()=>$('calendarOpen').focus());for(const [id,view] of [['calendarUpcoming','upcoming'],['calendarQueue','queue']])$(id).onclick=()=>{calendar.view=view;renderCalendar();};fetchCalendar();
  $('metricHelpClose').onclick=()=>$('metricHelpPopover').hidePopover();$('metricHelpFull').onclick=showFullMetricHelp;
+ $('companyFinancialClose').onclick=()=>$('companyFinancialDialog').close();
  $('researchClose').onclick=()=>$('researchDialog').close();$('researchPrev').onclick=()=>changeResearchPage(-1);$('researchNext').onclick=()=>changeResearchPage(1);
  $('researchDialog').addEventListener('close',()=>researchView.opener?.focus());
- $('researchDialog').addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea'))return;if(e.key==='ArrowLeft'){e.preventDefault();changeResearchPage(-1);}if(e.key==='ArrowRight'){e.preventDefault();changeResearchPage(1);}});
+ $('researchDialog').addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea')||$('companyFinancialDialog').open)return;if(e.key==='ArrowLeft'){e.preventDefault();changeResearchPage(-1);}if(e.key==='ArrowRight'){e.preventDefault();changeResearchPage(1);}});
  let touch=null;const body=$('researchPageBody');body.addEventListener('touchstart',e=>{touch=e.target.closest('.research-table-wrap')?null:{x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true});body.addEventListener('touchend',e=>{if(!touch)return;const x=e.changedTouches[0].clientX-touch.x,y=e.changedTouches[0].clientY-touch.y;if(Math.abs(x)>70&&Math.abs(x)>Math.abs(y)*1.5)changeResearchPage(x<0?1:-1);touch=null;},{passive:true});
+ for(const [id,view] of [['moverGainers','gainers'],['moverLosers','losers']])$(id).onclick=()=>{movers.view=view;renderMovers();$('moversDialog').querySelector('.research-modal-body').scrollTop=0;};
  $('moversPeriod').onchange=e=>{movers.period=e.target.value;renderMovers();};$('moversOpen').onclick=()=>$('moversDialog').showModal();$('moversClose').onclick=()=>$('moversDialog').close();$('moversDialog').addEventListener('close',()=>$('moversOpen').focus());fetchMovers();
 }
 
