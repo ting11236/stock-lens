@@ -88,3 +88,5 @@
 .hero{justify-content:flex-start;padding-top:18px;padding-bottom:12px}
 
 .metric-button-word{color:#b42318;font-weight:400}.research-buttons .research-button:nth-child(2){grid-column:1/-1}.research-modal-body .stats-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}.research-modal-body .stat{min-width:0}
+
+.research-buttons .research-button:nth-child(-n+2){border:3px solid #b42318;background:#fff;color:#111;font-weight:700}.research-buttons .research-button:nth-child(-n+2):hover{background:#fff4f2}.research-buttons .research-button:nth-child(2) .metric-button-word{color:inherit;font-weight:inherit}
