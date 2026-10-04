@@ -80,3 +80,5 @@
 .keyword-search-panel .keyword-separator-note{color:#b42318;font-weight:400}.keyword-separator-note u{text-underline-offset:3px}
 
 .peer-pe-key{color:#b42318;font-weight:400}
+
+.integrated-category{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}.integrated-category h4{font-size:19px;margin:0 0 8px}.integrated-category p,.integrated-category li{font-size:16px;line-height:1.75}.integrated-category .priority-metric{margin:12px 0}.integrated-category .tiny{font-size:14px}
