@@ -93,12 +93,21 @@ function classificationHelpHtml(cat){
  return '<section><h3>'+esc(cat.id)+' · 先看 <span class="content-keyword">'+esc(name)+'</span>（'+esc(cat.abbr)+'）</h3>'+body+'</section>';
 }
 const METRIC_READING_GUIDE={"pe": {"who": "有正常、持續獲利的公司。本站「穩定獲利股」先參考 PE，再檢查多年獲利是否穩定。", "read": "先和主要業務相近的公司、這家公司過去的 PE 比較。低於比較基準，可能股價較便宜，也可能未來獲利會變差；高於基準，可能較貴，也可能成長較快。科技股或傳產股都沒有通用的合理倍數。", "also": "看獲利是否來自本業、能否持續，並比較成長、現金流、負債與 ROE。若獲利主要來自一次性的賣資產或投資收益，PE 可能暫時偏低。虧損時改看其他適用指標。"}, "pb": {"who": "本站「週期股」先參考 PB；「重資產股」主要是金融公司，優先一起看 PB 股價淨值比＋ROE。週期股的收入與獲利容易隨景氣和報價變動，金融公司則要特別看資產品質與賺錢效率。", "read": "PB 小於 1，股價低於每股帳面淨值（可能便宜？）；大於 1，股價高於每股帳面淨值（可能貴？）。再和相近公司及自身過去的 PB 比較，確認資產價值與賺錢能力能否支撐價格。", "also": "週期股看產品報價、供需、訂單、產能與景氣位置；金融公司看 ROE、呆帳、資本與負債。帳面資產可能縮水。景氣高峰時獲利特別多，也可能讓 PE 暫時很低。其他資產多的公司仍要依業務選擇指標。"}, "ps": {"who": "有實際營收、但仍在虧損或尚未穩定獲利的公司，本站「虧損企業」先參考 PS。還沒有產品營收的研發型生技公司，則先看研發進度與現金。", "read": "和主要業務、利潤率相近的公司比較。PS 較低，表示市場給每元營收的價格較低，可能便宜，也可能生意或轉盈前景較差；較高則需要更好的成長或利潤支撐。", "also": "看毛利率、營收成長、每月消耗多少現金、現金能撐多久，以及何時可能轉盈。同樣營收，毛利不同，最後賺的錢也可能差很多。"}, "peg": {"who": "已獲利、EPS 成長資料可比較的成長型公司。本站「高成長股」先參考 PEG，但分類用的單月營收成長，和 PEG 使用的 EPS 成長是兩件事。", "read": "PEG 約 1，表示 PE 倍數和 EPS 成長百分點接近，是常見的參考起點。低於 1，可能股價相對成長較便宜，也可能成長率只是短期跳升；高於 1，可能價格較高，也可能市場認為成長較可靠。再比較同類公司的計算期間與成長來源。", "also": "成長要用 EPS，並確認成長能否持續。檢查一次性獲利、過低基期、負債與現金流。成長為零、負值或資料不可比時，保留原因，不硬算 PEG。"}, "roe": {"who": "用來檢查公司的賺錢效率，尤其適合搭配 PB 觀察本站重資產股中的金融公司；也可補充判讀 PE 或 PEG。", "read": "和業務相近的公司、自己過去幾年的 ROE 比較。較高代表股東資金的獲利效率較高，還要確認原因；較低則要看是否短期受影響，或長期賺錢能力偏弱。沒有適用所有產業的固定好壞門檻。", "also": "看獲利是否持續、現金流與負債。大量借款、股東權益減少或一次性收益，都可能推高 ROE。搭配 PB 時，一起問「股價相對淨值多少倍？」和「這些淨值能賺多少錢？」。"}};
+function ruleEmphasis(text){
+ const red=['明顯標記的「先看什麼」是閱讀起點。','有正常、持續獲利的公司','虧損時改看其他適用指標。','本站「週期股」先參考 PB；「重資產股」主要是金融公司，優先一起看 PB 股價淨值比＋ROE。','銀行、保險、證券','本站「高成長股」先參考 PEG','金融公司'];
+ const underline=['隨景氣和報價變動','資產品質與賺錢效率',METRIC_READING_GUIDE.pb.also];
+ const phrases=[...red.map(x=>[x,'content-keyword']),...underline.map(x=>[x,'key-sentence']),['「穩定獲利股」','rule-bold-red']].sort((a,b)=>b[0].length-a[0].length);
+ let result='',remaining=String(text);
+ while(remaining){let hit=null,index=remaining.length;for(const [phrase,cls] of phrases){const i=remaining.indexOf(phrase);if(i>=0&&i<index){index=i;hit=[phrase,cls];}}if(!hit){result+=esc(remaining);break;}result+=esc(remaining.slice(0,index))+'<span class="'+hit[1]+'">'+esc(hit[0])+'</span>';remaining=remaining.slice(index+hit[0].length);}
+ return result;
+}
+function rangeEmphasis(text){return esc(text).replace(/[高低]/g,word=>'<span class="content-keyword">'+word+'</span>');}
 function renderRules(){
  for(const key of ['pe','pb','ps','peg','roe']){
   const g=METRIC_READING_GUIDE[key],sections=RULE_SECTIONS.filter(section=>CATS.find(c=>c.id===section.id)?.metric===key);
-  const classification=sections.map(section=>'<h5>'+esc(section.id)+'</h5>'+classificationExplanation(CATS.find(c=>c.id===section.id))).join('');
-  const ranges=key==='pe'?'':sections.map(section=>'<h5>'+esc(section.id)+'</h5><div class="rule-table-wrap" tabindex="0" aria-label="估值倍數學習表，可左右捲動"><table><thead><tr><th>區間</th><th>白話解讀</th><th>還要看什麼？</th></tr></thead><tbody>'+section.rows.map(r=>'<tr>'+r.map(v=>'<td>'+esc(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div><p>'+esc(section.note)+'</p>').join('');
-  $('metric-rules-'+key).innerHTML='<h4>適合哪些公司？</h4><p>'+esc(g.who)+'</p><h4>數字怎麼看？</h4><p>'+esc(g.read)+'</p>'+(key==='pe'?'<p class="key-sentence">同業中位數可以當比較起點，再看相近公司的成長、獲利、負債，以及公司自己過去的 PE。</p><p>中位數、平均值、個別相似公司與自身歷史都是可用的比較基準。</p>':'')+'<h4>還要一起看什麼？</h4><p>'+esc(g.also)+'</p>'+(classification?'<details><summary>本站分類依據</summary>'+classification+'</details>':'')+(ranges?'<details><summary>倍數區間示例（學習參考）</summary><p>以下是學習用的示例，實際判斷要和業務相近的公司及自身歷史比較。</p>'+ranges+'</details>':'');
+  const classification=sections.map(section=>'<h5>'+esc(section.id)+'</h5>'+classificationExplanation(CATS.find(c=>c.id===section.id)).replaceAll('銀行、保險、證券','<span class="content-keyword">銀行、保險、證券</span>')).join('');
+  const ranges=key==='pe'?'':sections.map(section=>'<h5>'+esc(section.id)+'</h5><div class="rule-table-wrap" tabindex="0" aria-label="估值倍數學習表，可左右捲動"><table><thead><tr><th>區間</th><th>白話解讀</th><th>還要看什麼？</th></tr></thead><tbody>'+section.rows.map(r=>'<tr>'+r.map(v=>'<td>'+rangeEmphasis(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div><p>'+esc(section.note)+'</p>').join('');
+  $('metric-rules-'+key).innerHTML='<h4>適合哪些公司？</h4><p>'+ruleEmphasis(g.who)+'</p><h4>數字怎麼看？</h4><p>'+esc(g.read)+'</p>'+(key==='pe'?'<p class="key-sentence">同業中位數可以當比較起點，再看相近公司的成長、獲利、負債，以及公司自己過去的 PE。</p><p>中位數、平均值、個別相似公司與自身歷史都是可用的比較基準。</p>':'')+'<h4>還要一起看什麼？</h4><p>'+ruleEmphasis(g.also)+'</p>'+(classification?'<details><summary>本站分類依據</summary>'+classification+'</details>':'')+(ranges?'<details><summary>倍數區間示例（學習參考）</summary><p>以下是學習用的示例，實際判斷要和業務相近的公司及自身歷史比較。</p>'+ranges+'</details>':'');
  }
  highlightNarrative($('rules'));
 }
