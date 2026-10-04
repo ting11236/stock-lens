@@ -84,3 +84,5 @@
 .integrated-category{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}.integrated-category h4{font-size:19px;margin:0 0 8px}.integrated-category p,.integrated-category li{font-size:16px;line-height:1.75}.integrated-category .priority-metric{margin:12px 0}.integrated-category .tiny{font-size:14px}
 
 .integrated-rules h4{font-size:18px;margin:16px 0 6px;color:#175b3e}.integrated-rules h5{font-size:17px;margin:15px 0 7px}.integrated-rules p,.integrated-rules li{font-size:16px;line-height:1.75}
+
+.hero{justify-content:flex-start;padding-top:18px;padding-bottom:12px}
