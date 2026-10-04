@@ -108,3 +108,5 @@
 .mover-switch{display:none}@media(max-width:700px){.mover-switch{display:flex;position:sticky;top:-16px;z-index:2;gap:8px;background:#fff;padding:12px 0}.mover-switch .button{flex:1;font-size:17px;border:2px solid #39745c}.mover-switch .active{background:#39745c;color:white}.mover-card.mobile-unselected{display:none}}
 
 .view-back-button{font-size:13px;padding:6px 10px;min-height:36px;border-width:1px;bottom:12px;left:12px}
+
+#researchPageSelect{text-align:left;cursor:pointer}#researchPageTabs>span{white-space:nowrap;font-size:15px}.research-page-menu{position:fixed;inset:auto;margin:0;padding:4px 10px;border:1px solid #dce4df;border-radius:8px;background:#fff;box-shadow:0 8px 24px #0002;overflow-y:auto;color:var(--text)}.research-page-menu button{display:block;width:100%;border:0;border-bottom:1px dashed #d4dbd7;background:#fff;text-align:left;padding:12px 10px;min-height:44px;font-size:16px;color:inherit;line-height:1.4}.research-page-menu button:last-child{border-bottom:0}.research-page-menu button[aria-selected="true"]{background:#e9f4ef;color:#173c2d;font-weight:600}.research-page-menu button:hover{background:#f3f7f4}

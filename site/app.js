@@ -505,10 +505,16 @@ function renderResearchPage(){
  $('researchCompany').textContent=stock.name+'（'+stock.symbol.slice(0,-3)+'）';$('researchPageTitle').textContent=page.label+(page.key==='balance'?'（金額單位：億元）':'');
  $('researchPageBody').innerHTML=page.html;highlightNarrative($('researchPageBody'));$('researchPageBody').scrollTop=0;wireCalendarCompanies($('researchPageBody'));
 
- $('researchPageSelect').innerHTML=researchView.pages.map((p,i)=>'<option value="'+i+'" '+(i===researchView.index?'selected':'')+'>'+esc(p.label)+'</option>').join('');
+ $('researchPageSelect').textContent=page.label+' ▾';$('researchPageSelect').setAttribute('aria-label','公司資料項目：'+page.label);
+ $('researchPageMenu').innerHTML=researchView.pages.map((p,i)=>'<button type="button" role="option" aria-selected="'+(i===researchView.index)+'" data-modal-page="'+i+'">'+esc(p.label)+'</button>').join('');
+ $('researchPageMenu').querySelectorAll('[data-modal-page]').forEach(b=>b.onclick=()=>{$('researchPageMenu').hidePopover();changeResearchPage(Number(b.dataset.modalPage),true);$('researchPageSelect').focus()});
  $('researchPagePosition').textContent=(researchView.index+1)+' / '+researchView.pages.length;
  $('researchPrev').disabled=researchView.index===0;$('researchNext').disabled=researchView.index===researchView.pages.length-1;
- $('researchPageSelect').onchange=e=>changeResearchPage(Number(e.target.value),true);$('researchPageBody').querySelector('[data-company-financial]')?.addEventListener('click',()=>openCompanyFinancial(stock));wireMetricHelp();
+ $('researchPageBody').querySelector('[data-company-financial]')?.addEventListener('click',()=>openCompanyFinancial(stock));wireMetricHelp();
+}
+function openResearchPageMenu(){
+ const picker=$('researchPageSelect'),menu=$('researchPageMenu');if(menu.matches(':popover-open')){menu.hidePopover();return;}
+ const rect=picker.getBoundingClientRect();menu.style.left=rect.left+'px';menu.style.top=(rect.bottom+4)+'px';menu.style.width=rect.width+'px';menu.style.maxHeight=Math.max(180,window.innerHeight-rect.bottom-24)+'px';menu.showPopover();menu.querySelector('[aria-selected="true"]')?.focus();
 }
 function openCompanyFinancial(stock){
  const host=document.createElement('div');host.innerHTML=fullResearchHtml(stock);
@@ -543,10 +549,13 @@ function initResearchUI(){
  $('peerHelpOpen').onclick=()=>$('peerHelpPopover').showPopover();$('peerHelpClose').onclick=()=>$('peerHelpPopover').hidePopover();$('peerHelpFull').onclick=()=>{rememberStockView();$('peerHelpPopover').hidePopover();setTab('rules');$('rules').scrollIntoView({behavior:'smooth',block:'start'});};
  $('calendarOpen').onclick=()=>$('calendarDialog').showModal();$('calendarClose').onclick=()=>$('calendarDialog').close();$('calendarDialog').addEventListener('close',()=>$('calendarOpen').focus());for(const [id,view] of [['calendarUpcoming','upcoming'],['calendarQueue','queue']])$(id).onclick=()=>{calendar.view=view;renderCalendar();};fetchCalendar();
  $('metricHelpClose').onclick=()=>$('metricHelpPopover').hidePopover();$('metricHelpFull').onclick=showFullMetricHelp;
+ $('researchPageSelect').onclick=openResearchPageMenu;$('researchPageSelect').onkeydown=e=>{if(['ArrowDown','ArrowUp'].includes(e.key)){e.preventDefault();openResearchPageMenu();}};
+ $('researchPageMenu').addEventListener('toggle',()=>{$('researchPageSelect').setAttribute('aria-expanded',String($('researchPageMenu').matches(':popover-open')))});
+ $('researchPageMenu').onkeydown=e=>{const buttons=[...$('researchPageMenu').querySelectorAll('[role="option"]')],index=buttons.indexOf(document.activeElement);let next=null;if(e.key==='ArrowDown')next=(index+1)%buttons.length;if(e.key==='ArrowUp')next=(index-1+buttons.length)%buttons.length;if(e.key==='Home')next=0;if(e.key==='End')next=buttons.length-1;if(next!==null){e.preventDefault();buttons[next]?.focus();}};
  $('companyFinancialClose').onclick=()=>$('companyFinancialDialog').close();
  $('researchClose').onclick=()=>$('researchDialog').close();$('researchPrev').onclick=()=>changeResearchPage(-1);$('researchNext').onclick=()=>changeResearchPage(1);
  $('researchDialog').addEventListener('close',()=>researchView.opener?.focus());
- $('researchDialog').addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea')||$('companyFinancialDialog').open)return;if(e.key==='ArrowLeft'){e.preventDefault();changeResearchPage(-1);}if(e.key==='ArrowRight'){e.preventDefault();changeResearchPage(1);}});
+ $('researchDialog').addEventListener('keydown',e=>{if(e.defaultPrevented||e.target.closest('input,select,textarea')||$('companyFinancialDialog').open||$('researchPageMenu').matches(':popover-open'))return;if(e.key==='ArrowLeft'){e.preventDefault();changeResearchPage(-1);}if(e.key==='ArrowRight'){e.preventDefault();changeResearchPage(1);}});
  let touch=null;const body=$('researchPageBody');body.addEventListener('touchstart',e=>{touch=e.target.closest('.research-table-wrap')?null:{x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true});body.addEventListener('touchend',e=>{if(!touch)return;const x=e.changedTouches[0].clientX-touch.x,y=e.changedTouches[0].clientY-touch.y;if(Math.abs(x)>70&&Math.abs(x)>Math.abs(y)*1.5)changeResearchPage(x<0?1:-1);touch=null;},{passive:true});
  for(const [id,view] of [['moverGainers','gainers'],['moverLosers','losers']])$(id).onclick=()=>{movers.view=view;renderMovers();$('moversDialog').querySelector('.research-modal-body').scrollTop=0;};
  $('moversPeriod').onchange=e=>{movers.period=e.target.value;renderMovers();};$('moversOpen').onclick=()=>$('moversDialog').showModal();$('moversClose').onclick=()=>$('moversDialog').close();$('moversDialog').addEventListener('close',()=>$('moversOpen').focus());fetchMovers();
