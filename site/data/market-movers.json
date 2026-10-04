@@ -1,5 +1,6 @@
 {
   "basis": "收盤價漲跌幅，未還原除權息；不含股息報酬。單日用官方漲跌價差的比較基準；5／20 日用起訖收盤價。",
+  "errors": [],
   "latest_date": "2026-10-02",
   "periods": {
     "1": {
@@ -451,5 +452,6 @@
     }
   },
   "schema_version": 1,
-  "source": "https://www.twse.com.tw/exchangeReport/MI_INDEX"
+  "source": "https://www.twse.com.tw/exchangeReport/MI_INDEX",
+  "updated_at": "2026-10-04T04:23:50+00:00"
 }
