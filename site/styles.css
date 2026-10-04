@@ -86,3 +86,5 @@
 .integrated-rules h4{font-size:18px;margin:16px 0 6px;color:#175b3e}.integrated-rules h5{font-size:17px;margin:15px 0 7px}.integrated-rules p,.integrated-rules li{font-size:16px;line-height:1.75}
 
 .hero{justify-content:flex-start;padding-top:18px;padding-bottom:12px}
+
+.metric-button-word{color:#b42318;font-weight:400}.research-buttons .research-button:nth-child(2){grid-column:1/-1}.research-modal-body .stats-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}.research-modal-body .stat{min-width:0}
