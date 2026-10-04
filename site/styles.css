@@ -96,3 +96,5 @@
 .classification-help{margin:-12px 0 20px}.classification-help .button{font-size:15px;color:var(--green)}@media(max-width:760px){#categoryCards{gap:8px;margin:16px 0 12px}#categoryCards .metric-card{padding:12px 14px}#categoryCards .metric-card .tiny{display:none}#categoryCards .category-first-metric small{display:none}#categoryCards .metric-card>strong{display:inline-block;font-size:16px;margin:3px 0 0}#categoryCards .metric-card>strong::after{content:" 家";font-size:13px;font-weight:400}#categoryCards .category-first-metric{display:block}#categoryCards .metric-card.active{padding-top:24px}.classification-help{margin:0 0 18px}}
 
 .summary-emphasis,.quick-company-summary li>strong,.metric-rules h4{color:#b42318;font-weight:400}.quick-company-summary li>strong{font-size:inherit}
+
+#classificationHelpBody strong{color:#b42318;font-weight:400}
