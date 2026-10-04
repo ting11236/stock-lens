@@ -76,3 +76,5 @@
 #moversOpen .movers-subtitle{display:block;font-size:14px;line-height:1.5;margin:5px 0 0;color:#b42318;font-weight:400}#moversOpen{text-align:left}
 
 #moversOpen{font-size:22px;display:inline-flex;flex-direction:column;align-items:flex-start;gap:0}#moversOpen>span{display:block;line-height:1.4}
+
+.keyword-search-panel .keyword-separator-note{color:#b42318;font-weight:400}.keyword-separator-note u{text-underline-offset:3px}
