@@ -427,7 +427,7 @@ function init(){
  window.addEventListener('storage',e=>{if(e.key===KEY){const p=readPreferences(localStorage);state.watchlist=p.watchlist;state.overrides=p.overrides;render()}});
  render();fetchLive();fetchResearch();initResearchUI();
 }
-const RESEARCH_PAGES=[['intro','先認識這家公司'],['metrics','用指標看公司表現'],['business','公司業務與獲利來源'],['results','公司營業概況'],['balance','債務與資產負債表'],['outlook','未來財務與發展方向'],['events','事件與進度'],['sources','資料來源'],['calendar','會議與更新日程']];
+const RESEARCH_PAGES=[['intro','先認識這家公司'],['metrics','用指標看公司表現'],['results','公司營業概況'],['business','公司業務與獲利來源'],['balance','債務與資產負債表'],['outlook','未來財務與發展方向'],['events','事件與進度'],['sources','資料來源'],['calendar','會議與更新日程']];
 let researchView={symbol:null,index:0,pages:[],opener:null};
 function researchHtml(stock){
  const p=research.profiles[stock.symbol];
