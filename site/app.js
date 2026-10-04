@@ -51,7 +51,12 @@ function industryPeReference(stock){
  const quantile=q=>{const i=(values.length-1)*q,lower=Math.floor(i);return values[lower]+(values[Math.ceil(i)]-values[lower])*(i-lower);};
  return {count:values.length,date,median:quantile(.5),low:quantile(.25),high:quantile(.75)};
 }
-function industryPeHtml(stock){const peers=industryPeReference(stock);return '<div class="rule-hint peer-pe-reference"><b>'+metricHelpLink('pe','PE 本益比')+'：務必和主要業務相近的同類股票比較。</b><p><strong>PE 是常見的獲利比較指標，適合有正獲利、且獲利能持續的公司。</strong>公司正在虧損時，PE 通常無法合理比較；若有實際營收，可以先看 PS，但還要看何時能轉為獲利。</p>'+(catMeta(stock).metric==='ps'?'<p><strong>這家公司優先參考 PS</strong>，不過下方仍列出同類股票的 PE 區間，供你比較參考。</p>':'')+(peers?'<p class="peer-pe-range">'+esc(stock.industry)+'在 '+esc(peers.date)+'，有 '+peers.count+' 家公司具有效正值官方 PE。其中間值約 '+fnum(peers.median,1)+' 倍，中間一半公司的 PE 約 '+fnum(peers.low,1)+'–'+fnum(peers.high,1)+' 倍。</p><p>這是本站資料裡的實際分布，不是正常或合理價格區間。公司獲利成長、負債與一次性收益不同，即使同產業也要再確認能否比較。</p>':'<p>目前同產業、同資料日期的有效官方 PE 不足 5 家，暫不列比較區間；可搜尋產業名稱查看同業。</p>')+'</div>';}
+function industryPeHtml(stock){return '<div class="rule-hint peer-pe-reference"><p><b>'+metricHelpLink('pe','PE 本益比：'+(finite(stock.pe)!==null?fnum(stock.pe)+' 倍':'—'),stock.pe)+'</b><small>（務必和主要業務相近的同類股票比較）</small></p><button type="button" class="button" data-peer-pe="'+esc(stock.symbol)+'" aria-haspopup="dialog">同類企業本益比 →</button></div>';}
+function industryPeDetailHtml(stock){
+ const peers=industryPeReference(stock);
+ return (catMeta(stock).metric==='ps'?'<p>依本站分類，這家公司優先參考 PS；這裡仍列出同類股票的 PE 區間，供你比較參考。</p>':'')+(peers?'<p class="peer-pe-range">同產業：'+esc(stock.industry)+'<br>資料日期：'+esc(peers.date)+'<br>有 '+peers.count+' 家公司提供正值官方 PE。</p><p class="peer-pe-range"><b>PE 排序後的中間值：約 '+fnum(peers.median,1)+' 倍</b><br>同類公司 PE 參考範圍：約 '+fnum(peers.low,1)+'–'+fnum(peers.high,1)+' 倍</p><p>參考範圍怎麼來？把同類公司的 PE 由低到高排列，先略過最低的四分之一與最高的四分之一，留下中間一半公司的範圍。</p><p>以上是目前市場的實際分布。比較時，優先挑主要業務、成長與獲利能力相近的公司。</p>':'<p>目前同產業、同日期的正值官方 PE 不足 5 家；可搜尋產業名稱，逐家公司比較。</p>');
+}
+function openPeerPe(symbol){const stock=state.stocks.map(materialize).find(s=>s.symbol===symbol);if(!stock)return;$('peerPeTitle').textContent=stock.name+'（'+symbol.slice(0,-3)+'）同類企業本益比';$('peerPeBody').innerHTML=industryPeDetailHtml(stock);$('peerPePopover').showPopover();}
 
 function tvUrl(s){let sym=s.symbol;if(sym.endsWith('.TW'))return'https://www.tradingview.com/chart/?symbol='+encodeURIComponent('TWSE:'+sym.slice(0,-3));if(sym.endsWith('.TWO'))return'https://www.tradingview.com/chart/?symbol='+encodeURIComponent('TPEX:'+sym.slice(0,-4));let ex=/NMS|NAS|NGM|NCM/i.test(s.exchange||'')?'NASDAQ:':/NYQ|NYS/i.test(s.exchange||'')?'NYSE:':'';return'https://www.tradingview.com/chart/?symbol='+encodeURIComponent(ex+sym)}
 
@@ -126,7 +131,7 @@ function showFullMetricHelp(){
  if(state.tab!=='rules')glossaryReturn={tab:state.tab==='watchlist'?'watchlist':'all',page:state.page};
  setTab('rules');const target=$('glossary-'+key);target?.scrollIntoView({behavior:'smooth',block:'start'});target?.focus({preventScroll:true});
 }
-function wireMetricHelp(){document.querySelectorAll('[data-metric-help]').forEach(link=>link.onclick=e=>{e.preventDefault();e.stopPropagation();openMetricHelp(link.dataset.metricHelp,link.dataset.metricValue);});}
+function wireMetricHelp(){document.querySelectorAll('[data-peer-pe]').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();openPeerPe(b.dataset.peerPe)});document.querySelectorAll('[data-metric-help]').forEach(link=>link.onclick=e=>{e.preventDefault();e.stopPropagation();openMetricHelp(link.dataset.metricHelp,link.dataset.metricValue);});}
 function linkedMetricPhrase(text){return esc(text).replace(/\b(PEG|PE|PB|PS|ROE|EPS|TTM)\b/g,abbr=>metricHelpLink(abbr.toLowerCase(),abbr));}
 function statHelpKey(key){return ({calculated_pe:'pe',trailing_eps:'eps',gross_margin:'margin',dividend_yield:'margin'})[key]||(['pe','pb','ps','peg','eps','roe','trailing_sales'].includes(key)?key:null);}
 function metricColumnOrder(category){const keys=['pe','pb','ps','peg'],first=CATS.find(c=>c.id===category)?.metric;return first?[first,...keys.filter(k=>k!==first)]:keys;}
@@ -426,6 +431,7 @@ function renderMovers(){
 }
 async function fetchMovers(){try{const response=await fetch('./data/market-movers.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error();const payload=await response.json();if(payload.schema_version!==1||!payload.periods)throw Error();for(const p of Object.values(payload.periods))for(const r of [...p.gainers,...p.losers])if(!/^\d{4}\.TW$/.test(r.symbol)||!Number.isFinite(r.change))throw Error();movers.payload=payload;movers.error=false;}catch{movers.error=true;}renderMovers();render();}
 function initResearchUI(){
+ $('peerPeClose').onclick=()=>$('peerPePopover').hidePopover();
  $('peerHelpOpen').onclick=()=>$('peerHelpPopover').showPopover();$('peerHelpClose').onclick=()=>$('peerHelpPopover').hidePopover();$('peerHelpFull').onclick=()=>{$('peerHelpPopover').hidePopover();glossaryReturn={tab:state.tab==='watchlist'?'watchlist':'all',page:state.page};setTab('rules');$('rules').scrollIntoView({behavior:'smooth',block:'start'});};
  $('calendarOpen').onclick=()=>$('calendarDialog').showModal();$('calendarClose').onclick=()=>$('calendarDialog').close();$('calendarDialog').addEventListener('close',()=>$('calendarOpen').focus());for(const [id,view] of [['calendarUpcoming','upcoming'],['calendarQueue','queue']])$(id).onclick=()=>{calendar.view=view;renderCalendar();};fetchCalendar();
  $('metricHelpClose').onclick=()=>$('metricHelpPopover').hidePopover();$('metricHelpFull').onclick=showFullMetricHelp;
