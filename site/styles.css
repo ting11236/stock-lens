@@ -121,3 +121,5 @@
 #researchPageMenu button{font-size:18px;font-weight:600;line-height:1.5;color:#1f342a;min-height:46px;padding:12px 10px}#researchPageMenu button[aria-selected="true"]{font-weight:700}#researchPageTabs #researchPageSelect{font-size:16px;font-weight:600}@media(max-width:700px){#researchPageMenu button{font-size:17px;padding:13px 10px}#researchPageTabs #researchPageSelect{font-size:17px}}
 
 #detail{scroll-margin-top:12px}
+
+.peer-median-date{display:block;margin-top:4px}#metricHelpPeers .peer-pe-key{font-weight:400}

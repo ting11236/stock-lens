@@ -148,11 +148,17 @@ function highlightNarrative(root){
  }
 }
 
-function openMetricHelp(key,value=null){
+function metricPeerPeHtml(symbol){
+ const stock=state.stocks.find(s=>s.symbol===symbol);if(!stock)return '';
+ const peer=industryPeReference(stock);
+ return '<small>'+esc(stock.name)+'（'+esc(symbol.slice(0,-3))+'） · '+esc(stock.industry)+'</small><br><span class="peer-pe-key">同業 PE 中位數：'+(peer?fnum(peer.median,1)+' 倍':'目前資料不足')+'</span>'+(peer?'<small class="peer-median-date">同產業官方 PE · 資料日期 '+esc(peer.date)+'</small>':'');
+}
+function openMetricHelp(key,value=null,symbol=null){
  const parent=$('companyFinancialDialog')?.open?$('companyFinancialDialog'):$('researchDialog')?.open?$('researchDialog'):document.body;parent.append($('metricHelpPopover'));
  const item=$('glossary-'+key);if(!item)return;
  metricHelpKey=key;
  $('metricHelpTitle').textContent=item.querySelector('dt')?.textContent||metricName(key.toUpperCase());
+ const companySymbol=symbol||(($('researchDialog')?.open||$('companyFinancialDialog')?.open)?researchView.symbol:state.selected);$('metricHelpPeers').innerHTML=key==='pe'?metricPeerPeHtml(companySymbol):'';$('metricHelpPeers').hidden=!$('metricHelpPeers').innerHTML;
  $('metricHelpText').textContent=item.querySelector('dd > p')?.textContent||'';
  $('metricHelpValue').textContent=metricValueExplanation(key,value);$('metricHelpValue').hidden=!$('metricHelpValue').textContent;
  highlightNarrative($('metricHelpPopover'));$('metricHelpPopover').showPopover();
@@ -179,7 +185,7 @@ function showFullMetricHelp(){
  setTab('rules');const target=$('glossary-'+key);target?.scrollIntoView({behavior:'smooth',block:'start'});target?.focus({preventScroll:true});
 }
 
-function wireMetricHelp(){document.querySelectorAll('[data-peer-pe]').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();openPeerPe(b.dataset.peerPe)});document.querySelectorAll('[data-metric-help]').forEach(link=>link.onclick=e=>{e.preventDefault();e.stopPropagation();openMetricHelp(link.dataset.metricHelp,link.dataset.metricValue);});}
+function wireMetricHelp(){document.querySelectorAll('[data-peer-pe]').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();openPeerPe(b.dataset.peerPe)});document.querySelectorAll('[data-metric-help]').forEach(link=>link.onclick=e=>{e.preventDefault();e.stopPropagation();openMetricHelp(link.dataset.metricHelp,link.dataset.metricValue,link.closest('tr[data-symbol]')?.dataset.symbol);});}
 function linkedMetricPhrase(text){return esc(text).replace(/\b(PEG|PE|PB|PS|ROE|EPS|TTM)\b/g,abbr=>metricHelpLink(abbr.toLowerCase(),abbr));}
 function statHelpKey(key){return ({calculated_pe:'pe',trailing_eps:'eps',gross_margin:'margin',dividend_yield:'margin'})[key]||(['pe','pb','ps','peg','eps','roe','trailing_sales'].includes(key)?key:null);}
 function metricColumnOrder(category){const keys=['pe','pb','ps','peg'],first=CATS.find(c=>c.id===category)?.metric;return first?[first,...keys.filter(k=>k!==first)]:keys;}
@@ -549,13 +555,13 @@ function openCompanyResearch(symbol,index,opener){
 function wireResearchButtons(){document.querySelectorAll('[data-research-page]').forEach(b=>b.onclick=()=>openCompanyResearch(b.dataset.researchSymbol,Number(b.dataset.researchPage),b));}
 function selectCompany(symbol){state.selected=symbol;render();$('detail')?.scrollIntoView({behavior:'smooth',block:'start'});}
 let movers={payload:null,error:false,period:'5',view:'gainers'};
-function moverSummary(rows){const counts=new Map();for(const r of rows)counts.set(r.industry,(counts.get(r.industry)||0)+1);const sorted=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));return rows.length?'共 '+rows.length+' 家符合條件，其中'+sorted.slice(0,3).map(([name,n])=>name+' '+n+' 家').join('、')+'。'+(sorted[0]?.[1]===1?'分布較分散。':'這是榜單的產業分布。'):'這段期間沒有符合條件的股票。';}
+function moverSummary(rows){const counts=new Map();for(const r of rows)counts.set(r.industry,(counts.get(r.industry)||0)+1);const sorted=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));return rows.length?'共 '+rows.length+' 家符合條件，其中'+sorted.slice(0,3).map(([name,n])=>'<span class="content-keyword">'+esc(name)+' '+n+' 家</span>').join('、')+'。'+(sorted[0]?.[1]===1?'分布較分散。':'這是榜單的產業分布。'):'這段期間沒有符合條件的股票。';}
 function renderMovers(){
  for(const [id,view] of [['moverGainers','gainers'],['moverLosers','losers']]){$(id).setAttribute('aria-pressed',String(movers.view===view));$(id).classList.toggle('active',movers.view===view);}
  const root=$('marketMovers');if(!root)return;const p=movers.payload?.periods?.[movers.period];
  $('moversPeriod').value=movers.period;
  if(!p){$('moversContent').innerHTML='<p>'+esc(movers.error?'暫時無法載入漲跌排行，請稍後更新。':'這個期間的歷史股價尚未補齊，暫不排名。')+'</p>';return;}
- $('moversContent').innerHTML='<p class="tiny">'+(p.start?esc(p.start)+' → ':'官方前一日比較基準 → ')+esc(p.end)+' · '+p.count+' 家可比較公司 · 按漲跌百分比排名</p><div class="mover-grid">'+[['gainers','最近夯什麼？','漲幅超過 5%'],['losers','最近最不夯什麼？','跌幅超過 5%']].map(([key,title,sub])=>'<section class="mover-card '+(movers.view===key?'':'mobile-unselected')+'"><h3>'+title+'<small>'+sub+'</small></h3><p>'+esc(moverSummary(p[key]))+'</p><ol>'+p[key].map(r=>'<li><button type="button" class="mover-company" data-mover-symbol="'+esc(r.symbol)+'"><span><b>'+esc(r.name)+'</b> '+esc(r.symbol.slice(0,-3))+'<small>'+esc(r.industry)+'</small></span><strong class="'+(r.change>0?'rise':'fall')+'">'+(r.change>0?'+':'')+pct(r.change)+'</strong></button></li>').join('')+'</ol></section>').join('')+'</div><p class="tiny">這裡的「夯／不夯」只指股價漲跌，不代表公司好壞。'+esc(movers.payload.basis)+'列出所有漲幅或跌幅超過 5% 的公司，不限十家；一般漲停、跌停公司也包含在內。漲停、跌停是單日限制，一週或一個月的累計漲跌不稱為漲停、跌停。族群依公司產業整理，未判定漲跌原因。</p>';
+ $('moversContent').innerHTML='<p class="tiny">'+(p.start?esc(p.start)+' → ':'官方前一日比較基準 → ')+esc(p.end)+' · '+p.count+' 家可比較公司 · 按漲跌百分比排名</p><div class="mover-grid">'+[['gainers','最近夯什麼？','漲幅超過 5%'],['losers','最近最不夯什麼？','跌幅超過 5%']].map(([key,title,sub])=>'<section class="mover-card '+(movers.view===key?'':'mobile-unselected')+'"><h3>'+title+'<small>'+sub+'</small></h3><p>'+moverSummary(p[key])+'</p><ol>'+p[key].map(r=>'<li><button type="button" class="mover-company" data-mover-symbol="'+esc(r.symbol)+'"><span><b>'+esc(r.name)+'</b> '+esc(r.symbol.slice(0,-3))+'<small>'+esc(r.industry)+'</small></span><strong class="'+(r.change>0?'rise':'fall')+'">'+(r.change>0?'+':'')+pct(r.change)+'</strong></button></li>').join('')+'</ol></section>').join('')+'</div><p class="tiny">這裡的「夯／不夯」只指股價漲跌，不代表公司好壞。'+esc(movers.payload.basis)+'列出所有漲幅或跌幅超過 5% 的公司，不限十家；一般漲停、跌停公司也包含在內。漲停、跌停是單日限制，一週或一個月的累計漲跌不稱為漲停、跌停。族群依公司產業整理，未判定漲跌原因。</p>';
  $('moversContent').querySelectorAll('[data-mover-symbol]').forEach(b=>b.onclick=()=>{$('moversDialog').close();state.filter='全部';state.search=b.dataset.moverSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.moverSymbol);});
 }
 async function fetchMovers(){try{const response=await fetch('./data/market-movers.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error();const payload=await response.json();if(payload.schema_version!==1||!payload.periods)throw Error();for(const p of Object.values(payload.periods))for(const r of [...p.gainers,...p.losers])if(!/^\d{4}\.TW$/.test(r.symbol)||!Number.isFinite(r.change))throw Error();movers.payload=payload;movers.error=false;}catch{movers.error=true;}renderMovers();render();}
