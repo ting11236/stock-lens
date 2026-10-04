@@ -93,7 +93,7 @@ function readPreferences(storage){
  }catch{return {watchlist:[],overrides:{}}}
 }
 const preferences=(()=>{try{return readPreferences(window.localStorage)}catch{return {watchlist:[],overrides:{}}}})();
-const state={stocks:[],watchlist:[...new Set(preferences.watchlist.filter(s=>/^\d{4}\.TW$/.test(s)))],overrides:preferences.overrides||{},tab:'all',filter:'全部',search:'',sort:'symbol',selected:null,page:1,size:50,busy:false,payload:null,status:null,priceMin:null,priceMax:null,metricMin:null,metricMax:null,researchFilter:'all',searchMode:'all'};
+const state={stocks:[],watchlist:[...new Set(preferences.watchlist.filter(s=>/^\d{4}\.TW$/.test(s)))],overrides:preferences.overrides||{},tab:'all',filter:'全部',search:'',sort:'symbol',selected:null,page:1,size:50,busy:false,payload:null,status:null,priceMin:null,priceMax:null,metricMin:null,metricMax:null,researchFilter:'all'};
 function persist(){try{localStorage.setItem(KEY,JSON.stringify({watchlist:state.watchlist,overrides:state.overrides}));return true}catch{showNotice('瀏覽器無法儲存設定。此次修改仍可使用；請匯出 CSV 備份。','error');return false}}
 const METRIC_NAMES={pe:'PE 本益比',pb:'PB 股價淨值比',ps:'PS 股價營收比',peg:'PEG 本益成長比'};
 function metricName(abbr){return METRIC_NAMES[String(abbr).toLowerCase()]||abbr}
@@ -120,7 +120,7 @@ function setTab(tab){state.tab=tab;state.page=1;document.querySelectorAll('[data
 const TOPIC_SYNONYMS=[['矽光子','硅光子','siph','silicon photonics'],['人工智慧','人工智能','ai'],['共同封裝光學','共封裝光學','cpo']];
 const searchCache=new WeakMap();
 function normalizeSearch(value){return String(value||'').normalize('NFKC').toLowerCase()}
-function queryGroups(query){const normalized=normalizeSearch(query).trim().replace(/silicon\s+photonics/g,'siph');const whole=TOPIC_SYNONYMS.find(g=>g.includes(normalized));return whole?[whole]:normalized.split(/[\s,，、;；]+/).filter(Boolean).map(term=>TOPIC_SYNONYMS.find(g=>g.includes(term))||[term])}
+function queryGroups(query){const normalized=normalizeSearch(query).trim().replace(/silicon\s+photonics/g,'siph');const whole=TOPIC_SYNONYMS.find(g=>g.includes(normalized));return whole?[whole]:[...new Map(normalized.split(/[\s,，、;；]+/).filter(Boolean).map(term=>{const g=TOPIC_SYNONYMS.find(g=>g.includes(term))||[term];return [g[0],g]})).values()]}
 function researchSearchEntries(profile){
  if(!profile)return [];
  if(searchCache.has(profile))return searchCache.get(profile);
@@ -136,10 +136,11 @@ function keywordMatches(symbol,query=activeSearch()){
  const groups=queryGroups(query);if(!groups.length)return [];
  return researchSearchEntries(research.profiles[symbol]).filter(e=>groups.some(g=>g.some(term=>hasSearchTerm(e.normalized,term))));
 }
-function matchesStockSearch(stock,query){
+function stockSearchScore(stock,query){
  const groups=queryGroups(query),base=normalizeSearch([stock.symbol,stock.name,stock.industry,stock.category].join(' ')),entries=researchSearchEntries(research.profiles[stock.symbol]);
- const match=g=>g.some(term=>hasSearchTerm(base,term)||entries.some(e=>hasSearchTerm(e.normalized,term)));return state.searchMode==='any'?(!groups.length||groups.some(match)):groups.every(match);
+ const match=g=>g.some(term=>hasSearchTerm(base,term)||entries.some(e=>hasSearchTerm(e.normalized,term)));return groups.filter(match).length;
 }
+function matchesStockSearch(stock,query){return !queryGroups(query).length||stockSearchScore(stock,query)>0}
 function keywordEvidence(stock){
  const matches=keywordMatches(stock.symbol);if(!matches.length)return '';
  const terms=queryGroups(activeSearch()).flat();
@@ -151,7 +152,9 @@ function visibleStocks(){
  const within=(v,min,max)=>(min===null&&max===null)||(v!==null&&(min===null||v>=min)&&(max===null||v<=max));
  arr=arr.filter(s=>within(finite(s.price),state.priceMin,state.priceMax)&&within(primary(s),state.metricMin,state.metricMax));
  const field=state.sort.replace(/(Asc|Desc)$/,''),direction=state.sort.endsWith('Desc')?-1:1;
+ const scores=new Map(arr.map(s=>[s.symbol,stockSearchScore(s,activeSearch())]));
  return arr.sort((a,b)=>{
+  const relevance=scores.get(b.symbol)-scores.get(a.symbol);if(relevance)return relevance;
   if(['symbol','category'].includes(field))return direction*String(a[field]||'').localeCompare(String(b[field]||''),'zh-TW')||a.symbol.localeCompare(b.symbol);
   const x=field==='metric'?primary(a):finite(a[field]),y=field==='metric'?primary(b):finite(b[field]);
   if(x===null&&y===null)return a.symbol.localeCompare(b.symbol);
@@ -385,13 +388,13 @@ function openCompanyResearch(symbol,index,opener){
 function wireResearchButtons(){document.querySelectorAll('[data-research-page]').forEach(b=>b.onclick=()=>openCompanyResearch(b.dataset.researchSymbol,Number(b.dataset.researchPage),b));}
 function selectCompany(symbol){state.selected=symbol;render();if(window.matchMedia('(max-width:1099px)').matches)$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});}
 let movers={payload:null,error:false,period:'5'};
-function moverSummary(rows){const counts=new Map();for(const r of rows)counts.set(r.industry,(counts.get(r.industry)||0)+1);const sorted=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));return rows.length?'前 '+rows.length+' 名中，'+sorted.slice(0,3).map(([name,n])=>name+' '+n+' 家').join('、')+'。'+(sorted[0]?.[1]===1?'分布較分散。':'這是榜單的產業分布。'):'這段期間沒有符合條件的股票。';}
+function moverSummary(rows){const counts=new Map();for(const r of rows)counts.set(r.industry,(counts.get(r.industry)||0)+1);const sorted=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));return rows.length?'共 '+rows.length+' 家符合條件，其中'+sorted.slice(0,3).map(([name,n])=>name+' '+n+' 家').join('、')+'。'+(sorted[0]?.[1]===1?'分布較分散。':'這是榜單的產業分布。'):'這段期間沒有符合條件的股票。';}
 function renderMovers(){
  const root=$('marketMovers');if(!root)return;const p=movers.payload?.periods?.[movers.period];
  $('moversPeriod').value=movers.period;
  if(!p){$('moversContent').innerHTML='<p>'+esc(movers.error?'暫時無法載入漲跌排行，請稍後更新。':'這個期間的歷史股價尚未補齊，暫不排名。')+'</p>';return;}
- $('moversContent').innerHTML='<p class="tiny">'+(p.start?esc(p.start)+' → ':'官方前一日比較基準 → ')+esc(p.end)+' · '+p.count+' 家可比較公司 · 按漲跌百分比排名</p><div class="mover-grid">'+[['gainers','最近夯什麼？','漲幅最大'],['losers','最近最不夯什麼？','跌幅最大']].map(([key,title,sub])=>'<section class="mover-card"><h3>'+title+'<small>'+sub+'</small></h3><p>'+esc(moverSummary(p[key]))+'</p><ol>'+p[key].map(r=>'<li><button type="button" class="mover-company" data-mover-symbol="'+esc(r.symbol)+'"><span><b>'+esc(r.name)+'</b> '+esc(r.symbol.slice(0,-3))+'<small>'+esc(r.industry)+'</small></span><strong class="'+(r.change>0?'rise':'fall')+'">'+(r.change>0?'+':'')+pct(r.change)+'</strong></button></li>').join('')+'</ol></section>').join('')+'</div><p class="tiny">這裡的「夯／不夯」只指股價漲跌，不代表公司好壞。'+esc(movers.payload.basis)+'族群依公司產業整理，未判定漲跌原因。</p>';
- root.querySelectorAll('[data-mover-symbol]').forEach(b=>b.onclick=()=>{state.filter='全部';state.search=b.dataset.moverSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.moverSymbol);$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});});
+ $('moversContent').innerHTML='<p class="tiny">'+(p.start?esc(p.start)+' → ':'官方前一日比較基準 → ')+esc(p.end)+' · '+p.count+' 家可比較公司 · 按漲跌百分比排名</p><div class="mover-grid">'+[['gainers','最近夯什麼？','漲幅超過 5%'],['losers','最近最不夯什麼？','跌幅超過 5%']].map(([key,title,sub])=>'<section class="mover-card"><h3>'+title+'<small>'+sub+'</small></h3><p>'+esc(moverSummary(p[key]))+'</p><ol>'+p[key].map(r=>'<li><button type="button" class="mover-company" data-mover-symbol="'+esc(r.symbol)+'"><span><b>'+esc(r.name)+'</b> '+esc(r.symbol.slice(0,-3))+'<small>'+esc(r.industry)+'</small></span><strong class="'+(r.change>0?'rise':'fall')+'">'+(r.change>0?'+':'')+pct(r.change)+'</strong></button></li>').join('')+'</ol></section>').join('')+'</div><p class="tiny">這裡的「夯／不夯」只指股價漲跌，不代表公司好壞。'+esc(movers.payload.basis)+'列出所有漲幅或跌幅超過 5% 的公司，不限十家；一般漲停、跌停公司也包含在內。漲停、跌停是單日限制，一週或一個月的累計漲跌不稱為漲停、跌停。族群依公司產業整理，未判定漲跌原因。</p>';
+ $('moversContent').querySelectorAll('[data-mover-symbol]').forEach(b=>b.onclick=()=>{$('moversDialog').close();state.filter='全部';state.search=b.dataset.moverSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.moverSymbol);$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});});
 }
 async function fetchMovers(){try{const response=await fetch('./data/market-movers.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error();const payload=await response.json();if(payload.schema_version!==1||!payload.periods)throw Error();for(const p of Object.values(payload.periods))for(const r of [...p.gainers,...p.losers])if(!/^\d{4}\.TW$/.test(r.symbol)||!Number.isFinite(r.change))throw Error();movers.payload=payload;movers.error=false;}catch{movers.error=true;}renderMovers();}
 function initResearchUI(){
@@ -399,7 +402,7 @@ function initResearchUI(){
  $('researchDialog').addEventListener('close',()=>researchView.opener?.focus());
  $('researchDialog').addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea'))return;if(e.key==='ArrowLeft'){e.preventDefault();changeResearchPage(-1);}if(e.key==='ArrowRight'){e.preventDefault();changeResearchPage(1);}});
  let touch=null;const body=$('researchPageBody');body.addEventListener('touchstart',e=>{touch=e.target.closest('.research-table-wrap')?null:{x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true});body.addEventListener('touchend',e=>{if(!touch)return;const x=e.changedTouches[0].clientX-touch.x,y=e.changedTouches[0].clientY-touch.y;if(Math.abs(x)>70&&Math.abs(x)>Math.abs(y)*1.5)changeResearchPage(x<0?1:-1);touch=null;},{passive:true});
- $('moversPeriod').onchange=e=>{movers.period=e.target.value;renderMovers();};$('searchMode').onchange=e=>{state.searchMode=e.target.value;state.page=1;render();};fetchMovers();
+ $('moversPeriod').onchange=e=>{movers.period=e.target.value;renderMovers();};$('moversOpen').onclick=()=>$('moversDialog').showModal();$('moversClose').onclick=()=>$('moversDialog').close();$('moversDialog').addEventListener('close',()=>$('moversOpen').focus());fetchMovers();
 }
 
 init();

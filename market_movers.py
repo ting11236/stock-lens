@@ -41,7 +41,7 @@ def build_movers(history, stocks):
             if n>1 and any(code not in history[d] or history[d][code].get('special') for d in days[-n-1:]):continue
             if base is None or base<=0:continue
             values.append({'symbol':stock['symbol'],'name':stock['name'],'industry':stock.get('industry','未分類'),'change':(last['close']/base-1)*100,'price':last['close']})
-        periods[str(n)]={'start':start,'end':latest,'count':len(values),'gainers':sorted((v for v in values if v['change']>0),key=lambda v:(-v['change'],v['symbol']))[:10],'losers':sorted((v for v in values if v['change']<0),key=lambda v:(v['change'],v['symbol']))[:10]}
+        periods[str(n)]={'start':start,'end':latest,'count':len(values),'gainers':sorted((v for v in values if v['change']>5+1e-9),key=lambda v:(-v['change'],v['symbol'])),'losers':sorted((v for v in values if v['change']<-5-1e-9),key=lambda v:(v['change'],v['symbol']))}
     return {'schema_version':1,'source':SOURCE,'periods':periods,'latest_date':latest,'basis':'收盤價漲跌幅，未還原除權息；不含股息報酬。單日用官方漲跌價差的比較基準；5／20 日用起訖收盤價。'}
 
 def run(root=ROOT):
