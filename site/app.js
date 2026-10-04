@@ -80,6 +80,18 @@ function classificationExplanation(cat){
  if(cat.id!=='高成長股')return '<p>'+esc(cat.why)+'</p>';
  return '<p><strong>今年目前有獲利，而且最近一個月的營收，比去年同月至少多兩成的科技相關公司。</strong></p><p>網站先用下面三個條件，挑出近期營收成長比較快的公司：</p><ul><li><strong>今年目前有賺錢：</strong>最新公布的財報中，從年初算到該季的每股盈餘（EPS）大於零。</li><li><strong>最近收入成長快：</strong>最新一個月的營收，比去年同一個月至少增加 20%（兩成）。</li><li><strong>屬於科技相關產業：</strong>半導體、雲端、資訊服務或軟體。</li></ul><p>接下來還要看這樣的成長能否持續、獲利是否也增加。<strong>這是初步篩選，還不能保證公司未來會一直高成長。</strong></p>';
 }
+function classificationHelpHtml(cat){
+ const keys={
+  '週期股':['獲利可能明顯減少','塑膠／塑化、鋼鐵、水泥、造紙、航運、面板、油電、化學、玻璃與橡膠'],
+  '重資產股':['銀行、保險、證券等金融公司'],
+  '虧損企業':['累計 EPS 為零或負數','新創、生技與後來轉虧的其他企業'],
+  '高成長股':['今年目前有獲利','比去年同月至少多兩成','科技相關公司'],
+  '穩定獲利股':['當年度累計 EPS &gt; 0','未歸入金融、週期、虧損或高成長類別']
+ };
+ let body=classificationExplanation(cat);for(const key of keys[cat.id]||[])body=body.replace(key,'<span class="content-keyword">'+key+'</span>');
+ const name=metricName(cat.abbr).replace(cat.abbr+' ','');
+ return '<section><h3>'+esc(cat.id)+' · 先看 <span class="content-keyword">'+esc(name)+'</span>（'+esc(cat.abbr)+'）</h3>'+body+'</section>';
+}
 const METRIC_READING_GUIDE={"pe": {"who": "有正常、持續獲利的公司。本站「穩定獲利股」先參考 PE，再檢查多年獲利是否穩定。", "read": "先和主要業務相近的公司、這家公司過去的 PE 比較。低於比較基準，可能股價較便宜，也可能未來獲利會變差；高於基準，可能較貴，也可能成長較快。科技股或傳產股都沒有通用的合理倍數。", "also": "看獲利是否來自本業、能否持續，並比較成長、現金流、負債與 ROE。若獲利主要來自一次性的賣資產或投資收益，PE 可能暫時偏低。虧損時改看其他適用指標。"}, "pb": {"who": "本站「週期股」先參考 PB；「重資產股」主要是金融公司，優先一起看 PB 股價淨值比＋ROE。週期股的收入與獲利容易隨景氣和報價變動，金融公司則要特別看資產品質與賺錢效率。", "read": "PB 小於 1，股價低於每股帳面淨值（可能便宜？）；大於 1，股價高於每股帳面淨值（可能貴？）。再和相近公司及自身過去的 PB 比較，確認資產價值與賺錢能力能否支撐價格。", "also": "週期股看產品報價、供需、訂單、產能與景氣位置；金融公司看 ROE、呆帳、資本與負債。帳面資產可能縮水。景氣高峰時獲利特別多，也可能讓 PE 暫時很低。其他資產多的公司仍要依業務選擇指標。"}, "ps": {"who": "有實際營收、但仍在虧損或尚未穩定獲利的公司，本站「虧損企業」先參考 PS。還沒有產品營收的研發型生技公司，則先看研發進度與現金。", "read": "和主要業務、利潤率相近的公司比較。PS 較低，表示市場給每元營收的價格較低，可能便宜，也可能生意或轉盈前景較差；較高則需要更好的成長或利潤支撐。", "also": "看毛利率、營收成長、每月消耗多少現金、現金能撐多久，以及何時可能轉盈。同樣營收，毛利不同，最後賺的錢也可能差很多。"}, "peg": {"who": "已獲利、EPS 成長資料可比較的成長型公司。本站「高成長股」先參考 PEG，但分類用的單月營收成長，和 PEG 使用的 EPS 成長是兩件事。", "read": "PEG 約 1，表示 PE 倍數和 EPS 成長百分點接近，是常見的參考起點。低於 1，可能股價相對成長較便宜，也可能成長率只是短期跳升；高於 1，可能價格較高，也可能市場認為成長較可靠。再比較同類公司的計算期間與成長來源。", "also": "成長要用 EPS，並確認成長能否持續。檢查一次性獲利、過低基期、負債與現金流。成長為零、負值或資料不可比時，保留原因，不硬算 PEG。"}, "roe": {"who": "用來檢查公司的賺錢效率，尤其適合搭配 PB 觀察本站重資產股中的金融公司；也可補充判讀 PE 或 PEG。", "read": "和業務相近的公司、自己過去幾年的 ROE 比較。較高代表股東資金的獲利效率較高，還要確認原因；較低則要看是否短期受影響，或長期賺錢能力偏弱。沒有適用所有產業的固定好壞門檻。", "also": "看獲利是否持續、現金流與負債。大量借款、股東權益減少或一次性收益，都可能推高 ROE。搭配 PB 時，一起問「股價相對淨值多少倍？」和「這些淨值能賺多少錢？」。"}};
 function renderRules(){
  for(const key of ['pe','pb','ps','peg','roe']){
@@ -234,7 +246,7 @@ function star(s){const watched=state.watchlist.includes(s.symbol);return `<butto
 function wireStars(root){root.querySelectorAll('[data-star]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleWatch(b.dataset.star)})}
 function render(){
  $('watchCount').textContent=state.watchlist.length;$('marketCount').textContent=state.stocks.length.toLocaleString('zh-TW');
- $('categoryCards').innerHTML=CATS.map(c=>`<div class="category-card-wrap"><button aria-pressed="${state.filter===c.id}" class="metric-card ${state.filter===c.id?'active':''}" data-category="${esc(c.id)}"><span class="cap">${esc(c.id)}</span><span class="category-first-metric"><b>先看 ${esc(c.abbr)}</b><small>（${esc(metricName(c.abbr).replace(c.abbr+' ',''))}）</small></span><strong>${state.stocks.map(materialize).filter(s=>s.category===c.id).length}</strong><span class="tiny">${esc(c.sub)}</span></button>${state.filter===c.id?'<button type="button" class="category-clear" aria-label="取消分類，顯示全部股票" title="取消分類，顯示全部股票">×</button>':''}</div>`).join('');
+ $('categoryCards').innerHTML=CATS.map(c=>`<div class="category-card-wrap"><button aria-pressed="${state.filter===c.id}" class="metric-card ${state.filter===c.id?'active':''}" data-category="${esc(c.id)}"><span class="cap">${esc(c.id)}</span><span class="category-first-metric"><b>先看 ${esc(c.abbr)}</b><small>（${esc(metricName(c.abbr).replace(c.abbr+' ',''))}）</small></span><span class="tiny">${esc(c.sub)}</span></button>${state.filter===c.id?'<button type="button" class="category-clear" aria-label="取消分類，顯示全部股票" title="取消分類，顯示全部股票">×</button>':''}</div>`).join('');
  document.querySelectorAll('.category-clear').forEach(b=>b.onclick=()=>{state.filter='全部';$('categoryFilter').value='全部';state.page=1;render()});
  document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{state.filter=state.filter===b.dataset.category?'全部':b.dataset.category;$('categoryFilter').value=state.filter;state.page=1;render()});
  const arr=visibleStocks(),pages=Math.max(1,Math.ceil(arr.length/state.size));state.page=Math.min(state.page,pages);
@@ -512,10 +524,14 @@ function renderResearchPage(){
  $('researchPrev').disabled=researchView.index===0;$('researchNext').disabled=researchView.index===researchView.pages.length-1;
  $('researchPageBody').querySelector('[data-company-financial]')?.addEventListener('click',()=>openCompanyFinancial(stock));wireMetricHelp();
 }
-function openResearchPageMenu(){
- const picker=$('researchPageSelect'),menu=$('researchPageMenu');if(menu.matches(':popover-open')){menu.hidePopover();return;}
- const rect=picker.getBoundingClientRect();menu.style.left=rect.left+'px';menu.style.top=(rect.bottom+4)+'px';menu.style.width=rect.width+'px';menu.style.maxHeight=Math.max(180,window.innerHeight-rect.bottom-24)+'px';menu.showPopover();menu.querySelector('[aria-selected="true"]')?.focus();
+function positionResearchPageMenu(){
+ const picker=$('researchPageSelect'),menu=$('researchPageMenu'),rect=picker.getBoundingClientRect();
+ menu.style.left=rect.left+'px';menu.style.top=(rect.bottom+4)+'px';menu.style.width=rect.width+'px';menu.style.maxHeight=Math.max(180,window.innerHeight-rect.bottom-24)+'px';return menu;
 }
+function openResearchPageMenu(){
+ const menu=positionResearchPageMenu();if(!menu.matches(':popover-open'))menu.showPopover();menu.querySelector('[aria-selected="true"]')?.focus();
+}
+
 function openCompanyFinancial(stock){
  const host=document.createElement('div');host.innerHTML=fullResearchHtml(stock);
  const detail=host.querySelector('.imported-overview > details');
@@ -531,7 +547,7 @@ function openCompanyResearch(symbol,index,opener){
  researchView={symbol,index,pages:companyPages(stock),opener};renderResearchPage();if(!$('researchDialog').open)$('researchDialog').showModal();
 }
 function wireResearchButtons(){document.querySelectorAll('[data-research-page]').forEach(b=>b.onclick=()=>openCompanyResearch(b.dataset.researchSymbol,Number(b.dataset.researchPage),b));}
-function selectCompany(symbol){state.selected=symbol;render();if(window.matchMedia('(max-width:1099px)').matches)$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});}
+function selectCompany(symbol){state.selected=symbol;render();$('detail')?.scrollIntoView({behavior:'smooth',block:'start'});}
 let movers={payload:null,error:false,period:'5',view:'gainers'};
 function moverSummary(rows){const counts=new Map();for(const r of rows)counts.set(r.industry,(counts.get(r.industry)||0)+1);const sorted=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));return rows.length?'共 '+rows.length+' 家符合條件，其中'+sorted.slice(0,3).map(([name,n])=>name+' '+n+' 家').join('、')+'。'+(sorted[0]?.[1]===1?'分布較分散。':'這是榜單的產業分布。'):'這段期間沒有符合條件的股票。';}
 function renderMovers(){
@@ -540,17 +556,17 @@ function renderMovers(){
  $('moversPeriod').value=movers.period;
  if(!p){$('moversContent').innerHTML='<p>'+esc(movers.error?'暫時無法載入漲跌排行，請稍後更新。':'這個期間的歷史股價尚未補齊，暫不排名。')+'</p>';return;}
  $('moversContent').innerHTML='<p class="tiny">'+(p.start?esc(p.start)+' → ':'官方前一日比較基準 → ')+esc(p.end)+' · '+p.count+' 家可比較公司 · 按漲跌百分比排名</p><div class="mover-grid">'+[['gainers','最近夯什麼？','漲幅超過 5%'],['losers','最近最不夯什麼？','跌幅超過 5%']].map(([key,title,sub])=>'<section class="mover-card '+(movers.view===key?'':'mobile-unselected')+'"><h3>'+title+'<small>'+sub+'</small></h3><p>'+esc(moverSummary(p[key]))+'</p><ol>'+p[key].map(r=>'<li><button type="button" class="mover-company" data-mover-symbol="'+esc(r.symbol)+'"><span><b>'+esc(r.name)+'</b> '+esc(r.symbol.slice(0,-3))+'<small>'+esc(r.industry)+'</small></span><strong class="'+(r.change>0?'rise':'fall')+'">'+(r.change>0?'+':'')+pct(r.change)+'</strong></button></li>').join('')+'</ol></section>').join('')+'</div><p class="tiny">這裡的「夯／不夯」只指股價漲跌，不代表公司好壞。'+esc(movers.payload.basis)+'列出所有漲幅或跌幅超過 5% 的公司，不限十家；一般漲停、跌停公司也包含在內。漲停、跌停是單日限制，一週或一個月的累計漲跌不稱為漲停、跌停。族群依公司產業整理，未判定漲跌原因。</p>';
- $('moversContent').querySelectorAll('[data-mover-symbol]').forEach(b=>b.onclick=()=>{$('moversDialog').close();state.filter='全部';state.search=b.dataset.moverSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.moverSymbol);$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});});
+ $('moversContent').querySelectorAll('[data-mover-symbol]').forEach(b=>b.onclick=()=>{$('moversDialog').close();state.filter='全部';state.search=b.dataset.moverSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.moverSymbol);});
 }
 async function fetchMovers(){try{const response=await fetch('./data/market-movers.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error();const payload=await response.json();if(payload.schema_version!==1||!payload.periods)throw Error();for(const p of Object.values(payload.periods))for(const r of [...p.gainers,...p.losers])if(!/^\d{4}\.TW$/.test(r.symbol)||!Number.isFinite(r.change))throw Error();movers.payload=payload;movers.error=false;}catch{movers.error=true;}renderMovers();render();}
 function initResearchUI(){
- $('classificationHelpOpen').onclick=()=>{$('classificationHelpBody').innerHTML=CATS.map(c=>'<section><h3>'+esc(c.id)+' · 先看 '+esc(metricName(c.abbr))+'</h3>'+classificationExplanation(c)+'</section>').join('');highlightNarrative($('classificationHelpBody'));$('classificationHelp').showPopover();};$('classificationHelpClose').onclick=()=>$('classificationHelp').hidePopover();
+ $('classificationHelpOpen').onclick=()=>{$('classificationHelpBody').innerHTML=CATS.map(classificationHelpHtml).join('');highlightNarrative($('classificationHelpBody'));$('classificationHelp').showPopover();};$('classificationHelpClose').onclick=()=>$('classificationHelp').hidePopover();
  $('peerPeClose').onclick=()=>$('peerPePopover').hidePopover();
  $('peerHelpOpen').onclick=()=>$('peerHelpPopover').showPopover();$('peerHelpClose').onclick=()=>$('peerHelpPopover').hidePopover();$('peerHelpFull').onclick=()=>{rememberStockView();$('peerHelpPopover').hidePopover();setTab('rules');$('rules').scrollIntoView({behavior:'smooth',block:'start'});};
  $('calendarOpen').onclick=()=>$('calendarDialog').showModal();$('calendarClose').onclick=()=>$('calendarDialog').close();$('calendarDialog').addEventListener('close',()=>$('calendarOpen').focus());for(const [id,view] of [['calendarUpcoming','upcoming'],['calendarQueue','queue']])$(id).onclick=()=>{calendar.view=view;renderCalendar();};fetchCalendar();
  $('metricHelpClose').onclick=()=>$('metricHelpPopover').hidePopover();$('metricHelpFull').onclick=showFullMetricHelp;
- $('researchPageSelect').onclick=openResearchPageMenu;$('researchPageSelect').onkeydown=e=>{if(['ArrowDown','ArrowUp'].includes(e.key)){e.preventDefault();openResearchPageMenu();}};
- $('researchPageMenu').addEventListener('toggle',()=>{$('researchPageSelect').setAttribute('aria-expanded',String($('researchPageMenu').matches(':popover-open')))});
+ $('researchPageSelect').onclick=positionResearchPageMenu;$('researchPageSelect').onkeydown=e=>{if(['ArrowDown','ArrowUp'].includes(e.key)){e.preventDefault();openResearchPageMenu();}};
+ $('researchPageMenu').addEventListener('toggle',()=>{const open=$('researchPageMenu').matches(':popover-open');$('researchPageSelect').setAttribute('aria-expanded',String(open));if(open)$('researchPageMenu').querySelector('[aria-selected="true"]')?.focus()});
  $('researchPageMenu').onkeydown=e=>{const buttons=[...$('researchPageMenu').querySelectorAll('[role="option"]')],index=buttons.indexOf(document.activeElement);let next=null;if(e.key==='ArrowDown')next=(index+1)%buttons.length;if(e.key==='ArrowUp')next=(index-1+buttons.length)%buttons.length;if(e.key==='Home')next=0;if(e.key==='End')next=buttons.length-1;if(next!==null){e.preventDefault();buttons[next]?.focus();}};
  $('companyFinancialClose').onclick=()=>$('companyFinancialDialog').close();
  $('researchClose').onclick=()=>$('researchDialog').close();$('researchPrev').onclick=()=>changeResearchPage(-1);$('researchNext').onclick=()=>changeResearchPage(1);
@@ -577,7 +593,7 @@ function calendarCompanyHtml(stock){
  const upcoming=[c?.next_conference,c?.next_shareholders].filter(Boolean),queue=p.update_queue.filter(e=>e.symbol===stock.symbol);
  return '<h3>下次會議與摘要更新</h3><p>日程資料日期：'+esc(p.as_of)+'。'+(p.errors?.length?'部分來源更新失敗，請點官方公告確認最新安排。':'依官方已公告日期整理。')+'</p>'+['法說會','股東會'].map((label,i)=>'<p><b>下次'+label+'：</b>'+([c?.next_conference,c?.next_shareholders][i]?esc([c.next_conference,c.next_shareholders][i].date+([c.next_conference,c.next_shareholders][i].end_date!==[c.next_conference,c.next_shareholders][i].date?' 至 '+[c.next_conference,c.next_shareholders][i].end_date:'')):'目前查詢範圍未查得未來場次')+'</p>').join('')+upcoming.map(calendarEventHtml).join('')+'<h3>摘要更新待辦</h3>'+(queue.length?queue.map(calendarEventHtml).join(''):'<p>目前沒有依已收錄公告產生的更新待辦。</p>')+'<p class="tiny">會議日程每天查詢；摘要仍需讀完會後簡報與公告再整理。股價、月營收及已支援的財報數字依每日資料流程更新。</p>';
 }
-function wireCalendarCompanies(root){root.querySelectorAll('[data-calendar-symbol]').forEach(b=>b.onclick=()=>{if($('calendarDialog').open)$('calendarDialog').close();if($('researchDialog').open)$('researchDialog').close();state.filter='全部';state.search=b.dataset.calendarSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.calendarSymbol);$('companyResearch')?.scrollIntoView({behavior:'smooth',block:'start'});});}
+function wireCalendarCompanies(root){root.querySelectorAll('[data-calendar-symbol]').forEach(b=>b.onclick=()=>{if($('calendarDialog').open)$('calendarDialog').close();if($('researchDialog').open)$('researchDialog').close();state.filter='全部';state.search=b.dataset.calendarSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.calendarSymbol);});}
 function renderCalendar(){
  const p=calendar.payload,root=$('calendarContent');if(!root)return;
  if(!p){root.innerHTML='<p>'+esc(calendar.error?'日程暫時無法載入，請稍後更新。':'正在載入公司日程…')+'</p>';return;}

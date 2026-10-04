@@ -110,3 +110,14 @@
 .view-back-button{font-size:13px;padding:6px 10px;min-height:36px;border-width:1px;bottom:12px;left:12px}
 
 #researchPageSelect{text-align:left;cursor:pointer}#researchPageTabs>span{white-space:nowrap;font-size:15px}.research-page-menu{position:fixed;inset:auto;margin:0;padding:4px 10px;border:1px solid #dce4df;border-radius:8px;background:#fff;box-shadow:0 8px 24px #0002;overflow-y:auto;color:var(--text)}.research-page-menu button{display:block;width:100%;border:0;border-bottom:1px dashed #d4dbd7;background:#fff;text-align:left;padding:12px 10px;min-height:44px;font-size:16px;color:inherit;line-height:1.4}.research-page-menu button:last-child{border-bottom:0}.research-page-menu button[aria-selected="true"]{background:#e9f4ef;color:#173c2d;font-weight:600}.research-page-menu button:hover{background:#f3f7f4}
+
+@media(max-width:760px){#categoryCards{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:14px 0 10px}#categoryCards .category-card-wrap:last-child{grid-column:auto}#categoryCards .metric-card{padding:9px 8px;min-height:44px;text-align:center;border-radius:8px}#categoryCards .metric-card .cap{display:block;font-size:15px;line-height:1.4;font-weight:600}#categoryCards .category-first-metric,#categoryCards .metric-card>strong,#categoryCards .metric-card .tiny{display:none}#categoryCards .metric-card.active{padding-top:9px;padding-right:30px}#categoryCards .category-clear{width:25px;height:25px;top:9px;right:4px;font-size:20px}.classification-help{margin:0 0 15px}}
+.metric-help-popover>header{position:sticky;top:0;z-index:10;background:#fffef7;margin:-18px -20px 14px;padding:12px 16px;border-bottom:1px solid #e1e6df;box-shadow:0 2px 5px #182e2808}.metric-help-popover>header .button{flex-shrink:0;min-height:44px}.research-modal-header{flex:none;z-index:5;background:#fff}
+
+@media(max-width:700px){.research-page-menu button{font-size:17px;font-weight:600;min-height:46px;padding:13px 10px}.research-page-menu button[aria-selected="true"]{font-weight:700}#researchPageSelect{font-size:17px;font-weight:600}}
+
+.research-page-menu button{font-size:18px;font-weight:600;line-height:1.5;color:#1f342a;min-height:46px}.research-page-menu button[aria-selected="true"]{font-weight:700}#researchPageSelect{font-weight:600}@media(max-width:700px){.research-page-menu button{font-size:17px}}
+
+#researchPageMenu button{font-size:18px;font-weight:600;line-height:1.5;color:#1f342a;min-height:46px;padding:12px 10px}#researchPageMenu button[aria-selected="true"]{font-weight:700}#researchPageTabs #researchPageSelect{font-size:16px;font-weight:600}@media(max-width:700px){#researchPageMenu button{font-size:17px;padding:13px 10px}#researchPageTabs #researchPageSelect{font-size:17px}}
+
+#detail{scroll-margin-top:12px}
