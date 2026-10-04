@@ -1,0 +1,455 @@
+{
+  "basis": "收盤價漲跌幅，未還原除權息；不含股息報酬。單日用官方漲跌價差的比較基準；5／20 日用起訖收盤價。",
+  "latest_date": "2026-10-02",
+  "periods": {
+    "1": {
+      "count": 1080,
+      "end": "2026-10-02",
+      "gainers": [
+        {
+          "change": 10.000000000000009,
+          "industry": "通信網路業",
+          "name": "東訊",
+          "price": 25.85,
+          "symbol": "2321.TW"
+        },
+        {
+          "change": 10.000000000000009,
+          "industry": "通信網路業",
+          "name": "兆勁",
+          "price": 16.5,
+          "symbol": "2444.TW"
+        },
+        {
+          "change": 10.000000000000009,
+          "industry": "化學工業",
+          "name": "雙鍵",
+          "price": 203.5,
+          "symbol": "4764.TW"
+        },
+        {
+          "change": 10.000000000000009,
+          "industry": "電子零組件業",
+          "name": "臻鼎-KY",
+          "price": 561.0,
+          "symbol": "4958.TW"
+        },
+        {
+          "change": 9.999999999999986,
+          "industry": "紡織纖維",
+          "name": "聯發",
+          "price": 18.7,
+          "symbol": "1459.TW"
+        },
+        {
+          "change": 9.98925886143931,
+          "industry": "鋼鐵工業",
+          "name": "佳大",
+          "price": 51.2,
+          "symbol": "2033.TW"
+        },
+        {
+          "change": 9.973753280839892,
+          "industry": "化學工業",
+          "name": "德淵",
+          "price": 20.95,
+          "symbol": "4720.TW"
+        },
+        {
+          "change": 9.966777408637872,
+          "industry": "通信網路業",
+          "name": "閎暉",
+          "price": 49.65,
+          "symbol": "3311.TW"
+        },
+        {
+          "change": 9.963985594237702,
+          "industry": "其他",
+          "name": "中鼎",
+          "price": 45.8,
+          "symbol": "9933.TW"
+        },
+        {
+          "change": 9.962406015037594,
+          "industry": "化學工業",
+          "name": "和益",
+          "price": 58.5,
+          "symbol": "1709.TW"
+        }
+      ],
+      "losers": [
+        {
+          "change": -9.91902834008097,
+          "industry": "生技醫療業",
+          "name": "沛爾生醫*-創",
+          "price": 44.5,
+          "symbol": "6949.TW"
+        },
+        {
+          "change": -7.391304347826089,
+          "industry": "電子零組件業",
+          "name": "力銘",
+          "price": 10.65,
+          "symbol": "3593.TW"
+        },
+        {
+          "change": -5.764966740576504,
+          "industry": "光電業",
+          "name": "悅城",
+          "price": 42.5,
+          "symbol": "6405.TW"
+        },
+        {
+          "change": -5.708661417322835,
+          "industry": "建材營造",
+          "name": "鼎固-KY",
+          "price": 23.95,
+          "symbol": "2923.TW"
+        },
+        {
+          "change": -4.647160068846823,
+          "industry": "通信網路業",
+          "name": "星通",
+          "price": 55.4,
+          "symbol": "3025.TW"
+        },
+        {
+          "change": -4.347826086956519,
+          "industry": "通信網路業",
+          "name": "台揚",
+          "price": 11.0,
+          "symbol": "2314.TW"
+        },
+        {
+          "change": -4.285714285714281,
+          "industry": "生技醫療業",
+          "name": "北極星藥業-KY",
+          "price": 16.75,
+          "symbol": "6550.TW"
+        },
+        {
+          "change": -4.2134831460674205,
+          "industry": "電子零組件業",
+          "name": "宏致",
+          "price": 170.5,
+          "symbol": "3605.TW"
+        },
+        {
+          "change": -4.207119741100329,
+          "industry": "電機機械",
+          "name": "直得",
+          "price": 148.0,
+          "symbol": "1597.TW"
+        },
+        {
+          "change": -4.062500000000002,
+          "industry": "金融保險業",
+          "name": "安泰銀",
+          "price": 15.35,
+          "symbol": "2849.TW"
+        }
+      ],
+      "start": null
+    },
+    "20": {
+      "count": 1001,
+      "end": "2026-10-02",
+      "gainers": [
+        {
+          "change": 107.70791075050714,
+          "industry": "鋼鐵工業",
+          "name": "佳大",
+          "price": 51.2,
+          "symbol": "2033.TW"
+        },
+        {
+          "change": 100.33277870216307,
+          "industry": "電腦及週邊設備業",
+          "name": "全友",
+          "price": 60.2,
+          "symbol": "2305.TW"
+        },
+        {
+          "change": 80.5,
+          "industry": "半導體業",
+          "name": "嘉晶",
+          "price": 180.5,
+          "symbol": "3016.TW"
+        },
+        {
+          "change": 72.93577981651376,
+          "industry": "其他",
+          "name": "裕慶-KY",
+          "price": 377.0,
+          "symbol": "6957.TW"
+        },
+        {
+          "change": 70.63106796116503,
+          "industry": "半導體業",
+          "name": "聯傑",
+          "price": 70.3,
+          "symbol": "3094.TW"
+        },
+        {
+          "change": 69.91150442477874,
+          "industry": "鋼鐵工業",
+          "name": "彰源",
+          "price": 38.4,
+          "symbol": "2030.TW"
+        },
+        {
+          "change": 67.14285714285715,
+          "industry": "化學工業",
+          "name": "和益",
+          "price": 58.5,
+          "symbol": "1709.TW"
+        },
+        {
+          "change": 66.36528028933093,
+          "industry": "光電業",
+          "name": "宏齊",
+          "price": 46.0,
+          "symbol": "6168.TW"
+        },
+        {
+          "change": 61.39705882352941,
+          "industry": "電子零組件業",
+          "name": "騰輝電子-KY",
+          "price": 439.0,
+          "symbol": "6672.TW"
+        },
+        {
+          "change": 55.38057742782152,
+          "industry": "生技醫療業",
+          "name": "睿生光電",
+          "price": 296.0,
+          "symbol": "6861.TW"
+        }
+      ],
+      "losers": [
+        {
+          "change": -23.854961832061072,
+          "industry": "數位雲端",
+          "name": "永悅健康-創",
+          "price": 19.95,
+          "symbol": "7835.TW"
+        },
+        {
+          "change": -21.83908045977011,
+          "industry": "綠能環保",
+          "name": "熙特爾-創",
+          "price": 102.0,
+          "symbol": "7740.TW"
+        },
+        {
+          "change": -21.018062397372738,
+          "industry": "電腦及週邊設備業",
+          "name": "邁科",
+          "price": 481.0,
+          "symbol": "6831.TW"
+        },
+        {
+          "change": -20.06079027355623,
+          "industry": "其他",
+          "name": "百和興業-KY",
+          "price": 13.15,
+          "symbol": "8404.TW"
+        },
+        {
+          "change": -19.46222791293214,
+          "industry": "光電業",
+          "name": "大立光",
+          "price": 6290.0,
+          "symbol": "3008.TW"
+        },
+        {
+          "change": -18.043478260869563,
+          "industry": "電機機械",
+          "name": "新代",
+          "price": 1885.0,
+          "symbol": "7750.TW"
+        },
+        {
+          "change": -17.323943661971832,
+          "industry": "其他",
+          "name": "jpp-KY",
+          "price": 293.5,
+          "symbol": "5284.TW"
+        },
+        {
+          "change": -17.099999999999994,
+          "industry": "光電業",
+          "name": "吉祥全",
+          "price": 41.45,
+          "symbol": "2491.TW"
+        },
+        {
+          "change": -16.346153846153843,
+          "industry": "電子零組件業",
+          "name": "新日興",
+          "price": 174.0,
+          "symbol": "3376.TW"
+        },
+        {
+          "change": -16.076294277929158,
+          "industry": "運動休閒",
+          "name": "中傑-KY",
+          "price": 61.6,
+          "symbol": "6965.TW"
+        }
+      ],
+      "start": "2026-09-02"
+    },
+    "5": {
+      "count": 1061,
+      "end": "2026-10-02",
+      "gainers": [
+        {
+          "change": 47.83549783549783,
+          "industry": "光電業",
+          "name": "天瀚",
+          "price": 68.3,
+          "symbol": "6225.TW"
+        },
+        {
+          "change": 42.99674267100977,
+          "industry": "電子零組件業",
+          "name": "騰輝電子-KY",
+          "price": 439.0,
+          "symbol": "6672.TW"
+        },
+        {
+          "change": 41.322314049586794,
+          "industry": "其他電子業",
+          "name": "無敵",
+          "price": 17.1,
+          "symbol": "8201.TW"
+        },
+        {
+          "change": 40.239043824701206,
+          "industry": "半導體業",
+          "name": "晶心科",
+          "price": 352.0,
+          "symbol": "6533.TW"
+        },
+        {
+          "change": 38.87884267631103,
+          "industry": "鋼鐵工業",
+          "name": "彰源",
+          "price": 38.4,
+          "symbol": "2030.TW"
+        },
+        {
+          "change": 37.26541554959788,
+          "industry": "鋼鐵工業",
+          "name": "佳大",
+          "price": 51.2,
+          "symbol": "2033.TW"
+        },
+        {
+          "change": 36.67180277349769,
+          "industry": "其他電子業",
+          "name": "柏騰",
+          "price": 44.35,
+          "symbol": "3518.TW"
+        },
+        {
+          "change": 35.286103542234315,
+          "industry": "通信網路業",
+          "name": "閎暉",
+          "price": 49.65,
+          "symbol": "3311.TW"
+        },
+        {
+          "change": 34.303030303030305,
+          "industry": "電腦及週邊設備業",
+          "name": "大眾控",
+          "price": 55.4,
+          "symbol": "3701.TW"
+        },
+        {
+          "change": 33.18777292576418,
+          "industry": "半導體業",
+          "name": "台亞",
+          "price": 45.75,
+          "symbol": "2340.TW"
+        }
+      ],
+      "losers": [
+        {
+          "change": -11.530815109343928,
+          "industry": "生技醫療業",
+          "name": "沛爾生醫*-創",
+          "price": 44.5,
+          "symbol": "6949.TW"
+        },
+        {
+          "change": -11.153846153846159,
+          "industry": "電子零組件業",
+          "name": "富世達",
+          "price": 2310.0,
+          "symbol": "6805.TW"
+        },
+        {
+          "change": -10.979228486646885,
+          "industry": "數位雲端",
+          "name": "GOGOLOOK",
+          "price": 150.0,
+          "symbol": "6902.TW"
+        },
+        {
+          "change": -10.20408163265305,
+          "industry": "運動休閒",
+          "name": "中傑-KY",
+          "price": 61.6,
+          "symbol": "6965.TW"
+        },
+        {
+          "change": -9.427609427609429,
+          "industry": "電子通路業",
+          "name": "宏碁遊戲-創",
+          "price": 26.9,
+          "symbol": "6908.TW"
+        },
+        {
+          "change": -8.520179372197312,
+          "industry": "綠能環保",
+          "name": "熙特爾-創",
+          "price": 102.0,
+          "symbol": "7740.TW"
+        },
+        {
+          "change": -7.662835249042144,
+          "industry": "通信網路業",
+          "name": "統新",
+          "price": 361.5,
+          "symbol": "6426.TW"
+        },
+        {
+          "change": -7.052186177715091,
+          "industry": "通信網路業",
+          "name": "稜研科技*-創",
+          "price": 65.9,
+          "symbol": "7812.TW"
+        },
+        {
+          "change": -6.809338521400776,
+          "industry": "建材營造",
+          "name": "鼎固-KY",
+          "price": 23.95,
+          "symbol": "2923.TW"
+        },
+        {
+          "change": -6.610878661087871,
+          "industry": "半導體業",
+          "name": "鴻勁",
+          "price": 5580.0,
+          "symbol": "7769.TW"
+        }
+      ],
+      "start": "2026-09-23"
+    }
+  },
+  "schema_version": 1,
+  "source": "https://www.twse.com.tw/exchangeReport/MI_INDEX"
+}

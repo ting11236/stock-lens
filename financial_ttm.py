@@ -75,6 +75,20 @@ def derived_metrics(stock, financial, equity_history=None):
             if current.get('basis') == previous.get('basis') and numeric(current_eps) and numeric(old_eps) and old_eps > 0:
                 growth = (current_eps / old_eps - 1) * 100
                 growth_period, growth_prior_period, growth_mode, growth_eps = annual, old_annual, 'annual', current_eps
+    annual_periods = sorted(p for p in records if re.fullmatch(r'\d{4}-Q4', p) and p <= period)
+    cagr = {}
+    if annual_periods:
+        end = annual_periods[-1]
+        for years in (3, 5):
+            keys = [f'{int(end[:4])-i}-Q4' for i in range(years+1)]
+            values = [records.get(k, {}).get('eps') for k in keys]
+            bases = {records.get(k, {}).get('basis') for k in keys}
+            if len(bases) == 1 and all(numeric(v) and v > 0 for v in values):
+                cagr[years] = ((values[0]/values[-1])**(1/years)-1)*100
+        years = 5 if 5 in cagr else 3 if 3 in cagr else None
+        if years:
+            growth, growth_eps = cagr[years], records[end]['eps']
+            growth_period, growth_prior_period, growth_mode = end, f'{int(end[:4])-years}-Q4', f'cagr{years}'
     peg_pe = price / growth_eps if numeric(price) and price > 0 and numeric(growth_eps) and growth_eps > 0 else None
     pe = price / eps if numeric(price) and price > 0 and numeric(eps) and eps > 0 else None
     # Ordinary operating revenue, not financial-industry net-income equivalents.
@@ -92,6 +106,10 @@ def derived_metrics(stock, financial, equity_history=None):
         'peg': (peg_pe / growth if peg_pe is not None and growth is not None and 1 <= growth <= 100 else None, ('（股價 ÷ 本年全年 EPS）÷ 全年 EPS 年增率百分點' if growth_mode == 'annual' else '（股價 ÷ TTM EPS）÷ TTM EPS 年增率百分點'), 'EPS 須為正，成長率須在 1%–100% 的本站研究範圍內'),
         'roe': (roe, 'TTM 歸母淨利 ÷ 期初期末平均母公司權益 × 100%；億元轉財報千元', '缺少同口徑期初及期末權益，不能用期末權益代替平均'),
     }
+    if growth_mode.startswith('cagr'):
+        n=int(growth_mode[-1])
+        formulas['earnings_growth']=(growth, f'（期末全年 EPS ÷ {n} 年前全年 EPS）^(1/{n}) − 1，再乘 100%', '缺少連續同口徑正值全年 EPS')
+        formulas['peg']=(peg_pe/growth if peg_pe is not None and 1 <= growth <= 100 else None, f'（股價 ÷ 期末全年 EPS）÷ {n} 年 EPS 複合成長率百分點', 'EPS CAGR 須在 1%–100% 的本站研究範圍內，且股價有效')
     return {key: {'value': value, 'period': growth_period if key in ('peg','earnings_growth') else period, 'formula': formula,
                   'reason': None if value is not None else reason,
                   'comparison_period': (growth_prior_period if key in ('peg','earnings_growth') else prior_period if key == 'roe' else None),

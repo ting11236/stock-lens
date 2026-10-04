@@ -1,6 +1,33 @@
 import unittest
 from financial_ttm import rolling_financials, trailing_value
 
+class CAGRTests(unittest.TestCase):
+    def test_five_year_growth_counts_intervals_and_uses_matching_annual_eps(self):
+        from financial_ttm import derived_metrics
+        records={f'{y}-Q4':{'eps':10*2**((y-2020)/5),'basis':'A'} for y in range(2020,2026)}
+        records['2026-Q2']={'eps':15,'basis':'A'}
+        r=derived_metrics({'price':100,'price_date':'2026-10-02'},{'cumulative':records})
+        growth=(2**.2-1)*100
+        self.assertAlmostEqual(r['earnings_growth']['value'],growth)
+        self.assertAlmostEqual(r['peg']['value'],5/growth)
+        self.assertEqual(r['peg']['period_mode'],'cagr5')
+        self.assertEqual(r['peg']['comparison_period'],'2020-Q4')
+        self.assertEqual(r['peg']['eps_used'],20)
+        records['2021-Q4']['eps']=-1
+        r=derived_metrics({'price':100},{'cumulative':records})
+        self.assertEqual(r['peg']['period_mode'],'cagr3')
+        records['2024-Q4']['basis']='B'
+        r=derived_metrics({'price':100},{'cumulative':records})
+        self.assertNotIn(r['peg']['period_mode'],('cagr3','cagr5'))
+
+    def test_intermediate_missing_zero_or_losses_do_not_create_cagr(self):
+        from financial_ttm import derived_metrics
+        for value in (None,0,-1):
+            records={f'{y}-Q4':{'eps':10+y-2020,'basis':'A'} for y in range(2020,2026)}
+            records['2023-Q4']['eps']=value
+            r=derived_metrics({'price':100},{'cumulative':records})
+            self.assertNotIn(r['peg']['period_mode'],('cagr3','cagr5'))
+
 class FinancialTTMTests(unittest.TestCase):
     def test_cumulative_formula_and_quarter_differences(self):
         records = {'2025-Q2': {'revenue': 50, 'eps': 2},

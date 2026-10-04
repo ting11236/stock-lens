@@ -11,10 +11,16 @@ from financial_ttm import rolling_financials
 def number(v):return isinstance(v,(int,float)) and not isinstance(v,bool) and math.isfinite(v)
 def links(v):return list(dict.fromkeys(re.findall(r'https://[^\s]+',str(v or ''))))
 def fmt(v):return f'{v:,.2f}' if number(v) else '未取得'
-def extract(workbook, previous=None):
- import openpyxl
- w=openpyxl.load_workbook(workbook,read_only=True,data_only=True)
- tables={s.title:[list(r) for r in s.values] for s in w}
+def extract(workbook, previous=None, tables=None):
+ if tables is None:
+  if Path(workbook).suffix == '.numbers':
+   from numbers_parser import Document
+   w=Document(str(workbook))
+   tables={s.name:[[c.value for c in row] for row in s.tables[0].rows()] for s in w.sheets}
+  else:
+   import openpyxl
+   w=openpyxl.load_workbook(workbook,read_only=True,data_only=True)
+   tables={s.title:[list(r) for r in s.values] for s in w}
  def rows(sheet):return [r for r in tables[sheet][5:] if r[0]]
  biz={}
  for sheet in ['臺灣50業務','其他上市業務']:
@@ -46,6 +52,23 @@ def extract(workbook, previous=None):
   financial['cumulative']=raw
   financial['rolling']=rolling
   profiles[code+'.TW']=dict(name=b[1],source_reviewed_at=r[8],imported_at=date.today().isoformat(),source_filename=Path(workbook).name,source_sheet=sheet,source_row=row,business=str(r[2] or '未取得'),direction=str(r[3] or '未取得'),profit_mechanism=str(r[4] or '未取得'),status=str(r[5]),screening=str(r[6]),urls=links(r[7])+links(f[19]),financial=financial,summary=text,events=events[code],outlooks=outlook[code])
+ def iso(v):return str(v or '').split(' ')[0]
+ balance_rows=defaultdict(list)
+ if '資產負債來源' in tables:
+  for r in rows('資產負債來源'):
+   item=dict(zip(['symbol','name','date','type','basis','assets','liabilities','equity','parent_equity','cash','current_assets','current_liabilities','listed_borrowings','listed_leases','operating_cashflow','source_url','cashflow_source_url','reviewed_at'],r[:18]))
+   for k in ['date','reviewed_at']:item[k]=iso(item[k])
+   item['unit']='億元';item['cashflow_period']='2026 上半年累計' if number(item['operating_cashflow']) else None
+   balance_rows[str(r[0])+'.TW'].append(item)
+ if '資產負債' in tables:
+  for r in rows('資產負債'):
+   symbol=str(r[0])+'.TW'
+   if symbol not in profiles:continue
+   profiles[symbol]['balance_sheet']={'statements':sorted(balance_rows[symbol],key=lambda x:x['date'],reverse=True),'note':str(r[20] or ''),'basis':str(r[21] or ''),'source_url':str(r[22] or ''),'regulatory':{'capital_adequacy':r[11] if number(r[11]) else None,'npl_ratio':r[12] if number(r[12]) else None,'coverage_ratio':r[13] if number(r[13]) else None,'capital_type':str(r[23] or '未取得')}}
+ for symbol,p in profiles.items():
+  if 'balance_sheet' not in p and (previous or {}).get('profiles',{}).get(symbol,{}).get('name')==p['name']:
+   old=(previous or {})['profiles'][symbol].get('balance_sheet')
+   if old:p['balance_sheet']=old
  return dict(schema_version=1,source=dict(filename=Path(workbook).name,sha256=hashlib.sha256(Path(workbook).read_bytes()).hexdigest(),as_of=max(str(x[12]) for rows_ in cumulative.values() for x in rows_.values() if x[12]),imported_at=date.today().isoformat(),provenance='使用者提供研究檔案；本次匯入未重新逐一查閱原始網站',limitations=['業務及獲利機制為定性整理，非分部淨利比例。','預估、指引、長期目標與實際數字分開；未確認所有後續修正。','歷史財務未逐家重編 IFRS17 或合併範圍；四季合計不保證跨期完全可比。']),profiles=profiles)
 if __name__=='__main__':
  p=argparse.ArgumentParser()

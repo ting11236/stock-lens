@@ -108,6 +108,8 @@ def build(stocks, records, today=None, overview=None, equity_history=None):
             if 'cumulative' in financial:
                 financial['rolling'] = rolling_financials(financial['cumulative'])
             profiles[symbol]['overview'] = imported
+            if imported.get('balance_sheet'):
+                profiles[symbol]['balance_sheet'] = imported.pop('balance_sheet')
             profiles[symbol]['calculated_metrics'] = derived_metrics(stock, financial, (equity_history or {}).get(symbol[:-3], {}))
             if not record:
                 profiles[symbol]['status'] = 'overview'
@@ -132,7 +134,7 @@ def run(root=ROOT):
     history_path = root/'site/data/financial-history.json'
     history = json.loads(history_path.read_text()) if history_path.exists() else {}
     payload = build(stocks, records, overview=overview, equity_history=history)
-    write_changed(root/'site/data/company-research.json', dump(payload))
+    write_changed(root/'site/data/company-research.json', json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(',',':'), allow_nan=False)+'\n')
     print(json.dumps(payload['coverage'], ensure_ascii=False))
 
 
