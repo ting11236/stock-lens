@@ -169,7 +169,7 @@ function openMetricHelp(key,value=null,symbol=null){
  $('metricHelpTitle').textContent=item.querySelector('dt')?.textContent||metricName(key.toUpperCase());
  const companySymbol=symbol||(($('researchDialog')?.open||$('companyFinancialDialog')?.open)?researchView.symbol:state.selected);$('metricHelpPeers').innerHTML=key==='pe'?metricPeerPeHtml(companySymbol):'';$('metricHelpPeers').hidden=!$('metricHelpPeers').innerHTML;
  $('metricHelpText').textContent=item.querySelector('dd > p')?.textContent||'';
- $('metricHelpValue').textContent=metricValueExplanation(key,value);$('metricHelpValue').hidden=!$('metricHelpValue').textContent;
+ const company=state.stocks.find(s=>s.symbol===companySymbol),explanation=metricValueExplanation(key,value);$('metricHelpValue').textContent=(key==='pe'&&company&&explanation?company.name+'（'+company.symbol.slice(0,-3)+'）｜':'')+explanation;$('metricHelpValue').hidden=!$('metricHelpValue').textContent;
  highlightNarrative($('metricHelpPopover'));$('metricHelpPopover').showPopover();
 }
 function rememberStockView(){
