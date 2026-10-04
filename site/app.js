@@ -368,7 +368,7 @@ function companyPages(stock){
 function renderResearchPage(){
  const stock=state.stocks.map(materialize).find(s=>s.symbol===researchView.symbol);if(!stock)return;
  const page=researchView.pages[researchView.index];
- $('researchCompany').textContent=stock.name+'（'+stock.symbol.slice(0,-3)+'）';$('researchPageTitle').textContent=page.label;
+ $('researchCompany').textContent=stock.name+'（'+stock.symbol.slice(0,-3)+'）';$('researchPageTitle').textContent=page.label+(page.key==='balance'?'（金額單位：億元）':'');
  $('researchPageBody').innerHTML=page.html;$('researchPageBody').scrollTop=0;
 
  $('researchPageTabs').innerHTML=researchView.pages.map((p,i)=>'<button class="button small '+(i===researchView.index?'active':'')+'" type="button" role="tab" aria-selected="'+(i===researchView.index)+'" data-modal-page="'+i+'">'+esc(p.label)+'</button>').join('');
