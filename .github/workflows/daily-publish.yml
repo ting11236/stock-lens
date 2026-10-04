@@ -48,6 +48,9 @@ jobs:
       - name: 更新近期漲跌排行與交易日歷史
         continue-on-error: true
         run: python market_movers.py
+      - name: 更新法說會、股東會與公司摘要待辦
+        continue-on-error: true
+        run: python company_calendar.py
       - name: 保留有變更的快照、CSV 與更新狀態
         run: |
           if ! git diff --quiet -- site/data || test -n "$(git ls-files --others --exclude-standard site/data)"; then

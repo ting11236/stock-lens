@@ -11,6 +11,8 @@ class MoversTests(unittest.TestCase):
         self.assertEqual(p['5']['gainers'],[])
         self.assertEqual(p['5']['losers'],[])
         self.assertEqual(p['5']['count'],2)
+        self.assertAlmostEqual(p['5']['changes']['1101.TW'],5)
+        self.assertAlmostEqual(p['5']['changes']['1102.TW'],-5)
         self.assertEqual(p['5']['start'],dates[0])
         self.assertNotIn('20',p)
         stocks[0]['price_date']='2026-09-30'
