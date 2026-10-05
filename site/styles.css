@@ -139,5 +139,7 @@
 .table-top-scroll input:disabled{opacity:.35;cursor:default}
 @media(max-width:700px){.table-top-scroll{flex-direction:column;align-items:stretch;gap:0;padding:0 12px 8px}.table-top-scroll input{width:100%;flex:auto;height:32px}.table-top-scroll label{font-size:12px}}
 
-.category-row-button{font:inherit;cursor:pointer;border:1px solid #b7d1c7;min-height:36px;padding:5px 10px;color:#126957;background:#edf6f3}
-.category-row-button:hover{border-color:#126957;background:#dceee5;text-decoration:underline}
+.industry-row-button{font:inherit;cursor:pointer;border:1px solid #b7d1c7;min-height:36px;padding:5px 10px;color:#126957;background:#edf6f3}
+.industry-row-button:hover{border-color:#126957;background:#dceee5;text-decoration:underline}
+
+.stock-table .industry-row-button{display:block;font-size:13px;font-weight:400;line-height:1.5;padding:3px 5px;min-height:32px;margin-top:3px;white-space:nowrap}
