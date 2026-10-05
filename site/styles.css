@@ -132,3 +132,9 @@
 .stock-table tbody tr.focused td:nth-child(2){background:#edf6f3}
 .stock-table tbody tr[data-symbol]:hover td:nth-child(2){background:#f6faf8}
 .stock-table thead th:nth-child(2){z-index:4;background:#f8fafc}
+
+.table-top-scroll{padding:0 14px 10px;background:#fff;display:flex;align-items:center;gap:12px}
+.table-top-scroll label{font-size:13px;color:#52647a;white-space:nowrap}
+.table-top-scroll input{flex:1;min-width:0;height:28px;margin:0;accent-color:#126957;cursor:ew-resize}
+.table-top-scroll input:disabled{opacity:.35;cursor:default}
+@media(max-width:700px){.table-top-scroll{flex-direction:column;align-items:stretch;gap:0;padding:0 12px 8px}.table-top-scroll input{width:100%;flex:auto;height:32px}.table-top-scroll label{font-size:12px}}

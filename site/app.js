@@ -259,6 +259,13 @@ function visibleStocks(){
 }
 function star(s){const watched=state.watchlist.includes(s.symbol);return `<button class="star ${watched?'on':''}" data-star="${esc(s.symbol)}" aria-label="${watched?'移除':'加入'}自選股 ${esc(s.symbol)}" aria-pressed="${watched}">${watched?'★':'☆'}</button>`}
 function wireStars(root){root.querySelectorAll('[data-star]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleWatch(b.dataset.star)})}
+function updateTableScroll(){
+ const table=$('stockTableWrap'),slider=$('stockTableScroll');if(!table?.querySelector?.('.stock-table'))return;
+ const max=Math.max(0,table.scrollWidth-table.clientWidth);slider.max=String(max);slider.disabled=max<1;slider.value=String(table.scrollLeft);slider.setAttribute('aria-valuetext',max?'已向右捲動 '+Math.round(table.scrollLeft/max*100)+'%':'所有欄位已顯示');
+}
+function initTableScroll(){
+ const table=$('stockTableWrap'),slider=$('stockTableScroll');slider.oninput=()=>{table.scrollLeft=Number(slider.value);updateTableScroll();};table.addEventListener('scroll',updateTableScroll,{passive:true});window.addEventListener('resize',updateTableScroll);if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(updateTableScroll);observer.observe(table);observer.observe(table.querySelector('.stock-table'));}updateTableScroll();
+}
 function render(){
  $('watchCount').textContent=state.watchlist.length;$('marketCount').textContent=state.stocks.length.toLocaleString('zh-TW');
  $('categoryCards').innerHTML=CATS.map(c=>`<div class="category-card-wrap"><button aria-pressed="${state.filter===c.id}" class="metric-card ${state.filter===c.id?'active':''}" data-category="${esc(c.id)}"><span class="cap">${esc(c.id)}</span><span class="category-first-metric"><b>先看 ${esc(c.abbr)}</b><small>（${esc(metricName(c.abbr).replace(c.abbr+' ',''))}）</small></span><span class="tiny">${esc(c.sub)}</span></button>${state.filter===c.id?'<button type="button" class="category-clear" aria-label="取消分類，顯示全部股票" title="取消分類，顯示全部股票">×</button>':''}</div>`).join('');
@@ -274,7 +281,7 @@ function render(){
  $('stockRows').innerHTML=rows.length?rows.map(s=>{const c=catMeta(s),it=interpretation(s);return `<tr data-symbol="${esc(s.symbol)}" tabindex="0" class="${s.symbol===state.selected?'focused':''}" aria-label="查看 ${esc(s.name)} 詳細資料"><td>${star(s)}</td><td><b class="ticker">${esc(s.symbol.replace('.TW',''))}</b><button type="button" class="ticker-name stock-name-button">${esc(s.name)}</button><small>${esc(s.industry)}</small>${keywordMatches(s.symbol).length?'<small class="search-match">命中：'+esc([...new Set(keywordMatches(s.symbol).map(e=>e.label))].slice(0,3).join('、'))+'</small>':''}</td><td class="numeric"><b>${fnum(s.price)}</b><small>${esc(s.price_date||'日期未提供')}</small>${weeklyChangeHtml(s)}</td><td><span class="cat-chip">${esc(s.category)}</span>${c.metric?'<small>先看 '+metricHelpLink(c.metric,c.abbr+' '+ratio(s[c.metric]),s[c.metric])+'</small>':''}</td><td><div class="major">${c.metric?metricHelpLink(c.metric,c.abbr+' '+ratio(s[c.metric]),s[c.metric]):esc(c.abbr)+' —'}</div><small>（${esc(metricName(c.abbr).replace(c.abbr+' ',''))}）</small><span class="tag ${it.tone}">${esc(it.title)}</span></td>${metricOrder.map(k=>`<td class="numeric ${c.metric===k?'primary-raw':''}">${metricHelpLink(k,ratio(s[k]),s[k])}${k==='peg'&&['annual','cagr3','cagr5'].includes(s.field_meta?.peg?.period_mode)?'<small>'+esc(s.field_meta.peg.period_mode==='annual'?s.field_meta.peg.date.slice(0,4)+' 年全年 EPS 成長':s.field_meta.peg.period_mode.slice(-1)+' 年 EPS 複合成長率')+'</small>':''}</td>`).join('')}</tr>`}).join(''):`<tr><td colspan="9"><div class="emptiness ${activeSearch()?'empty-search-hint':''}">${activeSearch()?'試試其他寫法，再搜尋一次看看～':state.tab==='watchlist'?'尚無符合條件的自選股。到「全部股票」搜尋並按 ☆ 即可加入。':'目前沒有符合條件的股票。請清除篩選，或稍後重新載入資料。'}</div></td></tr>`;
  document.querySelectorAll('tr[data-symbol]').forEach(tr=>{tr.onclick=()=>{selectCompany(tr.dataset.symbol)};tr.onkeydown=e=>{if(e.target===tr&&(e.key==='Enter'||e.key===' ')){e.preventDefault();tr.click()}}});wireStars($('stockRows'));
  if(!state.selected&&rows.length)state.selected=rows[0].symbol;
- renderDetail();wireMetricHelp();
+ renderDetail();wireMetricHelp();updateTableScroll();
  const absent=state.watchlist.filter(sym=>!state.stocks.some(s=>s.symbol===sym));$('missingWatch').hidden=state.tab!=='watchlist'||!absent.length;$('missingWatch').textContent='自選股暫無市場資料（清單仍保留）：'+absent.join('、');
 }
 const RESEARCH_SECTIONS=[['business','公司業務'],['earnings','近年營收與獲利來源'],['transition','轉型方向'],['developments','新發展項目']];
@@ -452,7 +459,7 @@ function init(){
  $('undoWatchBtn').onclick=()=>{if(!clearedWatchlist)return;state.watchlist=[...new Set([...clearedWatchlist,...state.watchlist])];clearedWatchlist=null;persist();$('undoWatchBtn').hidden=true;render()};
  $('prevPage').onclick=()=>{state.page--;render()};$('nextPage').onclick=()=>{state.page++;render()};$('fetchBtn').onclick=()=>{fetchLive();fetchResearch();fetchMovers();fetchCalendar()};$('exportBtn').onclick=exportWatchlist;$('returnToStocks').onclick=restoreStockView;
  window.addEventListener('storage',e=>{if(e.key===KEY){const p=readPreferences(localStorage);state.watchlist=p.watchlist;state.overrides=p.overrides;render()}});
- render();fetchLive();fetchResearch();initResearchUI();
+ render();fetchLive();fetchResearch();initResearchUI();initTableScroll();
 }
 const RESEARCH_PAGES=[['intro','先認識這家公司'],['metrics','用指標看公司表現'],['results','公司營業概況'],['business','公司業務與獲利來源'],['balance','債務與資產負債表'],['outlook','未來財務與發展方向'],['events','事件與進度'],['sources','資料來源'],['calendar','會議與更新日程']];
 let researchView={symbol:null,index:0,pages:[],opener:null};
