@@ -489,7 +489,7 @@ function fusedResearchNarrative(profile,entries,showSources=true){
    const refs=(entry.sources||[]).map(id=>profile?.sources?.[id]).filter(Boolean);
    const citation=(showSources?refs:[]).map(ref=>{const url=safeResearchUrl(ref.url);return url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.title)+' ↗</a>':esc(ref.title);}).join('、');
    const shown=esc(text);
-   items.push('<li>'+shown+'<small class="research-fact-source">'+esc(entry.period||'資料期間未提供')+(citation?' · '+citation:'')+'</small></li>');
+   items.push('<li>'+shown+'<small class="research-fact-source">'+esc(entry.period||'資料期間未提供')+(entry.reviewed_at?' · 本段查核 '+esc(entry.reviewed_at):'')+(citation?' · '+citation:'')+'</small></li>');
   }
  }
  return items.length?'<ul class="overview-points fused-research">'+items.join('')+'</ul>':'<p>目前沒有這部分資料。</p>';

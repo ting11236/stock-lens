@@ -979,6 +979,23 @@
         "publisher": "遠東新世紀",
         "published_at": "2026-05-29",
         "accessed_at": "2026-10-03"
+      },
+      "salomon-commercial": {
+        "url": "https://csr.fenc.com/news/760?lang=zh",
+        "title": "回收PET鞋中底首批商業化供應SALOMON",
+        "published_at": "2025-04-01",
+        "accessed_at": "2026-10-05",
+        "supports": "首批鞋中底已商業化供應、客戶與用途；非本週新事件",
+        "publisher": "遠東新世紀"
+      },
+      "esg-expansion": {
+        "url": "https://2025csr.fenc.com/highlight-2025-2025spotlight-102?lang=zh",
+        "title": "2025永續案例：全球營運布局",
+        "published_at": null,
+        "published_at_missing_reason": "頁面未列精確發布日期，不能用報告年度代替",
+        "accessed_at": "2026-10-05",
+        "supports": "馬來西亞5萬噸與預計2026H2；蘇州2025投產；越南長纖2025Q2啟用",
+        "publisher": "遠東新世紀"
       }
     },
     "business": {
@@ -1005,12 +1022,15 @@
       ]
     },
     "developments": {
-      "text": "2026 年股東會資料指出越南新廠已於 2025 年完工，馬來西亞新廠預計 2026 下半年投產，本輪尚未核實後續量產。法說另說明與 Salomon 合作的可回收鞋材已突破量產門檻；住宅 Eco Park A+ 已開始預售，預售不等同已交屋認列收入。",
-      "period": "2026-05 股東會／2026-06 法說的階段說明",
+      "period": "既有2026年5–6月資料；補核2025商用與擴產里程碑、2026H2計畫",
       "sources": [
         "agm",
-        "ir"
-      ]
+        "ir",
+        "salomon-commercial",
+        "esg-expansion"
+      ],
+      "text": "2026 年股東會資料指出越南新廠已於 2025 年完工，馬來西亞新廠預計 2026 下半年投產，本輪尚未核實後續量產。公司2025年4月1日已公告回收PET製成rTPEE鞋中底首批商業化供應SALOMON的Solamphibian溯溪鞋；不只是研發或量產門檻，單項營收金額本輪未找到。住宅 Eco Park A+ 已開始預售，預售不等同已交屋認列收入。 另外，公司2025永續案例列出：馬來西亞食品級rPET規劃年產5萬噸，供飲料包裝，仍列2026下半年投產計畫；蘇州氣囊布與氣囊袋擴建已於2025投產；越南長纖新廠2025第二季啟用、年產約6萬噸。後兩項屬既有業務擴展，並非新事業；本輪未找到各項營收貢獻金額。",
+      "reviewed_at": "2026-10-05"
     },
     "limitations": [
       "已補 2024–2025 全年及 2026 Q1 比較，2023 年與 2026 半年報尚待補查。",

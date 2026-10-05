@@ -17,6 +17,21 @@ def note():
 
 
 class ResearchTests(unittest.TestCase):
+    def test_partial_review_dates_do_not_refresh_whole_company(self):
+        record = note()
+        record['sources']['new'] = {'title': '新公告', 'publisher': '公司A', 'url': 'https://example.com/new', 'published_at': '2026-10-03', 'accessed_at': '2026-10-05'}
+        record['developments'] = {'text': '補核發展', 'period': '2025 年', 'sources': ['new'], 'reviewed_at': '2026-10-05'}
+        self.assertEqual(r.validate({'1234.TW': record}, date(2026,10,5))['1234.TW']['reviewed_at'], '2026-10-02')
+        bad = copy.deepcopy(record)
+        del bad['developments']['reviewed_at']
+        with self.assertRaises(ValueError): r.validate({'1234.TW': bad}, date(2026,10,5))
+        bad = copy.deepcopy(record)
+        bad['business']['sources'].append('new')
+        with self.assertRaises(ValueError): r.validate({'1234.TW': bad}, date(2026,10,5))
+        bad = copy.deepcopy(record)
+        bad['developments']['reviewed_at'] = '2099-01-01'
+        with self.assertRaises(ValueError): r.validate({'1234.TW': bad}, date(2026,10,5))
+
     def test_imported_overview_preserves_verified_notes_and_checks_identity(self):
         raw = {'schema_version': 1, 'source': {'filename': 'provided.xlsx'},
                'profiles': {'1234.TW': {'name': '公司A', 'business': '原始業務',

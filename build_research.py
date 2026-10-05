@@ -38,7 +38,7 @@ def validate(records, today=None):
         sources = record['sources']
         if not isinstance(sources, dict) or not sources:
             raise ValueError(symbol + ' 缺少已查閱來源')
-        for source in sources.values():
+        for source_id, source in sources.items():
             url = urlsplit(source['url'])
             if url.scheme != 'https' or not url.hostname or url.username or url.password:
                 raise ValueError(symbol + ' 來源必須是公開 HTTPS 網址')
@@ -46,7 +46,9 @@ def validate(records, today=None):
                 raise ValueError(symbol + ' 缺少來源標題或發布者')
             checked_date(source['accessed_at'], today)
             if source['accessed_at'] > record['reviewed_at']:
-                raise ValueError(symbol + ' 查閱日期晚於摘要查核日期')
+                referencing = [record[k] for k in SECTIONS if isinstance(record.get(k), dict) and source_id in record[k].get('sources', [])]
+                if not referencing or any(section.get('reviewed_at', record['reviewed_at']) < source['accessed_at'] for section in referencing):
+                    raise ValueError(symbol + ' 查閱日期晚於引用章節查核日期')
             if source.get('published_at'):
                 checked_date(source['published_at'], today)
                 if source['published_at'] > source['accessed_at']:
@@ -60,6 +62,10 @@ def validate(records, today=None):
                 raise ValueError(symbol + ' 段落必須附期間及來源')
             if any(ref not in sources for ref in section['sources']):
                 raise ValueError(symbol + ' 段落引用不存在的來源')
+            if section.get('reviewed_at'):
+                checked_date(section['reviewed_at'], today)
+                if section['reviewed_at'] < record['reviewed_at']:
+                    raise ValueError(symbol + ' 局部更新日期早於公司查核日期')
             count += 1
         if not count:
             raise ValueError(symbol + ' 沒有已查核段落')
