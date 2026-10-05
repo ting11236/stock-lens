@@ -125,3 +125,10 @@
 .peer-median-date{display:block;margin-top:4px}#metricHelpPeers .peer-pe-key{font-weight:400}
 
 .rule-bold-red{color:#b42318;font-weight:700}
+
+/* Keep each company's identity visible while its metrics scroll horizontally. */
+.stock-table thead th:nth-child(2),.stock-table tbody tr[data-symbol] td:nth-child(2){position:sticky;left:0;min-width:126px;box-shadow:2px 0 0 #dce4ec,5px 0 8px #20334a0a}
+.stock-table tbody tr[data-symbol] td:nth-child(2){z-index:2;background:#fff}
+.stock-table tbody tr.focused td:nth-child(2){background:#edf6f3}
+.stock-table tbody tr[data-symbol]:hover td:nth-child(2){background:#f6faf8}
+.stock-table thead th:nth-child(2){z-index:4;background:#f8fafc}
