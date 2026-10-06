@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-06",
+  "as_of": "2026-10-07",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -284,18 +284,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1402.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-06",
-        "description": "本公司受邀參加由凱基證券於2026/10/6在台北南港展覽館 所舉辦TITAS投資人說明會，說明2026年度第二季度營運與財務概況",
-        "end_date": "2026-10-06",
-        "kind": "法說會",
-        "location": "台北南港展覽館",
-        "name": "遠東新",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "1402.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4460,18 +4449,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6257.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-06",
-        "description": "本公司受邀參加凱基證券舉辦之聯合法人說明會.說明本公司營運概況",
-        "end_date": "2026-10-06",
-        "kind": "法說會",
-        "location": "台北市中山區明水路700號",
-        "name": "矽格",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "6257.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5751,18 +5729,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "9919.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-06",
-        "description": "本公司受邀參加凱基證券舉辦之線上法人說明會，進行本公司民國115年第二季營運概況說明。",
-        "end_date": "2026-10-06",
-        "kind": "法說會",
-        "location": "凱基證券線上法人說明會",
-        "name": "康那香",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "9919.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -35857,37 +35824,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-06",
+      "checked_at": "2026-10-07",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-06",
+      "checked_at": "2026-10-07",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-06",
+      "checked_at": "2026-10-07",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-06",
+      "checked_at": "2026-10-07",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-06",
+      "checked_at": "2026-10-07",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-06",
+      "checked_at": "2026-10-07",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -36929,7 +36896,52 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9938.TW",
       "time": "164417"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-06",
+      "description": "本公司受邀參加由凱基證券於2026/10/6在台北南港展覽館 所舉辦TITAS投資人說明會，說明2026年度第二季度營運與財務概況",
+      "due_date": "2026-10-07",
+      "end_date": "2026-10-06",
+      "kind": "法說會",
+      "location": "台北南港展覽館",
+      "name": "遠東新",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1402.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-06",
+      "description": "本公司受邀參加凱基證券舉辦之聯合法人說明會.說明本公司營運概況",
+      "due_date": "2026-10-07",
+      "end_date": "2026-10-06",
+      "kind": "法說會",
+      "location": "台北市中山區明水路700號",
+      "name": "矽格",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6257.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-06",
+      "description": "本公司受邀參加凱基證券舉辦之線上法人說明會，進行本公司民國115年第二季營運概況說明。",
+      "due_date": "2026-10-07",
+      "end_date": "2026-10-06",
+      "kind": "法說會",
+      "location": "凱基證券線上法人說明會",
+      "name": "康那香",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9919.TW",
+      "time": "14:30"
     }
   ],
-  "updated_at": "2026-10-06T21:37:12+08:00"
+  "updated_at": "2026-10-07T00:52:50+08:00"
 }
