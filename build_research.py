@@ -34,7 +34,12 @@ def validate(records, today=None):
             raise ValueError('無效股票代號：' + symbol)
         if not record.get('name') or not isinstance(record.get('limitations'), list) or not record['limitations'] or not all(isinstance(v, str) for v in record['limitations']):
             raise ValueError(symbol + ' 缺少公司名稱或研究限制')
-        checked_date(record['reviewed_at'], today)
+        partial = record.get('research_completion') == 'partial'
+        if partial:
+            if record.get('reviewed_at') is not None:
+                raise ValueError(symbol + ' 部分研究不應設定全公司查核日期')
+        else:
+            checked_date(record['reviewed_at'], today)
         sources = record['sources']
         if not isinstance(sources, dict) or not sources:
             raise ValueError(symbol + ' 缺少已查閱來源')
@@ -45,9 +50,9 @@ def validate(records, today=None):
             if not source.get('title') or not source.get('publisher'):
                 raise ValueError(symbol + ' 缺少來源標題或發布者')
             checked_date(source['accessed_at'], today)
-            if source['accessed_at'] > record['reviewed_at']:
+            if source['accessed_at'] > (record['reviewed_at'] or ''):
                 referencing = [record[k] for k in SECTIONS if isinstance(record.get(k), dict) and source_id in record[k].get('sources', [])]
-                if not referencing or any(section.get('reviewed_at', record['reviewed_at']) < source['accessed_at'] for section in referencing):
+                if not referencing or any((section.get('reviewed_at') or record['reviewed_at'] or '') < source['accessed_at'] for section in referencing):
                     raise ValueError(symbol + ' 查閱日期晚於引用章節查核日期')
             if source.get('published_at'):
                 checked_date(source['published_at'], today)
@@ -64,7 +69,7 @@ def validate(records, today=None):
                 raise ValueError(symbol + ' 段落引用不存在的來源')
             if section.get('reviewed_at'):
                 checked_date(section['reviewed_at'], today)
-                if section['reviewed_at'] < record['reviewed_at']:
+                if section['reviewed_at'] < (record['reviewed_at'] or ''):
                     raise ValueError(symbol + ' 局部更新日期早於公司查核日期')
             count += 1
         if not count:
@@ -104,7 +109,7 @@ def build(stocks, records, today=None, overview=None, equity_history=None):
         name_changed = bool(record and record['name'] != stock['name'])
         if name_changed:
             record = None
-        profiles[symbol] = ({**record, 'status': 'researched'} if record else {
+        profiles[symbol] = ({**record, 'status': ('overview' if record.get('research_completion') == 'partial' else 'researched')} if record else {
             'name': stock['name'], 'status': 'pending', 'reviewed_at': None,
             'sources': {}, 'limitations': ['公司名稱變更，需重新核對身分。' if name_changed else '尚未完成逐家公司查核；不以產業通用描述推測業務或轉型。']})
         imported = overview['profiles'].get(symbol) if overview else None
