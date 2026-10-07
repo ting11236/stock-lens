@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-08",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -4287,18 +4287,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6120.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-07",
-        "description": "本公司受邀參加台新證券舉辦之線上法人說明會，說明本公司之財務與營運概況。",
-        "end_date": "2026-10-07",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "達運",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "6120.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5911,18 +5900,6 @@
   },
   "errors": [],
   "events": [
-    {
-      "cancelled": false,
-      "date": "2026-04-10",
-      "description": "已公告股東會日期",
-      "end_date": "2026-04-10",
-      "kind": "股東常會",
-      "location": "",
-      "name": "力積電",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6770.TW",
-      "time": ""
-    },
     {
       "cancelled": false,
       "date": "2026-04-17",
@@ -36533,37 +36510,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-07",
+      "checked_at": "2026-10-08",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-07",
+      "checked_at": "2026-10-08",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-07",
+      "checked_at": "2026-10-08",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-07",
+      "checked_at": "2026-10-08",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-07",
+      "checked_at": "2026-10-08",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-07",
+      "checked_at": "2026-10-08",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -38406,7 +38383,22 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9933.TW",
       "time": "171437"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-07",
+      "description": "本公司受邀參加台新證券舉辦之線上法人說明會，說明本公司之財務與營運概況。",
+      "due_date": "2026-10-08",
+      "end_date": "2026-10-07",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "達運",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6120.TW",
+      "time": "14:30"
     }
   ],
-  "updated_at": "2026-10-07T22:42:36+08:00"
+  "updated_at": "2026-10-08T01:29:18+08:00"
 }
