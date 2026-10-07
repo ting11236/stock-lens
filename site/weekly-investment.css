@@ -1,0 +1,64 @@
+/* Dedicated weekly report styles. Existing market UI and charts remain untouched. */
+#marketMovers {display:flex;align-items:stretch;gap:14px;flex-wrap:wrap}
+#weeklyInvestmentOpen.weekly-launch {border:2px solid #6d28d9;background:#ede9fe;color:#4c1d95;box-shadow:0 3px 10px #6d28d91a;padding:13px 20px;font-weight:800;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:4px;white-space:normal}
+#weeklyInvestmentOpen.weekly-launch:hover {background:#ddd6fe;border-color:#4c1d95;transform:translateY(-1px)}
+#weeklyInvestmentOpen.weekly-launch:focus-visible {outline:3px solid #7c3aed;outline-offset:4px}
+#weeklyInvestmentOpen .weekly-button-note {font-size:12px;font-weight:500;color:#6d28d9}
+#weeklyInvestmentDialog {width:min(1420px,96vw);max-width:96vw;height:92vh;max-height:92vh;padding:0;border:2px solid #6d28d9;border-radius:20px;background:#f8f7fc;color:#243044;overflow:hidden}
+#weeklyInvestmentDialog::backdrop {background:rgba(26,18,50,.58)}
+#weeklyInvestmentDialog .weekly-modal-heading {background:#4c1d95;color:#fff;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:15px;margin:0}
+#weeklyInvestmentDialog .weekly-modal-heading h2 {margin:0;font-size:20px;color:#fff}
+#weeklyInvestmentClose {background:#fff;color:#4c1d95;border:1px solid #ddd6fe;flex-shrink:0}
+#weeklyInvestmentContent {height:calc(100% - 80px);overflow:auto;padding:24px;scroll-behavior:smooth}
+.weekly-report {max-width:1380px;margin:auto;color:#243044;line-height:1.7}
+.weekly-report h2,.weekly-report h3,.weekly-report h4 {line-height:1.4;color:#243044}
+.weekly-report h2 {margin:24px 0 14px}
+.weekly-report h3 {margin:0 0 12px;font-size:19px}
+.weekly-report h4 {margin:20px 0 8px;font-size:16px}
+.weekly-report p {margin:8px 0 12px}
+.weekly-report ul,.weekly-report ol {padding-left:24px}
+.weekly-report a {color:#6d28d9}
+.weekly-kicker {font-size:13px;letter-spacing:.05em;font-weight:700;color:#6d28d9}
+.weekly-report .weekly-headline {font-size:clamp(23px,2.8vw,34px);margin-top:8px}
+.weekly-freshness {padding:12px 15px;border:1px solid #c4b5fd;border-radius:10px;background:#ede9fe;font-weight:600}
+.weekly-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.weekly-card {background:#fff;border:1px solid #e0dbea;border-radius:14px;padding:20px;margin:18px 0;box-shadow:0 2px 8px #31204e05;overflow-wrap:anywhere}
+.weekly-grid > .weekly-card {margin:8px 0}
+.weekly-alerts {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.weekly-alerts article {border-left:4px solid #8b5cf6;padding-left:15px}
+.weekly-alerts b,.weekly-alerts span {display:block}
+.weekly-alerts span {font-size:13px;color:#6d28d9}
+.weekly-report .tiny {font-size:12px;color:#64748b}
+.weekly-table-wrap {overflow:auto;max-height:650px;border:1px solid #ddd6fe;border-radius:10px}
+.weekly-table {border-collapse:separate;border-spacing:0;min-width:2600px;width:100%;font-size:13px}
+.weekly-table th {position:sticky;top:0;background:#f1ecfb;color:#4c1d95;text-align:left;padding:12px;z-index:1;white-space:nowrap;border-bottom:1px solid #c4b5fd}
+.weekly-table td {padding:12px;vertical-align:top;min-width:110px;border-bottom:1px solid #ede9f2;line-height:1.65}
+.weekly-table td:first-child {min-width:100px;position:sticky;left:0;background:#fff;z-index:1}
+.weekly-table th:first-child {left:0;z-index:2}
+.weekly-table .weekly-wide {min-width:300px;max-width:360px;white-space:normal}
+.weekly-table small {display:block;color:#64748b;font-size:11px}
+.weekly-table tr:nth-child(even) td {background:#faf9fd}
+.weekly-company {scroll-margin-top:20px}
+.weekly-company>header {display:flex;align-items:center;justify-content:space-between;gap:15px}
+.weekly-role {border:1px solid #c4b5fd;border-radius:20px;padding:4px 12px;color:#5b21b6;font-size:12px;white-space:nowrap}
+.weekly-decision {font-weight:700;background:#f5f3ff;padding:12px;border-radius:8px}
+.weekly-scores {display:flex;gap:12px;flex-wrap:wrap}
+.weekly-scores span {font-size:12px;color:#64748b}
+.weekly-scores b {display:block;font-size:22px;color:#5b21b6}
+.weekly-report details {border-top:1px solid #e7e3ed;margin-top:18px;padding-top:14px}
+.weekly-report summary {cursor:pointer;font-weight:700;color:#5b21b6;padding:5px 0}
+.weekly-sources small {display:block;color:#64748b}
+.weekly-sources p {font-size:12px;color:#64748b}
+.weekly-loading {padding:30px;text-align:center;color:#6d28d9}
+@media(max-width:900px){.weekly-grid,.weekly-alerts{grid-template-columns:1fr}.weekly-grid>.weekly-card{margin:0}.weekly-card{padding:16px}#weeklyInvestmentContent{padding:16px}#weeklyInvestmentDialog .weekly-modal-heading{padding:16px}.weekly-table-wrap{max-height:480px}}
+@media(max-width:600px){#marketMovers{gap:10px}#marketMovers>button{width:100%;justify-content:center}#weeklyInvestmentOpen.weekly-launch{align-items:center;padding:12px}#weeklyInvestmentDialog{width:98vw;max-width:98vw;height:94vh;max-height:94vh;border-radius:12px}#weeklyInvestmentDialog .weekly-modal-heading h2{font-size:16px}#weeklyInvestmentContent{padding:12px;height:calc(100% - 78px)}.weekly-company>header{align-items:flex-start}.weekly-role{white-space:normal}.weekly-report .weekly-headline{font-size:23px}}
+
+.weekly-stock-tabs {position:sticky;top:0;z-index:4;display:flex;gap:8px;overflow-x:auto;padding:10px 2px 12px;background:#f8f7fc;border-bottom:1px solid #ddd6fe;margin-bottom:18px}
+.weekly-stock-tabs button {flex-shrink:0;background:#fff;border:1px solid #c4b5fd;color:#5b21b6;border-radius:9px;padding:10px 13px;font-weight:700;white-space:nowrap}
+.weekly-stock-tabs button[aria-selected="true"] {background:#5b21b6;color:#fff;border-color:#5b21b6}
+.weekly-stock-tabs button:focus-visible {outline:3px solid #a78bfa;outline-offset:2px}
+.weekly-report [data-weekly-panel][hidden] {display:none}
+.weekly-overview-fold {background:#fff;border:1px solid #e0dbea;border-radius:12px;padding:14px 18px}
+
+.weekly-return {position:fixed;right:20px;bottom:20px;z-index:30;background:#5b21b6;color:#fff;border:2px solid #c4b5fd;box-shadow:0 4px 18px #31204e33;font-weight:700}
+.weekly-return[hidden] {display:none}
