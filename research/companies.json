@@ -2386,5 +2386,159 @@
       "text": "新材料方向有兩個具體項目。第一，台化參與Sony可再生塑膠供應鏈，負責可再生聚苯乙烯（PS）樹脂；供應鏈採生質資源的質量平衡法，預計用於Sony未來影音產品，不能混稱為廢塑膠物理回收或已認列營收。第二，公司2025年9月15日公告rPP取得FDA無異議函（NOL）；這是再生PP的合規里程碑，不等於所有用途通用許可或已取得大額訂單。兩者是既有材料業務的新產品方向；精確商用／出貨時點、單項收入與獲利本輪未找到。 綠能另有已發生實績：沙鹿配水中心小水力2025年2月14日啟用，利用既有自來水管路落差發電，裝置容量731.5kW，是公司第五座投運水力案場，應分類為既有能源業務擴展。新聞稿所述年發電480萬度不是本輪取得的年度實績；本輪未找到此案場營收、售電價格或獲利貢獻。",
       "reviewed_at": "2026-10-06"
     }
+  },
+  "2884.TW": {
+    "name": "玉山金",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "公告本公司取得三商美邦保險代理人股份有限公司100%股權案之股份買賣交割基準日",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-07",
+        "supports": "公司公告正文，官方10/6出表快照；本輪重新閱讀網站交接保存正文",
+        "publisher": "證交所／2884"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "本次只查核受影響章節，不代表整家公司查核完成。"
+    ],
+    "developments": {
+      "text": "2026年10月5日玉山金公告取得三商美邦保險代理人100%股權，交割基準日訂為2026年11月6日；已取得金管會9月22日核准及公平會9月24日不禁止決議。10月5日為訂定交割日期，不能寫成已完成交割。標的是保險代理人公司，須與三商美邦人壽的股份轉換分開；本則未揭露交易金額或收入與獲利增量，不用人壽併購金額代填。",
+      "period": "2026-10-05公告／未來計畫另列",
+      "sources": [
+        "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15"
+      ],
+      "reviewed_at": "2026-10-07"
+    }
+  },
+  "2646.TW": {
+    "name": "星宇航空",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "announcement-47c542aaa629a34d332d0dc4fe75a918c2fe8e1a3af9abe006caa44cb3c5e06a": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "公告本公司出售A330-900型客機之相關訊息(補充公告第二架出售損益)",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-07",
+        "supports": "公司公告正文，官方10/6出表快照；本輪重新閱讀網站交接保存正文",
+        "publisher": "證交所／2646"
+      },
+      "starlux-annual-2025": {
+        "url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E8%8B%B1%E6%96%87%E7%89%88%29-V2_tcm14-15751.pdf",
+        "title": "星宇2025英文年報，印刷頁79、109–110",
+        "published_at": null,
+        "accessed_at": "2026-10-07",
+        "supports": "業務類型、2025營收結構及未公開未來財測",
+        "publisher": "星宇航空",
+        "published_at_missing_reason": "原文件未列可確認的精確發布日"
+      },
+      "a3501000-first-delivery": {
+        "url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "title": "Airbus：星宇首架A350-1000交付",
+        "published_at": "2026-01-06",
+        "accessed_at": "2026-10-07",
+        "supports": "18架訂購中首架交付，以及10架A350F訂單",
+        "publisher": "Airbus"
+      },
+      "starlux-ir-20251222": {
+        "url": "https://webassets2.starlux-airlines.com/en-TW/Images/Investor_Conference_CN_251222_tcm14-13887.pdf",
+        "title": "星宇2025年法人說明會，PDF頁14、26",
+        "published_at": null,
+        "accessed_at": "2026-10-07",
+        "supports": "2026與2033機隊規劃，不代表已達成",
+        "publisher": "星宇航空",
+        "published_at_missing_reason": "原文件未列可確認的精確發布日"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "本次只查核受影響章節，不代表整家公司查核完成。",
+      "2026上半年虧損原因、最新航網及客貨運分部獲利尚未完成。",
+      "新project_id為研究端提案，須網站對照既有項目後採用。",
+      "首架交付不等於其他17架已交付；各計畫後續變更尚待查核。"
+    ],
+    "earnings": {
+      "text": "2026年10月5日補充公告第二架A330-900客機預計處分利益約新台幣1.5億元，第三架價格尚未確定，交付後另公告。整案3架，每架交易金額上限1.15億美元、總額上限3.45億美元；上限不是成交總額，也不是獲利。屬個別資產處分，不能視為客貨運持續性獲利。本則不足以確認1.5億元已全數於哪季財報認列，也未說明稅後影響；未回填2026上半年損益。",
+      "period": "2026-10-05公告／未來計畫另列",
+      "sources": [
+        "announcement-47c542aaa629a34d332d0dc4fe75a918c2fe8e1a3af9abe006caa44cb3c5e06a"
+      ],
+      "reviewed_at": "2026-10-07"
+    },
+    "business": {
+      "text": "提供國際定期與包機客運、貨物／快遞／郵件運輸，另有機上免稅品及商品零售。2025全年客運收入占80.48%、貨運11.24%、其他8.28%，為營收結構，不是獲利比例。營運以台灣樞紐串接亞洲與北美，客運靠座位銷售、貨運目前利用客機腹艙；收入須扣燃油、人員、折舊與租賃等成本。年報明言未揭露未來財測，不能以機隊成長率推算營收。",
+      "period": "2025全年／2026年報策略",
+      "sources": [
+        "starlux-annual-2025"
+      ],
+      "reviewed_at": "2026-10-07"
+    },
+    "developments": {
+      "text": "既有客運擴展（project_id=2646-fleet-a3501000）：Airbus於2026年1月6日確認首架A350-1000交付，總訂購18架，用途為長程及部分亞太客運，單機收入未揭露。貨運新營運模式（project_id=2646-cargo-a350f）：已訂10架A350F，供未來專用貨運航網；本輪未確認首架交付、投入商用日期或收入。2025法說原規劃2026年底43架、2033年68架，仍是當時規劃，不當作2026年10月現有機隊實績。",
+      "period": "2026-01已交付／2025法說未來計畫",
+      "sources": [
+        "a3501000-first-delivery",
+        "starlux-ir-20251222"
+      ],
+      "reviewed_at": "2026-10-07"
+    }
+  },
+  "6141.TW": {
+    "name": "柏承",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "announcement-9a51486b652dd42928559511b8a4a989fa8296b2c3cf5032a6b3a8ea7577bf84": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "澄清媒體報導",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-07",
+        "supports": "公司公告正文，官方10/6出表快照；本輪重新閱讀網站交接保存正文",
+        "publisher": "證交所／6141"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "本次只查核受影響章節，不代表整家公司查核完成。"
+    ],
+    "transition": {
+      "text": "2026年10月5日柏承澄清媒體所述高階光模組板小量出貨、2027年轉虧為盈及第三季營收獲利預測，表示未對外發布任何預測性財務或業務資訊、亦未編製財務預測。上述媒體展望不能標示為公司財測；本公告並非逐項否認產品技術或出貨存在，實際出貨階段及單項收入仍需其他正式資料查證。",
+      "period": "2026-10-05公告／未來計畫另列",
+      "sources": [
+        "announcement-9a51486b652dd42928559511b8a4a989fa8296b2c3cf5032a6b3a8ea7577bf84"
+      ],
+      "reviewed_at": "2026-10-07"
+    }
+  },
+  "4540.TW": {
+    "name": "全球傳動",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "announcement-488b802c45f46b15090c02760de70e1494d1b36d23912129ddb16a7327b2c9fe": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "澄清115/10/05工商時報報導",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-07",
+        "supports": "公司公告正文，官方10/6出表快照；本輪重新閱讀網站交接保存正文",
+        "publisher": "證交所／4540"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "本次只查核受影響章節，不代表整家公司查核完成。"
+    ],
+    "transition": {
+      "text": "2026年10月5日全球傳動澄清媒體所述全年營收兩位數成長、轉虧為盈及明年延續成長，表示未針對全年獲利或營運目標公布財測。相關文字若保留，須標示媒體報導與公司澄清，不能當作已確認公司財測，也不能據此填入2026或2027全年預估收入、盈餘。",
+      "period": "2026-10-05公告／未來計畫另列",
+      "sources": [
+        "announcement-488b802c45f46b15090c02760de70e1494d1b36d23912129ddb16a7327b2c9fe"
+      ],
+      "reviewed_at": "2026-10-07"
+    }
   }
 }
