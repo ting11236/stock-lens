@@ -686,7 +686,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1540.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-15",
+        "description": "近期財務狀況",
+        "end_date": "2026-10-15",
+        "kind": "法說會",
+        "location": "11049台北市信義區信義路五段7號1樓(證交所(101大樓1樓資訊展示中心)",
+        "name": "喬福",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "1540.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -896,7 +907,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1725.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-13",
+        "description": "公司簡介與營運狀況說明。",
+        "end_date": "2026-10-13",
+        "kind": "法說會",
+        "location": "證交所101辦公大樓一樓資訊展示中心(台北市信義路五段七號)",
+        "name": "元禎",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "1725.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1108,7 +1130,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2010.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-08",
+        "description": "本公司業務及財務相關資訊",
+        "end_date": "2026-10-08",
+        "kind": "法說會",
+        "location": "臺灣證券交易所1F資訊展示中心(台北市信義區信義路五段7號1樓)",
+        "name": "春源",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "2010.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1516,7 +1549,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2337.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-27",
+        "description": "旺宏電子2026年第三季營運成果報告",
+        "end_date": "2026-10-27",
+        "kind": "法說會",
+        "location": "線上法人說明會",
+        "name": "旺宏",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "2337.TW",
+        "time": "16:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5257,7 +5301,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "7769.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-13",
+        "description": "本公司受邀參加元大證券舉辦之美國NDR，說明本公司營運概況。",
+        "end_date": "2026-10-20",
+        "kind": "法說會",
+        "location": "美國",
+        "name": "鴻勁",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "7769.TW",
+        "time": "09:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -25135,6 +25190,18 @@
     {
       "cancelled": false,
       "date": "2026-10-08",
+      "description": "本公司業務及財務相關資訊",
+      "end_date": "2026-10-08",
+      "kind": "法說會",
+      "location": "臺灣證券交易所1F資訊展示中心(台北市信義區信義路五段7號1樓)",
+      "name": "春源",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "2010.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-08",
       "description": "已公告股東會日期",
       "end_date": "2026-10-08",
       "kind": "股東臨時會",
@@ -25219,6 +25286,18 @@
     {
       "cancelled": false,
       "date": "2026-10-13",
+      "description": "公司簡介與營運狀況說明。",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "證交所101辦公大樓一樓資訊展示中心(台北市信義路五段七號)",
+      "name": "元禎",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "1725.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
       "description": "本公司受邀參加寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
       "end_date": "2026-10-13",
       "kind": "法說會",
@@ -25254,6 +25333,18 @@
     },
     {
       "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加元大證券舉辦之美國NDR，說明本公司營運概況。",
+      "end_date": "2026-10-20",
+      "kind": "法說會",
+      "location": "美國",
+      "name": "鴻勁",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "7769.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
       "date": "2026-10-14",
       "description": "本公司舉辦財務業務概況座談會",
       "end_date": "2026-10-14",
@@ -25275,6 +25366,18 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "7827.TW",
       "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "近期財務狀況",
+      "end_date": "2026-10-15",
+      "kind": "法說會",
+      "location": "11049台北市信義區信義路五段7號1樓(證交所(101大樓1樓資訊展示中心)",
+      "name": "喬福",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "1540.TW",
+      "time": "14:00"
     },
     {
       "cancelled": false,
@@ -25407,6 +25510,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
       "symbol": "4108.TW",
       "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-27",
+      "description": "旺宏電子2026年第三季營運成果報告",
+      "end_date": "2026-10-27",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "旺宏",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "2337.TW",
+      "time": "16:00"
     },
     {
       "cancelled": false,
@@ -38293,5 +38408,5 @@
       "time": "171437"
     }
   ],
-  "updated_at": "2026-10-07T13:38:39+08:00"
+  "updated_at": "2026-10-07T22:32:34+08:00"
 }
