@@ -96,3 +96,8 @@
 .weekly-summary-stock:hover {background:#4c1d95;border-color:#4c1d95}
 .weekly-summary-item {display:inline-flex;flex-direction:column;margin-right:10px;vertical-align:top}
 .weekly-summary-item small {font-size:12px;color:#64748b;font-weight:400}
+.weekly-alert-price {margin:10px 0 6px;font-size:17px;color:#4c1d95}
+.weekly-alert-help {padding:14px;background:#f5f3ff;border-radius:9px;font-size:14px;line-height:1.8}
+.weekly-summary-stock span,.weekly-alerts .weekly-summary-stock span {color:#fff}
+.weekly-close-price {color:#b91c1c;font-size:1.15em}
+.weekly-action-important {color:#b91c1c;font-weight:800}

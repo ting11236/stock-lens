@@ -26,7 +26,7 @@ test('published evidence keeps missing comparable inputs absent and weights feas
 test('decision content precedes analysis and untrusted report text is escaped',()=>{
  const html=render(r);
  assert.ok(html.indexOf('最值得設定')<html.lastIndexOf('本週產業 Top5'));
- assert.ok(html.indexOf('AI 股票操作建議')<html.lastIndexOf('本週產業 Top5'));
+ assert.ok(html.indexOf('優先等待')<html.lastIndexOf('本週產業 Top5'));
  assert.equal(escape('<img onerror="bad">'),'&lt;img onerror=&quot;bad&quot;&gt;');
  assert.match(range(null),/資料不足/);
 });
@@ -40,12 +40,12 @@ test('method migration preserves baselines without invented upgrades',()=>{
  for(const c of r.companies) assert.deepEqual(Object.keys(c.scores),['industry','quality','improvement','valuation_entry','confidence']);
  assert.match(render(r),/週報 v3/);assert.doesNotMatch(render(r),/undefined|NaN|比較 8 檔/);
 });
-test('new candidates have no invented buy prices and operations preserve customer fields in compact cards',()=>{
+test('new candidates have no invented buy prices and company analysis keeps entry and holding conditions',()=>{
  const screen=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../research/weekly-investment/2026-W41-screen-v3.json'),'utf8'));
  assert.equal(screen.universe_count,1089);assert.equal(screen.candidate_count,90);assert.equal(screen.coverage.roic,0);assert.equal(screen.coverage.fcf,0);
  for(const code of r.changes.added){const c=r.companies.find(c=>c.code===code);assert.equal(c.position.role,'Watchlist');assert.deepEqual(c.position.weight_range_pct,[0,0]);assert.equal(c.prices.breakout,null);assert.equal(c.prices.best_entry,null);assert.equal(c.reverse_valuation.implied_eps,null);assert.equal(c.building_plan.tranches.length,0);assert.equal(c.monthly.revenue_twd_thousand,null);}
  const html=render(r);assert.match(html,/全市場研究篩選/);assert.match(html,/轉機股/);assert.match(html,/Reverse Valuation/);
- assert.equal((html.match(/class="weekly-operation-card"/g)||[]).length,11);for(const label of ["1–3 年邏輯","市場可能錯在哪","建倉方式","已持有策略","投資邏輯失效"])assert.ok(html.includes(label));
+ assert.equal((html.match(/data-weekly-analysis-template=/g)||[]).length,11);assert.doesNotMatch(html,/全部股票操作建議|weekly-operation-card/);for(const label of ["是否建倉／如何分批","進場訊號","買點不成立／風險管理"])assert.ok(html.includes(label));
 });
 
 test('support failure cancels previous left-side entry instead of moving it lower',()=>{const q=r.companies.find(c=>c.code==='2382');assert.equal(q.price,325.5);assert.equal(q.prices.first_attention,null);assert.equal(q.prices.best_entry,null);assert.equal(q.building_plan.tranches.length,0);assert.match(q.building_plan.current_action,/撤銷/);assert.ok(q.technical.volume_ratio>1);});
@@ -82,3 +82,7 @@ test('current demonstration allocation uses the same ledger and leaves untrigger
  const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
  const html=render({...r,backtest:b});assert.match(html,/目前研究示範配置（與回測同一帳本）/);assert.match(html,/尚無成立且成交的建倉：100%現金/);assert.match(html,/未成立不投入/);
 });
+
+test('price reminders explicitly identify prices and give beginner-readable steps',()=>{const html=render(r);for(const price of ['2,515','330','2,145'])assert.ok(html.includes('觀察價格：'+price+' 元（新臺幣）'));assert.match(html,/先設定價格通知 → 到價後查看個股分析/);assert.match(html,/2,145 元高於最近 20 個交易日/);});
+
+test('internal update bullets stay out of the customer interface and actionable text is readable',()=>{const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));const html=render({...r,backtest:b});assert.doesNotMatch(html,/資料庫先篩1089檔|五項評分改為產業|提前布局20／30／50|發布前已核10\/8收盤10檔|&lt;strong class=/);assert.match(html,/weekly-close-price/);assert.match(html,/先決定這檔股票/);assert.match(html,/目前行動/);});
