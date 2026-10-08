@@ -408,9 +408,29 @@ async function fetchDataset(path){
  }
  return fetch(path,{cache:'no-cache'});
 }
+async function fetchResearchDataset(){
+ try{
+  const response=await fetch('./data/research-manifest.json',{cache:'no-cache'});
+  if(!response.ok)throw Error('研究清單暫時無法取得');
+  const manifest=await response.json();
+  if(manifest.schema_version!==1||!Array.isArray(manifest.chunks)||!manifest.chunks.length||manifest.chunks.some(p=>!/^research-chunks\/[0-9a-f]{64}\.json$/.test(p)))throw Error('研究清單格式錯誤');
+  const profiles={};
+  for(let i=0;i<manifest.chunks.length;i+=4){
+   const batch=await Promise.all(manifest.chunks.slice(i,i+4).map(async path=>{
+    const url='./data/'+path;
+    if(typeof DecompressionStream==='function'){
+     try{const r=await fetch(url+'.gz',{cache:'force-cache'});if(r.ok&&r.body)return await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).json();}catch{}
+    }
+    const r=await fetch(url,{cache:'force-cache'});if(!r.ok)throw Error('公司資料取得失敗');return r.json();
+   }));
+   for(const group of batch)Object.assign(profiles,group);
+  }
+  return {ok:true,status:200,json:async()=>({...manifest.metadata,profiles})};
+ }catch{return fetchDataset('./data/company-research.json');}
+}
 async function fetchResearch(){
  research.loading=true;
- try{const res=await fetchDataset('./data/company-research.json');if(!res.ok)throw Error('HTTP '+res.status);const profiles=validateResearch(await res.json());research.profiles=profiles;research.error=false}
+ try{const res=await fetchResearchDataset();if(!res.ok)throw Error('HTTP '+res.status);const profiles=validateResearch(await res.json());research.profiles=profiles;research.error=false}
  catch{research.error=true}
  finally{research.loading=false;render();if($('researchDialog')?.open){const stock=state.stocks.map(materialize).find(s=>s.symbol===researchView.symbol);if(stock){researchView.pages=companyPages(stock);renderResearchPage();}}}
 }

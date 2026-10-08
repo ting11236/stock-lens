@@ -64,11 +64,26 @@ jobs:
       - name: 壓縮網站資料，減少手機下載量
         run: |
           python - <<'PY'
-          import gzip
+          import gzip, hashlib, json
           from pathlib import Path
           for name in ('stocks', 'company-research', 'market-movers', 'company-calendar'):
               path = Path('site/data') / (name + '.json')
               path.with_suffix('.json.gz').write_bytes(gzip.compress(path.read_bytes(), compresslevel=6, mtime=0))
+          payload = json.loads(Path('site/data/company-research.json').read_text())
+          groups = [{} for _ in range(16)]
+          for symbol, profile in payload['profiles'].items():
+              groups[int(hashlib.sha256(symbol.encode()).hexdigest()[:8], 16) % 16][symbol] = profile
+          folder = Path('site/data/research-chunks')
+          folder.mkdir(exist_ok=True)
+          chunks = []
+          for group in groups:
+              raw = (json.dumps(group, ensure_ascii=False, sort_keys=True, separators=(',', ':'))).encode()
+              name = hashlib.sha256(raw).hexdigest() + '.json'
+              (folder / name).write_bytes(raw)
+              (folder / (name + '.gz')).write_bytes(gzip.compress(raw, compresslevel=6, mtime=0))
+              chunks.append('research-chunks/' + name)
+          manifest = {'schema_version': 1, 'chunks': chunks, 'metadata': {k: v for k, v in payload.items() if k != 'profiles'}}
+          Path('site/data/research-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')))
           PY
       - uses: actions/upload-pages-artifact@v4
         with:
