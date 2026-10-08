@@ -61,6 +61,15 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: 壓縮網站資料，減少手機下載量
+        run: |
+          python - <<'PY'
+          import gzip
+          from pathlib import Path
+          for name in ('stocks', 'company-research', 'market-movers', 'company-calendar'):
+              path = Path('site/data') / (name + '.json')
+              path.with_suffix('.json.gz').write_bytes(gzip.compress(path.read_bytes(), compresslevel=6, mtime=0))
+          PY
       - uses: actions/upload-pages-artifact@v4
         with:
           path: ./site
