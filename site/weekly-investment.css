@@ -62,3 +62,5 @@
 
 .weekly-return {position:fixed;right:20px;bottom:20px;z-index:30;background:#5b21b6;color:#fff;border:2px solid #c4b5fd;box-shadow:0 4px 18px #31204e33;font-weight:700}
 .weekly-return[hidden] {display:none}
+
+.weekly-stock-tabs > a {flex:0 0 auto;display:flex;align-items:center;white-space:nowrap;padding:0 4px;font-weight:700}
