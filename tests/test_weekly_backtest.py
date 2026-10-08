@@ -32,3 +32,16 @@ class PaperTests(unittest.TestCase):
  def test_late_confirmation_cannot_fill_prior_open(self):
   self.s['confirmed_at']='2026-10-13T14:00:00+08:00'
   with self.assertRaises(ValueError):apply_signal(initial_ledger(),self.r,self.s,self.m)
+
+class FractionalPaperTests(unittest.TestCase):
+ setUp=PaperTests.setUp
+ def fractional_ledger(self):
+  l=initial_ledger();l['share_mode']='fractional_research';return l
+ def test_small_tranche_buys_fractional_high_price_stock_with_fees(self):
+  self.r['portfolio']['base_weights']['1234']=20;self.r['companies'][0]['building_plan']['tranches'][0]['target_pct']=25;self.m[0]['open']=2585;self.s['max_entry_price']=3000
+  l=apply_signal(self.fractional_ledger(),self.r,self.s,self.m);t=l['trades'][0];self.assertGreater(t['shares'],0);self.assertLess(t['shares'],1);self.assertAlmostEqual(t['gross_amount']+t['fee'],500,places=2);self.assertGreaterEqual(l['cash'],9500);self.assertEqual(t['share_mode'],'fractional_research');self.assertEqual(apply_signal(l,self.r,self.s,self.m),l)
+ def test_fractional_sell_batches_and_total_return(self):
+  l=apply_signal(self.fractional_ledger(),self.r,self.s,self.m);initial=l['holdings']['1234']['shares'];self.s.update(side='sell',signal_id='f2',signal_date='2026-10-13',confirmed_at='2026-10-13T14:00:00+08:00');self.m[0].update(date='2026-10-14',open=120,close=120);l=apply_signal(l,self.r,self.s,self.m);self.assertAlmostEqual(l['trades'][-1]['shares'],initial*0.5,places=5)
+  self.s.update(signal_id='f3',tranche_index=1,signal_date='2026-10-14',confirmed_at='2026-10-14T14:00:00+08:00');self.m[0]['date']='2026-10-15';l=apply_signal(l,self.r,self.s,self.m);self.assertEqual(l['holdings']['1234']['shares'],0);v=mark_to_market(l,'2026-10-15',{});self.assertEqual(v['equity'],v['cash']);self.assertAlmostEqual(v['total_return_pct'],(v['cash']/10000-1)*100,places=4)
+ def test_fractional_mode_still_requires_same_confirmed_buy_conditions(self):
+  self.s['technical_confirmed']=False;l=apply_signal(self.fractional_ledger(),self.r,self.s,self.m);self.assertEqual(l['trades'],[])

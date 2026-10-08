@@ -83,6 +83,8 @@ test('current demonstration allocation uses the same ledger and leaves untrigger
  const html=render({...r,backtest:b});assert.match(html,/目前研究示範配置（與回測同一帳本）/);assert.match(html,/尚無成立且成交的建倉：100%現金/);assert.match(html,/未成立不投入/);
 });
 
-test('price reminders explicitly identify prices and give beginner-readable steps',()=>{const html=render(r);for(const price of ['2,515','330','2,145'])assert.ok(html.includes('觀察價格：'+price+' 元（新臺幣）'));assert.match(html,/先設定價格通知 → 到價後查看個股分析/);assert.match(html,/2,145 元高於最近 20 個交易日/);});
+test('price reminders explicitly identify prices and give beginner-readable steps',()=>{const html=render(r);for(const price of ['2,515','330','2,145'])assert.ok(html.includes('觀察價格：'+price));assert.match(html,/先設定價格通知 → 到價後查看個股分析/);assert.match(html,/現在價格：2,070/);assert.match(html,/股價現況/);assert.match(html,/觀察條件/);assert.match(html,/進場參考/);assert.doesNotMatch(html,/2,515 元（新臺幣）/);});
 
 test('internal update bullets stay out of the customer interface and actionable text is readable',()=>{const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));const html=render({...r,backtest:b});assert.doesNotMatch(html,/資料庫先篩1089檔|五項評分改為產業|提前布局20／30／50|發布前已核10\/8收盤10檔|&lt;strong class=/);assert.match(html,/weekly-close-price/);assert.match(html,/先決定這檔股票/);assert.match(html,/目前行動/);});
+
+test('fractional research ledger keeps real rules and readable quantity mode',()=>{const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));assert.equal(b.share_mode,'fractional_research');const html=render({...r,backtest:b});assert.match(html,/小數股研究模擬/);assert.doesNotMatch(html,/預算不足一股時保留現金/);});

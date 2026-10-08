@@ -45,25 +45,33 @@ def apply_signal(original, report, signal, market):
     if price<=0:raise ValueError('invalid price')
     if side=='buy' and (signal.get('max_entry_price') is None or price>signal['max_entry_price']):reject(ledger,signal,'開盤滑價超出已確認進場價上限');return ledger
     holding=ledger['holdings'].get(signal['code'],{'code':signal['code'],'name':company['name'],'shares':0,'cost':0.0,'first_entry_date':bar['date']})
+    fractional=ledger.get('share_mode')=='fractional_research'
+    minimum_shares=0.000001 if fractional else 1
     if side=='buy':
         allocation=report['portfolio']['base_weights'].get(signal['code'],0)
         target=ledger['equity']*allocation/100
         held_value=holding.get('market_value',holding['cost'])
         budget=min(ledger['cash'],target*pct/100,max(0,target-held_value))
-        shares=math.floor(budget/price)
-        while shares>0 and shares*price+fee(shares*price,ledger['costs'])>budget:shares-=1
-        if shares<1:reject(ledger,signal,'該批預算不足一股含手續費，保留現金');return ledger
-        gross=round(shares*price,2);commission=fee(gross,ledger['costs']);tax=0.0;cost=gross+commission;pnl=0.0;ledger['cash']=round(ledger['cash']-cost,2);holding['first_entry_date']=bar['date'] if holding['shares']==0 else holding['first_entry_date'];holding['shares']+=shares;holding['cost']=round(holding['cost']+cost,2)
+        if fractional:
+            available=min(budget-ledger['costs']['minimum_fee'],budget/(1+ledger['costs']['fee_rate']))
+            shares=max(0,math.floor(available/price*1000000)/1000000)
+            while shares>0 and round(shares*price,2)+fee(round(shares*price,2),ledger['costs'])>budget:
+                shares=round(shares-0.000001,6)
+        else:
+            shares=math.floor(budget/price)
+            while shares>0 and shares*price+fee(shares*price,ledger['costs'])>budget:shares-=1
+        if shares<minimum_shares:reject(ledger,signal,'該批預算不足支付費用或最小模擬股數' if fractional else '該批預算不足一股含手續費，保留現金');return ledger
+        gross=round(shares*price,2);commission=fee(gross,ledger['costs']);tax=0.0;cost=gross+commission;pnl=0.0;ledger['cash']=round(ledger['cash']-cost,2);holding['first_entry_date']=bar['date'] if holding['shares']==0 else holding['first_entry_date'];holding['shares']=round(holding['shares']+shares,6);holding['cost']=round(holding['cost']+cost,2)
     else:
         if holding['shares']<=0:reject(ledger,signal,'無持股可出場');return ledger
         plan=f'{report["update_id"]}:{signal["code"]}:sell'
         plans=ledger.setdefault('exit_plan_bases',{});base=plans.setdefault(plan,holding['shares'])
-        shares=min(holding['shares'],math.floor(base*pct/100))
+        shares=min(holding['shares'],math.floor(base*pct/100*1000000)/1000000 if fractional else math.floor(base*pct/100))
         if pct==100 or (idx==len(tranches)-1 and sum(t['target_pct'] for t in tranches)==100) or sum(t['shares'] for t in ledger['trades'] if t.get('exit_plan_id')==plan)+shares>=base:shares=holding['shares']
-        if shares<1:reject(ledger,signal,'分批出場不足一股，等待後續明確出場批次');return ledger
-        gross=round(shares*price,2);commission=fee(gross,ledger['costs']);tax=round(gross*ledger['costs']['sell_tax_rate'],2);cost=round(holding['cost']*shares/holding['shares'],2);pnl=round(gross-commission-tax-cost,2);holding['cost']=round(holding['cost']-cost,2);holding['shares']-=shares;ledger['cash']=round(ledger['cash']+gross-commission-tax,2);ledger['realized_pnl']=round(ledger['realized_pnl']+pnl,2)
+        if shares<minimum_shares:reject(ledger,signal,'該批低於最小模擬股數，等待後續明確出場批次');return ledger
+        gross=round(shares*price,2);commission=fee(gross,ledger['costs']);tax=round(gross*ledger['costs']['sell_tax_rate'],2);cost=round(holding['cost']*shares/holding['shares'],2);pnl=round(gross-commission-tax-cost,2);holding['cost']=round(holding['cost']-cost,2);holding['shares']=round(holding['shares']-shares,6);ledger['cash']=round(ledger['cash']+gross-commission-tax,2);ledger['realized_pnl']=round(ledger['realized_pnl']+pnl,2)
     ledger['holdings'][signal['code']]=holding
-    trade={'signal_id':sid,'plan_tranche_id':key,'report_update_id':report['update_id'],'report_published_at':signal['published_at'],'signal_date':signal['signal_date'],'confirmed_at':signal['confirmed_at'],'date':bar['date'],'code':signal['code'],'name':company['name'],'side':side,'tranche_index':idx,'tranche_pct':pct,'condition':tranche['condition'],'shares':shares,'price':price,'gross_amount':gross,'fee':commission,'tax':tax,'realized_pnl':pnl,'days_since_start':(parse_date(bar['date'])-parse_date(ledger['start_date'])).days,'holding_days':(parse_date(bar['date'])-parse_date(holding['first_entry_date'])).days,'cash_after':ledger['cash'],'evidence':evidence,'price_source':bar['source_url']}
+    trade={'signal_id':sid,'plan_tranche_id':key,'report_update_id':report['update_id'],'report_published_at':signal['published_at'],'signal_date':signal['signal_date'],'confirmed_at':signal['confirmed_at'],'date':bar['date'],'code':signal['code'],'name':company['name'],'side':side,'share_mode':ledger.get('share_mode','integer_odd_lot'),'tranche_index':idx,'tranche_pct':pct,'condition':tranche['condition'],'shares':shares,'price':price,'gross_amount':gross,'fee':commission,'tax':tax,'realized_pnl':pnl,'days_since_start':(parse_date(bar['date'])-parse_date(ledger['start_date'])).days,'holding_days':(parse_date(bar['date'])-parse_date(holding['first_entry_date'])).days,'cash_after':ledger['cash'],'evidence':evidence,'price_source':bar['source_url']}
     if side=='sell':trade['exit_plan_id']=plan
     ledger['trades'].append(trade);ledger['status']='running';return ledger
 
@@ -92,8 +100,9 @@ def apply_company_action(original, action):
         cash=round(action['entitlement_shares']*action['cash_per_share'],2);ledger['cash']=round(ledger['cash']+cash,2)
     elif action['kind']=='split':
         shares=h['shares']*action['factor']
-        if shares!=int(shares):raise ValueError('fractional share cash settlement must be verified')
-        h['shares']=int(shares);h.pop('last_price',None);h.pop('market_value',None);cash=0
+        if ledger.get('share_mode')=='fractional_research':shares=round(shares,6)
+        elif shares!=int(shares):raise ValueError('fractional share cash settlement must be verified')
+        h['shares']=shares if ledger.get('share_mode')=='fractional_research' else int(shares);h.pop('last_price',None);h.pop('market_value',None);cash=0
     else:raise ValueError('unsupported corporate action')
     ledger['events'].append(dict(action_id=action['action_id'],date=action['effective_date'],code=action['code'],status='company_action',cash_amount=cash,reason=action['kind'],source_url=action['source_url']));return ledger
 

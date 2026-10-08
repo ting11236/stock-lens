@@ -101,3 +101,11 @@
 .weekly-summary-stock span,.weekly-alerts .weekly-summary-stock span {color:#fff}
 .weekly-close-price {color:#b91c1c;font-size:1.15em}
 .weekly-action-important {color:#b91c1c;font-weight:800}
+.weekly-alert-quotes {margin:12px 0;padding:10px 12px;background:#f5f3ff;border-radius:9px}
+.weekly-alert-quotes p {margin:6px 0 10px}
+.weekly-alert-quotes small {display:block;color:#64748b;font-size:12px}
+.weekly-alerts ul {padding-left:20px}
+.weekly-alerts li {margin:12px 0}
+.weekly-industry-list > li {padding:16px 0;border-bottom:1px solid #e5def0}
+.weekly-industry-list > li > ul > li {margin:12px 0;line-height:1.85}
+.weekly-sector-search a {display:inline-block;padding:3px 8px;border:1px solid #ddd6fe;border-radius:7px;margin:3px 1px}
