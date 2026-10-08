@@ -139,3 +139,12 @@
 .weekly-quick-summary>section{padding:16px}.weekly-priority-label{display:inline-block;margin-left:10px;color:#634497;font-weight:600}
 
 .weekly-reference-red{color:#b91c1c;font-weight:400}
+
+#weeklyInvestmentOpen.weekly-launch{font-size:22px}
+#weeklyInvestmentDialog .weekly-modal-heading h2{font-size:22px}
+.weekly-quick-summary ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;list-style:none;padding:0;margin:12px 0 0}
+.weekly-quick-summary li{min-width:0;margin:0;padding:10px;background:#f8f7fc;border:1px solid #e8e2f3;border-radius:10px;overflow-wrap:anywhere}
+.weekly-quick-summary .weekly-summary-stock{display:flex;width:100%;margin:0 0 6px;padding:8px 10px}
+.weekly-quick-summary .weekly-priority-label{margin:0}
+.weekly-quick-summary li p{margin:6px 0 0;font-size:13px;line-height:1.6}
+@media(max-width:600px){.weekly-quick-summary ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.weekly-quick-summary>section{padding:12px}.weekly-quick-summary li{padding:8px}.weekly-quick-summary .weekly-summary-stock{font-size:13px}}
