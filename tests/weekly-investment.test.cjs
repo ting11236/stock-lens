@@ -26,7 +26,7 @@ test('published evidence keeps missing comparable inputs absent and weights feas
 test('decision content precedes analysis and untrusted report text is escaped',()=>{
  const html=render(r);
  assert.ok(html.indexOf('最值得設定')<html.lastIndexOf('本週產業 Top5'));
- assert.ok(html.indexOf('最終操作表')<html.lastIndexOf('本週產業 Top5'));
+ assert.ok(html.indexOf('AI 股票操作建議')<html.lastIndexOf('本週產業 Top5'));
  assert.equal(escape('<img onerror="bad">'),'&lt;img onerror=&quot;bad&quot;&gt;');
  assert.match(range(null),/資料不足/);
 });
@@ -40,12 +40,12 @@ test('method migration preserves baselines without invented upgrades',()=>{
  for(const c of r.companies) assert.deepEqual(Object.keys(c.scores),['industry','quality','improvement','valuation_entry','confidence']);
  assert.match(render(r),/週報 v3/);assert.doesNotMatch(render(r),/undefined|NaN|比較 8 檔/);
 });
-test('new candidates have no invented buy prices and customer table has 14 columns',()=>{
+test('new candidates have no invented buy prices and operations preserve customer fields in compact cards',()=>{
  const screen=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../research/weekly-investment/2026-W41-screen-v3.json'),'utf8'));
  assert.equal(screen.universe_count,1089);assert.equal(screen.candidate_count,90);assert.equal(screen.coverage.roic,0);assert.equal(screen.coverage.fcf,0);
  for(const code of r.changes.added){const c=r.companies.find(c=>c.code===code);assert.equal(c.position.role,'Watchlist');assert.deepEqual(c.position.weight_range_pct,[0,0]);assert.equal(c.prices.breakout,null);assert.equal(c.prices.best_entry,null);assert.equal(c.reverse_valuation.implied_eps,null);assert.equal(c.building_plan.tranches.length,0);assert.equal(c.monthly.revenue_twd_thousand,null);}
- const html=render(r);assert.match(html,/全市場研究篩選/);assert.match(html,/低動能改善研究候選/);assert.match(html,/Reverse Valuation/);
- const table=html.match(/<table class="weekly-table">([\s\S]*?)<\/table>/)[1];assert.equal((table.match(/<th>/g)||[]).length,14);
+ const html=render(r);assert.match(html,/全市場研究篩選/);assert.match(html,/轉機股/);assert.match(html,/Reverse Valuation/);
+ assert.equal((html.match(/class="weekly-operation-card"/g)||[]).length,11);for(const label of ["1–3 年邏輯","市場可能錯在哪","建倉方式","已持有策略","投資邏輯失效"])assert.ok(html.includes(label));
 });
 
 test('support failure cancels previous left-side entry instead of moving it lower',()=>{const q=r.companies.find(c=>c.code==='2382');assert.equal(q.price,325.5);assert.equal(q.prices.first_attention,null);assert.equal(q.prices.best_entry,null);assert.equal(q.building_plan.tranches.length,0);assert.match(q.building_plan.current_action,/撤銷/);assert.ok(q.technical.volume_ratio>1);});
@@ -62,4 +62,23 @@ test('backtest shows scheduled status and no fabricated returns before start',()
  const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
  assert.equal(b.initial_capital,10000);assert.equal(b.start_date,'2026-10-12');assert.equal(b.trades.length,0);assert.equal(b.total_return_pct,null);
  const html=render({...r,backtest:b});assert.match(html,/data-weekly-tab="backtest"/);assert.match(html,/尚未開始/);assert.match(html,/逐筆建倉／分批出場紀錄/);assert.match(html,/下一交易日|下一交易日/);assert.doesNotMatch(html,/undefined|NaN/);
+});
+
+test('overview order, research folding and portfolio placement remain clear',()=>{
+ const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
+ const html=render({...r,backtest:b});
+ const overview=html.split('id="weekly-overview"')[1].split('id="weekly-industries"')[0];
+ const labels=['布局','優先等待','不追高','最值得設定的 3 個價格提醒','只能選一檔的中期研究選擇','轉機股'];
+ for(let i=1;i<labels.length;i++)assert.ok(overview.indexOf(labels[i-1])<overview.indexOf(labels[i]));
+ assert.doesNotMatch(overview,/條件式研究示範配置/);
+ assert.match(overview,/<details[^>]*><summary>全市場研究篩選/);
+ assert.doesNotMatch(html,/data-weekly-tab="screening"|data-weekly-tab="2330"|data-weekly-tab="operations"/);
+ assert.match(html,/data-weekly-analysis="2330"/);
+ assert.match(html,/<dialog class="weekly-analysis-dialog"/);
+ assert.match(html,/配置是條件成立後的目標，不是實際持倉/);
+});
+
+test('current demonstration allocation uses the same ledger and leaves untriggered cash untouched',()=>{
+ const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
+ const html=render({...r,backtest:b});assert.match(html,/目前研究示範配置（與回測同一帳本）/);assert.match(html,/尚無成立且成交的建倉：100%現金/);assert.match(html,/未成立不投入/);
 });
