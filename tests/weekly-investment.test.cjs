@@ -57,3 +57,9 @@ test('stock mentions in headings and prose are linked without nested links or un
  assert.equal((text.match(/data-weekly-company=/g)||[]).length,4);assert.match(text,/<h3><a[^>]+>台積電<\/a>/);assert.match(text,/<a href="safe">台積電<\/a>/);assert.match(text,/<button>台積電<\/button>/);
  assert.doesNotMatch(render(r),/<a[^>]*>[^<]*<a/);
 });
+
+test('backtest shows scheduled status and no fabricated returns before start',()=>{
+ const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
+ assert.equal(b.initial_capital,10000);assert.equal(b.start_date,'2026-10-12');assert.equal(b.trades.length,0);assert.equal(b.total_return_pct,null);
+ const html=render({...r,backtest:b});assert.match(html,/data-weekly-tab="backtest"/);assert.match(html,/尚未開始/);assert.match(html,/逐筆建倉／分批出場紀錄/);assert.match(html,/下一交易日|下一交易日/);assert.doesNotMatch(html,/undefined|NaN/);
+});

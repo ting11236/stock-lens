@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "strategy_id": "stock-lens-ai-10000-20261012",
+  "title": "AI建倉與出場回測",
+  "start_date": "2026-10-12",
+  "initial_capital": 10000.0,
+  "currency": "TWD",
+  "mode": "forward_paper",
+  "status": "scheduled",
+  "cash": 10000.0,
+  "holdings": {},
+  "trades": [],
+  "events": [],
+  "daily_snapshots": [],
+  "last_asOf": null,
+  "equity": 10000.0,
+  "total_return_pct": null,
+  "realized_pnl": 0.0,
+  "unrealized_pnl": null,
+  "elapsed_days": null,
+  "costs": {
+    "fee_rate": 0.001425,
+    "minimum_fee": 1.0,
+    "sell_tax_rate": 0.003,
+    "slippage_rate": 0.001
+  },
+  "rules": [
+    "從2026-10-12起前瞻模擬，未開始前不虛構報酬；不回填事後看見的訊號。",
+    "每週使用當時已發布的封存報告，持股延續，不每週重置10000元。",
+    "買訊必須價量與基本面確認；報告買點／批次未成立則不買。賣出須當週明確出場批次，不將續抱／停止加碼當賣出。",
+    "訊號確認後下一交易日開盤模擬，買價加0.1%、賣價減0.1%滑價；這是價格代理，非零股真實成交。",
+    "整數零股、無槓桿、不放空；計入買賣手續費0.1425%每筆至少1元及賣出證交稅0.3%。費率／最低額為研究假設，不是特定券商報價。",
+    "分批比例相對原計畫部位：買進依週報配置與批次；賣出依出場計畫起始股數，不能用逐次縮小的剩餘股數誤算。",
+    "若一批預算不足一股、開盤超出允許價區、缺行情、停牌／漲跌停不可成交或未確認則不成交並留下原因。",
+    "配息於實際發放日記入現金，拆併股於生效日調整股數與成本；缺官方公司行動資料則暫停該股成交／估值，不把價差誤算收益。",
+    "總報酬＝（現金＋持股市值−10000）／10000；未賣持股含買進成本，另列估計全數出場後淨值；現金不計息、股利個人稅不估。"
+  ],
+  "sources": [
+    {
+      "title": "TWSE手續費規則",
+      "url": "https://twse-regulation.twse.com.tw/ENG/TW/law/DOC01_print.aspx?FLCODE=FL007304&FLNO=94",
+      "published_at": null,
+      "published_at_reason": "頁面未列單一發布日，沿用現行條文",
+      "accessed_at": "2026-10-08",
+      "data_period": "查閱日現行規則"
+    },
+    {
+      "title": "財政部證券交易稅條例第2條",
+      "url": "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006079&kw=b&media=print",
+      "published_at": null,
+      "published_at_reason": "沿用查閱日條文，不以查閱日當原發布日",
+      "accessed_at": "2026-10-08",
+      "data_period": "一般股票賣出；非當沖"
+    }
+  ],
+  "pending_signals": []
+}
