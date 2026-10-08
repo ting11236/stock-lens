@@ -70,10 +70,10 @@
     const alerts = card('最值得設定的 3 個價格提醒', `<p>把觀察價格加入通知，到價後依下列條件查看是否適合進場。點「查看分析」可看完整建倉指引。</p><div class="weekly-alerts">${r.alerts.map(a=>`<article>${analysisLink(a.code)}<div class="weekly-alert-quotes"><p><b>現在價格：${number(byCode[a.code]?.price)}</b><small>最近已核收盤：${escape(byCode[a.code]?.priceAsOf)}</small></p><p><b>觀察價格：${number(a.price)}</b><small>觀察資料基準：${escape(a.asOf || r.priceAsOf)}</small></p></div>${list(alertGuide(a))}</article>`).join('')}</div><p class="weekly-alert-help">使用方式：先設定價格通知 → 到價後查看個股分析 → 確認進場條件 → 按建議批次評估投入資金。使用提醒前，請依最新收盤資料核對進場條件。本版觀察條件最遲有效至 ${escape(r.freshness.valid_until.slice(0,10))}，遇到新的收盤資料或公司重要變化時會重新評估。</p>`);
     const choice=card('只能選一檔的中期研究選擇', `<p><b>${analysisLink(r.only_one.code)}</b></p>`+list(r.only_one.reasons));
     const portfolio=card('條件成立後的目標配置', `<p>${escape(r.portfolio.type)}</p><p><b>${escape(r.portfolio.current_new_money)}</b></p><p>各股所有批次均成立並成交後的目標基準（未成立不投入）：${Object.entries(r.portfolio.base_weights).map(([c,w])=>`${c==='cash'?'現金':stockLink(c)} ${number(w)}%`).join(' · ')}，合計100%。</p><p>${escape(r.portfolio.ranges_note)}</p><p>${escape(r.portfolio.factor_exposure)}</p><p>現金區間${range(r.portfolio.cash_range)}%，AI共同因子上限${r.portfolio.ai_factor_cap}%。${escape(r.portfolio.risk_note)}</p>`);
-    const actionText=text=>escape(text).replace(/停止加碼|建議進場(?:[（(][^）)]*[）)])?/g,t=>`<strong class="weekly-action-important">${t}</strong>`);
+    const actionText=text=>escape(text).replace(/停止加碼|建議進場(?:[（(][^）)]*[）)])?|(?:先|再)?投入(?:最後)?(?:這檔股票預計投入資金的 )?[\d.]+%/g,t=>`<strong class="weekly-action-important">${t}</strong>`);
     const plainCondition=text=>String(text)
       .replace(/需求／EPS與利潤指引維持/g,'公司的需求展望、每股盈餘預估與獲利指引維持')
-      .replace(/EPS/g,'每股盈餘').replace(/thesis/g,'投資理由').replace(/YoY/g,'與去年同期相比的成長率')
+      .replace(/ASP/g,'產品平均售價').replace(/CFO/g,'營業現金流').replace(/CSP/g,'雲端服務').replace(/HVDC/g,'高壓直流供電').replace(/新廠爬坡/g,'新工廠初期投入生產').replace(/利用率/g,'產能使用率').replace(/共識下修/g,'市場每股盈餘預估下調').replace(/EPS/g,'每股盈餘').replace(/thesis/g,'投資理由').replace(/YoY/g,'與去年同期相比的成長率')
       .replace(/量>前20日均量/g,'成交量高於前20個交易日平均量').replace(/量>20日均量/g,'成交量高於前20個交易日平均量')
       .replace(/量≤0\.8倍均量/g,'成交量在前20個交易日平均量的八成以下').replace(/量≥20日均量/g,'成交量達到前20個交易日平均量')
       .replace(/量≥1\.5倍均量/g,'成交量達到前20個交易日平均量的1.5倍').replace(/止穩/g,'價格停止持續下跌')
@@ -91,26 +91,79 @@
       .replace(/時間、估值與價格同時核對/g,'每批分開安排，並重新確認股價是否合理及公司營運是否符合預期')
       .replace(/核心投資理由/g,'中長期投資理由').replace(/縮減戰術部位/g,'評估減少為這次進場建立的部位').replace(/每股盈餘與每股盈餘/g,'每股盈餘');
 
-    const trancheSentence=(c,t,i)=> {
-      const examples={
-        '2330':[
-          '股價在 2,375–2,415 區間停止下跌後，可以建立第一筆，投入 1/4 的資金。',
-          '後續股價在 2,480–2,515 區間，成交量縮小且守住支撐後，可以建立第二筆，再投入 1/4 的資金。',
-          '收盤重新回到 2,555 以上，下一個交易日也守住後，可以建立第三筆，再投入 1/4 的資金。',
-          '收盤突破 2,595，成交量高於前20個交易日平均量，下一個交易日也守住後，可以建立第四筆，投入最後 1/4 的資金。'],
-        '2345':[
-          '收盤達到 2,145，成交量高於前20個交易日平均量，下一個交易日也守住後，可以建立第一筆，投入 30% 的資金。',
-          '後續股價回落到 2,145 附近沒有跌破，並再次收高後，可以建立第二筆，再投入 30% 的資金。',
-          '後續每股盈餘預估上調或交付改善獲得確認，且價格與估值仍合適時，可以建立第三筆，投入最後 40% 的資金。'],
-        '3017':[
-          '收盤突破 3,705，成交量高於前20個交易日平均量，下一個交易日也守住後，可以建立第一筆，投入 30% 的資金。',
-          '後續股價回落到 3,705 附近沒有跌破，並再次收高後，可以建立第二筆，再投入 30% 的資金。',
-          '後續每股盈餘預估或交付改善獲得確認，且價格與估值仍合適時，可以建立第三筆，投入最後 40% 的資金。']
+    const holdingSentence=c=> {
+      if(r.update_id==='2026-W41-v3' && c.code==='2330') return '已有持股可續抱；新資金先觀察股價回落到 2,480–2,515 時的表現。如果跌到 2,375–2,415 並停止繼續下跌，且進場條件成立，可以先投入這檔股票預計投入資金的 25%。後續在 2,480–2,515 縮量守住支撐，再投入 25%；收盤回到 2,555、突破 2,595，並分別符合各筆條件後，可再各投入 25%。';
+      const summaries={
+        '2308':'已有持股可續抱，但要留意這檔股票占整體資金的比例。如果持股過多，可在股價走強時評估分批減碼；新資金先等待合適價格與進場條件。',
+        '2345':'已有持股可續抱；新資金先觀察 1,905–1,930 區間的回檔表現，或等待收盤達到 2,145 並符合進場條件。採右側確認進場時，第一筆投入30%，後續回落守住後再投入30%，營運改善確認後投入最後40%。每股盈餘預估仍下修時，先停止加碼。',
+        '2382':'已有持股先停止加碼。新資金等待收盤回到 330 以上，並確認後續守住，再重新評估是否建倉。同時核對本業獲利、產品驗收、存貨與應收帳款；如果公司營運轉弱，再評估減碼。',
+        '6669':'新資金先等待，本週尚未有足夠條件支持建倉。已有持股先核對除權後的持股數與成本，再確認公司營運；股價反彈或本益比較低，仍需搭配完整進場條件才能加碼。',
+        '3711':'已有持股可續抱，先停止加碼。如果這檔股票占整體資金的比例過高，可在股價走強時評估分批減碼；接下來持續確認先進封裝的需求與獲利。',
+        '2383':'新資金先等待，股價收盤尚未守住原本的突破位置，且估值仍偏高。接下來觀察 6,330 的壓力位置與完整進場條件；已有持股先控制投入比例。',
+        '3017':'已有持股可續抱；新資金先觀察 3,405–3,505，或更低的 3,100–3,300 區間是否停止下跌。若採右側確認，等收盤突破 3,705 並符合條件後，先投入30%；後續回落守住再投入30%，營運改善確認後投入最後40%。回檔觀察區仍需重新確認買點，不能直接套用右側批次。',
+        '1590':'已有持股先確認當初買進的理由是否仍成立，以及投入比例是否過高、交易是否容易。本週研究仍在確認中，新資金先等待，也先不加碼；已有部位的出場決定需另核對公司營運。',
+        '1256':'已有持股先確認當初買進的理由是否仍成立，以及投入比例是否過高、交易是否容易。本週研究仍在確認中，新資金先等待，也先不加碼；已有部位的出場決定需另核對公司營運。',
+        '2108':'已有持股先確認當初買進的理由是否仍成立，以及投入比例是否過高、交易是否容易。本週研究仍在確認中，新資金先等待，也先不加碼；已有部位的出場決定需另核對公司營運。'
       };
-      const text=r.update_id==='2026-W41-v3' && examples[c.code]?.[i] || `${plainCondition(t.condition)}條件確認後，可以建立第 ${i+1} 筆，投入 ${number(t.target_pct)}% 的資金。`;
-      return escape(text).replace(/(投入(?:最後 )?(?:1\/4|30%|40%|[\d.]+%) 的資金)/g,'<strong class="weekly-action-important">$1</strong>');
+      return r.update_id==='2026-W41-v3' && summaries[c.code] || plainCondition(c.holding_strategy);
     };
-    const details=r.companies.map(c=>`<article class="weekly-card weekly-company" id="weekly-${c.code}" data-weekly-analysis-template="${c.code}" hidden><header><h3>${stockLink(c.code)}</h3><span class="weekly-role">${escape(c.position.role)}</span></header><p class="weekly-decision">${escape(c.position.stage)} · ${actionText(c.building_plan.current_action)}</p><p class="weekly-freshness" role="status">${escape(freshness({...r,priceAsOf:c.priceAsOf}))}</p><p><b>官方收盤 <span class="weekly-close-price">${number(c.price)}</span>（${escape(c.priceAsOf)}）</b></p><p><b>AI信心 ${c.scores.confidence}/10 · 估值／買點 ${c.scores.valuation_entry}/10 · 公司品質 ${c.scores.quality}/10</b></p><p>已有持股：${escape(plainCondition(c.holding_strategy))}</p>${card("是否建倉／如何分批", `<p><b>目前行動：${actionText(c.building_plan.current_action)}</b></p>${c.building_plan.tranches.length ? `<p>先決定這檔股票「全部買完後」的目標投入金額，再分成 ${c.building_plan.tranches.length} 筆。下方百分比表示每筆占這檔股票目標金額的比例，不是拿全部資金直接買進。</p><p>以下每筆都要同時符合「進場訊號」中的成交量與公司營運條件；確認後才投入資金。</p>${`<ol class="weekly-tranches">${c.building_plan.tranches.map((t,i)=>`<li><p>${trancheSentence(c,t,i)}</p></li>`).join('')}</ol>`}${r.backtest?.equity && r.portfolio.base_weights[c.code] ? `<p>以目前 ${number(r.backtest.equity)} 元模擬帳戶為例：這檔股票條件成立後的目標配置 ${number(r.portfolio.base_weights[c.code])}%，對應目標金額約 ${number(r.backtest.equity*r.portfolio.base_weights[c.code]/100)} 元。第一筆 ${c.building_plan.tranches[0].target_pct}% 約 ${number(r.backtest.equity*r.portfolio.base_weights[c.code]/100*c.building_plan.tranches[0].target_pct/100)} 元；回測會先扣除模擬費用，再把該批金額換算成小數股；例如不足一股也會記錄模擬買入，而不是因股價太高放棄投入。</p>`:''}` : '<p>目前先保留資金，尚未啟動分批買進。接下來要確認公司營運、合理價格與進場訊號；研究條件足夠後，才會訂出每一筆的金額和買進時機。</p>'}<p>目前採用的建倉方式：${escape(plainCondition(c.building_plan.conditional_action))}</p><p><b class="weekly-action-important">停止加碼：什麼時候停止後續買進？</b>如果原本看好的需求、獲利或股價支撐條件改變，先保留剩餘資金並重新評估。${actionText(plainCondition(c.building_plan.stop_addition))}</p>`)}<div class="weekly-grid">${card('進場訊號', `<p>每一筆買進都需要同時確認股價、成交量與公司營運。先依下列價格條件觀察，接著檢查成交量是否符合要求，最後確認公司的營收與獲利展望仍支持原本的投資理由。</p><h4>先看價格與成交量</h4><p>${escape(plainCondition(c.buy_signal))}</p><h4>再看公司營運是否配合</h4><p>${escape(plainCondition(c.fundamental_confirmation))}</p><p>這兩部分確認後，才依分批計畫評估這一筆投入金額；等待期間先保留現金，後面的每一筆也會重新核對條件。</p>`)}${card('買點不成立／風險管理', `<p>先區分兩種情況：股價未符合這次買進條件時，取消該筆買進並保留後續資金；公司的需求與獲利展望改變時，則重新評估整個中長期投資理由和已持有部位。</p><h4>這次觀察的價格範圍</h4><p>第一關注價：${range(c.prices.first_attention)}；理想布局區：${range(c.prices.best_entry)}；右側確認價：${number(c.prices.breakout)}。已列出的價格須搭配進場訊號使用，尚未成立的區間會等待資料確認後再訂定。</p><p>價格依據：${escape(plainCondition(c.prices.reason))}</p><h4>股價出現什麼變化時調整部位？</h4><p>${actionText(plainCondition(c.position_management))}</p><h4>公司出現什麼變化時重估投資理由？</h4><p>${escape(plainCondition(c.thesis_failure))}</p><p>遇到上述變化，先停止尚未完成的買進批次，再依已發布的持有或出場計畫評估既有部位；回測也會沿用同一套條件執行。</p>`)}${card('AI研究信心', `<div class="weekly-scores">${Object.entries(c.scores).map(([k,v])=>`<span>${({quality:'品質',industry:'產業',improvement:'改善潛力',valuation_entry:'估值／買點',confidence:'信心'})[k]}<b>${v}/10</b></span>`).join('')}</div><p>${escape(c.score_reason)}</p><p>信心取決於證據完整度，不等於上漲機率。${escape(c.risk)}</p>`)}</div><details><summary>展開論點、估值、價量與例行資料日期</summary><h4>Thesis與1–3年動能</h4><p>${escape(c.thesis)}</p><p>${escape(c.growth_1to3y)}</p><h4>市場預期與price-in</h4><p>${escape(c.market_expectations)}</p><p>${escape(c.price_in)}</p><h4>基本面拐點與競爭力</h4><p>${escape(c.candidate_type)}</p><p>${escape(c.fundamental_inflection)}</p><p>${escape(c.competition)}</p><h4>Variant View：待驗證假說</h4><p>市場可能預期：${escape(c.variant_view?.market_hypothesis)}</p><p>研究假說：${escape(c.variant_view?.research_hypothesis)}</p><p>確認／反證：${escape(c.variant_view?.confirmation)}</p><h4>Reverse Valuation 敏感度</h4><p>研究PE帶 ${range(c.reverse_valuation?.assumption_pe)}；反推所需EPS ${range(c.reverse_valuation?.implied_eps)}；相對TTM增幅 ${range(c.reverse_valuation?.required_growth_pct)}%。${escape(c.reverse_valuation?.reason)}</p><p>${escape(c.valuation_methods)}</p><p>官方PB ${number(c.valuation.official_pb)}（${escape(c.valuation.official_pe_date)}）。</p><h4>估值口徑</h4><p>TTM EPS ${number(c.financial.ttm_eps)}（${escape(c.financial.ttm_period)}）；自行TTM PE ${number(c.valuation.ttm_pe)}；官方PE ${number(c.valuation.official_pe)}（${escape(c.valuation.official_pe_date)}）。${escape(c.valuation.official_pe_note)}</p><p>2026 Forward PE ${number(c.valuation.forward_pe)}；2027 Forward PE ${number(c.valuation.forward_next_year_pe)}。${c.valuation.consensus ? `${escape(c.valuation.consensus.provider)}，發布${escape(c.valuation.consensus.published_at)}，${c.valuation.consensus.coverage}位分析師，2026 EPS中位${number(c.valuation.consensus.median)}，前值${number(c.valuation.consensus.previous)}，範圍${number(c.valuation.consensus.low)}–${number(c.valuation.consensus.high)}。${escape(c.valuation.consensus.note)}` : escape(c.valuation.consensus_missing_reason)}</p><p>研究估值：${escape(c.valuation.classification)}，合理TTM PE帶${range(c.valuation.reasonable_ttm_pe_range)}，對應${range(c.valuation.reasonable_ttm_price_range)}元。${escape(c.valuation.assumption)} 所有倍數假設均為研究判斷。</p><h4>官方價量與基本面快照</h4><p>5／10／20／60日均線：${Object.values(c.technical.ma).map(number).join('／')}。20日高低 ${number(c.technical.low20)}–${number(c.technical.high20)}；成交 ${number(c.technical.volume)}股，前20日均量 ${number(c.technical.average_volume_20)}股（${number(c.technical.volume_ratio)}倍）；20日漲跌 ${number(c.technical.return20)}%。${escape(c.technical.basis)}</p><p>${escape(c.financialPeriod)}：EPS ${number(c.financial.eps)}，毛利率 ${number(c.financial.gross_margin)}%，營益率 ${number(c.financial.operating_margin)}%。${escape(c.financial.eps_basis)}。${escape(c.financial.eps_comparability_note)}</p><p>${escape(c.monthly.period)}營收 ${number(c.monthly.revenue_twd_thousand == null ? null : c.monthly.revenue_twd_thousand/100000)}億元、YoY ${number(c.monthly.yoy)}%。${escape(c.monthly.latest_missing_reason||'')} 訂單、CAPEX、產能與營收分開判斷。</p><p class="tiny">updatedAt ${escape(c.updatedAt)} · priceAsOf ${escape(c.priceAsOf)} · financialPeriod ${escape(c.financialPeriod)} · forecastAsOf ${escape(c.forecastAsOf)} · 觀察價asOf ${escape(c.prices.asOf)}／有效至 ${escape(c.prices.valid_until)}。</p><p>${escape(c.prices.validity_rule)}</p><h4>資料限制</h4>${list(c.missing)}<h4>逐筆來源</h4><ul class="weekly-sources">${c.sources.map(s=>`<li><span>${escape(s.title)}</span> · <a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">查看原始來源</a><small>${escape(s.claim_type)} · 期間 ${escape(s.data_period)} · 發布 ${escape(s.published_at)} · 查閱 ${escape(s.accessed_at)}</small>${s.published_at_reason ? `<p>${escape(s.published_at_reason)}</p>`:''}${s.note?`<p>${escape(s.note)}</p>`:''}</li>`).join('')}</ul></details></article>`).join('');
+    const trancheTable=c=> {
+      const rows={
+        '2330':[
+          ['2,375–2,415','收盤留在此區間，連續兩天低點不跌破2,375；第二天收盤比前一天高，成交量低於前20日平均量的八成。'],
+          ['2,480–2,515','後續回到這個區間，成交量縮小且守住支撐。'],
+          ['2,555 以上','收盤重新回到這個價格以上，下一個交易日也守住。'],
+          ['突破 2,595','收盤突破、成交量高於前20日平均量，下一個交易日也守住。']],
+        '2345':[
+          ['2,145 以上','收盤達到這個價格，成交量高於前20日平均量，下一個交易日也守住。'],
+          ['回落至 2,145','後續回落沒有跌破，並再次收高；需求及估值仍合理。'],
+          ['保留資金','每股盈餘預估上調或交付改善獲得確認，價格與估值仍合適。']],
+        '3017':[
+          ['突破 3,705','收盤突破、成交量高於前20日平均量，下一個交易日也守住。'],
+          ['回落至 3,705','後續回落沒有跌破，並再次收高；估值與交付仍符合預期。'],
+          ['保留資金','每股盈餘預估或交付改善獲得確認，價格與估值仍合適。']]
+      };
+      const current=r.update_id==='2026-W41-v3'?rows[c.code]:null;
+      return `<div class="weekly-tranche-wrap"><table class="weekly-tranche-table"><thead><tr><th>觀察股價</th><th>符合什麼條件</th><th>投入多少資金</th></tr></thead><tbody>${c.building_plan.tranches.map((t,i)=>{
+        const row=current?.[i]||['依進場訊號',plainCondition(t.condition)];
+        const part=t.target_pct===25?'1/4（25%）':`${number(t.target_pct)}%`;
+        return `<tr><td><small>第 ${i+1} 筆</small><b class="weekly-observe-price">${escape(row[0])}</b></td><td><span class="weekly-observe-signal">${escape(row[1])}</span></td><td><strong class="weekly-tranche-share">${part}</strong></td></tr>`;
+      }).join('')}</tbody></table></div>`;
+    };
+    const signalBullets=c=> {
+      const text=c.buy_signal;
+      const first=text.match(/第一關注([^；]+)；回測量≤此前20日均量0.8倍（本版約([^股]+)股），低點連2日不破，收盤重站([\d.]+)/);
+      const right=text.match(/右側收盤達到或高於([\d.]+)，量>此前20日均量（本版([^股]+)股），隔日收盤不跌回([\d.]+)/);
+      const left=text.match(/收盤仍在([^內]+)內，低點連2日不跌破([\d.]+)/);
+      if(!first || !right) return list([plainCondition(text)]);
+      const items=[`回檔觀察：股價回到 ${first[1]} 時，連續兩個交易日低點不再跌破觀察區，成交量降到前20個交易日平均量的八成以下（本版約 ${first[2]} 股），收盤再回到 ${first[3]}。`,
+        `突破觀察：收盤達到 ${right[1]}，成交量高於前20個交易日平均量（本版 ${right[2]} 股），下一個交易日收盤也守住 ${right[3]}。`];
+      if(left)items.push(`較低價格布局：收盤在 ${left[1]} 區間，連續兩天最低價都不跌破 ${left[2]}，第二天收盤比前一天高，成交量低於前20個交易日平均量的八成。條件確認後，才評估第一筆；離開這個區間就重新檢查買點。`);
+      else items.push('目前尚未找到價格支撐與合理估值同時成立的理想布局區，突破價先作觀察用途。');
+      items.push('上述股價訊號還要配合下方公司營運條件，並重新核對合理估值，才按分批計畫評估買進。');
+      return list(items);
+    };
+    const riskBullets=c=> {
+      const t=c.position_management;
+      const boundary=t.match(/連2日收盤低於([\d.]+)/);
+      let items;
+      if(boundary) {
+        const floor=boundary[1];
+        items=[`取消這次買進：突破後，下一個交易日收盤又跌回 ${number(c.prices.breakout)} 以下，取消突破買訊；股價回落跌破 ${floor} 時，停止原本的支撐布局，重新評估買點。`,
+          `停止加碼、評估減少部位：連續兩天收盤低於 ${floor}，且至少一天成交量達到前20日平均量；或單日跌破且成交量達平均量1.5倍、隔日仍未回到 ${floor} 以上，就停止後續買進，評估減少為這次進場建立的部位。`];
+      } else if(c.code==='2382' && r.update_id==='2026-W41-v3')items=['停止加碼：10/8收盤325.5已跌破原328–330支撐區，且成交量高於前20日平均量，原買點已撤銷。先檢查已有部位，等新的價格與營運條件確認後再評估。'];
+      else items=[plainCondition(t)];
+      items.push(`重新評估中長期持有：如果出現以下公司營運變化，原本的投資理由可能不再成立，應停止加碼並評估減碼或退出。${plainCondition(c.thesis_failure)}`);
+      return `<ul class="weekly-risk-list">${items.map(x=>`<li>${actionText(x)}</li>`).join('')}</ul>`;
+    };
+    const buildingSummary=c=> {
+      const parts=c.building_plan.tranches.map(t=>`${number(t.target_pct)}%`);
+      if(!parts.length)return '目前先等待，尚未開始建倉。';
+      if(c.building_plan.tranches.length===4 && parts.every(x=>x==='25%'))return '核心長期分4批，每批投入這檔股票目標資金的25%。';
+      if(parts.join('/')==='30%/30%/40%')return '資金分成三筆，30%、30%、40%，等到右側訊號確認之後進場。';
+      return `資金分成${parts.length}筆，${parts.join('、')}，依各筆條件確認後進場。`;
+    };
+    const details=r.companies.map(c=>`<article class="weekly-card weekly-company" id="weekly-${c.code}" data-weekly-analysis-template="${c.code}" hidden><header><h3>${stockLink(c.code)}</h3><span class="weekly-role">${escape(c.position.role)}</span></header><p class="weekly-decision">${escape(c.position.stage)} · ${actionText(c.building_plan.current_action)}</p><p class="weekly-freshness" role="status">${escape(freshness({...r,priceAsOf:c.priceAsOf}))}</p><p><b>官方收盤 <span class="weekly-close-price">${number(c.price)}</span>（${escape(c.priceAsOf)}）</b></p><p><b>AI信心 ${c.scores.confidence}/10 · 估值／買點 ${c.scores.valuation_entry}/10 · 公司品質 ${c.scores.quality}/10</b></p><p>已有持股：${actionText(holdingSentence(c)).replace(/(<strong class="weekly-action-important">)([^<]*投入[^<]*)(<\/strong>)/g,'<strong class="weekly-tranche-share">$2</strong>')}</p>${card("是否建倉／如何分批", `<p><b>目前採用的建倉方式：${escape(buildingSummary(c))}</b></p><p>目前行動：${actionText(c.building_plan.current_action)}</p>${c.building_plan.tranches.length ? trancheTable(c) : '<p>先確認公司營運與合理價格，取得完整買進條件後再安排批次。</p>'}`)}<div class="weekly-grid">${card('進場訊號', `<h4>先看價格與成交量</h4>${signalBullets(c)}<h4>再看公司營運是否配合</h4>${list(plainCondition(c.fundamental_confirmation).split(/[；]/).filter(Boolean))}<p>這兩部分確認後，才依分批計畫評估這一筆投入金額；等待期間先保留現金，後面的每一筆也會重新核對條件。</p>`)}${card('買點不成立／風險管理', riskBullets(c))}${card('AI研究信心', `<div class="weekly-scores">${Object.entries(c.scores).map(([k,v])=>`<span>${({quality:'品質',industry:'產業',improvement:'改善潛力',valuation_entry:'估值／買點',confidence:'信心'})[k]}<b>${v}/10</b></span>`).join('')}</div><p>${escape(c.score_reason)}</p><p>信心取決於證據完整度，不等於上漲機率。${escape(c.risk)}</p>`)}</div><details><summary>展開論點、估值、價量與例行資料日期</summary><h4>Thesis與1–3年動能</h4><p>${escape(c.thesis)}</p><p>${escape(c.growth_1to3y)}</p><h4>市場預期與price-in</h4><p>${escape(c.market_expectations)}</p><p>${escape(c.price_in)}</p><h4>基本面拐點與競爭力</h4><p>${escape(c.candidate_type)}</p><p>${escape(c.fundamental_inflection)}</p><p>${escape(c.competition)}</p><h4>Variant View：待驗證假說</h4><p>市場可能預期：${escape(c.variant_view?.market_hypothesis)}</p><p>研究假說：${escape(c.variant_view?.research_hypothesis)}</p><p>確認／反證：${escape(c.variant_view?.confirmation)}</p><h4>Reverse Valuation 敏感度</h4><p>研究PE帶 ${range(c.reverse_valuation?.assumption_pe)}；反推所需EPS ${range(c.reverse_valuation?.implied_eps)}；相對TTM增幅 ${range(c.reverse_valuation?.required_growth_pct)}%。${escape(c.reverse_valuation?.reason)}</p><p>${escape(c.valuation_methods)}</p><p>官方PB ${number(c.valuation.official_pb)}（${escape(c.valuation.official_pe_date)}）。</p><h4>估值口徑</h4><p>TTM EPS ${number(c.financial.ttm_eps)}（${escape(c.financial.ttm_period)}）；自行TTM PE ${number(c.valuation.ttm_pe)}；官方PE ${number(c.valuation.official_pe)}（${escape(c.valuation.official_pe_date)}）。${escape(c.valuation.official_pe_note)}</p><p>2026 Forward PE ${number(c.valuation.forward_pe)}；2027 Forward PE ${number(c.valuation.forward_next_year_pe)}。${c.valuation.consensus ? `${escape(c.valuation.consensus.provider)}，發布${escape(c.valuation.consensus.published_at)}，${c.valuation.consensus.coverage}位分析師，2026 EPS中位${number(c.valuation.consensus.median)}，前值${number(c.valuation.consensus.previous)}，範圍${number(c.valuation.consensus.low)}–${number(c.valuation.consensus.high)}。${escape(c.valuation.consensus.note)}` : escape(c.valuation.consensus_missing_reason)}</p><p>研究估值：${escape(c.valuation.classification)}，合理TTM PE帶${range(c.valuation.reasonable_ttm_pe_range)}，對應${range(c.valuation.reasonable_ttm_price_range)}元。${escape(c.valuation.assumption)} 所有倍數假設均為研究判斷。</p><h4>官方價量與基本面快照</h4><p>5／10／20／60日均線：${Object.values(c.technical.ma).map(number).join('／')}。20日高低 ${number(c.technical.low20)}–${number(c.technical.high20)}；成交 ${number(c.technical.volume)}股，前20日均量 ${number(c.technical.average_volume_20)}股（${number(c.technical.volume_ratio)}倍）；20日漲跌 ${number(c.technical.return20)}%。${escape(c.technical.basis)}</p><p>${escape(c.financialPeriod)}：EPS ${number(c.financial.eps)}，毛利率 ${number(c.financial.gross_margin)}%，營益率 ${number(c.financial.operating_margin)}%。${escape(c.financial.eps_basis)}。${escape(c.financial.eps_comparability_note)}</p><p>${escape(c.monthly.period)}營收 ${number(c.monthly.revenue_twd_thousand == null ? null : c.monthly.revenue_twd_thousand/100000)}億元、YoY ${number(c.monthly.yoy)}%。${escape(c.monthly.latest_missing_reason||'')} 訂單、CAPEX、產能與營收分開判斷。</p><p class="tiny">updatedAt ${escape(c.updatedAt)} · priceAsOf ${escape(c.priceAsOf)} · financialPeriod ${escape(c.financialPeriod)} · forecastAsOf ${escape(c.forecastAsOf)} · 觀察價asOf ${escape(c.prices.asOf)}／有效至 ${escape(c.prices.valid_until)}。</p><p>${escape(c.prices.validity_rule)}</p><h4>資料限制</h4>${list(c.missing)}<h4>逐筆來源</h4><ul class="weekly-sources">${c.sources.map(s=>`<li><span>${escape(s.title)}</span> · <a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">查看原始來源</a><small>${escape(s.claim_type)} · 期間 ${escape(s.data_period)} · 發布 ${escape(s.published_at)} · 查閱 ${escape(s.accessed_at)}</small>${s.published_at_reason ? `<p>${escape(s.published_at_reason)}</p>`:''}${s.note?`<p>${escape(s.note)}</p>`:''}</li>`).join('')}</ul></details></article>`).join('');
     const industryGuides={
       1:{title:'先進晶片製造與封裝',items:[
         ['為什麼值得關注','AI需要更高效能的晶片，也需要把多顆晶片有效組合。台積電的公司需求展望與獲利表現，提供較明確的成長依據。'],

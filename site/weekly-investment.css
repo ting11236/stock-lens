@@ -109,3 +109,15 @@
 .weekly-industry-list > li {padding:16px 0;border-bottom:1px solid #e5def0}
 .weekly-industry-list > li > ul > li {margin:12px 0;line-height:1.85}
 .weekly-sector-search a {display:inline-block;padding:3px 8px;border:1px solid #ddd6fe;border-radius:7px;margin:3px 1px}
+
+.weekly-tranche-wrap{width:100%;margin:14px 0}
+.weekly-tranche-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:.9rem;line-height:1.65}
+.weekly-tranche-table th,.weekly-tranche-table td{padding:10px 8px;border:1px solid #ddd5ef;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left}
+.weekly-tranche-table th{background:#eee8ff;color:#4c298a;font-weight:700}
+.weekly-tranche-table th:nth-child(1){width:27%}.weekly-tranche-table th:nth-child(2){width:45%}.weekly-tranche-table th:nth-child(3){width:28%}
+.weekly-tranche-table td small,.weekly-tranche-table td b{display:block}
+.weekly-tranche-table td small{font-size:.8rem;color:#685e79}
+@media(max-width:480px){.weekly-tranche-table{font-size:.82rem}.weekly-tranche-table th,.weekly-tranche-table td{padding:8px 5px}}
+
+.weekly-tranche-share{color:#17202e;font-weight:700}
+.weekly-observe-price,.weekly-observe-signal{text-decoration:underline;text-decoration-color:#946cc7;text-underline-offset:4px;text-decoration-thickness:1px}

@@ -211,7 +211,7 @@ function materialize(s){
 }
 function showNotice(message,type='warn'){$('notice').textContent=message;$('notice').className='notice '+type}
 function toggleWatch(symbol){state.watchlist=state.watchlist.includes(symbol)?state.watchlist.filter(x=>x!==symbol):[...state.watchlist,symbol];persist();render()}
-function setTab(tab){state.tab=tab;state.page=1;document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('selected',b.dataset.tab===tab);b.setAttribute('aria-selected',String(b.dataset.tab===tab))});$('dashboard').hidden=!['all','watchlist'].includes(tab);$('rules').hidden=tab!=='rules';$('sources').hidden=tab!=='sources';if(tab==='rules')renderRules();render()}
+function setTab(tab){state.tab=tab;state.page=1;document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('selected',b.dataset.tab===tab);b.setAttribute('aria-selected',String(b.dataset.tab===tab))});$('dashboard').hidden=!['all','watchlist'].includes(tab);$('rules').hidden=tab!=='rules';$('sources').hidden=tab!=='sources';if($('terms'))$('terms').hidden=tab!=='terms';if(tab==='rules')renderRules();render()}
 const TOPIC_SYNONYMS=[['矽光子','硅光子','siph','silicon photonics'],['人工智慧','人工智能','ai'],['共同封裝光學','共封裝光學','cpo']];
 const searchCache=new WeakMap();
 function normalizeSearch(value){return String(value||'').normalize('NFKC').toLowerCase()}
