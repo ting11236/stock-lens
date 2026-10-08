@@ -30,6 +30,19 @@
       return part.replace(pattern,name=>`<a href="./?company=${encodeURIComponent(aliases.get(name))}#detail" data-weekly-company="${escape(aliases.get(name))}">${name}</a>`);
     }).join('');
   }
+  function linkTradingTerms(html) {
+    const excluded=new Set(['a','button','script','style','textarea','option']);
+    const stack=[];
+    return html.split(/(<[^>]+>)/g).map(part=>{
+      if(part.startsWith('<')) {
+        const tag=part.match(/^<\s*(\/?)\s*([a-z0-9]+)/i);
+        if(tag && excluded.has(tag[2].toLowerCase())) {if(tag[1])stack.pop();else if(!part.endsWith('/>'))stack.push(tag[2].toLowerCase());}
+        return part;
+      }
+      if(stack.length)return part;
+      return part.replace(/(左側|右側)(交易)?/g,(text,side)=>`<a class="weekly-term-link" href="./?term=${side==='右側'?'right':'left'}#term-${side==='右側'?'right':'left'}" data-weekly-term="${side==='右側'?'right':'left'}">${text}</a>`);
+    }).join('');
+  }
   function freshness(report, now = new Date()) {
     const taipei = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now);
     const p = Object.fromEntries(taipei.map(x=>[x.type,x.value]));
@@ -53,21 +66,22 @@
       if(r.update_id!=='2026-W41-v3') return [a.reason];
       const guides={
         '2330':[
-          '股價現況：最近已核收盤資料為10/7，價格高於觀察位置。2,515接近當時最近10個交易日的平均收盤價，適合觀察回檔是否穩定。',
-          '觀察條件：股價回落接近2,515時，查看成交量是否縮小，以及價格是否停止持續下跌。最新收盤資料確認後，會重新核對觀察位置。',
-          '進場參考：同時確認公司需求與獲利展望維持，再依分析框的完整條件評估對應批次。'],
+          '股價現況：10/7收盤2,585，高於觀察價格2,515；2,515接近當時10日平均收盤價。',
+          '觀察條件：如果股價回跌到2,515附近後站穩，並符合進場訊號，可考慮按建議分批進場。',
+          '進場參考：回檔量縮、公司需求與獲利展望維持時，才評估對應批次；股價仍持續下跌時，先不買進。'],
         '2382':[
-          '股價現況：10/8收盤325.5，低於原本328–330的支撐區，原左側買點已撤銷。',
-          '觀察條件：先看收盤能否回到330以上，並在下一個交易日維持。',
-          '進場參考：公司本業獲利能力也要確認，這些條件成立後再重新評估建倉方式。'],
+          '股價現況：10/8收盤325.5，低於原本328–330支撐區，原買點已撤銷。',
+          '觀察條件：如果收盤回到330以上，下一個交易日也守住，才重新評估進場機會。',
+          '進場參考：目前新資金先等待；公司獲利與交付條件確認，並符合進場訊號後，再評估是否建倉。'],
         '2345':[
-          '股價現況：10/8收盤2,070，低於近期高點2,140。2,145是觀察能否突破這個高點的位置。',
-          '觀察條件：收盤達到2,145時，成交量高於前20個交易日平均量，下一個交易日收盤也維持在該價位以上。',
-          '進場參考：同時確認每股盈餘預估停止下修，再依分析框的右側確認條件評估第一批建倉。']
+          '股價現況：10/8收盤2,070，低於近期高點2,140；2,145是突破觀察價格。',
+          '觀察條件：收盤達到2,145，成交量高於前20日平均量，且下一個交易日也守住時，可評估第一筆。',
+          '進場參考：每股盈餘預估停止下修，並符合進場訊號後，可考慮分批進場；突破時成交量不足，先不買進。']
       };
       return guides[a.code]||[a.reason];
     };
-    const alerts = card('最值得設定的 3 個價格提醒', `<p>把觀察價格加入通知，到價後依下列條件查看是否適合進場。點「查看分析」可看完整建倉指引。</p><div class="weekly-alerts">${r.alerts.map(a=>`<article>${analysisLink(a.code)}<div class="weekly-alert-quotes"><p><b>現在價格：${number(byCode[a.code]?.price)}</b><small>最近已核收盤：${escape(byCode[a.code]?.priceAsOf)}</small></p><p><b>觀察價格：${number(a.price)}</b><small>觀察資料基準：${escape(a.asOf || r.priceAsOf)}</small></p></div>${list(alertGuide(a))}</article>`).join('')}</div><p class="weekly-alert-help">使用方式：先設定價格通知 → 到價後查看個股分析 → 確認進場條件 → 按建議批次評估投入資金。使用提醒前，請依最新收盤資料核對進場條件。本版觀察條件最遲有效至 ${escape(r.freshness.valid_until.slice(0,10))}，遇到新的收盤資料或公司重要變化時會重新評估。</p>`);
+    const alertGuideList=a=>`<ul>${alertGuide(a).map(item=>`<li>${escape(item).replace(/進場訊號/g,`<button type="button" class="weekly-entry-link" data-weekly-analysis="${escape(a.code)}" aria-haspopup="dialog" aria-label="${escape(byCode[a.code]?.name || a.code)}的進場訊號">進場訊號</button>`)}</li>`).join('')}</ul>`;
+    const alerts = card('最值得設定的 3 個價格提醒', `<p>把觀察價格加入通知，到價後依下列條件查看是否適合進場。點「查看分析」可看完整建倉指引。</p><div class="weekly-alerts">${r.alerts.map(a=>`<article>${analysisLink(a.code)}<div class="weekly-alert-quotes"><p><b>現在價格：${number(byCode[a.code]?.price)}</b><small>最近已核收盤：${escape(byCode[a.code]?.priceAsOf)}</small></p><p><b>觀察價格：${number(a.price)}</b><small>觀察資料基準：${escape(a.asOf || r.priceAsOf)}</small></p></div>${alertGuideList(a)}</article>`).join('')}</div><p class="weekly-alert-help">使用方式：先設定價格通知 → 到價後查看個股分析 → 確認進場條件 → 按建議批次評估投入資金。使用提醒前，請依最新收盤資料核對進場條件。本版觀察條件最遲有效至 ${escape(r.freshness.valid_until.slice(0,10))}，遇到新的收盤資料或公司重要變化時會重新評估。</p>`);
     const choice=card('只能選一檔的中期研究選擇', `<p><b>${analysisLink(r.only_one.code)}</b></p>`+list(r.only_one.reasons));
     const portfolio=card('條件成立後的目標配置', `<p>${escape(r.portfolio.type)}</p><p><b>${escape(r.portfolio.current_new_money)}</b></p><p>各股所有批次均成立並成交後的目標基準（未成立不投入）：${Object.entries(r.portfolio.base_weights).map(([c,w])=>`${c==='cash'?'現金':stockLink(c)} ${number(w)}%`).join(' · ')}，合計100%。</p><p>${escape(r.portfolio.ranges_note)}</p><p>${escape(r.portfolio.factor_exposure)}</p><p>現金區間${range(r.portfolio.cash_range)}%，AI共同因子上限${r.portfolio.ai_factor_cap}%。${escape(r.portfolio.risk_note)}</p>`);
     const actionText=text=>escape(text).replace(/停止加碼|建議進場(?:[（(][^）)]*[）)])?|(?:先|再)?投入(?:最後)?(?:這檔股票預計投入資金的 )?[\d.]+%/g,t=>`<strong class="weekly-action-important">${t}</strong>`);
@@ -150,17 +164,17 @@
       if(boundary) {
         const floor=number(Number(boundary[1]));
         rows.push([
-          `突破後，下一個交易日收盤跌回 ${number(c.prices.breakout)} 以下；或股價回落跌破 ${floor}。`,
+          `收盤突破 ${number(c.prices.breakout)} 後，下一個交易日收盤又跌回 ${number(c.prices.breakout)} 以下；或股價回落跌破 ${floor}。`,
           '取消這次買進。取消突破買訊，或停止原本的支撐布局，重新評估買點。']);
         rows.push([
-          `連續兩天收盤低於 ${floor}，且至少一天成交量達到前20日平均量；或單日跌破且成交量達平均量1.5倍，下一個交易日仍未回到 ${floor} 以上。`,
+          `連續兩天收盤低於 ${floor}，且至少一天成交量達到前20日平均量；或單日收盤跌破 ${floor}，成交量達前20日平均量1.5倍，且下一個交易日仍未回到 ${floor} 以上。`,
           '停止加碼，評估減少為這次進場建立的部位。']);
       } else if(c.code==='2382' && r.update_id==='2026-W41-v3')rows.push([
-        '10/8收盤325.5跌破原328–330支撐區，且成交量高於前20日平均量。',
+        '收盤跌破原328–330支撐區，且成交量高於前20日平均量（10/8收盤325.5，已發生）。',
         '原買點已撤銷。停止加碼，檢查已有部位，等待新的價格與營運條件確認。']);
-      else rows.push([plainCondition(t),'先等待完整資料與條件確認，尚未提供可執行的價格退出訊號。']);
+      else rows.push(['尚未有完整資料可判斷價格失效條件。','先等待完整資料與條件確認，尚未提供可執行的價格退出訊號。']);
       rows.push([plainCondition(c.thesis_failure),'重新評估中長期持有。公司營運變化可能使原投資理由失效，停止加碼，並評估減碼或退出。']);
-      return `<div class="weekly-tranche-wrap"><table class="weekly-risk-table"><thead><tr><th>發生什麼情況</th><th>建議怎麼做</th></tr></thead><tbody>${rows.map(row=>`<tr><td>${escape(row[0])}</td><td>${actionText(row[1])}</td></tr>`).join('')}</tbody></table></div>`;
+      return `<div class="weekly-tranche-wrap"><table class="weekly-risk-table"><thead><tr><th>發生什麼情況</th><th>建議怎麼做</th></tr></thead><tbody>${rows.map(row=>`<tr><td>若${escape(row[0])}</td><td>${actionText(row[1])}</td></tr>`).join('')}</tbody></table></div>`;
     };
     const buildingSummary=c=> {
       const parts=c.building_plan.tranches.map(t=>`${number(t.target_pct)}%`);
@@ -221,7 +235,7 @@
     const currentAllocation=card('目前研究示範配置（與回測同一帳本）', b ? `<p><b>${holdings.length ? '只計已確認並成交的部位' : '尚無成立且成交的建倉：100%現金'}</b></p><p>${b.equity>0 && b.status!=='valuation_pending' ? `現金 ${number(b.cash/b.equity*100)}%` : '權重待有效行情確認'}${holdings.map(h=>` · ${stockLink(h.code)} ${b.equity>0 && h.market_value!=null && b.status!=='valuation_pending'?number(h.market_value/b.equity*100)+'%':'待估值'}`).join('')}</p><p>示範配置與回測共用同一帳本：條件成立後確認訊號，下一交易日符合成交條件才投入對應批次；條件成立後以小數股投入對應批次；未觸發、失效或行情未確認的批次等待後續確認。不是先照目標權重持倉。</p>` : '<p>帳本無法讀取，暫不推定目前配置。</p>');
     const backtest=card('回測：10000元跟隨AI建倉與出場', b ? `<p><b>開始日期 ${escape(b.start_date)} · ${b.status==='scheduled'?'尚未開始':b.status==='valuation_pending'?'行情／公司行動待確認':'前瞻模擬中'}</b></p><p>依每週當時已發布的建倉、減碼與分批出場計畫延續同一帳戶，不每週重新投入。</p><p><b>小數股研究模擬：</b>每批條件成立後，依配置金額模擬買入小數股，讓萬元帳戶也能跟隨高價股的分批建議。這是計算建議收益的模擬股數；建倉與出場條件和示範配置相同。</p><div class="weekly-grid">${card('目前模擬資產', `<strong>${number(b.equity)} 元</strong><p>起始 ${number(b.initial_capital)} 元；現金 ${number(b.cash)} 元</p>`)}${card('目前回測報酬', `<strong>${b.total_return_pct==null?'未開始／尚不能估值':number(b.total_return_pct)+'%'}</strong><p>已實現 ${number(b.realized_pnl)} 元；未實現 ${number(b.unrealized_pnl)} 元</p>`)}${card('經過多久', `<strong>${b.elapsed_days==null?'下週一開始':number(b.elapsed_days)+' 日曆日'}</strong><p>估值日期 ${escape(b.last_asOf)}；成交 ${b.trades.length} 筆</p>`)}</div><details class="weekly-overview-fold"><summary>條件式研究示範配置與建倉依據</summary><p>操作建議、目標配置與回測共用每週封存的權重及建倉／出場條件。配置是條件成立後的目標，不是實際持倉；回測只在訊號確認、資金及成交條件允許時執行。未觸發部分保留現金，小數股精度及費稅也會造成權重的小幅差異。</p>${currentAllocation}<details><summary>各股條件成立後的目標配置</summary>${portfolio}</details><p>每批比例以該股目標部位計算；出場按已發布出場計畫執行，不因目標配置不同便自動交易。</p></details><h4>目前持倉</h4>${holdings.length?`<div class="weekly-table-wrap"><table class="weekly-table"><thead><tr><th>股票</th><th>股數</th><th>建倉日期</th><th>持有天數</th><th>含買進費用成本</th><th>市值</th><th>未實現損益</th></tr></thead><tbody>${holdings.map(h=>`<tr><td><a href="./?company=${encodeURIComponent(h.code)}#detail" data-weekly-company="${escape(h.code)}">${escape(h.name)}</a></td><td>${quantity(h.shares)}</td><td>${escape(h.first_entry_date)}</td><td>${number(h.holding_days)}</td><td>${number(h.cost)}</td><td>${number(h.market_value)}</td><td>${number(h.unrealized_pnl)}</td></tr>`).join('')}</tbody></table></div>`:'<p>尚無持股。未開始或沒有完整買訊時保留現金。</p>'}<h4>逐筆建倉／分批出場紀錄</h4>${b.trades.length?`<div class="weekly-table-wrap"><table class="weekly-table"><thead><tr>${['訊號確認日','成交日','股票','買入／賣出','週報依據','第幾批與比例','股數','成交價','投入／收回金額','手續費／交易稅','持有多久','已實現損益','成交後現金','建倉／出場原因'].map(t=>`<th>${t}</th>`).join('')}</tr></thead><tbody>${b.trades.map(t=>`<tr><td>${escape(t.signal_date)}</td><td>${escape(t.date)}</td><td><a href="./?company=${encodeURIComponent(t.code)}#detail" data-weekly-company="${escape(t.code)}">${escape(t.name)}</a></td><td>${t.side==='buy'?'建倉':'出場'}</td><td>${escape(t.report_update_id)}</td><td>第${t.tranche_index+1}批／${number(t.tranche_pct)}%</td><td>${quantity(t.shares)}</td><td>${number(t.price)}</td><td>${number(t.gross_amount)}</td><td>${number(t.fee)}／${number(t.tax)}</td><td>${number(t.holding_days)}日</td><td>${number(t.realized_pnl)}</td><td>${number(t.cash_after)}</td><td class="weekly-wide">${escape(t.condition)}</td></tr>`).join('')}</tbody></table></div>`:'<p>尚無成交紀錄；不以事後價格回填之前未確認的建倉或出場。</p>'}<h4>每日資產與報酬歷程</h4>${b.daily_snapshots.length?list(b.daily_snapshots.slice().reverse().map(d=>`${d.date}：第${d.elapsed_days}日，資產${number(d.equity)}元、現金${number(d.cash)}元、報酬${number(d.total_return_pct)}%。`)):'<p>下週開始累積；目前不宣稱已有回測獲利。</p>'}<details><summary>沒有成交的原因與回測方法</summary>${list((b.pending_signals||[]).map(x=>`${x.signal_date} ${x.code}：${x.reason}`))}${list(b.events.map(x=>`${x.date} ${x.code}：${x.reason}`))}${list(b.rules)}<p>估計全數出場後資產 ${number(b.estimated_liquidation_equity)} 元；這是扣除預估費用的情境，未實際出場不計已實現。</p>${(b.sources||[]).map(x=>`<p><a href="${safeUrl(x.url)}" target="_blank" rel="noopener">${escape(x.title)}</a>：期間${escape(x.data_period)}，發布${escape(x.published_at)}（${escape(x.published_at_reason)}），查閱${escape(x.accessed_at)}。</p>`).join('')}</details>` : '<p>回測帳本暫時無法讀取，請稍後重新開啟；不以缺資料顯示0%報酬。</p>');
     const tabs=`<nav class="weekly-stock-tabs" role="tablist" aria-label="AI研究內容"><button id="weekly-tab-overview" role="tab" data-weekly-tab="overview" aria-controls="weekly-overview" aria-selected="true">總覽</button><button id="weekly-tab-industries" role="tab" data-weekly-tab="industries" aria-controls="weekly-industries" aria-selected="false" tabindex="-1">本週產業 Top5</button><button id="weekly-tab-backtest" role="tab" data-weekly-tab="backtest" aria-controls="weekly-backtest" aria-selected="false" tabindex="-1">回測</button></nav>`;
-    return linkMentionedStocks(`<div class="weekly-report">${tabs}<section id="weekly-overview" data-weekly-panel="overview" role="tabpanel" aria-labelledby="weekly-tab-overview">${conclusion}${alerts}${choice}${turnaround}<details class="weekly-overview-fold"><summary>錯價候選與不追高原因</summary>${candidates}</details><details class="weekly-overview-fold"><summary>研究方法、版本與資料限制</summary>${methodology}</details><details class="weekly-overview-fold"><summary>全市場研究篩選：查看研究流程</summary>${screening}</details></section><section id="weekly-industries" data-weekly-panel="industries" role="tabpanel" aria-labelledby="weekly-tab-industries" hidden>${sectors}</section><section id="weekly-backtest" data-weekly-panel="backtest" role="tabpanel" aria-labelledby="weekly-tab-backtest" hidden>${backtest}</section>${details}<dialog class="weekly-analysis-dialog" aria-labelledby="weekly-analysis-title"><header class="weekly-analysis-heading"><h2 id="weekly-analysis-title"></h2><button type="button" data-weekly-close-analysis>✕ 返回總覽</button></header><div class="weekly-analysis-body"></div></dialog><p class="tiny">研究示範不保證報酬；此頁不代客交易。最新收盤後價格與訊號須重新確認。</p></div>`,r.companies.concat(r.screening?.value_trap_examples || []));
+    return linkTradingTerms(linkMentionedStocks(`<div class="weekly-report">${tabs}<section id="weekly-overview" data-weekly-panel="overview" role="tabpanel" aria-labelledby="weekly-tab-overview">${conclusion}${alerts}${choice}${turnaround}<details class="weekly-overview-fold"><summary>錯價候選與不追高原因</summary>${candidates}</details><details class="weekly-overview-fold"><summary>研究方法、版本與資料限制</summary>${methodology}</details><details class="weekly-overview-fold"><summary>全市場研究篩選：查看研究流程</summary>${screening}</details></section><section id="weekly-industries" data-weekly-panel="industries" role="tabpanel" aria-labelledby="weekly-tab-industries" hidden>${sectors}</section><section id="weekly-backtest" data-weekly-panel="backtest" role="tabpanel" aria-labelledby="weekly-tab-backtest" hidden>${backtest}</section>${details}<dialog class="weekly-analysis-dialog" aria-labelledby="weekly-analysis-title"><header class="weekly-analysis-heading"><h2 id="weekly-analysis-title"></h2><button type="button" data-weekly-close-analysis>✕ 返回總覽</button></header><div class="weekly-analysis-body"></div></dialog><p class="tiny">研究示範不保證報酬；此頁不代客交易。最新收盤後價格與訊號須重新確認。</p></div>`,r.companies.concat(r.screening?.value_trap_examples || [])));
   }
   // Link to the existing company section, including direct entry from the standalone report.
   let returnContext={tab:'industries',scroll:0};
@@ -232,6 +246,18 @@
     const back=document.getElementById('weeklyReturnReport');
     if(back) back.hidden=false;
   }
+  function openTradingTerm(term) {
+    if(!['left','right'].includes(term) || typeof setTab!=='function' || !document.getElementById('terms'))return false;
+    const report=document.getElementById('weeklyInvestmentDialog');
+    if(report?.open){rememberReportPosition();returnContext.marketTab=typeof state!=='undefined'?state.tab:'all';returnContext.marketScroll=window.scrollY;returnContext.restoreMarket=true;}
+    document.querySelector('.weekly-analysis-dialog[open]')?.close();
+    report?.close();
+    setTab('terms');
+    const target=document.getElementById('term-'+term);target?.scrollIntoView({block:'start'});target?.focus({preventScroll:true});
+    return true;
+  }
+  const linkedTerm=typeof window==='undefined'?null:new URL(window.location.href).searchParams.get('term');
+  if(linkedTerm)openTradingTerm(linkedTerm);
   function openExistingSearch(term) {
     if(typeof state==='undefined' || typeof setTab!=='function' || !state.stocks.length || !term || term.length>80) return false;
     rememberReportPosition();
@@ -300,6 +326,8 @@
     }
     root.addEventListener('close',e=>{if(e.target.matches('.weekly-analysis-dialog')){delete root.dataset.analysisCode;analysisOpener?.focus({preventScroll:true});}},true);
     root.addEventListener('click',e=>{
+      const term=e.target.closest('[data-weekly-term]');
+      if(term && openTradingTerm(term.dataset.weeklyTerm))e.preventDefault();
       const opener=e.target.closest('[data-weekly-analysis]');
       if(opener) openAnalysis(opener.dataset.weeklyAnalysis);
       if(e.target.closest('[data-weekly-close-analysis]')) root.querySelector('.weekly-analysis-dialog')?.close();
@@ -349,6 +377,7 @@
   const root=document.getElementById('weeklyInvestmentContent');
   const backButton=document.getElementById('weeklyReturnReport');
   if(backButton && dialog && root) backButton.addEventListener('click',async()=>{
+    if(returnContext.restoreMarket && typeof setTab==='function'){setTab(returnContext.marketTab||'all');window.scrollTo({top:returnContext.marketScroll||0,behavior:'instant'});}
     dialog.showModal();
     if(!loadedReports.has(root)) await loadReport(root);
     root.querySelector(`[data-weekly-tab="${returnContext.tab}"]`)?.click();
@@ -364,5 +393,5 @@
   const standalone=document.getElementById('weeklyStandalone');
   if(standalone) loadReport(standalone);
   // Public pure helpers for focused validation without requiring the main market application.
-  if(typeof module!=='undefined' && module.exports) module.exports={escape,range,freshness,render,linkMentionedStocks};
+  if(typeof module!=='undefined' && module.exports) module.exports={escape,range,freshness,render,linkMentionedStocks,linkTradingTerms};
 })();

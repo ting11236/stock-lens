@@ -127,3 +127,9 @@
 .weekly-risk-table th{background:#eee8ff;color:#4c298a;font-weight:700}
 .weekly-risk-table th:first-child{width:60%}.weekly-risk-table th:last-child{width:40%}
 @media(max-width:480px){.weekly-risk-table{font-size:.82rem}.weekly-risk-table th,.weekly-risk-table td{padding:8px 5px}}
+
+.weekly-entry-link{display:inline;margin:0;padding:0;border:0;border-radius:0;background:transparent;color:#6d28d9;font:inherit;font-weight:700;text-decoration:underline;cursor:pointer}
+.weekly-entry-link:hover{color:#4c1d95;background:transparent}.weekly-entry-link:focus-visible{outline:2px solid #6d28d9;outline-offset:3px}
+
+#terms .surface,#terms .surface p,#terms .surface li{font-size:16px;line-height:1.75}#terms .glossary-card dl{margin:18px 0 0}#terms .glossary-item dt{font-size:18px}#terms .glossary-item summary{font-size:15px;min-height:44px;padding:10px 0}#terms .glossary-item{scroll-margin-top:22px}
+.weekly-term-link{color:#6d28d9;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px}
