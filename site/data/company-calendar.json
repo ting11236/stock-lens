@@ -5986,9 +5986,7 @@
       "summary_reviewed_at": "2026-10-03"
     }
   },
-  "errors": [
-    "2026-09 法說會：URLError"
-  ],
+  "errors": [],
   "events": [
     {
       "cancelled": false,
@@ -37512,8 +37510,9 @@
   "schema_version": 1,
   "sources": [
     {
+      "checked_at": "2026-10-08",
       "name": "2026-09 法說會",
-      "status": "failed",
+      "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
@@ -40409,5 +40408,5 @@
       "time": "173820"
     }
   ],
-  "updated_at": "2026-10-08T20:07:15+08:00"
+  "updated_at": "2026-10-08T20:11:57+08:00"
 }
