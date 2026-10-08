@@ -25,7 +25,7 @@ test('published evidence keeps missing comparable inputs absent and weights feas
 test('decision content precedes analysis and untrusted report text is escaped',()=>{
  const html=render(r);
  assert.ok(html.indexOf('最值得設定')<html.lastIndexOf('本週產業 Top5'));
- assert.ok(html.indexOf('優先等待')<html.lastIndexOf('本週產業 Top5'));
+ assert.ok(html.indexOf('等待買點')<html.lastIndexOf('本週產業 Top5'));
  assert.equal(escape('<img onerror="bad">'),'&lt;img onerror=&quot;bad&quot;&gt;');
  assert.match(range(null),/資料不足/);
 });
@@ -67,7 +67,7 @@ test('overview order, research folding and portfolio placement remain clear',()=
  const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
  const html=render({...r,backtest:b});
  const overview=html.split('id="weekly-overview"')[1].split('id="weekly-industries"')[0];
- const labels=['布局','優先等待','不追高','最值得設定的 3 個價格提醒','只能選一檔的中期研究選擇','轉機股'];
+ const labels=['建議買進','等待買點','不追高','建議減碼','等待觀察','最值得設定的 3 個價格提醒','只能選一檔的中期研究選擇','轉機股'];
  for(let i=1;i<labels.length;i++)assert.ok(overview.indexOf(labels[i-1])<overview.indexOf(labels[i]));
  assert.doesNotMatch(overview,/條件式研究示範配置/);
  assert.match(overview,/<details[^>]*><summary>全市場研究篩選/);
@@ -100,6 +100,4 @@ test("every risk scenario begins with conditional 若",()=>{const html=render(r)
 
 test('trading terms link to matching explanations without nesting source links',()=>{const html=render(r);assert.match(html,/data-weekly-term="right"/);assert.match(html,/data-weekly-term="left"/);assert.match(html,/\?term=right#term-right/);assert.doesNotMatch(html,/<a[^>]*>[^<]*<a/);const index=fs.readFileSync(require('node:path').join(__dirname,'../site/index.html'),'utf8');assert.match(index,/id="terms"[\s\S]*?glossary-card/);assert.match(index,/id="term-left" tabindex="-1"/);assert.match(index,/id="term-right" tabindex="-1"/);});
 
-test('plain overview distinguishes conditional buy prices from risk reduction prices',()=>{const html=render(r);assert.match(html,/AI建議股票操作/);assert.match(html,/買入、觀察、賣出，一眼看懂/);assert.match(html,/第一筆參考價/);assert.match(html,/目前沒有指定賣出價或已確認的出場批次/);assert.match(html,/減碼風險價/);assert.match(html,/按兵不動，先不買進/);});
-
-test("overview combines decision lists into one summary",()=>{const html=render(r);assert.equal((html.match(/class="weekly-quick-summary weekly-decision-list"/g)||[]).length,1);assert.equal((html.match(/<h4>買入／布局<\/h4>/g)||[]).length,1);assert.match(html,/<h4>觀察／優先等待<\/h4>/);assert.doesNotMatch(html,/<h3>優先等待<\/h3>/);});
+test('five exclusive categories keep plans inside stock analysis',()=>{const html=render(r);const summary=html.split('weekly-quick-summary weekly-decision-list')[1].split('</div>')[0];for(const label of ['建議買進','等待買點','不追高','建議減碼','等待觀察'])assert.match(summary,new RegExp('<h4>'+label+'</h4>'));for(const c of r.companies)assert.equal((summary.match(new RegExp('data-weekly-analysis="'+c.code+'"','g'))||[]).length,1);assert.doesNotMatch(summary,/第一筆|25%|30%|減碼風險價|一眼看懂/);assert.match(summary,/目前沒有已確認的買進建議/);assert.match(summary,/目前沒有已確認的減碼建議/);const wait=summary.split('data-weekly-category="等待買點"')[1].split('</section>')[0];assert.match(wait,/3017/);assert.equal((wait.match(/優先關注<\/small>/g)||[]).length,3);});

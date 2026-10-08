@@ -52,19 +52,21 @@
     const stockLink = code => `<a href="./?company=${encodeURIComponent(code)}#detail" data-weekly-company="${escape(code)}">${escape(code)} ${escape(byCode[code]?.name || '')}</a>`;
     const analysisLink = code => `<button type="button" class="weekly-summary-stock" data-weekly-analysis="${escape(code)}" aria-haspopup="dialog">${escape(code)} ${escape(byCode[code]?.name || '')}<span>查看分析 ↗</span></button>`;
     const names = codes => codes.map(analysisLink).join(' ');
-    const planned=r.companies.filter(c=>c.building_plan.tranches.length);
-    const firstPlanPrice=c=>{
-      const text=c.building_plan.tranches[0]?.condition||'';
-      const band=text.match(/(\d+(?:\.\d+)?)[–-](\d+(?:\.\d+)?)/);
-      if(band)return range([Number(band[1]),Number(band[2])]);
-      const point=text.match(/(?:收盤≥|突破)(\d+(?:\.\d+)?)/);
-      return point?number(Number(point[1])):'等待明確價格';
-    };
-    const quickSummary=card('買入、觀察、賣出，一眼看懂',`<div class="weekly-quick-summary weekly-decision-list">
-      <section><h4>買入／布局</h4><p><b>${r.top_layout.length?'已有買訊的股票按批次計畫評估':'目前先不買進，等待進場條件成立。'}</b></p><ul>${planned.map(c=>`<li>${analysisLink(c.code)}<p>第一筆參考價：<b>${firstPlanPrice(c)}</b>。${c.code==='2330'?'股價停止下跌、成交量縮小，且公司營運條件確認後，才投入第一筆25%。':`突破價量及下一個交易日確認，且公司營運條件成立後，才投入第一筆${number(c.building_plan.tranches[0].target_pct)}%。`}</p></li>`).join('')}</ul></section>
-      <section><h4>觀察／優先等待</h4><p>${names(r.top_wait)}</p><p>${analysisLink('2382')} 收盤回到 <b>330</b> 以上並在下一個交易日守住後，重新評估買點。目前先不買進。</p><h5>不追高</h5><p>${names(r.top_no_chase)}</p><p>先等待價格與進場條件改善；已有持股可點「查看分析」，確認續抱或調整部位的條件。</p></section>
-      <section><h4>賣出／減碼</h4><p><b>目前沒有指定賣出價或已確認的出場批次。</b></p><ul>${planned.map(c=>{const floor=c.position_management.match(/連2日收盤低於([\d.]+)/);return floor?`<li>${analysisLink(c.code)}<p>減碼風險價：<b>${number(Number(floor[1]))}</b>。有效跌破時，停止加碼並評估減少部位；完整跌破條件見個股風險表格。</p></li>`:'';}).join('')}</ul></section>
-    </div>`);
+    const assigned=new Set();
+    const take=codes=>[...new Set(codes)].filter(code=>byCode[code]&&!assigned.has(code)).map(code=>{assigned.add(code);return code;});
+    const reduce=take(r.top_reduce||[]);
+    const buy=take(r.top_layout||[]);
+    const noChase=take(r.top_no_chase||[]);
+    const wait=take([...(r.top_wait||[]),...r.companies.filter(c=>c.building_plan.tranches.length&&!/Watchlist|Avoid/.test(c.position.role)).map(c=>c.code)]);
+    const observe=take(r.companies.map(c=>c.code));
+    const category=(title,codes,description,empty)=>`<section data-weekly-category="${title}"><h4>${title}</h4><p>${description}</p>${codes.length?`<ul>${codes.map(code=>`<li>${analysisLink(code)}${title==='等待買點'&&(r.top_wait||[]).includes(code)?'<small class="weekly-priority-label">優先關注</small>':''}</li>`).join('')}</ul>`:`<p><b>${empty}</b></p>`}</section>`;
+    const quickSummary=`<div class="weekly-quick-summary weekly-decision-list">
+      ${category('建議買進',buy,'進場條件已成立，可依股票分析中的計畫分批買進。','目前沒有已確認的買進建議。')}
+      ${category('等待買點',wait,'已有買進計畫，等價格、成交量與公司營運條件成立後再買。標示「優先關注」的是本週優先等待名單。','目前沒有等待買點的股票。')}
+      ${category('不追高',noChase,'公司值得關注，但目前價格或股價位置不適合追買，先等買點改善。','目前沒有不追高名單。')}
+      ${category('建議減碼',reduce,'已明確建議減少持股；點開分析查看出場條件與分批比例。','目前沒有已確認的減碼建議。')}
+      ${category('等待觀察',observe,'仍需確認營運、需求或估值，尚未形成買進建議。','目前沒有等待觀察的股票。')}
+    </div>`;
     const reportPriceDate=r.companies.reduce((date,c)=>/^\d{4}-\d{2}-\d{2}$/.test(c.priceAsOf||'') && c.priceAsOf>date?c.priceAsOf:date,r.priceAsOf||'');
     const conclusion = `<div class="weekly-kicker">${escape(r.week_id)} · 週報 v${r.version} · 研究判斷</div><h2 class="weekly-headline">AI建議股票操作</h2><p class="weekly-freshness" role="status" data-weekly-price-as-of="${escape(reportPriceDate)}">${escape(freshness({priceAsOf:reportPriceDate}))}</p>${quickSummary}`;
     const turnaround = card('轉機股', `<p>轉機股是原本成長較慢或表現平淡，最近營收與獲利開始改善、值得繼續觀察的公司。這三檔上半年營運數字變好，但最近一段時間股價反應較小，因此列入後續研究。</p><strong>${names(r.top_research || [])}</strong>${r.update_id==='2026-W41-v3'?`<ul><li>亞德客-KY：2026上半年營收比去年同期增加約30%，每股盈餘增加約51%。接下來觀察客戶訂單與獲利改善能否持續。</li><li>鮮活果汁-KY：2026上半年營收比去年同期增加約47%，每股盈餘增加約107%。接下來確認需求與毛利率是否能維持。</li><li>南帝：2026上半年營收比去年同期增加約23%，每股盈餘增加約288%。接下來確認產品報價、需求與本業獲利，也會檢查高成長是否主要來自去年獲利較低。</li></ul>`:list((r.top_research||[]).map(code=>byCode[code]?.fundamental_inflection||'待確認營運改善的持續性'))}<p>目前是值得深入了解的觀察名單。完成未來需求、合理價格與進場條件的確認後，才會評估是否適合建倉；點「查看分析」可看每家公司還需要確認的事項。</p>`);
