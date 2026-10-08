@@ -59,7 +59,15 @@
     const noChase=take(r.top_no_chase||[]);
     const wait=take([...(r.top_wait||[]),...r.companies.filter(c=>c.building_plan.tranches.length&&!/Watchlist|Avoid/.test(c.position.role)).map(c=>c.code)]);
     const observe=take(r.companies.map(c=>c.code));
-    const category=(title,codes,description,empty)=>`<section data-weekly-category="${title}"><h4>${title}</h4><p>${description}</p>${codes.length?`<ul>${codes.map(code=>`<li>${analysisLink(code)}${title==='等待買點'&&(r.top_wait||[]).includes(code)?'<small class="weekly-priority-label">優先關注</small>':''}</li>`).join('')}</ul>`:`<p><b>${empty}</b></p>`}</section>`;
+    const entryReference=code=>{
+      const c=byCode[code],text=c.building_plan.tranches[0]?.condition||'';
+      const band=text.match(/(\d+(?:\.\d+)?)[–-](\d+(?:\.\d+)?)/);
+      const point=text.match(/(?:收盤≥|突破)(\d+(?:\.\d+)?)/);
+      if(band)return `<p>回檔參考價 <span class="weekly-reference-red">${range([Number(band[1]),Number(band[2])])}</span>，且<span class="weekly-reference-red">條件成立後買進</span>第一筆。</p>`;
+      if(point)return `<p>突破參考價 <span class="weekly-reference-red">${number(Number(point[1]))}</span>，且<span class="weekly-reference-red">條件成立後買進</span>第一筆。</p>`;
+      return '<p>等待確認有效買點。</p>';
+    };
+    const category=(title,codes,description,empty)=>`<section data-weekly-category="${title}"><h4>${title}</h4><p>${description}</p>${codes.length?`<ul>${codes.map(code=>`<li>${analysisLink(code)}${title==='等待買點'&&(r.top_wait||[]).includes(code)?'<small class="weekly-priority-label">優先關注</small>':''}${title==='等待買點'?entryReference(code):''}</li>`).join('')}</ul>`:`<p><b>${empty}</b></p>`}</section>`;
     const quickSummary=`<div class="weekly-quick-summary weekly-decision-list">
       ${category('建議買進',buy,'進場條件已成立，可依股票分析中的計畫分批買進。','目前沒有已確認的買進建議。')}
       ${category('等待買點',wait,'已有買進計畫，等價格、成交量與公司營運條件成立後再買。標示「優先關注」的是本週優先等待名單。','目前沒有等待買點的股票。')}
