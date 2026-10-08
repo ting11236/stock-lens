@@ -1649,7 +1649,7 @@
         "kind": "法說會",
         "location": "線上說明會",
         "name": "英業達",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
         "symbol": "2356.TW",
         "time": "15:00"
       },
@@ -5898,9 +5898,7 @@
       "summary_reviewed_at": "2026-10-03"
     }
   },
-  "errors": [
-    "2026-10 法說會：URLError"
-  ],
+  "errors": [],
   "events": [
     {
       "cancelled": false,
@@ -20874,7 +20872,7 @@
       "kind": "法說會",
       "location": "線上說明會",
       "name": "英業達",
-      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
       "symbol": "2356.TW",
       "time": "15:00"
     },
@@ -21786,7 +21784,7 @@
       "kind": "法說會",
       "location": "線上說明會",
       "name": "英業達",
-      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
       "symbol": "2356.TW",
       "time": "15:00"
     },
@@ -22590,7 +22588,7 @@
       "kind": "法說會",
       "location": "電話會議",
       "name": "鴻海",
-      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
       "symbol": "2317.TW",
       "time": "09:00"
     },
@@ -26086,7 +26084,7 @@
       "kind": "法說會",
       "location": "線上說明會",
       "name": "英業達",
-      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
       "symbol": "2356.TW",
       "time": "15:00"
     },
@@ -37310,8 +37308,9 @@
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
+      "checked_at": "2026-10-08",
       "name": "2026-10 法說會",
-      "status": "failed",
+      "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
@@ -40201,5 +40200,5 @@
       "time": "173820"
     }
   ],
-  "updated_at": "2026-10-08T14:03:47+08:00"
+  "updated_at": "2026-10-08T14:15:32+08:00"
 }
