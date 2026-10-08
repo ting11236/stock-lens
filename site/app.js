@@ -221,6 +221,7 @@ function researchSearchEntries(profile){
  if(searchCache.has(profile))return searchCache.get(profile);
  const o=profile.overview,entries=[];
  const add=(label,text)=>{if(text)entries.push({label,text:String(text),normalized:normalizeSearch(text)})};
+ if(Array.isArray(profile.search_entries)){for(const e of profile.search_entries)add(e.label,e.text);searchCache.set(profile,entries);return entries;}
  if(o){add('公司業務',o.business);add('發展方向',o.direction);add('獲利來源',o.profit_mechanism);for(const x of o.outlooks||[])add('未來財務與發展方向',[x.type,x.scope,x.limitations].filter(Boolean).join('；'));for(const x of o.events||[])add('事件與進度',[x.type,x.status,x.text].filter(Boolean).join('；'))}
  for(const [key,label] of RESEARCH_SECTIONS)add('官方摘要・'+label,profile[key]?.text);
  searchCache.set(profile,entries);return entries;
@@ -408,26 +409,27 @@ async function fetchDataset(path){
  }
  return fetch(path,{cache:'no-cache'});
 }
-async function fetchResearchDataset(){
- try{
-  const response=await fetch('./data/research-manifest.json',{cache:'no-cache'});
-  if(!response.ok)throw Error('研究清單暫時無法取得');
-  const manifest=await response.json();
-  if(manifest.schema_version!==1||!Array.isArray(manifest.chunks)||!manifest.chunks.length||manifest.chunks.some(p=>!/^research-chunks\/[0-9a-f]{64}\.json$/.test(p)))throw Error('研究清單格式錯誤');
-  const profiles={};
-  for(let i=0;i<manifest.chunks.length;i+=4){
-   const batch=await Promise.all(manifest.chunks.slice(i,i+4).map(async path=>{
-    const url='./data/'+path;
-    if(typeof DecompressionStream==='function'){
-     try{const r=await fetch(url+'.gz',{cache:'force-cache'});if(r.ok&&r.body)return await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).json();}catch{}
-    }
-    const r=await fetch(url,{cache:'force-cache'});if(!r.ok)throw Error('公司資料取得失敗');return r.json();
-   }));
-   for(const group of batch)Object.assign(profiles,group);
-  }
-  return {ok:true,status:200,json:async()=>({...manifest.metadata,profiles})};
- }catch{return fetchDataset('./data/company-research.json');}
+const companyRequests=new Map();
+async function fetchCompanyFile(path){
+ if(typeof DecompressionStream==='function'){
+  try{const r=await fetch('./data/'+path+'.gz',{cache:'force-cache'});if(r.ok&&r.body)return await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).json();}catch{}
+ }
+ const r=await fetch('./data/'+path,{cache:'force-cache'});if(!r.ok)throw Error('公司資料暫時無法載入');return r.json();
 }
+async function ensureCompanyResearch(symbol){
+ const stub=research.profiles[symbol];if(!stub?._detail_path)return stub;
+ const path=stub._detail_path;if(!/^research-companies\/[0-9a-f]{64}\.json$/.test(path))throw Error('公司資料位置錯誤');
+ const requestKey=symbol+':'+path;
+ if(companyRequests.has(requestKey))return companyRequests.get(requestKey);
+ const task=(async()=>{
+  const full=await fetchCompanyFile(path);
+  validateResearch({schema_version:1,profiles:{[symbol]:full}});
+  if(research.profiles[symbol]?._detail_path===path)research.profiles[symbol]=full;
+  return full;
+ })();companyRequests.set(requestKey,task);
+ try{return await task;}finally{companyRequests.delete(requestKey);}
+}
+async function fetchResearchDataset(){return fetchDataset('./data/research-index.json');}
 async function fetchResearch(){
  research.loading=true;
  try{const res=await fetchResearchDataset();if(!res.ok)throw Error('HTTP '+res.status);const profiles=validateResearch(await res.json());research.profiles=profiles;research.error=false}
@@ -608,12 +610,15 @@ function openCompanyFinancial(stock){
  $('companyFinancialBody').scrollTop=0;$('companyFinancialDialog').showModal();wireMetricHelp();
 }
 function changeResearchPage(value,absolute=false){const index=absolute?value:researchView.index+value;if(index<0||index>=researchView.pages.length)return;researchView.index=index;renderResearchPage();}
-function openCompanyResearch(symbol,index,opener){
+async function openCompanyResearch(symbol,index,opener){
  const stock=state.stocks.map(materialize).find(s=>s.symbol===symbol);if(!stock)return;
  researchView={symbol,index,pages:companyPages(stock),opener};renderResearchPage();if(!$('researchDialog').open)$('researchDialog').showModal();
+ if(research.profiles[symbol]?._detail_path)$('researchPageBody').innerHTML='<p role="status">正在載入 '+esc(stock.name)+' 的公司資料…</p>';
+ try{await ensureCompanyResearch(symbol);if(researchView.symbol!==symbol||!$('researchDialog').open)return;const latest=state.stocks.map(materialize).find(s=>s.symbol===symbol);researchView.pages=companyPages(latest);renderResearchPage();}
+ catch{if(researchView.symbol===symbol)$('researchPageBody').innerHTML='<p role="alert">公司資料暫時無法載入，請關閉視窗後再試一次。</p>';}
 }
 function wireResearchButtons(){document.querySelectorAll('[data-research-page]').forEach(b=>b.onclick=()=>openCompanyResearch(b.dataset.researchSymbol,Number(b.dataset.researchPage),b));}
-function selectCompany(symbol){state.selected=symbol;render();$('detail')?.scrollIntoView({behavior:'smooth',block:'start'});}
+async function selectCompany(symbol){state.selected=symbol;render();$('detail')?.scrollIntoView({behavior:'smooth',block:'start'});try{await ensureCompanyResearch(symbol);if(state.selected===symbol)renderDetail();}catch{if(state.selected===symbol)showNotice('公司資料暫時無法載入，請再點一次公司名稱。');}}
 let movers={payload:null,error:false,period:'5',view:'gainers'};
 function moverSummary(rows){const counts=new Map();for(const r of rows)counts.set(r.industry,(counts.get(r.industry)||0)+1);const sorted=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));return rows.length?'共 '+rows.length+' 家符合條件，其中'+sorted.slice(0,3).map(([name,n])=>'<span class="content-keyword">'+esc(name)+' '+n+' 家</span>').join('、')+'。'+(sorted[0]?.[1]===1?'分布較分散。':'這是榜單的產業分布。'):'這段期間沒有符合條件的股票。';}
 function renderMovers(){

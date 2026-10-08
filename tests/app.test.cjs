@@ -66,3 +66,15 @@ test('table PE help uses the clicked company instead of another selected company
 test('row industry shows all industry companies with clicked stock first',()=>{const a=load();a.run("state.stocks=[{symbol:'1101.TW',name:'台泥',category:'週期股',industry:'水泥工業',pb:1},{symbol:'1102.TW',name:'亞泥',category:'週期股',industry:'水泥工業',pb:0.8},{symbol:'2330.TW',name:'台積電',category:'週期股',industry:'半導體業',eps:1}];state.tab='watchlist';state.watchlist=['1102.TW'];state.search='亞泥';state.priceMin=999;selectStockIndustry('1102.TW')");assert.equal(a.run('state.tab'),'all');assert.equal(a.run('state.filter'),'全部');assert.equal(a.run('state.industryFilter'),'水泥工業');assert.equal(a.run('state.search'),'');assert.equal(a.run('state.priceMin'),null);assert.deepEqual(Array.from(a.run('visibleStocks().map(s=>s.symbol)')),['1102.TW','1101.TW']);assert.match(a.elements.get('stockRows').innerHTML,/data-stock-industry="1102.TW"/)});
 
 test('partial company notes keep company date unset and stay outside completed research',()=>{const a=load();const p=JSON.parse(fs.readFileSync(path.join(__dirname,'../research/companies.json'),'utf8'))['1326.TW'];assert.equal(p.research_completion,'partial');assert.equal(p.reviewed_at,null);assert.match(p.business.reviewed_at,/^\d{4}-\d{2}-\d{2}$/);assert.match(p.developments.reviewed_at,/^\d{4}-\d{2}-\d{2}$/);assert.ok(p.developments.reviewed_at>=p.business.reviewed_at);p.status='overview';a.context.profileData={schema_version:1,profiles:{'1326.TW':p}};a.run('research.profiles=validateResearch(profileData);state.stocks=[{symbol:"1326.TW"}];state.researchFilter="researched"');assert.equal(a.run('visibleStocks().length'),0)});
+
+test('company details download only when requested and repeated requests share one download',async()=>{
+ const a=load();a.run("research.profiles={'1101.TW':{status:'overview',sources:{},limitations:[],_detail_path:'research-companies/'+ 'a'.repeat(64)+'.json'}};globalThis.calls=0;fetchCompanyFile=async()=>{calls++;await Promise.resolve();return {name:'台泥',status:'overview',sources:{},limitations:[],business:{text:'水泥業務'}}}");
+ assert.equal(a.run('calls'),0);
+ await a.run("Promise.all([ensureCompanyResearch('1101.TW'),ensureCompanyResearch('1101.TW')])");
+ assert.equal(a.run('calls'),1);assert.equal(a.run("research.profiles['1101.TW'].business.text"),'水泥業務');
+ await a.run("ensureCompanyResearch('1101.TW')");assert.equal(a.run('calls'),1);
+});
+test('compact search index finds development keywords before company details are downloaded',()=>{
+ const a=load();a.run("research.profiles={'1101.TW':{status:'overview',sources:{},limitations:[],search_entries:[{label:'發展方向',text:'正在發展矽光子'}]}}");
+ assert.equal(a.run("stockSearchScore({symbol:'1101.TW',name:'甲',industry:'水泥'},'矽光子')"),1);
+});
