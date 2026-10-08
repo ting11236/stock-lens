@@ -120,4 +120,10 @@
 @media(max-width:480px){.weekly-tranche-table{font-size:.82rem}.weekly-tranche-table th,.weekly-tranche-table td{padding:8px 5px}}
 
 .weekly-tranche-share{color:#17202e;font-weight:700}
-.weekly-observe-price,.weekly-observe-signal{text-decoration:underline;text-decoration-color:#946cc7;text-underline-offset:4px;text-decoration-thickness:1px}
+.weekly-observe-price,.weekly-observe-signal{text-decoration:none}
+
+.weekly-risk-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:.9rem;line-height:1.65}
+.weekly-risk-table th,.weekly-risk-table td{padding:10px 8px;border:1px solid #ddd5ef;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left}
+.weekly-risk-table th{background:#eee8ff;color:#4c298a;font-weight:700}
+.weekly-risk-table th:first-child{width:60%}.weekly-risk-table th:last-child{width:40%}
+@media(max-width:480px){.weekly-risk-table{font-size:.82rem}.weekly-risk-table th,.weekly-risk-table td{padding:8px 5px}}
