@@ -148,3 +148,5 @@
 .weekly-quick-summary .weekly-priority-label{margin:0}
 .weekly-quick-summary li p{margin:6px 0 0;font-size:13px;line-height:1.6}
 @media(max-width:600px){.weekly-quick-summary ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.weekly-quick-summary>section{padding:12px}.weekly-quick-summary li{padding:8px}.weekly-quick-summary .weekly-summary-stock{font-size:13px}}
+
+#weeklyInvestmentOpen.weekly-launch,#weeklyInvestmentOpen.weekly-launch>span,#weeklyInvestmentDialog .weekly-modal-heading h2{text-align:left}
