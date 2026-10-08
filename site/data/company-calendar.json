@@ -757,7 +757,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1598.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-13",
+        "description": "本公司受邀參加115年10月13日至114年10月14日由寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
+        "end_date": "2026-10-13",
+        "kind": "法說會",
+        "location": "香港Mandarin Oriental Hotel",
+        "name": "岱宇",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "1598.TW",
+        "time": "09:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1894,15 +1905,15 @@
     "2412.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-11-04",
-        "description": "115年第3季營運成果資料於法人說明會當日14:30後至https://www.cht.com.tw/chtir下載",
-        "end_date": "2026-11-04",
+        "date": "2026-10-13",
+        "description": "會議由國票證券主辦",
+        "end_date": "2026-10-13",
         "kind": "法說會",
-        "location": "電話會議",
+        "location": "國票證券(台北市松山區南京東路五段188號15樓)",
         "name": "中華電",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
         "symbol": "2412.TW",
-        "time": "15:00"
+        "time": "12:30"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -2687,7 +2698,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2881.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-12",
+        "description": "討論富邦金控財務及業務相關資訊",
+        "end_date": "2026-10-16",
+        "kind": "法說會",
+        "location": "歐洲",
+        "name": "富邦金",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "2881.TW",
+        "time": "16:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -26098,6 +26120,18 @@
     {
       "cancelled": false,
       "date": "2026-10-12",
+      "description": "討論富邦金控財務及業務相關資訊",
+      "end_date": "2026-10-16",
+      "kind": "法說會",
+      "location": "歐洲",
+      "name": "富邦金",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "2881.TW",
+      "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-12",
       "description": "本公司受邀參加凱基證券主辦之線上法說會，說明本公司之營運概況、財務及業務相關資訊。",
       "end_date": "2026-10-12",
       "kind": "法說會",
@@ -26118,6 +26152,18 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "1101.TW",
       "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加115年10月13日至114年10月14日由寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "香港Mandarin Oriental Hotel",
+      "name": "岱宇",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "1598.TW",
+      "time": "09:00"
     },
     {
       "cancelled": false,
@@ -26154,6 +26200,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
       "symbol": "2356.TW",
       "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "會議由國票證券主辦",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "國票證券(台北市松山區南京東路五段188號15樓)",
+      "name": "中華電",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "2412.TW",
+      "time": "12:30"
     },
     {
       "cancelled": false,
@@ -40327,5 +40385,5 @@
       "time": "173820"
     }
   ],
-  "updated_at": "2026-10-08T17:28:20+08:00"
+  "updated_at": "2026-10-08T18:57:20+08:00"
 }
