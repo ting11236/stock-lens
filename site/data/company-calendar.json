@@ -3973,7 +3973,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4934.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-10-12",
+        "description": "盛新材料(6930)-受邀參加第一金證券舉辦之興櫃前法人說明會 說明公司營運概況及未來展望。",
+        "end_date": "2026-10-12",
+        "kind": "法說會",
+        "location": "台北君悅酒店3樓凱悅二廳(台北市信義區松壽路2號)",
+        "name": "太極",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "symbol": "4934.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -26132,6 +26143,18 @@
     {
       "cancelled": false,
       "date": "2026-10-12",
+      "description": "盛新材料(6930)-受邀參加第一金證券舉辦之興櫃前法人說明會 說明公司營運概況及未來展望。",
+      "end_date": "2026-10-12",
+      "kind": "法說會",
+      "location": "台北君悅酒店3樓凱悅二廳(台北市信義區松壽路2號)",
+      "name": "太極",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "symbol": "4934.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-12",
       "description": "本公司受邀參加凱基證券主辦之線上法說會，說明本公司之營運概況、財務及業務相關資訊。",
       "end_date": "2026-10-12",
       "kind": "法說會",
@@ -40385,5 +40408,5 @@
       "time": "173820"
     }
   ],
-  "updated_at": "2026-10-08T19:17:03+08:00"
+  "updated_at": "2026-10-08T19:22:59+08:00"
 }
