@@ -133,3 +133,5 @@
 
 #terms .surface,#terms .surface p,#terms .surface li{font-size:16px;line-height:1.75}#terms .glossary-card dl{margin:18px 0 0}#terms .glossary-item dt{font-size:18px}#terms .glossary-item summary{font-size:15px;min-height:44px;padding:10px 0}#terms .glossary-item{scroll-margin-top:22px}
 .weekly-term-link{color:#6d28d9;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px}
+
+.weekly-quick-summary>section{padding:12px 0;border-bottom:1px solid #ded5ed}.weekly-quick-summary>section:last-child{border-bottom:0}.weekly-quick-summary h4{margin:0 0 8px}.weekly-quick-summary ul{margin:8px 0}.weekly-quick-summary li{margin-bottom:12px}

@@ -5,12 +5,11 @@ global.document = {getElementById:()=>null};
 global.location = {href:'https://ting11236.github.io/stock-lens/'};
 const {freshness, render, escape, range, linkMentionedStocks} = require('../site/weekly-investment.js');
 const r = JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment.json'),'utf8'));
-test('close boundary and Taipei weekday do not keep old signals fresh',()=>{
- assert.match(freshness({...r,priceAsOf:'2026-10-06'},new Date('2026-10-07T13:29:00+08:00')),/收盤基準/);
- assert.match(freshness({...r,priceAsOf:'2026-10-06'},new Date('2026-10-07T13:30:00+08:00')),/待刷新/);
- assert.match(freshness({...r,priceAsOf:'2026-10-08'},new Date('2026-10-09T14:00:00+08:00')),/待刷新/);
- assert.match(freshness({...r,priceAsOf:'2026-10-09'},new Date('2026-10-10T14:00:00+08:00')),/收盤基準/);
- assert.match(freshness(r,new Date('2026-10-12T00:01:00+08:00')),/已到期/);
+test('price date label shows recorded trading dates without inventing a refresh',()=>{
+ assert.equal(freshness({priceAsOf:'2026-10-07'},new Date('2026-10-08T14:00:00+08:00')),'最新交易資料日期：10月7日');
+ assert.equal(freshness({priceAsOf:'2026-10-08'}),'最新交易資料日期：10月8日');
+ assert.equal(freshness({priceAsOf:null}),'最新交易資料日期：待確認');
+ const html=render(r);assert.match(html,/data-weekly-price-as-of="2026-10-07"/);assert.match(html,/data-weekly-price-as-of="2026-10-08"/);assert.doesNotMatch(html,/已過新交易日收盤時間|休市日亦須核對官方日曆/);
 });
 test('published evidence keeps missing comparable inputs absent and weights feasible',()=>{
  assert.equal(r.companies.length,11);
@@ -100,3 +99,5 @@ test("risk rows state each breakout and breakdown price explicitly",()=>{const h
 test("every risk scenario begins with conditional 若",()=>{const html=render(r);for(const table of html.matchAll(/class="weekly-risk-table"[\s\S]*?<\/table>/g)){const rows=[...table[0].matchAll(/<tr><td>(.*?)<\/td>/g)];assert.ok(rows.length>0);assert.ok(rows.every(row=>row[1].startsWith("若")));}});
 
 test('trading terms link to matching explanations without nesting source links',()=>{const html=render(r);assert.match(html,/data-weekly-term="right"/);assert.match(html,/data-weekly-term="left"/);assert.match(html,/\?term=right#term-right/);assert.doesNotMatch(html,/<a[^>]*>[^<]*<a/);const index=fs.readFileSync(require('node:path').join(__dirname,'../site/index.html'),'utf8');assert.match(index,/id="terms"[\s\S]*?glossary-card/);assert.match(index,/id="term-left" tabindex="-1"/);assert.match(index,/id="term-right" tabindex="-1"/);});
+
+test('plain overview distinguishes conditional buy prices from risk reduction prices',()=>{const html=render(r);assert.match(html,/AI建議股票操作/);assert.match(html,/買入、觀察、賣出，一眼看懂/);assert.match(html,/第一筆參考價/);assert.match(html,/目前沒有指定賣出價或已確認的出場批次/);assert.match(html,/減碼風險價/);assert.match(html,/按兵不動，先不買進/);});
