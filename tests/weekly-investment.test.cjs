@@ -9,7 +9,7 @@ test('price date label shows recorded trading dates without inventing a refresh'
  assert.equal(freshness({priceAsOf:'2026-10-07'},new Date('2026-10-08T14:00:00+08:00')),'最新交易資料日期：10月7日');
  assert.equal(freshness({priceAsOf:'2026-10-08'}),'最新交易資料日期：10月8日');
  assert.equal(freshness({priceAsOf:null}),'最新交易資料日期：待確認');
- const html=render(r);assert.match(html,/data-weekly-price-as-of="2026-10-07"/);assert.match(html,/data-weekly-price-as-of="2026-10-08"/);assert.doesNotMatch(html,/已過新交易日收盤時間|休市日亦須核對官方日曆/);
+ const html=render(r);for(const c of r.companies) assert.ok(html.includes(`data-weekly-price-as-of="${c.priceAsOf}"`));assert.doesNotMatch(html,/已過新交易日收盤時間|休市日亦須核對官方日曆/);
 });
 test('published evidence keeps missing comparable inputs absent and weights feasible',()=>{
  assert.equal(r.companies.length,11);
@@ -103,3 +103,5 @@ test('trading terms link to matching explanations without nesting source links',
 test('five exclusive categories keep plans inside stock analysis',()=>{const html=render(r);const summary=html.split('weekly-quick-summary weekly-decision-list')[1].split('</div>')[0];for(const label of ['建議買進','等待買點','不追高','建議減碼','等待觀察'])assert.match(summary,new RegExp('<h4>'+label+'</h4>'));for(const c of r.companies)assert.equal((summary.match(new RegExp('data-weekly-analysis="'+c.code+'"','g'))||[]).length,1);assert.doesNotMatch(summary,/25%|30%|減碼風險價|一眼看懂/);assert.match(summary,/目前沒有已確認的買進建議/);assert.match(summary,/目前沒有已確認的減碼建議/);const wait=summary.split('data-weekly-category="等待買點"')[1].split('</section>')[0];assert.match(wait,/3017/);assert.equal((wait.match(/優先關注<\/small>/g)||[]).length,3);});
 
 test("overview reference is concise without allocation details",()=>{const html=render(r);const summary=html.split("weekly-quick-summary weekly-decision-list")[1].split("</div>")[0];assert.match(summary,/突破參考價 <span class="weekly-reference-red">2,145<\/span>/);assert.match(summary,/條件成立後買進<\/span>第一筆/);assert.doesNotMatch(summary,/第一筆30%|前20日平均量/);});
+
+test("daily price refresh updates reminders without refreshing weekly research",()=>{const sample=JSON.parse(JSON.stringify(r));const c=sample.companies.find(c=>c.code==="2330");c.price=2501;c.priceAsOf="2026-10-13";const html=render(sample);assert.match(html,/股價現況：10\/13收盤2,501/);assert.doesNotMatch(html,/股價現況：10\/7收盤2,585/);const frozen=JSON.parse(fs.readFileSync(require("node:path").join(__dirname,"../site/data/weekly-investment/2026-W41-v3.json"),"utf8"));assert.equal(r.reviewedAt,frozen.reviewedAt);assert.deepEqual(r.companies[0].prices,frozen.companies[0].prices);});
