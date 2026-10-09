@@ -625,6 +625,7 @@ function changeResearchPage(value,absolute=false){const index=absolute?value:res
 async function openCompanyResearch(symbol,index,opener){
  const stock=state.stocks.map(materialize).find(s=>s.symbol===symbol);if(!stock)return;
  researchView={symbol,index,pages:companyPages(stock),opener};renderResearchPage();if(!$('researchDialog').open)$('researchDialog').showModal();
+ if(renderedCompanies.has(symbol))return;
  if(research.profiles[symbol]?._detail_path)$('researchPageBody').innerHTML='<p role="status">正在載入 '+esc(stock.name)+' 的公司資料…</p>';
  try{await ensureCompanyResearch(symbol);if(researchView.symbol!==symbol||!$('researchDialog').open)return;const latest=state.stocks.map(materialize).find(s=>s.symbol===symbol);researchView.pages=companyPages(latest);renderResearchPage();}
  catch{if(researchView.symbol===symbol)$('researchPageBody').innerHTML='<p role="alert">公司資料暫時無法載入，請關閉視窗後再試一次。</p>';}

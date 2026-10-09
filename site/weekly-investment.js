@@ -364,7 +364,11 @@
       select(tabs[next].dataset.weeklyTab,true);
     });
   }
+  const reportRequests=new Map();
   async function loadReport(root) {
+    if(loadedReports.has(root))return;
+    if(reportRequests.has(root))return reportRequests.get(root);
+    const task=(async()=>{
     root.setAttribute('aria-busy','true');
     root.innerHTML='<p class="weekly-loading" role="status">正在載入AI產業與台股投資分析…</p>';
     try {
@@ -382,6 +386,9 @@
     } catch {
       root.innerHTML='<p class="notice warn" role="alert">AI研究報告暫時無法讀取。請稍後重新開啟；原市場資料與自選功能仍可使用。</p>';
     } finally { root.setAttribute('aria-busy','false'); }
+    })();
+    reportRequests.set(root,task);
+    try{return await task;}finally{reportRequests.delete(root);}
   }
   if (typeof window !== 'undefined') window.setInterval(() => {
     loadedReports.forEach((r,root) => {
