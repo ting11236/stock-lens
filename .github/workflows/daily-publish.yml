@@ -63,47 +63,11 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-      - name: 壓縮網站資料，減少手機下載量
+      - name: 事先產生公司閱讀頁面與首頁
         run: |
-          python - <<'PY'
-          import gzip, hashlib, json
-          from pathlib import Path
-          for name in ('stocks', 'company-research', 'market-movers', 'company-calendar'):
-              path = Path('site/data') / (name + '.json')
-              path.with_suffix('.json.gz').write_bytes(gzip.compress(path.read_bytes(), compresslevel=6, mtime=0))
-          payload = json.loads(Path('site/data/company-research.json').read_text())
-          folder = Path('site/data/research-companies')
-          folder.mkdir(exist_ok=True)
-          index = {}
-          for symbol, profile in payload['profiles'].items():
-              raw = json.dumps(profile, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()
-              name = hashlib.sha256(raw).hexdigest() + '.json'
-              (folder / name).write_bytes(raw)
-              (folder / (name + '.gz')).write_bytes(gzip.compress(raw, compresslevel=6, mtime=0))
-              overview = profile.get('overview') or {}
-              entries = []
-              for label, key in [('公司業務', 'business'), ('發展方向', 'direction'), ('獲利來源', 'profit_mechanism')]:
-                  if overview.get(key): entries.append({'label': label, 'text': overview[key]})
-              for item in overview.get('outlooks', []):
-                  entries.append({'label': '未來財務與發展方向', 'text': '；'.join(str(item.get(k) or '') for k in ('type', 'scope', 'limitations'))})
-              for item in overview.get('events', []):
-                  entries.append({'label': '事件與進度', 'text': '；'.join(str(item.get(k) or '') for k in ('type', 'status', 'text'))})
-              for key in ('business', 'earnings', 'transition', 'developments'):
-                  if profile.get(key): entries.append({'label': '官方摘要・' + key, 'text': profile[key]['text']})
-              brief = {k: profile.get(k) for k in ('name', 'status', 'reviewed_at', 'research_completion', 'calculated_metrics')}
-              brief.update({'sources': {}, 'limitations': [], '_detail_path': 'research-companies/' + name, 'search_entries': entries})
-              if overview:
-                  brief['overview'] = {k: str(overview.get(k) or '') for k in ('source_reviewed_at', 'imported_at', 'source_filename', 'status', 'screening')}
-                  brief['overview'].update({'business': '', 'direction': '', 'summary': '', 'urls': [], 'events': [], 'outlooks': []})
-                  rolling = (overview.get('financial') or {}).get('rolling') or {}
-                  brief['overview']['financial'] = {'rolling': {k: rolling.get(k) for k in ('period', 'ttm_eps', 'ttms', 'formula')}}
-              index[symbol] = brief
-          compact = {k: v for k, v in payload.items() if k != 'profiles'}
-          compact['profiles'] = index
-          raw = json.dumps(compact, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()
-          Path('site/data/research-index.json').write_bytes(raw)
-          Path('site/data/research-index.json.gz').write_bytes(gzip.compress(raw, compresslevel=6, mtime=0))
-          PY
+          npm install --ignore-scripts --no-audit --no-fund
+          node --test tests/static_site.test.cjs
+          node build_static_site.cjs
       - uses: actions/upload-pages-artifact@v4
         with:
           path: ./site

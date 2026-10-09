@@ -67,12 +67,10 @@ test('row industry shows all industry companies with clicked stock first',()=>{c
 
 test('partial company notes keep company date unset and stay outside completed research',()=>{const a=load();const p=JSON.parse(fs.readFileSync(path.join(__dirname,'../research/companies.json'),'utf8'))['1326.TW'];assert.equal(p.research_completion,'partial');assert.equal(p.reviewed_at,null);assert.match(p.business.reviewed_at,/^\d{4}-\d{2}-\d{2}$/);assert.match(p.developments.reviewed_at,/^\d{4}-\d{2}-\d{2}$/);assert.ok(p.developments.reviewed_at>=p.business.reviewed_at);p.status='overview';a.context.profileData={schema_version:1,profiles:{'1326.TW':p}};a.run('research.profiles=validateResearch(profileData);state.stocks=[{symbol:"1326.TW"}];state.researchFilter="researched"');assert.equal(a.run('visibleStocks().length'),0)});
 
-test('company details download only when requested and repeated requests share one download',async()=>{
- const a=load();a.run("research.profiles={'1101.TW':{status:'overview',sources:{},limitations:[],_detail_path:'research-companies/'+ 'a'.repeat(64)+'.json'}};globalThis.calls=0;fetchCompanyFile=async()=>{calls++;await Promise.resolve();return {name:'台泥',status:'overview',sources:{},limitations:[],business:{text:'水泥業務'}}}");
- assert.equal(a.run('calls'),0);
- await a.run("Promise.all([ensureCompanyResearch('1101.TW'),ensureCompanyResearch('1101.TW')])");
- assert.equal(a.run('calls'),1);assert.equal(a.run("research.profiles['1101.TW'].business.text"),'水泥業務');
- await a.run("ensureCompanyResearch('1101.TW')");assert.equal(a.run('calls'),1);
+test('company reading pages download on request and repeated requests share one download',async()=>{
+ const a=load();a.run("globalThis.calls=0;fetchCompanyFile=async()=>{calls++;await Promise.resolve();return {symbol:'1101.TW',pages:[{key:'intro',html:'水泥業務'}],financial:''}}");
+ assert.equal(a.run('calls'),0);await a.run("Promise.all([ensureCompanyResearch('1101.TW'),ensureCompanyResearch('1101.TW')])");assert.equal(a.run('calls'),1);
+ assert.equal(a.run("renderedCompanies.get('1101.TW').pages[0].html"),'水泥業務');await a.run("ensureCompanyResearch('1101.TW')");assert.equal(a.run('calls'),1);
 });
 test('compact search index finds development keywords before company details are downloaded',()=>{
  const a=load();a.run("research.profiles={'1101.TW':{status:'overview',sources:{},limitations:[],search_entries:[{label:'發展方向',text:'正在發展矽光子'}]}}");
