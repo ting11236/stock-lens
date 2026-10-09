@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 89985)
-Total output lines: 9819
-
 {
   "schema_version": 2,
   "task_id": "weekly-ai-tw-investment",
@@ -2082,7 +2079,5497 @@ Total output lines: 9819
         "industry": "電子零組件業",
         "h1_revenue_yoy": 41.02,
         "h1_eps_yoy": 88.94,
-    …49985 tokens truncated…同期間不直接比增速；ROIC／FCF未核。",
+        "eps_turn_positive": false,
+        "monthly_yoy": 34.94854905033159,
+        "monthly_period": "2026-08",
+        "h1_gross_margin": 36.27,
+        "return20": 12.33,
+        "priceAsOf": "2026-10-06",
+        "official_pe": 65.25,
+        "official_pe_date": "2026-10-06",
+        "cash": 1823.5020399999999,
+        "previous_cash": 1511.72175,
+        "operating_cashflow": 631.00603,
+        "cashflow_period": "2026 上半年累計",
+        "h1_nonoperating_share": 0.10750234554068601,
+        "flags": [
+          "EPS成長高於營收：營運槓桿候選，須剔除業外",
+          "現金較年底增加；不等於FCF改善"
+        ],
+        "source_urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711"
+        ],
+        "database_reviewed_at": "2026-10-03",
+        "candidate": false,
+        "roic": null,
+        "fcf": null
+      },
+      "fundamental_inflection": "H1營收YoY 41.02%、EPS YoY 88.94%；業外占稅前 10.75%。CFO 631.00603億元（2026 上半年累計）；現金 1511.72175→1823.5020399999999億元（2025年底→2026H1）。不同期間不直接比增速；ROIC／FCF未核。",
+      "competition": "產品／獲利來源：電源與系統方案毛利；產品組合及規模影響利潤。技術、認證、客戶黏著與規模是待持續驗證的競爭力來源；定量市占、切換成本、良率、生產效率、競爭者擴產與替代風險未全面補核，不虛構市占比例或保證護城河。",
+      "reverse_valuation": {
+        "method": "研究PE帶反推可持續EPS，非市場實際預期",
+        "assumption_pe": [
+          35,
+          50
+        ],
+        "implied_eps": [
+          39.3,
+          56.14
+        ],
+        "required_growth_pct": [
+          25.08,
+          78.69
+        ],
+        "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。"
+      },
+      "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。"
+    },
+    {
+      "code": "2345",
+      "name": "智邦",
+      "industry": "800G／1.6T Networking／ASIC互連",
+      "updatedAt": "2026-10-08T13:54:43+08:00",
+      "priceAsOf": "2026-10-08",
+      "financialPeriod": "2026Q2單季",
+      "forecastAsOf": "2026-09-18",
+      "reviewedAt": "2026-10-08T13:54:43+08:00",
+      "price": 2070.0,
+      "technical": {
+        "ma": {
+          "5": 2035.0,
+          "10": 1944.5,
+          "20": 1913.75,
+          "60": 2082.33
+        },
+        "volume": 4210000,
+        "average_volume_20": 4449611,
+        "volume_ratio": 0.95,
+        "low20": 1770.0,
+        "high20": 2140.0,
+        "return20": 5.88,
+        "ma20_deviation": 8.16,
+        "price_history": [
+          {
+            "date": "2026-07-15",
+            "volume": 2058964.0,
+            "open": 2395.0,
+            "high": 2420.0,
+            "low": 2315.0,
+            "close": 2340.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-16",
+            "volume": 1274880.0,
+            "open": 2350.0,
+            "high": 2350.0,
+            "low": 2255.0,
+            "close": 2320.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-17",
+            "volume": 3429156.0,
+            "open": 2190.0,
+            "high": 2205.0,
+            "low": 2090.0,
+            "close": 2090.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-20",
+            "volume": 3939531.0,
+            "open": 2035.0,
+            "high": 2150.0,
+            "low": 2000.0,
+            "close": 2090.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-21",
+            "volume": 2272779.0,
+            "open": 2150.0,
+            "high": 2220.0,
+            "low": 2140.0,
+            "close": 2220.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-22",
+            "volume": 3027115.0,
+            "open": 2295.0,
+            "high": 2310.0,
+            "low": 2240.0,
+            "close": 2285.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-23",
+            "volume": 2178658.0,
+            "open": 2305.0,
+            "high": 2390.0,
+            "low": 2280.0,
+            "close": 2325.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-24",
+            "volume": 1607977.0,
+            "open": 2315.0,
+            "high": 2330.0,
+            "low": 2205.0,
+            "close": 2220.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-27",
+            "volume": 1809334.0,
+            "open": 2280.0,
+            "high": 2285.0,
+            "low": 2170.0,
+            "close": 2240.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-28",
+            "volume": 2796586.0,
+            "open": 2165.0,
+            "high": 2180.0,
+            "low": 2040.0,
+            "close": 2040.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-29",
+            "volume": 4161040.0,
+            "open": 2040.0,
+            "high": 2110.0,
+            "low": 1840.0,
+            "close": 1910.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-30",
+            "volume": 3309765.0,
+            "open": 1910.0,
+            "high": 2050.0,
+            "low": 1855.0,
+            "close": 1935.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-31",
+            "volume": 1009455.0,
+            "open": 2125.0,
+            "high": 2125.0,
+            "low": 2125.0,
+            "close": 2125.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-03",
+            "volume": 3727502.0,
+            "open": 2335.0,
+            "high": 2335.0,
+            "low": 2215.0,
+            "close": 2335.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-04",
+            "volume": 4443582.0,
+            "open": 2355.0,
+            "high": 2360.0,
+            "low": 2280.0,
+            "close": 2320.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-05",
+            "volume": 2914548.0,
+            "open": 2420.0,
+            "high": 2480.0,
+            "low": 2375.0,
+            "close": 2385.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-06",
+            "volume": 4044919.0,
+            "open": 2590.0,
+            "high": 2595.0,
+            "low": 2390.0,
+            "close": 2410.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-07",
+            "volume": 4227407.0,
+            "open": 2395.0,
+            "high": 2395.0,
+            "low": 2185.0,
+            "close": 2215.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-10",
+            "volume": 2810982.0,
+            "open": 2255.0,
+            "high": 2280.0,
+            "low": 2135.0,
+            "close": 2165.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-11",
+            "volume": 3575999.0,
+            "open": 2140.0,
+            "high": 2150.0,
+            "low": 2075.0,
+            "close": 2135.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-12",
+            "volume": 2859759.0,
+            "open": 2140.0,
+            "high": 2255.0,
+            "low": 2125.0,
+            "close": 2215.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-13",
+            "volume": 3000738.0,
+            "open": 2275.0,
+            "high": 2310.0,
+            "low": 2235.0,
+            "close": 2270.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-14",
+            "volume": 3328996.0,
+            "open": 2305.0,
+            "high": 2385.0,
+            "low": 2275.0,
+            "close": 2300.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-17",
+            "volume": 2439612.0,
+            "open": 2300.0,
+            "high": 2335.0,
+            "low": 2245.0,
+            "close": 2290.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-18",
+            "volume": 3175549.0,
+            "open": 2280.0,
+            "high": 2350.0,
+            "low": 2210.0,
+            "close": 2225.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-19",
+            "volume": 4040971.0,
+            "open": 2060.0,
+            "high": 2145.0,
+            "low": 2060.0,
+            "close": 2125.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-20",
+            "volume": 2410579.0,
+            "open": 2125.0,
+            "high": 2135.0,
+            "low": 2070.0,
+            "close": 2105.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-21",
+            "volume": 2809274.0,
+            "open": 2090.0,
+            "high": 2110.0,
+            "low": 2020.0,
+            "close": 2035.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-24",
+            "volume": 1772738.0,
+            "open": 2055.0,
+            "high": 2130.0,
+            "low": 2045.0,
+            "close": 2070.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-25",
+            "volume": 2786151.0,
+            "open": 2080.0,
+            "high": 2080.0,
+            "low": 1960.0,
+            "close": 2030.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-26",
+            "volume": 3430799.0,
+            "open": 2040.0,
+            "high": 2070.0,
+            "low": 1985.0,
+            "close": 2055.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-27",
+            "volume": 2473876.0,
+            "open": 2120.0,
+            "high": 2130.0,
+            "low": 2065.0,
+            "close": 2090.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-28",
+            "volume": 2374655.0,
+            "open": 2120.0,
+            "high": 2195.0,
+            "low": 2100.0,
+            "close": 2125.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-31",
+            "volume": 4484579.0,
+            "open": 2085.0,
+            "high": 2085.0,
+            "low": 1950.0,
+            "close": 2035.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "volume": 5313838.0,
+            "open": 2085.0,
+            "high": 2235.0,
+            "low": 2050.0,
+            "close": 2205.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "volume": 3470248.0,
+            "open": 2145.0,
+            "high": 2205.0,
+            "low": 2105.0,
+            "close": 2140.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-03",
+            "volume": 2730824.0,
+            "open": 2150.0,
+            "high": 2165.0,
+            "low": 2060.0,
+            "close": 2090.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-04",
+            "volume": 2163787.0,
+            "open": 2145.0,
+            "high": 2190.0,
+            "low": 2075.0,
+            "close": 2100.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-07",
+            "volume": 2076808.0,
+            "open": 2150.0,
+            "high": 2155.0,
+            "low": 2090.0,
+            "close": 2100.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-08",
+            "volume": 6441295.0,
+            "open": 2130.0,
+            "high": 2140.0,
+            "low": 1950.0,
+            "close": 1955.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-09",
+            "volume": 4715389.0,
+            "open": 1960.0,
+            "high": 2070.0,
+            "low": 1960.0,
+            "close": 2015.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-10",
+            "volume": 2982489.0,
+            "open": 1990.0,
+            "high": 2005.0,
+            "low": 1955.0,
+            "close": 1965.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-11",
+            "volume": 4090126.0,
+            "open": 1910.0,
+            "high": 1925.0,
+            "low": 1870.0,
+            "close": 1885.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-14",
+            "volume": 3068576.0,
+            "open": 1840.0,
+            "high": 1895.0,
+            "low": 1830.0,
+            "close": 1875.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-15",
+            "volume": 2272078.0,
+            "open": 1870.0,
+            "high": 1895.0,
+            "low": 1830.0,
+            "close": 1840.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-16",
+            "volume": 3116998.0,
+            "open": 1840.0,
+            "high": 1860.0,
+            "low": 1830.0,
+            "close": 1840.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-17",
+            "volume": 4448162.0,
+            "open": 1865.0,
+            "high": 1885.0,
+            "low": 1790.0,
+            "close": 1800.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-18",
+            "volume": 5848473.0,
+            "open": 1810.0,
+            "high": 1855.0,
+            "low": 1810.0,
+            "close": 1855.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-21",
+            "volume": 3499481.0,
+            "open": 1840.0,
+            "high": 1880.0,
+            "low": 1810.0,
+            "close": 1840.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-22",
+            "volume": 3976822.0,
+            "open": 1900.0,
+            "high": 1935.0,
+            "low": 1865.0,
+            "close": 1915.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-23",
+            "volume": 4143392.0,
+            "open": 1935.0,
+            "high": 1955.0,
+            "low": 1845.0,
+            "close": 1890.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-24",
+            "volume": 2611500.0,
+            "open": 1880.0,
+            "high": 1905.0,
+            "low": 1855.0,
+            "close": 1895.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-29",
+            "volume": 4157981.0,
+            "open": 1845.0,
+            "high": 1880.0,
+            "low": 1800.0,
+            "close": 1810.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-30",
+            "volume": 7123574.0,
+            "open": 1830.0,
+            "high": 1855.0,
+            "low": 1770.0,
+            "close": 1775.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-01",
+            "open": 1795.0,
+            "high": 1910.0,
+            "low": 1785.0,
+            "close": 1900.0,
+            "volume": 5872368
+          },
+          {
+            "date": "2026-10-02",
+            "open": 1955.0,
+            "high": 1980.0,
+            "low": 1920.0,
+            "close": 1965.0,
+            "volume": 5328800
+          },
+          {
+            "date": "2026-10-05",
+            "open": 2070.0,
+            "high": 2110.0,
+            "low": 2015.0,
+            "close": 2075.0,
+            "volume": 6386760
+          },
+          {
+            "date": "2026-10-06",
+            "open": 2080.0,
+            "high": 2105.0,
+            "low": 2035.0,
+            "close": 2050.0,
+            "volume": 3700393
+          },
+          {
+            "date": "2026-10-07",
+            "open": 2050.0,
+            "high": 2140.0,
+            "low": 2005.0,
+            "close": 2015.0,
+            "volume": 5207562
+          },
+          {
+            "date": "2026-10-08",
+            "open": 1990.0,
+            "high": 2100.0,
+            "low": 1970.0,
+            "close": 2070.0,
+            "volume": 4210000
+          }
+        ],
+        "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
+      },
+      "financial": {
+        "period": "2026Q2單季",
+        "eps": 19.78,
+        "gross_margin": 19.7,
+        "operating_margin": 15.0,
+        "revenue_twd_thousand": 95537694.0,
+        "eps_basis": "2026H1累計EPS − 2026Q1累計EPS；四捨五入可能差0.01元",
+        "ttm_eps": 63.65,
+        "ttm_period": "2025Q3–2026Q2",
+        "ttm_formula": "2025全年 + 2026H1 − 2025H1",
+        "h1_eps": 34.7,
+        "h1_eps_growth": 90.87,
+        "eps_comparability_note": "本次以MOPS可比累計重算；後續重編需再核對。"
+      },
+      "monthly": {
+        "period": "2026-09",
+        "revenue_twd_thousand": 40398562.0,
+        "yoy": 66.13,
+        "cumulative_yoy": 62.45,
+        "basis": "合併新台幣營收，非訂單或產能",
+        "published_at": "2026-10-06"
+      },
+      "valuation": {
+        "ttm_pe": 32.52,
+        "official_pe": 31.66,
+        "official_pe_date": "2026-10-07",
+        "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
+        "forward_pe": 23.95,
+        "forward_year": 2026,
+        "forward_next_year_pe": 17.5,
+        "consensus": {
+          "provider": "FactSet（鉅亨具名轉載）",
+          "published_at": "2026-09-18",
+          "forecast_year": 2026,
+          "coverage": 10,
+          "median": 86.43,
+          "previous": 87.47,
+          "low": 78.59,
+          "high": 91.9,
+          "next_year_median": 118.29,
+          "url": "https://news.cnyes.com/news/print/6610539",
+          "note": "公開轉載非直接FactSet feed；後續全部修正未取得。原文歷史EPS誤列淨利，該欄不採用。"
+        },
+        "consensus_missing_reason": null,
+        "reasonable_ttm_pe_range": [
+          25,
+          35
+        ],
+        "reasonable_ttm_price_range": [
+          1591.25,
+          2227.75
+        ],
+        "assumption": "25–35倍TTM反映網路成長但扣除客戶集中；另用2026共識20–26倍交叉檢查，不使用舊目標價作支撐。",
+        "classification": "合理",
+        "assumption_type": "research_inference",
+        "official_pb": 16.31
+      },
+      "position": {
+        "role": "Satellite",
+        "weight_range_pct": [
+          5,
+          10
+        ],
+        "stage": "左側築底；右側初段尚未確認",
+        "new_position": "等待條件確認；目前未發出買進指令"
+      },
+      "scores": {
+        "industry": 9,
+        "quality": 8,
+        "improvement": 8,
+        "valuation_entry": 6,
+        "confidence": 6
+      },
+      "thesis": "基本面成立，EPS修正尚未轉強。網路升級是中期動能，現階段仍需消化下修及客戶集中。",
+      "growth_1to3y": "800G主流出貨與1.6T、光交換架構升級是1–3年方向；CPO目前只列技術選項，未驗證量產／營收貢獻不納入EPS。",
+      "market_expectations": "市場期待1.6T與ASIC叢集帶動網路升級，但9/18 FactSet 2026 EPS中位數由87.47降至86.43，不能把營收增長當作EPS上修。",
+      "price_in": "10/7自行TTM PE 31.66倍，研究TTM合理帶25–35倍；20日漲跌-4.05%，距MA20 5.61%；2026共識PE 23.31、2027共識PE 17.03，共識日期仍為2026-09-18，未宣稱已取得之後所有修正。高成長不直接等於好買點。",
+      "holding_strategy": "續抱；2015仍低於60日線2085.83，新增等1905–1930回測或2145右側確認，EPS修正未止跌不加碼。",
+      "risk": "少數CSP客戶、產品轉換、原料成本、EPS下修與60日均線壓力。",
+      "thesis_failure": "大型客戶減單或產品升級延後，連續2次可比共識下修且營益率走弱；CPO替代效應或競爭造成市占與單位獲利流失。",
+      "prices": {
+        "first_attention": [
+          1905,
+          1930
+        ],
+        "best_entry": [
+          1770,
+          1840
+        ],
+        "breakout": 2145,
+        "asOf": "2026-10-07",
+        "valid_until": "2026-10-12T00:00:00+08:00",
+        "validity_rule": "觀察價推導基準仍為10/7；最新收盤為2026-10-08，只有舊支撐壓力仍成立才保留，不能稱新買訊。新股價未完整驗證全部條件，仍按兵不動。",
+        "reason": "第一關注取近期均線／低點；最佳區取支撐與研究估值帶的交集；突破價為20日最高價上一個有效價格跳動。",
+        "derivation": {
+          "first": "10/7 MA5=2001.0、MA10=1929.0、MA20=1908.0、MA60=2085.83及近期支撐；取可成交級距。高估值股第一關注不是買区。",
+          "best": "25–35倍TTM反映網路成長但扣除客戶集中；另用2026共識20–26倍交叉檢查，不使用舊目標價作支撐。",
+          "breakout": "目前20日最高2140.0元之上下一個TWSE有效價格跳動5元；更新後2145元。"
+        },
+        "invalidation": "大型客戶減單或產品升級延後，連續2次可比共識下修且營益率走弱；CPO替代效應或競爭造成市占與單位獲利流失。"
+      },
+      "building_plan": {
+        "current_action": "按兵不動，尚不建倉",
+        "target_basis": "比例以預定目標部位計算，非全部資金；共同AI因子與現金限制仍適用。",
+        "tranches": [
+          {
+            "target_pct": 30,
+            "condition": "收盤≥2145、量>前20日均量、隔日不跌回且EPS修正止跌。"
+          },
+          {
+            "target_pct": 30,
+            "condition": "後續回測2145不破並重新收高，需求與估值仍成立。"
+          },
+          {
+            "target_pct": 40,
+            "condition": "取得後續EPS或交付上修證據、重新核對估值與價格，未確認不建滿。"
+          }
+        ],
+        "stop_addition": "任一買點失效或基本面確認不成立，停止後續批次並重估；不因跌價自動攤平。",
+        "conditional_action": "右側確認30／30／40：先等2145突破量價與隔日確認，回測成功第二筆，基本面持續上修才第三筆。",
+        "method": "右側確認30／30／40"
+      },
+      "buy_signal": "第一關注1905–1930；回測量≤此前20日均量0.8倍（本版約3,434,459股），低點連2日不破，收盤重站2005。右側收盤達到或高於2145，量>此前20日均量（本版4,293,073股），隔日收盤不跌回2145；基本面確認須同時成立。高估值者先重估，不能只靠突破買進。 最佳區另採左側：收盤仍在1770–1840內，低點連2日不跌破1770，第2日收盤高於前日且量≤0.8倍均量；基本面確認後只研究首筆小部位，離開區間不沿用最佳買點。",
+      "fundamental_confirmation": "最近9月營收YoY 66.13%；下月仍為正且3月累計YoY不惡化，Q3營益率不低於Q2約15%超過1百分點；2026 EPS共識須停止下修，並有客戶交付證據。",
+      "position_management": "買點失效：突破後隔日收盤低於2145，取消該突破訊號；回測跌破1770，停止原支撐布局並重評。有效跌破：連2日收盤低於1770且至少1日量≥20日均量，或單日跌破且量≥1.5倍均量、隔日未收復；停止加碼／縮減戰術部位，不自動認定核心thesis失效。",
+      "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
+      "sources": [
+        {
+          "source_id": "2345-202606",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260601&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2345-202607",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2345-202608",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260801&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2345-202609",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2345-202610",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "financial-2026h1",
+          "title": "TWSE／MOPS合併損益彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026H1；出表2026-10-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11501",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11404",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025全年",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11402",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025H1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-month-2345",
+          "title": "MOPS公司9月營收",
+          "url": "https://mopsov.twse.com.tw/mops/web/t05st10_ifrs?encodeURIComponent=1&step=0&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=2345",
+          "published_at": "2026-10-06",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "official-pe",
+          "title": "TWSE官方PE／PB",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "consensus-2345",
+          "title": "FactSet（鉅亨具名轉載）",
+          "url": "https://news.cnyes.com/news/print/6610539",
+          "published_at": "2026-09-18",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026／2027 EPS",
+          "claim_type": "institution_forecast",
+          "note": "公開轉載非直接FactSet feed；後續全部修正未取得。原文歷史EPS誤列淨利，該欄不採用。"
+        },
+        {
+          "source_id": "accton-sep",
+          "title": "智邦9月營收公司公告",
+          "url": "https://www.accton.com/accton-sep-2026-sales-revenue-report/",
+          "published_at": "2026-10-06",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": "公司頁表格為美元；本報告價格與營收以MOPS新台幣欄，兩種YoY受換匯影響不可混用。"
+        },
+        {
+          "source_id": "accton-tech",
+          "title": "智邦800G／1.6T展望報導",
+          "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockTodayNews&id=202608240122125",
+          "published_at": "2026-08-24",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026H2／2027",
+          "claim_type": "institution_forecast",
+          "note": "媒體具題材描述，不是EPS consensus；匿名法人描述只當待驗證預期。"
+        },
+        {
+          "source_id": "twse-price-2026-10-07",
+          "title": "TWSE個股各日成交資訊：10/7收盤",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "端點提供交易日，未提供原始發布時間",
+          "accessed_at": "2026-10-07T22:21:08+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact"
+        },
+        {
+          "source_id": "twse-v3",
+          "title": "TWSE官方個股各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "官方端點只有交易日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-08",
+          "claim_type": "fact",
+          "note": "10/8官方收盤端點更新不同步；以逐筆日期辨識，尚未更新者不冒充當日價格。"
+        },
+        {
+          "source_id": "twse-pb-v3",
+          "title": "TWSE官方本益比、殖利率與股價淨值比",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "官方僅提供資料日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact",
+          "note": "官方PE／PB與自行TTM及Forward分開，資料日不同不混用。"
+        }
+      ],
+      "missing": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。"
+      ],
+      "score_reason": "基本面改善潛力依H1營收YoY 60.28%、EPS YoY 90.87%及業外／現金流限制評估，不是舊分數平均。估值／買點依可比估值、訊號與資料缺口獨立判斷；未完整觸發最高6分。",
+      "variant_view": {
+        "market_hypothesis": "市場可能用短期EPS下修直接外推高速網通長期需求。",
+        "research_hypothesis": "若1.6T升級提高內容價值並使EPS修正停止，股價落後可能形成預期差；目前只是待證實假說。",
+        "confirmation": "2026共識前值87.47降至86.43，不提前當作上修；確認新增交付及後續共識修正。"
+      },
+      "candidate_type": "結構成長",
+      "database_screen": {
+        "code": "2345",
+        "name": "智邦",
+        "industry": "通信網路業",
+        "h1_revenue_yoy": 60.28,
+        "h1_eps_yoy": 90.87,
+        "eps_turn_positive": false,
+        "monthly_yoy": 59.42279854814421,
+        "monthly_period": "2026-08",
+        "h1_gross_margin": 19.63,
+        "return20": -2.38,
+        "priceAsOf": "2026-10-06",
+        "official_pe": 32.21,
+        "official_pe_date": "2026-10-06",
+        "cash": 276.771,
+        "previous_cash": 278.90576,
+        "operating_cashflow": -154.52605,
+        "cashflow_period": "2026 上半年累計",
+        "h1_nonoperating_share": 0.022064238086776298,
+        "flags": [
+          "EPS成長高於營收：營運槓桿候選，須剔除業外"
+        ],
+        "source_urls": [
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2891&companyId=3017&companyId=2882&companyId=2327&companyId=2345",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2891&companyId=3017&companyId=2882&companyId=2327&companyId=2345"
+        ],
+        "database_reviewed_at": "2026-10-03",
+        "candidate": true,
+        "roic": null,
+        "fcf": null
+      },
+      "fundamental_inflection": "H1營收YoY 60.28%、EPS YoY 90.87%；業外占稅前 2.21%。CFO -154.52605億元（2026 上半年累計）；現金 278.90576→276.771億元（2025年底→2026H1）。不同期間不直接比增速；ROIC／FCF未核。",
+      "competition": "產品／獲利來源：網通設備設計及製造毛利；高階交換機產品組合影響利益。技術、認證、客戶黏著與規模是待持續驗證的競爭力來源；定量市占、切換成本、良率、生產效率、競爭者擴產與替代風險未全面補核，不虛構市占比例或保證護城河。",
+      "reverse_valuation": {
+        "method": "研究PE帶反推可持續EPS，非市場實際預期",
+        "assumption_pe": [
+          25,
+          35
+        ],
+        "implied_eps": [
+          59.14,
+          82.8
+        ],
+        "required_growth_pct": [
+          -7.08,
+          30.09
+        ],
+        "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。"
+      },
+      "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。"
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "industry": "AI Server／GPU整機櫃",
+      "updatedAt": "2026-10-08T13:54:43+08:00",
+      "priceAsOf": "2026-10-08",
+      "financialPeriod": "2026Q2單季",
+      "forecastAsOf": null,
+      "reviewedAt": "2026-10-08T13:54:43+08:00",
+      "price": 325.5,
+      "technical": {
+        "ma": {
+          "5": 331.4,
+          "10": 334.1,
+          "20": 336.75,
+          "60": 328.58
+        },
+        "volume": 16766000,
+        "average_volume_20": 13939686,
+        "volume_ratio": 1.2,
+        "low20": 321.0,
+        "high20": 349.0,
+        "return20": -0.76,
+        "ma20_deviation": -3.34,
+        "price_history": [
+          {
+            "date": "2026-07-15",
+            "volume": 24915093.0,
+            "open": 383.5,
+            "high": 384.0,
+            "low": 376.0,
+            "close": 381.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-16",
+            "volume": 33111611.0,
+            "open": 360.5,
+            "high": 360.5,
+            "low": 349.0,
+            "close": 352.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-17",
+            "volume": 33474930.0,
+            "open": 346.0,
+            "high": 349.0,
+            "low": 324.5,
+            "close": 325.5,
+            "note": ""
+          },
+          {
+            "date": "2026-07-20",
+            "volume": 36017076.0,
+            "open": 331.5,
+            "high": 333.0,
+            "low": 309.0,
+            "close": 316.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-21",
+            "volume": 22568430.0,
+            "open": 319.5,
+            "high": 324.0,
+            "low": 314.0,
+            "close": 324.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-22",
+            "volume": 23698660.0,
+            "open": 326.0,
+            "high": 335.0,
+            "low": 326.0,
+            "close": 329.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-23",
+            "volume": 24000085.0,
+            "open": 331.0,
+            "high": 337.5,
+            "low": 328.0,
+            "close": 336.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-24",
+            "volume": 11901559.0,
+            "open": 330.0,
+            "high": 335.0,
+            "low": 328.0,
+            "close": 328.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-27",
+            "volume": 19764190.0,
+            "open": 324.5,
+            "high": 326.5,
+            "low": 314.5,
+            "close": 322.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-28",
+            "volume": 20455771.0,
+            "open": 312.0,
+            "high": 315.5,
+            "low": 308.0,
+            "close": 313.5,
+            "note": ""
+          },
+          {
+            "date": "2026-07-29",
+            "volume": 28018749.0,
+            "open": 319.0,
+            "high": 322.5,
+            "low": 301.5,
+            "close": 309.5,
+            "note": ""
+          },
+          {
+            "date": "2026-07-30",
+            "volume": 60476779.0,
+            "open": 288.0,
+            "high": 288.0,
+            "low": 279.0,
+            "close": 279.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-31",
+            "volume": 49270092.0,
+            "open": 299.0,
+            "high": 299.0,
+            "low": 285.0,
+            "close": 291.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-03",
+            "volume": 29365626.0,
+            "open": 287.5,
+            "high": 300.0,
+            "low": 284.0,
+            "close": 296.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-04",
+            "volume": 24772410.0,
+            "open": 291.0,
+            "high": 305.0,
+            "low": 291.0,
+            "close": 300.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-05",
+            "volume": 19176092.0,
+            "open": 306.5,
+            "high": 310.5,
+            "low": 302.5,
+            "close": 304.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-06",
+            "volume": 13734715.0,
+            "open": 301.5,
+            "high": 305.0,
+            "low": 299.0,
+            "close": 302.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-07",
+            "volume": 17516962.0,
+            "open": 305.0,
+            "high": 305.0,
+            "low": 295.0,
+            "close": 298.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-10",
+            "volume": 22764127.0,
+            "open": 301.0,
+            "high": 313.5,
+            "low": 300.0,
+            "close": 313.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-11",
+            "volume": 15798104.0,
+            "open": 312.5,
+            "high": 316.5,
+            "low": 309.5,
+            "close": 315.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-12",
+            "volume": 28857089.0,
+            "open": 317.0,
+            "high": 330.0,
+            "low": 316.5,
+            "close": 325.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-13",
+            "volume": 19688533.0,
+            "open": 328.0,
+            "high": 328.5,
+            "low": 320.5,
+            "close": 325.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-14",
+            "volume": 44245049.0,
+            "open": 325.0,
+            "high": 336.5,
+            "low": 318.0,
+            "close": 327.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-17",
+            "volume": 30494447.0,
+            "open": 332.0,
+            "high": 339.0,
+            "low": 330.5,
+            "close": 333.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-18",
+            "volume": 15430111.0,
+            "open": 330.0,
+            "high": 330.5,
+            "low": 323.5,
+            "close": 327.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-19",
+            "volume": 16525261.0,
+            "open": 321.5,
+            "high": 333.5,
+            "low": 317.5,
+            "close": 331.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-20",
+            "volume": 12791598.0,
+            "open": 330.0,
+            "high": 333.0,
+            "low": 325.0,
+            "close": 327.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-21",
+            "volume": 8751856.0,
+            "open": 327.5,
+            "high": 327.5,
+            "low": 320.5,
+            "close": 321.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-24",
+            "volume": 5764547.0,
+            "open": 321.5,
+            "high": 325.5,
+            "low": 321.0,
+            "close": 325.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-25",
+            "volume": 19366915.0,
+            "open": 321.5,
+            "high": 328.5,
+            "low": 319.5,
+            "close": 328.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-26",
+            "volume": 8806245.0,
+            "open": 327.5,
+            "high": 333.0,
+            "low": 325.0,
+            "close": 332.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-27",
+            "volume": 11606946.0,
+            "open": 334.5,
+            "high": 339.0,
+            "low": 331.0,
+            "close": 333.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-28",
+            "volume": 10708500.0,
+            "open": 336.5,
+            "high": 338.5,
+            "low": 330.0,
+            "close": 332.5,
+            "note": ""
+          },
+          {
+            "date": "2026-08-31",
+            "volume": 18306869.0,
+            "open": 329.5,
+            "high": 338.5,
+            "low": 326.0,
+            "close": 338.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "volume": 14159329.0,
+            "open": 337.0,
+            "high": 342.0,
+            "low": 335.5,
+            "close": 342.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "volume": 9424750.0,
+            "open": 338.0,
+            "high": 341.5,
+            "low": 336.0,
+            "close": 337.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-03",
+            "volume": 11868856.0,
+            "open": 339.5,
+            "high": 342.5,
+            "low": 332.5,
+            "close": 335.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-04",
+            "volume": 20571056.0,
+            "open": 340.5,
+            "high": 347.0,
+            "low": 340.5,
+            "close": 345.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-07",
+            "volume": 13614465.0,
+            "open": 350.0,
+            "high": 351.5,
+            "low": 340.5,
+            "close": 347.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-08",
+            "volume": 35435507.0,
+            "open": 344.5,
+            "high": 344.5,
+            "low": 328.0,
+            "close": 328.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-09",
+            "volume": 26249566.0,
+            "open": 336.5,
+            "high": 344.0,
+            "low": 335.0,
+            "close": 342.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-10",
+            "volume": 13496818.0,
+            "open": 336.5,
+            "high": 340.5,
+            "low": 332.0,
+            "close": 336.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-11",
+            "volume": 11011208.0,
+            "open": 330.5,
+            "high": 336.5,
+            "low": 329.5,
+            "close": 336.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-14",
+            "volume": 8031414.0,
+            "open": 330.0,
+            "high": 334.0,
+            "low": 328.5,
+            "close": 332.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-15",
+            "volume": 7988351.0,
+            "open": 331.0,
+            "high": 338.0,
+            "low": 330.5,
+            "close": 333.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-16",
+            "volume": 16995268.0,
+            "open": 334.5,
+            "high": 341.0,
+            "low": 333.0,
+            "close": 340.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-17",
+            "volume": 16289321.0,
+            "open": 341.5,
+            "high": 346.0,
+            "low": 340.0,
+            "close": 344.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-18",
+            "volume": 21601445.0,
+            "open": 346.5,
+            "high": 346.5,
+            "low": 340.0,
+            "close": 343.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-21",
+            "volume": 8285050.0,
+            "open": 344.0,
+            "high": 344.5,
+            "low": 339.0,
+            "close": 344.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-22",
+            "volume": 11292711.0,
+            "open": 348.5,
+            "high": 349.0,
+            "low": 340.0,
+            "close": 342.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-23",
+            "volume": 9982467.0,
+            "open": 342.5,
+            "high": 343.0,
+            "low": 340.0,
+            "close": 341.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-24",
+            "volume": 10593247.0,
+            "open": 338.0,
+            "high": 339.5,
+            "low": 335.0,
+            "close": 338.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-29",
+            "volume": 10639698.0,
+            "open": 341.0,
+            "high": 342.0,
+            "low": 336.5,
+            "close": 336.5,
+            "note": ""
+          },
+          {
+            "date": "2026-09-30",
+            "volume": 12063193.0,
+            "open": 340.0,
+            "high": 340.5,
+            "low": 333.5,
+            "close": 333.5,
+            "note": ""
+          },
+          {
+            "date": "2026-10-01",
+            "open": 333.0,
+            "high": 335.0,
+            "low": 330.0,
+            "close": 334.0,
+            "volume": 14875737
+          },
+          {
+            "date": "2026-10-02",
+            "open": 333.0,
+            "high": 334.5,
+            "low": 330.0,
+            "close": 332.0,
+            "volume": 10305780
+          },
+          {
+            "date": "2026-10-05",
+            "open": 335.0,
+            "high": 336.0,
+            "low": 330.0,
+            "close": 331.0,
+            "volume": 14036243
+          },
+          {
+            "date": "2026-10-06",
+            "open": 332.5,
+            "high": 336.0,
+            "low": 331.5,
+            "close": 333.5,
+            "volume": 9900377
+          },
+          {
+            "date": "2026-10-07",
+            "open": 335.0,
+            "high": 337.5,
+            "low": 332.5,
+            "close": 335.0,
+            "volume": 9720312
+          },
+          {
+            "date": "2026-10-08",
+            "open": 328.0,
+            "high": 328.5,
+            "low": 321.0,
+            "close": 325.5,
+            "volume": 16766000
+          }
+        ],
+        "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
+      },
+      "financial": {
+        "period": "2026Q2單季",
+        "eps": 7.43,
+        "gross_margin": 5.02,
+        "operating_margin": 3.3,
+        "revenue_twd_thousand": 1036592712.0,
+        "eps_basis": "2026H1累計EPS − 2026Q1累計EPS；四捨五入可能差0.01元",
+        "ttm_eps": 22.95,
+        "ttm_period": "2025Q3–2026Q2",
+        "ttm_formula": "2025全年 + 2026H1 − 2025H1",
+        "h1_eps": 12.93,
+        "h1_eps_growth": 37.12,
+        "eps_comparability_note": "本次以MOPS可比累計重算；後續重編需再核對。"
+      },
+      "monthly": {
+        "period": "2026-08",
+        "revenue_twd_thousand": 423970932.0,
+        "yoy": 177.453640698528,
+        "cumulative_yoy": 102.62669045483766,
+        "basis": "合併新台幣營收，非訂單或產能",
+        "published_at": null,
+        "latest_missing_reason": "MOPS個別9月查詢無有效數值；本次官方彙總仍8月，保留8月，9月不猜測。"
+      },
+      "valuation": {
+        "ttm_pe": 14.18,
+        "official_pe": 14.6,
+        "official_pe_date": "2026-10-07",
+        "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
+        "forward_pe": null,
+        "forward_year": null,
+        "forward_next_year_pe": null,
+        "consensus": null,
+        "consensus_missing_reason": "未取得同時可驗證發布日、年度、涵蓋人數、EPS口徑的近期共識；不以媒體個別預估或自算EPS充當consensus。",
+        "reasonable_ttm_pe_range": [
+          12,
+          16
+        ],
+        "reasonable_ttm_price_range": [
+          275.4,
+          367.2
+        ],
+        "assumption": "ODM薄利及客戶集中，用12–16倍已實現TTM設定合理帶，不採營收YoY直接提高PE。",
+        "classification": "合理",
+        "assumption_type": "research_inference",
+        "official_pb": 5.3
+      },
+      "position": {
+        "role": "Satellite",
+        "weight_range_pct": [
+          5,
+          10
+        ],
+        "stage": "左側整理；右側尚未重站20日線",
+        "new_position": "等待條件確認；目前未發出買進指令"
+      },
+      "scores": {
+        "industry": 8,
+        "quality": 7,
+        "improvement": 7,
+        "valuation_entry": 3,
+        "confidence": 6
+      },
+      "thesis": "成立但必須檢驗利潤轉換。營收暴增快於獲利，價格落後只是候選，並非證實低估。",
+      "growth_1to3y": "AI機櫃與GPU平台升級帶動1–3年交付；高價零件透過營收、產品組合與筆電循環使營收增幅遠大於EPS。",
+      "market_expectations": "市場在等AI整機櫃交付能否改善獲利與現金；ASP高不等於ODM利潤高，記憶體與GPU成本不可視為自有附加價值。",
+      "price_in": "10/7自行TTM PE 14.6倍，研究TTM合理帶12–16倍；20日漲跌-3.6%，距MA20 -0.56%；可靠近期Forward共識仍未補齊。高成長不直接等於好買點。",
+      "holding_strategy": "停止原左側加碼；重新核對營益率、驗收和存貨／應收，若基本面轉弱研究減碼；未確認330重新守穩前不追加。",
+      "risk": "薄利組裝、營運資金、客戶集中、驗收與匯率；總營收不能代表AI毛利。",
+      "thesis_failure": "AI機櫃客戶取消或長期延後驗收；營收續增但連續2季營益率低於3%且現金／營運資金惡化；筆電衰退無法被AI獲利抵銷。",
+      "prices": {
+        "first_attention": null,
+        "best_entry": null,
+        "breakout": 349.5,
+        "asOf": "2026-10-08",
+        "valid_until": "2026-10-12T00:00:00+08:00",
+        "validity_rule": "觀察價推導基準仍為10/7；最新收盤為2026-10-08，只有舊支撐壓力仍成立才保留，不能稱新買訊。新股價未完整驗證全部條件，仍按兵不動。",
+        "reason": "10/8收325.5低於原328–330支撐且量1.2倍前20日均量；舊左側區已撤銷，不平移買點。右側349.5僅壓力觀察，先等待重建底部與基本面。",
+        "derivation": {
+          "first": "10/7 MA5=333.1、MA10=335.75、MA20=336.88、MA60=329.49及近期支撐；取可成交級距。高估值股第一關注不是買区。",
+          "best": "ODM薄利及客戶集中，用12–16倍已實現TTM設定合理帶，不採營收YoY直接提高PE。",
+          "breakout": "目前20日最高349.0元之上下一個TWSE有效價格跳動0.5元；更新後349.5元。"
+        },
+        "invalidation": "AI機櫃客戶取消或長期延後驗收；營收續增但連續2季營益率低於3%且現金／營運資金惡化；筆電衰退無法被AI獲利抵銷。"
+      },
+      "building_plan": {
+        "current_action": "按兵不動；原左側布局區撤銷",
+        "target_basis": "比例以預定目標部位計算，非全部資金；共同AI因子與現金限制仍適用。",
+        "tranches": [],
+        "stop_addition": "原支撐失守，不攤平；基本面若下修則取消論點。",
+        "conditional_action": "暫停原20／30／50路徑；至少重新站回330並隔日守住、確認營益率與交付，之後再重估價格區和部位。",
+        "method": "提前布局20／30／50"
+      },
+      "buy_signal": "原左側買訊不成立；等待收盤重新站回330並隔日守住及利潤／交付確認，再研究新區間。",
+      "fundamental_confirmation": "8月營收YoY 177.45%；9月尚未取得有效公告。待9月確認YoY為正，Q3營益率至少守住Q2約3.30%，應收與存貨增速不持續高於營收，且公司交付展望維持。",
+      "position_management": "10/8收盤325.5跌破原328–330且成交量高於前20日均量；先暫停加碼、檢查既有部位，不能把跌更低當較好的買點。",
+      "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
+      "sources": [
+        {
+          "source_id": "2382-202606",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260601&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2382-202607",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2382-202608",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260801&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2382-202609",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2382-202610",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "financial-2026h1",
+          "title": "TWSE／MOPS合併損益彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026H1；出表2026-10-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11501",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11404",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025全年",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11402",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025H1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "twse-month",
+          "title": "TWSE月營收彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08；出表2026-09-17",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "official-pe",
+          "title": "TWSE官方PE／PB",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "quanta-ir",
+          "title": "廣達公司法說資料目錄",
+          "url": "https://www.quantatw.com/quanta/english/investment/financials_icp.aspx",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q2",
+          "claim_type": "fact",
+          "note": "確認Q2資料存在，互動下載未取得內容；不用目錄推定財測或CAPEX。"
+        },
+        {
+          "source_id": "twse-price-2026-10-07",
+          "title": "TWSE個股各日成交資訊：10/7收盤",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "端點提供交易日，未提供原始發布時間",
+          "accessed_at": "2026-10-07T22:21:08+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact"
+        },
+        {
+          "source_id": "twse-v3",
+          "title": "TWSE官方個股各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "官方端點只有交易日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-08",
+          "claim_type": "fact",
+          "note": "10/8官方收盤端點更新不同步；以逐筆日期辨識，尚未更新者不冒充當日價格。"
+        },
+        {
+          "source_id": "twse-pb-v3",
+          "title": "TWSE官方本益比、殖利率與股價淨值比",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "官方僅提供資料日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact",
+          "note": "官方PE／PB與自行TTM及Forward分開，資料日不同不混用。"
+        }
+      ],
+      "missing": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "最新公司法說正文、CAPEX量化與公司財測待補。",
+        "9月營收未取得。"
+      ],
+      "score_reason": "基本面改善潛力依H1營收YoY 86.48%、EPS YoY 37.12%及業外／現金流限制評估，不是舊分數平均。估值／買點依可比估值、訊號與資料缺口獨立判斷；未完整觸發最高6分。",
+      "variant_view": {
+        "market_hypothesis": "市場可能把AI高營收當成高獲利，或只按筆電組裝看待機櫃業務。",
+        "research_hypothesis": "若完整機櫃價值量提高且利潤率守住，獲利可能改善；若增加的只是低毛利代採購，營收成長不轉成EPS。",
+        "confirmation": "營益率、CFO、存貨／應收及驗收比營收YoY更重要，反證尚未排除。"
+      },
+      "candidate_type": "結構成長",
+      "database_screen": {
+        "code": "2382",
+        "name": "廣達",
+        "industry": "電腦及週邊設備業",
+        "h1_revenue_yoy": 86.48,
+        "h1_eps_yoy": 37.12,
+        "eps_turn_positive": false,
+        "monthly_yoy": 177.453640698528,
+        "monthly_period": "2026-08",
+        "h1_gross_margin": 4.92,
+        "return20": -3.33,
+        "priceAsOf": "2026-10-06",
+        "official_pe": 14.53,
+        "official_pe_date": "2026-10-06",
+        "cash": 2689.97147,
+        "previous_cash": 1783.09881,
+        "operating_cashflow": 459.2898,
+        "cashflow_period": "2026 上半年累計",
+        "h1_nonoperating_share": 0.06268480659635389,
+        "flags": [
+          "現金較年底增加；不等於FCF改善"
+        ],
+        "source_urls": [
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2887&companyId=2382&companyId=2360&companyId=2885&companyId=2884",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2887&companyId=2382&companyId=2360&companyId=2885&companyId=2884"
+        ],
+        "database_reviewed_at": "2026-10-03",
+        "candidate": false,
+        "roic": null,
+        "fcf": null
+      },
+      "fundamental_inflection": "H1營收YoY 86.48%、EPS YoY 37.12%；業外占稅前 6.27%。CFO 459.2898億元（2026 上半年累計）；現金 1783.09881→2689.97147億元（2025年底→2026H1）。不同期間不直接比增速；ROIC／FCF未核。",
+      "competition": "產品／獲利來源：電子製造及伺服器組裝毛利；法人營收預估不等於獲利預估。技術、認證、客戶黏著與規模是待持續驗證的競爭力來源；定量市占、切換成本、良率、生產效率、競爭者擴產與替代風險未全面補核，不虛構市占比例或保證護城河。",
+      "reverse_valuation": {
+        "method": "研究PE帶反推可持續EPS，非市場實際預期",
+        "assumption_pe": [
+          12,
+          16
+        ],
+        "implied_eps": [
+          20.34,
+          27.12
+        ],
+        "required_growth_pct": [
+          -11.36,
+          18.19
+        ],
+        "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。"
+      },
+      "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。"
+    },
+    {
+      "code": "6669",
+      "name": "緯穎",
+      "industry": "AI Server／ASIC機櫃／液冷",
+      "updatedAt": "2026-10-08T13:54:43+08:00",
+      "priceAsOf": "2026-10-08",
+      "financialPeriod": "2026Q2單季",
+      "forecastAsOf": null,
+      "reviewedAt": "2026-10-08T13:54:43+08:00",
+      "price": 2240.0,
+      "technical": {
+        "ma": {
+          "5": 2201.0,
+          "10": 2152.5,
+          "20": 2189.75,
+          "60": 2107.12
+        },
+        "volume": 1936000,
+        "average_volume_20": 3721095,
+        "volume_ratio": 0.52,
+        "low20": 2075.0,
+        "high20": 2425.0,
+        "return20": -4.27,
+        "ma20_deviation": 2.29,
+        "price_history": [
+          {
+            "date": "2026-07-15",
+            "volume": 931011.0,
+            "open": 4950.0,
+            "high": 5160.0,
+            "low": 4870.0,
+            "close": 5095.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-16",
+            "volume": 638034.0,
+            "open": 5090.0,
+            "high": 5130.0,
+            "low": 5000.0,
+            "close": 5115.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-17",
+            "volume": 1627532.0,
+            "open": 4900.0,
+            "high": 4995.0,
+            "low": 4620.0,
+            "close": 4620.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-20",
+            "volume": 1414812.0,
+            "open": 4725.0,
+            "high": 4845.0,
+            "low": 4635.0,
+            "close": 4685.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-21",
+            "volume": 1129418.0,
+            "open": 4825.0,
+            "high": 5045.0,
+            "low": 4825.0,
+            "close": 5000.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-22",
+            "volume": 3846206.0,
+            "open": 5195.0,
+            "high": 5500.0,
+            "low": 5145.0,
+            "close": 5500.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-23",
+            "volume": 2391713.0,
+            "open": 5470.0,
+            "high": 5675.0,
+            "low": 5410.0,
+            "close": 5470.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-24",
+            "volume": 3046640.0,
+            "open": 5395.0,
+            "high": 5835.0,
+            "low": 5375.0,
+            "close": 5730.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-27",
+            "volume": 1821304.0,
+            "open": 5700.0,
+            "high": 5780.0,
+            "low": 5480.0,
+            "close": 5745.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-28",
+            "volume": 1907626.0,
+            "open": 5455.0,
+            "high": 5540.0,
+            "low": 5280.0,
+            "close": 5315.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-29",
+            "volume": 2854613.0,
+            "open": 5430.0,
+            "high": 5475.0,
+            "low": 4940.0,
+            "close": 5135.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-30",
+            "volume": 2283686.0,
+            "open": 5055.0,
+            "high": 5185.0,
+            "low": 4865.0,
+            "close": 4900.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-31",
+            "volume": 1458695.0,
+            "open": 5390.0,
+            "high": 5390.0,
+            "low": 5300.0,
+            "close": 5390.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-03",
+            "volume": 3349246.0,
+            "open": 5530.0,
+            "high": 5925.0,
+            "low": 5475.0,
+            "close": 5925.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-04",
+            "volume": 2967872.0,
+            "open": 5935.0,
+            "high": 6385.0,
+            "low": 5800.0,
+            "close": 6205.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-05",
+            "volume": 2205262.0,
+            "open": 6265.0,
+            "high": 6400.0,
+            "low": 6130.0,
+            "close": 6175.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-06",
+            "volume": 1342305.0,
+            "open": 6160.0,
+            "high": 6275.0,
+            "low": 6050.0,
+            "close": 6265.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-07",
+            "volume": 1427158.0,
+            "open": 6155.0,
+            "high": 6265.0,
+            "low": 6025.0,
+            "close": 6100.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-10",
+            "volume": 1653053.0,
+            "open": 6215.0,
+            "high": 6225.0,
+            "low": 5990.0,
+            "close": 6010.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-11",
+            "volume": 1723431.0,
+            "open": 6040.0,
+            "high": 6050.0,
+            "low": 5855.0,
+            "close": 5930.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-12",
+            "volume": 1113635.0,
+            "open": 5905.0,
+            "high": 6140.0,
+            "low": 5900.0,
+            "close": 6025.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-13",
+            "volume": 1340105.0,
+            "open": 6095.0,
+            "high": 6195.0,
+            "low": 6020.0,
+            "close": 6070.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-14",
+            "volume": 2596938.0,
+            "open": 6145.0,
+            "high": 6650.0,
+            "low": 6140.0,
+            "close": 6435.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-17",
+            "volume": 1483462.0,
+            "open": 6585.0,
+            "high": 6740.0,
+            "low": 6420.0,
+            "close": 6620.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-18",
+            "volume": 1657408.0,
+            "open": 6595.0,
+            "high": 6650.0,
+            "low": 6285.0,
+            "close": 6400.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-19",
+            "volume": 1289214.0,
+            "open": 6190.0,
+            "high": 6425.0,
+            "low": 6190.0,
+            "close": 6375.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-20",
+            "volume": 955211.0,
+            "open": 6435.0,
+            "high": 6475.0,
+            "low": 6245.0,
+            "close": 6325.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-21",
+            "volume": 762579.0,
+            "open": 6285.0,
+            "high": 6445.0,
+            "low": 6230.0,
+            "close": 6255.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-24",
+            "volume": 922282.0,
+            "open": 6300.0,
+            "high": 6410.0,
+            "low": 6205.0,
+            "close": 6300.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-25",
+            "volume": 1168231.0,
+            "open": 6225.0,
+            "high": 6440.0,
+            "low": 6125.0,
+            "close": 6440.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-26",
+            "volume": 1898480.0,
+            "open": 6325.0,
+            "high": 6925.0,
+            "low": 6300.0,
+            "close": 6785.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-27",
+            "volume": 1479152.0,
+            "open": 6770.0,
+            "high": 6960.0,
+            "low": 6735.0,
+            "close": 6815.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-28",
+            "volume": 1993578.0,
+            "open": 6965.0,
+            "high": 7245.0,
+            "low": 6835.0,
+            "close": 7200.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-31",
+            "volume": 1921970.0,
+            "open": 7100.0,
+            "high": 7360.0,
+            "low": 7035.0,
+            "close": 7095.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "volume": 2855090.0,
+            "open": 7115.0,
+            "high": 7800.0,
+            "low": 7050.0,
+            "close": 7800.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "volume": 10869612.0,
+            "open": 2790.0,
+            "high": 2875.0,
+            "low": 2585.0,
+            "close": 2610.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-03",
+            "volume": 5153604.0,
+            "open": 2605.0,
+            "high": 2630.0,
+            "low": 2475.0,
+            "close": 2475.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-04",
+            "volume": 4361234.0,
+            "open": 2505.0,
+            "high": 2570.0,
+            "low": 2485.0,
+            "close": 2565.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-07",
+            "volume": 5526691.0,
+            "open": 2525.0,
+            "high": 2545.0,
+            "low": 2390.0,
+            "close": 2490.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-08",
+            "volume": 5080716.0,
+            "open": 2455.0,
+            "high": 2485.0,
+            "low": 2315.0,
+            "close": 2340.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-09",
+            "volume": 5055743.0,
+            "open": 2355.0,
+            "high": 2425.0,
+            "low": 2320.0,
+            "close": 2325.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-10",
+            "volume": 2793152.0,
+            "open": 2295.0,
+            "high": 2380.0,
+            "low": 2270.0,
+            "close": 2345.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-11",
+            "volume": 1896940.0,
+            "open": 2290.0,
+            "high": 2335.0,
+            "low": 2285.0,
+            "close": 2310.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-14",
+            "volume": 1985361.0,
+            "open": 2315.0,
+            "high": 2315.0,
+            "low": 2240.0,
+            "close": 2270.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-15",
+            "volume": 2767688.0,
+            "open": 2235.0,
+            "high": 2345.0,
+            "low": 2235.0,
+            "close": 2315.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-16",
+            "volume": 9125545.0,
+            "open": 2305.0,
+            "high": 2320.0,
+            "low": 2085.0,
+            "close": 2165.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-17",
+            "volume": 5761930.0,
+            "open": 2175.0,
+            "high": 2260.0,
+            "low": 2135.0,
+            "close": 2135.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-18",
+            "volume": 4839353.0,
+            "open": 2195.0,
+            "high": 2195.0,
+            "low": 2115.0,
+            "close": 2140.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-21",
+            "volume": 3304766.0,
+            "open": 2180.0,
+            "high": 2190.0,
+            "low": 2110.0,
+            "close": 2150.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-22",
+            "volume": 6260344.0,
+            "open": 2155.0,
+            "high": 2180.0,
+            "low": 2090.0,
+            "close": 2115.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-23",
+            "volume": 2904191.0,
+            "open": 2135.0,
+            "high": 2140.0,
+            "low": 2095.0,
+            "close": 2105.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-24",
+            "volume": 3554942.0,
+            "open": 2110.0,
+            "high": 2140.0,
+            "low": 2075.0,
+            "close": 2115.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-29",
+            "volume": 1642771.0,
+            "open": 2105.0,
+            "high": 2125.0,
+            "low": 2085.0,
+            "close": 2100.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-30",
+            "volume": 1887580.0,
+            "open": 2130.0,
+            "high": 2145.0,
+            "low": 2090.0,
+            "close": 2090.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-01",
+            "open": 2095.0,
+            "high": 2115.0,
+            "low": 2095.0,
+            "close": 2110.0,
+            "volume": 1259173
+          },
+          {
+            "date": "2026-10-02",
+            "open": 2115.0,
+            "high": 2125.0,
+            "low": 2080.0,
+            "close": 2085.0,
+            "volume": 2329609
+          },
+          {
+            "date": "2026-10-05",
+            "open": 2115.0,
+            "high": 2170.0,
+            "low": 2095.0,
+            "close": 2150.0,
+            "volume": 3007826
+          },
+          {
+            "date": "2026-10-06",
+            "open": 2200.0,
+            "high": 2335.0,
+            "low": 2185.0,
+            "close": 2290.0,
+            "volume": 5292477
+          },
+          {
+            "date": "2026-10-07",
+            "open": 2300.0,
+            "high": 2310.0,
+            "low": 2235.0,
+            "close": 2240.0,
+            "volume": 3671800
+          },
+          {
+            "date": "2026-10-08",
+            "open": 2230.0,
+            "high": 2270.0,
+            "low": 2200.0,
+            "close": 2240.0,
+            "volume": 1936000
+          }
+        ],
+        "basis": "TWSE收盤；9/2前價格除以2.9827946，9/2起實際成交價，已按官方股票股利還原；未還原其他現金股息，非含息總報酬。",
+        "corporate_action_adjustment": {
+          "date": "2026-09-02",
+          "factor": 2.9827946,
+          "stock_dividend_per_1000": 1982.7946,
+          "source_ids": [
+            "wiwynn-final-rate",
+            "wiwynn-post-rights",
+            "twse-rights-result"
+          ],
+          "applies_to": "9/2前60日窗口價格；20日量價窗口均在除權後"
+        }
+      },
+      "financial": {
+        "period": "2026Q2單季",
+        "eps": 80.43,
+        "gross_margin": 9.26,
+        "operating_margin": 7.27,
+        "revenue_twd_thousand": 278152592.0,
+        "eps_basis": "2026H1累計EPS − 2026Q1累計EPS；四捨五入可能差0.01元",
+        "ttm_eps": null,
+        "ttm_period": "2025Q3–2026Q2",
+        "ttm_formula": "2025全年 + 2026H1 − 2025H1",
+        "h1_eps": 156.38,
+        "h1_eps_growth": 32.6,
+        "eps_comparability_note": "Q2及H1為股票股利前公司原公告EPS；最終配股率已核，但重編／可比EPS仍待核，不直接拿舊TTM算現股數PE。"
+      },
+      "monthly": {
+        "period": "2026-08",
+        "revenue_twd_thousand": 144311808.0,
+        "yoy": 50.35813251850269,
+        "cumulative_yoy": 42.79572821857782,
+        "basis": "合併新台幣營收，非訂單或產能",
+        "published_at": null,
+        "latest_missing_reason": "MOPS個別9月查詢無有效數值；本次官方彙總仍8月，保留8月，9月不猜測。"
+      },
+      "valuation": {
+        "ttm_pe": null,
+        "official_pe": 7.18,
+        "official_pe_date": "2026-10-07",
+        "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
+        "forward_pe": null,
+        "forward_year": null,
+        "forward_next_year_pe": null,
+        "consensus": null,
+        "consensus_missing_reason": "未取得同時可驗證發布日、年度、涵蓋人數、EPS口徑的近期共識；不以媒體個別預估或自算EPS充當consensus。",
+        "reasonable_ttm_pe_range": null,
+        "reasonable_ttm_price_range": null,
+        "assumption": "最終配股率與除權調整已核；公司重編EPS與可轉債加權股數仍待核對，禁止用原313.51元TTM直接算PE。",
+        "classification": "不能判斷",
+        "assumption_type": "research_inference",
+        "official_pb": 3.05
+      },
+      "position": {
+        "role": "Watchlist",
+        "weight_range_pct": [
+          0,
+          0
+        ],
+        "stage": "右側反彈初段待確認；可比EPS仍缺",
+        "new_position": "資料不足，等待"
+      },
+      "scores": {
+        "industry": 8,
+        "quality": 8,
+        "improvement": 7,
+        "valuation_entry": 2,
+        "confidence": 4
+      },
+      "thesis": "營運動能成立，除權率與調整均線已補核；可比EPS仍待公司重編核對，尚不建立買點。",
+      "growth_1to3y": "1–3年看CSP自研ASIC機櫃及全球供應鏈在地化；美國新增產能須待利用率與交付證據，投資不等於新訂單。",
+      "market_expectations": "市場期待CSP需求強勁和新產能利用；4月起部分客戶記憶體改代採購，營收與毛利率比較必須重看分母。",
+      "price_in": "官方PE仍為10/6舊欄值，不能與10/7除權後2240及舊313.51元TTM混算。已核每千股配1982.79460股，但未取得完整可比重編EPS，估值仍不能判斷。",
+      "holding_strategy": "維持Watchlist、不建倉；2240在調整後20／60日線上方，但不能因技術反彈或官方低PE加碼。已有持股核對除權後成本與股數。",
+      "risk": "可比EPS／可轉債股數、CSP集中、CAPEX與現金流仍有缺口；已解決配股率與60日價格口徑，不代表建倉條件成立。",
+      "thesis_failure": "CSP主要客戶需求下修，新廠利用率不及預期且營運現金流惡化；毛利率上升僅來自代採購分母縮小，毛利金額或本業利潤轉弱。",
+      "prices": {
+        "first_attention": null,
+        "best_entry": null,
+        "breakout": null,
+        "asOf": "2026-10-07",
+        "valid_until": "2026-10-12T00:00:00+08:00",
+        "validity_rule": "最遲至本週結束；新收盤、除權息或實質基本面變化即須重新檢驗。只供條件觀察，非限價買單。",
+        "reason": "除權率及60日調整已核，可比EPS仍缺，估值支撐交集不能判斷；三個價格仍null。",
+        "derivation": {
+          "first": "以近期均線與價量支撐設定觀察區；高估值個股此區不等於買區。",
+          "best": "最終配股率與除權調整已核；公司重編EPS與可轉債加權股數仍待核對，禁止用原313.51元TTM直接算PE。",
+          "breakout": "調整後價量已核；可比EPS與基本面確認仍不足，暫不建立有效突破買點。"
+        },
+        "invalidation": "CSP主要客戶需求下修，新廠利用率不及預期且營運現金流惡化；毛利率上升僅來自代採購分母縮小，毛利金額或本業利潤轉弱。"
+      },
+      "building_plan": {
+        "current_action": "按兵不動，尚不建倉",
+        "target_basis": "比例以預定目標部位計算，非全部資金；共同AI因子與現金限制仍適用。",
+        "tranches": [],
+        "stop_addition": "任一買點失效或基本面確認不成立，停止後續批次並重估；不因跌價自動攤平。",
+        "conditional_action": "目前不提供分批建倉；取得可比重編EPS與加權股數口徑後重評。",
+        "method": "右側確認30／30／40"
+      },
+      "buy_signal": "配股率與調整價量已核，但可比EPS缺漏使估值／買點仍不能判斷；第一、最佳及突破價仍留null。",
+      "fundamental_confirmation": "最終配股率與除權調整60日線已核；下一步取得可比重編EPS及可轉債加權股數口徑，並確認代採購後毛利金額、訂單交付與新廠利用率。",
+      "position_management": "先核對除權後股數與可比財報；不使用固定跌幅作thesis失效。",
+      "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
+      "sources": [
+        {
+          "source_id": "6669-202606",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260601&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "6669-202607",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "6669-202608",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260801&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "6669-202609",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "6669-202610",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "financial-2026h1",
+          "title": "TWSE／MOPS合併損益彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026H1；出表2026-10-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11501",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11404",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025全年",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11402",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025H1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "twse-month",
+          "title": "TWSE月營收彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08；出表2026-09-17",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "official-pe",
+          "title": "TWSE官方PE／PB",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "wiwynn-q2",
+          "title": "緯穎公司財務／投資人資訊",
+          "url": "https://www.wiwynn.com/zh/investors",
+          "published_at": "2026-08-07",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q2／2026H2",
+          "claim_type": "fact",
+          "note": "Q2毛利率有代採購分母與NRE影響；H2資本預算9.42億美元屬公司投資計畫。"
+        },
+        {
+          "source_id": "wiwynn-right",
+          "title": "緯穎除權基準公告（MOPS轉載）",
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0bd9f0dd-f4af-444a-83a4-bcde3c7f2540&c=MB06",
+          "published_at": "2026-08-07",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09-02",
+          "claim_type": "fact",
+          "note": "8/7配股率不等於最終配股率；最終調整待補。"
+        },
+        {
+          "source_id": "twse-price-2026-10-07",
+          "title": "TWSE個股各日成交資訊：10/7收盤",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "端點提供交易日，未提供原始發布時間",
+          "accessed_at": "2026-10-07T22:21:08+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact"
+        },
+        {
+          "title": "MOPS緯穎最終配股率調整公告",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?encodeURIComponent=1&step=2&firstin=1&off=1&TYPEK=sii&co_id=6669&year=115&month=08&seq_no=1&spoke_time=144120&spoke_date=20260814",
+          "published_at": "2026-08-14T14:41:20+08:00",
+          "accessed_at": "2026-10-07T13:31:40+08:00",
+          "data_period": "2025年度股票股利／2026-09-02除權",
+          "claim_type": "fact",
+          "source_id": "wiwynn-final-rate"
+        },
+        {
+          "title": "MOPS除權後畸零股公告再次確認配股率",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?encodeURIComponent=1&step=2&firstin=1&off=1&TYPEK=sii&co_id=6669&year=115&month=09&seq_no=3&spoke_time=224502&spoke_date=20260908",
+          "published_at": "2026-09-08T22:45:02+08:00",
+          "accessed_at": "2026-10-07T13:31:40+08:00",
+          "data_period": "2026-09-08",
+          "claim_type": "fact",
+          "source_id": "wiwynn-post-rights"
+        },
+        {
+          "title": "TWSE 9/2除權結果",
+          "url": "https://www.twse.com.tw/exchangeReport/TWT49U?response=json&startDate=20260902&endDate=20260902",
+          "published_at": null,
+          "published_at_reason": "端點提供資料日期，無原始發布時間",
+          "accessed_at": "2026-10-07T13:31:40+08:00",
+          "data_period": "2026-09-02",
+          "claim_type": "fact",
+          "source_id": "twse-rights-result"
+        },
+        {
+          "source_id": "twse-v3",
+          "title": "TWSE官方個股各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "官方端點只有交易日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-08",
+          "claim_type": "fact",
+          "note": "10/8官方收盤端點更新不同步；以逐筆日期辨識，尚未更新者不冒充當日價格。"
+        },
+        {
+          "source_id": "twse-pb-v3",
+          "title": "TWSE官方本益比、殖利率與股價淨值比",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "官方僅提供資料日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact",
+          "note": "官方PE／PB與自行TTM及Forward分開，資料日不同不混用。"
+        }
+      ],
+      "missing": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "9月營收未取得。",
+        "可比重編EPS／可轉債轉換與加權股數口徑待補；最終配股率及60日均線已核。"
+      ],
+      "score_reason": "基本面改善潛力依H1營收YoY 41.71%、EPS YoY 32.6%及業外／現金流限制評估，不是舊分數平均。估值／買點依可比估值、訊號與資料缺口獨立判斷；未完整觸發最高6分。",
+      "variant_view": {
+        "market_hypothesis": "官方低PE可能使市場誤認為便宜，或把代採購分母下降當作全面利潤率改善。",
+        "research_hypothesis": "重編EPS與加權股數確認後才知道真實估值；要看毛利金額而非僅毛利率。",
+        "confirmation": "這是口徑風險，不是可交易Alpha；三種入場價繼續留缺。"
+      },
+      "candidate_type": "結構成長",
+      "database_screen": {
+        "code": "6669",
+        "name": "緯穎",
+        "industry": "電腦及週邊設備業",
+        "h1_revenue_yoy": 41.71,
+        "h1_eps_yoy": 32.6,
+        "eps_turn_positive": false,
+        "monthly_yoy": 50.35813251850269,
+        "monthly_period": "2026-08",
+        "h1_gross_margin": 8.41,
+        "return20": -10.72,
+        "priceAsOf": "2026-10-06",
+        "official_pe": 7.34,
+        "official_pe_date": "2026-10-06",
+        "cash": 853.30206,
+        "previous_cash": 899.33848,
+        "operating_cashflow": -615.67715,
+        "cashflow_period": "2026 上半年累計",
+        "h1_nonoperating_share": -0.0208135696583198,
+        "flags": [],
+        "source_urls": [
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2408&companyId=2059&companyId=2357&companyId=6669&companyId=3443",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2408&companyId=2059&companyId=2357&companyId=6669&companyId=3443"
+        ],
+        "database_reviewed_at": "2026-10-03",
+        "candidate": false,
+        "roic": null,
+        "fcf": null
+      },
+      "fundamental_inflection": "H1營收YoY 41.71%、EPS YoY 32.6%；業外占稅前 -2.08%。CFO -615.67715億元（2026 上半年累計）；現金 899.33848→853.30206億元（2025年底→2026H1）。不同期間不直接比增速；ROIC／FCF未核。",
+      "competition": "產品／獲利來源：資料中心系統設計製造毛利；非直接出售雲端運算服務。技術、認證、客戶黏著與規模是待持續驗證的競爭力來源；定量市占、切換成本、良率、生產效率、競爭者擴產與替代風險未全面補核，不虛構市占比例或保證護城河。",
+      "reverse_valuation": {
+        "method": "研究PE帶反推可持續EPS，非市場實際預期",
+        "assumption_pe": null,
+        "implied_eps": null,
+        "required_growth_pct": null,
+        "reason": "正常化EPS或合理倍數不足，反推值留缺；不是以官方PE倒算未來EPS。"
+      },
+      "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。"
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "industry": "先進封裝／CoWoS供應鏈／測試",
+      "updatedAt": "2026-10-08T13:54:43+08:00",
+      "priceAsOf": "2026-10-08",
+      "financialPeriod": "2026Q2單季",
+      "forecastAsOf": null,
+      "reviewedAt": "2026-10-08T13:54:43+08:00",
+      "price": 744.0,
+      "technical": {
+        "ma": {
+          "5": 735.0,
+          "10": 716.7,
+          "20": 674.6,
+          "60": 626.82
+        },
+        "volume": 15094000,
+        "average_volume_20": 15206529,
+        "volume_ratio": 0.99,
+        "low20": 592.0,
+        "high20": 758.0,
+        "return20": 20.39,
+        "ma20_deviation": 10.29,
+        "price_history": [
+          {
+            "date": "2026-07-15",
+            "volume": 26452521.0,
+            "open": 660.0,
+            "high": 696.0,
+            "low": 654.0,
+            "close": 683.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-16",
+            "volume": 21801574.0,
+            "open": 679.0,
+            "high": 694.0,
+            "low": 668.0,
+            "close": 682.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-17",
+            "volume": 27892135.0,
+            "open": 625.0,
+            "high": 635.0,
+            "low": 614.0,
+            "close": 614.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-20",
+            "volume": 30646403.0,
+            "open": 588.0,
+            "high": 617.0,
+            "low": 577.0,
+            "close": 597.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-21",
+            "volume": 15573369.0,
+            "open": 610.0,
+            "high": 634.0,
+            "low": 609.0,
+            "close": 633.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-22",
+            "volume": 22726328.0,
+            "open": 668.0,
+            "high": 673.0,
+            "low": 652.0,
+            "close": 656.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-23",
+            "volume": 15052087.0,
+            "open": 656.0,
+            "high": 665.0,
+            "low": 637.0,
+            "close": 649.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-24",
+            "volume": 17595449.0,
+            "open": 633.0,
+            "high": 636.0,
+            "low": 609.0,
+            "close": 613.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-27",
+            "volume": 16184191.0,
+            "open": 601.0,
+            "high": 613.0,
+            "low": 590.0,
+            "close": 608.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-28",
+            "volume": 28705046.0,
+            "open": 570.0,
+            "high": 582.0,
+            "low": 551.0,
+            "close": 554.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-29",
+            "volume": 23571701.0,
+            "open": 538.0,
+            "high": 547.0,
+            "low": 499.0,
+            "close": 499.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-30",
+            "volume": 31004999.0,
+            "open": 465.5,
+            "high": 533.0,
+            "low": 465.5,
+            "close": 505.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-31",
+            "volume": 8045972.0,
+            "open": 555.0,
+            "high": 555.0,
+            "low": 555.0,
+            "close": 555.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-03",
+            "volume": 16977392.0,
+            "open": 610.0,
+            "high": 610.0,
+            "low": 592.0,
+            "close": 610.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-04",
+            "volume": 52645565.0,
+            "open": 606.0,
+            "high": 606.0,
+            "low": 573.0,
+            "close": 585.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-05",
+            "volume": 32968894.0,
+            "open": 620.0,
+            "high": 624.0,
+            "low": 588.0,
+            "close": 593.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-06",
+            "volume": 17543701.0,
+            "open": 585.0,
+            "high": 597.0,
+            "low": 574.0,
+            "close": 595.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-07",
+            "volume": 13050125.0,
+            "open": 605.0,
+            "high": 610.0,
+            "low": 578.0,
+            "close": 585.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-10",
+            "volume": 28684678.0,
+            "open": 602.0,
+            "high": 641.0,
+            "low": 601.0,
+            "close": 630.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-11",
+            "volume": 19343138.0,
+            "open": 629.0,
+            "high": 632.0,
+            "low": 610.0,
+            "close": 629.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-12",
+            "volume": 17345961.0,
+            "open": 633.0,
+            "high": 634.0,
+            "low": 619.0,
+            "close": 621.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-13",
+            "volume": 19383393.0,
+            "open": 627.0,
+            "high": 638.0,
+            "low": 623.0,
+            "close": 626.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-14",
+            "volume": 16941503.0,
+            "open": 635.0,
+            "high": 635.0,
+            "low": 608.0,
+            "close": 616.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-17",
+            "volume": 21459779.0,
+            "open": 626.0,
+            "high": 643.0,
+            "low": 615.0,
+            "close": 615.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-18",
+            "volume": 20070634.0,
+            "open": 630.0,
+            "high": 634.0,
+            "low": 596.0,
+            "close": 599.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-19",
+            "volume": 22448357.0,
+            "open": 568.0,
+            "high": 596.0,
+            "low": 564.0,
+            "close": 588.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-20",
+            "volume": 21349397.0,
+            "open": 580.0,
+            "high": 591.0,
+            "low": 568.0,
+            "close": 590.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-21",
+            "volume": 12861208.0,
+            "open": 589.0,
+            "high": 593.0,
+            "low": 579.0,
+            "close": 587.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-24",
+            "volume": 7820797.0,
+            "open": 586.0,
+            "high": 601.0,
+            "low": 585.0,
+            "close": 592.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-25",
+            "volume": 12209029.0,
+            "open": 582.0,
+            "high": 591.0,
+            "low": 569.0,
+            "close": 591.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-26",
+            "volume": 12219806.0,
+            "open": 580.0,
+            "high": 593.0,
+            "low": 575.0,
+            "close": 592.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-27",
+            "volume": 11658860.0,
+            "open": 608.0,
+            "high": 608.0,
+            "low": 593.0,
+            "close": 605.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-28",
+            "volume": 18575826.0,
+            "open": 608.0,
+            "high": 630.0,
+            "low": 606.0,
+            "close": 621.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-31",
+            "volume": 33186077.0,
+            "open": 601.0,
+            "high": 601.0,
+            "low": 565.0,
+            "close": 584.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "volume": 26066376.0,
+            "open": 588.0,
+            "high": 615.0,
+            "low": 582.0,
+            "close": 610.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "volume": 17467250.0,
+            "open": 599.0,
+            "high": 607.0,
+            "low": 587.0,
+            "close": 589.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-03",
+            "volume": 11637807.0,
+            "open": 595.0,
+            "high": 605.0,
+            "low": 585.0,
+            "close": 589.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-04",
+            "volume": 15751048.0,
+            "open": 600.0,
+            "high": 603.0,
+            "low": 578.0,
+            "close": 588.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-07",
+            "volume": 27604665.0,
+            "open": 600.0,
+            "high": 628.0,
+            "low": 600.0,
+            "close": 621.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-08",
+            "volume": 13336567.0,
+            "open": 619.0,
+            "high": 623.0,
+            "low": 608.0,
+            "close": 618.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-09",
+            "volume": 22954710.0,
+            "open": 621.0,
+            "high": 645.0,
+            "low": 621.0,
+            "close": 640.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-10",
+            "volume": 17451304.0,
+            "open": 641.0,
+            "high": 653.0,
+            "low": 635.0,
+            "close": 650.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-11",
+            "volume": 22695774.0,
+            "open": 630.0,
+            "high": 630.0,
+            "low": 605.0,
+            "close": 618.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-14",
+            "volume": 9475938.0,
+            "open": 599.0,
+            "high": 620.0,
+            "low": 596.0,
+            "close": 612.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-15",
+            "volume": 14790324.0,
+            "open": 601.0,
+            "high": 608.0,
+            "low": 592.0,
+            "close": 592.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-16",
+            "volume": 9509979.0,
+            "open": 599.0,
+            "high": 610.0,
+            "low": 597.0,
+            "close": 605.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-17",
+            "volume": 11193901.0,
+            "open": 615.0,
+            "high": 628.0,
+            "low": 612.0,
+            "close": 614.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-18",
+            "volume": 27928565.0,
+            "open": 631.0,
+            "high": 643.0,
+            "low": 627.0,
+            "close": 638.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-21",
+            "volume": 17093063.0,
+            "open": 655.0,
+            "high": 674.0,
+            "low": 655.0,
+            "close": 663.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-22",
+            "volume": 24987417.0,
+            "open": 691.0,
+            "high": 711.0,
+            "low": 690.0,
+            "close": 693.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-23",
+            "volume": 15367865.0,
+            "open": 710.0,
+            "high": 711.0,
+            "low": 689.0,
+            "close": 693.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-24",
+            "volume": 10964118.0,
+            "open": 685.0,
+            "high": 699.0,
+            "low": 680.0,
+            "close": 699.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-29",
+            "volume": 14276948.0,
+            "open": 685.0,
+            "high": 693.0,
+            "low": 678.0,
+            "close": 687.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-30",
+            "volume": 14687120.0,
+            "open": 716.0,
+            "high": 723.0,
+            "low": 703.0,
+            "close": 703.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-01",
+            "open": 700.0,
+            "high": 710.0,
+            "low": 693.0,
+            "close": 710.0,
+            "volume": 8885905
+          },
+          {
+            "date": "2026-10-02",
+            "open": 711.0,
+            "high": 722.0,
+            "low": 704.0,
+            "close": 713.0,
+            "volume": 12603412
+          },
+          {
+            "date": "2026-10-05",
+            "open": 747.0,
+            "high": 758.0,
+            "low": 729.0,
+            "close": 742.0,
+            "volume": 17970212
+          },
+          {
+            "date": "2026-10-06",
+            "open": 743.0,
+            "high": 755.0,
+            "low": 733.0,
+            "close": 744.0,
+            "volume": 9721735
+          },
+          {
+            "date": "2026-10-07",
+            "open": 735.0,
+            "high": 748.0,
+            "low": 728.0,
+            "close": 732.0,
+            "volume": 8235725
+          },
+          {
+            "date": "2026-10-08",
+            "open": 732.0,
+            "high": 752.0,
+            "low": 715.0,
+            "close": 744.0,
+            "volume": 15094000
+          }
+        ],
+        "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
+      },
+      "financial": {
+        "period": "2026Q2單季",
+        "eps": 4.8,
+        "gross_margin": 21.0,
+        "operating_margin": 11.04,
+        "revenue_twd_thousand": 191063522.0,
+        "eps_basis": "2026H1累計EPS − 2026Q1累計EPS；四捨五入可能差0.01元",
+        "ttm_eps": 13.93,
+        "ttm_period": "2025Q3–2026Q2",
+        "ttm_formula": "2025全年 + 2026H1 − 2025H1",
+        "h1_eps": 8.04,
+        "h1_eps_growth": 131.03,
+        "eps_comparability_note": "本次以MOPS可比累計重算；後續重編需再核對。"
+      },
+      "monthly": {
+        "period": "2026-08",
+        "revenue_twd_thousand": 82247374.0,
+        "yoy": 45.65918579706578,
+        "cumulative_yoy": 27.977969181023816,
+        "basis": "合併新台幣營收，非訂單或產能",
+        "published_at": null,
+        "latest_missing_reason": "MOPS個別9月查詢無有效數值；本次官方彙總仍8月，保留8月，9月不猜測。"
+      },
+      "valuation": {
+        "ttm_pe": 53.41,
+        "official_pe": 52.97,
+        "official_pe_date": "2026-10-07",
+        "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
+        "forward_pe": null,
+        "forward_year": null,
+        "forward_next_year_pe": null,
+        "consensus": null,
+        "consensus_missing_reason": "未取得同時可驗證發布日、年度、涵蓋人數、EPS口徑的近期共識；不以媒體個別預估或自算EPS充當consensus。",
+        "reasonable_ttm_pe_range": [
+          25,
+          40
+        ],
+        "reasonable_ttm_price_range": [
+          348.25,
+          557.2
+        ],
+        "assumption": "25–40倍TTM已包含先進封裝溢價；近期最低592仍約42.5倍，無可驗證支撐落入此帶。",
+        "classification": "高",
+        "assumption_type": "research_inference",
+        "official_pb": 8.27
+      },
+      "position": {
+        "role": "Avoid Chasing",
+        "weight_range_pct": [
+          0,
+          0
+        ],
+        "stage": "右側後段／偏熱",
+        "new_position": "等待條件確認；目前未發出買進指令"
+      },
+      "scores": {
+        "industry": 9,
+        "quality": 8,
+        "improvement": 7,
+        "valuation_entry": 3,
+        "confidence": 5
+      },
+      "thesis": "成立。AI封裝／測試成長改善獲利，但公司含EMS，不能把所有營收視為CoWoS。",
+      "growth_1to3y": "1–3年關注先進封裝與測試利用率、良率和投資回收；封裝擴張的折舊壓力與成熟製程需求會影響利潤。",
+      "market_expectations": "市場已預期先進封裝加速；還需要驗證新產能的收入、毛利與現金回收，擴廠支出本身不是盈利。",
+      "price_in": "10/7自行TTM PE 52.55倍，研究TTM合理帶25–40倍；20日漲跌17.87%，距MA20 9.53%；可靠近期Forward共識仍未補齊。高成長不直接等於好買點。",
+      "holding_strategy": "續抱但不加碼；權重過大可逢強減碼，保留先進封裝核心thesis再評估。",
+      "risk": "估值重評、擴產折舊、封裝與EMS混合口徑、景氣及客戶交付。",
+      "thesis_failure": "先進封裝擴產轉收入遲緩且折舊壓低本業利潤；客戶轉單或成熟封裝長期走弱，連續2季利用率／營益率下降。",
+      "prices": {
+        "first_attention": [
+          711,
+          729
+        ],
+        "best_entry": null,
+        "breakout": 759,
+        "asOf": "2026-10-07",
+        "valid_until": "2026-10-12T00:00:00+08:00",
+        "validity_rule": "觀察價推導基準仍為10/7；最新收盤為2026-10-08，只有舊支撐壓力仍成立才保留，不能稱新買訊。新股價未完整驗證全部條件，仍按兵不動。",
+        "reason": "近期支撐與研究估值帶無交集，最佳布局留null。",
+        "derivation": {
+          "first": "10/7 MA5=728.2、MA10=711.6、MA20=668.3、MA60=625.1及近期支撐；取可成交級距。高估值股第一關注不是買区。",
+          "best": "25–40倍TTM已包含先進封裝溢價；近期最低592仍約42.5倍，無可驗證支撐落入此帶。",
+          "breakout": "目前20日最高758.0元之上下一個TWSE有效價格跳動1元；更新後759元。"
+        },
+        "invalidation": "先進封裝擴產轉收入遲緩且折舊壓低本業利潤；客戶轉單或成熟封裝長期走弱，連續2季利用率／營益率下降。"
+      },
+      "building_plan": {
+        "current_action": "按兵不動，尚不建倉",
+        "target_basis": "比例以預定目標部位計算，非全部資金；共同AI因子與現金限制仍適用。",
+        "tranches": [],
+        "stop_addition": "任一買點失效或基本面確認不成立，停止後續批次並重估；不因跌價自動攤平。",
+        "conditional_action": "目前不提供分批建倉；先等估值與支撐重新形成交集並重評；突破價只用於觀察，不是建倉授權。",
+        "method": "右側確認30／30／40"
+      },
+      "buy_signal": "第一關注711–729；回測量≤此前20日均量0.8倍（本版約12,939,981股），低點連2日不破，收盤重站729。右側收盤達到或高於759，量>此前20日均量（本版16,174,976股），隔日收盤不跌回759；基本面確認須同時成立。高估值者先重估，不能只靠突破買進。 本股近期支撐與估值無交集，最佳入場區未成立；突破僅觀察。",
+      "fundamental_confirmation": "下次營收YoY仍正，Q3封裝測試／合併營益率維持或優於Q2約11%；需直接公司證據確認先進封裝交付及利用率，最新CAPEX與年度指引尚待補核。",
+      "position_management": "買點失效：突破後隔日收盤低於759，取消該突破訊號；回測跌破592，停止原支撐布局並重評。有效跌破：連2日收盤低於592且至少1日量≥20日均量，或單日跌破且量≥1.5倍均量、隔日未收復；停止加碼／縮減戰術部位，不自動認定核心thesis失效。",
+      "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
+      "sources": [
+        {
+          "source_id": "3711-202606",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260601&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3711-202607",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3711-202608",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260801&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3711-202609",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3711-202610",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "financial-2026h1",
+          "title": "TWSE／MOPS合併損益彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026H1；出表2026-10-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11501",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11404",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025全年",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11402",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025H1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "twse-month",
+          "title": "TWSE月營收彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08；出表2026-09-17",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "official-pe",
+          "title": "TWSE官方PE／PB",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "ase-ir",
+          "title": "日月光投控投資人頁",
+          "url": "https://ir.aseglobal.com/",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q2",
+          "claim_type": "fact",
+          "note": "本次403，最新法說指引與CAPEX不能確認，保留待補。"
+        },
+        {
+          "source_id": "twse-price-2026-10-07",
+          "title": "TWSE個股各日成交資訊：10/7收盤",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "端點提供交易日，未提供原始發布時間",
+          "accessed_at": "2026-10-07T22:21:08+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact"
+        },
+        {
+          "source_id": "twse-v3",
+          "title": "TWSE官方個股各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "官方端點只有交易日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-08",
+          "claim_type": "fact",
+          "note": "10/8官方收盤端點更新不同步；以逐筆日期辨識，尚未更新者不冒充當日價格。"
+        },
+        {
+          "source_id": "twse-pb-v3",
+          "title": "TWSE官方本益比、殖利率與股價淨值比",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "官方僅提供資料日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact",
+          "note": "官方PE／PB與自行TTM及Forward分開，資料日不同不混用。"
+        }
+      ],
+      "missing": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "最新公司法說正文、CAPEX量化與公司財測待補。",
+        "9月營收未取得。"
+      ],
+      "score_reason": "基本面改善潛力依H1營收YoY 22.02%、EPS YoY 131.03%及業外／現金流限制評估，不是舊分數平均。估值／買點依可比估值、訊號與資料缺口獨立判斷；未完整觸發最高6分。",
+      "variant_view": {
+        "market_hypothesis": "市場可能把CoWoS需求直接等同投控所有業務的高利潤。",
+        "research_hypothesis": "先進封裝上升若伴隨EMS組合與折舊壓力，整體EPS未必支持已隱含的高倍數。",
+        "confirmation": "看封測部門獲利與新增產能利用率，不把設備投資當成收入。"
+      },
+      "candidate_type": "結構成長",
+      "database_screen": {
+        "code": "3711",
+        "name": "日月光投控",
+        "industry": "半導體業",
+        "h1_revenue_yoy": 22.02,
+        "h1_eps_yoy": 131.03,
+        "eps_turn_positive": false,
+        "monthly_yoy": 45.65918579706578,
+        "monthly_period": "2026-08",
+        "h1_gross_margin": 20.55,
+        "return20": 26.53,
+        "priceAsOf": "2026-10-06",
+        "official_pe": 53.84,
+        "official_pe_date": "2026-10-06",
+        "cash": 912.9232099999999,
+        "previous_cash": 924.68851,
+        "operating_cashflow": 834.01251,
+        "cashflow_period": "2026 上半年累計",
+        "h1_nonoperating_share": 0.119346780011382,
+        "flags": [
+          "EPS成長高於營收：營運槓桿候選，須剔除業外"
+        ],
+        "source_urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711"
+        ],
+        "database_reviewed_at": "2026-10-03",
+        "candidate": false,
+        "roic": null,
+        "fcf": null
+      },
+      "fundamental_inflection": "H1營收YoY 22.02%、EPS YoY 131.03%；業外占稅前 11.93%。CFO 834.01251億元（2026 上半年累計）；現金 924.68851→912.9232099999999億元（2025年底→2026H1）。不同期間不直接比增速；ROIC／FCF未核。",
+      "competition": "產品／獲利來源：封測及電子製造毛利；兩類業務利潤率不同。技術、認證、客戶黏著與規模是待持續驗證的競爭力來源；定量市占、切換成本、良率、生產效率、競爭者擴產與替代風險未全面補核，不虛構市占比例或保證護城河。",
+      "reverse_valuation": {
+        "method": "研究PE帶反推可持續EPS，非市場實際預期",
+        "assumption_pe": [
+          25,
+          40
+        ],
+        "implied_eps": [
+          18.6,
+          29.76
+        ],
+        "required_growth_pct": [
+          33.52,
+          113.64
+        ],
+        "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。"
+      },
+      "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。"
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "industry": "高階CCL／PCB材料",
+      "updatedAt": "2026-10-08T13:54:43+08:00",
+      "priceAsOf": "2026-10-08",
+      "financialPeriod": "2026Q2單季",
+      "forecastAsOf": null,
+      "reviewedAt": "2026-10-08T13:54:43+08:00",
+      "price": 6000.0,
+      "technical": {
+        "ma": {
+          "5": 5766.0,
+          "10": 5373.0,
+          "20": 5236.5,
+          "60": 5272.0
+        },
+        "volume": 1661000,
+        "average_volume_20": 2292583,
+        "volume_ratio": 0.72,
+        "low20": 4635.0,
+        "high20": 6325.0,
+        "return20": 12.36,
+        "ma20_deviation": 14.58,
+        "price_history": [
+          {
+            "date": "2026-07-15",
+            "volume": 1340831.0,
+            "open": 5055.0,
+            "high": 5190.0,
+            "low": 4995.0,
+            "close": 5080.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-16",
+            "volume": 1350783.0,
+            "open": 4985.0,
+            "high": 5030.0,
+            "low": 4825.0,
+            "close": 4990.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-17",
+            "volume": 3166294.0,
+            "open": 4715.0,
+            "high": 4835.0,
+            "low": 4495.0,
+            "close": 4495.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-20",
+            "volume": 3220536.0,
+            "open": 4455.0,
+            "high": 4560.0,
+            "low": 4180.0,
+            "close": 4395.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-21",
+            "volume": 2947253.0,
+            "open": 4605.0,
+            "high": 4830.0,
+            "low": 4560.0,
+            "close": 4830.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-22",
+            "volume": 2287942.0,
+            "open": 5210.0,
+            "high": 5250.0,
+            "low": 5045.0,
+            "close": 5125.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-23",
+            "volume": 1471379.0,
+            "open": 5280.0,
+            "high": 5280.0,
+            "low": 5030.0,
+            "close": 5095.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-24",
+            "volume": 1978622.0,
+            "open": 5055.0,
+            "high": 5055.0,
+            "low": 4720.0,
+            "close": 4755.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-27",
+            "volume": 1443744.0,
+            "open": 4825.0,
+            "high": 4890.0,
+            "low": 4640.0,
+            "close": 4815.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-28",
+            "volume": 2370592.0,
+            "open": 4420.0,
+            "high": 4690.0,
+            "low": 4400.0,
+            "close": 4410.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-29",
+            "volume": 3501983.0,
+            "open": 4380.0,
+            "high": 4475.0,
+            "low": 3985.0,
+            "close": 4100.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-30",
+            "volume": 5459758.0,
+            "open": 4005.0,
+            "high": 4510.0,
+            "low": 3930.0,
+            "close": 4315.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-31",
+            "volume": 1418920.0,
+            "open": 4745.0,
+            "high": 4745.0,
+            "low": 4745.0,
+            "close": 4745.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-03",
+            "volume": 4183768.0,
+            "open": 5135.0,
+            "high": 5195.0,
+            "low": 4930.0,
+            "close": 4980.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-04",
+            "volume": 2925218.0,
+            "open": 4995.0,
+            "high": 5210.0,
+            "low": 4875.0,
+            "close": 5140.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-05",
+            "volume": 2477774.0,
+            "open": 5425.0,
+            "high": 5425.0,
+            "low": 5165.0,
+            "close": 5245.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-06",
+            "volume": 1863164.0,
+            "open": 5200.0,
+            "high": 5380.0,
+            "low": 5105.0,
+            "close": 5305.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-07",
+            "volume": 1362847.0,
+            "open": 5400.0,
+            "high": 5400.0,
+            "low": 5180.0,
+            "close": 5240.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-10",
+            "volume": 1972845.0,
+            "open": 5330.0,
+            "high": 5510.0,
+            "low": 5230.0,
+            "close": 5290.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-11",
+            "volume": 2826640.0,
+            "open": 5300.0,
+            "high": 5535.0,
+            "low": 5240.0,
+            "close": 5535.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-12",
+            "volume": 1635510.0,
+            "open": 5500.0,
+            "high": 5730.0,
+            "low": 5480.0,
+            "close": 5730.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-13",
+            "volume": 1568694.0,
+            "open": 5875.0,
+            "high": 5875.0,
+            "low": 5655.0,
+            "close": 5690.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-14",
+            "volume": 2986895.0,
+            "open": 5790.0,
+            "high": 6200.0,
+            "low": 5770.0,
+            "close": 6165.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-17",
+            "volume": 1910755.0,
+            "open": 6165.0,
+            "high": 6445.0,
+            "low": 6110.0,
+            "close": 6350.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-18",
+            "volume": 2005998.0,
+            "open": 6350.0,
+            "high": 6470.0,
+            "low": 6170.0,
+            "close": 6205.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-19",
+            "volume": 3119237.0,
+            "open": 5855.0,
+            "high": 6130.0,
+            "low": 5810.0,
+            "close": 5880.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-20",
+            "volume": 2514908.0,
+            "open": 6100.0,
+            "high": 6200.0,
+            "low": 5780.0,
+            "close": 5985.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-21",
+            "volume": 2568603.0,
+            "open": 6005.0,
+            "high": 6015.0,
+            "low": 5650.0,
+            "close": 5680.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-24",
+            "volume": 1846142.0,
+            "open": 5690.0,
+            "high": 5705.0,
+            "low": 5415.0,
+            "close": 5430.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-25",
+            "volume": 1867477.0,
+            "open": 5410.0,
+            "high": 5605.0,
+            "low": 5255.0,
+            "close": 5595.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-26",
+            "volume": 1871519.0,
+            "open": 5565.0,
+            "high": 5920.0,
+            "low": 5555.0,
+            "close": 5895.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-27",
+            "volume": 3476220.0,
+            "open": 5960.0,
+            "high": 5960.0,
+            "low": 5355.0,
+            "close": 5500.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-28",
+            "volume": 1984693.0,
+            "open": 5480.0,
+            "high": 5620.0,
+            "low": 5425.0,
+            "close": 5490.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-31",
+            "volume": 1999204.0,
+            "open": 5300.0,
+            "high": 5500.0,
+            "low": 5300.0,
+            "close": 5485.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "volume": 1770102.0,
+            "open": 5525.0,
+            "high": 5735.0,
+            "low": 5490.0,
+            "close": 5640.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "volume": 1489933.0,
+            "open": 5600.0,
+            "high": 5670.0,
+            "low": 5445.0,
+            "close": 5445.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-03",
+            "volume": 1640346.0,
+            "open": 5500.0,
+            "high": 5550.0,
+            "low": 5290.0,
+            "close": 5290.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-04",
+            "volume": 1701788.0,
+            "open": 5390.0,
+            "high": 5515.0,
+            "low": 5255.0,
+            "close": 5415.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-07",
+            "volume": 1515921.0,
+            "open": 5550.0,
+            "high": 5580.0,
+            "low": 5280.0,
+            "close": 5495.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-08",
+            "volume": 1474956.0,
+            "open": 5500.0,
+            "high": 5550.0,
+            "low": 5315.0,
+            "close": 5340.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-09",
+            "volume": 1752002.0,
+            "open": 5350.0,
+            "high": 5645.0,
+            "low": 5350.0,
+            "close": 5375.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-10",
+            "volume": 1367538.0,
+            "open": 5380.0,
+            "high": 5450.0,
+            "low": 5320.0,
+            "close": 5375.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-11",
+            "volume": 1100726.0,
+            "open": 5270.0,
+            "high": 5420.0,
+            "low": 5210.0,
+            "close": 5365.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-14",
+            "volume": 1226363.0,
+            "open": 5270.0,
+            "high": 5395.0,
+            "low": 5230.0,
+            "close": 5345.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-15",
+            "volume": 1525730.0,
+            "open": 5300.0,
+            "high": 5365.0,
+            "low": 5110.0,
+            "close": 5115.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-16",
+            "volume": 1686031.0,
+            "open": 5060.0,
+            "high": 5175.0,
+            "low": 5030.0,
+            "close": 5085.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-17",
+            "volume": 5813349.0,
+            "open": 5135.0,
+            "high": 5255.0,
+            "low": 4635.0,
+            "close": 4695.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-18",
+            "volume": 3783127.0,
+            "open": 4910.0,
+            "high": 5000.0,
+            "low": 4810.0,
+            "close": 4890.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-21",
+            "volume": 2394262.0,
+            "open": 4900.0,
+            "high": 4945.0,
+            "low": 4795.0,
+            "close": 4895.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-22",
+            "volume": 2101406.0,
+            "open": 5100.0,
+            "high": 5100.0,
+            "low": 4855.0,
+            "close": 4860.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-23",
+            "volume": 2450930.0,
+            "open": 4910.0,
+            "high": 5110.0,
+            "low": 4860.0,
+            "close": 5020.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-24",
+            "volume": 2346653.0,
+            "open": 5025.0,
+            "high": 5170.0,
+            "low": 4980.0,
+            "close": 5050.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-29",
+            "volume": 2146878.0,
+            "open": 4910.0,
+            "high": 5055.0,
+            "low": 4870.0,
+            "close": 4920.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-30",
+            "volume": 1549084.0,
+            "open": 4990.0,
+            "high": 5030.0,
+            "low": 4935.0,
+            "close": 4935.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-01",
+            "open": 4950.0,
+            "high": 4975.0,
+            "low": 4855.0,
+            "close": 4975.0,
+            "volume": 1363430
+          },
+          {
+            "date": "2026-10-02",
+            "open": 5040.0,
+            "high": 5190.0,
+            "low": 4975.0,
+            "close": 5185.0,
+            "volume": 2397410
+          },
+          {
+            "date": "2026-10-05",
+            "open": 5630.0,
+            "high": 5700.0,
+            "low": 5600.0,
+            "close": 5700.0,
+            "volume": 1316051
+          },
+          {
+            "date": "2026-10-06",
+            "open": 6040.0,
+            "high": 6115.0,
+            "low": 5820.0,
+            "close": 5995.0,
+            "volume": 5086859
+          },
+          {
+            "date": "2026-10-07",
+            "open": 6015.0,
+            "high": 6325.0,
+            "low": 5950.0,
+            "close": 5950.0,
+            "volume": 2968881
+          },
+          {
+            "date": "2026-10-08",
+            "open": 5910.0,
+            "high": 6065.0,
+            "low": 5745.0,
+            "close": 6000.0,
+            "volume": 1661000
+          }
+        ],
+        "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
+      },
+      "financial": {
+        "period": "2026Q2單季",
+        "eps": 27.56,
+        "gross_margin": 33.85,
+        "operating_margin": 26.94,
+        "revenue_twd_thousand": 47275194.0,
+        "eps_basis": "2026H1累計EPS − 2026Q1累計EPS；四捨五入可能差0.01元",
+        "ttm_eps": 64.1,
+        "ttm_period": "2025Q3–2026Q2",
+        "ttm_formula": "2025全年 + 2026H1 − 2025H1",
+        "h1_eps": 42.46,
+        "h1_eps_growth": 111.98,
+        "eps_comparability_note": "未查獲重大拆併股；若財報後續重編需重算。台光電簡報27.55與MOPS累計差分27.56，採MOPS差分並保留差異。"
+      },
+      "monthly": {
+        "period": "2026-09",
+        "revenue_twd_thousand": 21532230.0,
+        "yoy": 168.87,
+        "cumulative_yoy": 103.69,
+        "basis": "合併新台幣營收，非訂單或產能",
+        "published_at": "2026-10-05"
+      },
+      "valuation": {
+        "ttm_pe": 93.6,
+        "official_pe": 93.04,
+        "official_pe_date": "2026-10-07",
+        "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
+        "forward_pe": null,
+        "forward_year": null,
+        "forward_next_year_pe": null,
+        "consensus": null,
+        "consensus_missing_reason": "未取得同時可驗證發布日、年度、涵蓋人數、EPS口徑的近期共識；不以媒體個別預估或自算EPS充當consensus。",
+        "reasonable_ttm_pe_range": [
+          45,
+          65
+        ],
+        "reasonable_ttm_price_range": [
+          2884.5,
+          4166.5
+        ],
+        "assumption": "45–65倍TTM已給高成長溢價，但20日低點4635約72倍仍超上緣；未取得可核共識，最佳入場區不硬填。",
+        "classification": "高",
+        "assumption_type": "research_inference",
+        "official_pb": 36.55
+      },
+      "position": {
+        "role": "Avoid Chasing",
+        "weight_range_pct": [
+          0,
+          0
+        ],
+        "stage": "右側後段；盤中創高未守住",
+        "new_position": "等待條件確認；目前未發出買進指令"
+      },
+      "scores": {
+        "industry": 9,
+        "quality": 8,
+        "improvement": 8,
+        "valuation_entry": 2,
+        "confidence": 6
+      },
+      "thesis": "成立且獲利槓桿強；但目前價格需要高階材料成長持續超預期才能支撐。",
+      "growth_1to3y": "1–3年看AI基材升級、ASP／組合與新廠爬坡；公司規劃產能不是已交付收入，需驗證認證、良率及利用率。",
+      "market_expectations": "市場期待高階材料供給優勢與產能擴張；營收及利潤高增長已反映在高倍數，競爭供給或ASP下滑可能引發雙殺。",
+      "price_in": "10/7自行TTM PE 92.82倍，研究TTM合理帶45–65倍；20日漲跌8.28%，距MA20 14.35%；可靠近期Forward共識仍未補齊。高成長不直接等於好買點。",
+      "holding_strategy": "不追；10/7盤中6325穿越舊6120，但收5950未守住，完整突破不成立。新壓力6330，估值仍高，已有持股控制權重。",
+      "risk": "極高估值、供給擴張、ASP與材料成本、擴產現金流；Q2 EPS簡報與累計差分有0.01元差異。",
+      "thesis_failure": "高階材料市占／ASP下滑，客戶認證或擴產良率不及預期；營益率連續2季下降且公司確認訂單／競爭惡化。",
+      "prices": {
+        "first_attention": [
+          5255,
+          5565
+        ],
+        "best_entry": null,
+        "breakout": 6330,
+        "asOf": "2026-10-07",
+        "valid_until": "2026-10-12T00:00:00+08:00",
+        "validity_rule": "觀察價推導基準仍為10/7；最新收盤為2026-10-08，只有舊支撐壓力仍成立才保留，不能稱新買訊。新股價未完整驗證全部條件，仍按兵不動。",
+        "reason": "近期支撐與研究估值帶無交集，最佳布局留null。",
+        "derivation": {
+          "first": "10/7 MA5=5561.0、MA10=5259.0、MA20=5203.5、MA60=5254.83及近期支撐；取可成交級距。高估值股第一關注不是買区。",
+          "best": "45–65倍TTM已給高成長溢價，但20日低點4635約72倍仍超上緣；未取得可核共識，最佳入場區不硬填。",
+          "breakout": "目前20日最高6325.0元之上下一個TWSE有效價格跳動5元；更新後6330元。"
+        },
+        "invalidation": "高階材料市占／ASP下滑，客戶認證或擴產良率不及預期；營益率連續2季下降且公司確認訂單／競爭惡化。"
+      },
+      "building_plan": {
+        "current_action": "按兵不動，尚不建倉",
+        "target_basis": "比例以預定目標部位計算，非全部資金；共同AI因子與現金限制仍適用。",
+        "tranches": [],
+        "stop_addition": "任一買點失效或基本面確認不成立，停止後續批次並重估；不因跌價自動攤平。",
+        "conditional_action": "目前不提供分批建倉；先等估值與支撐重新形成交集並重評；突破價只用於觀察，不是建倉授權。",
+        "method": "右側確認30／30／40"
+      },
+      "buy_signal": "第一關注5255–5565；回測量≤此前20日均量0.8倍（本版約1,775,948股），低點連2日不破，收盤重站5565。右側收盤達到或高於6330，量>此前20日均量（本版2,219,935股），隔日收盤不跌回6330；基本面確認須同時成立。高估值者先重估，不能只靠突破買進。 本股近期支撐與估值無交集，最佳入場區未成立；突破僅觀察。",
+      "fundamental_confirmation": "9月營收YoY168.87%；下月維持正成長並看3月累計，Q3毛利率／營益率不較Q2約33.85%／26.94%同步下降超過2百分點，高階材料認證與訂單須有公司證據。",
+      "position_management": "買點失效：突破後隔日收盤低於6330，取消該突破訊號；回測跌破4635，停止原支撐布局並重評。有效跌破：連2日收盤低於4635且至少1日量≥20日均量，或單日跌破且量≥1.5倍均量、隔日未收復；停止加碼／縮減戰術部位，不自動認定核心thesis失效。",
+      "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
+      "sources": [
+        {
+          "source_id": "2383-202606",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260601&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2383-202607",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2383-202608",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260801&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2383-202609",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "2383-202610",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "financial-2026h1",
+          "title": "TWSE／MOPS合併損益彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026H1；出表2026-10-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11501",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11404",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025全年",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11402",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025H1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-month-2383",
+          "title": "MOPS公司9月營收",
+          "url": "https://mopsov.twse.com.tw/mops/web/t05st10_ifrs?encodeURIComponent=1&step=0&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=2383",
+          "published_at": "2026-10-05",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "official-pe",
+          "title": "TWSE官方PE／PB",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "emc-q2",
+          "title": "台光電Q2公司法說",
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Presentation_Materials/CH/115/Investor%20Conference%20Presentation_20260729%20final%20CH.pdf",
+          "published_at": "2026-07-30",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q2／2026–2028產能計畫",
+          "claim_type": "fact",
+          "note": "產能張/月是公司計畫，不是訂單或營收。"
+        },
+        {
+          "source_id": "twse-price-2026-10-07",
+          "title": "TWSE個股各日成交資訊：10/7收盤",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "端點提供交易日，未提供原始發布時間",
+          "accessed_at": "2026-10-07T22:21:08+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact"
+        },
+        {
+          "source_id": "twse-v3",
+          "title": "TWSE官方個股各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "官方端點只有交易日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-08",
+          "claim_type": "fact",
+          "note": "10/8官方收盤端點更新不同步；以逐筆日期辨識，尚未更新者不冒充當日價格。"
+        },
+        {
+          "source_id": "twse-pb-v3",
+          "title": "TWSE官方本益比、殖利率與股價淨值比",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "官方僅提供資料日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact",
+          "note": "官方PE／PB與自行TTM及Forward分開，資料日不同不混用。"
+        }
+      ],
+      "missing": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。"
+      ],
+      "score_reason": "基本面改善潛力依H1營收YoY 81.82%、EPS YoY 111.98%及業外／現金流限制評估，不是舊分數平均。估值／買點依可比估值、訊號與資料缺口獨立判斷；未完整觸發最高6分。",
+      "variant_view": {
+        "market_hypothesis": "市場可能已把材料升級與擴產完美執行納入價格。",
+        "research_hypothesis": "若ASP、產品組合或良率任何一項不及預期，高估值需的獲利增量就可能落空。",
+        "confirmation": "新產能交付與EPS修正需跟上股價；偏向高估風險，降低Alpha優先度。"
+      },
+      "candidate_type": "結構成長",
+      "database_screen": {
+        "code": "2383",
+        "name": "台光電",
+        "industry": "電子零組件業",
+        "h1_revenue_yoy": 81.82,
+        "h1_eps_yoy": 111.98,
+        "eps_turn_positive": false,
+        "monthly_yoy": 129.84671742960728,
+        "monthly_period": "2026-08",
+        "h1_gross_margin": 32.03,
+        "return20": 10.71,
+        "priceAsOf": "2026-10-06",
+        "official_pe": 93.75,
+        "official_pe_date": "2026-10-06",
+        "cash": 225.67762,
+        "previous_cash": 200.07816,
+        "operating_cashflow": 50.44825,
+        "cashflow_period": "2026 上半年累計",
+        "h1_nonoperating_share": 0.00586884226655553,
+        "flags": [
+          "EPS成長高於營收：營運槓桿候選，須剔除業外",
+          "現金較年底增加；不等於FCF改善"
+        ],
+        "source_urls": [
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2303&companyId=3037&companyId=2383&companyId=1303&companyId=2881",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2303&companyId=3037&companyId=2383&companyId=1303&companyId=2881"
+        ],
+        "database_reviewed_at": "2026-10-03",
+        "candidate": false,
+        "roic": null,
+        "fcf": null
+      },
+      "fundamental_inflection": "H1營收YoY 81.82%、EPS YoY 111.98%；業外占稅前 0.59%。CFO 50.44825億元（2026 上半年累計）；現金 200.07816→225.67762億元（2025年底→2026H1）。不同期間不直接比增速；ROIC／FCF未核。",
+      "competition": "產品／獲利來源：材料製造毛利；高階材料組合及良率影响利润。技術、認證、客戶黏著與規模是待持續驗證的競爭力來源；定量市占、切換成本、良率、生產效率、競爭者擴產與替代風險未全面補核，不虛構市占比例或保證護城河。",
+      "reverse_valuation": {
+        "method": "研究PE帶反推可持續EPS，非市場實際預期",
+        "assumption_pe": [
+          45,
+          65
+        ],
+        "implied_eps": [
+          92.31,
+          133.33
+        ],
+        "required_growth_pct": [
+          44.01,
+          108.01
+        ],
+        "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。"
+      },
+      "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。"
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "industry": "液冷／AI散熱／機構整合",
+      "updatedAt": "2026-10-08T13:54:43+08:00",
+      "priceAsOf": "2026-10-08",
+      "financialPeriod": "2026Q2單季",
+      "forecastAsOf": "2026-09-22",
+      "reviewedAt": "2026-10-08T13:54:43+08:00",
+      "price": 3440.0,
+      "technical": {
+        "ma": {
+          "5": 3539.0,
+          "10": 3506.5,
+          "20": 3414.75,
+          "60": 3009.58
+        },
+        "volume": 2968000,
+        "average_volume_20": 2994124,
+        "volume_ratio": 0.99,
+        "low20": 3100.0,
+        "high20": 3700.0,
+        "return20": 4.72,
+        "ma20_deviation": 0.74,
+        "price_history": [
+          {
+            "date": "2026-07-15",
+            "volume": 2129895.0,
+            "open": 2140.0,
+            "high": 2200.0,
+            "low": 2120.0,
+            "close": 2165.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-16",
+            "volume": 4220745.0,
+            "open": 2275.0,
+            "high": 2290.0,
+            "low": 2155.0,
+            "close": 2225.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-17",
+            "volume": 5543230.0,
+            "open": 2160.0,
+            "high": 2335.0,
+            "low": 2145.0,
+            "close": 2200.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-20",
+            "volume": 4416999.0,
+            "open": 2210.0,
+            "high": 2240.0,
+            "low": 2015.0,
+            "close": 2135.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-21",
+            "volume": 3736446.0,
+            "open": 2190.0,
+            "high": 2340.0,
+            "low": 2175.0,
+            "close": 2320.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-22",
+            "volume": 4356001.0,
+            "open": 2385.0,
+            "high": 2390.0,
+            "low": 2255.0,
+            "close": 2265.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-23",
+            "volume": 7157581.0,
+            "open": 2350.0,
+            "high": 2490.0,
+            "low": 2350.0,
+            "close": 2440.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-24",
+            "volume": 4515686.0,
+            "open": 2375.0,
+            "high": 2510.0,
+            "low": 2355.0,
+            "close": 2380.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-27",
+            "volume": 2367643.0,
+            "open": 2375.0,
+            "high": 2420.0,
+            "low": 2310.0,
+            "close": 2400.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-28",
+            "volume": 3173558.0,
+            "open": 2285.0,
+            "high": 2325.0,
+            "low": 2225.0,
+            "close": 2240.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-29",
+            "volume": 6379050.0,
+            "open": 2225.0,
+            "high": 2245.0,
+            "low": 2020.0,
+            "close": 2095.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-30",
+            "volume": 4483632.0,
+            "open": 2055.0,
+            "high": 2200.0,
+            "low": 2030.0,
+            "close": 2110.0,
+            "note": ""
+          },
+          {
+            "date": "2026-07-31",
+            "volume": 2498885.0,
+            "open": 2320.0,
+            "high": 2320.0,
+            "low": 2275.0,
+            "close": 2320.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-03",
+            "volume": 4533982.0,
+            "open": 2400.0,
+            "high": 2550.0,
+            "low": 2400.0,
+            "close": 2550.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-04",
+            "volume": 5548736.0,
+            "open": 2595.0,
+            "high": 2675.0,
+            "low": 2560.0,
+            "close": 2600.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-05",
+            "volume": 5823988.0,
+            "open": 2660.0,
+            "high": 2775.0,
+            "low": 2640.0,
+            "close": 2730.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-06",
+            "volume": 9418730.0,
+            "open": 2730.0,
+            "high": 2965.0,
+            "low": 2730.0,
+            "close": 2940.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-07",
+            "volume": 4140360.0,
+            "open": 2935.0,
+            "high": 2935.0,
+            "low": 2750.0,
+            "close": 2785.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-10",
+            "volume": 3326767.0,
+            "open": 2865.0,
+            "high": 2890.0,
+            "low": 2755.0,
+            "close": 2765.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-11",
+            "volume": 3159103.0,
+            "open": 2705.0,
+            "high": 2800.0,
+            "low": 2625.0,
+            "close": 2760.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-12",
+            "volume": 4218037.0,
+            "open": 2765.0,
+            "high": 2915.0,
+            "low": 2755.0,
+            "close": 2910.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-13",
+            "volume": 10569479.0,
+            "open": 3030.0,
+            "high": 3200.0,
+            "low": 2925.0,
+            "close": 3200.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-14",
+            "volume": 7354711.0,
+            "open": 3250.0,
+            "high": 3320.0,
+            "low": 3170.0,
+            "close": 3235.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-17",
+            "volume": 3126245.0,
+            "open": 3230.0,
+            "high": 3230.0,
+            "low": 3115.0,
+            "close": 3150.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-18",
+            "volume": 3613625.0,
+            "open": 3150.0,
+            "high": 3180.0,
+            "low": 2990.0,
+            "close": 3035.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-19",
+            "volume": 3982151.0,
+            "open": 2915.0,
+            "high": 3160.0,
+            "low": 2900.0,
+            "close": 3095.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-20",
+            "volume": 3219927.0,
+            "open": 3175.0,
+            "high": 3175.0,
+            "low": 2925.0,
+            "close": 2985.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-21",
+            "volume": 2515057.0,
+            "open": 2995.0,
+            "high": 3035.0,
+            "low": 2850.0,
+            "close": 2865.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-24",
+            "volume": 2274318.0,
+            "open": 2865.0,
+            "high": 2935.0,
+            "low": 2830.0,
+            "close": 2855.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-25",
+            "volume": 2905308.0,
+            "open": 2835.0,
+            "high": 2950.0,
+            "low": 2740.0,
+            "close": 2950.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-26",
+            "volume": 5242984.0,
+            "open": 2880.0,
+            "high": 3155.0,
+            "low": 2850.0,
+            "close": 3155.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-27",
+            "volume": 6114908.0,
+            "open": 3305.0,
+            "high": 3440.0,
+            "low": 3265.0,
+            "close": 3340.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-28",
+            "volume": 4035280.0,
+            "open": 3360.0,
+            "high": 3450.0,
+            "low": 3320.0,
+            "close": 3360.0,
+            "note": ""
+          },
+          {
+            "date": "2026-08-31",
+            "volume": 4468442.0,
+            "open": 3280.0,
+            "high": 3425.0,
+            "low": 3250.0,
+            "close": 3425.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-01",
+            "volume": 3084829.0,
+            "open": 3435.0,
+            "high": 3465.0,
+            "low": 3350.0,
+            "close": 3410.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-02",
+            "volume": 3136748.0,
+            "open": 3365.0,
+            "high": 3490.0,
+            "low": 3280.0,
+            "close": 3310.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-03",
+            "volume": 4418016.0,
+            "open": 3395.0,
+            "high": 3525.0,
+            "low": 3290.0,
+            "close": 3300.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-04",
+            "volume": 4515440.0,
+            "open": 3465.0,
+            "high": 3570.0,
+            "low": 3410.0,
+            "close": 3570.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-07",
+            "volume": 3303272.0,
+            "open": 3595.0,
+            "high": 3595.0,
+            "low": 3410.0,
+            "close": 3420.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-08",
+            "volume": 3350997.0,
+            "open": 3455.0,
+            "high": 3455.0,
+            "low": 3245.0,
+            "close": 3285.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-09",
+            "volume": 2364600.0,
+            "open": 3285.0,
+            "high": 3395.0,
+            "low": 3265.0,
+            "close": 3380.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-10",
+            "volume": 2574023.0,
+            "open": 3405.0,
+            "high": 3470.0,
+            "low": 3380.0,
+            "close": 3460.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-11",
+            "volume": 2111512.0,
+            "open": 3360.0,
+            "high": 3390.0,
+            "low": 3300.0,
+            "close": 3370.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-14",
+            "volume": 2215371.0,
+            "open": 3255.0,
+            "high": 3360.0,
+            "low": 3210.0,
+            "close": 3310.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-15",
+            "volume": 3217593.0,
+            "open": 3265.0,
+            "high": 3300.0,
+            "low": 3100.0,
+            "close": 3115.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-16",
+            "volume": 2744795.0,
+            "open": 3115.0,
+            "high": 3225.0,
+            "low": 3100.0,
+            "close": 3175.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-17",
+            "volume": 3034388.0,
+            "open": 3285.0,
+            "high": 3350.0,
+            "low": 3175.0,
+            "close": 3185.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-18",
+            "volume": 3785048.0,
+            "open": 3345.0,
+            "high": 3450.0,
+            "low": 3290.0,
+            "close": 3430.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-21",
+            "volume": 1743425.0,
+            "open": 3480.0,
+            "high": 3495.0,
+            "low": 3365.0,
+            "close": 3415.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-22",
+            "volume": 2288258.0,
+            "open": 3500.0,
+            "high": 3505.0,
+            "low": 3385.0,
+            "close": 3390.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-23",
+            "volume": 2649367.0,
+            "open": 3425.0,
+            "high": 3590.0,
+            "low": 3410.0,
+            "close": 3470.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-24",
+            "volume": 2261001.0,
+            "open": 3460.0,
+            "high": 3600.0,
+            "low": 3455.0,
+            "close": 3555.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-29",
+            "volume": 3928028.0,
+            "open": 3420.0,
+            "high": 3460.0,
+            "low": 3285.0,
+            "close": 3400.0,
+            "note": ""
+          },
+          {
+            "date": "2026-09-30",
+            "volume": 3653169.0,
+            "open": 3455.0,
+            "high": 3575.0,
+            "low": 3405.0,
+            "close": 3435.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-01",
+            "open": 3435.0,
+            "high": 3520.0,
+            "low": 3300.0,
+            "close": 3510.0,
+            "volume": 3303220
+          },
+          {
+            "date": "2026-10-02",
+            "open": 3570.0,
+            "high": 3570.0,
+            "low": 3385.0,
+            "close": 3440.0,
+            "volume": 3274994
+          },
+          {
+            "date": "2026-10-05",
+            "open": 3570.0,
+            "high": 3690.0,
+            "low": 3420.0,
+            "close": 3585.0,
+            "volume": 4606753
+          },
+          {
+            "date": "2026-10-06",
+            "open": 3650.0,
+            "high": 3700.0,
+            "low": 3515.0,
+            "close": 3685.0,
+            "volume": 3260797
+          },
+          {
+            "date": "2026-10-07",
+            "open": 3650.0,
+            "high": 3655.0,
+            "low": 3505.0,
+            "close": 3545.0,
+            "volume": 3515134
+          },
+          {
+            "date": "2026-10-08",
+            "open": 3445.0,
+            "high": 3515.0,
+            "low": 3410.0,
+            "close": 3440.0,
+            "volume": 2968000
+          }
+        ],
+        "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
+      },
+      "financial": {
+        "period": "2026Q2單季",
+        "eps": 24.37,
+        "gross_margin": 32.57,
+        "operating_margin": 27.44,
+        "revenue_twd_thousand": 49120964.0,
+        "eps_basis": "2026H1累計EPS − 2026Q1累計EPS；四捨五入可能差0.01元",
+        "ttm_eps": 75.13,
+        "ttm_period": "2025Q3–2026Q2",
+        "ttm_formula": "2025全年 + 2026H1 − 2025H1",
+        "h1_eps": 44.54,
+        "h1_eps_growth": 139.72,
+        "eps_comparability_note": "本次以MOPS可比累計重算；後續重編需再核對。"
+      },
+      "monthly": {
+        "period": "2026-09",
+        "revenue_twd_thousand": 21018128.0,
+        "yoy": 44.92,
+        "cumulative_yoy": 71.17,
+        "basis": "合併新台幣營收，非訂單或產能",
+        "published_at": "2026-10-07"
+      },
+      "valuation": {
+        "ttm_pe": 45.79,
+        "official_pe": 47.25,
+        "official_pe_date": "2026-10-07",
+        "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
+        "forward_pe": 32.82,
+        "forward_year": 2026,
+        "forward_next_year_pe": 21.93,
+        "consensus": {
+          "provider": "FactSet（鉅亨具名轉載）",
+          "published_at": "2026-09-22",
+          "forecast_year": 2026,
+          "coverage": 20,
+          "median": 104.82,
+          "previous": 104.03,
+          "low": 93.05,
+          "high": 109.44,
+          "next_year_median": 156.83,
+          "url": "https://news.cnyes.com/news/print/6612647",
+          "note": "公開轉載非直接FactSet feed；後續全部修正未取得。原文歷史EPS誤列淨利，該欄不採用。"
+        },
+        "consensus_missing_reason": null,
+        "reasonable_ttm_pe_range": [
+          35,
+          45
+        ],
+        "reasonable_ttm_price_range": [
+          2629.55,
+          3380.85
+        ],
+        "assumption": "35–45倍TTM對高成長散熱設定風險帶；另用2026共識28–34倍交叉檢查，3100–3300落入兩者交集。",
+        "classification": "高",
+        "assumption_type": "research_inference",
+        "official_pb": 25.22
+      },
+      "position": {
+        "role": "Satellite",
+        "weight_range_pct": [
+          0,
+          5
+        ],
+        "stage": "右側中後段",
+        "new_position": "等待條件確認；目前未發出買進指令"
+      },
+      "scores": {
+        "industry": 9,
+        "quality": 8,
+        "improvement": 8,
+        "valuation_entry": 4,
+        "confidence": 6
+      },
+      "thesis": "成立但新部位需等待。液冷與散熱獲利有兌現，當前評價已要求2027成長延續。",
+      "growth_1to3y": "1–3年看高功率GPU冷板、液冷模組與機構整合；供貨份額、客戶驗證與單位內容價值會影響EPS，不假設所有新平台都維持原市占。",
+      "market_expectations": "9/22 FactSet 2026 EPS中位數104.82，2027為156.83；市場已預期強成長，若修正轉負則Forward倍數的便宜可能消失。",
+      "price_in": "10/7自行TTM PE 47.18倍，研究TTM合理帶35–45倍；20日漲跌3.65%，距MA20 4.05%；2026共識PE 33.82、2027共識PE 22.6，共識日期仍為2026-09-22，未宣稱已取得之後所有修正。高成長不直接等於好買點。",
+      "holding_strategy": "續抱；3545跌回5日線3553下方，新增先等3405–3505或更佳3100–3300止穩；重站3555／突破3705仍須基本面與隔日確認，不自動抄底。",
+      "risk": "平台轉換、客戶份額、液冷競爭、應收與存貨、高Forward成長假設。",
+      "thesis_failure": "主要客戶液冷採用或供貨份額下降；連續2次共識下修並伴隨毛利／營益率同步走弱；訂單成長無法轉成現金與本業獲利。",
+      "prices": {
+        "first_attention": [
+          3405,
+          3505
+        ],
+        "best_entry": [
+          3100,
+          3300
+        ],
+        "breakout": 3705,
+        "asOf": "2026-10-07",
+        "valid_until": "2026-10-12T00:00:00+08:00",
+        "validity_rule": "觀察價推導基準仍為10/7；最新收盤為2026-10-08，只有舊支撐壓力仍成立才保留，不能稱新買訊。新股價未完整驗證全部條件，仍按兵不動。",
+        "reason": "第一關注取近期均線／低點；最佳區取支撐與研究估值帶的交集；突破價為20日最高價上一個有效價格跳動。",
+        "derivation": {
+          "first": "10/7 MA5=3553.0、MA10=3501.5、MA20=3407.0、MA60=2987.58及近期支撐；取可成交級距。高估值股第一關注不是買区。",
+          "best": "35–45倍TTM對高成長散熱設定風險帶；另用2026共識28–34倍交叉檢查，3100–3300落入兩者交集。",
+          "breakout": "目前20日最高3700.0元之上下一個TWSE有效價格跳動5元；更新後3705元。"
+        },
+        "invalidation": "主要客戶液冷採用或供貨份額下降；連續2次共識下修並伴隨毛利／營益率同步走弱；訂單成長無法轉成現金與本業獲利。"
+      },
+      "building_plan": {
+        "current_action": "按兵不動，尚不建倉",
+        "target_basis": "比例以預定目標部位計算，非全部資金；共同AI因子與現金限制仍適用。",
+        "tranches": [
+          {
+            "target_pct": 30,
+            "condition": "收盤突破3705、量大於前20日均量、隔日不跌回，平台需求與利潤率維持。"
+          },
+          {
+            "target_pct": 30,
+            "condition": "後續回測3705不破並重新收高，估值與交付仍成立。"
+          },
+          {
+            "target_pct": 40,
+            "condition": "後續EPS修正或交付改善經查證，重新核對估值；未確認不建滿。"
+          }
+        ],
+        "stop_addition": "任一買點失效或基本面確認不成立，停止後續批次並重估；不因跌價自動攤平。",
+        "conditional_action": "右側確認30／30／40：突破3705、回測守穩、EPS與平台交付確認後依序評估。",
+        "method": "右側確認30／30／40"
+      },
+      "buy_signal": "第一關注3405–3505；回測量≤此前20日均量0.8倍（本版約2,386,824股），低點連2日不破，收盤重站3555。右側收盤達到或高於3705，量>此前20日均量（本版2,983,531股），隔日收盤不跌回3705；基本面確認須同時成立。高估值者先重估，不能只靠突破買進。 最佳區另採左側：收盤仍在3100–3300內，低點連2日不跌破3100，第2日收盤高於前日且量≤0.8倍均量；基本面確認後只研究首筆小部位，離開區間不沿用最佳買點。",
+      "fundamental_confirmation": "9月營收YoY44.92%低於8月54.34%，單月不能當失效；觀察3月累計YoY，Q3營益率須守住Q2約27.44%附近且2026／2027 EPS共識不轉下修，液冷交付須確認。",
+      "position_management": "買點失效：突破後隔日收盤低於3705，取消該突破訊號；回測跌破3100，停止原支撐布局並重評。有效跌破：連2日收盤低於3100且至少1日量≥20日均量，或單日跌破且量≥1.5倍均量、隔日未收復；停止加碼／縮減戰術部位，不自動認定核心thesis失效。",
+      "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
+      "sources": [
+        {
+          "source_id": "3017-202606",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260601&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3017-202607",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3017-202608",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260801&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-08",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3017-202609",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "3017-202610",
+          "title": "TWSE各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "financial-2026h1",
+          "title": "TWSE／MOPS合併損益彙總",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026H1；出表2026-10-07",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11501",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11404",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025全年",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-11402",
+          "title": "MOPS合併損益歷史",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2025H1",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "mops-month-3017",
+          "title": "MOPS公司9月營收",
+          "url": "https://mopsov.twse.com.tw/mops/web/t05st10_ifrs?encodeURIComponent=1&step=0&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=3017",
+          "published_at": "2026-10-07",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-09",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "official-pe",
+          "title": "TWSE官方PE／PB",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026-10-06",
+          "claim_type": "fact",
+          "note": null
+        },
+        {
+          "source_id": "consensus-3017",
+          "title": "FactSet（鉅亨具名轉載）",
+          "url": "https://news.cnyes.com/news/print/6612647",
+          "published_at": "2026-09-22",
+          "published_at_reason": null,
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026／2027 EPS",
+          "claim_type": "institution_forecast",
+          "note": "公開轉載非直接FactSet feed；後續全部修正未取得。原文歷史EPS誤列淨利，該欄不採用。"
+        },
+        {
+          "source_id": "avc-ir",
+          "title": "奇鋐財務資訊目錄",
+          "url": "https://www.avc.co/en-us/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/%E8%B2%A1%E5%8B%99%E8%B3%87%E8%A8%8A",
+          "published_at": null,
+          "published_at_reason": "端點未提供原始公告發布時間；出表日與交易日不是原始公告日",
+          "accessed_at": "2026-10-07T12:48:29+08:00",
+          "data_period": "2026Q2",
+          "claim_type": "fact",
+          "note": "未取得最新法說正文；CAPEX／公司財測待補，未用匿名客戶份額当確認事實。"
+        },
+        {
+          "source_id": "twse-price-2026-10-07",
+          "title": "TWSE個股各日成交資訊：10/7收盤",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "端點提供交易日，未提供原始發布時間",
+          "accessed_at": "2026-10-07T22:21:08+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact"
+        },
+        {
+          "source_id": "twse-v3",
+          "title": "TWSE官方個股各日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "官方端點只有交易日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-08",
+          "claim_type": "fact",
+          "note": "10/8官方收盤端點更新不同步；以逐筆日期辨識，尚未更新者不冒充當日價格。"
+        },
+        {
+          "source_id": "twse-pb-v3",
+          "title": "TWSE官方本益比、殖利率與股價淨值比",
+          "url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL",
+          "published_at": null,
+          "published_at_reason": "官方僅提供資料日，未提供原發布時刻",
+          "accessed_at": "2026-10-08T13:54:43+08:00",
+          "data_period": "2026-10-07",
+          "claim_type": "fact",
+          "note": "官方PE／PB與自行TTM及Forward分開，資料日不同不混用。"
+        }
+      ],
+      "missing": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "最新公司法說正文、CAPEX量化與公司財測待補。"
+      ],
+      "score_reason": "基本面改善潛力依H1營收YoY 85.46%、EPS YoY 139.72%及業外／現金流限制評估，不是舊分數平均。估值／買點依可比估值、訊號與資料缺口獨立判斷；未完整觸發最高6分。",
+      "variant_view": {
+        "market_hypothesis": "市場可能把平台導入期高成長永久化。",
+        "research_hypothesis": "液冷若提高單機價值、份額與利潤，EPS仍可能超出穩態假設；但需求切換與競爭也可能讓增幅回落。",
+        "confirmation": "用後續平台交付、EPS修正與毛利率確認；未有最新修正全集，不宣稱市場低估已成立。"
+      },
+      "candidate_type": "結構成長",
+      "database_screen": {
+        "code": "3017",
+        "name": "奇鋐",
+        "industry": "電腦及週邊設備業",
+        "h1_revenue_yoy": 85.46,
+        "h1_eps_yoy": 139.72,
+        "eps_turn_positive": false,
+        "monthly_yoy": 54.340256925995845,
+        "monthly_period": "2026-08",
+        "h1_gross_margin": 31.17,
+        "return20": 3.22,
+        "priceAsOf": "2026-10-06",
+        "official_pe": 49.12,
+        "official_pe_date": "2026-10-06",
+        "cash": 777.14522,
+        "previous_cash": 585.2979799999999,
+        "operating_cashflow": 262.90591,
+        "cashflow_period": "2026 上半年累計",
+        "h1_nonoperating_share": 0.0161086497731543,
+        "flags": [
+          "EPS成長高於營收：營運槓桿候選，須剔除業外",
+          "現金較年底增加；不等於FCF改善"
+        ],
+        "source_urls": [
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2891&companyId=3017&companyId=2882&companyId=2327&companyId=2345",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2891&companyId=3017&companyId=2882&companyId=2327&companyId=2345"
+        ],
+        "database_reviewed_at": "2026-10-03",
+        "candidate": true,
+        "roic": null,
+        "fcf": null
+      },
+      "fundamental_inflection": "H1營收YoY 85.46%、EPS YoY 139.72%；業外占稅前 1.61%。CFO 262.90591億元（2026 上半年累計）；現金 585.2979799999999→777.14522億元（2025年底→2026H1）。不同期間不直接比增速；ROIC／FCF未核。",
       "competition": "產品／獲利來源：散熱產品與系統組裝毛利；未據公開資料推算AI獲利占比。技術、認證、客戶黏著與規模是待持續驗證的競爭力來源；定量市占、切換成本、良率、生產效率、競爭者擴產與替代風險未全面補核，不虛構市占比例或保證護城河。",
       "reverse_valuation": {
         "method": "研究PE帶反推可持續EPS，非市場實際預期",
