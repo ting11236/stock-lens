@@ -18,7 +18,7 @@ test('published HTML shows stocks before scripts run and startup makes no data r
   assert.match(document.getElementById('stockRows').textContent,/alert\(1\)/);
   const model=JSON.parse(document.getElementById('displayModel').textContent);assert.equal(model.stocks[0].price,20);
   assert.doesNotMatch(JSON.stringify(model),/private-audit|原始來源紀錄/);
-  assert.equal(document.querySelectorAll('script').length,parseHTML(fs.readFileSync(path.join(__dirname,'../site/index.html'),'utf8')).document.querySelectorAll('script').length);
+  const before=parseHTML(fs.readFileSync(path.join(__dirname,'../site/index.html'),'utf8')).document;assert.equal(document.querySelectorAll('script').length,before.querySelectorAll('script').length+(before.getElementById('displayModel')?0:1)-(before.getElementById('homeBootstrap')?1:0));
   const company=parseHTML(fs.readFileSync(path.join(site,'companies/1101.html'),'utf8')).document;assert.equal(company.querySelectorAll('template[data-page-key]').length,9);
   Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this.getAttribute('data-value')||this.querySelector('option')?.getAttribute('value')||''},set(v){this.setAttribute('data-value',v)}});
   const storage={getItem:()=>null,setItem(){}};window.localStorage=storage;
