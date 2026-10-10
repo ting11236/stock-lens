@@ -2892,5 +2892,95 @@
       ],
       "reviewed_at": "2026-10-08"
     }
+  },
+  "3008.TW": {
+    "name": "大立光",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "ir-20261008-q3": {
+        "url": "https://www.largan.com.tw/tw/tool-download/investor_shareholder_1/file/18?note=",
+        "title": "大立光2026第三季法人說明會簡報",
+        "published_at": "2026-10-08",
+        "accessed_at": "2026-10-09",
+        "publisher": "大立光",
+        "supports": "7頁全文已讀；第2、4、5、6頁自結合併資訊，未經會計師查核"
+      }
+    },
+    "limitations": [
+      "第四季展望與問答未核讀；業外細項未揭露於簡報，留待查核。"
+    ],
+    "earnings": {
+      "text": "大立光前三季的淨利增加，但本業營業利益減少，主要差異來自營業外收支。2026年10月8日法說公布的合併自結數：第三季營收156.5082億元、營業利益47.35036億元、本期淨利51.82451億元，單季每股盈餘（EPS）39.62元；前三季累計EPS為121.98元。前三季營收比去年同期增加2%，營業利益減少9%；營業外收支淨額37.83699億元，增加770%，本期淨利增加10%。簡報未列出業外收益的細項，原因仍待補查。第三季毛利66.06834億元，第二季為67.52934億元：第三季營收雖然較高，毛利金額反而減少。這份資料是已發生的自結成績，尚未經會計師查核；第四季需求、產品組合及現場問答仍待補核。",
+      "period": "2026Q3單季與2026前三季累計；10/8自結法說",
+      "sources": [
+        "ir-20261008-q3"
+      ],
+      "reviewed_at": "2026-10-09"
+    }
+  },
+  "2607.TW": {
+    "name": "榮運",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "eitc-dayuan": {
+        "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/B07-1-Intro.html",
+        "title": "大園物流園區業務簡介",
+        "publisher": "長榮國際儲運",
+        "published_at": null,
+        "published_at_missing_reason": "頁面未列發布日期",
+        "accessed_at": "2026-10-10",
+        "supports": "園區2022Q2啟用，太陽能2023-06-08商轉"
+      }
+    },
+    "limitations": [
+      "完整獲利來源、最新法說、同業尚待查找。"
+    ],
+    "developments": {
+      "text": "大園物流園區已投入營運，是榮運既有物流業務的設施。園區於2022年第二季啟用，鄰近桃園機場與台北港，提供倉儲服務，並有大型貨櫃車可通往各樓層的車道，方便進出貨。屋頂太陽能設備總裝置容量為1956.57瓩，已於2023年6月8日開始商業運轉。園區與太陽能的啟用時間都早於2026年。本次補上的是既有設施的歷史進度；個別營收、租用率、獲利及新擴建時程未在該官網頁面揭露。10月8日法說的最新展望與問答仍待取得。",
+      "period": "2022Q2／2023-06-08實績；2026-10-10官網查閱",
+      "sources": [
+        "eitc-dayuan"
+      ],
+      "reviewed_at": "2026-10-10"
+    }
+  },
+  "1215.TW": {
+    "name": "卜蜂",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "cp-profile": {
+        "url": "https://www.cptwn.com.tw/ec99/rwd1785/category.asp?category_id=8",
+        "title": "台灣卜蜂簡介",
+        "publisher": "台灣卜蜂",
+        "published_at": null,
+        "published_at_missing_reason": "未列發布日",
+        "accessed_at": "2026-10-10",
+        "supports": "飼料、冷藏肉品、加工肉品、種雞與種豬、代理業務"
+      },
+      "cp-channels": {
+        "url": "https://www.cptwn.com.tw/ec99/rwd1785/category.asp?category_id=10",
+        "title": "卜蜂經營理念",
+        "publisher": "台灣卜蜂",
+        "published_at": null,
+        "published_at_missing_reason": "未列發布日",
+        "accessed_at": "2026-10-10",
+        "supports": "銷售通路類型"
+      }
+    },
+    "limitations": [
+      "僅核心業務章節完成；新發展、財务與獲利原因、同業及預估未查完。"
+    ],
+    "business": {
+      "text": "台灣卜蜂從飼料、種雞與種豬，到雞肉、豬肉及加工食品都有經營，業務連接農牧養殖與食品消費兩端。主要產品包括雞、豬、鴨等混合飼料、生鮮冷藏雞肉與豬肉，以及肉類加工品；另有動物營養藥品、飼料添加物、農業食品與化工原料的進口代理。雞肉產品的銷售通路包括連鎖速食店、超商、傳統市場、量販超市、團膳、經銷商與網購。以上依台灣上市公司卜蜂（1215）的官網整理；各類業務營收、毛利與客戶集中度未在這兩個頁面揭露，新廠與產品升級進度仍待補查。",
+      "period": "2026-10-10官網核讀；頁面未列更新日期",
+      "sources": [
+        "cp-profile",
+        "cp-channels"
+      ],
+      "reviewed_at": "2026-10-10"
+    }
   }
 }
