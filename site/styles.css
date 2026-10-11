@@ -143,3 +143,5 @@
 .industry-row-button:hover{border-color:#126957;background:#dceee5;text-decoration:underline}
 
 .stock-table .industry-row-button{display:block;font-size:13px;font-weight:400;line-height:1.5;padding:3px 5px;min-height:32px;margin-top:3px;white-space:nowrap}
+
+#calendarDialog .research-modal-tabs{flex-wrap:wrap;overflow-x:visible}#calendarDialog .research-modal-tabs [aria-selected="true"]{background:#245f4a;color:#fff}.calendar-company-link{border:0;background:transparent;padding:0;color:#245f4a;text-decoration:underline;text-underline-offset:3px;font:inherit;font-weight:700;text-align:left;cursor:pointer}.calendar-company-link:focus-visible{outline:2px solid #245f4a;outline-offset:4px}.recent-meeting-summary time{font-weight:600}

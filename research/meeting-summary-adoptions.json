@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "meetings": [
+    {
+      "symbol": "2603.TW",
+      "name": "長榮",
+      "kind": "法說會",
+      "meeting_date": "2026-10-08",
+      "summary_updated_at": "2026-10-11",
+      "batch_id": "research-20261011-2603-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "6e8a8f15fe1750892b16974290a5a85b810b8ad6",
+      "workflow_run_id": 38150556133,
+      "verified_at": "2026-10-11T23:18:22.501709+08:00"
+    }
+  ]
+}

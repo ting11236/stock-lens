@@ -1,9 +1,13 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const {parseHTML}=require('linkedom');
+const {recentPublishedMeetingSummaries}=require('./meeting_summaries.cjs');
 function buildStaticSite(site=path.resolve('site')){
  const read=name=>JSON.parse(fs.readFileSync(path.join(site,'data',name+'.json'),'utf8'));
  const market=read('stocks'),data=read('company-research'),movers=read('market-movers'),calendar=read('company-calendar');
+ const ledgerPath=path.join(site,'../research/meeting-summary-adoptions.json');
+ const ledger=fs.existsSync(ledgerPath)?JSON.parse(fs.readFileSync(ledgerPath,'utf8')):{meetings:[]};
+ calendar.recent_summaries=recentPublishedMeetingSummaries(ledger.meetings,data.profiles,calendar.as_of);
  const {document,window}=parseHTML(fs.readFileSync(path.join(site,'index.html'),'utf8'));
  Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){const o=this.querySelector('option[selected]')||this.querySelector('option');return o?.getAttribute('value')??o?.textContent??'';},set(value){for(const o of this.querySelectorAll('option')){if((o.getAttribute('value')??o.textContent)===String(value))o.setAttribute('selected','');else o.removeAttribute('selected');}}});
  const storage={getItem:()=>null,setItem(){}};
@@ -33,7 +37,7 @@ function buildStaticSite(site=path.resolve('site')){
    panelTemplates.push(template('movers-'+period+'-'+view,'',document.getElementById('moversContent').innerHTML));
   }
  }
- for(const view of ['upcoming','queue']){
+ for(const view of ['upcoming','queue','recent']){
   ctx.view=view;run("calendar.view=view;renderCalendar()");
   panelTemplates.push(template('calendar-'+view,'',document.getElementById('calendarContent').innerHTML));
  }
