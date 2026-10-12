@@ -2514,7 +2514,7 @@
         },
         {
           "change": 55.172413793103445,
-          "industry": "電腦及週邊設備業",
+          "industry": "電腦及週邊設備",
           "name": "大眾控",
           "price": 63.0,
           "symbol": "3701.TW"
@@ -2633,7 +2633,7 @@
         },
         {
           "change": 38.81909547738695,
-          "industry": "油電燃氣業",
+          "industry": "油電燃氣",
           "name": "台塑化",
           "price": 110.5,
           "symbol": "6505.TW"
@@ -3025,7 +3025,7 @@
         },
         {
           "change": 20.314960629921263,
-          "industry": "電腦及週邊設備業",
+          "industry": "電腦及週邊設備",
           "name": "AMAX-KY",
           "price": 382.0,
           "symbol": "6933.TW"
@@ -3102,7 +3102,7 @@
         },
         {
           "change": 18.1159420289855,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "基米-創",
           "price": 16.3,
           "symbol": "4195.TW"
@@ -3564,7 +3564,7 @@
         },
         {
           "change": 11.576354679802936,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "亞諾法",
           "price": 22.65,
           "symbol": "4133.TW"
@@ -3907,7 +3907,7 @@
         },
         {
           "change": 8.52713178294573,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "承業醫",
           "price": 28.0,
           "symbol": "4164.TW"
@@ -4061,7 +4061,7 @@
         },
         {
           "change": 7.776560788608999,
-          "industry": "電腦及週邊設備業",
+          "industry": "電腦及週邊設備",
           "name": "映泰",
           "price": 49.2,
           "symbol": "2399.TW"
@@ -4208,7 +4208,7 @@
         },
         {
           "change": 6.76100628930818,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "泰福-KY",
           "price": 33.95,
           "symbol": "6541.TW"
@@ -4362,7 +4362,7 @@
         },
         {
           "change": 5.910543130990398,
-          "industry": "電腦及週邊設備業",
+          "industry": "電腦及週邊設備",
           "name": "迎廣",
           "price": 66.3,
           "symbol": "6117.TW"
@@ -4488,7 +4488,7 @@
         },
         {
           "change": 5.3475935828877,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "永信",
           "price": 59.1,
           "symbol": "3705.TW"
@@ -4530,7 +4530,7 @@
         },
         {
           "change": 5.038335158817087,
-          "industry": "金融保險業",
+          "industry": "金融保險",
           "name": "中再保",
           "price": 47.95,
           "symbol": "2851.TW"
@@ -4658,7 +4658,7 @@
         },
         {
           "change": -12.72727272727272,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "光麗-KY",
           "price": 16.8,
           "symbol": "6431.TW"
@@ -5099,7 +5099,7 @@
         },
         {
           "change": -6.25,
-          "industry": "電腦及週邊設備業",
+          "industry": "電腦及週邊設備",
           "name": "攸泰科技",
           "price": 45.0,
           "symbol": "6928.TW"
@@ -5148,7 +5148,7 @@
         },
         {
           "change": -5.769230769230771,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "佐登-KY",
           "price": 24.5,
           "symbol": "4190.TW"
@@ -5176,7 +5176,7 @@
         },
         {
           "change": -5.635359116022098,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "葡萄王",
           "price": 85.4,
           "symbol": "1707.TW"
@@ -6425,7 +6425,7 @@
         },
         {
           "change": 25.0,
-          "industry": "電腦及週邊設備業",
+          "industry": "電腦及週邊設備",
           "name": "大眾控",
           "price": 63.0,
           "symbol": "3701.TW"
@@ -6537,7 +6537,7 @@
         },
         {
           "change": 17.30360934182591,
-          "industry": "油電燃氣業",
+          "industry": "油電燃氣",
           "name": "台塑化",
           "price": 110.5,
           "symbol": "6505.TW"
@@ -6698,7 +6698,7 @@
         },
         {
           "change": 12.231404958677693,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "泰福-KY",
           "price": 33.95,
           "symbol": "6541.TW"
@@ -6810,7 +6810,7 @@
         },
         {
           "change": 9.685230024213066,
-          "industry": "生技醫療業",
+          "industry": "生技醫療",
           "name": "亞諾法",
           "price": 22.65,
           "symbol": "4133.TW"
@@ -7202,7 +7202,7 @@
         },
         {
           "change": 6.42054574638844,
-          "industry": "電腦及週邊設備業",
+          "industry": "電腦及週邊設備",
           "name": "迎廣",
           "price": 66.3,
           "symbol": "6117.TW"
@@ -7845,5 +7845,5 @@
   },
   "schema_version": 1,
   "source": "https://www.twse.com.tw/exchangeReport/MI_INDEX",
-  "updated_at": "2026-10-11T16:21:39+00:00"
+  "updated_at": "2026-10-12T05:55:32+00:00"
 }
