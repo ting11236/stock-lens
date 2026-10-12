@@ -5975,7 +5975,11 @@
       "summary_reviewed_at": "2026-10-03"
     }
   },
-  "errors": [],
+  "errors": [
+    "2026-09 法說會：URLError",
+    "2026-10 法說會：URLError",
+    "2026-11 法說會：URLError"
+  ],
   "events": [
     {
       "cancelled": false,
@@ -38130,21 +38134,18 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-12",
       "name": "2026-09 法說會",
-      "status": "ok",
+      "status": "failed",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-12",
       "name": "2026-10 法說會",
-      "status": "ok",
+      "status": "failed",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-12",
       "name": "2026-11 法說會",
-      "status": "ok",
+      "status": "failed",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
@@ -52489,5 +52490,5 @@
       "symbol": "9958.TW"
     }
   ],
-  "updated_at": "2026-10-12T13:56:14+08:00"
+  "updated_at": "2026-10-12T14:04:04+08:00"
 }
