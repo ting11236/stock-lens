@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-13",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -1882,18 +1882,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2408.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-12",
-        "description": "(1)2026年第3季營運狀況說明 (2)參加方式：請參見 https://www.nanya.com/tw/IR/13/Investor Calendar",
-        "end_date": "2026-10-12",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "南亞科",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2408.TW",
-        "time": "15:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4006,18 +3995,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4934.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-12",
-        "description": "盛新材料(6930)-受邀參加第一金證券舉辦之興櫃前法人說明會 說明公司營運概況及未來展望。",
-        "end_date": "2026-10-12",
-        "kind": "法說會",
-        "location": "台北君悅酒店3樓凱悅二廳(台北市信義區松壽路2號)",
-        "name": "太極",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "4934.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4600,18 +4578,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6281.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-12",
-        "description": "本公司受邀參加凱基證券主辦之線上法說會，說明本公司之營運概況、財務及業務相關資訊。",
-        "end_date": "2026-10-12",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "全國電",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "6281.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -38360,37 +38327,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -52717,7 +52684,52 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9958.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-12",
+      "description": "(1)2026年第3季營運狀況說明 (2)參加方式：請參見 https://www.nanya.com/tw/IR/13/Investor Calendar",
+      "due_date": "2026-10-13",
+      "end_date": "2026-10-12",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "南亞科",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2408.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-12",
+      "description": "盛新材料(6930)-受邀參加第一金證券舉辦之興櫃前法人說明會 說明公司營運概況及未來展望。",
+      "due_date": "2026-10-13",
+      "end_date": "2026-10-12",
+      "kind": "法說會",
+      "location": "台北君悅酒店3樓凱悅二廳(台北市信義區松壽路2號)",
+      "name": "太極",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4934.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-12",
+      "description": "本公司受邀參加凱基證券主辦之線上法說會，說明本公司之營運概況、財務及業務相關資訊。",
+      "due_date": "2026-10-13",
+      "end_date": "2026-10-12",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "全國電",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6281.TW",
+      "time": "14:00"
     }
   ],
-  "updated_at": "2026-10-12T21:48:17+08:00"
+  "updated_at": "2026-10-13T03:50:47+08:00"
 }
