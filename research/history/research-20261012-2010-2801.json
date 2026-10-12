@@ -1,0 +1,1667 @@
+{
+  "adopted_at": "2026-10-12T05:49:59.154Z",
+  "companies_count": 2,
+  "sections_count": 7,
+  "archives": [
+    {
+      "batch_id": "research-20261012-2010-v1",
+      "baseline_commit": "887555f266adf0e466101b4e1a76283445e770e2",
+      "manifest": {
+        "schema_version": "1.0",
+        "batch_id": "research-20261012-2010-v1",
+        "ready": true,
+        "created_at": "2026-10-12T13:44:31.655196+08:00",
+        "updates_file": "updates.json",
+        "updates_count": 4,
+        "updates_sha256": "sha256:cb424905db2daa927674d2ca87414ebb247402f2e1f80249e89b9f4355f7dcd4",
+        "work_type": "backfill",
+        "completion_unit": "整家公司既定範圍查找及10月8日法說可取得公開資料",
+        "validation": {
+          "baseline_locked": true,
+          "source_periods_checked": true,
+          "full_unit_delivered": true,
+          "charts_checked": true
+        },
+        "limitations": [
+          "完整財報附註／分部獲利及單項新發展貢獻未取得或未揭露；不硬分配獲利。",
+          "原始問答未取得可核對文字，不採來源有衝突的第三方摘要；不查影片。",
+          "官方公司頁、法說及公開預估已合理查找，查找完成不等於未公開資訊已取得；無可驗證最新法人EPS共識。"
+        ],
+        "meeting_research": {
+          "company_code": "2010",
+          "meeting_date": "2026-10-08",
+          "research_complete": true,
+          "scope": "整場可取得簡報及公開文字，問答缺漏明示",
+          "original_qa_verified": false
+        }
+      },
+      "original_delivery": [
+        {
+          "schema_version": "1.0",
+          "update_id": "research-20261012-2010-v1-business",
+          "task_id": "backfill-20261012-2010",
+          "company_code": "2010",
+          "company_name": "春源",
+          "market": "TWSE",
+          "work_type": "backfill",
+          "section": "business",
+          "operation": "replace",
+          "expected_old_version": "sha256:b8b7a291bcff546228a0c6227679f69df56740a67aaa1ac5a72027c8a013da55",
+          "expected_old_version_scope": "current_official_record",
+          "expected_overview_version": "sha256:3e13369db66591e4993a18bd35ab4f7f86e58593b6a36d0ce21558fe2e030a41",
+          "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_content": null,
+          "new_content": {
+            "text": "春源是金屬材料加工、通路與鋼構工程業者，並非以煉鋼為唯一主業。鋼板業務將熱軋、冷軋與鍍面材料裁剪、分條，供汽車零組件、電器、電腦機殼、機械及建築使用；矽鋼業務提供各類馬達積層鐵芯、變壓器與電感器材料及模具；特鋼帶提供中高碳鋼、工具鋼等軋延與退火客製服務。營建業務承接鋼構加工及現場安裝，官網列有台積電廠房、大巨蛋、橋樑等歷史實績，不能把歷史客戶直接當成本期新增訂單。自動倉儲提供料架、電動移動櫃與物流設備規劃設計、製造、安裝及售後服務。公司位於上游鋼材供應與下游製造、營建之間，加工能力、料源與工程履約為競爭重點。2026上半年銷量以鋼板52.5%、鋼構31.8%為主，國內98.8%；這些是銷量而非營收或淨利占比，簡報也未說明可直接套用全體海外子公司的銷量口徑。",
+            "period": "2026-10-12查核；各實績與计划期間見正文",
+            "sources": [
+              "ir-20261008",
+              "steel",
+              "silicon",
+              "strip",
+              "warehouse",
+              "construction",
+              "peer2006",
+              "financial-index"
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "ir-20261008",
+              "url": "https://www.cysco.com.tw/storage/system/Conference/115-2ConferenceTC.pdf",
+              "title": "春源2026年10月8日法說簡報",
+              "publisher": "春源鋼鐵",
+              "published_at": "2026-10-08",
+              "accessed_at": "2026-10-12",
+              "supports": "全40頁全文；財務、銷量、訂單、辦公大樓及太陽能圖表"
+            },
+            {
+              "source_id": "steel",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-01",
+              "title": "鋼板事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、裁剪與產品用途",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "silicon",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-03",
+              "title": "矽鋼事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "馬達鐵芯、電感器與模具",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "strip",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-05",
+              "title": "特鋼帶事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、軋延退火與客製化",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "warehouse",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-06-page74",
+              "title": "自動倉儲事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "既有設備與一條龍服務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "construction",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-07-page75",
+              "title": "營建事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "加工安裝、工法及歷史工程實績",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "peer2006",
+              "url": "https://www.tunghosteel.com/about/intro",
+              "title": "東和鋼鐵公司簡介",
+              "publisher": "東和鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "鋼筋型鋼、加工與鋼構相關業務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "financial-index",
+              "url": "https://www.cysco.com.tw/investorzone-67-116",
+              "title": "春源財報下載目錄",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "本次可讀目錄未提供可取得的2026H1完整附註",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            }
+          ],
+          "claim_type": "fact_and_explicit_research_inference",
+          "research_completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "research_completion": "completed_lookup_with_disclosed_gaps",
+          "do_not_refresh_company_reviewed_at": true,
+          "limitations": [
+            "完整財報附註／分部獲利及單項新發展貢獻未取得或未揭露；不硬分配獲利。",
+            "原始問答未取得可核對文字，不採來源有衝突的第三方摘要；不查影片。",
+            "官方公司頁、法說及公開預估已合理查找，查找完成不等於未公開資訊已取得；無可驗證最新法人EPS共識。"
+          ],
+          "completion_unit": "整家公司既定範圍查找及10月8日法說可取得公開資料"
+        },
+        {
+          "schema_version": "1.0",
+          "update_id": "research-20261012-2010-v1-earnings",
+          "task_id": "backfill-20261012-2010",
+          "company_code": "2010",
+          "company_name": "春源",
+          "market": "TWSE",
+          "work_type": "backfill",
+          "section": "earnings",
+          "operation": "replace",
+          "expected_old_version": "sha256:b8b7a291bcff546228a0c6227679f69df56740a67aaa1ac5a72027c8a013da55",
+          "expected_old_version_scope": "current_official_record",
+          "expected_overview_version": "sha256:3e13369db66591e4993a18bd35ab4f7f86e58593b6a36d0ce21558fe2e030a41",
+          "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_content": null,
+          "new_content": {
+            "text": "獲利來源包括材料銷售與裁剪加工價差、精密加工服務、鋼構工程及倉儲設備交付；這是業務機制判讀，不代表各部門淨利已揭露。2026上半年合併累計營收128.84億元、營業利益10.16億元、本期淨利8.87億元、EPS1.35元；本期淨利包含非控制權益，不能寫成歸母淨利。簡報的2026Q2損益表實際為上半年累計，不是第二季單季，營收同比增7.7%、本期淨利增16.6%。毛利額及營業利益皆高於同期，足以支持本業改善，但未取得分部利益與完整附註，不能把改善全部歸因鋼構，也不能補造匯兌或處分收益原因。2026年6月底總資產236.66億元、總負債107.29億元，負債比圖約45%、流動比率約177%；負債不是純借款。上半年營業活動現金流約18.38億元，應收平均收現76天、存貨平均售貨81天，週轉指標為年化且存貨週轉不含工程類存貨。研究判斷：現金流仍為正，須繼續留意工程請款、材料存貨及成本變動；不能由比率直接宣稱零流動性風險。既有全年、最近四季與月营收數值仍用網站資料，不新增另一套計算。",
+            "period": "2026-10-12查核；各實績與计划期間見正文",
+            "sources": [
+              "ir-20261008",
+              "steel",
+              "silicon",
+              "strip",
+              "warehouse",
+              "construction",
+              "peer2006",
+              "financial-index"
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "ir-20261008",
+              "url": "https://www.cysco.com.tw/storage/system/Conference/115-2ConferenceTC.pdf",
+              "title": "春源2026年10月8日法說簡報",
+              "publisher": "春源鋼鐵",
+              "published_at": "2026-10-08",
+              "accessed_at": "2026-10-12",
+              "supports": "全40頁全文；財務、銷量、訂單、辦公大樓及太陽能圖表"
+            },
+            {
+              "source_id": "steel",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-01",
+              "title": "鋼板事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、裁剪與產品用途",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "silicon",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-03",
+              "title": "矽鋼事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "馬達鐵芯、電感器與模具",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "strip",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-05",
+              "title": "特鋼帶事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、軋延退火與客製化",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "warehouse",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-06-page74",
+              "title": "自動倉儲事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "既有設備與一條龍服務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "construction",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-07-page75",
+              "title": "營建事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "加工安裝、工法及歷史工程實績",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "peer2006",
+              "url": "https://www.tunghosteel.com/about/intro",
+              "title": "東和鋼鐵公司簡介",
+              "publisher": "東和鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "鋼筋型鋼、加工與鋼構相關業務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "financial-index",
+              "url": "https://www.cysco.com.tw/investorzone-67-116",
+              "title": "春源財報下載目錄",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "本次可讀目錄未提供可取得的2026H1完整附註",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            }
+          ],
+          "claim_type": "fact_and_explicit_research_inference",
+          "research_completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "research_completion": "completed_lookup_with_disclosed_gaps",
+          "do_not_refresh_company_reviewed_at": true,
+          "limitations": [
+            "完整財報附註／分部獲利及單項新發展貢獻未取得或未揭露；不硬分配獲利。",
+            "原始問答未取得可核對文字，不採來源有衝突的第三方摘要；不查影片。",
+            "官方公司頁、法說及公開預估已合理查找，查找完成不等於未公開資訊已取得；無可驗證最新法人EPS共識。"
+          ],
+          "completion_unit": "整家公司既定範圍查找及10月8日法說可取得公開資料"
+        },
+        {
+          "schema_version": "1.0",
+          "update_id": "research-20261012-2010-v1-developments",
+          "task_id": "backfill-20261012-2010",
+          "company_code": "2010",
+          "company_name": "春源",
+          "market": "TWSE",
+          "work_type": "backfill",
+          "section": "developments",
+          "operation": "replace",
+          "expected_old_version": "sha256:b8b7a291bcff546228a0c6227679f69df56740a67aaa1ac5a72027c8a013da55",
+          "expected_old_version_scope": "current_official_record",
+          "expected_overview_version": "sha256:3e13369db66591e4993a18bd35ab4f7f86e58593b6a36d0ce21558fe2e030a41",
+          "expected_old_section_version": "sha256:92eb5b8916146ca07c42c231244cd80b3fc05875aa9f1337a4f20d20706c92cc",
+          "old_content": {
+            "text": "項目2010-group-building（既有營運設施建置）：新北三重集團大樓規劃地上15樓、地下3層，目前內部室裝工程規劃執行中，公司預計2027年下半年正式啟用。是辦公設施建置，不屬新產品、新事業或已確認鋼構產能擴張。簡報未揭露本項客戶、單項營收貢獻或財測；不能將樓地板面積推算產能或獲利。2026上半年各廠太陽能發電為既有能源管理成果，也不逕列新售電事業。",
+            "period": "2026-10-08法說；實績為2026上半年，展望至2027年",
+            "sources": [
+              "ir-20261008"
+            ],
+            "reviewed_at": "2026-10-08"
+          },
+          "new_content": {
+            "text": "沿用既有文字項目2010-group-building（辦公營運設施）：三重集團大樓內裝規劃執行中，預計2027年下半年啟用，不是新增鋼材產能或新事業商轉，營收貢獻未揭露。項目2010-solar-existing（既有能源設施）：2026上半年龍潭、高雄及台南新吉已有發電实績，發電量不能直接當售電營收或淨利；本場未揭露新擴建、售電單價或獨立獲利。項目2010-warehouse-automation（既有產品／系統整合服務）：官方現有料架、電動物料架及自動倉庫系統，面向工廠與物流倉儲客戶，已有規劃至售後服務；未找到本場官方文字對新增穿梭車產品之訂單、測試進度、商用時程與營收預估的確認。項目2010-motor-core-applications（既有矽鋼產品應用）：產品可用於電動機、汽車、工具機與機器人；用途清單不是近期推出新產品或取得AI客戶認證。除既有大樓ID外，其餘為本輪提議固定ID，匯入前應確認沒有語意重複項目。沒有足夠資料支持另一個已商用新事業或可量化新產品營收，不以AI產業題材補填。",
+            "period": "2026-10-12查核；各實績與计划期間見正文",
+            "sources": [
+              "ir-20261008",
+              "steel",
+              "silicon",
+              "strip",
+              "warehouse",
+              "construction",
+              "peer2006",
+              "financial-index"
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "ir-20261008",
+              "url": "https://www.cysco.com.tw/storage/system/Conference/115-2ConferenceTC.pdf",
+              "title": "春源2026年10月8日法說簡報",
+              "publisher": "春源鋼鐵",
+              "published_at": "2026-10-08",
+              "accessed_at": "2026-10-12",
+              "supports": "全40頁全文；財務、銷量、訂單、辦公大樓及太陽能圖表"
+            },
+            {
+              "source_id": "steel",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-01",
+              "title": "鋼板事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、裁剪與產品用途",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "silicon",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-03",
+              "title": "矽鋼事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "馬達鐵芯、電感器與模具",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "strip",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-05",
+              "title": "特鋼帶事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、軋延退火與客製化",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "warehouse",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-06-page74",
+              "title": "自動倉儲事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "既有設備與一條龍服務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "construction",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-07-page75",
+              "title": "營建事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "加工安裝、工法及歷史工程實績",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "peer2006",
+              "url": "https://www.tunghosteel.com/about/intro",
+              "title": "東和鋼鐵公司簡介",
+              "publisher": "東和鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "鋼筋型鋼、加工與鋼構相關業務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "financial-index",
+              "url": "https://www.cysco.com.tw/investorzone-67-116",
+              "title": "春源財報下載目錄",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "本次可讀目錄未提供可取得的2026H1完整附註",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            }
+          ],
+          "claim_type": "fact_and_explicit_research_inference",
+          "research_completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "research_completion": "completed_lookup_with_disclosed_gaps",
+          "do_not_refresh_company_reviewed_at": true,
+          "limitations": [
+            "完整財報附註／分部獲利及單項新發展貢獻未取得或未揭露；不硬分配獲利。",
+            "原始問答未取得可核對文字，不採來源有衝突的第三方摘要；不查影片。",
+            "官方公司頁、法說及公開預估已合理查找，查找完成不等於未公開資訊已取得；無可驗證最新法人EPS共識。"
+          ],
+          "completion_unit": "整家公司既定範圍查找及10月8日法說可取得公開資料"
+        },
+        {
+          "schema_version": "1.0",
+          "update_id": "research-20261012-2010-v1-transition",
+          "task_id": "backfill-20261012-2010",
+          "company_code": "2010",
+          "company_name": "春源",
+          "market": "TWSE",
+          "work_type": "backfill",
+          "section": "transition",
+          "operation": "replace",
+          "expected_old_version": "sha256:b8b7a291bcff546228a0c6227679f69df56740a67aaa1ac5a72027c8a013da55",
+          "expected_old_version_scope": "current_official_record",
+          "expected_overview_version": "sha256:3e13369db66591e4993a18bd35ab4f7f86e58593b6a36d0ce21558fe2e030a41",
+          "expected_old_section_version": "sha256:1dc52ba421398cd49c72feb9e715ff3c64c9043d1fbdbe04dc0a2eda9313b8d9",
+          "old_content": {
+            "text": "2026年10月8日法說披露鋼結構工程在手訂單超過20萬噸，訂單能見度至2027年第四季。這是公司對工程排程的展望，不是已認列營收，未提供訂單金額、毛利或客戶名單，亦非整體營收財測。研究判讀：工程需求有助支持營運延續性，但仍須追蹤履約時程、成本與認列，不能由噸數直接推算EPS。2026上半年產品銷售量中鋼板占52.5%、營建鋼結構31.8%，國內銷量98.8%；皆為銷量口徑，不能當營收或獲利占比。簡報引用AI帶動設備與營建需求的產業觀點，未量化春源AI相關營收。",
+            "period": "2026-10-08法說；實績為2026上半年，展望至2027年",
+            "sources": [
+              "ir-20261008"
+            ],
+            "reviewed_at": "2026-10-08"
+          },
+          "new_content": {
+            "text": "本場10月8日官方簡報表示鋼構在手訂單超過20萬噸、能見度至2027年第四季。噸數與排程不是營收財測、毛利承諾或當期已認列收入。本次合理查找未取得可核對官方文字問答；第三方摘要有16.6%誤寫6.6%、訂單到2028年上半年與官方簡報不同等差異，不採為已確認事實，依使用者要求不找影片。公司簡報引用汽車、機械、AI廠房及商辦需求展望，這些產業預估不是春源EPS預估；未找到有發布日及預估者可驗證的最新法人EPS共識，也未見本場量化全年營收或EPS財測。研究判斷：工程能見度支持中期接案，但進度、工程成本、下游需求與鋼價變動決定實際獲利；應分別觀察鋼構履約與材料加工需求，不把科技廠擴建等同春源全面受惠。相似同業2006東和鋼鐵有建築鋼材、鋼材加工與鋼構關聯，可對照國內營建需求、材料成本及鋼構景氣；其電爐煉鋼、鋼筋及型鋼占比不同，並非完全相同商業模式。未發現可由本場確認的重大併購或一次性損失，不等同保證沒有其他事件。",
+            "period": "2026-10-12查核；各實績與计划期間見正文",
+            "sources": [
+              "ir-20261008",
+              "steel",
+              "silicon",
+              "strip",
+              "warehouse",
+              "construction",
+              "peer2006",
+              "financial-index"
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "ir-20261008",
+              "url": "https://www.cysco.com.tw/storage/system/Conference/115-2ConferenceTC.pdf",
+              "title": "春源2026年10月8日法說簡報",
+              "publisher": "春源鋼鐵",
+              "published_at": "2026-10-08",
+              "accessed_at": "2026-10-12",
+              "supports": "全40頁全文；財務、銷量、訂單、辦公大樓及太陽能圖表"
+            },
+            {
+              "source_id": "steel",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-01",
+              "title": "鋼板事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、裁剪與產品用途",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "silicon",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-03",
+              "title": "矽鋼事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "馬達鐵芯、電感器與模具",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "strip",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-05",
+              "title": "特鋼帶事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "材料、軋延退火與客製化",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "warehouse",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-06-page74",
+              "title": "自動倉儲事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "既有設備與一條龍服務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "construction",
+              "url": "https://www.cysco.com.tw/businessdepartmentintroduction-07-page75",
+              "title": "營建事業部",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "加工安裝、工法及歷史工程實績",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "peer2006",
+              "url": "https://www.tunghosteel.com/about/intro",
+              "title": "東和鋼鐵公司簡介",
+              "publisher": "東和鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "鋼筋型鋼、加工與鋼構相關業務",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            },
+            {
+              "source_id": "financial-index",
+              "url": "https://www.cysco.com.tw/investorzone-67-116",
+              "title": "春源財報下載目錄",
+              "publisher": "春源鋼鐵",
+              "published_at": null,
+              "accessed_at": "2026-10-12",
+              "supports": "本次可讀目錄未提供可取得的2026H1完整附註",
+              "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+            }
+          ],
+          "claim_type": "fact_and_explicit_research_inference",
+          "research_completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "research_completion": "completed_lookup_with_disclosed_gaps",
+          "do_not_refresh_company_reviewed_at": true,
+          "limitations": [
+            "完整財報附註／分部獲利及單項新發展貢獻未取得或未揭露；不硬分配獲利。",
+            "原始問答未取得可核對文字，不採來源有衝突的第三方摘要；不查影片。",
+            "官方公司頁、法說及公開預估已合理查找，查找完成不等於未公開資訊已取得；無可驗證最新法人EPS共識。"
+          ],
+          "completion_unit": "整家公司既定範圍查找及10月8日法說可取得公開資料"
+        }
+      ],
+      "previous_record": {
+        "name": "春源",
+        "reviewed_at": null,
+        "research_completion": "partial",
+        "sources": {
+          "ir-20261008": {
+            "url": "https://www.cysco.com.tw/storage/system/Conference/115-2ConferenceTC.pdf",
+            "title": "春源2026年10月8日法人說明會簡報",
+            "published_at": "2026-10-08",
+            "accessed_at": "2026-10-08",
+            "publisher": "春源鋼鐵",
+            "supports": "全40頁已讀；第8、11–12、24–25、27–32頁重點查核"
+          }
+        },
+        "limitations": [
+          "僅部分章節已查核；完整公司研究尚未完成。"
+        ],
+        "transition": {
+          "text": "2026年10月8日法說披露鋼結構工程在手訂單超過20萬噸，訂單能見度至2027年第四季。這是公司對工程排程的展望，不是已認列營收，未提供訂單金額、毛利或客戶名單，亦非整體營收財測。研究判讀：工程需求有助支持營運延續性，但仍須追蹤履約時程、成本與認列，不能由噸數直接推算EPS。2026上半年產品銷售量中鋼板占52.5%、營建鋼結構31.8%，國內銷量98.8%；皆為銷量口徑，不能當營收或獲利占比。簡報引用AI帶動設備與營建需求的產業觀點，未量化春源AI相關營收。",
+          "period": "2026-10-08法說；實績為2026上半年，展望至2027年",
+          "sources": [
+            "ir-20261008"
+          ],
+          "reviewed_at": "2026-10-08"
+        },
+        "developments": {
+          "text": "項目2010-group-building（既有營運設施建置）：新北三重集團大樓規劃地上15樓、地下3層，目前內部室裝工程規劃執行中，公司預計2027年下半年正式啟用。是辦公設施建置，不屬新產品、新事業或已確認鋼構產能擴張。簡報未揭露本項客戶、單項營收貢獻或財測；不能將樓地板面積推算產能或獲利。2026上半年各廠太陽能發電為既有能源管理成果，也不逕列新售電事業。",
+          "period": "2026-10-08法說；實績為2026上半年，展望至2027年",
+          "sources": [
+            "ir-20261008"
+          ],
+          "reviewed_at": "2026-10-08"
+        }
+      },
+      "adopted_record": {
+        "name": "春源",
+        "reviewed_at": null,
+        "research_completion": "partial",
+        "sources": {
+          "ir-20261008": {
+            "url": "https://www.cysco.com.tw/storage/system/Conference/115-2ConferenceTC.pdf",
+            "title": "春源2026年10月8日法說簡報",
+            "publisher": "春源鋼鐵",
+            "published_at": "2026-10-08",
+            "accessed_at": "2026-10-12",
+            "supports": "全40頁全文；財務、銷量、訂單、辦公大樓及太陽能圖表"
+          },
+          "steel": {
+            "url": "https://www.cysco.com.tw/businessdepartmentintroduction-01",
+            "title": "鋼板事業部",
+            "publisher": "春源鋼鐵",
+            "published_at": null,
+            "accessed_at": "2026-10-12",
+            "supports": "材料、裁剪與產品用途",
+            "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+          },
+          "silicon": {
+            "url": "https://www.cysco.com.tw/businessdepartmentintroduction-03",
+            "title": "矽鋼事業部",
+            "publisher": "春源鋼鐵",
+            "published_at": null,
+            "accessed_at": "2026-10-12",
+            "supports": "馬達鐵芯、電感器與模具",
+            "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+          },
+          "strip": {
+            "url": "https://www.cysco.com.tw/businessdepartmentintroduction-05",
+            "title": "特鋼帶事業部",
+            "publisher": "春源鋼鐵",
+            "published_at": null,
+            "accessed_at": "2026-10-12",
+            "supports": "材料、軋延退火與客製化",
+            "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+          },
+          "warehouse": {
+            "url": "https://www.cysco.com.tw/businessdepartmentintroduction-06-page74",
+            "title": "自動倉儲事業部",
+            "publisher": "春源鋼鐵",
+            "published_at": null,
+            "accessed_at": "2026-10-12",
+            "supports": "既有設備與一條龍服務",
+            "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+          },
+          "construction": {
+            "url": "https://www.cysco.com.tw/businessdepartmentintroduction-07-page75",
+            "title": "營建事業部",
+            "publisher": "春源鋼鐵",
+            "published_at": null,
+            "accessed_at": "2026-10-12",
+            "supports": "加工安裝、工法及歷史工程實績",
+            "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+          },
+          "peer2006": {
+            "url": "https://www.tunghosteel.com/about/intro",
+            "title": "東和鋼鐵公司簡介",
+            "publisher": "東和鋼鐵",
+            "published_at": null,
+            "accessed_at": "2026-10-12",
+            "supports": "鋼筋型鋼、加工與鋼構相關業務",
+            "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+          },
+          "financial-index": {
+            "url": "https://www.cysco.com.tw/investorzone-67-116",
+            "title": "春源財報下載目錄",
+            "publisher": "春源鋼鐵",
+            "published_at": null,
+            "accessed_at": "2026-10-12",
+            "supports": "本次可讀目錄未提供可取得的2026H1完整附註",
+            "published_at_missing_reason": "官網服務頁未標明精確發布日期"
+          }
+        },
+        "limitations": [
+          "僅部分章節已查核；完整公司研究尚未完成。",
+          "完整財報附註／分部獲利及單項新發展貢獻未取得或未揭露；不硬分配獲利。",
+          "原始問答未取得可核對文字，不採來源有衝突的第三方摘要；不查影片。",
+          "官方公司頁、法說及公開預估已合理查找，查找完成不等於未公開資訊已取得；無可驗證最新法人EPS共識。"
+        ],
+        "transition": {
+          "text": "公司發展方向：持續承接鋼構工程，並服務汽車、機械、營建等產業的鋼材加工需求。\n公司目前可見的工程排程：10 月 8 日簡報列出鋼構在手訂單超過 20 萬噸，訂單能見度到 2027 年第四季。這表示手上工程可支持一段時間的工作安排；實際營收會隨施工與收入認列進度反映，公司未提供訂單金額、毛利或全年 EPS 預估。\n接下來的重點是工程履約、材料成本及下游需求。簡報提到汽車、機械、科技廠房與商辦需求，是產業展望；春源各項相關營收貢獻仍未量化。\n本次已整理整場可取得的官方簡報與公開文字。原始問答尚無可核對的官方文字，未採用與簡報數字衝突的第三方說法；最新法人 EPS 共識也尚未取得可驗證來源。\n可參考東和鋼鐵（2006）的國內營建需求、鋼材成本及鋼構景氣。東和另有電爐煉鋼、鋼筋與型鋼業務，兩家公司仍須依產品組合與獲利來源逐項比較。",
+          "period": "2026-10-12查核；各實績與计划期間見正文",
+          "sources": [
+            "ir-20261008",
+            "peer2006"
+          ],
+          "reviewed_at": "2026-10-12"
+        },
+        "developments": {
+          "text": "春源目前可確認的發展，主要是辦公設施建置，以及延續既有倉儲設備、矽鋼與能源設施的運用。\n三重集團大樓規劃地上 15 層、地下 3 層，內部裝修正在規劃執行，公司預計 2027 年下半年啟用。它是辦公營運設施，單項營收貢獻未揭露。\n龍潭、高雄及台南新吉的太陽能設施，2026 年上半年已有發電實績；簡報未提供獨立售電收入、單價或獲利數字。\n倉儲業務已有料架、電動物料架與自動倉庫系統，客戶包括工廠及物流倉儲業者。新增穿梭車產品的訂單、測試進度與商用時間，仍待官方資料補充。\n矽鋼產品可用於電動機、汽車、工具機與機器人。這些是既有產品的用途；近期新產品推出與客戶認證進度另待確認。",
+          "period": "2026-10-12查核；各實績與计划期間見正文",
+          "sources": [
+            "ir-20261008",
+            "warehouse",
+            "silicon"
+          ],
+          "project_ids": [
+            "2010-group-building",
+            "2010-solar-existing",
+            "2010-warehouse-automation",
+            "2010-motor-core-applications"
+          ],
+          "reviewed_at": "2026-10-12"
+        },
+        "business": {
+          "text": "春源主要把鋼材加工成客戶需要的材料與零件，也承接鋼構工程、提供倉儲設備。它位在鋼材供應商與汽車、電器、機械、建築等下游客戶之間，靠加工、供貨與工程服務做生意。\n鋼板業務提供熱軋、冷軋及鍍面鋼材的裁剪、分條；矽鋼業務製作馬達鐵芯、變壓器及電感器材料與模具；特鋼帶業務提供中高碳鋼、工具鋼的軋延、退火等客製加工。\n鋼構業務負責加工與現場安裝，官網列有台積電廠房、大巨蛋及橋樑等過去工程實績。倉儲設備則提供料架、電動移動櫃與自動倉庫系統，服務從規劃設計到安裝、售後。\n2026 年上半年銷量以鋼板 52.5%、鋼構 31.8% 為主，國內銷量占 98.8%。這是簡報的銷量組合；各部門營收與淨利占比另未揭露。",
+          "period": "2026-10-12查核；各實績與计划期間見正文",
+          "sources": [
+            "ir-20261008",
+            "steel",
+            "silicon",
+            "strip",
+            "warehouse",
+            "construction"
+          ],
+          "reviewed_at": "2026-10-12"
+        },
+        "earnings": {
+          "text": "春源上半年生意與獲利都比去年同期增加，營業現金流也維持正數。\n2026 年 1–6 月合併累計營收 128.84 億元，年增 7.7%；營業利益 10.16 億元，本期淨利 8.87 億元、年增 16.6%，累計每股盈餘（EPS）1.35 元。本期淨利包含非控制權益，也就是子公司其他股東的獲利份額。簡報標示的「2026Q2」損益數字涵蓋整個上半年。\n公司透過材料銷售與加工價差、精密加工、鋼構工程及倉儲設備交付取得收入；毛利與營業利益均高於去年同期。各部門對獲利成長的貢獻、匯兌與處分收益等細節，仍需完整財報附註才能拆解。\n2026 年 6 月底總資產 236.66 億元、總負債 107.29 億元，負債占資產約 45%；流動資產約為流動負債的 177%。總負債包含借款及其他應付款項。上半年營業活動帶來現金約 18.38 億元。\n應收款平均約 76 天收回、存貨平均約 81 天售出。這組週轉指標採年化方式，存貨週轉率排除工程類存貨。接下來可留意工程請款是否順利、庫存與材料成本的變化。",
+          "period": "2026-10-12查核；各實績與计划期間見正文",
+          "sources": [
+            "ir-20261008",
+            "financial-index"
+          ],
+          "reviewed_at": "2026-10-12"
+        },
+        "lookup_completion": {
+          "status": "completed_lookup_with_disclosed_gaps",
+          "completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "batch_id": "research-20261012-2010-v1",
+          "scope": "整家公司既定範圍查找及10月8日法說可取得公開資料"
+        },
+        "meeting_research": {
+          "event_date": "2026-10-08",
+          "completion": "2010-20261008整場可取得官方簡報與公開文字",
+          "status": "meeting_complete_with_disclosed_gaps",
+          "reviewed_at": "2026-10-12",
+          "original_qa_verified": false,
+          "batch_id": "research-20261012-2010-v1"
+        }
+      },
+      "adoptions": [
+        {
+          "update_id": "research-20261012-2010-v1-business",
+          "symbol": "2010.TW",
+          "section": "business",
+          "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "adopted_sha256": "sha256:93bc98f4ae98a4ff2d8e3c73933acc6bd2efa1d1d2786c76dce39f892572e464",
+          "editorial_rewrite": true
+        },
+        {
+          "update_id": "research-20261012-2010-v1-earnings",
+          "symbol": "2010.TW",
+          "section": "earnings",
+          "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "adopted_sha256": "sha256:b5819fb6813c3e743ae8fb340443aeeed4d0f6c9e8599d75f5a7cee87fb724dc",
+          "editorial_rewrite": true
+        },
+        {
+          "update_id": "research-20261012-2010-v1-developments",
+          "symbol": "2010.TW",
+          "section": "developments",
+          "expected_old_section_version": "sha256:92eb5b8916146ca07c42c231244cd80b3fc05875aa9f1337a4f20d20706c92cc",
+          "adopted_sha256": "sha256:e89a16d8c1f625be787507553bdbda02b2e4b2b2d8b6d62f292e134e3e7a9b0e",
+          "editorial_rewrite": true
+        },
+        {
+          "update_id": "research-20261012-2010-v1-transition",
+          "symbol": "2010.TW",
+          "section": "transition",
+          "expected_old_section_version": "sha256:1dc52ba421398cd49c72feb9e715ff3c64c9043d1fbdbe04dc0a2eda9313b8d9",
+          "adopted_sha256": "sha256:e108ba7c701b8972c6d429497082098a22abe7a8e6d1a2dfff44a80dc576272b",
+          "editorial_rewrite": true
+        }
+      ]
+    },
+    {
+      "batch_id": "research-20261012-2801-v1",
+      "baseline_commit": "887555f266adf0e466101b4e1a76283445e770e2",
+      "manifest": {
+        "schema_version": "1.0",
+        "batch_id": "research-20261012-2801-v1",
+        "ready": true,
+        "created_at": "2026-10-12T13:44:31.655196+08:00",
+        "updates_file": "updates.json",
+        "updates_count": 3,
+        "updates_sha256": "sha256:0df2becb0fd499b48947bd017bd5f294c7d699dbd994ddbc4caf4828ef009b2f",
+        "work_type": "backfill",
+        "completion_unit": "承接公司最後剩餘重大事件範圍查找",
+        "validation": {
+          "baseline_locked": true,
+          "source_periods_checked": true,
+          "full_unit_delivered": true,
+          "charts_checked": false
+        },
+        "limitations": [
+          "本輪完成既定剩餘重大事件查找；其他章節沿用先前已核對基線，不刷新整家公司reviewed_at。",
+          "最新自結未核閱；都更估價、資訊合約、資產交易與已實現營收獲利分開。",
+          "未公開單項貢獻及海外計畫完工時間保留未揭露；不能保證不存在未公告事項。"
+        ]
+      },
+      "original_delivery": [
+        {
+          "schema_version": "1.0",
+          "update_id": "research-20261012-2801-v1-earnings",
+          "task_id": "site-baseline-20261004-2801",
+          "company_code": "2801",
+          "company_name": "彰銀",
+          "market": "TWSE",
+          "work_type": "backfill",
+          "section": "earnings",
+          "operation": "replace",
+          "expected_old_version": "sha256:5148ce2da3364b83545bb713783325401ede3534b3cbc0b4bbac11baa0a80072",
+          "expected_old_version_scope": "current_official_record",
+          "expected_overview_version": "sha256:b49c5ff5b4f8902159690484a94cb9e11c46c0446afe2f87c8ca0407651d1cee",
+          "expected_old_section_version": "sha256:b6fd319458629781f6f383bf8c7a96e9259e6bcc270146efdf283e5087252bd5",
+          "old_content": {
+            "text": "2023–2025 年稅後淨利約 129.82、149.45、177.75 億元。2026 上半年淨收益 258.29 億元、淨利 113.14 億元，較同期 225.34、91.29 億元增加；淨利息收入及手續費成長，投資淨收益則較同期小減。EPS 0.94 元，不能將放款餘額當作當期收入。",
+            "period": "2023–2025 年／2026 上半年",
+            "sources": [
+              "ir"
+            ]
+          },
+          "new_content": {
+            "text": "2023–2025 年稅後淨利約 129.82、149.45、177.75 億元。2026 上半年淨收益 258.29 億元、淨利 113.14 億元，較同期 225.34、91.29 億元增加；淨利息收入及手續費成長，投資淨收益則較同期小減。EPS 0.94 元，不能將放款餘額當作當期收入。 最新10月8日公告：2026年9月自結合併稅後淨利18.03億元，1–9月累計173.70億元、稅後EPS1.44元；屬未經核閱自結，不能取代第三季正式財報，公告未拆分最新利差、手續費與投資收益成長來源。9月17日正常聯貸資產讓與交易總額67,013,333美元，公告處分損益為無，為授信資產組合管理，不能將交易金額當一次性獲利。",
+            "period": "2026-10-12查核；各實績與计划期間見正文",
+            "sources": [
+              "chb-sep",
+              "chb-urban",
+              "chb-loan-transfer",
+              "chb-it",
+              "chb-yangon",
+              "chb-bond",
+              "chb-keelung",
+              "chb-dividend",
+              "chb-stock-dividend",
+              "ir",
+              "center",
+              "tisa-service",
+              "annual-digital-overseas",
+              "chb-phoenix",
+              "tbb"
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "chb-sep",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=562",
+              "title": "2026年9月合併自結盈餘",
+              "publisher": "彰化銀行",
+              "published_at": "2026-10-08",
+              "accessed_at": "2026-10-12",
+              "supports": "9月及1–9月累計盈餘，未經核閱"
+            },
+            {
+              "source_id": "chb-urban",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=561",
+              "title": "長春段都更補充公告",
+              "publisher": "彰化銀行",
+              "published_at": "2026-09-30",
+              "accessed_at": "2026-10-12",
+              "supports": "預計投入、估價、公開展覽及長期租金用途"
+            },
+            {
+              "source_id": "chb-loan-transfer",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=560",
+              "title": "正常聯貸資產讓與",
+              "publisher": "彰化銀行",
+              "published_at": "2026-09-17",
+              "accessed_at": "2026-10-12",
+              "supports": "交易金額、無處分損益、授信組合管理"
+            },
+            {
+              "source_id": "chb-it",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=552",
+              "title": "企業網銀平台升級議價完成",
+              "publisher": "彰化銀行",
+              "published_at": "2026-07-28",
+              "accessed_at": "2026-10-12",
+              "supports": "IBM資訊平台支出而非收入"
+            },
+            {
+              "source_id": "chb-yangon",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=517",
+              "title": "暫緩仰光代表處裁撤",
+              "publisher": "彰化銀行",
+              "published_at": "2026-02-26",
+              "accessed_at": "2026-10-12",
+              "supports": "取代先前裁撤計畫，非新分行"
+            },
+            {
+              "source_id": "chb-bond",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=512",
+              "title": "2026第一期一般順位金融債",
+              "publisher": "彰化銀行",
+              "published_at": "2026-02-04",
+              "accessed_at": "2026-10-12",
+              "supports": "10億元、5年、1.60%票息、籌資不是收入"
+            },
+            {
+              "source_id": "chb-keelung",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=526",
+              "title": "基隆不動產危老申請",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "董事會同意申請，未確認完工"
+            },
+            {
+              "source_id": "chb-dividend",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=524",
+              "title": "2025年度股利分派決議",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "現金0.8及股票0.25元"
+            },
+            {
+              "source_id": "chb-stock-dividend",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=525",
+              "title": "盈餘轉增資新股決議",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "不是新現金流入"
+            },
+            {
+              "source_id": "ir",
+              "title": "2026-08-25 法說簡報（含 2026 上半年財務）",
+              "url": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1787203413541/2026Q2_InvestorConference_Chinese.pdf",
+              "publisher": "彰化銀行",
+              "published_at": "2026-08-25",
+              "accessed_at": "2026-10-03"
+            },
+            {
+              "source_id": "center",
+              "title": "高雄鹽埕高資產中心開幕",
+              "url": "https://www.bankchb.com/frontend/newspaperDetail.jsp?id=948",
+              "publisher": "彰化銀行",
+              "published_at": "2026-03-26",
+              "accessed_at": "2026-10-03"
+            },
+            {
+              "source_id": "tisa-service",
+              "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=5a3b311516",
+              "title": "彰銀TISA基金介紹與申辦方式",
+              "published_at": null,
+              "published_at_missing_reason": "頁面未列精確發布日",
+              "accessed_at": "2026-10-06",
+              "supports": "官網已有申辦通路與規則，並非僅年報計畫；精確推出日不明",
+              "publisher": "彰化銀行"
+            },
+            {
+              "source_id": "annual-digital-overseas",
+              "url": "https://www.bankchb.com/chb_2a_resource/leap_do/annual_report_picture/1779097600166/%E5%BD%B0%E5%8C%96%E9%8A%80%E8%A1%8C2025%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+              "title": "彰銀2025年報，印刷頁86／PDF頁88",
+              "published_at": null,
+              "published_at_missing_reason": "年報刊印月份2026-03，精確日未列",
+              "accessed_at": "2026-10-06",
+              "supports": "次世代AI客服用途與納閩、雪梨、多倫多分行計畫",
+              "publisher": "彰化銀行"
+            },
+            {
+              "source_id": "chb-phoenix",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=539",
+              "title": "董事會通過申請設立美國鳳凰城代表人辦事處",
+              "published_at": "2026-06-11",
+              "accessed_at": "2026-10-08",
+              "publisher": "彰化銀行",
+              "supports": "設立申請階段、代表處而非分行"
+            },
+            {
+              "source_id": "tbb",
+              "url": "https://www.tbb.com.tw/zh-tw/business",
+              "title": "臺灣企銀企業金融服務",
+              "published_at": null,
+              "accessed_at": "2026-10-08",
+              "publisher": "臺灣企銀",
+              "supports": "中小企業、貿易融資與綠色貸款產品",
+              "published_at_missing_reason": "頁面未列精確發布日期"
+            }
+          ],
+          "claim_type": "fact_and_explicit_research_inference",
+          "research_completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "research_completion": "completed_lookup_with_disclosed_gaps",
+          "do_not_refresh_company_reviewed_at": true,
+          "limitations": [
+            "本輪完成既定剩餘重大事件查找；其他章節沿用先前已核對基線，不刷新整家公司reviewed_at。",
+            "最新自結未核閱；都更估價、資訊合約、資產交易與已實現營收獲利分開。",
+            "未公開單項貢獻及海外計畫完工時間保留未揭露；不能保證不存在未公告事項。"
+          ],
+          "completion_unit": "承接公司最後剩餘重大事件範圍查找"
+        },
+        {
+          "schema_version": "1.0",
+          "update_id": "research-20261012-2801-v1-developments",
+          "task_id": "site-baseline-20261004-2801",
+          "company_code": "2801",
+          "company_name": "彰銀",
+          "market": "TWSE",
+          "work_type": "backfill",
+          "section": "developments",
+          "operation": "replace",
+          "expected_old_version": "sha256:5148ce2da3364b83545bb713783325401ede3534b3cbc0b4bbac11baa0a80072",
+          "expected_old_version_scope": "current_official_record",
+          "expected_overview_version": "sha256:b49c5ff5b4f8902159690484a94cb9e11c46c0446afe2f87c8ca0407651d1cee",
+          "expected_old_section_version": "sha256:f65ca4d705f4549eaaf72b1bd78466302bccc0d1bff902cb913718d6d6665218",
+          "old_content": {
+            "text": "高雄鹽埕高資產中心已於 2026-03-26 開幕，高資產業務則自 2025-10-20 開辦。公司規劃結合家族辦公室、信託、保險及跨境服務；中心開幕為已發生實績，後續新增產品與擴展目標仍需核對核准及上線階段，來源未單獨揭露中心獲利。 官網另已提供TISA基金申辦：客戶完成網銀基金交易權限及約定書簽署後，透過個人網銀定期定額申購；ChaiBo APP也提供約定書簽署入口。屬既有財管服務新增方案，不能再僅描述為規劃模組。頁面未列精確推出日期，本輪未找到TISA單獨收入或獲利貢獻；免申購手續費也不等於銀行完全沒有其他服務收入。 年報另規劃以既有GAI平台及大型語言模型建置次世代AI客服，用於知識庫檢索與客服應答，屬既有服務數位化；並規劃在馬來西亞納閩、澳洲雪梨、加拿大多倫多開分行。年報列的是計畫，本輪未找到可確認上述新分行已開業或AI客服正式上線的公告，也未找到單項獲利、節省成本金額及精確商用時間。 補核項目2801-overseas-phoenix-representative（既有業務海外據點拓展）：2026年6月11日董事會通過向主管機關申請在美國亞利桑那州鳳凰城設代表人辦事處。是申請設立代表處，並非分行核准或已開業；本則公告未揭露開設日期、客戶名稱及收入貢獻，不能與年報其他海外分行計畫混為同一項目。",
+            "period": "既有章節期間／2026-06-11鳳凰城計畫",
+            "sources": [
+              "center",
+              "tisa-service",
+              "annual-digital-overseas",
+              "chb-phoenix"
+            ],
+            "reviewed_at": "2026-10-08"
+          },
+          "new_content": {
+            "text": "高雄鹽埕高資產中心已於 2026-03-26 開幕，高資產業務則自 2025-10-20 開辦。公司規劃結合家族辦公室、信託、保險及跨境服務；中心開幕為已發生實績，後續新增產品與擴展目標仍需核對核准及上線階段，來源未單獨揭露中心獲利。 官網另已提供TISA基金申辦：客戶完成網銀基金交易權限及約定書簽署後，透過個人網銀定期定額申購；ChaiBo APP也提供約定書簽署入口。屬既有財管服務新增方案，不能再僅描述為規劃模組。頁面未列精確推出日期，本輪未找到TISA單獨收入或獲利貢獻；免申購手續費也不等於銀行完全沒有其他服務收入。 年報另規劃以既有GAI平台及大型語言模型建置次世代AI客服，用於知識庫檢索與客服應答，屬既有服務數位化；並規劃在馬來西亞納閩、澳洲雪梨、加拿大多倫多開分行。年報列的是計畫，本輪未找到可確認上述新分行已開業或AI客服正式上線的公告，也未找到單項獲利、節省成本金額及精確商用時間。 補核項目2801-overseas-phoenix-representative（既有業務海外據點拓展）：2026年6月11日董事會通過向主管機關申請在美國亞利桑那州鳳凰城設代表人辦事處。是申請設立代表處，並非分行核准或已開業；本則公告未揭露開設日期、客戶名稱及收入貢獻，不能與年報其他海外分行計畫混為同一項目。 事件核對新增：項目2801-corporate-online-platform（既有業務資訊升級），7月28日公告與IBM企業網銀平台及軟體授權案約3.238億元，為支出／合約金額，未揭露完工、商用日與新增收入。項目2801-changchun-urban-renewal（既有資產都更），9月30日公告預計投入約6.165億元，更新後權利估價約23.751億元，9月25日至10月24日公開展覽；估價不是已實現處分利益，目的為長期租金，未公布完工與租金預估。基隆危老案4月30日僅董事會同意申請，不能視為完工。",
+            "period": "2026-10-12查核；各實績與计划期間見正文",
+            "sources": [
+              "chb-sep",
+              "chb-urban",
+              "chb-loan-transfer",
+              "chb-it",
+              "chb-yangon",
+              "chb-bond",
+              "chb-keelung",
+              "chb-dividend",
+              "chb-stock-dividend",
+              "ir",
+              "center",
+              "tisa-service",
+              "annual-digital-overseas",
+              "chb-phoenix",
+              "tbb"
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "chb-sep",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=562",
+              "title": "2026年9月合併自結盈餘",
+              "publisher": "彰化銀行",
+              "published_at": "2026-10-08",
+              "accessed_at": "2026-10-12",
+              "supports": "9月及1–9月累計盈餘，未經核閱"
+            },
+            {
+              "source_id": "chb-urban",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=561",
+              "title": "長春段都更補充公告",
+              "publisher": "彰化銀行",
+              "published_at": "2026-09-30",
+              "accessed_at": "2026-10-12",
+              "supports": "預計投入、估價、公開展覽及長期租金用途"
+            },
+            {
+              "source_id": "chb-loan-transfer",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=560",
+              "title": "正常聯貸資產讓與",
+              "publisher": "彰化銀行",
+              "published_at": "2026-09-17",
+              "accessed_at": "2026-10-12",
+              "supports": "交易金額、無處分損益、授信組合管理"
+            },
+            {
+              "source_id": "chb-it",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=552",
+              "title": "企業網銀平台升級議價完成",
+              "publisher": "彰化銀行",
+              "published_at": "2026-07-28",
+              "accessed_at": "2026-10-12",
+              "supports": "IBM資訊平台支出而非收入"
+            },
+            {
+              "source_id": "chb-yangon",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=517",
+              "title": "暫緩仰光代表處裁撤",
+              "publisher": "彰化銀行",
+              "published_at": "2026-02-26",
+              "accessed_at": "2026-10-12",
+              "supports": "取代先前裁撤計畫，非新分行"
+            },
+            {
+              "source_id": "chb-bond",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=512",
+              "title": "2026第一期一般順位金融債",
+              "publisher": "彰化銀行",
+              "published_at": "2026-02-04",
+              "accessed_at": "2026-10-12",
+              "supports": "10億元、5年、1.60%票息、籌資不是收入"
+            },
+            {
+              "source_id": "chb-keelung",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=526",
+              "title": "基隆不動產危老申請",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "董事會同意申請，未確認完工"
+            },
+            {
+              "source_id": "chb-dividend",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=524",
+              "title": "2025年度股利分派決議",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "現金0.8及股票0.25元"
+            },
+            {
+              "source_id": "chb-stock-dividend",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=525",
+              "title": "盈餘轉增資新股決議",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "不是新現金流入"
+            },
+            {
+              "source_id": "ir",
+              "title": "2026-08-25 法說簡報（含 2026 上半年財務）",
+              "url": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1787203413541/2026Q2_InvestorConference_Chinese.pdf",
+              "publisher": "彰化銀行",
+              "published_at": "2026-08-25",
+              "accessed_at": "2026-10-03"
+            },
+            {
+              "source_id": "center",
+              "title": "高雄鹽埕高資產中心開幕",
+              "url": "https://www.bankchb.com/frontend/newspaperDetail.jsp?id=948",
+              "publisher": "彰化銀行",
+              "published_at": "2026-03-26",
+              "accessed_at": "2026-10-03"
+            },
+            {
+              "source_id": "tisa-service",
+              "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=5a3b311516",
+              "title": "彰銀TISA基金介紹與申辦方式",
+              "published_at": null,
+              "published_at_missing_reason": "頁面未列精確發布日",
+              "accessed_at": "2026-10-06",
+              "supports": "官網已有申辦通路與規則，並非僅年報計畫；精確推出日不明",
+              "publisher": "彰化銀行"
+            },
+            {
+              "source_id": "annual-digital-overseas",
+              "url": "https://www.bankchb.com/chb_2a_resource/leap_do/annual_report_picture/1779097600166/%E5%BD%B0%E5%8C%96%E9%8A%80%E8%A1%8C2025%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+              "title": "彰銀2025年報，印刷頁86／PDF頁88",
+              "published_at": null,
+              "published_at_missing_reason": "年報刊印月份2026-03，精確日未列",
+              "accessed_at": "2026-10-06",
+              "supports": "次世代AI客服用途與納閩、雪梨、多倫多分行計畫",
+              "publisher": "彰化銀行"
+            },
+            {
+              "source_id": "chb-phoenix",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=539",
+              "title": "董事會通過申請設立美國鳳凰城代表人辦事處",
+              "published_at": "2026-06-11",
+              "accessed_at": "2026-10-08",
+              "publisher": "彰化銀行",
+              "supports": "設立申請階段、代表處而非分行"
+            },
+            {
+              "source_id": "tbb",
+              "url": "https://www.tbb.com.tw/zh-tw/business",
+              "title": "臺灣企銀企業金融服務",
+              "published_at": null,
+              "accessed_at": "2026-10-08",
+              "publisher": "臺灣企銀",
+              "supports": "中小企業、貿易融資與綠色貸款產品",
+              "published_at_missing_reason": "頁面未列精確發布日期"
+            }
+          ],
+          "claim_type": "fact_and_explicit_research_inference",
+          "research_completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "research_completion": "completed_lookup_with_disclosed_gaps",
+          "do_not_refresh_company_reviewed_at": true,
+          "limitations": [
+            "本輪完成既定剩餘重大事件查找；其他章節沿用先前已核對基線，不刷新整家公司reviewed_at。",
+            "最新自結未核閱；都更估價、資訊合約、資產交易與已實現營收獲利分開。",
+            "未公開單項貢獻及海外計畫完工時間保留未揭露；不能保證不存在未公告事項。"
+          ],
+          "completion_unit": "承接公司最後剩餘重大事件範圍查找"
+        },
+        {
+          "schema_version": "1.0",
+          "update_id": "research-20261012-2801-v1-transition",
+          "task_id": "site-baseline-20261004-2801",
+          "company_code": "2801",
+          "company_name": "彰銀",
+          "market": "TWSE",
+          "work_type": "backfill",
+          "section": "transition",
+          "operation": "replace",
+          "expected_old_version": "sha256:5148ce2da3364b83545bb713783325401ede3534b3cbc0b4bbac11baa0a80072",
+          "expected_old_version_scope": "current_official_record",
+          "expected_overview_version": "sha256:b49c5ff5b4f8902159690484a94cb9e11c46c0446afe2f87c8ca0407651d1cee",
+          "expected_old_section_version": "sha256:63a24eb1d4c38b20336fbff242a2bbe2ffcabb015d7cb73e97a81e6c2e598697",
+          "old_content": {
+            "text": "銀行以存放款與財富管理的雙主軸，提高利息及服務收入，拓展中小企業、貿易融資、數位金融與永續金融。研究判讀為既有銀行服務組合調整；高資產客戶成長、貸款規模與 ESG 案件數仍需對照手續費、資產品質及資本使用，不能直接推算獲利。 相似同業選擇：2834臺企銀，官方企業金融服務涵蓋中小企業融資、貿易融資及綠色貸款，與彰銀相關業務有可比性。研究比較應看淨利差、手續費、信用成本與資本使用；客群與投資組合仍有差異，不能將產業分類相同直接當作估值完全可比，亦不據此計算新PE。",
+            "period": "2026-08法說策略／2026-10-08同業查核",
+            "sources": [
+              "ir",
+              "tbb"
+            ],
+            "reviewed_at": "2026-10-08"
+          },
+          "new_content": {
+            "text": "銀行以存放款與財富管理的雙主軸，提高利息及服務收入，拓展中小企業、貿易融資、數位金融與永續金融。研究判讀為既有銀行服務組合調整；高資產客戶成長、貸款規模與 ESG 案件數仍需對照手續費、資產品質及資本使用，不能直接推算獲利。 相似同業選擇：2834臺企銀，官方企業金融服務涵蓋中小企業融資、貿易融資及綠色貸款，與彰銀相關業務有可比性。研究比較應看淨利差、手續費、信用成本與資本使用；客群與投資組合仍有差異，不能將產業分類相同直接當作估值完全可比，亦不據此計算新PE。 既有海外計畫修正：2月26日董事會暫緩仰光代表處裁撤，不能沿用2025年裁撤公告當作目前已關閉，也不是新分行開業。2026第一期一般順位金融債10億元、票息1.60%、2月25日發行至2031年2月25日到期，為融資負債而非業務收入。2025年度股利董事會決議現金0.8元、股票0.25元；盈餘轉增資不是外部新現金注入，歷史EPS比較及除權息由網站處理。本輪已檢查官網2026年度重大訊息目錄並閱讀對營運、資產與資本重要的公告；人事及例行自結未全部重寫，未找到需據此更新的重大併購／一次性損失公告，不能稱全市場監看已無漏。",
+            "period": "2026-10-12查核；各實績與计划期間見正文",
+            "sources": [
+              "chb-sep",
+              "chb-urban",
+              "chb-loan-transfer",
+              "chb-it",
+              "chb-yangon",
+              "chb-bond",
+              "chb-keelung",
+              "chb-dividend",
+              "chb-stock-dividend",
+              "ir",
+              "center",
+              "tisa-service",
+              "annual-digital-overseas",
+              "chb-phoenix",
+              "tbb"
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "chb-sep",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=562",
+              "title": "2026年9月合併自結盈餘",
+              "publisher": "彰化銀行",
+              "published_at": "2026-10-08",
+              "accessed_at": "2026-10-12",
+              "supports": "9月及1–9月累計盈餘，未經核閱"
+            },
+            {
+              "source_id": "chb-urban",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=561",
+              "title": "長春段都更補充公告",
+              "publisher": "彰化銀行",
+              "published_at": "2026-09-30",
+              "accessed_at": "2026-10-12",
+              "supports": "預計投入、估價、公開展覽及長期租金用途"
+            },
+            {
+              "source_id": "chb-loan-transfer",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=560",
+              "title": "正常聯貸資產讓與",
+              "publisher": "彰化銀行",
+              "published_at": "2026-09-17",
+              "accessed_at": "2026-10-12",
+              "supports": "交易金額、無處分損益、授信組合管理"
+            },
+            {
+              "source_id": "chb-it",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=552",
+              "title": "企業網銀平台升級議價完成",
+              "publisher": "彰化銀行",
+              "published_at": "2026-07-28",
+              "accessed_at": "2026-10-12",
+              "supports": "IBM資訊平台支出而非收入"
+            },
+            {
+              "source_id": "chb-yangon",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=517",
+              "title": "暫緩仰光代表處裁撤",
+              "publisher": "彰化銀行",
+              "published_at": "2026-02-26",
+              "accessed_at": "2026-10-12",
+              "supports": "取代先前裁撤計畫，非新分行"
+            },
+            {
+              "source_id": "chb-bond",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=512",
+              "title": "2026第一期一般順位金融債",
+              "publisher": "彰化銀行",
+              "published_at": "2026-02-04",
+              "accessed_at": "2026-10-12",
+              "supports": "10億元、5年、1.60%票息、籌資不是收入"
+            },
+            {
+              "source_id": "chb-keelung",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=526",
+              "title": "基隆不動產危老申請",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "董事會同意申請，未確認完工"
+            },
+            {
+              "source_id": "chb-dividend",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=524",
+              "title": "2025年度股利分派決議",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "現金0.8及股票0.25元"
+            },
+            {
+              "source_id": "chb-stock-dividend",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=525",
+              "title": "盈餘轉增資新股決議",
+              "publisher": "彰化銀行",
+              "published_at": "2026-04-30",
+              "accessed_at": "2026-10-12",
+              "supports": "不是新現金流入"
+            },
+            {
+              "source_id": "ir",
+              "title": "2026-08-25 法說簡報（含 2026 上半年財務）",
+              "url": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1787203413541/2026Q2_InvestorConference_Chinese.pdf",
+              "publisher": "彰化銀行",
+              "published_at": "2026-08-25",
+              "accessed_at": "2026-10-03"
+            },
+            {
+              "source_id": "center",
+              "title": "高雄鹽埕高資產中心開幕",
+              "url": "https://www.bankchb.com/frontend/newspaperDetail.jsp?id=948",
+              "publisher": "彰化銀行",
+              "published_at": "2026-03-26",
+              "accessed_at": "2026-10-03"
+            },
+            {
+              "source_id": "tisa-service",
+              "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=5a3b311516",
+              "title": "彰銀TISA基金介紹與申辦方式",
+              "published_at": null,
+              "published_at_missing_reason": "頁面未列精確發布日",
+              "accessed_at": "2026-10-06",
+              "supports": "官網已有申辦通路與規則，並非僅年報計畫；精確推出日不明",
+              "publisher": "彰化銀行"
+            },
+            {
+              "source_id": "annual-digital-overseas",
+              "url": "https://www.bankchb.com/chb_2a_resource/leap_do/annual_report_picture/1779097600166/%E5%BD%B0%E5%8C%96%E9%8A%80%E8%A1%8C2025%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+              "title": "彰銀2025年報，印刷頁86／PDF頁88",
+              "published_at": null,
+              "published_at_missing_reason": "年報刊印月份2026-03，精確日未列",
+              "accessed_at": "2026-10-06",
+              "supports": "次世代AI客服用途與納閩、雪梨、多倫多分行計畫",
+              "publisher": "彰化銀行"
+            },
+            {
+              "source_id": "chb-phoenix",
+              "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=539",
+              "title": "董事會通過申請設立美國鳳凰城代表人辦事處",
+              "published_at": "2026-06-11",
+              "accessed_at": "2026-10-08",
+              "publisher": "彰化銀行",
+              "supports": "設立申請階段、代表處而非分行"
+            },
+            {
+              "source_id": "tbb",
+              "url": "https://www.tbb.com.tw/zh-tw/business",
+              "title": "臺灣企銀企業金融服務",
+              "published_at": null,
+              "accessed_at": "2026-10-08",
+              "publisher": "臺灣企銀",
+              "supports": "中小企業、貿易融資與綠色貸款產品",
+              "published_at_missing_reason": "頁面未列精確發布日期"
+            }
+          ],
+          "claim_type": "fact_and_explicit_research_inference",
+          "research_completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "research_completion": "completed_lookup_with_disclosed_gaps",
+          "do_not_refresh_company_reviewed_at": true,
+          "limitations": [
+            "本輪完成既定剩餘重大事件查找；其他章節沿用先前已核對基線，不刷新整家公司reviewed_at。",
+            "最新自結未核閱；都更估價、資訊合約、資產交易與已實現營收獲利分開。",
+            "未公開單項貢獻及海外計畫完工時間保留未揭露；不能保證不存在未公告事項。"
+          ],
+          "completion_unit": "承接公司最後剩餘重大事件範圍查找"
+        }
+      ],
+      "previous_record": {
+        "name": "彰銀",
+        "reviewed_at": "2026-10-03",
+        "sources": {
+          "ir": {
+            "title": "2026-08-25 法說簡報（含 2026 上半年財務）",
+            "url": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1787203413541/2026Q2_InvestorConference_Chinese.pdf",
+            "publisher": "彰化銀行",
+            "published_at": "2026-08-25",
+            "accessed_at": "2026-10-03"
+          },
+          "center": {
+            "title": "高雄鹽埕高資產中心開幕",
+            "url": "https://www.bankchb.com/frontend/newspaperDetail.jsp?id=948",
+            "publisher": "彰化銀行",
+            "published_at": "2026-03-26",
+            "accessed_at": "2026-10-03"
+          },
+          "tisa-service": {
+            "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=5a3b311516",
+            "title": "彰銀TISA基金介紹與申辦方式",
+            "published_at": null,
+            "published_at_missing_reason": "頁面未列精確發布日",
+            "accessed_at": "2026-10-06",
+            "supports": "官網已有申辦通路與規則，並非僅年報計畫；精確推出日不明",
+            "publisher": "彰化銀行"
+          },
+          "annual-digital-overseas": {
+            "url": "https://www.bankchb.com/chb_2a_resource/leap_do/annual_report_picture/1779097600166/%E5%BD%B0%E5%8C%96%E9%8A%80%E8%A1%8C2025%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+            "title": "彰銀2025年報，印刷頁86／PDF頁88",
+            "published_at": null,
+            "published_at_missing_reason": "年報刊印月份2026-03，精確日未列",
+            "accessed_at": "2026-10-06",
+            "supports": "次世代AI客服用途與納閩、雪梨、多倫多分行計畫",
+            "publisher": "彰化銀行"
+          },
+          "chb-phoenix": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=539",
+            "title": "董事會通過申請設立美國鳳凰城代表人辦事處",
+            "published_at": "2026-06-11",
+            "accessed_at": "2026-10-08",
+            "publisher": "彰化銀行",
+            "supports": "設立申請階段、代表處而非分行"
+          },
+          "tbb": {
+            "url": "https://www.tbb.com.tw/zh-tw/business",
+            "title": "臺灣企銀企業金融服務",
+            "published_at": null,
+            "accessed_at": "2026-10-08",
+            "publisher": "臺灣企銀",
+            "supports": "中小企業、貿易融資與綠色貸款產品",
+            "published_at_missing_reason": "頁面未列精確發布日期"
+          }
+        },
+        "business": {
+          "text": "彰化銀行經營存放款、企業與中小企業金融、房貸、財富管理、外匯及信託。2026 上半年淨收益中，淨利息收入約占 58.9%、淨手續費 19.4%、投資淨收益 20.1%；這是銀行收益結構，並非各業務淨利比例，投資收益也不能套用製造業的本業／業外分類。",
+          "period": "2026 上半年",
+          "sources": [
+            "ir"
+          ]
+        },
+        "earnings": {
+          "text": "2023–2025 年稅後淨利約 129.82、149.45、177.75 億元。2026 上半年淨收益 258.29 億元、淨利 113.14 億元，較同期 225.34、91.29 億元增加；淨利息收入及手續費成長，投資淨收益則較同期小減。EPS 0.94 元，不能將放款餘額當作當期收入。",
+          "period": "2023–2025 年／2026 上半年",
+          "sources": [
+            "ir"
+          ]
+        },
+        "transition": {
+          "text": "銀行以存放款與財富管理的雙主軸，提高利息及服務收入，拓展中小企業、貿易融資、數位金融與永續金融。研究判讀為既有銀行服務組合調整；高資產客戶成長、貸款規模與 ESG 案件數仍需對照手續費、資產品質及資本使用，不能直接推算獲利。 相似同業選擇：2834臺企銀，官方企業金融服務涵蓋中小企業融資、貿易融資及綠色貸款，與彰銀相關業務有可比性。研究比較應看淨利差、手續費、信用成本與資本使用；客群與投資組合仍有差異，不能將產業分類相同直接當作估值完全可比，亦不據此計算新PE。",
+          "period": "2026-08法說策略／2026-10-08同業查核",
+          "sources": [
+            "ir",
+            "tbb"
+          ],
+          "reviewed_at": "2026-10-08"
+        },
+        "developments": {
+          "text": "高雄鹽埕高資產中心已於 2026-03-26 開幕，高資產業務則自 2025-10-20 開辦。公司規劃結合家族辦公室、信託、保險及跨境服務；中心開幕為已發生實績，後續新增產品與擴展目標仍需核對核准及上線階段，來源未單獨揭露中心獲利。 官網另已提供TISA基金申辦：客戶完成網銀基金交易權限及約定書簽署後，透過個人網銀定期定額申購；ChaiBo APP也提供約定書簽署入口。屬既有財管服務新增方案，不能再僅描述為規劃模組。頁面未列精確推出日期，本輪未找到TISA單獨收入或獲利貢獻；免申購手續費也不等於銀行完全沒有其他服務收入。 年報另規劃以既有GAI平台及大型語言模型建置次世代AI客服，用於知識庫檢索與客服應答，屬既有服務數位化；並規劃在馬來西亞納閩、澳洲雪梨、加拿大多倫多開分行。年報列的是計畫，本輪未找到可確認上述新分行已開業或AI客服正式上線的公告，也未找到單項獲利、節省成本金額及精確商用時間。 補核項目2801-overseas-phoenix-representative（既有業務海外據點拓展）：2026年6月11日董事會通過向主管機關申請在美國亞利桑那州鳳凰城設代表人辦事處。是申請設立代表處，並非分行核准或已開業；本則公告未揭露開設日期、客戶名稱及收入貢獻，不能與年報其他海外分行計畫混為同一項目。",
+          "period": "既有章節期間／2026-06-11鳳凰城計畫",
+          "sources": [
+            "center",
+            "tisa-service",
+            "annual-digital-overseas",
+            "chb-phoenix"
+          ],
+          "reviewed_at": "2026-10-08"
+        },
+        "limitations": [
+          "未取得高資產中心、數位金融等個別業務的獨立獲利占比。",
+          "法說的未來服務擴展仍為計畫，尚未逐項補查核准與上線進度。"
+        ]
+      },
+      "adopted_record": {
+        "name": "彰銀",
+        "reviewed_at": "2026-10-03",
+        "sources": {
+          "ir": {
+            "title": "2026-08-25 法說簡報（含 2026 上半年財務）",
+            "url": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1787203413541/2026Q2_InvestorConference_Chinese.pdf",
+            "publisher": "彰化銀行",
+            "published_at": "2026-08-25",
+            "accessed_at": "2026-10-03"
+          },
+          "center": {
+            "title": "高雄鹽埕高資產中心開幕",
+            "url": "https://www.bankchb.com/frontend/newspaperDetail.jsp?id=948",
+            "publisher": "彰化銀行",
+            "published_at": "2026-03-26",
+            "accessed_at": "2026-10-03"
+          },
+          "tisa-service": {
+            "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=5a3b311516",
+            "title": "彰銀TISA基金介紹與申辦方式",
+            "published_at": null,
+            "published_at_missing_reason": "頁面未列精確發布日",
+            "accessed_at": "2026-10-06",
+            "supports": "官網已有申辦通路與規則，並非僅年報計畫；精確推出日不明",
+            "publisher": "彰化銀行"
+          },
+          "annual-digital-overseas": {
+            "url": "https://www.bankchb.com/chb_2a_resource/leap_do/annual_report_picture/1779097600166/%E5%BD%B0%E5%8C%96%E9%8A%80%E8%A1%8C2025%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+            "title": "彰銀2025年報，印刷頁86／PDF頁88",
+            "published_at": null,
+            "published_at_missing_reason": "年報刊印月份2026-03，精確日未列",
+            "accessed_at": "2026-10-06",
+            "supports": "次世代AI客服用途與納閩、雪梨、多倫多分行計畫",
+            "publisher": "彰化銀行"
+          },
+          "chb-phoenix": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=539",
+            "title": "董事會通過申請設立美國鳳凰城代表人辦事處",
+            "published_at": "2026-06-11",
+            "accessed_at": "2026-10-08",
+            "publisher": "彰化銀行",
+            "supports": "設立申請階段、代表處而非分行"
+          },
+          "tbb": {
+            "url": "https://www.tbb.com.tw/zh-tw/business",
+            "title": "臺灣企銀企業金融服務",
+            "published_at": null,
+            "accessed_at": "2026-10-08",
+            "publisher": "臺灣企銀",
+            "supports": "中小企業、貿易融資與綠色貸款產品",
+            "published_at_missing_reason": "頁面未列精確發布日期"
+          },
+          "chb-sep": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=562",
+            "title": "2026年9月合併自結盈餘",
+            "publisher": "彰化銀行",
+            "published_at": "2026-10-08",
+            "accessed_at": "2026-10-12",
+            "supports": "9月及1–9月累計盈餘，未經核閱"
+          },
+          "chb-urban": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=561",
+            "title": "長春段都更補充公告",
+            "publisher": "彰化銀行",
+            "published_at": "2026-09-30",
+            "accessed_at": "2026-10-12",
+            "supports": "預計投入、估價、公開展覽及長期租金用途"
+          },
+          "chb-loan-transfer": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=560",
+            "title": "正常聯貸資產讓與",
+            "publisher": "彰化銀行",
+            "published_at": "2026-09-17",
+            "accessed_at": "2026-10-12",
+            "supports": "交易金額、無處分損益、授信組合管理"
+          },
+          "chb-it": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=552",
+            "title": "企業網銀平台升級議價完成",
+            "publisher": "彰化銀行",
+            "published_at": "2026-07-28",
+            "accessed_at": "2026-10-12",
+            "supports": "IBM資訊平台支出而非收入"
+          },
+          "chb-yangon": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=517",
+            "title": "暫緩仰光代表處裁撤",
+            "publisher": "彰化銀行",
+            "published_at": "2026-02-26",
+            "accessed_at": "2026-10-12",
+            "supports": "取代先前裁撤計畫，非新分行"
+          },
+          "chb-bond": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=512",
+            "title": "2026第一期一般順位金融債",
+            "publisher": "彰化銀行",
+            "published_at": "2026-02-04",
+            "accessed_at": "2026-10-12",
+            "supports": "10億元、5年、1.60%票息、籌資不是收入"
+          },
+          "chb-keelung": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=526",
+            "title": "基隆不動產危老申請",
+            "publisher": "彰化銀行",
+            "published_at": "2026-04-30",
+            "accessed_at": "2026-10-12",
+            "supports": "董事會同意申請，未確認完工"
+          },
+          "chb-dividend": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=524",
+            "title": "2025年度股利分派決議",
+            "publisher": "彰化銀行",
+            "published_at": "2026-04-30",
+            "accessed_at": "2026-10-12",
+            "supports": "現金0.8及股票0.25元"
+          },
+          "chb-stock-dividend": {
+            "url": "https://www.bankchb.com/frontend/materialInformationDetail.jsp?id=525",
+            "title": "盈餘轉增資新股決議",
+            "publisher": "彰化銀行",
+            "published_at": "2026-04-30",
+            "accessed_at": "2026-10-12",
+            "supports": "不是新現金流入"
+          }
+        },
+        "business": {
+          "text": "彰化銀行經營存放款、企業與中小企業金融、房貸、財富管理、外匯及信託。2026 上半年淨收益中，淨利息收入約占 58.9%、淨手續費 19.4%、投資淨收益 20.1%；這是銀行收益結構，並非各業務淨利比例，投資收益也不能套用製造業的本業／業外分類。",
+          "period": "2026 上半年",
+          "sources": [
+            "ir"
+          ]
+        },
+        "earnings": {
+          "text": "彰銀最新自結顯示，2026 年 1–9 月合併累計稅後淨利 173.70 億元，累計 EPS 1.44 元；9 月單月稅後淨利 18.03 億元。這是 10 月 8 日公告的公司自結數字，尚未經會計師核閱，第三季正式財報公布後再對照更新。\n2026 年上半年淨收益 258.29 億元、淨利 113.14 億元，高於去年同期的 225.34 億元、91.29 億元；累計 EPS 0.94 元。淨利息及手續費收入增加，投資淨收益則較同期小減。最新 1–9 月自結尚未拆分各項收入成長來源。\n2023–2025 年稅後淨利分別約 129.82、149.45、177.75 億元。放款餘額反映銀行借給客戶的本金，當期收入則主要看利息、手續費等收益。\n9 月 17 日公告讓與正常聯貸資產，交易總額 67,013,333 美元，公告列明無處分損益。這項交易是在調整授信資產組合。",
+          "period": "2026-10-12查核；各實績與计划期間見正文",
+          "sources": [
+            "ir",
+            "chb-sep",
+            "chb-loan-transfer"
+          ],
+          "reviewed_at": "2026-10-12"
+        },
+        "transition": {
+          "text": "公司發展方向：以存放款與財富管理為兩個主軸，拓展中小企業、貿易融資、數位與永續金融服務。\n觀察成果時，可看利息與手續費是否增加、放款品質是否維持，以及成長需要占用多少資本。高資產客戶或 ESG 案件增加後，收入與獲利貢獻仍要對照財務數字。\n海外據點進度更新：2 月 26 日董事會決議暫緩仰光代表處裁撤，原先的關閉計畫已調整；其他新分行及代表處依各自申請、核准與開業進度追蹤。\n資金與股利：2026 年第一期一般順位金融債為 10 億元，年票息 1.60%，2026 年 2 月 25 日發行、2031 年 2 月 25 日到期，屬銀行籌資負債。2025 年度股利董事會決議為每股現金 0.8 元、股票 0.25 元；股票股利以盈餘轉增資方式配發。\n相似公司可參考臺企銀（2834）的中小企業、貿易融資與綠色貸款業務，再比較淨利差、手續費、信用成本及資本使用。兩家銀行的客群與投資組合仍有差異。\n本輪補齊官網 2026 年重大訊息中與營運、資產及資本相關的公告；重大事件查找與全市場歷史公告監看分別記錄。",
+          "period": "2026-10-12查核；各實績與计划期間見正文",
+          "sources": [
+            "tbb",
+            "chb-yangon",
+            "chb-bond",
+            "chb-dividend",
+            "chb-stock-dividend"
+          ],
+          "reviewed_at": "2026-10-12"
+        },
+        "developments": {
+          "text": "彰銀的發展重點包括財富管理、數位服務、海外據點與既有不動產更新，各項進度不同。\n高雄鹽埕高資產中心於 2026 年 3 月 26 日開幕，高資產業務自 2025 年 10 月 20 日開辦；公司規劃結合家族辦公室、信託、保險與跨境服務。中心單獨獲利未揭露。\nTISA 基金已可透過個人網銀定期定額申購，ChaiBo APP 提供約定書簽署入口，屬既有財管服務的新方案。推出日期與單項獲利尚未取得；免申購手續費是這項服務的收費規則，其他服務收入另看銀行揭露。\n年報規劃利用既有生成式 AI 平台與大型語言模型，改善知識檢索及客服回答，並規劃納閩、雪梨、多倫多分行。正式上線、開業時間與單項收入尚待公布。鳳凰城代表人辦事處另於 6 月 11 日經董事會通過設立申請，屬代表處申請階段。\n7 月 28 日公告與 IBM 的企業網銀平台及軟體授權案約 3.238 億元，這是資訊升級支出，完工與商用時間未揭露。\n長春段都更案 9 月 30 日公告預計投入約 6.165 億元；其中一家估價機構評估更新後權利價值約 23.751 億元，屬估價結果。計畫於 9 月 25 日至 10 月 24 日公開展覽，目標是長期租金收益，完工及租金預估未公布。基隆不動產危老案則於 4 月 30 日經董事會同意提出申請。",
+          "period": "2026-10-12查核；各實績與计划期間見正文",
+          "sources": [
+            "center",
+            "tisa-service",
+            "annual-digital-overseas",
+            "chb-phoenix",
+            "chb-it",
+            "chb-urban",
+            "chb-keelung"
+          ],
+          "project_ids": [
+            "2801-overseas-phoenix-representative",
+            "2801-corporate-online-platform",
+            "2801-changchun-urban-renewal"
+          ],
+          "reviewed_at": "2026-10-12"
+        },
+        "limitations": [
+          "未取得高資產中心、數位金融等個別業務的獨立獲利占比。",
+          "法說的未來服務擴展仍為計畫，尚未逐項補查核准與上線進度。",
+          "本輪完成既定剩餘重大事件查找；其他章節沿用先前已核對基線，不刷新整家公司reviewed_at。",
+          "最新自結未核閱；都更估價、資訊合約、資產交易與已實現營收獲利分開。",
+          "未公開單項貢獻及海外計畫完工時間保留未揭露；不能保證不存在未公告事項。"
+        ],
+        "lookup_completion": {
+          "status": "completed_lookup_with_disclosed_gaps",
+          "completed_at": "2026-10-12T13:44:31.655196+08:00",
+          "batch_id": "research-20261012-2801-v1",
+          "scope": "承接公司最後剩餘重大事件範圍查找"
+        }
+      },
+      "adoptions": [
+        {
+          "update_id": "research-20261012-2801-v1-earnings",
+          "symbol": "2801.TW",
+          "section": "earnings",
+          "expected_old_section_version": "sha256:b6fd319458629781f6f383bf8c7a96e9259e6bcc270146efdf283e5087252bd5",
+          "adopted_sha256": "sha256:22f35c251b4195a38aa95989ff5cca1db7ec69b7a021bdf0896c81ef1b26b229",
+          "editorial_rewrite": true
+        },
+        {
+          "update_id": "research-20261012-2801-v1-developments",
+          "symbol": "2801.TW",
+          "section": "developments",
+          "expected_old_section_version": "sha256:f65ca4d705f4549eaaf72b1bd78466302bccc0d1bff902cb913718d6d6665218",
+          "adopted_sha256": "sha256:32a45ff58e86fcb88ab9a40448f8c7cbb6581e9e32aa13ce74123d8b34218d18",
+          "editorial_rewrite": true
+        },
+        {
+          "update_id": "research-20261012-2801-v1-transition",
+          "symbol": "2801.TW",
+          "section": "transition",
+          "expected_old_section_version": "sha256:63a24eb1d4c38b20336fbff242a2bbe2ffcabb015d7cb73e97a81e6c2e598697",
+          "adopted_sha256": "sha256:ee9b704995e93dbcf6e6b1a00fcf72aee0c75ee5350f59fadaa7425690204c6f",
+          "editorial_rewrite": true
+        }
+      ]
+    }
+  ]
+}
