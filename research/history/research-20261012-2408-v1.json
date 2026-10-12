@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "batch_id": "research-20261012-2408-v1",
+  "baseline_commit": "a87b91ece44ae3c70d65cb88e0429a44a2dd87e1",
+  "previous_record": null,
+  "adopted_record": {
+    "name": "南亞科",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "nanya-20261012-presentation": {
+        "url": "https://www.nanya.com/tw/Activity?Action=IR_investorcalendar_FileName&Id=5298&column=Presentation",
+        "title": "2026年度第三季法說會簡報（18頁）",
+        "publisher": "南亞科技",
+        "published_at": "2026-10-12",
+        "accessed_at": "2026-10-12",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "nanya-20261012-release": {
+        "url": "https://www.nanya.com/tw/IR/16?IRId=14188",
+        "title": "南亞科技2026年第三季自結營運結果",
+        "publisher": "南亞科技",
+        "published_at": "2026-10-12",
+        "accessed_at": "2026-10-12",
+        "supports": [
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "technews-20261012-qa": {
+        "url": "https://technews.tw/2026/10/12/nanya-technology-2026-q3-financial-report-2/",
+        "title": "DRAM 缺貨潮延續！南亞科看好 Q4 毛利率再迎高峰，ASIC 專案已少量出貨",
+        "publisher": "科技新報／林妤柔",
+        "published_at": "2026-10-12",
+        "accessed_at": "2026-10-12",
+        "supports": [
+          "transition",
+          "developments"
+        ],
+        "source_type": "媒體轉述管理層問答，非官方逐字稿"
+      }
+    },
+    "limitations": [
+      "本批完成10月12日整場可取得公開文字、官方18頁簡報與重要圖表核對；不代表整家公司歷史研究已完成。",
+      "未取得可核對官方原始問答逐字稿；問答採媒體轉述並逐項標記，未搜尋影片。",
+      "簡報第9頁營業現金流表96,017百萬元、圖96,107百萬元不一致；未採用該數值，待公司澄清。",
+      "未揭露個別客戶名稱、專案獲利或收入預估；未取得本日可驗證法人EPS共識。",
+      "Q3與前三季為公司自結未經查核數字；不同期間EPS股數基礎不同，不自行加總或更新網站TTM。"
+    ],
+    "business": {
+      "text": "南亞科製造DRAM，也就是電腦、手機與伺服器運作時使用的記憶體。產品包含DDR5、LPDDR5／5X，以及DDR4等較成熟的規格。公司主要靠銷售記憶體賺錢，獲利會受售價、出貨量和製造成本影響。\n公司在10月12日表示，用於AI基礎建設的產品已占營收超過20%，用途包括伺服器、網路、儲存與系統管理。各產品的獲利占比及個別客戶名稱尚未公布。",
+      "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+      "sources": [
+        "nanya-20261012-presentation"
+      ],
+      "reviewed_at": "2026-10-12"
+    },
+    "earnings": {
+      "text": "第三季收入與獲利大增，主要是記憶體售價上漲、長期合約重新議價；出貨的記憶體容量反而小幅減少。\n2026年第三季單季：營收1,336.49億元，比上一季增加61.9%、比去年同季增加611.7%；稅後淨利876.27億元，每股盈餘（EPS）25.40元。毛利率85.7%、營業利益率80.0%，分別比上一季增加6.2、6.3個百分點。營業利益1,068.94億元，業外收入淨額24.38億元，這季主要由本業帶來獲利。\n2026年1–9月累計：稅後淨利1,638.77億元，EPS49.28元。上述為公司自結、尚未經會計師核閱的數字，金額單位為新台幣。單季與累計EPS採不同加權股數，本次保留各自公布的數字。\n2026年9月底：現金及約當現金2,885.07億元，表列長期借款184億元，每股淨值118.99元。公司以現金扣除這筆長期借款，列示約2,701億元的淨現金。營業現金流在簡報的表格與圖表中數字不同，待公司澄清後補上。",
+      "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+      "sources": [
+        "nanya-20261012-presentation",
+        "nanya-20261012-release"
+      ],
+      "reviewed_at": "2026-10-12"
+    },
+    "developments": {
+      "text": "公司發展方向：升級記憶體製程、興建新廠，並發展AI客製化記憶體與晶圓堆疊技術。\n製程升級：第三代10奈米級1C製程，預計2027年第一季開始讓客戶驗證產品。1D、1E與EUV技術正在研發；實際量產及營收貢獻時間仍待公布。\n新廠擴產：5A新廠預計2027年第一季開始裝機，2027年第四季開始生產，再逐步提升產量。第一階段設計月產能為35,900片，2026–2029年預計投入約3,466億元。另就整體分期計畫，公司希望2028年底達到每月投片30,000片、2030年底50,000片；投片是開始加工的晶圓數，與第一階段設計產能是不同口徑。\n設備與建廠支出：2026年前三季已投入276億元，全年核定上限697億元，約一半用於生產設備。這些金額是公司投資的支出。\n晶圓堆疊：規劃在屏東科學園區建置3D晶圓封裝與測試廠，目標在2028年底前建立TSV與晶圓堆疊技術，讓晶片能垂直連接，以支援AI產品。\nAI客製化專案：科技新報轉述管理層說法，美國西岸客戶的AI ASIC相關記憶體專案已少量出貨，後續產能配合客戶規畫。客戶名稱、出貨規模和營收貢獻尚未公布。",
+      "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+      "sources": [
+        "nanya-20261012-presentation",
+        "nanya-20261012-release",
+        "technews-20261012-qa"
+      ],
+      "reviewed_at": "2026-10-12",
+      "project_ids": [
+        "2408-process-1c",
+        "2408-fab5a",
+        "2408-3d-packaging",
+        "2408-ai-asic-memory"
+      ]
+    },
+    "transition": {
+      "text": "公司希望達到的目標：利用AI需求與長期客戶合約，安排新廠產能，持續提升記憶體技術與產品組合。公司認為目前傳統DRAM供給有限、庫存偏低。\n近期展望：科技新報轉述管理層預期，第四季記憶體價格與毛利率仍有提升機會；各產品表現會受產品組合影響。公司尚未公布可核對的全年營收或EPS金額預估。\n資金安排：同一篇報導轉述，2027年資本支出預期增加，管理層希望以自有資金支應；策略夥伴的股權合作仍在洽談。\n後續觀察重點：第三季主要靠漲價帶動獲利，接下來要看價格能否維持、客戶需求與新廠進度。記憶體太貴時，客戶可能降低產品規格、延長使用年限，或採用回收記憶體，因此需求也可能受到影響。製程客戶驗證、裝機、生產和產量提升，會分階段追蹤。\n歷史資料仍待補充：2024年虧損與2026年上半年業外收入異常的原因，這次法說資料尚未完整說明。",
+      "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+      "sources": [
+        "nanya-20261012-presentation",
+        "nanya-20261012-release",
+        "technews-20261012-qa"
+      ],
+      "reviewed_at": "2026-10-12"
+    },
+    "meeting_research": {
+      "event_date": "2026-10-12",
+      "completion": "2026-10-12南亞科整場可取得法說資料",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-10-12",
+      "original_qa_verified": false,
+      "batch_id": "research-20261012-2408-v1"
+    },
+    "lookup_completion": {
+      "status": "completed_lookup_with_disclosed_gaps",
+      "completed_at": "2026-10-12T21:32:53.533896+08:00",
+      "batch_id": "research-20261012-2408-v1",
+      "scope": "2026-10-12法說會可取得公開資料"
+    }
+  },
+  "original_updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261012-2408-v1-business",
+      "task_id": "meeting-2408.TW-2026-10-12",
+      "company_code": "2408",
+      "company_name": "南亞科",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0b48dc4e896e41d653f7796f77f6f36b0c1474fc8cb835da70e36b018f31eaf5",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【10月12日法說涵蓋業務】南亞科製造及銷售DRAM，產品包括DDR5、LPDDR5／5X及DDR4、LPDDR4／4X、DDR3、LPDDR3。獲利取決於DRAM售價、位元出貨與製造成本；AI用途涵蓋伺服器、網路、儲存及系統管理，不應把AI營收直接視為HBM營收。公司本次表示AI基礎建設相關營收占比超過20%，屬目前營收組合，不是未來營收保證。個別客戶與各產品獲利占比未揭露。",
+        "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+        "sources": [
+          "nanya-20261012-presentation"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "nanya-20261012-presentation",
+          "url": "https://www.nanya.com/tw/Activity?Action=IR_investorcalendar_FileName&Id=5298&column=Presentation",
+          "title": "2026年度第三季法說會簡報（18頁）",
+          "publisher": "南亞科技",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_media_report_and_labeled_inference",
+      "event_date": "2026-10-12",
+      "research_completed_at": "2026-10-12T21:32:53.533896+08:00",
+      "research_completion": "meeting_complete_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成10月12日整場可取得公開文字、官方18頁簡報與重要圖表核對；不代表整家公司歷史研究已完成。",
+        "未取得可核對官方原始問答逐字稿；問答採媒體轉述並逐項標記，未搜尋影片。",
+        "簡報第9頁營業現金流表96,017百萬元、圖96,107百萬元不一致；未採用該數值，待公司澄清。",
+        "未揭露個別客戶名稱、專案獲利或收入預估；未取得本日可驗證法人EPS共識。",
+        "Q3與前三季為公司自結未經查核數字；不同期間EPS股數基礎不同，不自行加總或更新網站TTM。"
+      ],
+      "completion_unit": "2026-10-12南亞科整場可取得法說資料"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261012-2408-v1-earnings",
+      "task_id": "meeting-2408.TW-2026-10-12",
+      "company_code": "2408",
+      "company_name": "南亞科",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0b48dc4e896e41d653f7796f77f6f36b0c1474fc8cb835da70e36b018f31eaf5",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【2026年第三季單季，公司自結未經查核；新台幣】營收1,336.49億元，季增61.9%、年增611.7%；毛利1,144.82億元，毛利率85.7%；營業利益1,068.94億元，營益率80.0%；業外24.38億元；淨利876.27億元、淨利率65.6%，EPS25.40元。前三季累計淨利1,638.77億元、EPS49.28元；單季與累計加權股數不同，勿由EPS差額直接推算單季或TTM。\n【變化原因】ASP大幅上漲（官方原文「季增超過六十位數百分比」），位元銷量季減中個位數百分比，匯率為低個位數有利影響；長約重新議價，營收提升主要來自價格而非出貨擴張。毛利率較Q2增加6.2個百分點、營益率增加6.3個百分點。研發及銷管費用增加主要涉及員工薪酬；不宜把單季高利潤永久外推。業外不是本季主要獲利來源，細項未充分揭露。\n【2026年9月底財務】現金及約當現金2,885.07億元；公司表列長期借款184億元，稱淨現金2,701億元，此口徑不是扣除所有有息負債的完整淨負債；每股淨值118.99元。第9頁營業現金流表與圖有96,017／96,107百萬元差異，本批不採用該數字。完整資產負債比與現金流計算仍由網站依正式財報處理。",
+        "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+        "sources": [
+          "nanya-20261012-presentation",
+          "nanya-20261012-release"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "nanya-20261012-presentation",
+          "url": "https://www.nanya.com/tw/Activity?Action=IR_investorcalendar_FileName&Id=5298&column=Presentation",
+          "title": "2026年度第三季法說會簡報（18頁）",
+          "publisher": "南亞科技",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "nanya-20261012-release",
+          "url": "https://www.nanya.com/tw/IR/16?IRId=14188",
+          "title": "南亞科技2026年第三季自結營運結果",
+          "publisher": "南亞科技",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_media_report_and_labeled_inference",
+      "event_date": "2026-10-12",
+      "research_completed_at": "2026-10-12T21:32:53.533896+08:00",
+      "research_completion": "meeting_complete_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成10月12日整場可取得公開文字、官方18頁簡報與重要圖表核對；不代表整家公司歷史研究已完成。",
+        "未取得可核對官方原始問答逐字稿；問答採媒體轉述並逐項標記，未搜尋影片。",
+        "簡報第9頁營業現金流表96,017百萬元、圖96,107百萬元不一致；未採用該數值，待公司澄清。",
+        "未揭露個別客戶名稱、專案獲利或收入預估；未取得本日可驗證法人EPS共識。",
+        "Q3與前三季為公司自結未經查核數字；不同期間EPS股數基礎不同，不自行加總或更新網站TTM。"
+      ],
+      "completion_unit": "2026-10-12南亞科整場可取得法說資料"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261012-2408-v1-developments",
+      "task_id": "meeting-2408.TW-2026-10-12",
+      "company_code": "2408",
+      "company_name": "南亞科",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0b48dc4e896e41d653f7796f77f6f36b0c1474fc8cb835da70e36b018f31eaf5",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【新產品／製程升級：2408-process-1c】第三代10奈米級1C製程預計2027年第一季進入客戶驗證；驗證不是量產。1D、1E及EUV研發按計畫推進，商用日期、客戶及獨立收入貢獻未揭露。\n【既有業務擴產：2408-fab5a】2026年前三季實際資本支出276億元；2026全年核定上限697億元、約一半用於設備，皆非營收。5A新廠第一階段月產能35,900片，2026–2029年資本支出約3,466億元；整體分期計畫另訂2028年底月投片30,000片、2030年底50,000片，兩種範圍不可混用。設備預計2027Q1開始移入、2027Q4開始生產；投產、爬坡與收入認列不能畫等號。新增營收與客戶未量化揭露。\n【新技術／封裝：2408-3d-packaging】規劃於屏東科學園區發展3D晶圓封裝測試；官方新聞稿指向2028年底前建立TSV／晶圓堆疊技術，並推進AI客製化及WoW。媒體提及2028下半年投片屬較細管理層转述，未當作官方確定量產日期。\n【新產品專案：2408-ai-asic-memory】科技新報轉述管理層：美國西岸客戶AI ASIC相關記憶體專案已少量出貨，後續產能依客戶釋出規畫；這是媒體轉述、非官方逐字稿，無具名客戶、出貨規模或營收貢獻。不與公司整體AI營收占比或HBM混為一談。",
+        "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+        "sources": [
+          "nanya-20261012-presentation",
+          "nanya-20261012-release",
+          "technews-20261012-qa"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "nanya-20261012-presentation",
+          "url": "https://www.nanya.com/tw/Activity?Action=IR_investorcalendar_FileName&Id=5298&column=Presentation",
+          "title": "2026年度第三季法說會簡報（18頁）",
+          "publisher": "南亞科技",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "nanya-20261012-release",
+          "url": "https://www.nanya.com/tw/IR/16?IRId=14188",
+          "title": "南亞科技2026年第三季自結營運結果",
+          "publisher": "南亞科技",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "technews-20261012-qa",
+          "url": "https://technews.tw/2026/10/12/nanya-technology-2026-q3-financial-report-2/",
+          "title": "DRAM 缺貨潮延續！南亞科看好 Q4 毛利率再迎高峰，ASIC 專案已少量出貨",
+          "publisher": "科技新報／林妤柔",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "transition",
+            "developments"
+          ],
+          "source_type": "媒體轉述管理層問答，非官方逐字稿"
+        }
+      ],
+      "claim_type": "fact_company_forecast_media_report_and_labeled_inference",
+      "event_date": "2026-10-12",
+      "research_completed_at": "2026-10-12T21:32:53.533896+08:00",
+      "research_completion": "meeting_complete_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成10月12日整場可取得公開文字、官方18頁簡報與重要圖表核對；不代表整家公司歷史研究已完成。",
+        "未取得可核對官方原始問答逐字稿；問答採媒體轉述並逐項標記，未搜尋影片。",
+        "簡報第9頁營業現金流表96,017百萬元、圖96,107百萬元不一致；未採用該數值，待公司澄清。",
+        "未揭露個別客戶名稱、專案獲利或收入預估；未取得本日可驗證法人EPS共識。",
+        "Q3與前三季為公司自結未經查核數字；不同期間EPS股數基礎不同，不自行加總或更新網站TTM。"
+      ],
+      "completion_unit": "2026-10-12南亞科整場可取得法說資料"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261012-2408-v1-transition",
+      "task_id": "meeting-2408.TW-2026-10-12",
+      "company_code": "2408",
+      "company_name": "南亞科",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0b48dc4e896e41d653f7796f77f6f36b0c1474fc8cb835da70e36b018f31eaf5",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【公司展望】AI GPU／TPU／CPU／ASIC拉動記憶體需求；公司認為傳統DRAM供給受限、庫存低，長約可支持產能配置。2026位元出貨成長目標維持官方「高十位數百分比」原文；未提供可核對全年營收或EPS財測。\n【公開問答，媒體轉述】科技新報報導管理層預期Q4價格與毛利率仍可能提高，但各產品組合不同，沒有保證的毛利率或EPS數字；2027年資本支出預期增加、管理層預期以自有資金支應。策略夥伴股權合作仍在洽談，不能寫成已完成併購或已確定注資。\n【研究判斷】本季高利潤由ASP／長約重新定價驅動，出貨反而下降；後續需檢查價格能否延續、客戶需求及產品組合。官方亦提到價格上漲可能引發規格降級、使用年限延長及低階回收DRAM需求，存在需求破壞風險。新廠設備移入、製程驗證、投產及量產爬坡各有執行風險，未將目標產能直接換算收入。舊2024虧損與2026H1業外異常原因仍保留待查，本次法說未完整解答。",
+        "period": "2026Q3單季／前三季累計及2026-10-12法說展望，各項另標",
+        "sources": [
+          "nanya-20261012-presentation",
+          "nanya-20261012-release",
+          "technews-20261012-qa"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "nanya-20261012-presentation",
+          "url": "https://www.nanya.com/tw/Activity?Action=IR_investorcalendar_FileName&Id=5298&column=Presentation",
+          "title": "2026年度第三季法說會簡報（18頁）",
+          "publisher": "南亞科技",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "nanya-20261012-release",
+          "url": "https://www.nanya.com/tw/IR/16?IRId=14188",
+          "title": "南亞科技2026年第三季自結營運結果",
+          "publisher": "南亞科技",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "technews-20261012-qa",
+          "url": "https://technews.tw/2026/10/12/nanya-technology-2026-q3-financial-report-2/",
+          "title": "DRAM 缺貨潮延續！南亞科看好 Q4 毛利率再迎高峰，ASIC 專案已少量出貨",
+          "publisher": "科技新報／林妤柔",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-12",
+          "supports": [
+            "transition",
+            "developments"
+          ],
+          "source_type": "媒體轉述管理層問答，非官方逐字稿"
+        }
+      ],
+      "claim_type": "fact_company_forecast_media_report_and_labeled_inference",
+      "event_date": "2026-10-12",
+      "research_completed_at": "2026-10-12T21:32:53.533896+08:00",
+      "research_completion": "meeting_complete_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成10月12日整場可取得公開文字、官方18頁簡報與重要圖表核對；不代表整家公司歷史研究已完成。",
+        "未取得可核對官方原始問答逐字稿；問答採媒體轉述並逐項標記，未搜尋影片。",
+        "簡報第9頁營業現金流表96,017百萬元、圖96,107百萬元不一致；未採用該數值，待公司澄清。",
+        "未揭露個別客戶名稱、專案獲利或收入預估；未取得本日可驗證法人EPS共識。",
+        "Q3與前三季為公司自結未經查核數字；不同期間EPS股數基礎不同，不自行加總或更新網站TTM。"
+      ],
+      "completion_unit": "2026-10-12南亞科整場可取得法說資料"
+    }
+  ],
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261012-2408-v1",
+    "ready": true,
+    "created_at": "2026-10-12T21:32:53.533896+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:d7f3db5381e28bf7646f6939e808a1df1de8cd9b57a85c75e90b92efee9519a3",
+    "work_type": "change_update",
+    "completion_unit": "2026-10-12南亞科整場可取得法說資料",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "source_periods_checked": true,
+      "charts_checked": true,
+      "source_conflicts_disclosed": true,
+      "original_qa_verified": false
+    },
+    "limitations": [
+      "本批完成10月12日整場可取得公開文字、官方18頁簡報與重要圖表核對；不代表整家公司歷史研究已完成。",
+      "未取得可核對官方原始問答逐字稿；問答採媒體轉述並逐項標記，未搜尋影片。",
+      "簡報第9頁營業現金流表96,017百萬元、圖96,107百萬元不一致；未採用該數值，待公司澄清。",
+      "未揭露個別客戶名稱、專案獲利或收入預估；未取得本日可驗證法人EPS共識。",
+      "Q3與前三季為公司自結未經查核數字；不同期間EPS股數基礎不同，不自行加總或更新網站TTM。"
+    ],
+    "meeting_research": {
+      "company_code": "2408",
+      "meeting_date": "2026-10-12",
+      "research_complete": true,
+      "scope": "完整18頁官方簡報、新聞稿、重要圖表及具名媒體問答轉述，缺漏明示",
+      "original_qa_verified": false
+    }
+  },
+  "overview_unchanged": true,
+  "formulas_and_ttm_unchanged": true,
+  "editorial_rewrite": true,
+  "original_qa_verified": false,
+  "rejected_cashflow_figures": [
+    96017,
+    96107
+  ]
+}
