@@ -77,9 +77,9 @@
     </div>`;
     const reportPriceDate=r.companies.reduce((date,c)=>/^\d{4}-\d{2}-\d{2}$/.test(c.priceAsOf||'') && c.priceAsOf>date?c.priceAsOf:date,r.priceAsOf||'');
     const conclusion = `<div class="weekly-kicker">${escape(r.week_id)} · 週報 v${r.version} · 研究判斷</div><h2 class="weekly-headline">AI建議股票操作</h2><p class="weekly-freshness" role="status" data-weekly-price-as-of="${escape(reportPriceDate)}">${escape(freshness({priceAsOf:reportPriceDate}))}</p>${quickSummary}`;
-    const turnaround = card('轉機股', `<p>轉機股是原本成長較慢或表現平淡，最近營收與獲利開始改善、值得繼續觀察的公司。這三檔上半年營運數字變好，但最近一段時間股價反應較小，因此列入後續研究。</p><strong>${names(r.top_research || [])}</strong>${r.update_id==='2026-W41-v3'?`<ul><li>亞德客-KY：2026上半年營收比去年同期增加約30%，每股盈餘增加約51%。接下來觀察客戶訂單與獲利改善能否持續。</li><li>鮮活果汁-KY：2026上半年營收比去年同期增加約47%，每股盈餘增加約107%。接下來確認需求與毛利率是否能維持。</li><li>南帝：2026上半年營收比去年同期增加約23%，每股盈餘增加約288%。接下來確認產品報價、需求與本業獲利，也會檢查高成長是否主要來自去年獲利較低。</li></ul>`:list((r.top_research||[]).map(code=>byCode[code]?.fundamental_inflection||'待確認營運改善的持續性'))}<p>目前是值得深入了解的觀察名單。完成未來需求、合理價格與進場條件的確認後，才會評估是否適合建倉；點「查看分析」可看每家公司還需要確認的事項。</p>`);
+    const turnaround = card('轉機股', `<p>轉機股是原本成長較慢或表現平淡，最近營收與獲利開始改善、值得繼續觀察的公司。這三檔上半年營運數字變好，但最近一段時間股價反應較小，因此列入後續研究。</p><strong>${names(r.top_research || [])}</strong>${(r.ui_guide_version||r.update_id)==='2026-W41-v3'?`<ul><li>亞德客-KY：2026上半年營收比去年同期增加約30%，每股盈餘增加約51%。接下來觀察客戶訂單與獲利改善能否持續。</li><li>鮮活果汁-KY：2026上半年營收比去年同期增加約47%，每股盈餘增加約107%。接下來確認需求與毛利率是否能維持。</li><li>南帝：2026上半年營收比去年同期增加約23%，每股盈餘增加約288%。接下來確認產品報價、需求與本業獲利，也會檢查高成長是否主要來自去年獲利較低。</li></ul>`:list((r.top_research||[]).map(code=>byCode[code]?.fundamental_inflection||'待確認營運改善的持續性'))}<p>目前是值得深入了解的觀察名單。完成未來需求、合理價格與進場條件的確認後，才會評估是否適合建倉；點「查看分析」可看每家公司還需要確認的事項。</p>`);
     const alertGuide=a=> {
-      if(r.update_id!=='2026-W41-v3') return [a.reason];
+      if((r.ui_guide_version||r.update_id)!=='2026-W41-v3') return [a.reason];
       const guides={
         '2330':[
           `股價現況：${byCode[a.code].priceAsOf.slice(5).replace('-', '/')}收盤${number(byCode[a.code].price)}，${byCode[a.code].price>=a.price?'高於':'低於'}觀察價格${number(a.price)}；觀察價格沿用原均線支撐基準。`,
@@ -122,7 +122,7 @@
       .replace(/核心投資理由/g,'中長期投資理由').replace(/縮減戰術部位/g,'評估減少為這次進場建立的部位').replace(/每股盈餘與每股盈餘/g,'每股盈餘');
 
     const holdingSentence=c=> {
-      if(r.update_id==='2026-W41-v3' && c.code==='2330') return '已有持股可續抱；新資金先觀察股價回落到 2,480–2,515 時的表現。如果跌到 2,375–2,415 並停止繼續下跌，且進場條件成立，可以先投入這檔股票預計投入資金的 25%。後續在 2,480–2,515 縮量守住支撐，再投入 25%；收盤回到 2,555、突破 2,595，並分別符合各筆條件後，可再各投入 25%。';
+      if((r.ui_guide_version||r.update_id)==='2026-W41-v3' && c.code==='2330') return '已有持股可續抱；新資金先觀察股價回落到 2,480–2,515 時的表現。如果跌到 2,375–2,415 並停止繼續下跌，且進場條件成立，可以先投入這檔股票預計投入資金的 25%。後續在 2,480–2,515 縮量守住支撐，再投入 25%；收盤回到 2,555、突破 2,595，並分別符合各筆條件後，可再各投入 25%。';
       const summaries={
         '2308':'已有持股可續抱，但要留意這檔股票占整體資金的比例。如果持股過多，可在股價走強時評估分批減碼；新資金先等待合適價格與進場條件。',
         '2345':'已有持股可續抱；新資金先觀察 1,905–1,930 區間的回檔表現，或等待收盤達到 2,145 並符合進場條件。採右側確認進場時，第一筆投入30%，後續回落守住後再投入30%，營運改善確認後投入最後40%。每股盈餘預估仍下修時，先停止加碼。',
@@ -135,7 +135,7 @@
         '1256':'已有持股先確認當初買進的理由是否仍成立，以及投入比例是否過高、交易是否容易。本週研究仍在確認中，新資金先等待，也先不加碼；已有部位的出場決定需另核對公司營運。',
         '2108':'已有持股先確認當初買進的理由是否仍成立，以及投入比例是否過高、交易是否容易。本週研究仍在確認中，新資金先等待，也先不加碼；已有部位的出場決定需另核對公司營運。'
       };
-      return r.update_id==='2026-W41-v3' && summaries[c.code] || plainCondition(c.holding_strategy);
+      return (r.ui_guide_version||r.update_id)==='2026-W41-v3' && summaries[c.code] || plainCondition(c.holding_strategy);
     };
     const trancheTable=c=> {
       const rows={
@@ -153,7 +153,7 @@
           ['回落至 3,705','後續回落沒有跌破，並再次收高；估值與交付仍符合預期。'],
           ['保留資金','每股盈餘預估或交付改善獲得確認，價格與估值仍合適。']]
       };
-      const current=r.update_id==='2026-W41-v3'?rows[c.code]:null;
+      const current=(r.ui_guide_version||r.update_id)==='2026-W41-v3'?rows[c.code]:null;
       return `<div class="weekly-tranche-wrap"><table class="weekly-tranche-table"><thead><tr><th>觀察股價</th><th>符合什麼條件</th><th>投入多少資金</th></tr></thead><tbody>${c.building_plan.tranches.map((t,i)=>{
         const row=current?.[i]||['依進場訊號',plainCondition(t.condition)];
         const part=t.target_pct===25?'1/4（25%）':`${number(t.target_pct)}%`;
@@ -180,13 +180,13 @@
       if(boundary) {
         const floor=number(Number(boundary[1]));
         rows.push([
-          `收盤突破 ${number(c.prices.breakout)} 後，下一個交易日收盤又跌回 ${number(c.prices.breakout)} 以下；或股價回落跌破 ${floor}。`,
+          c.prices.breakout==null ? `股價回落跌破 ${floor}；目前沒有已確認的新突破買訊。` : `收盤突破 ${number(c.prices.breakout)} 後，下一個交易日收盤又跌回 ${number(c.prices.breakout)} 以下；或股價回落跌破 ${floor}。`,
           '取消這次買進。取消突破買訊，或停止原本的支撐布局，重新評估買點。']);
         rows.push([
           `連續兩天收盤低於 ${floor}，且至少一天成交量達到前20日平均量；或單日收盤跌破 ${floor}，成交量達前20日平均量1.5倍，且下一個交易日仍未回到 ${floor} 以上。`,
           '停止加碼，評估減少為這次進場建立的部位。']);
-      } else if(c.code==='2382' && r.update_id==='2026-W41-v3')rows.push([
-        '收盤跌破原328–330支撐區，且成交量高於前20日平均量（10/8收盤325.5，已發生）。',
+      } else if(c.code==='2382' && (r.ui_guide_version||r.update_id)==='2026-W41-v3')rows.push([
+        `收盤仍低於原328–330支撐區（${c.priceAsOf.slice(5).replace('-', '/')}收盤${number(c.price)}）；原買點已撤銷。`,
         '原買點已撤銷。停止加碼，檢查已有部位，等待新的價格與營運條件確認。']);
       else rows.push(['尚未有完整資料可判斷價格失效條件。','先等待完整資料與條件確認，尚未提供可執行的價格退出訊號。']);
       rows.push([plainCondition(c.thesis_failure),'重新評估中長期持有。公司營運變化可能使原投資理由失效，停止加碼，並評估減碼或退出。']);
@@ -238,7 +238,7 @@
         ['主要風險','平台更換或竞争加劇可能改變供貨份額；若市場預期的高成長未實現，估值也可能調整。']]}
     };
     const sectors=card('本週產業 Top5', `<ol class="weekly-industry-list">${r.industries.map(i=>{
-      const guide=r.update_id==='2026-W41-v3'?industryGuides[i.rank]:null;
+      const guide=(r.ui_guide_version||r.update_id)==='2026-W41-v3'?industryGuides[i.rank]:null;
       const items=guide?.items||[['為什麼值得關注',i.reason],['未來1–3年成長',i.growth_1to3y],['目前發展階段',i.stage],['股價反映程度',i.price_in],['接下來看什麼',i.catalyst],['主要風險',i.risk]];
       return `<li><h4>${escape(guide?.title||i.name)}</h4><p class="weekly-sector-search">搜尋相關股票：${i.search_terms.map(term=>`<a href="./?search=${encodeURIComponent(term)}#listTitle" data-weekly-search="${escape(term)}">${escape(term)}</a>`).join(' · ')}</p><ul>${items.map(([label,text])=>`<li><b>${escape(label)}：</b>${escape(text.replace(/较/g,'較').replace(/竞争/g,'競爭'))}</li>`).join('')}</ul><p class="weekly-sector-stocks"><b>相關股票：</b>${i.codes.map(code=>`<a href="./?company=${encodeURIComponent(code)}#detail" data-weekly-company="${escape(code)}">${escape(byCode[code]?.name||code)}（${escape(code)}）</a>`).join('、')}</p><details><summary>查看估值數字與資料日期</summary><p>${escape(plainCondition(i.price_in).replace(/TTM PE/g,'最近四季本益比').replace(/MA20/g,'20日平均收盤價').replace(/Forward/g,'預估'))}</p></details></li>`;
     }).join('')}</ol><details><summary>其他追蹤方向</summary>${r.other_trends.map(t=>`<h4>${escape(t.name)}</h4><p>${escape(t.assessment)}</p>`).join('')}</details>`);

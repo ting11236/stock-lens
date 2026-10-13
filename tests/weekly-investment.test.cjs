@@ -4,7 +4,7 @@ const fs = require('node:fs');
 global.document = {getElementById:()=>null};
 global.location = {href:'https://ting11236.github.io/stock-lens/'};
 const {freshness, render, escape, range, linkMentionedStocks} = require('../site/weekly-investment.js');
-const r = JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment.json'),'utf8'));
+const r = JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment/2026-W41-v3.json'),'utf8'));
 test('price date label shows recorded trading dates without inventing a refresh',()=>{
  assert.equal(freshness({priceAsOf:'2026-10-07'},new Date('2026-10-08T14:00:00+08:00')),'最新交易資料日期：10月7日');
  assert.equal(freshness({priceAsOf:'2026-10-08'}),'最新交易資料日期：10月8日');
@@ -58,7 +58,7 @@ test('stock mentions in headings and prose are linked without nested links or un
 });
 
 test('backtest shows scheduled status and no fabricated returns before start',()=>{
- const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
+ const b=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'./fixtures/weekly-backtest-before-start.json'),'utf8'));
  assert.equal(b.initial_capital,10000);assert.equal(b.start_date,'2026-10-12');assert.equal(b.trades.length,0);assert.equal(b.total_return_pct,null);
  const html=render({...r,backtest:b});assert.match(html,/data-weekly-tab="backtest"/);assert.match(html,/尚未開始/);assert.match(html,/逐筆建倉／分批出場紀錄/);assert.match(html,/下一交易日|下一交易日/);assert.doesNotMatch(html,/undefined|NaN/);
 });
@@ -105,3 +105,16 @@ test('five exclusive categories keep plans inside stock analysis',()=>{const htm
 test("overview reference is concise without allocation details",()=>{const html=render(r);const summary=html.split("weekly-quick-summary weekly-decision-list")[1].split("</div>")[0];assert.match(summary,/突破參考價 <span class="weekly-reference-red">2,145<\/span>/);assert.match(summary,/條件成立後買進<\/span>第一筆/);assert.doesNotMatch(summary,/第一筆30%|前20日平均量/);});
 
 test("daily price refresh updates reminders without refreshing weekly research",()=>{const sample=JSON.parse(JSON.stringify(r));const c=sample.companies.find(c=>c.code==="2330");c.price=2501;c.priceAsOf="2026-10-13";const html=render(sample);assert.match(html,/股價現況：10\/13收盤2,501/);assert.doesNotMatch(html,/股價現況：10\/7收盤2,585/);const frozen=JSON.parse(fs.readFileSync(require("node:path").join(__dirname,"../site/data/weekly-investment/2026-W41-v3.json"),"utf8"));assert.equal(r.reviewedAt,frozen.reviewedAt);assert.deepEqual(r.companies[0].prices,frozen.companies[0].prices);});
+
+const current=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment.json'),'utf8'));
+test('W42 weekly review preserves frozen W41, distinct research and price dates',()=>{
+ assert.equal(current.week_id,'2026-W42');assert.equal(current.update_id,'2026-W42-v1');
+ assert.equal(current.previous_update_id,'2026-W41-v3');assert.equal(current.priceAsOf,'2026-10-12');
+ assert.equal(current.screening.universe_count,1089);assert.equal(current.screening.priceAsOf,'2026-10-08');
+ assert.equal(current.changes.added.length,0);assert.deepEqual(current.top_wait,['2330','2345','3017']);
+ for(const c of current.companies){assert.equal(c.priceAsOf,'2026-10-12');assert.equal(c.scores.confidence,r.companies.find(x=>x.code===c.code).scores.confidence);assert.equal(c.exit_plan.tranches.length,0);assert.equal(c.daily_signal_review.status,'waiting');}
+ assert.equal(current.companies.find(c=>c.code==='3711').prices.breakout,null);
+ const html=render(current);assert.match(html,/最新交易資料日期：10月12日/);assert.match(html,/2,375–2,415/);assert.doesNotMatch(html,/突破 —/);
+ const ledger=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
+ assert.equal(ledger.share_mode,'fractional_research');assert.equal(ledger.status,'running');assert.equal(ledger.cash,10000);assert.equal(ledger.total_return_pct,0);assert.equal(ledger.trades.length,0);assert.equal(ledger.elapsed_days,1);
+});

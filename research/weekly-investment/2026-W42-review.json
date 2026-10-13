@@ -1,0 +1,319 @@
+{
+  "update_id": "2026-W42-v1",
+  "reviewedAt": "2026-10-13T12:11:52+08:00",
+  "previous_update_id": "2026-W41-v3",
+  "database_commit": "39b5a1894b524d46197755496a15d6fd89c81444",
+  "priceAsOf": "2026-10-12",
+  "coverage": {
+    "update_id": "2026-W42-v1",
+    "screenedAt": "2026-10-13T12:04:53.856524+08:00",
+    "database_commit": "39b5a1894b524d46197755496a15d6fd89c81444",
+    "universe_count": 1089,
+    "coverage": {
+      "h1_revenue_yoy": 1074,
+      "h1_eps_yoy": 753,
+      "monthly_yoy": 867,
+      "operating_cashflow": 1084,
+      "return20": 1078,
+      "roic": 0,
+      "fcf": 0
+    },
+    "candidate_count": 93,
+    "method": "先資料庫：H1營收YoY≥20%、H1 EPS YoY>營收YoY、最近20交易日收盤漲跌≤5%；營運槓桿僅候選，業外／股數／CFO／產業證據須再核。虧轉盈獨立標記，不直接排除負EPS。非全市場買進排名。",
+    "limitations": [
+      "月營收僅單月YoY，不宣稱3–6月加速。",
+      "營益率／毛利率缺可比去年同期值不宣稱改善。",
+      "ROIC與FCF缺完整投入資本、NOPAT或CapEx不計算；現金增加不等同FCF。",
+      "價格未全面還原除權息；異常股數與業外需人工核對。",
+      "金融業不用一般製造業門檻；僅保留觀察，不列此營運槓桿候選。"
+    ],
+    "database_files": {
+      "stocks.json": "cf0f93d1ead9b5f47e39c4472ab06f86425bedd963b7e7574319bd8cbb8599df",
+      "company-research.json": "5b4d35d3d395ab9a38fc6157533c88a1454d1759fb51c8d8297fc2870aadac02",
+      "price-history.json": "5fc29cf44f9ac4547a6ab83bc505d1e0c44dadc93134adc693fa144d8efde3f3"
+    },
+    "selected": [
+      "1590",
+      "1256",
+      "2108"
+    ],
+    "selection_reason": "仍觀察工業自動化、飲料原料、乳膠三個非AI方向；訂單、產品報價與市場預期差未充分確認，不升為推薦。",
+    "priceAsOf": "2026-10-08",
+    "financialPeriod": "2026-H1 vs 2025-H1",
+    "next_types": "週期虧損／虧轉盈和Compounder另列候選，不因低EPS排除；未有ROIC／FCF，不宣稱完整確認Compounder。",
+    "value_trap_examples": [
+      {
+        "code": "1416",
+        "name": "廣豐",
+        "note": "業外占稅前 93.3%，EPS高增速需先排除業外，不以低PE當便宜。"
+      },
+      {
+        "code": "1419",
+        "name": "新紡",
+        "note": "業外占稅前 93.4%，EPS高增速需先排除業外，不以低PE當便宜。"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤2540，未進入2375–2415理想布局區，也未突破2595；9月營收改善不能取代止穩與獲利指引確認。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "9月營收未取得。"
+      ],
+      "code": "2330"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤1900，估值仍要求高成長；回到觀察區不等於可買，尚未形成估值、量價與部門獲利的完整確認。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "9月營收未取得。"
+      ],
+      "code": "2308"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤2130仍低於2145，沒有完成突破及隔日守住；9月營收成長不等於最新EPS停止下修。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。"
+      ],
+      "code": "2345"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤322仍低於328–330原支撐；舊買點繼續撤銷，停止加碼，沒有新建倉訊號。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "最新公司法說正文、CAPEX量化與公司財測待補。",
+        "9月營收未取得。"
+      ],
+      "code": "2382"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤2275；可比EPS不足，所有入場價留缺。新品展示不補足估值與成交條件。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "9月營收未取得。",
+        "可比重編EPS／可轉債轉換與加權股數口徑待補；最終配股率及60日均線已核。"
+      ],
+      "code": "6669"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤762越過原759觀察價，但20日最高已到765且估值高；不沿用過時突破買訊，不追高。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "最新公司法說正文、CAPEX量化與公司財測待補。",
+        "9月營收未取得。"
+      ],
+      "code": "3711"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤6150仍低於6330；本益比高，未取得足以支持新增部位的獲利上修與價格確認。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。"
+      ],
+      "code": "2383"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤3385未突破3705；觀察區與右側建倉條件分開，不因到價自動買進。",
+      "scores_changed": false,
+      "financialPeriod": "2026Q2單季",
+      "unverified": [
+        "未取得最新全部EPS共識修正及可靠訂單／利用率數字；不稱最新全市場評估。",
+        "最新公司法說正文、CAPEX量化與公司財測待補。"
+      ],
+      "code": "3017"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤1210；公司年報產品延伸及銷量目標尚需最新訂單確認，沒有已核買進區。",
+      "scores_changed": false,
+      "financialPeriod": "2026-Q2 EPS／2026H1利潤率（分開口徑）",
+      "unverified": [
+        "最新訂單／ASP／稼動率／競爭者及可靠EPS共識尚待核對。",
+        "無完整CapEx與NOPAT／投入資本，不計FCF／ROIC。",
+        "未完成估值帶、基本面及價量交叉確認，三種買點留缺。"
+      ],
+      "followup_evidence": {
+        "task_id": "weekly-ai-tw-investment",
+        "update_id": "2026-W41-1590-annual-demand-check",
+        "accessed_at": "2026-10-10T13:28:27.204230+08:00",
+        "source": {
+          "url": "https://as-tw.airtac.com/upload/2026050711162390110.PDF",
+          "title": "亞德客2025年年報",
+          "published_at": null,
+          "published_at_reason": "封面標2026-03-16刊印，但PDF檔名及內容版本日期不同，尚未核最初公開上架日期",
+          "printed_at": "2026-03-16",
+          "data_period": "2025年度及2026年度計畫"
+        },
+        "claims": [
+          {
+            "type": "fact",
+            "pages": "PDF第5–6頁／印刷頁1–2",
+            "statement": "公司揭露線性滑軌已量產；產品開發涵蓋電動缸及滾珠螺桿。"
+          },
+          {
+            "type": "company_forecast",
+            "pages": "PDF第6頁／印刷頁2",
+            "statement": "公司年報規劃2026銷售量較2025雙位數增長；這是銷量展望，不能直接當營收或EPS預估。"
+          },
+          {
+            "type": "company_forecast",
+            "pages": "PDF第73頁／印刷頁69",
+            "statement": "公司發展方向包含線性滑軌、電子及半導體應用；尚非已確認客戶訂單。"
+          },
+          {
+            "type": "research_inference",
+            "statement": "產品線拓展支持營運改善的研究假設，仍需較近期需求、產品收入與利潤率驗證，維持Watchlist。"
+          }
+        ],
+        "status": "partial_evidence",
+        "pending": [
+          "較近期需求與訂單",
+          "線性滑軌收入及利潤貢獻",
+          "可靠EPS市場預期與估值",
+          "來源刊印／發布版本確認"
+        ],
+        "publication_status": "not_published",
+        "scores_changed": false,
+        "buy_signal_added": false
+      },
+      "code": "1590"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤168；營運改善尚需客戶需求、產品組合及收現延續證據，沒有已核買進區。",
+      "scores_changed": false,
+      "financialPeriod": "2026-Q2 EPS／2026H1利潤率（分開口徑）",
+      "unverified": [
+        "最新訂單／ASP／稼動率／競爭者及可靠EPS共識尚待核對。",
+        "無完整CapEx與NOPAT／投入資本，不計FCF／ROIC。",
+        "未完成估值帶、基本面及價量交叉確認，三種買點留缺。"
+      ],
+      "code": "1256"
+    },
+    {
+      "reviewedAt": "2026-10-13T12:11:52+08:00",
+      "baseline": "2026-W41-v3",
+      "conclusion": "收盤30；供給與價格競爭風險仍在，公司需求展望未轉成已核近期報價／訂單，沒有已核買進區。",
+      "scores_changed": false,
+      "financialPeriod": "2026-Q2 EPS／2026H1利潤率（分開口徑）",
+      "unverified": [
+        "最新訂單／ASP／稼動率／競爭者及可靠EPS共識尚待核對。",
+        "無完整CapEx與NOPAT／投入資本，不計FCF／ROIC。",
+        "未完成估值帶、基本面及價量交叉確認，三種買點留缺。"
+      ],
+      "followup_evidence": {
+        "task_id": "weekly-ai-tw-investment",
+        "update_id": "2026-W41-2108-demand-20261011",
+        "week_id": "2026-W41",
+        "accessed_at": "2026-10-11T21:37:42.570322+08:00",
+        "source": {
+          "title": "南帝115年股東常會議事手冊",
+          "url": "https://www.nantex.com.tw/userfiles/1150526Handbook.pdf",
+          "published_at": null,
+          "published_at_reason": "官方附件未核原始發布日；股東會日期不當發布日",
+          "data_period": "2025營業報告與2026年度營業計畫",
+          "sha256": "e6173eccfd17e72ef96d5438c065d93280fb49a4f59fd3389a0645195c7b3422"
+        },
+        "claims": [
+          {
+            "type": "fact",
+            "location": "PDF第8–9頁／印刷頁6–7",
+            "statement": "2025乳膠業務面臨售價調整困難、原料波動和新增供給壓力；銷量增加未同步改善獲利。"
+          },
+          {
+            "type": "company_forecast",
+            "location": "PDF第10頁／印刷頁8",
+            "statement": "2026營業計畫期待手套廠開工改善及高端需求，屬公司展望，不能當已實現訂單。"
+          },
+          {
+            "type": "research_inference",
+            "statement": "H1改善需與低基期、產品利差及新增供給分開驗證；仍待較近期報價、產能使用率與訂單，維持Watchlist，不新增買點。"
+          }
+        ],
+        "status": "partial_evidence",
+        "publication_status": "not_published",
+        "pending": [
+          "2026下半年需求、報價和訂單確認",
+          "可靠可比估值與市場預期差"
+        ],
+        "ratings_changed": false,
+        "buy_signals_added": 0
+      },
+      "code": "2108"
+    }
+  ],
+  "changes": {
+    "baseline": "2026-W41-v3 → 2026-W42-v1；沿用相同五項評分方法，可比較。",
+    "added": [],
+    "removed": [],
+    "rating_changes": [],
+    "entry_changes": [
+      {
+        "code": "3711",
+        "reason": "撤銷過時759突破參考；盤中高點765，估值仍高，不機械建立新買價。",
+        "from_asOf": "2026-10-07",
+        "to_asOf": "2026-10-12"
+      }
+    ],
+    "industry_changes": [],
+    "thesis_changes": [
+      {
+        "code": "2330",
+        "reason": "9月營收公告補核，強化需求持續成長依據；未以營收推估Q3 EPS。"
+      },
+      {
+        "code": "6669",
+        "reason": "新增OCP平台、散熱與CPO展示；認證／量產訂單及可比EPS仍不足，維持觀察。"
+      }
+    ],
+    "method_change": "本週沿用2026-10-07-fund-research-v1；重新檢視仍不足以支持更高買點評分，不為週更機械升降。",
+    "priority_changes": [
+      {
+        "from": "2382",
+        "to": "3017",
+        "reason": "廣達支撐失守且建倉計畫暫停；奇鋐保有可核價格與獲利情境，列優先等待但未確認買進。"
+      }
+    ]
+  },
+  "limitations": [
+    "全市場量化價格母體截至10/8；追蹤11檔已另核10/12。不是以10/12價格完成全市場排序。",
+    "最新完整季報維持2026-Q2；Q3 EPS、毛利率與現金流尚未公布者不自行推估。",
+    "近期可靠EPS共識及修正、可比ROIC／FCF、同業歷史估值樣本仍不足；保留缺值。",
+    "緯穎除權後可比EPS與加權股數尚未完成，公司平台展示不代表確定訂單。",
+    "非AI三檔的最新訂單、ASP、持續毛利率與市場預期差未證實，維持Watchlist。",
+    "台達電9月營收已補核金額，公告正文未提供可擷取YoY；不以8月YoY冒充9月。"
+  ],
+  "completion_rule": "研究、網站驗證、發布與線上確認全部完成才交付；外部阻礙列實際原因，不以草稿當完成。"
+}

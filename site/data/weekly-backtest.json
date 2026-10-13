@@ -6,18 +6,39 @@
   "initial_capital": 10000.0,
   "currency": "TWD",
   "mode": "forward_paper",
-  "status": "scheduled",
+  "status": "running",
   "cash": 10000.0,
   "holdings": {},
   "trades": [],
   "events": [],
-  "daily_snapshots": [],
-  "last_asOf": null,
+  "daily_snapshots": [
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 0,
+      "date": "2026-10-12",
+      "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 1,
+      "date": "2026-10-13",
+      "stock_market_value": 0.0
+    }
+  ],
+  "last_asOf": "2026-10-13",
   "equity": 10000.0,
-  "total_return_pct": null,
+  "total_return_pct": 0.0,
   "realized_pnl": 0.0,
-  "unrealized_pnl": null,
-  "elapsed_days": null,
+  "unrealized_pnl": 0.0,
+  "elapsed_days": 1,
   "costs": {
     "fee_rate": 0.001425,
     "minimum_fee": 1.0,
@@ -57,5 +78,6 @@
   "pending_signals": [],
   "share_mode": "fractional_research",
   "calculation_version": "fractional-paper-v1",
-  "share_mode_note": "依使用者要求以小數股做研究模擬，精度至小數6位；不是台股可實際成交的零股股數。與示範配置使用相同建倉、出場條件，條件成立後投入各批預算。"
+  "share_mode_note": "依使用者要求以小數股做研究模擬，精度至小數6位；不是台股可實際成交的零股股數。與示範配置使用相同建倉、出場條件，條件成立後投入各批預算。",
+  "estimated_liquidation_equity": 10000.0
 }
