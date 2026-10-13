@@ -3384,5 +3384,247 @@
       "batch_id": "research-20261012-2408-v1",
       "scope": "2026-10-12法說會可取得公開資料"
     }
+  },
+  "6281.TW": {
+    "name": "全國電",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "6281-oct-presentation": {
+        "url": "https://mopsov.twse.com.tw/nas/STR/628120261008M001.pdf",
+        "title": "2026年10月法人說明會簡報（31頁）",
+        "publisher": "全國電子／公開資訊觀測站",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_basis": "檔名公告日期10/8，會議10/12；封面僅標2026年10月",
+        "published_at_reason": "檔名日期10/8及會議10/12已確認；首次上傳時間未獨立核對，封面僅標2026年10月"
+      },
+      "6281-h1-report": {
+        "url": "https://cdn.financialreports.eu/financialreports/media/filings/52550/2026/RNS/52550_rns_2026-08-07_731d5037-fe85-43ed-8ba6-14128481ac7a.pdf",
+        "title": "115年第2季財務報告暨會計師核閱報告（26頁）",
+        "publisher": "全國電子；FinancialFilings公開原檔鏡像",
+        "published_at": "2026-08-07",
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "business",
+          "earnings",
+          "transition"
+        ],
+        "publication_basis": "鏡像索引發布日8/7，核閱報告8/5；財報作者為公司及KPMG",
+        "report_basis": "個別",
+        "period_start": "2026-01-01",
+        "period_end": "2026-06-30",
+        "period_type": "cumulative"
+      },
+      "6281-fy2025-annual": {
+        "url": "https://cdn.financialreports.eu/financialreports/media/filings/52550/2026/RNS/52550_rns_2026-08-06_3360e2a4-89a8-46a5-90b4-54537d3a1b03.pdf",
+        "title": "114年年報（92頁）",
+        "publisher": "全國電子；FinancialFilings公開原檔鏡像",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "published_at_reason": "刊印與首次公開日未獨立確認，不把鏡像8/6上架日當公司發布日",
+        "period": "2025年度及年報刊印時展望"
+      },
+      "6281-official-services": {
+        "url": "https://www.elifemall.com.tw/page_list/0/new",
+        "title": "公司新聞及服務介紹（10/1週年慶、9/4購物節）",
+        "publisher": "全國電子",
+        "published_at": "2026-10-01",
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "business",
+          "developments"
+        ],
+        "publication_basis": "採用10/1及9/4條目各自日期，不把列表查閱日當發布日"
+      },
+      "6281-oct-reporter": {
+        "url": "https://m.cnyes.com/news/id/6628182",
+        "title": "全國電審慎看明年內需市場 靈活調控百坪店型汰換與AI布局",
+        "publisher": "鉅亨網記者吳承諦",
+        "published_at": "2026-10-12",
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "developments",
+          "transition"
+        ],
+        "source_type": "具名記者轉述管理層；非官方原始問答"
+      },
+      "6281-website-baseline": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "title": "網站10/13匯出官方9月營收年增率",
+        "publisher": "證交所／網站共同數字基線",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "transition"
+        ],
+        "period": "2026-09",
+        "baseline_file": "網站回報/全國電最新完整基線_20261013.json",
+        "verification": "網站共同來源，僅引用已匯出年增率10.143495436448386%；未另建立計算",
+        "published_at_reason": "網站數字基線未提供公司公告發布日；不由資料期間或抓取日推定"
+      }
+    },
+    "limitations": [
+      "已完成今日整家公司既定公開資料查找，含核心業務、獲利、發展、展望、同業及財務風險；未揭露資料逐項標示，不代表取得公司內部資訊。",
+      "完整31頁簡報含圖片已核對；第29–31頁僅Q&A標題與致謝，沒有問答逐字稿。原始問答未核對，不找影片，不將AI摘要當事實。",
+      "季度財報與年報採公司原檔公開鏡像，來源及發布日限制已註明；未宣稱已從公司官網下載相同原檔。",
+      "單項新服務營收、毛利、轉換率及門市回收期未揭露；公司全年營收／EPS財測未找到可用金額，最新可靠法人共識亦未取得。",
+      "年度及本季財報資訊的無併購／重大損失等聲明只適用各自涵蓋期間，不延伸為截至10/13保證不存在；全市場歷史公告覆蓋尚未驗證。"
+    ],
+    "business": {
+      "text": "全國電是臺灣的家電與3C零售通路，主要服務家庭與一般消費者，提供商品諮詢、配送、安裝與售後服務。2026年9月共有318家門市、1,592名員工，也透過商城、APP與會員服務承接交易。\n收入主要來自家電。2026年1–6月個別營收96.73563億元，其中家電占90.31%、資通訊與其他商品占8.77%、修繕及裝置等服務占0.92%；各產品的獲利比例尚未單獨公布。2025全年個別營收188.29095億元，2024全年197.89099億元。\n公司靠商品售價與進貨成本的差額，以及安裝修繕服務賺錢，再支付門市租金、員工、物流等費用。促銷折扣、商品組合、庫存周轉和門市效率會影響最後獲利。年報顯示銷售對象約99%為一般消費者；春節及5–8月空調旺季會影響生意，月營收適合和去年同月比較。",
+      "period": "2025全年、2026H1累計／Q2單季及2026-10法說，逐項標示",
+      "sources": [
+        "6281-oct-presentation",
+        "6281-h1-report",
+        "6281-fy2025-annual",
+        "6281-official-services"
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "earnings": {
+      "text": "上半年收入略減，但毛利改善，最後獲利小幅增加。2026年1–6月個別營收96.73563億元，比去年同期減少1.60%；本期淨利2.24002億元，增加1.48%，每股盈餘（EPS）2.26元。第二季單季（4–6月）營收52.59365億元、本期淨利1.12093億元、EPS1.13元。金額單位為新台幣。\n上半年毛利率20.12%，比去年同期提高0.58個百分點；營業利益2.75743億元、營業利益率2.85%。成本下降的幅度比收入下降大，毛利增加0.25758億元，但營業費用也增加0.19952億元，抵銷部分改善。\n本業以外的收入淨額為0.07441億元，包含利息、租金等收入，扣除以租賃利息為主的財務成本。因此上半年主要靠零售本業帶來獲利。2025全年本期淨利3.66627億元、EPS3.70元，淨利比2024年減少18.11%；收入與毛利減少，費用節省仍不足以完全抵銷。\n2026年6月底資產99.77591億元、負債71.90349億元、權益27.87242億元。現金11.43421億元，另有10.99932億元的流動金融資產。負債包含租賃負債33.29907億元、應付貨款21.31824億元與預收客戶款等合約負債9.32956億元；其中租賃是門市經營的重要支出。\n與2025年底相比，負債增加主要來自應付貨款，租賃負債略降；現金股利3.27271億元高於上半年淨利，影響權益。存貨35.14273億元，比去年同期少1.13127億元，但比2025年底多11.54199億元。\n上半年營業現金流入6.52157億元，去年同期為流出0.62856億元。供應商貨款尚未支付的金額增加11.28543億元，是現金流改善的重要因素。另已支付租賃本金3.83604億元、現金股利3.27271億元；購置設備支出0.63623億元，預付設備款增加0.02348億元。",
+      "period": "2025全年、2026H1累計／Q2單季及2026-10法說，逐項標示",
+      "sources": [
+        "6281-oct-presentation",
+        "6281-h1-report",
+        "6281-fy2025-annual"
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "developments": {
+      "text": "公司發展方向：改善門市購物體驗，把線上商城與會員服務接到門市，並延伸居家服務。\n大型門市：持續拓展Digital City店型，讓顧客能現場體驗家電與居家配置。高雄民族店已在2025年完成500坪升級並重新開幕。鉅亨網具名記者轉述管理層說法，DC門市超過80家，未來希望每年汰換10–15家大坪數門市；這是既有店型調整計畫。單店收入、回收期及未來開幕清單尚未公布。\n會員與線上商城：商城在2022年4月上線，2024年導入會員資料平台、APP及行動支付。2026年10月簡報展示改版商城、APP、LINE推播，讓顧客可購物、使用點數、查保固及報修。這些服務已可使用，目標是增加回購與門市來客；線上收入與個別貢獻尚未單列。\nAI工具：年報表示2025年已導入商品推薦與會員分析工具，以及Google Workspace與Gemini Pro，幫助員工銷售和精準行銷。鉅亨網報導公司持續導入生成式AI；用途是改善既有零售流程，效率與獲利改善金額尚未公布。\n居家服務：提供場勘、配送安裝、清洗保養，並規畫全室裝潢、廚衛與生活用品的延伸服務。上半年修繕及裝置等整類收入0.88690億元，單項裝潢案件量與收入尚未揭露。\n會員資料保護：年報規畫2026年啟動ISO27001資訊安全管理制度的導入與驗證，完成進度仍待公司公告。",
+      "period": "2025全年、2026H1累計／Q2單季及2026-10法說，逐項標示",
+      "sources": [
+        "6281-oct-presentation",
+        "6281-fy2025-annual",
+        "6281-oct-reporter",
+        "6281-official-services"
+      ],
+      "projects": [
+        {
+          "project_id": "6281-dc-store-upgrade",
+          "name": "DC門市店格升级",
+          "type": "existing_business_expansion",
+          "use_and_customers": "家庭家電換購、裝修與體驗",
+          "status": "既有店型持續拓展；數量計畫以具名媒體轉述標示",
+          "commercial_timing": "高雄民族店2025已重開；其他門市未公開固定清單",
+          "revenue_contribution": "未揭露單店／專案貢獻",
+          "sources": [
+            "6281-fy2025-annual",
+            "6281-oct-presentation",
+            "6281-oct-reporter"
+          ]
+        },
+        {
+          "project_id": "6281-omo-crm",
+          "name": "OMO會員商城APP及CDP",
+          "type": "existing_business_process_upgrade",
+          "use_and_customers": "零售會員、支付、保固、報修與回購",
+          "status": "已上線並持續改版",
+          "commercial_timing": "商城2022-04；CDP／APP2024",
+          "revenue_contribution": "獨立貢獻未揭露",
+          "sources": [
+            "6281-fy2025-annual",
+            "6281-oct-presentation"
+          ]
+        },
+        {
+          "project_id": "6281-ai-sales-assistant",
+          "name": "AI銷售與會員分析",
+          "type": "existing_business_process_upgrade",
+          "use_and_customers": "門市銷售推薦、會員精準行銷",
+          "status": "年報稱2025已導入，後續持續推進",
+          "commercial_timing": "部分工具2025已使用，全部範圍完成時點未揭露",
+          "revenue_contribution": "未揭露，不視為對外AI收入",
+          "sources": [
+            "6281-fy2025-annual",
+            "6281-oct-reporter"
+          ]
+        },
+        {
+          "project_id": "6281-home-services",
+          "name": "居家裝潢與服務品類延伸",
+          "type": "new_service",
+          "use_and_customers": "家庭居家、廚衛、保養與場勘",
+          "status": "年報列示與部分服務已公開",
+          "commercial_timing": "部分服務已提供，全室裝潢最新交付節點未揭露",
+          "revenue_contribution": "H1整類修繕裝置0.88690億元，非單項貢獻",
+          "sources": [
+            "6281-fy2025-annual",
+            "6281-h1-report",
+            "6281-official-services"
+          ]
+        },
+        {
+          "project_id": "6281-iso27001",
+          "name": "ISO27001資安建置",
+          "type": "internal_capability",
+          "use_and_customers": "會員個資與企業資料保護",
+          "status": "年報計畫導入，未找到完成公告",
+          "commercial_timing": "2026啟動計畫，不宣稱已認證",
+          "revenue_contribution": "不適用獨立收入",
+          "sources": [
+            "6281-fy2025-annual"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "transition": {
+      "text": "公司希望達到的目標：用更好的門市體驗、會員服務與線上整合，增加回購，讓商品毛利能支付門市的固定費用。\n近期生意：2026年9月營收比去年同月增加10.14%；仍需搭配全年累計收入、毛利與費用，觀察回升能否持續。鉅亨網具名記者轉述管理層對內需市場的看法：房市信用管制與地緣風險，讓復甦時程仍不確定。目前沒有可核對的公司全年營收或EPS金額預估。\n後續重點：家電換購需求、房屋成交、門市調整效率及會員回購。租賃與庫存也很重要，現金流要一起看付給供應商的時間。2025年EPS3.70元，低於2021年的6.05元，配息與獲利成長需要分開觀察。\n比較哪些公司：研究上優先比較燦坤（2430），同樣經營臺灣實體3C家電零售、安裝與會員服務。順發（6154，上櫃）資訊商品比重較高；集雅社（2937，上櫃）則偏家電與百貨通路，可補充對照不同店型。官方電子通路分類也包含零組件批發商，仍應先挑業務模式相近的公司。上櫃同業估值目前尚未串接。\n事件與資料範圍：2025年報刊印時沒有併購計畫，上半年財報未列重大災害損失、重大期後事項或轉投資；之後的新事件依公告更新。本場簡報的Q&A只有標題與致謝，相關管理層說法採上述具名記者報導，原始回答仍未取得。",
+      "period": "2025全年、2026H1累計／Q2單季及2026-10法說，逐項標示",
+      "sources": [
+        "6281-oct-presentation",
+        "6281-h1-report",
+        "6281-fy2025-annual",
+        "6281-oct-reporter",
+        "6281-website-baseline"
+      ],
+      "peer_candidates": [
+        {
+          "company_code": "2430",
+          "market": "TWSE",
+          "reason": "實體3C家電與安裝會員通路相近"
+        },
+        {
+          "company_code": "6154",
+          "market": "TPEx",
+          "reason": "3C及家電零售但資訊比重不同"
+        },
+        {
+          "company_code": "2937",
+          "market": "TPEx",
+          "reason": "家電百貨通路補充對照、店型不同"
+        }
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "meeting_research": {
+      "event_date": "2026-10-12",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "completion": "全國電整家公司既定公開查找與10/12整場會議可取得資料",
+      "reviewed_at": "2026-10-13",
+      "original_qa_verified": false,
+      "batch_id": "research-20261013-6281-v1"
+    },
+    "lookup_completion": {
+      "status": "completed_lookup_with_disclosed_gaps",
+      "completed_at": "2026-10-13T13:38:42.379295+08:00",
+      "scope": "全國電整家公司既定公開查找與10/12整場會議可取得資料",
+      "batch_id": "research-20261013-6281-v1"
+    }
   }
 }

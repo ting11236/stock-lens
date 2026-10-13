@@ -76,3 +76,10 @@ test('compact search index finds development keywords before company details are
  const a=load();a.run("research.profiles={'1101.TW':{status:'overview',sources:{},limitations:[],search_entries:[{label:'發展方向',text:'正在發展矽光子'}]}}");
  assert.equal(a.run("stockSearchScore({symbol:'1101.TW',name:'甲',industry:'水泥'},'矽光子')"),1);
 });
+
+test('individual statements show reported cumulative profit without filling parent or TTM profit',()=>{
+ const a=load();a.context.o={name:'全國電',business:'零售',direction:'門市升級',profit_mechanism:'商品毛利',source_reviewed_at:'2026-10-13',imported_at:'2026-10-13',status:'已整理',screening:'個別',urls:[],events:[],outlooks:[],financial:{basis:'個別營業收入',rolling:{period:'2026-Q2',start_period:'2025-Q3',quarters:[],ttms:186.72,ttm_eps:3.73,ttm_parent_profit:null},reported_profit:{value:2.24002,basis:'個別本期淨利',period_start:'2026-01-01',period_end:'2026-06-30'}}};
+ const html=a.run('overviewHtml(o)');assert.match(html,/公司最後獲利多少？（本期淨利）/);assert.doesNotMatch(html,/歸屬母公司業主淨利/);
+ const quick=a.run("quickCompanySummary({symbol:'6281.TW',name:'全國電'},{overview:o})");assert.match(quick,/2026 年 1–6 月，個別本期淨利為 2.24 億元/);assert.match(quick,/最近12個月淨利仍待補齊/);assert.equal(a.run('o.financial.rolling.ttm_parent_profit'),null);
+ assert.equal(a.run("financialProfitLabel('合併營業收入',true)"),'歸屬母公司業主淨損');assert.equal(a.run("financialProfitLabel('個別營業收入',true)"),'本期淨損');
+});
