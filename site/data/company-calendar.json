@@ -1,20 +1,9 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "companies": {
     "1101.TW": {
       "next_conference": null,
-      "next_shareholders": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "已公告股東會日期",
-        "end_date": "2026-10-13",
-        "kind": "股東臨時會",
-        "location": "",
-        "name": "台泥",
-        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-        "symbol": "1101.TW",
-        "time": ""
-      },
+      "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "1102.TW": {
@@ -175,18 +164,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1303.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加摩根大通舉辦之法人說明會，說明本公司之營運概況",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "南亞",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "1303.TW",
-        "time": "15:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -790,18 +768,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1598.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加115年10月13日至114年10月14日由寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "香港Mandarin Oriental Hotel",
-        "name": "岱宇",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "1598.TW",
-        "time": "09:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -951,18 +918,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1725.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "公司簡介與營運狀況說明。",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "證交所101辦公大樓一樓資訊展示中心(台北市信義路五段七號)",
-        "name": "元禎",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "1725.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1498,15 +1454,15 @@
     "2308.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-10-05",
-        "description": "本公司受Jefferies證券邀請，將於上述時間地點，向法人投資者說明本公司115年第2季之財務報告相關資訊。",
-        "end_date": "2026-10-13",
+        "date": "2026-11-03",
+        "description": "本公司受大和國泰證券邀請，將於上述時間地點，向法人投資者說明本公司115年第2季之財務報告相關資訊。",
+        "end_date": "2026-11-07",
         "kind": "法說會",
-        "location": "美國",
+        "location": "東京",
         "name": "台達電",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "2308.TW",
-        "time": "21:00"
+        "time": "08:00"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -1557,18 +1513,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2328.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
-        "name": "廣宇",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2328.TW",
-        "time": "09:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1696,18 +1641,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2356.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "2026/9/11受邀參加CLSA; 2026/9/16受邀參加KeyBanc; 2026/10/13受邀參加SIG線上投資人說明會",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "線上說明會",
-        "name": "英業達",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2356.TW",
-        "time": "15:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1938,15 +1872,15 @@
     "2412.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-10-13",
-        "description": "會議由國票證券主辦",
-        "end_date": "2026-10-13",
+        "date": "2026-11-04",
+        "description": "115年第3季營運成果資料於法人說明會當日14:30後至https://www.cht.com.tw/chtir下載",
+        "end_date": "2026-11-04",
         "kind": "法說會",
-        "location": "國票證券(台北市松山區南京東路五段188號15樓)",
+        "location": "電話會議",
         "name": "中華電",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "2412.TW",
-        "time": "12:30"
+        "time": "15:00"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -3744,18 +3678,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4438.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加寬量國際主辦之「20th QIC CEO Week」 ，向投資人說明本公司之營運及財務概況。",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "香港文華東方酒店 (地址: 5 Connaught Road, Central, Hong Kong)",
-        "name": "廣越",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "4438.TW",
-        "time": "09:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3946,18 +3869,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4766.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加由寬量國際舉辦之法人說明會「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "香港Mandarin Oriental Hotel(5 Connaught Road, Central, Hong Kong)",
-        "name": "南寶",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "4766.TW",
-        "time": "09:00"
-      },
+      "next_conference": null,
       "next_shareholders": {
         "cancelled": false,
         "date": "2026-11-09",
@@ -5425,18 +5337,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "7740.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
-        "name": "熙特爾-創",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "7740.TW",
-        "time": "09:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5518,18 +5419,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "7799.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加115年10月13日由寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
-        "end_date": "2026-10-13",
-        "kind": "法說會",
-        "location": "香港Mandarin Oriental Hotel",
-        "name": "禾榮科",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "7799.TW",
-        "time": "09:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -39614,37 +39504,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-14",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-14",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-14",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-14",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-14",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-13",
+      "checked_at": "2026-10-14",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -55444,7 +55334,187 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9938.TW",
       "time": "173023"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "已公告股東會日期",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "台泥",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1101.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加摩根大通舉辦之法人說明會，說明本公司之營運概況",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "南亞",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1303.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加115年10月13日至114年10月14日由寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "香港Mandarin Oriental Hotel",
+      "name": "岱宇",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1598.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "公司簡介與營運狀況說明。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "證交所101辦公大樓一樓資訊展示中心(台北市信義路五段七號)",
+      "name": "元禎",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1725.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-05",
+      "description": "本公司受Jefferies證券邀請，將於上述時間地點，向法人投資者說明本公司115年第2季之財務報告相關資訊。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "美國",
+      "name": "台達電",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2308.TW",
+      "time": "21:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
+      "name": "廣宇",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2328.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "2026/9/11受邀參加CLSA; 2026/9/16受邀參加KeyBanc; 2026/10/13受邀參加SIG線上投資人說明會",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "線上說明會",
+      "name": "英業達",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2356.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "會議由國票證券主辦",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "國票證券(台北市松山區南京東路五段188號15樓)",
+      "name": "中華電",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2412.TW",
+      "time": "12:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加寬量國際主辦之「20th QIC CEO Week」 ，向投資人說明本公司之營運及財務概況。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "香港文華東方酒店 (地址: 5 Connaught Road, Central, Hong Kong)",
+      "name": "廣越",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4438.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加由寬量國際舉辦之法人說明會「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "香港Mandarin Oriental Hotel(5 Connaught Road, Central, Hong Kong)",
+      "name": "南寶",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4766.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
+      "name": "熙特爾-創",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7740.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加115年10月13日由寬量國際主辦之「20th QIC CEO Week」，說明本公司之營運概況、財務及業務相關資訊。",
+      "due_date": "2026-10-14",
+      "end_date": "2026-10-13",
+      "kind": "法說會",
+      "location": "香港Mandarin Oriental Hotel",
+      "name": "禾榮科",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7799.TW",
+      "time": "09:00"
     }
   ],
-  "updated_at": "2026-10-13T21:42:13+08:00"
+  "updated_at": "2026-10-14T01:39:41+08:00"
 }
