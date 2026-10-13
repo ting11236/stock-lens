@@ -45,6 +45,21 @@
       "publication_commit": "cc88db7a3fc1d5b43d24ec388c8968a172dc3e92",
       "workflow_run_id": 38257424020,
       "verified_at": "2026-10-12T13:45:14.381Z"
+    },
+    {
+      "symbol": "6281.TW",
+      "name": "全國電",
+      "kind": "法說會",
+      "meeting_date": "2026-10-12",
+      "summary_updated_at": "2026-10-13",
+      "batch_id": "research-20261013-6281-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "cd368a95ce2f1536db93745e44ef39b6148a6bbe",
+      "workflow_run_id": 38353361223,
+      "verified_at": "2026-10-13T05:56:03.466Z"
     }
   ]
 }
