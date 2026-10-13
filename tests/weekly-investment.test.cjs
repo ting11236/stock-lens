@@ -106,7 +106,7 @@ test("overview reference is concise without allocation details",()=>{const html=
 
 test("daily price refresh updates reminders without refreshing weekly research",()=>{const sample=JSON.parse(JSON.stringify(r));const c=sample.companies.find(c=>c.code==="2330");c.price=2501;c.priceAsOf="2026-10-13";const html=render(sample);assert.match(html,/股價現況：10\/13收盤2,501/);assert.doesNotMatch(html,/股價現況：10\/7收盤2,585/);const frozen=JSON.parse(fs.readFileSync(require("node:path").join(__dirname,"../site/data/weekly-investment/2026-W41-v3.json"),"utf8"));assert.equal(r.reviewedAt,frozen.reviewedAt);assert.deepEqual(r.companies[0].prices,frozen.companies[0].prices);});
 
-const current=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment.json'),'utf8'));
+const current=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment/2026-W42-v2.json'),'utf8'));
 test('W42 weekly review preserves frozen W41, distinct research and price dates',()=>{
  assert.equal(current.week_id,'2026-W42');assert.equal(current.update_id,'2026-W42-v2');
  assert.equal(current.previous_update_id,'2026-W41-v3');assert.equal(current.priceAsOf,'2026-10-12');
@@ -120,3 +120,5 @@ test('W42 weekly review preserves frozen W41, distinct research and price dates'
  const ledger=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
  assert.equal(ledger.share_mode,'fractional_research');assert.equal(ledger.status,'running');assert.equal(ledger.cash,10000);assert.equal(ledger.total_return_pct,0);assert.equal(ledger.trades.length,0);assert.equal(ledger.elapsed_days,1);
 });
+
+test('daily official refresh preserves frozen thesis and entry conditions',()=>{const daily=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment.json'),'utf8'));assert.equal(daily.price_update_id,'2026-W42-price-20261013');assert.equal(daily.reviewedAt,current.reviewedAt);for(const c of daily.companies){const old=current.companies.find(x=>x.code===c.code);assert.equal(c.priceAsOf,'2026-10-13');assert.equal(c.reviewedAt,old.reviewedAt);assert.deepEqual(c.building_plan,old.building_plan);assert.equal(c.buy_signal,old.buy_signal);assert.deepEqual(c.scores,old.scores);const h=c.technical.price_history;assert.equal(h.at(-1).close,c.price);const avg=h.slice(-21,-1).reduce((s,x)=>s+x.volume,0)/20;assert.equal(c.technical.average_volume_20,Math.round(avg));assert.equal(c.daily_signal_review.technical_confirmation,false);}assert.match(render(daily),/最新交易資料日期：10月13日/);});
