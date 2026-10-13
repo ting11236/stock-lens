@@ -108,12 +108,14 @@ test("daily price refresh updates reminders without refreshing weekly research",
 
 const current=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment.json'),'utf8'));
 test('W42 weekly review preserves frozen W41, distinct research and price dates',()=>{
- assert.equal(current.week_id,'2026-W42');assert.equal(current.update_id,'2026-W42-v1');
+ assert.equal(current.week_id,'2026-W42');assert.equal(current.update_id,'2026-W42-v2');
  assert.equal(current.previous_update_id,'2026-W41-v3');assert.equal(current.priceAsOf,'2026-10-12');
  assert.equal(current.screening.universe_count,1089);assert.equal(current.screening.priceAsOf,'2026-10-08');
  assert.equal(current.changes.added.length,0);assert.deepEqual(current.top_wait,['2330','2345','3017']);
  for(const c of current.companies){assert.equal(c.priceAsOf,'2026-10-12');assert.equal(c.scores.confidence,r.companies.find(x=>x.code===c.code).scores.confidence);assert.equal(c.exit_plan.tranches.length,0);assert.equal(c.daily_signal_review.status,'waiting');}
  assert.equal(current.companies.find(c=>c.code==='3711').prices.breakout,null);
+ for(const c of current.companies){const v=c.valuation;if(v.consensus)assert.equal(v.forward_pe,Math.round(c.price/v.consensus.median*100)/100);}
+ assert.equal(current.title,'AI研究報告｜台股投資建議');
  const html=render(current);assert.match(html,/最新交易資料日期：10月12日/);assert.match(html,/2,375–2,415/);assert.doesNotMatch(html,/突破 —/);
  const ledger=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-backtest.json'),'utf8'));
  assert.equal(ledger.share_mode,'fractional_research');assert.equal(ledger.status,'running');assert.equal(ledger.cash,10000);assert.equal(ledger.total_return_pct,0);assert.equal(ledger.trades.length,0);assert.equal(ledger.elapsed_days,1);

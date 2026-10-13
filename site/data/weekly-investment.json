@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
   "task_id": "weekly-ai-tw-investment",
-  "update_id": "2026-W42-v1",
+  "update_id": "2026-W42-v2",
   "week_id": "2026-W42",
-  "title": "每週 AI 產業與台股投資分析",
-  "version": 1,
+  "title": "AI研究報告｜台股投資建議",
+  "version": 2,
   "createdAt": "2026-10-13T12:11:52+08:00",
   "reviewedAt": "2026-10-13T12:11:52+08:00",
   "priceAsOf": "2026-10-12",
@@ -2879,9 +2879,9 @@
         "official_pe": 31.66,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
-        "forward_pe": 23.95,
+        "forward_pe": 24.64,
         "forward_year": 2026,
-        "forward_next_year_pe": 17.5,
+        "forward_next_year_pe": 18.01,
         "consensus": {
           "provider": "FactSet（鉅亨具名轉載）",
           "published_at": "2026-09-18",
@@ -2908,7 +2908,9 @@
         "classification": "合理",
         "assumption_type": "research_inference",
         "official_pb": 16.31,
-        "priceAsOf": "2026-10-12"
+        "priceAsOf": "2026-10-12",
+        "forward_priceAsOf": "2026-10-12",
+        "forward_note": "以10/12收盤除以原發布日期共識EPS；不是新共識或已確認無下修。"
       },
       "position": {
         "role": "Satellite",
@@ -7707,9 +7709,9 @@
         "official_pe": 47.25,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
-        "forward_pe": 32.82,
+        "forward_pe": 32.29,
         "forward_year": 2026,
-        "forward_next_year_pe": 21.93,
+        "forward_next_year_pe": 21.58,
         "consensus": {
           "provider": "FactSet（鉅亨具名轉載）",
           "published_at": "2026-09-22",
@@ -7736,7 +7738,9 @@
         "classification": "高",
         "assumption_type": "research_inference",
         "official_pb": 25.22,
-        "priceAsOf": "2026-10-12"
+        "priceAsOf": "2026-10-12",
+        "forward_priceAsOf": "2026-10-12",
+        "forward_note": "以10/12收盤除以原發布日期共識EPS；不是新共識或已確認無下修。"
       },
       "position": {
         "role": "Satellite",
@@ -10598,5 +10602,6 @@
     "earliest_confirmation": "after_actual_publication",
     "historical_signals_replayed": false,
     "reason": "W41有效期已過；W42未發布前不補填10/12買訊。"
-  }
+  },
+  "corrects_update_id": "2026-W42-v1"
 }
