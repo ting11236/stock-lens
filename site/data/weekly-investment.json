@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "task_id": "weekly-ai-tw-investment",
-  "update_id": "2026-W42-v2",
+  "update_id": "2026-W42-v3",
   "week_id": "2026-W42",
   "title": "AI研究報告｜台股投資建議",
-  "version": 2,
-  "createdAt": "2026-10-13T12:11:52+08:00",
+  "version": 3,
+  "createdAt": "2026-10-15T23:50:21+08:00",
   "reviewedAt": "2026-10-13T12:11:52+08:00",
-  "priceAsOf": "2026-10-13",
+  "priceAsOf": "2026-10-15",
   "status": "新版方法遷移完成；研究缺漏明示",
   "research_status": "review_complete_with_disclosed_gaps",
   "website_validation_status": "validated_before_publication",
@@ -22,8 +22,7 @@
   "top_layout": [],
   "top_wait": [
     "2330",
-    "2345",
-    "3017"
+    "2345"
   ],
   "top_no_chase": [
     "2383",
@@ -34,15 +33,15 @@
     "legacy": "布局0檔：訊號未完整成立，不為湊Top3推薦。等待／不追高為研究優先順序，不是報酬排名。奇鋐另列等待回測。",
     "research": "三檔20日動能落後H1量化改善，僅新研究名單；不等於已證實市場低估或不熱門。",
     "layout": "目前0檔完整買訊；提前布局候選不等於立即買進。",
-    "top_wait": "台積電、智邦、奇鋐仍需完整價格與營運確認；廣達移至等待觀察。"
+    "top_wait": "台積電與智邦等待完整確認；奇鋐跌破原3100支撐，轉等待觀察並停止加碼。"
   },
   "only_one": {
     "code": "2330",
     "reasons": [
       "台積電是同時服務GPU、ASIC與CPU需求的製程平台，可降低單一架構勝負影響。",
-      "Q2毛利率67.72%、營益率60.34%，公司指引與價量資料較完整。",
-      "10/13收盤2490，自行最近四季本益比28.86倍；新增部位等待2480–2515或2375–2415對應完整條件成立，未確認前保留資金。",
-      "2奈米與海外折舊使EPS成長仍有風險；10/15法說若需求或利潤指引不符，需要重估。"
+      "Q3 EPS29.43、毛利率66.4%落在原公司指引；Q4營收與利潤指引支持先進製程需求，但仍是預估。",
+      "10/15收2440，近似TTM EPS98.27，自行本益比24.83倍；原買點不隨股價搬動，須等待完整止穩與量能條件。",
+      "2奈米爬坡與海外折舊仍影響毛利，後續指引若落空需重新評估。"
     ]
   },
   "alerts": [
@@ -50,22 +49,22 @@
       "code": "2330",
       "price": 2515,
       "direction": "回檔觀察",
-      "reason": "收盤2490進入2480–2515觀察區，但成交量高於均量且收低，尚未符合量縮、止穩及營運確認；不買進。",
-      "asOf": "2026-10-13"
+      "reason": "10/15收2440低於2480–2515第一觀察區、尚未到2375–2415理想區，成交量高於均量；法說支持需求，但完整價量未成立，不買進。",
+      "asOf": "2026-10-15"
     },
     {
       "code": "2382",
       "price": 330,
       "direction": "重新站回",
-      "reason": "收盤323仍低於330；原支撐買點維持撤銷，停止加碼。",
-      "asOf": "2026-10-13"
+      "reason": "10/15收316.5仍低於330，舊支撐買點繼續撤銷，停止加碼。",
+      "asOf": "2026-10-15"
     },
     {
       "code": "2345",
       "price": 2145,
       "direction": "突破觀察",
-      "reason": "盤中觸2145但收盤2040，未確認突破；不買進。",
-      "asOf": "2026-10-13"
+      "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
+      "asOf": "2026-10-15"
     }
   ],
   "industries": [
@@ -86,7 +85,7 @@
         "CoWoS"
       ],
       "growth_1to3y": "未來1–3年看2奈米爬坡、AI與CPU需求、先進封裝供給；海外擴張會稀釋利潤率，EPS動能取決於產能利用率與定價能否抵銷。",
-      "price_in": "10/13收盤2490；最近四季本益比28.86。具平台及製程壁壘，以24–30倍已實現TTM作保守研究帶；非歷史分位或目標價，若常態獲利下修需重估。；10/13收盤740；最近四季本益比53.12。25–40倍TTM已包含先進封裝溢價；近期最低592仍約42.5倍，無可驗證支撐落入此帶。",
+      "price_in": "10/15收盤2440；最近四季本益比24.83。具平台及製程壁壘，以24–30倍已實現TTM作保守研究帶；非歷史分位或目標價，若常態獲利下修需重估。；10/15收盤673；最近四季本益比48.31。25–40倍TTM已包含先進封裝溢價；近期最低592仍約42.5倍，無可驗證支撐落入此帶。",
       "evidence_gap": "供給／ASP、客戶CapEx與技術價值量仍依既有逐股來源；未取得數值則不預估量產收入。",
       "reviewedAt": "2026-10-13T12:11:52+08:00",
       "weekly_assessment": "本週維持排序：以已核公司競爭力、需求與獲利轉換證據比較；新品發表不直接升為買進建議。"
@@ -108,7 +107,7 @@
         "ASIC"
       ],
       "growth_1to3y": "800G主流出貨與1.6T、光交換架構升級是1–3年方向；CPO目前只列技術選項，未驗證量產／營收貢獻不納入EPS。",
-      "price_in": "10/13收盤2040；最近四季本益比32.05。25–35倍TTM反映網路成長但扣除客戶集中；另用2026共識20–26倍交叉檢查，不使用舊目標價作支撐。",
+      "price_in": "10/15收盤1950；最近四季本益比30.64。25–35倍TTM反映網路成長但扣除客戶集中；另用2026共識20–26倍交叉檢查，不使用舊目標價作支撐。",
       "evidence_gap": "供給／ASP、客戶CapEx與技術價值量仍依既有逐股來源；未取得數值則不預估量產收入。",
       "reviewedAt": "2026-10-13T12:11:52+08:00",
       "weekly_assessment": "本週維持排序：以已核公司競爭力、需求與獲利轉換證據比較；新品發表不直接升為買進建議。"
@@ -128,7 +127,7 @@
         "800V HVDC"
       ],
       "growth_1to3y": "1–3年追蹤高功率電源、HVDC與液冷導入，以及設備交付能否變成持續營收；自動化與交通部門可能稀釋AI利潤。",
-      "price_in": "10/13收盤1775；最近四季本益比56.49。品質及電力瓶頸可給成長溢價，但35–50倍TTM已很高；此為研究風險預算假設，不是同業統計。",
+      "price_in": "10/15收盤1630；最近四季本益比51.88。品質及電力瓶頸可給成長溢價，但35–50倍TTM已很高；此為研究風險預算假設，不是同業統計。",
       "evidence_gap": "供給／ASP、客戶CapEx與技術價值量仍依既有逐股來源；未取得數值則不預估量產收入。",
       "reviewedAt": "2026-10-13T12:11:52+08:00",
       "weekly_assessment": "本週維持排序：以已核公司競爭力、需求與獲利轉換證據比較；新品發表不直接升為買進建議。"
@@ -148,7 +147,7 @@
         "PCB"
       ],
       "growth_1to3y": "1–3年看AI基材升級、ASP／組合與新廠爬坡；公司規劃產能不是已交付收入，需驗證認證、良率及利用率。",
-      "price_in": "10/13收盤5545；最近四季本益比86.51。45–65倍TTM已給高成長溢價，但20日低點4635約72倍仍超上緣；未取得可核共識，最佳入場區不硬填。",
+      "price_in": "10/15收盤5120；最近四季本益比79.88。45–65倍TTM已給高成長溢價，但20日低點4635約72倍仍超上緣；未取得可核共識，最佳入場區不硬填。",
       "evidence_gap": "供給／ASP、客戶CapEx與技術價值量仍依既有逐股來源；未取得數值則不預估量產收入。",
       "reviewedAt": "2026-10-13T12:11:52+08:00",
       "weekly_assessment": "本週維持排序：以已核公司競爭力、需求與獲利轉換證據比較；新品發表不直接升為買進建議。"
@@ -168,7 +167,7 @@
         "AI散熱"
       ],
       "growth_1to3y": "1–3年看高功率GPU冷板、液冷模組與機構整合；供貨份額、客戶驗證與單位內容價值會影響EPS，不假設所有新平台都維持原市占。",
-      "price_in": "10/13收盤3280；最近四季本益比43.66。35–45倍TTM對高成長散熱設定風險帶；另用2026共識28–34倍交叉檢查，3100–3300落入兩者交集。",
+      "price_in": "10/15收盤3085；最近四季本益比41.06。35–45倍TTM對高成長散熱設定風險帶；另用2026共識28–34倍交叉檢查，3100–3300落入兩者交集。",
       "evidence_gap": "供給／ASP、客戶CapEx與技術價值量仍依既有逐股來源；未取得數值則不預估量產收入。",
       "reviewedAt": "2026-10-13T12:11:52+08:00",
       "weekly_assessment": "本週維持排序：以已核公司競爭力、需求與獲利轉換證據比較；新品發表不直接升為買進建議。"
@@ -272,63 +271,51 @@
     "fundamentals": "基本面為thesis失效判斷主軸；技術警示用於戰術部位管理，不固定套-7%／-10%。"
   },
   "changes": {
-    "baseline": "2026-W41-v3 → 2026-W42-v1；沿用相同五項評分方法，可比較。",
+    "baseline": [],
     "added": [],
     "removed": [],
     "rating_changes": [],
     "entry_changes": [
       {
-        "code": "3711",
-        "reason": "撤銷過時759突破參考；盤中高點765，估值仍高，不機械建立新買價。",
-        "from_asOf": "2026-10-07",
-        "to_asOf": "2026-10-12"
+        "code": "3017",
+        "reason": "10/15收3085跌破原3100，取消理想支撐區並暫停建倉；非無條件出場。"
       }
     ],
     "industry_changes": [],
     "thesis_changes": [
       {
         "code": "2330",
-        "reason": "9月營收公告補核，強化需求持續成長依據；未以營收推估Q3 EPS。"
-      },
-      {
-        "code": "6669",
-        "reason": "新增OCP平台、散熱與CPO展示；認證／量產訂單及可比EPS仍不足，維持觀察。"
+        "reason": "Q3實績及Q4指引更新，需求理由延續；五項評分維持不變。"
       }
     ],
-    "method_change": "本週沿用2026-10-07-fund-research-v1；重新檢視仍不足以支持更高買點評分，不為週更機械升降。",
-    "priority_changes": [
-      {
-        "from": "2382",
-        "to": "3017",
-        "reason": "廣達支撐失守且建倉計畫暫停；奇鋐保有可核價格與獲利情境，列優先等待但未確認買進。"
-      }
-    ]
+    "method_change": [],
+    "priority_changes": []
   },
   "companies": [
     {
       "code": "2330",
       "name": "台積電",
       "industry": "先進製程／CoWoS／ASIC與GPU",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
-      "financialPeriod": "2026Q2單季",
-      "forecastAsOf": "2026-07-16",
-      "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 2490.0,
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
+      "financialPeriod": "2026Q3單季",
+      "forecastAsOf": "2026-10-15",
+      "reviewedAt": "2026-10-15T23:50:21+08:00",
+      "price": 2440.0,
       "technical": {
         "ma": {
-          "5": 2550.0,
-          "10": 2529.0,
-          "20": 2482.25,
-          "60": 2415.67
+          "5": 2502.0,
+          "10": 2526.5,
+          "20": 2489.25,
+          "60": 2421.0
         },
-        "volume": 40796261.0,
-        "average_volume_20": 22099153,
-        "volume_ratio": 1.85,
+        "volume": 58486711.0,
+        "average_volume_20": 23496205,
+        "volume_ratio": 2.49,
         "low20": 2375.0,
         "high20": 2590.0,
-        "return20": 1.63,
-        "ma20_deviation": 0.31,
+        "return20": 2.52,
+        "ma20_deviation": -1.98,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -887,23 +874,45 @@
             "low": 2490.0,
             "close": 2490.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 28111940.0,
+            "open": 2505.0,
+            "high": 2535.0,
+            "low": 2490.0,
+            "close": 2490.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 58486711.0,
+            "open": 2420.0,
+            "high": 2450.0,
+            "low": 2420.0,
+            "close": 2440.0,
+            "note": ""
           }
         ],
         "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
       },
       "financial": {
-        "period": "2026Q2單季",
-        "eps": 27.25,
-        "gross_margin": 67.72,
-        "operating_margin": 60.34,
-        "revenue_twd_thousand": 1270380250.0,
-        "eps_basis": "2026H1累計EPS − 2026Q1累計EPS；四捨五入可能差0.01元",
-        "ttm_eps": 86.28,
-        "ttm_period": "2025Q3–2026Q2",
-        "ttm_formula": "2025全年 + 2026H1 − 2025H1",
+        "period": "2026Q3單季",
+        "eps": 29.43,
+        "gross_margin": 66.4,
+        "operating_margin": 58.7,
+        "revenue_twd_thousand": 1494240000,
+        "eps_basis": "公司10/15公布之合併單季稀釋EPS",
+        "ttm_eps": 98.27,
+        "ttm_period": "2025Q4–2026Q3",
+        "ttm_formula": "原2025Q3–2026Q2 EPS合計86.28 − 公司3Q25稀釋EPS17.44 + 3Q26稀釋EPS29.43；近似四季合計，四捨五入可能有差異",
         "h1_eps": 49.33,
         "h1_eps_growth": 68.3,
-        "eps_comparability_note": "本次以MOPS可比累計重算；後續重編需再核對。"
+        "eps_comparability_note": "公司簡報列3Q25／2Q26／3Q26稀釋EPS；非2026全年預估。",
+        "cfo_twd_billion": 919.77,
+        "capex_twd_billion": 443.21,
+        "fcf_twd_billion": 476.56,
+        "fcf_formula": "2026Q3 CFO919.77 − CapEx443.21，單位十億元新台幣；公司定義，非TTM。"
       },
       "monthly": {
         "period": "2026-09",
@@ -915,7 +924,7 @@
         "latest_missing_reason": null
       },
       "valuation": {
-        "ttm_pe": 28.86,
+        "ttm_pe": 24.83,
         "official_pe": 29.96,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -929,14 +938,14 @@
           30
         ],
         "reasonable_ttm_price_range": [
-          2070.72,
-          2588.4
+          2358.48,
+          2948.1
         ],
         "assumption": "具平台及製程壁壘，以24–30倍已實現TTM作保守研究帶；非歷史分位或目標價，若常態獲利下修需重估。",
         "classification": "合理",
         "assumption_type": "research_inference",
         "official_pb": 10.42,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Core",
@@ -955,9 +964,9 @@
         "confidence": 7
       },
       "thesis": "成立。先進製程與封裝共同受益，但高獲利不能線性外推。",
-      "growth_1to3y": "未來1–3年看2奈米爬坡、AI與CPU需求、先進封裝供給；海外擴張會稀釋利潤率，EPS動能取決於產能利用率與定價能否抵銷。",
+      "growth_1to3y": "未來1–3年看2奈米爬坡、AI與CPU需求、先進封裝供給；海外擴張會稀釋利潤率，EPS動能取決於產能利用率與定價能否抵銷。 10/15公司公布2奈米占Q3晶圓營收8%，Q4展望仍由先進製程需求支持；指引是公司預估，不是已實現訂單。",
       "market_expectations": "市場需要的不只是營收成長，而是2奈米量產後仍守住利潤率；ASIC與GPU競爭不必然傷害代工平台需求。",
-      "price_in": "10/13收盤2490；最近四季本益比28.86。具平台及製程壁壘，以24–30倍已實現TTM作保守研究帶；非歷史分位或目標價，若常態獲利下修需重估。",
+      "price_in": "10/15收盤2440；最近四季本益比24.83。具平台及製程壁壘，以24–30倍已實現TTM作保守研究帶；非歷史分位或目標價，若常態獲利下修需重估。",
       "holding_strategy": "已有持股可續抱；股價在2375–2415連兩日低點不跌破2375、第二天收高且量縮，並確認公司營運條件後，可以建立第一筆，投入目標金額25%。後續2480–2515守住、2555守住及2595突破，各筆另核量價及營運條件，未成立保留資金。",
       "risk": "海外廠成本、2奈米初期折舊、匯率、地緣風險及客戶CAPEX循環。",
       "thesis_failure": "公司下修需求／資本計畫並伴隨利用率轉弱；毛利率連續2季明顯低於公司指引且不是已解釋的匯率或新廠爬坡，先進製程／封裝競爭地位受損。",
@@ -971,7 +980,7 @@
           2415
         ],
         "breakout": 2595,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "第一關注取近期均線／低點；最佳區取支撐與研究估值帶的交集；突破價為20日最高價上一個有效價格跳動。",
@@ -1009,7 +1018,7 @@
         "method": "核心長期4批，各25%"
       },
       "buy_signal": "第一關注2480–2515；回測量≤此前20日均量0.8倍（本版約17,680,505股），低點連2日不破，收盤重站2555。右側收盤達到或高於2595，量>此前20日均量（本版22,100,632股），隔日收盤不跌回2595；基本面確認須同時成立。高估值者先重估，不能只靠突破買進。 最佳區另採左側：收盤仍在2375–2415內，低點連2日不跌破2375，第2日收盤高於前日且量≤0.8倍均量；基本面確認後只研究首筆小部位，離開區間不沿用最佳買點。",
-      "fundamental_confirmation": "下次月營收YoY維持正值且3個月累計YoY未連續下滑；10/15法說須確認先進製程需求與Q3毛利率是否落在65–67%公司指引，若未達須查清原因。",
+      "fundamental_confirmation": "10/15公布Q3毛利率66.4%，落在原65–67%指引；先進製程需求獲公司確認。後續仍須月營收與3月累計成長不持續轉弱、Q4毛利率65–67%及需求指引可實現；價量確認須另行成立。",
       "position_management": "買點失效：突破後隔日收盤低於2595，取消該突破訊號；回測跌破2375，停止原支撐布局並重評。有效跌破：連2日收盤低於2375且至少1日量≥20日均量，或單日跌破且量≥1.5倍均量、隔日未收復；停止加碼／縮減戰術部位，不自動認定核心thesis失效。",
       "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
       "sources": [
@@ -1243,6 +1252,34 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "台積電官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=2330",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
+        },
+        {
+          "title": "台積電2026Q3實績及Q4公司指引",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026Q3實績／2026Q4公司預估",
+          "claim_type": "fact/company_forecast",
+          "note": "公司Q3合併稀釋EPS29.43、毛利66.4%；Q4營收523–543億美元與毛利65–67%是指引，非共識。"
+        },
+        {
+          "title": "台積電2026Q3法說簡報",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/9f58506f6f114f91cefbf86820cc63297b39b130/3Q26%20Presentation%20(E).pdf",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026Q3",
+          "claim_type": "fact",
+          "note": "頁3財務及稀釋EPS比較、頁7 CFO與CapEx／FCF；金額十億元新台幣。"
         }
       ],
       "missing": [
@@ -1299,26 +1336,25 @@
           30
         ],
         "implied_eps": [
-          83.0,
-          103.75
+          81.33,
+          101.67
         ],
         "required_growth_pct": [
-          -3.8,
-          20.25
+          -17.24,
+          3.46
         ],
         "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "收盤2490進入2480–2515觀察區，但成交量高於均量且收低，尚未符合量縮、止穩及營運確認；不買進。",
+        "reason": "10/15收2440低於2480–2515第一觀察區、尚未到2375–2415理想區，成交量高於均量；法說支持需求，但完整價量未成立，不買進。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -1336,32 +1372,39 @@
       "exit_plan": {
         "tranches": [],
         "reason": "本週沒有經確認的指定減碼價格及分批出場計畫；條件式風險不是已發生賣出訊號。"
+      },
+      "event_review": {
+        "reviewedAt": "2026-10-15T23:50:21+08:00",
+        "event": "2026Q3法說",
+        "facts": "Q3 EPS29.43、毛利率66.4%、營益率58.7%；2奈米占晶圓營收8%。",
+        "company_forecast": "Q4美元營收523–543億美元、毛利率65–67%、營益率56.5–58.5%，匯率31.8。",
+        "judgment": "需求與利潤落在原公司指引，支持長期理由；Q3毛利較Q2下降，不將營收強勁等同毛利無風險。尚未符合全部買進條件。"
       }
     },
     {
       "code": "2308",
       "name": "台達電",
       "industry": "AI Power／800V HVDC／液冷",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026Q2單季",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 1775.0,
+      "price": 1630.0,
       "technical": {
         "ma": {
-          "5": 1936.0,
-          "10": 1920.0,
-          "20": 1841.25,
-          "60": 1781.92
+          "5": 1811.0,
+          "10": 1889.0,
+          "20": 1850.0,
+          "60": 1781.42
         },
-        "volume": 15203082.0,
-        "average_volume_20": 12445542,
-        "volume_ratio": 1.22,
-        "low20": 1560.0,
+        "volume": 25335685.0,
+        "average_volume_20": 11870298,
+        "volume_ratio": 2.13,
+        "low20": 1585.0,
         "high20": 2115.0,
-        "return20": 5.97,
-        "ma20_deviation": -3.6,
+        "return20": 0.62,
+        "ma20_deviation": -11.89,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -1920,6 +1963,24 @@
             "low": 1770.0,
             "close": 1775.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 9705664.0,
+            "open": 1790.0,
+            "high": 1820.0,
+            "low": 1775.0,
+            "close": 1785.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 25335685.0,
+            "open": 1690.0,
+            "high": 1700.0,
+            "low": 1610.0,
+            "close": 1630.0,
+            "note": ""
           }
         ],
         "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
@@ -1948,7 +2009,7 @@
         "latest_missing_reason": "官網確認9月金額，未取得同期與累計可核數值，YoY及累計留缺。"
       },
       "valuation": {
-        "ttm_pe": 56.49,
+        "ttm_pe": 51.88,
         "official_pe": 63.34,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -1969,7 +2030,7 @@
         "classification": "高",
         "assumption_type": "research_inference",
         "official_pb": 17.6,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Avoid Chasing",
@@ -1990,7 +2051,7 @@
       "thesis": "成立但估值要求高。AI電力和基礎設施有動能，不能把所有公司營收都當成800V訂單。",
       "growth_1to3y": "1–3年追蹤高功率電源、HVDC與液冷導入，以及設備交付能否變成持續營收；自動化與交通部門可能稀釋AI利潤。",
       "market_expectations": "市場期待高功率產品放量與基礎設施獲利持續提升；原料、交付時程及客戶驗證延誤都可能使EPS低於期待。",
-      "price_in": "10/13收盤1775；最近四季本益比56.49。品質及電力瓶頸可給成長溢價，但35–50倍TTM已很高；此為研究風險預算假設，不是同業統計。",
+      "price_in": "10/15收盤1630；最近四季本益比51.88。品質及電力瓶頸可給成長溢價，但35–50倍TTM已很高；此為研究風險預算假設，不是同業統計。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若HVDC／液冷主要專案延期且電源或基礎設施獲利反轉；毛利率與營益率連續2季同步下滑且公司確認競爭／訂單因素。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "估值壓縮、客戶導入慢於市場預期、非AI業務與匯率；Q2自動化部門虧損不能忽略。",
       "thesis_failure": "HVDC／液冷主要專案延期且電源或基礎設施獲利反轉；毛利率與營益率連續2季同步下滑且公司確認競爭／訂單因素。",
@@ -2004,7 +2065,7 @@
           1570
         ],
         "breakout": 2120,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "第一關注取近期均線／低點；最佳區取支撐與研究估值帶的交集；突破價為20日最高價上一個有效價格跳動。",
@@ -2222,6 +2283,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "台達電官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=2308",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -2278,26 +2349,25 @@
           50
         ],
         "implied_eps": [
-          35.5,
-          50.71
+          32.6,
+          46.57
         ],
         "required_growth_pct": [
-          12.99,
-          61.39
+          3.76,
+          48.22
         ],
         "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "完整量價及基本面確認尚未成立；維持原研究定位，先不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -2321,26 +2391,26 @@
       "code": "2345",
       "name": "智邦",
       "industry": "800G／1.6T Networking／ASIC互連",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026Q2單季",
       "forecastAsOf": "2026-09-18",
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 2040.0,
+      "price": 1950.0,
       "technical": {
         "ma": {
-          "5": 2061.0,
-          "10": 1983.0,
-          "20": 1923.25,
-          "60": 2074.17
+          "5": 2048.0,
+          "10": 2024.5,
+          "20": 1935.25,
+          "60": 2071.17
         },
-        "volume": 5547308.0,
-        "average_volume_20": 4346042,
-        "volume_ratio": 1.28,
+        "volume": 4611728.0,
+        "average_volume_20": 4498038,
+        "volume_ratio": 1.03,
         "low20": 1770.0,
         "high20": 2145.0,
-        "return20": 3.82,
-        "ma20_deviation": 6.07,
+        "return20": 4.0,
+        "ma20_deviation": 0.76,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -2899,6 +2969,24 @@
             "low": 2015.0,
             "close": 2040.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 4565228.0,
+            "open": 2075.0,
+            "high": 2110.0,
+            "low": 2050.0,
+            "close": 2050.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 4611728.0,
+            "open": 1915.0,
+            "high": 2005.0,
+            "low": 1910.0,
+            "close": 1950.0,
+            "note": ""
           }
         ],
         "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
@@ -2926,13 +3014,13 @@
         "published_at": "2026-10-06"
       },
       "valuation": {
-        "ttm_pe": 32.05,
+        "ttm_pe": 30.64,
         "official_pe": 31.66,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
-        "forward_pe": 23.6,
+        "forward_pe": 22.56,
         "forward_year": 2026,
-        "forward_next_year_pe": 17.25,
+        "forward_next_year_pe": 16.48,
         "consensus": {
           "provider": "FactSet（鉅亨具名轉載）",
           "published_at": "2026-09-18",
@@ -2959,9 +3047,9 @@
         "classification": "合理",
         "assumption_type": "research_inference",
         "official_pb": 16.31,
-        "priceAsOf": "2026-10-13",
-        "forward_priceAsOf": "2026-10-13",
-        "forward_note": "以10/13收盤除以原發布日期共識EPS；不是新共識或已確認無下修。"
+        "priceAsOf": "2026-10-15",
+        "forward_priceAsOf": "2026-10-15",
+        "forward_note": "10/15收盤除以原日期共識，不冒充新共識。"
       },
       "position": {
         "role": "Satellite",
@@ -2982,7 +3070,7 @@
       "thesis": "基本面成立，EPS修正尚未轉強。網路升級是中期動能，現階段仍需消化下修及客戶集中。",
       "growth_1to3y": "800G主流出貨與1.6T、光交換架構升級是1–3年方向；CPO目前只列技術選項，未驗證量產／營收貢獻不納入EPS。",
       "market_expectations": "市場期待1.6T與ASIC叢集帶動網路升級，但9/18 FactSet 2026 EPS中位數由87.47降至86.43，不能把營收增長當作EPS上修。",
-      "price_in": "10/13收盤2040；最近四季本益比32.05。25–35倍TTM反映網路成長但扣除客戶集中；另用2026共識20–26倍交叉檢查，不使用舊目標價作支撐。",
+      "price_in": "10/15收盤1950；最近四季本益比30.64。25–35倍TTM反映網路成長但扣除客戶集中；另用2026共識20–26倍交叉檢查，不使用舊目標價作支撐。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若大型客戶減單或產品升級延後，連續2次可比共識下修且營益率走弱；CPO替代效應或競爭造成市占與單位獲利流失。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "少數CSP客戶、產品轉換、原料成本、EPS下修與60日均線壓力。",
       "thesis_failure": "大型客戶減單或產品升級延後，連續2次可比共識下修且營益率走弱；CPO替代效應或競爭造成市占與單位獲利流失。",
@@ -2996,7 +3084,7 @@
           1840
         ],
         "breakout": 2145,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "第一關注取近期均線／低點；最佳區取支撐與研究估值帶的交集；突破價為20日最高價上一個有效價格跳動。",
@@ -3239,6 +3327,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "智邦官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=2345",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -3293,26 +3391,25 @@
           35
         ],
         "implied_eps": [
-          58.29,
-          81.6
+          55.71,
+          78.0
         ],
         "required_growth_pct": [
-          -8.42,
-          28.2
+          -12.47,
+          22.55
         ],
         "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "盤中觸2145但收盤2040，未確認突破；不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -3335,26 +3432,26 @@
       "code": "2382",
       "name": "廣達",
       "industry": "AI Server／GPU整機櫃",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026Q2單季",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 323.0,
+      "price": 316.5,
       "technical": {
         "ma": {
-          "5": 327.8,
-          "10": 330.6,
-          "20": 335.1,
-          "60": 327.12
+          "5": 322.0,
+          "10": 327.55,
+          "20": 333.62,
+          "60": 327.08
         },
-        "volume": 11368818.0,
-        "average_volume_20": 12160518,
-        "volume_ratio": 0.93,
-        "low20": 317.0,
+        "volume": 15532927.0,
+        "average_volume_20": 12104906,
+        "volume_ratio": 1.28,
+        "low20": 313.5,
         "high20": 349.0,
-        "return20": -3.87,
-        "ma20_deviation": -3.61,
+        "return20": -4.81,
+        "ma20_deviation": -5.13,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -3913,6 +4010,24 @@
             "low": 317.0,
             "close": 323.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 12026972.0,
+            "open": 325.0,
+            "high": 326.5,
+            "low": 322.0,
+            "close": 323.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 15532927.0,
+            "open": 320.5,
+            "high": 320.5,
+            "low": 313.5,
+            "close": 316.5,
+            "note": ""
           }
         ],
         "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
@@ -3941,7 +4056,7 @@
         "latest_missing_reason": "採既有資料庫最新單月YoY；此欄沒有完整金額與累計值，留缺。"
       },
       "valuation": {
-        "ttm_pe": 14.07,
+        "ttm_pe": 13.79,
         "official_pe": 14.6,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -3962,7 +4077,7 @@
         "classification": "合理",
         "assumption_type": "research_inference",
         "official_pb": 5.3,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Satellite",
@@ -3983,7 +4098,7 @@
       "thesis": "成立但必須檢驗利潤轉換。營收暴增快於獲利，價格落後只是候選，並非證實低估。",
       "growth_1to3y": "AI機櫃與GPU平台升級帶動1–3年交付；高價零件透過營收、產品組合與筆電循環使營收增幅遠大於EPS。",
       "market_expectations": "市場在等AI整機櫃交付能否改善獲利與現金；ASP高不等於ODM利潤高，記憶體與GPU成本不可視為自有附加價值。",
-      "price_in": "10/13收盤323；最近四季本益比14.07。ODM薄利及客戶集中，用12–16倍已實現TTM設定合理帶，不採營收YoY直接提高PE。",
+      "price_in": "10/15收盤316.5；最近四季本益比13.79。ODM薄利及客戶集中，用12–16倍已實現TTM設定合理帶，不採營收YoY直接提高PE。",
       "holding_strategy": "已有持股停止加碼；若收盤回到330以上且下一交易日守住，再重估買點。若本業獲利、驗收或收現轉弱，評估減少部位；目前沒有指定賣價或出場批次。",
       "risk": "薄利組裝、營運資金、客戶集中、驗收與匯率；總營收不能代表AI毛利。",
       "thesis_failure": "AI機櫃客戶取消或長期延後驗收；營收續增但連續2季營益率低於3%且現金／營運資金惡化；筆電衰退無法被AI獲利抵銷。",
@@ -3991,7 +4106,7 @@
         "first_attention": null,
         "best_entry": null,
         "breakout": 349.5,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "10/8收325.5低於原328–330支撐且量1.2倍前20日均量；舊左側區已撤銷，不平移買點。右側349.5僅壓力觀察，先等待重建底部與基本面。",
@@ -4013,7 +4128,7 @@
       },
       "buy_signal": "原左側買訊不成立；等待收盤重新站回330並隔日守住及利潤／交付確認，再研究新區間。",
       "fundamental_confirmation": "8月營收YoY 177.45%；9月尚未取得有效公告。待9月確認YoY為正，Q3營益率至少守住Q2約3.30%，應收與存貨增速不持續高於營收，且公司交付展望維持。",
-      "position_management": "收盤323仍低於330；舊支撐買點繼續撤銷，停止加碼，沒有新建倉訊號。",
+      "position_management": "10/15收316.5仍低於330，舊支撐買點繼續撤銷，停止加碼。",
       "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
       "sources": [
         {
@@ -4209,6 +4324,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "廣達官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=2382",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -4265,26 +4390,25 @@
           16
         ],
         "implied_eps": [
-          20.19,
-          26.92
+          19.78,
+          26.38
         ],
         "required_growth_pct": [
-          -12.03,
-          17.3
+          -13.81,
+          14.95
         ],
         "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "收盤323仍低於330；原支撐買點維持撤銷，停止加碼。",
+        "reason": "10/15收316.5仍低於330，舊支撐買點繼續撤銷，停止加碼。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -4309,26 +4433,26 @@
       "code": "6669",
       "name": "緯穎",
       "industry": "AI Server／ASIC機櫃／液冷",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026Q2單季",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 2195.0,
+      "price": 1905.0,
       "technical": {
         "ma": {
-          "5": 2248.0,
-          "10": 2177.5,
-          "20": 2179.75,
-          "60": 4329.75
+          "5": 2146.0,
+          "10": 2160.5,
+          "20": 2151.75,
+          "60": 4241.67
         },
-        "volume": 2907646.0,
-        "average_volume_20": 3482958,
-        "volume_ratio": 0.83,
-        "low20": 2075.0,
+        "volume": 10223045.0,
+        "average_volume_20": 3767832,
+        "volume_ratio": 2.71,
+        "low20": 1905.0,
         "high20": 2345.0,
-        "return20": -6.4,
-        "ma20_deviation": 0.7,
+        "return20": -16.08,
+        "ma20_deviation": -11.47,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -4887,6 +5011,24 @@
             "low": 2180.0,
             "close": 2195.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 7479924.0,
+            "open": 2230.0,
+            "high": 2285.0,
+            "low": 2085.0,
+            "close": 2115.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 10223045.0,
+            "open": 1910.0,
+            "high": 1940.0,
+            "low": 1905.0,
+            "close": 1905.0,
+            "note": ""
           }
         ],
         "basis": "TWSE收盤；9/2前價格除以2.9827946，9/2起實際成交價，已按官方股票股利還原；未還原其他現金股息，非含息總報酬。",
@@ -4941,7 +5083,7 @@
         "classification": "不能判斷",
         "assumption_type": "research_inference",
         "official_pb": 3.05,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Watchlist",
@@ -4962,7 +5104,7 @@
       "thesis": "營運動能成立，除權率與調整均線已補核；可比EPS仍待公司重編核對，尚不建立買點。",
       "growth_1to3y": "1–3年看CSP自研ASIC機櫃及全球供應鏈在地化；美國新增產能須待利用率與交付證據，投資不等於新訂單。 10/13公司公開新平台工程驗證、散熱與CPO展示，顯示整合技術升級；實際量產時間、訂單與利潤貢獻仍待核對。",
       "market_expectations": "市場期待CSP需求強勁和新產能利用；4月起部分客戶記憶體改代採購，營收與毛利率比較必須重看分母。",
-      "price_in": "10/13收盤2195；最近四季本益比口徑不足。最終配股率與除權調整已核；公司重編EPS與可轉債加權股數仍待核對，禁止用原313.51元TTM直接算PE。",
+      "price_in": "10/15收盤1905；最近四季本益比口徑不足。最終配股率與除權調整已核；公司重編EPS與可轉債加權股數仍待核對，禁止用原313.51元TTM直接算PE。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若CSP主要客戶需求下修，新廠利用率不及預期且營運現金流惡化；毛利率上升僅來自代採購分母縮小，毛利金額或本業利潤轉弱。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "可比EPS／可轉債股數、CSP集中、CAPEX與現金流仍有缺口；已解決配股率與60日價格口徑，不代表建倉條件成立。",
       "thesis_failure": "CSP主要客戶需求下修，新廠利用率不及預期且營運現金流惡化；毛利率上升僅來自代採購分母縮小，毛利金額或本業利潤轉弱。",
@@ -4970,7 +5112,7 @@
         "first_attention": null,
         "best_entry": null,
         "breakout": null,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "除權率及60日調整已核，可比EPS仍缺，估值支撐交集不能判斷；三個價格仍null。",
@@ -5237,6 +5379,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "緯穎官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=6669",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -5290,18 +5442,17 @@
         "implied_eps": null,
         "required_growth_pct": null,
         "reason": "正常化EPS或合理倍數不足，反推值留缺；不是以官方PE倒算未來EPS。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "完整量價及基本面確認尚未成立；維持原研究定位，先不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -5326,26 +5477,26 @@
       "code": "3711",
       "name": "日月光投控",
       "industry": "先進封裝／CoWoS供應鏈／測試",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026Q2單季",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 740.0,
+      "price": 673.0,
       "technical": {
         "ma": {
-          "5": 744.4,
-          "10": 727.7,
-          "20": 685.2,
-          "60": 629.1
+          "5": 733.2,
+          "10": 730.7,
+          "20": 694.7,
+          "60": 632.58
         },
-        "volume": 16379704.0,
-        "average_volume_20": 14988592,
-        "volume_ratio": 1.09,
+        "volume": 39164509.0,
+        "average_volume_20": 14476720,
+        "volume_ratio": 2.71,
         "low20": 592.0,
         "high20": 765.0,
-        "return20": 13.85,
-        "ma20_deviation": 8.0,
+        "return20": 9.97,
+        "ma20_deviation": -3.12,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -5904,6 +6055,24 @@
             "low": 731.0,
             "close": 740.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 13529923.0,
+            "open": 755.0,
+            "high": 763.0,
+            "low": 742.0,
+            "close": 747.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 39164509.0,
+            "open": 696.0,
+            "high": 699.0,
+            "low": 673.0,
+            "close": 673.0,
+            "note": ""
           }
         ],
         "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
@@ -5932,7 +6101,7 @@
         "latest_missing_reason": "MOPS個別9月查詢無有效數值；本次官方彙總仍8月，保留8月，9月不猜測。"
       },
       "valuation": {
-        "ttm_pe": 53.12,
+        "ttm_pe": 48.31,
         "official_pe": 52.97,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -5953,7 +6122,7 @@
         "classification": "高",
         "assumption_type": "research_inference",
         "official_pb": 8.27,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Avoid Chasing",
@@ -5974,7 +6143,7 @@
       "thesis": "成立。AI封裝／測試成長改善獲利，但公司含EMS，不能把所有營收視為CoWoS。",
       "growth_1to3y": "1–3年關注先進封裝與測試利用率、良率和投資回收；封裝擴張的折舊壓力與成熟製程需求會影響利潤。",
       "market_expectations": "市場已預期先進封裝加速；還需要驗證新產能的收入、毛利與現金回收，擴廠支出本身不是盈利。",
-      "price_in": "10/13收盤740；最近四季本益比53.12。25–40倍TTM已包含先進封裝溢價；近期最低592仍約42.5倍，無可驗證支撐落入此帶。",
+      "price_in": "10/15收盤673；最近四季本益比48.31。25–40倍TTM已包含先進封裝溢價；近期最低592仍約42.5倍，無可驗證支撐落入此帶。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若先進封裝擴產轉收入遲緩且折舊壓低本業利潤；客戶轉單或成熟封裝長期走弱，連續2季利用率／營益率下降。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "估值重評、擴產折舊、封裝與EMS混合口徑、景氣及客戶交付。",
       "thesis_failure": "先進封裝擴產轉收入遲緩且折舊壓低本業利潤；客戶轉單或成熟封裝長期走弱，連續2季利用率／營益率下降。",
@@ -5985,7 +6154,7 @@
         ],
         "best_entry": null,
         "breakout": null,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "近期支撐與研究估值帶無交集，最佳布局留null。",
@@ -6193,6 +6362,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "日月光投控官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=3711",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -6249,26 +6428,25 @@
           40
         ],
         "implied_eps": [
-          18.5,
-          29.6
+          16.82,
+          26.92
         ],
         "required_growth_pct": [
-          32.81,
-          112.49
+          20.75,
+          93.25
         ],
         "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "完整量價及基本面確認尚未成立；維持原研究定位，先不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -6293,26 +6471,26 @@
       "code": "2383",
       "name": "台光電",
       "industry": "高階CCL／PCB材料",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026Q2單季",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 5545.0,
+      "price": 5120.0,
       "technical": {
         "ma": {
-          "5": 5928.0,
-          "10": 5535.5,
-          "20": 5283.75,
-          "60": 5299.08
+          "5": 5667.0,
+          "10": 5614.0,
+          "20": 5280.25,
+          "60": 5328.25
         },
-        "volume": 4882149.0,
-        "average_volume_20": 2341465,
-        "volume_ratio": 2.09,
+        "volume": 5904207.0,
+        "average_volume_20": 2578452,
+        "volume_ratio": 2.29,
         "low20": 4635.0,
         "high20": 6325.0,
-        "return20": 3.16,
-        "ma20_deviation": 4.94,
+        "return20": -4.21,
+        "ma20_deviation": -3.03,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -6871,6 +7049,24 @@
             "low": 5535.0,
             "close": 5545.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 2325865.0,
+            "open": 5545.0,
+            "high": 5645.0,
+            "low": 5510.0,
+            "close": 5520.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 5904207.0,
+            "open": 5010.0,
+            "high": 5330.0,
+            "low": 4980.0,
+            "close": 5120.0,
+            "note": ""
           }
         ],
         "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
@@ -6898,7 +7094,7 @@
         "published_at": "2026-10-05"
       },
       "valuation": {
-        "ttm_pe": 86.51,
+        "ttm_pe": 79.88,
         "official_pe": 93.04,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -6919,7 +7115,7 @@
         "classification": "高",
         "assumption_type": "research_inference",
         "official_pb": 36.55,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Avoid Chasing",
@@ -6940,7 +7136,7 @@
       "thesis": "成立且獲利槓桿強；但目前價格需要高階材料成長持續超預期才能支撐。",
       "growth_1to3y": "1–3年看AI基材升級、ASP／組合與新廠爬坡；公司規劃產能不是已交付收入，需驗證認證、良率及利用率。",
       "market_expectations": "市場期待高階材料供給優勢與產能擴張；營收及利潤高增長已反映在高倍數，競爭供給或ASP下滑可能引發雙殺。",
-      "price_in": "10/13收盤5545；最近四季本益比86.51。45–65倍TTM已給高成長溢價，但20日低點4635約72倍仍超上緣；未取得可核共識，最佳入場區不硬填。",
+      "price_in": "10/15收盤5120；最近四季本益比79.88。45–65倍TTM已給高成長溢價，但20日低點4635約72倍仍超上緣；未取得可核共識，最佳入場區不硬填。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若高階材料市占／ASP下滑，客戶認證或擴產良率不及預期；營益率連續2季下降且公司確認訂單／競爭惡化。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "極高估值、供給擴張、ASP與材料成本、擴產現金流；Q2 EPS簡報與累計差分有0.01元差異。",
       "thesis_failure": "高階材料市占／ASP下滑，客戶認證或擴產良率不及預期；營益率連續2季下降且公司確認訂單／競爭惡化。",
@@ -6951,7 +7147,7 @@
         ],
         "best_entry": null,
         "breakout": 6330,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "近期支撐與研究估值帶無交集，最佳布局留null。",
@@ -7159,6 +7355,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "台光電官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=2383",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -7214,26 +7420,25 @@
           65
         ],
         "implied_eps": [
-          85.31,
-          123.22
+          78.77,
+          113.78
         ],
         "required_growth_pct": [
-          33.09,
-          92.23
+          22.89,
+          77.5
         ],
         "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "完整量價及基本面確認尚未成立；維持原研究定位，先不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -7256,26 +7461,26 @@
       "code": "3017",
       "name": "奇鋐",
       "industry": "液冷／AI散熱／機構整合",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026Q2單季",
       "forecastAsOf": "2026-09-22",
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 3280.0,
+      "price": 3085.0,
       "technical": {
         "ma": {
-          "5": 3467.0,
-          "10": 3470.5,
-          "20": 3406.0,
-          "60": 3047.5
+          "5": 3301.0,
+          "10": 3427.0,
+          "20": 3392.0,
+          "60": 3081.92
         },
-        "volume": 2786644.0,
-        "average_volume_20": 2986545,
-        "volume_ratio": 0.93,
-        "low20": 3100.0,
+        "volume": 4128297.0,
+        "average_volume_20": 3007177,
+        "volume_ratio": 1.37,
+        "low20": 3050.0,
         "high20": 3700.0,
-        "return20": -5.2,
-        "ma20_deviation": -3.7,
+        "return20": -6.8,
+        "ma20_deviation": -9.05,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -7834,6 +8039,24 @@
             "low": 3275.0,
             "close": 3280.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 2311534.0,
+            "open": 3330.0,
+            "high": 3350.0,
+            "low": 3275.0,
+            "close": 3315.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 4128297.0,
+            "open": 3200.0,
+            "high": 3220.0,
+            "low": 3050.0,
+            "close": 3085.0,
+            "note": ""
           }
         ],
         "basis": "TWSE每日實際收盤，未還原現金股息，非含息總報酬。"
@@ -7861,13 +8084,13 @@
         "published_at": "2026-10-07"
       },
       "valuation": {
-        "ttm_pe": 43.66,
+        "ttm_pe": 41.06,
         "official_pe": 47.25,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
-        "forward_pe": 31.29,
+        "forward_pe": 29.43,
         "forward_year": 2026,
-        "forward_next_year_pe": 20.91,
+        "forward_next_year_pe": 19.67,
         "consensus": {
           "provider": "FactSet（鉅亨具名轉載）",
           "published_at": "2026-09-22",
@@ -7894,9 +8117,9 @@
         "classification": "高",
         "assumption_type": "research_inference",
         "official_pb": 25.22,
-        "priceAsOf": "2026-10-13",
-        "forward_priceAsOf": "2026-10-13",
-        "forward_note": "以10/13收盤除以原發布日期共識EPS；不是新共識或已確認無下修。"
+        "priceAsOf": "2026-10-15",
+        "forward_priceAsOf": "2026-10-15",
+        "forward_note": "10/15收盤除以原日期共識，不冒充新共識。"
       },
       "position": {
         "role": "Satellite",
@@ -7917,8 +8140,8 @@
       "thesis": "成立但新部位需等待。液冷與散熱獲利有兌現，當前評價已要求2027成長延續。",
       "growth_1to3y": "1–3年看高功率GPU冷板、液冷模組與機構整合；供貨份額、客戶驗證與單位內容價值會影響EPS，不假設所有新平台都維持原市占。",
       "market_expectations": "9/22 FactSet 2026 EPS中位數104.82，2027為156.83；市場已預期強成長，若修正轉負則Forward倍數的便宜可能消失。",
-      "price_in": "10/13收盤3280；最近四季本益比43.66。35–45倍TTM對高成長散熱設定風險帶；另用2026共識28–34倍交叉檢查，3100–3300落入兩者交集。",
-      "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若主要客戶液冷採用或供貨份額下降；連續2次共識下修並伴隨毛利／營益率同步走弱；訂單成長無法轉成現金與本業獲利。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
+      "price_in": "10/15收盤3085；最近四季本益比41.06。35–45倍TTM對高成長散熱設定風險帶；另用2026共識28–34倍交叉檢查，3100–3300落入兩者交集。",
+      "holding_strategy": "10/15收盤3085低於原3100支撐，取消原3100–3300支撐買訊並停止加碼；右側3705計畫暫停，須重新確認後才恢復。單日跌破不是無條件賣出，仍無明確出場批次。",
       "risk": "平台轉換、客戶份額、液冷競爭、應收與存貨、高Forward成長假設。",
       "thesis_failure": "主要客戶液冷採用或供貨份額下降；連續2次共識下修並伴隨毛利／營益率同步走弱；訂單成長無法轉成現金與本業獲利。",
       "prices": {
@@ -7926,12 +8149,9 @@
           3405,
           3505
         ],
-        "best_entry": [
-          3100,
-          3300
-        ],
+        "best_entry": null,
         "breakout": 3705,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "第一關注取近期均線／低點；最佳區取支撐與研究估值帶的交集；突破價為20日最高價上一個有效價格跳動。",
@@ -7939,12 +8159,13 @@
           "first": "10/7 MA5=3553.0、MA10=3501.5、MA20=3407.0、MA60=2987.58及近期支撐；取可成交級距。高估值股第一關注不是買区。",
           "best": "35–45倍TTM對高成長散熱設定風險帶；另用2026共識28–34倍交叉檢查，3100–3300落入兩者交集。",
           "breakout": "目前20日最高3700.0元之上下一個TWSE有效價格跳動5元；更新後3705元。",
-          "weekly_revalidation": "10/12 MA5=3528.0、MA10=3498.0、MA20=3415.0、MA60=3029.92；20日低點3100.0、高點3700.0。原觀察區作固定條件，不隨收盤搬動；仍須估值及基本面確認。"
+          "weekly_revalidation": "10/12 MA5=3528.0、MA10=3498.0、MA20=3415.0、MA60=3029.92；20日低點3100.0、高點3700.0。原觀察區作固定條件，不隨收盤搬動；仍須估值及基本面確認。",
+          "daily_invalidation": "10/15收3085低於3100，舊理想區取消；沒有向下搬動買點。"
         },
         "invalidation": "主要客戶液冷採用或供貨份額下降；連續2次共識下修並伴隨毛利／營益率同步走弱；訂單成長無法轉成現金與本業獲利。"
       },
       "building_plan": {
-        "current_action": "先不買進",
+        "current_action": "先不買進；支撐買訊取消，停止加碼",
         "target_basis": "比例以預定目標部位計算，非全部資金；共同AI因子與現金限制仍適用。",
         "tranches": [
           {
@@ -7962,11 +8183,13 @@
         ],
         "stop_addition": "任一買點失效或基本面確認不成立，停止後續批次並重估；不因跌價自動攤平。",
         "conditional_action": "右側確認30／30／40：突破3705、回測守穩、EPS與平台交付確認後依序評估。",
-        "method": "右側確認30／30／40"
+        "method": "右側確認30／30／40",
+        "paused": true,
+        "pause_reason": "10/15收盤3085低於原3100支撐，取消原3100–3300支撐買訊並停止加碼；右側3705計畫暫停，須重新確認後才恢復。單日跌破不是無條件賣出，仍無明確出場批次。"
       },
       "buy_signal": "第一關注3405–3505；回測量≤此前20日均量0.8倍（本版約2,386,824股），低點連2日不破，收盤重站3555。右側收盤達到或高於3705，量>此前20日均量（本版2,983,531股），隔日收盤不跌回3705；基本面確認須同時成立。高估值者先重估，不能只靠突破買進。 最佳區另採左側：收盤仍在3100–3300內，低點連2日不跌破3100，第2日收盤高於前日且量≤0.8倍均量；基本面確認後只研究首筆小部位，離開區間不沿用最佳買點。",
       "fundamental_confirmation": "9月營收YoY44.92%低於8月54.34%，單月不能當失效；觀察3月累計YoY，Q3營益率須守住Q2約27.44%附近且2026／2027 EPS共識不轉下修，液冷交付須確認。",
-      "position_management": "買點失效：突破後隔日收盤低於3705，取消該突破訊號；回測跌破3100，停止原支撐布局並重評。有效跌破：連2日收盤低於3100且至少1日量≥20日均量，或單日跌破且量≥1.5倍均量、隔日未收復；停止加碼／縮減戰術部位，不自動認定核心thesis失效。",
+      "position_management": "10/15收盤3085低於原3100支撐，取消原3100–3300支撐買訊並停止加碼；右側3705計畫暫停，須重新確認後才恢復。單日跌破不是無條件賣出，仍無明確出場批次。",
       "claims_type": "財報與價量為fact；指引／consensus另列；評分、倍數、價格帶、排序與操作均為research_inference",
       "sources": [
         {
@@ -8163,6 +8386,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "奇鋐官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=3017",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -8219,26 +8452,25 @@
           45
         ],
         "implied_eps": [
-          72.89,
-          93.71
+          68.56,
+          88.14
         ],
         "required_growth_pct": [
-          -2.98,
-          24.73
+          -8.74,
+          17.32
         ],
         "reason": "股價／研究PE帶＝所需EPS；所需EPS／TTM EPS−1＝增幅敏感度。倍數改變結果會變，不是EPS預測。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
-        "status": "waiting",
-        "reason": "收盤3280進入3100–3300觀察區，但未確認止穩、量縮與營運條件；不買進。",
-        "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
+        "status": "invalidated_support",
+        "reason": "10/15收盤3085低於原3100支撐，取消原3100–3300支撐買訊並停止加碼；右側3705計畫暫停，須重新確認後才恢復。單日跌破不是無條件賣出，仍無明確出場批次。",
+        "reference_prices_unchanged": false,
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -8262,26 +8494,26 @@
       "code": "1590",
       "name": "亞德客-KY",
       "industry": "電機機械",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026-Q2 EPS／2026H1利潤率（分開口徑）",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 1170.0,
+      "price": 1155.0,
       "technical": {
         "ma": {
-          "5": 1202.0,
-          "10": 1196.5,
-          "20": 1222.25,
-          "60": 1357.67
+          "5": 1185.0,
+          "10": 1189.5,
+          "20": 1211.5,
+          "60": 1353.33
         },
-        "volume": 682352.0,
-        "average_volume_20": 945401,
-        "volume_ratio": 0.72,
+        "volume": 855693.0,
+        "average_volume_20": 953381,
+        "volume_ratio": 0.9,
         "low20": 1135.0,
         "high20": 1305.0,
-        "return20": -10.34,
-        "ma20_deviation": -4.27,
+        "return20": -9.06,
+        "ma20_deviation": -4.66,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -8786,6 +9018,24 @@
             "low": 1165.0,
             "close": 1170.0,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 1455240.0,
+            "open": 1180.0,
+            "high": 1200.0,
+            "low": 1175.0,
+            "close": 1185.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 855693.0,
+            "open": 1165.0,
+            "high": 1180.0,
+            "low": 1150.0,
+            "close": 1155.0,
+            "note": ""
           }
         ],
         "basis": "官方成交收盤，未還原現金股息，非含息報酬；1256 7/9、1590 7/23僅現金除息，已核無股票除權。"
@@ -8806,7 +9056,7 @@
         "latest_missing_reason": "沿用資料庫8月YoY；本次未另抓例行月營收，9月尚未補核。"
       },
       "valuation": {
-        "ttm_pe": 22.48,
+        "ttm_pe": 22.19,
         "official_pe": 23.63,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -8819,7 +9069,7 @@
         "reasonable_ttm_price_range": null,
         "assumption": "未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
         "official_pb": 4.49,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Watchlist",
@@ -8840,7 +9090,7 @@
       "thesis": "氣源處理、控制、執行、輔助元件及線性導軌；量化改善已篩出，未來能否延續仍待產業驗證。",
       "growth_1to3y": "新閥類、自潤及微型線軌產品；屬產品延伸，最新擴產與貢獻待補核；此為研究路徑，未確認新收入、訂單與市占。",
       "market_expectations": "未取得完整最新EPS共識，不能量化市場預期差。",
-      "price_in": "10/13收盤1170；最近四季本益比22.48。未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
+      "price_in": "10/15收盤1155；最近四季本益比22.19。未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若後續需求或ASP轉弱、連續季度本業利潤惡化、CFO與盈餘背離、客戶／市占流失，則取消改善假說。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "需求延續、客戶集中、同業供給與流動性尚待核，低價格動能不代表低風險。",
       "thesis_failure": "後續需求或ASP轉弱、連續季度本業利潤惡化、CFO與盈餘背離、客戶／市占流失，則取消改善假說。",
@@ -8848,7 +9098,7 @@
         "first_attention": null,
         "best_entry": null,
         "breakout": null,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "只有篩選通過與官方價量，未核最新未來需求／估值，不能為格式填入買點。",
@@ -8964,6 +9214,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "亞德客-KY官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=1590",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -9020,18 +9280,17 @@
         "implied_eps": null,
         "required_growth_pct": null,
         "reason": "正常化EPS或合理倍數不足，反推值留缺；不是以官方PE倒算未來EPS。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "完整量價及基本面確認尚未成立；維持原研究定位，先不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -9100,26 +9359,26 @@
       "code": "1256",
       "name": "鮮活果汁-KY",
       "industry": "食品工業",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026-Q2 EPS／2026H1利潤率（分開口徑）",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 171.5,
+      "price": 167.5,
       "technical": {
         "ma": {
-          "5": 167.9,
+          "5": 168.7,
           "10": 168.05,
-          "20": 168.93,
-          "60": 176.28
+          "20": 168.6,
+          "60": 175.7
         },
-        "volume": 67668.0,
-        "average_volume_20": 36439,
-        "volume_ratio": 1.86,
-        "low20": 165.5,
+        "volume": 64312.0,
+        "average_volume_20": 35835,
+        "volume_ratio": 1.79,
+        "low20": 163.0,
         "high20": 174.0,
-        "return20": -0.58,
-        "ma20_deviation": 1.52,
+        "return20": -2.62,
+        "ma20_deviation": -0.65,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -9624,6 +9883,24 @@
             "low": 169.0,
             "close": 171.5,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 19960.0,
+            "open": 171.5,
+            "high": 171.5,
+            "low": 169.0,
+            "close": 169.0,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 64312.0,
+            "open": 167.5,
+            "high": 168.5,
+            "low": 163.0,
+            "close": 167.5,
+            "note": ""
           }
         ],
         "basis": "官方成交收盤，未還原現金股息，非含息報酬；1256 7/9、1590 7/23僅現金除息，已核無股票除權。"
@@ -9644,7 +9921,7 @@
         "latest_missing_reason": "沿用資料庫8月YoY；本次未另抓例行月營收，9月尚未補核。"
       },
       "valuation": {
-        "ttm_pe": 10.83,
+        "ttm_pe": 10.57,
         "official_pe": 10.7,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -9657,7 +9934,7 @@
         "reasonable_ttm_price_range": null,
         "assumption": "未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
         "official_pb": 1.42,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Watchlist",
@@ -9678,7 +9955,7 @@
       "thesis": "飲料原料：果汁、果粒、果醬、糖漿與客製化產品；量化改善已篩出，未來能否延續仍待產業驗證。",
       "growth_1to3y": "冷藏冷凍、即飲及植物蛋白產品為持續布局；此為研究路徑，未確認新收入、訂單與市占。",
       "market_expectations": "未取得完整最新EPS共識，不能量化市場預期差。",
-      "price_in": "10/13收盤171.5；最近四季本益比10.83。未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
+      "price_in": "10/15收盤167.5；最近四季本益比10.57。未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若後續需求或ASP轉弱、連續季度本業利潤惡化、CFO與盈餘背離、客戶／市占流失，則取消改善假說。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "需求延續、客戶集中、同業供給與流動性尚待核，低價格動能不代表低風險。",
       "thesis_failure": "後續需求或ASP轉弱、連續季度本業利潤惡化、CFO與盈餘背離、客戶／市占流失，則取消改善假說。",
@@ -9686,7 +9963,7 @@
         "first_attention": null,
         "best_entry": null,
         "breakout": null,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "只有篩選通過與官方價量，未核最新未來需求／估值，不能為格式填入買點。",
@@ -9792,6 +10069,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "鮮活果汁-KY官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=1256",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -9848,18 +10135,17 @@
         "implied_eps": null,
         "required_growth_pct": null,
         "reason": "正常化EPS或合理倍數不足，反推值留缺；不是以官方PE倒算未來EPS。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "完整量價及基本面確認尚未成立；維持原研究定位，先不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -9884,26 +10170,26 @@
       "code": "2108",
       "name": "南帝",
       "industry": "橡膠工業",
-      "updatedAt": "2026-10-13T21:36:27+08:00",
-      "priceAsOf": "2026-10-13",
+      "updatedAt": "2026-10-15T23:50:21+08:00",
+      "priceAsOf": "2026-10-15",
       "financialPeriod": "2026-Q2 EPS／2026H1利潤率（分開口徑）",
       "forecastAsOf": null,
       "reviewedAt": "2026-10-13T12:11:52+08:00",
-      "price": 29.45,
+      "price": 29.55,
       "technical": {
         "ma": {
-          "5": 29.62,
-          "10": 28.98,
-          "20": 28.76,
-          "60": 28.94
+          "5": 29.86,
+          "10": 29.25,
+          "20": 28.89,
+          "60": 29.02
         },
-        "volume": 654053.0,
-        "average_volume_20": 724419,
-        "volume_ratio": 0.9,
-        "low20": 27.3,
+        "volume": 943241.0,
+        "average_volume_20": 774811,
+        "volume_ratio": 1.22,
+        "low20": 27.55,
         "high20": 31.45,
-        "return20": 1.55,
-        "ma20_deviation": 2.4,
+        "return20": 5.91,
+        "ma20_deviation": 2.28,
         "price_history": [
           {
             "date": "2026-07-15",
@@ -10408,6 +10694,24 @@
             "low": 29.4,
             "close": 29.45,
             "note": ""
+          },
+          {
+            "date": "2026-10-14",
+            "volume": 1320449.0,
+            "open": 29.75,
+            "high": 30.45,
+            "low": 29.7,
+            "close": 30.1,
+            "note": ""
+          },
+          {
+            "date": "2026-10-15",
+            "volume": 943241.0,
+            "open": 30.0,
+            "high": 30.1,
+            "low": 29.5,
+            "close": 29.55,
+            "note": ""
           }
         ],
         "basis": "官方成交收盤，未還原現金股息，非含息報酬；1256 7/9、1590 7/23僅現金除息，已核無股票除權。"
@@ -10430,7 +10734,7 @@
         "published_at": null
       },
       "valuation": {
-        "ttm_pe": 16.54,
+        "ttm_pe": 16.6,
         "official_pe": 16.71,
         "official_pe_date": "2026-10-07",
         "official_pe_note": "官方PE／PB使用各自日期；緯穎未取得可比EPS，官方低PE不作可比估值。",
@@ -10443,7 +10747,7 @@
         "reasonable_ttm_price_range": null,
         "assumption": "未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
         "official_pb": 0.99,
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "position": {
         "role": "Watchlist",
@@ -10464,7 +10768,7 @@
       "thesis": "NBR／SBR合成乳膠、丁腈橡膠、精煉膠與TPE；量化改善已篩出，未來能否延續仍待產業驗證。",
       "growth_1to3y": "高附加價值乳膠、TPV及新應用，既有產品持續改良；最新擴產待核；此為研究路徑，未確認新收入、訂單與市占。",
       "market_expectations": "未取得完整最新EPS共識，不能量化市場預期差。",
-      "price_in": "10/13收盤29.45；最近四季本益比16.54。未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
+      "price_in": "10/15收盤29.55；最近四季本益比16.6。未建立可追溯合理估值帶；週期公司尤其不能外推當期EPS。",
       "holding_strategy": "已有持股先檢視中長期公司理由與投入比例；若營運未轉弱可繼續觀察，若乳膠報價／原料價差惡化、手套需求復甦未實現、供給擴張過快、稼動率與本業EPS轉弱或現金流持續惡化。則停止加碼並重估持有。新資金須等各筆完整價量與營運條件成立。本週沒有經確認的指定賣價或出場批次。",
       "risk": "需求延續、客戶集中、同業供給與流動性尚待核，低價格動能不代表低風險。",
       "thesis_failure": "乳膠報價／原料價差惡化、手套需求復甦未實現、供給擴張過快、稼動率與本業EPS轉弱或現金流持續惡化。",
@@ -10472,7 +10776,7 @@
         "first_attention": null,
         "best_entry": null,
         "breakout": null,
-        "asOf": "2026-10-13",
+        "asOf": "2026-10-15",
         "valid_until": "2026-10-19T00:00:00+08:00",
         "validity_rule": "固定研究價格仍需逐日核對完整價量與基本面；目前未確認有效買訊。有效期沿用原週研究，不因每日更新延長。",
         "reason": "只有篩選通過與官方價量，未核最新未來需求／估值，不能為格式填入買點。",
@@ -10598,6 +10902,16 @@
           "data_period": "2026-10-13",
           "claim_type": "fact",
           "claim": "官方開高低收及股數；均線同口徑、此前20日均量排除當日。"
+        },
+        {
+          "title": "南帝官方10月15日成交資訊",
+          "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261015&stockNo=2108",
+          "published_at": null,
+          "published_at_reason": "交易資料未列獨立發布時間",
+          "accessed_at": "2026-10-15T23:50:21+08:00",
+          "data_period": "2026-10-01至2026-10-15",
+          "claim_type": "fact",
+          "note": "均線同口徑；此前20日均量排除當日。10/14僅補行情，未補造未凍結買訊。"
         }
       ],
       "missing": [
@@ -10653,18 +10967,17 @@
         "implied_eps": null,
         "required_growth_pct": null,
         "reason": "正常化EPS或合理倍數不足，反推值留缺；不是以官方PE倒算未來EPS。",
-        "priceAsOf": "2026-10-13"
+        "priceAsOf": "2026-10-15"
       },
       "valuation_methods": "TTM與可靠Forward PE分開；官方PB按原日期列示。PEG缺最新Forward成長／EV-EBITDA缺同日企業價值與EBITDA／FCF Yield與ROIC缺必要輸入，留缺不硬算。週期反轉須以正常化獲利、PB與報價稼動率為主，當期PE僅參考。",
-      "price_updatedAt": "2026-10-13T21:36:27+08:00",
-      "price_update_id": "2026-W42-price-20261013",
+      "price_updatedAt": "2026-10-15T23:50:21+08:00",
+      "price_update_id": "2026-W42-price-20261015",
       "daily_signal_review": {
-        "asOf": "2026-10-13",
-        "checkedAt": "2026-10-13T21:36:27+08:00",
+        "asOf": "2026-10-15",
+        "checkedAt": "2026-10-15T23:50:21+08:00",
         "status": "waiting",
-        "reason": "完整量價及基本面確認尚未成立；維持原研究定位，先不買進。",
+        "reason": "尚未同時確認完整價量與公司營運條件，先不買進；漏跑期間未凍結的訊號不事後補填。",
         "reference_prices_unchanged": true,
-        "fundamental_confirmation": "沿用本週已列基本面要求，未取得足以確認整筆條件的新增證據。",
         "technical_confirmation": false,
         "exit_confirmed": false
       },
@@ -10733,12 +11046,12 @@
     "台達電9月營收已補核金額，公告正文未提供可擷取YoY；不以8月YoY冒充9月。"
   ],
   "freshness": {
-    "price_basis": "2026-10-13官方最近收盤；週研究日期與原有效期維持不變。",
+    "price_basis": "10/15官方收盤；僅台積電重大法說另行重審，整體週研究日期與原有效期不變。",
     "valid_until": "2026-10-19T00:00:00+08:00",
     "rule": "新交易日收盤後未重新驗證，畫面顯示待刷新；不保證為本週最新買點。"
   },
   "source_priority": "公司公告法說→MOPS→TWSE→具名機構→主流媒體；行情以TWSE為準，衝突保留原因。",
-  "previous_update_id": "2026-W41-v3",
+  "previous_update_id": "2026-W42-v2",
   "instruction_version": "2026-10-07-fund-research-v1",
   "top_research": [
     "1590",
@@ -10826,13 +11139,13 @@
       }
     ]
   },
-  "price_update_id": "2026-W42-price-20261013",
-  "price_updatedAt": "2026-10-13T21:36:27+08:00",
+  "price_update_id": "2026-W42-price-20261015",
+  "price_updatedAt": "2026-10-15T23:50:21+08:00",
   "ui_guide_version": "2026-W41-v3",
   "signal_eligibility": {
     "earliest_confirmation": "after_actual_publication",
     "historical_signals_replayed": false,
-    "reason": "W41有效期已過；W42未發布前不補填10/12買訊。"
+    "reason": "漏跑僅補官方價量；未凍結買訊不回填。10/15法說在收盤後公布，不作當日買入依據。"
   },
-  "corrects_update_id": "2026-W42-v1"
+  "corrects_update_id": null
 }
