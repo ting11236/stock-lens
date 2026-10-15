@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -675,18 +675,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1540.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-15",
-        "description": "近期財務狀況",
-        "end_date": "2026-10-15",
-        "kind": "法說會",
-        "location": "11049台北市信義區信義路五段7號1樓(證交所(101大樓1樓資訊展示中心)",
-        "name": "喬福",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "1540.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1512,18 +1501,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2330.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-15",
-        "description": "(1)公布本公司2026年第3季財務報告及2026年第4季業績展望。(2)參加方式：請參見https://investor.tsmc.com/chinese/quarterly-results/2026/q3",
-        "end_date": "2026-10-15",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "台積電",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2330.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1807,18 +1785,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2402.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-15",
-        "description": "本公司受邀參加兆豐證券舉辦之法人說明會，說明本公司之財務、營運及業務相關資訊。",
-        "end_date": "2026-10-15",
-        "kind": "法說會",
-        "location": "兆豐證券大樓（台北市忠孝東路二段95號13樓1301會議室）",
-        "name": "毅嘉",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2402.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2266,18 +2233,7 @@
     },
     "2530.TW": {
       "next_conference": null,
-      "next_shareholders": {
-        "cancelled": false,
-        "date": "2026-10-15",
-        "description": "已公告股東會日期",
-        "end_date": "2026-10-15",
-        "kind": "股東臨時會",
-        "location": "",
-        "name": "華建",
-        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-        "symbol": "2530.TW",
-        "time": ""
-      },
+      "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "2534.TW": {
@@ -5757,18 +5713,7 @@
     },
     "8499.TW": {
       "next_conference": null,
-      "next_shareholders": {
-        "cancelled": false,
-        "date": "2026-10-15",
-        "description": "已公告股東會日期",
-        "end_date": "2026-10-15",
-        "kind": "股東臨時會",
-        "location": "",
-        "name": "鼎炫-KY",
-        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-        "symbol": "8499.TW",
-        "time": ""
-      },
+      "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "8926.TW": {
@@ -41954,37 +41899,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -60009,7 +59954,97 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9938.TW",
       "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "近期財務狀況",
+      "due_date": "2026-10-16",
+      "end_date": "2026-10-15",
+      "kind": "法說會",
+      "location": "11049台北市信義區信義路五段7號1樓(證交所(101大樓1樓資訊展示中心)",
+      "name": "喬福",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1540.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "(1)公布本公司2026年第3季財務報告及2026年第4季業績展望。(2)參加方式：請參見https://investor.tsmc.com/chinese/quarterly-results/2026/q3",
+      "due_date": "2026-10-16",
+      "end_date": "2026-10-15",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "台積電",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2330.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "本公司受邀參加兆豐證券舉辦之法人說明會，說明本公司之財務、營運及業務相關資訊。",
+      "due_date": "2026-10-16",
+      "end_date": "2026-10-15",
+      "kind": "法說會",
+      "location": "兆豐證券大樓（台北市忠孝東路二段95號13樓1301會議室）",
+      "name": "毅嘉",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2402.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "已公告股東會日期",
+      "due_date": "2026-10-16",
+      "end_date": "2026-10-15",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "華建",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2530.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "討論富邦金控財務及業務相關資訊",
+      "due_date": "2026-10-16",
+      "end_date": "2026-10-15",
+      "kind": "法說會",
+      "location": "台北",
+      "name": "富邦金",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2881.TW",
+      "time": "10:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "已公告股東會日期",
+      "due_date": "2026-10-16",
+      "end_date": "2026-10-15",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "鼎炫-KY",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8499.TW",
+      "time": ""
     }
   ],
-  "updated_at": "2026-10-15T23:55:15+08:00"
+  "updated_at": "2026-10-16T00:01:23+08:00"
 }
