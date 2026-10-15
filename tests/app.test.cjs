@@ -83,3 +83,9 @@ test('individual statements show reported cumulative profit without filling pare
  const quick=a.run("quickCompanySummary({symbol:'6281.TW',name:'全國電'},{overview:o})");assert.match(quick,/2026 年 1–6 月，個別本期淨利為 2.24 億元/);assert.match(quick,/最近12個月淨利仍待補齊/);assert.equal(a.run('o.financial.rolling.ttm_parent_profit'),null);
  assert.equal(a.run("financialProfitLabel('合併營業收入',true)"),'歸屬母公司業主淨損');assert.equal(a.run("financialProfitLabel('個別營業收入',true)"),'本期淨損');
 });
+
+test('incomparable EPS masks feed calculations while keeping official PE and reported EPS',()=>{
+ const a=load();a.run("research.profiles={'2607.TW':{calculated_metrics:{trailing_eps:{value:null,blocked:true,reason:'減資待可比'},calculated_pe:{value:null,blocked:true},earnings_growth:{value:null,blocked:true},peg:{value:null,blocked:true,reason:'減資待可比'}}}}");
+ const v=a.run("materialize({symbol:'2607.TW',pe:15,eps:2.68,trailing_eps:4.69,calculated_pe:10,earnings_growth:40,peg:.4})");
+ assert.equal(v.pe,15);assert.equal(v.eps,2.68);for(const key of ['trailing_eps','calculated_pe','earnings_growth','peg'])assert.equal(v[key],null);
+});

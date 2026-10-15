@@ -202,6 +202,7 @@ function materialize(s){
  const result={...s,field_meta:{...s.field_meta},category:normalizeCategory(state.overrides[s.symbol]||s.category)||'待分類'};
  const profile=research.profiles[s.symbol],metrics=profile?.calculated_metrics||{};
  for(const [key,m] of Object.entries(metrics)){
+  if(m.blocked){result[key]=null;result.field_meta[key]={date:m.period,reason:m.reason,basis:m.reason,period_mode:'unavailable'};if(key==='peg')result.peg_basis=m.reason;continue;}
   if((!Number.isFinite(m.value)&&!(['peg','earnings_growth'].includes(key)&&(['annual','cagr3','cagr5'].includes(m.period_mode))&&finite(result[key])===null))||(finite(result[key])!==null&&key!=='calculated_pe'&&!(['peg','earnings_growth'].includes(key)&&/^cagr[35]$/.test(m.period_mode||''))))continue;
   result[key]=m.value;
   result.field_meta[key]={date:m.period,basis:'依匯入財報計算；'+m.formula,source:profile.overview?.source_filename||'使用者提供工作簿',downloaded_at:profile.overview?.imported_at,reason:m.reason,comparison_period:m.comparison_period,price_date:m.price_date,shares_date:m.shares_date,shares_source:m.shares_source,period_mode:m.period_mode,eps_used:m.eps_used,pe_used:m.pe_used};
@@ -449,6 +450,7 @@ async function loadReadingPanels(file){
  if(!pages.size)throw Error('頁面內容不完整');readingPanels.set(file,pages);
 }
 function metricPeriod(key,m){
+ if(m?.period_mode==='unavailable')return m.reason||'資料待確認可比';
  if(/^cagr[35]$/.test(m?.period_mode||''))return String(m.comparison_period||'').slice(0,4)+' → '+String(m.date||'').slice(0,4)+' 年全年 EPS，'+m.period_mode.slice(-1)+' 年複合成長率（CAGR）'+(key==='peg'&&m.price_date?'；股價 '+m.price_date:'');
  if(m?.period_mode==='annual')return String(m.date||'').slice(0,4)+' 年全年 EPS（與 '+String(m.comparison_period||'').slice(0,4)+' 年全年比較）'+(key==='peg'&&m.price_date?'；股價 '+m.price_date:'');
  const value=String(m?.date||''),q=value.match(/^(\d{4})-Q([1-4])$/),month=value.match(/^(\d{4})-(\d{2})$/);
@@ -463,7 +465,7 @@ function metricPeriod(key,m){
 function companyMetricsHtml(s){
  const fields=[['pe','PE 本益比'],['calculated_pe','TTM 本益比（依最近四季 EPS 算）'],['pb','PB 股價淨值比'],['ps','PS 股價營收比'],['peg','PEG 本益成長比（歷史）'],['eps','EPS 每股盈餘（年初累計）'],['trailing_eps','最近四季每股盈餘（TTM EPS）'],['trailing_sales','最近四季營收（億元）'],['revenue_growth','單月營收年增率'],['earnings_growth','EPS 成長率（年增率／複合成長率，見期間）'],['gross_margin','累計毛利率'],['roe','ROE 股東權益報酬率'],['dividend_yield','殖利率']];
  const imported=research.profiles[s.symbol]?.overview,rolling=imported?.financial?.rolling;
- const usesImport=key=>rolling&&(key==='trailing_sales'||key==='trailing_eps'&&(finite(s.trailing_eps)===null||String(s.field_meta?.trailing_eps?.date||'')<rolling.period));
+ const usesImport=key=>!research.profiles[s.symbol]?.calculated_metrics?.[key]?.blocked&&rolling&&(key==='trailing_sales'||key==='trailing_eps'&&(finite(s.trailing_eps)===null||String(s.field_meta?.trailing_eps?.date||'')<rolling.period));
  const statValue=key=>usesImport(key)?rolling[key==='trailing_sales'?'ttms':'ttm_eps']:s[key];
  const statMeta=key=>usesImport(key)?{date:rolling.period,basis:'使用者匯入累計財報；'+rolling.formula,source:imported.source_filename||'使用者提供工作簿',downloaded_at:imported.imported_at,reason:statValue(key)===null?'缺少必要累計期間或口徑不同':null}:s.field_meta?.[key]||(research.profiles[s.symbol]?.calculated_metrics?.[key]?{date:research.profiles[s.symbol].calculated_metrics[key].period,basis:research.profiles[s.symbol].calculated_metrics[key].formula,reason:research.profiles[s.symbol].calculated_metrics[key].reason,period_mode:research.profiles[s.symbol].calculated_metrics[key].period_mode,comparison_period:research.profiles[s.symbol].calculated_metrics[key].comparison_period}:null);
  const percent=['gross_margin','revenue_growth','earnings_growth','roe','dividend_yield'];

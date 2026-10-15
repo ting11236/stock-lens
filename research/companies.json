@@ -3135,21 +3135,262 @@
         "title": "大園物流園區業務簡介",
         "publisher": "長榮國際儲運",
         "published_at": null,
-        "published_at_missing_reason": "頁面未列發布日期",
-        "accessed_at": "2026-10-10",
-        "supports": "園區2022Q2啟用，太陽能2023-06-08商轉"
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "developments"
+        ],
+        "publication_missing_reason": "頁面未列日期"
+      },
+      "eitc-oct8-deck": {
+        "url": "https://mopsov.twse.com.tw/nas/STR/260720261008M001.pdf",
+        "title": "2026年10月8日法人說明會（19頁）",
+        "publisher": "長榮國際儲運",
+        "published_at": "2026-10-08",
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_basis": "封面日期10/8；官網本場索引確認，檔名非首次發布時間證明"
+      },
+      "eitc-h1-2026": {
+        "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/WPWBD026-A05001ZHPDF-53099120260814134937.PDF",
+        "title": "115年第2季合併財務報告（75頁）",
+        "publisher": "長榮國際儲運",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網檔名8/14不是可獨立確認首次發布日；財報核閱／董事會通過日以內頁為準",
+        "period_start": "2026-01-01",
+        "period_end": "2026-06-30",
+        "report_basis": "合併",
+        "currency": "TWD",
+        "unit": "千元"
+      },
+      "eitc-clients": {
+        "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A06-0-Clients.html",
+        "title": "主要客戶群",
+        "publisher": "長榮國際儲運",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "business"
+        ],
+        "publication_missing_reason": "頁面未列日期"
+      },
+      "eitc-fy2025": {
+        "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/WPWBD026-A05001ZHPDF-53099120260617090257.PDF",
+        "title": "114年度合併財務報告（90頁）",
+        "publisher": "長榮國際儲運",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "earnings"
+        ],
+        "publication_missing_reason": "官網檔名6/17上架時間不當作財報首次發布日",
+        "period": "2025全年合併"
+      },
+      "eitc-capital-reduction": {
+        "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/D04-0-Stock.html",
+        "title": "股利、股價及重大訊息—現金減資",
+        "publisher": "長榮國際儲運",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "earnings",
+          "transition"
+        ],
+        "publication_missing_reason": "頁面未列日期"
+      },
+      "peer-t3ex": {
+        "url": "https://www.t3ex-group.com/Expertise/Index",
+        "title": "台驊服務項目",
+        "publisher": "台驊控股",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "transition"
+        ],
+        "publication_missing_reason": "頁面未列日期"
+      },
+      "peer-sl": {
+        "url": "https://w3.slc.com.tw/page/freight",
+        "title": "山隆運輸事業",
+        "publisher": "山隆通運",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "transition"
+        ],
+        "publication_missing_reason": "頁面未列日期"
+      },
+      "forecast-check": {
+        "url": "https://www.cnyes.com/twstock/2607/research/finirating",
+        "title": "榮運市場預估頁",
+        "publisher": "鉅亨網／FactSet頁面",
+        "published_at": null,
+        "accessed_at": "2026-10-13",
+        "supports": [
+          "transition"
+        ],
+        "publication_missing_reason": "預估欄空白，查閱日不代表共識更新日"
       }
     },
     "limitations": [
-      "完整獲利來源、最新法說、同業尚待查找。"
+      "本批完成榮運承接整家公司既定公開查找與10/8整場可取得法說；非每日新增配額。",
+      "19頁簡報全文與圖表已核對；未取得可確認的官方原始問答文字，不找影片，不把個人筆記當官方逐字稿。",
+      "大園園區與長榮物流保稅中心不混為同一設施；子公司與權益法合資收入不能直接相加至母公司收入。",
+      "個別專案客戶、商用年月、收入預估與回收期未充分揭露；未取得可靠最新法人營收／EPS共識。",
+      "H1官網財報p6年初比較現金4,804,129千元，p12現金流期初4,908,078千元不一致；未選值或推算期內現金變動，另交來源衝突。",
+      "股數因2025年現金減資變動；年度／累計EPS分母不一致，不以既有累計差額硬推TTM、CAGR或PEG，另請網站檢查。"
     ],
     "developments": {
-      "text": "大園物流園區已投入營運，是榮運既有物流業務的設施。園區於2022年第二季啟用，鄰近桃園機場與台北港，提供倉儲服務，並有大型貨櫃車可通往各樓層的車道，方便進出貨。屋頂太陽能設備總裝置容量為1956.57瓩，已於2023年6月8日開始商業運轉。園區與太陽能的啟用時間都早於2026年。本次補上的是既有設施的歷史進度；個別營收、租用率、獲利及新擴建時程未在該官網頁面揭露。10月8日法說的最新展望與問答仍待取得。",
-      "period": "2022Q2／2023-06-08實績；2026-10-10官網查閱",
+      "text": "公司正擴充倉儲及海外物流據點，並投資航空城開發。各項進度如下。\n大園物流園區：2022年第2季啟用，倉儲面積超過35,000坪、辦公室約1,800坪。屋頂太陽能裝置1,956.57瓩，2023年6月8日商轉，2026年上半年發電約100萬度；園區個別收入與使用率未揭露。法說的「全數出租」指船舶與貨櫃租賃。\n長榮物流大園保稅中心：規模接近原有3倍，服務海空運、倉儲及高科技、汽車等專案；這是子公司的設施，與前述榮運園區分開追蹤。各期投入使用日期及收入尚待公布。\n達拉斯倉辦整合：長榮物流正在整合美國達拉斯的倉庫與辦公據點，服務北美供應鏈；正式商用日期及收入未揭露。\n印尼子公司：2022年10月13日決議設立PT. Evergreen Global Logistics Indonesia，2026年5月26日完成注資，持續拓展東南亞物流；客戶及收入仍待後續公布。\n航空城開發：與台灣人壽成立中信榮盛，榮運持股49%，依持股比例認列投資損益。2026年上半年新增投入1.96億元、累計約15.17億元，上半年認列投資損失343.3萬元。開發持續推進，官方完整商用及收入時程尚未取得。\n車隊及貨櫃：持續汰換老舊車輛、調整貨櫃資產並進行碳盤查；確切交車日期與新增收入未揭露。",
+      "period": "2025全年、2026H1及10/8法說，逐项標示",
       "sources": [
+        "eitc-oct8-deck",
+        "eitc-h1-2026",
         "eitc-dayuan"
       ],
-      "reviewed_at": "2026-10-10"
+      "projects": [
+        {
+          "project_id": "2607-dayuan-logistics",
+          "name": "大園物流園區及太陽能",
+          "type": "existing_business_facility",
+          "status": "已營運",
+          "use_and_customers": "貨主／物流企業倉儲與綠電",
+          "commercial_timing": "園區2022Q2，太陽能2023-06-08",
+          "revenue_contribution": "單項未揭露",
+          "sources": [
+            "eitc-dayuan",
+            "eitc-oct8-deck"
+          ]
+        },
+        {
+          "project_id": "2607-el-dayuan-bonded",
+          "name": "長榮物流大園保稅中心擴充",
+          "type": "existing_business_expansion",
+          "status": "公司列為營運亮點，規模近3倍",
+          "use_and_customers": "高科技、汽車與專案貨源",
+          "commercial_timing": "完整分期日期未揭露",
+          "revenue_contribution": "未揭露",
+          "sources": [
+            "eitc-oct8-deck"
+          ]
+        },
+        {
+          "project_id": "2607-dallas-integration",
+          "name": "達拉斯倉辦合一",
+          "type": "existing_business_expansion",
+          "status": "專案執行",
+          "use_and_customers": "北美物流、高科技供應鏈",
+          "commercial_timing": "未揭露，不標全部完成",
+          "revenue_contribution": "未揭露",
+          "sources": [
+            "eitc-oct8-deck"
+          ]
+        },
+        {
+          "project_id": "2607-indonesia-logistics",
+          "name": "印尼子公司拓展",
+          "type": "existing_business_expansion",
+          "status": "2026-05-26完成注資",
+          "use_and_customers": "東南亞貨主、海空運物流",
+          "commercial_timing": "完整商用里程碑未揭露",
+          "revenue_contribution": "未揭露",
+          "sources": [
+            "eitc-h1-2026",
+            "eitc-oct8-deck"
+          ]
+        },
+        {
+          "project_id": "2607-aerotropolis-jv",
+          "name": "中信榮盛航空城開發",
+          "type": "new_joint_venture",
+          "status": "設立並增資、開發推進",
+          "use_and_customers": "未揭露完整租戶與用途組合",
+          "commercial_timing": "官方完整商用日期未取得",
+          "revenue_contribution": "H1榮運認列投資損失343.3萬元；非營收預估",
+          "sources": [
+            "eitc-h1-2026",
+            "eitc-oct8-deck"
+          ]
+        },
+        {
+          "project_id": "2607-fleet-renewal",
+          "name": "車隊與貨櫃資產配置",
+          "type": "existing_business_replacement",
+          "status": "汰舊換新計畫",
+          "use_and_customers": "客運與租賃客戶",
+          "commercial_timing": "未揭露精確交車日期",
+          "revenue_contribution": "未揭露",
+          "sources": [
+            "eitc-oct8-deck"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "business": {
+      "text": "榮運提供貨櫃場、內陸運輸、碼頭、倉儲、客運、加油站及船舶與貨櫃出租；子公司長榮物流承接海空運貨物、報關與倉儲配送。公司主要幫客戶把貨物送到港口、裝卸、存放及配送，並收取服務費或租金。\n2026年上半年，國際海運部門（碼頭與船櫃租賃）營業利益約5.69億元，貨物承攬約3.00億元，貨櫃場約1.24億元，內陸運輸約0.67億元；加上加油站、其他業務並扣除內部交易調整後，全公司營業利益約10.80億元。承攬運送的收入規模最大，但船櫃出租與碼頭部門帶來的營業利益較多。\n10月8日法說列出155部曳引車、740部板架、2座內陸貨櫃場、61部交通遊覽車；台中港服務12家直靠航商、21條兩岸及亞洲航線。官網客戶名單包括長榮海運、長榮航空、陽明、地中海航運、台灣大創及新竹物流；個別客戶貢獻未揭露。",
+      "period": "2025全年、2026H1及10/8法說，逐项標示",
+      "sources": [
+        "eitc-oct8-deck",
+        "eitc-h1-2026",
+        "eitc-clients"
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "earnings": {
+      "text": "2026年上半年，生意略增，但獲利比去年少。營收90.44億元、年增2.40%；營業利益10.80億元、年減11.91%；屬於母公司股東的淨利14.31億元、年減13.22%。主要下滑來自貨物承攬部門，營業利益由5.10億元降到3.00億元；碼頭與船櫃租賃、貨櫃場的營業利益則增加。\n上半年EPS為2.68元，去年同期為1.55元。公司2025年現金減資50%，股數減少，讓每股分到的盈餘變大；公司整體淨利其實下降。原始EPS照列；待取得可比較的調整後數字，再恢復TTM EPS、EPS成長率及PEG。2026年第2季單季公布EPS為1.64元、歸母淨利約8.78億元。\n上半年本業以外的淨收益約7.80億元，其中出售不動產、廠房及設備獲利約4.52億元，股利收入約2.58億元。出售資產帶來一次收入，閱讀獲利時也要看物流本業是否持續改善。2025全年營收170.99億元、營業利益20.39億元、歸母淨利28.90億元；當年出售資產獲利約8.88億元，也明顯影響全年成績。\n2026年6月底，資產480.77億元、負債163.97億元、股東權益316.81億元、現金47.66億元。短期借款4.44億元、長期借款42.36億元，加上一年內到期長期負債12.01億元，表列借款合計58.81億元；租賃負債11.97億元另列。長期關係人應收款116.46億元主要與融資租賃有關，重點是後續收款。\n上半年營業現金流入12.55億元，去年同期17.98億元；購置設備等現金支出46.28億元、新增長期借款25.65億元。需要追蹤設備投入後的收入及還款安排。同份財報的2025年底現金比較數與現金流量表期初數相差1.04億元，原因待核對；兩筆原始值均保留。",
+      "period": "2025全年、2026H1及10/8法說，逐项標示",
+      "sources": [
+        "eitc-oct8-deck",
+        "eitc-h1-2026",
+        "eitc-fy2025",
+        "eitc-capital-reduction"
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "transition": {
+      "text": "公司發展方向：把港口、內陸運輸與倉儲配送串起來，爭取高科技、汽車及新能源等專案貨源，並擴展海外物流。公司希望藉由更完整的服務及成本管理，提高每筆生意留下的利潤；本場法說未提供可核對的整體營收或EPS金額目標。\n接下來先看貨物承攬的獲利有沒有回升。7月及8月營收分別年增40.60%、49.39%，代表這兩個月生意增加，全年能賺多少仍要看成本與後續季度。9月營收另依網站共同來源更新。\n倉儲與海外據點要追蹤何時投入使用、客戶使用情況及收入；航空城合資案要看開發進度、後續投入及投資損益。設備支出較多，也要一起看借款到期安排與現金流。\n比較同業時，2636台驊較適合對照子公司的海空運承攬及倉配；2616山隆較適合對照內陸貨櫃運輸、加油站與倉儲。兩家的業務組合與榮運仍有差異，估值時需一起看資產租賃、碼頭及獲利結構。\n本次整理涵蓋10月8日19頁官方簡報及相關財報附註；原始問答文字未取得。紅海、中東、俄烏、極端氣候及貿易變化是公司提出的營運風險，後續觀察港口效率、能源成本及貨流變化。",
+      "period": "2025全年、2026H1及10/8法說，逐项標示",
+      "sources": [
+        "eitc-oct8-deck",
+        "eitc-h1-2026",
+        "eitc-capital-reduction",
+        "peer-t3ex",
+        "peer-sl",
+        "forecast-check"
+      ],
+      "peer_candidates": [
+        {
+          "company_code": "2636",
+          "market": "TWSE",
+          "reason": "海空運承攬及倉配，對照子公司長榮物流"
+        },
+        {
+          "company_code": "2616",
+          "market": "TWSE",
+          "reason": "內陸貨櫃運輸／售油及倉儲，對照母公司服務"
+        }
+      ],
+      "reviewed_at": "2026-10-13"
+    },
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "meeting_research": {
+      "event_date": "2026-10-08",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-10-13",
+      "original_qa_verified": false,
+      "batch_id": "research-20261013-2607-v1"
     }
   },
   "1215.TW": {

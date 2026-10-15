@@ -109,3 +109,22 @@ class AnnualPEGTests(unittest.TestCase):
             r=derived_metrics({'price':100},{'cumulative':rows})
             self.assertEqual(r['earnings_growth']['value'],growth)
             self.assertIsNone(r['peg']['value'])
+
+
+class EPSComparabilityTests(unittest.TestCase):
+    def test_capital_reduction_blocks_derived_eps_but_preserves_revenue_profit(self):
+        from financial_ttm import derived_metrics
+        rows={f'{y}-Q4':{'basis':'合併營業收入','eps':1+y-2020,'revenue':100,'net_income':20,'eps_comparable':False,'eps_comparability_reason':'減資待可比'} for y in range(2020,2026)}
+        rows['2025-Q2']={'basis':'合併營業收入','eps':1.55,'revenue':50,'net_income':10,'eps_comparable':False}
+        rows['2026-Q2']={'basis':'合併營業收入','eps':2.68,'revenue':60,'net_income':9,'eps_comparable':False}
+        r=rolling_financials(rows)
+        self.assertIsNone(r['ttm_eps'])
+        self.assertEqual(r['ttms'],110)
+        self.assertEqual(r['ttm_parent_profit'],19)
+        self.assertTrue(all(q['eps'] is None for q in r['quarters']))
+        metrics=derived_metrics({'price':100,'issued_shares':100000000,'shares_date':'2026-10-15'},{'cumulative':rows})
+        for key in ('trailing_eps','calculated_pe','earnings_growth','peg'):
+            self.assertIsNone(metrics[key]['value'])
+            self.assertTrue(metrics[key]['blocked'])
+        self.assertEqual(rows['2026-Q2']['eps'],2.68)
+        self.assertIsNotNone(metrics['ps']['value'])

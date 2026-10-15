@@ -18,7 +18,7 @@ def trailing_value(records, period, field):
     rows = [records.get(key, {}) for key in keys]
     values = [row.get(field) for row in rows]
     bases = {row.get('basis') for row in rows if row.get('basis')}
-    if not all(numeric(v) for v in values) or len(bases) > 1:
+    if (field == 'eps' and any(row.get('eps_comparable') is False for row in rows)) or not all(numeric(v) for v in values) or len(bases) > 1:
         return None
     return values[0] if quarter == 4 else values[0] + values[1] - values[2]
 
@@ -41,6 +41,8 @@ def rolling_financials(records):
             value = current.get(field)
             prior = previous.get(field) if previous is not None else 0
             comparable = previous is None or current.get('basis') == previous.get('basis')
+            if field == 'eps' and (current.get('eps_comparable') is False or (previous or {}).get('eps_comparable') is False):
+                comparable = False
             row[field] = value - prior if numeric(value) and numeric(prior) and comparable else None
         quarters.append(row)
     return {'period': latest, 'start_period': quarters[0]['period'],
@@ -110,7 +112,12 @@ def derived_metrics(stock, financial, equity_history=None):
         n=int(growth_mode[-1])
         formulas['earnings_growth']=(growth, f'（期末全年 EPS ÷ {n} 年前全年 EPS）^(1/{n}) − 1，再乘 100%', '缺少連續同口徑正值全年 EPS')
         formulas['peg']=(peg_pe/growth if peg_pe is not None and 1 <= growth <= 100 else None, f'（股價 ÷ 期末全年 EPS）÷ {n} 年 EPS 複合成長率百分點', 'EPS CAGR 須在 1%–100% 的本站研究範圍內，且股價有效')
-    return {key: {'value': value, 'period': growth_period if key in ('peg','earnings_growth') else period, 'formula': formula,
+    blocked_reason = next((row.get('eps_comparability_reason') or 'EPS股數基礎尚未確認可比' for row in records.values() if row.get('eps_comparable') is False), None)
+    if blocked_reason:
+        for key in ('trailing_eps', 'calculated_pe', 'earnings_growth', 'peg'):
+            formulas[key] = (None, formulas[key][1], blocked_reason)
+        growth_eps = peg_pe = None
+    return {key: {'value': value, 'blocked': bool(blocked_reason and key in ('trailing_eps', 'calculated_pe', 'earnings_growth', 'peg')), 'period': growth_period if key in ('peg','earnings_growth') else period, 'formula': formula,
                   'reason': None if value is not None else reason,
                   'comparison_period': (growth_prior_period if key in ('peg','earnings_growth') else prior_period if key == 'roe' else None),
                   'period_mode': growth_mode if key in ('peg','earnings_growth') else None,

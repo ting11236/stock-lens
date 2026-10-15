@@ -1,0 +1,862 @@
+{
+  "batch_id": "research-20261013-2607-v1",
+  "adopted_at": "2026-10-15",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261013-2607-v1",
+    "ready": true,
+    "created_at": "2026-10-13T21:41:31.144653+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:216acd655f703775adacc99590d3493b2678ac47e20d80dcb64fde146cd92432",
+    "work_type": "backfill",
+    "completion_unit": "榮運整家公司承接剩餘及10/8整場可取得法說資料",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "本批完成榮運承接整家公司既定公開查找與10/8整場可取得法說；非每日新增配額。",
+      "19頁簡報全文與圖表已核對；未取得可確認的官方原始問答文字，不找影片，不把個人筆記當官方逐字稿。",
+      "大園園區與長榮物流保稅中心不混為同一設施；子公司與權益法合資收入不能直接相加至母公司收入。",
+      "個別專案客戶、商用年月、收入預估與回收期未充分揭露；未取得可靠最新法人營收／EPS共識。",
+      "H1官網財報p6年初比較現金4,804,129千元，p12現金流期初4,908,078千元不一致；未選值或推算期內現金變動，另交來源衝突。",
+      "股數因2025年現金減資變動；年度／累計EPS分母不一致，不以既有累計差額硬推TTM、CAGR或PEG，另請網站檢查。"
+    ],
+    "meeting_research": {
+      "company_code": "2607",
+      "meeting_date": "2026-10-08",
+      "research_complete": true,
+      "scope": "19頁完整官方簡報圖表＋相關正式財報附註；原始問答缺漏明示",
+      "original_qa_verified": false
+    },
+    "numeric_corrections_file": "數字可比性與來源衝突.json"
+  },
+  "before": {
+    "record": {
+      "name": "榮運",
+      "reviewed_at": null,
+      "research_completion": "partial",
+      "sources": {
+        "eitc-dayuan": {
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/B07-1-Intro.html",
+          "title": "大園物流園區業務簡介",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列發布日期",
+          "accessed_at": "2026-10-10",
+          "supports": "園區2022Q2啟用，太陽能2023-06-08商轉"
+        }
+      },
+      "limitations": [
+        "完整獲利來源、最新法說、同業尚待查找。"
+      ],
+      "developments": {
+        "text": "大園物流園區已投入營運，是榮運既有物流業務的設施。園區於2022年第二季啟用，鄰近桃園機場與台北港，提供倉儲服務，並有大型貨櫃車可通往各樓層的車道，方便進出貨。屋頂太陽能設備總裝置容量為1956.57瓩，已於2023年6月8日開始商業運轉。園區與太陽能的啟用時間都早於2026年。本次補上的是既有設施的歷史進度；個別營收、租用率、獲利及新擴建時程未在該官網頁面揭露。10月8日法說的最新展望與問答仍待取得。",
+        "period": "2022Q2／2023-06-08實績；2026-10-10官網查閱",
+        "sources": [
+          "eitc-dayuan"
+        ],
+        "reviewed_at": "2026-10-10"
+      }
+    },
+    "overview": {
+      "name": "榮運",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 416,
+      "business": "貨櫃場、貨運、倉儲、客運及船舶出租等物流服務",
+      "direction": "智慧倉儲、物流整合與低碳營運方向；最新新增量能待核",
+      "profit_mechanism": "裝卸、運輸、倉儲與資產出租毛利",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "本次財務篩選未觸發；非無風險認定",
+      "urls": [
+        "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A01-0-Profile.html",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 212.47504,
+        "fy2025": 170.99193,
+        "q32025": 41.53161,
+        "q42025": 41.14022,
+        "q12026": 39.9193,
+        "q22026": 50.5227,
+        "ttm": 173.11383,
+        "h1_operating_profit": 10.79781,
+        "h1_nonoperating": 7.79573,
+        "h1_pretax": 18.59354,
+        "h1_parent_profit": 14.314070000000001,
+        "h1_operating_margin": 0.11938933238981901,
+        "h1_nonoperating_share": 0.41927088655522304,
+        "fy2025_parent_profit": 28.89795,
+        "q22026_parent_profit": 8.78139,
+        "screening": "未觸發本次篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 90.44200000000001,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 212.47504,
+            "net_income": 27.772750000000002,
+            "eps": 2.6,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 88.3201,
+            "net_income": 16.488500000000002,
+            "eps": 1.55,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 129.85171,
+            "net_income": 24.63519,
+            "eps": 2.72,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 170.99193,
+            "net_income": 28.89795,
+            "eps": 3.56,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 39.9193,
+            "net_income": 5.53268,
+            "eps": 1.04,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 90.44200000000001,
+            "net_income": 14.314070000000001,
+            "eps": 2.68,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 0.64,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 1.0,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 3.3,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 2.55,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 41.53161,
+              "eps": 1.1700000000000002,
+              "net_income": 8.14669
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 41.14022,
+              "eps": 0.8399999999999999,
+              "net_income": 4.26276
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 39.9193,
+              "eps": 1.04,
+              "net_income": 5.53268
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 50.52270000000001,
+              "eps": 1.6400000000000001,
+              "net_income": 8.781390000000002
+            }
+          ],
+          "ttms": 173.11383000000004,
+          "ttm_eps": 4.69,
+          "ttm_parent_profit": 26.72352,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 173.11 億元；每股盈餘 4.69 元；歸母淨利 26.72 億元。營收未扣成本與費用，不等於獲利。獲利機制：裝卸、運輸、倉儲與資產出租毛利。",
+      "events": [],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A01-0-Profile.html"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2607",
+            "name": "榮運",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 480.77377,
+            "liabilities": 163.96836,
+            "equity": 316.80541,
+            "parent_equity": 313.65686,
+            "cash": 47.66276,
+            "current_assets": 161.80034,
+            "current_liabilities": 81.49445,
+            "listed_borrowings": 46.80585,
+            "listed_leases": 11.97287,
+            "operating_cashflow": 12.548250000000001,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2607&companyId=2608&companyId=2609&companyId=2610&companyId=2611",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2607&companyId=2608&companyId=2609&companyId=2610&companyId=2611",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2607",
+            "name": "榮運",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 423.0818,
+            "liabilities": 114.4382,
+            "equity": 308.6436,
+            "parent_equity": 305.29708999999997,
+            "cash": 48.041290000000004,
+            "current_assets": 145.7775,
+            "current_liabilities": 46.175850000000004,
+            "listed_borrowings": 29.79017,
+            "listed_leases": 13.10279,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2607&companyId=2608&companyId=2609&companyId=2610&companyId=2611",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2607&companyId=2608&companyId=2609&companyId=2610&companyId=2611",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "delivery_updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261013-2607-v1-business",
+      "task_id": "backfill-20261009-2607",
+      "related_task_ids": [
+        "meeting-2607.TW-2026-10-08"
+      ],
+      "company_code": "2607",
+      "company_name": "榮運",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:3d662bbb61ac336fa867a1e65136d3223d199c5f4c80bd0d4fea83ad9a5f22ad",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:f486002ba3b5478dacf79153199b285544396a232b7d21cddcc2f5500e90ef19",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "榮運（2607，長榮國際儲運）提供貨櫃場、內陸運輸、碼頭、倉儲、客運、售油及船舶／貨櫃出租；子公司長榮物流提供海空運貨物承攬、報關與倉配整合。公司處於貨主、航商、港口與內陸據點之間的物流服務環節，不能直接以長榮海運船公司運價循環代表全部業務。10月8日法說列155部曳引車、740部板架、2座內陸貨櫃場、61部交通遊覽車；台中港12家直靠航商、21條兩岸與亞洲航線。\n官網列示客戶包括長榮海運、長榮航空、陽明、地中海航運、台灣大創、新竹物流等；名單未列期間或占比，不當作新增訂單。大園園區服務貨主／物流企業；高科技、汽車、光電、儲能及特殊規格貨物是公司拓展方向，未揭露全部具名客戶。\n【2026H1部門獲利，新台幣億元、合併報告】國際海運部門（碼頭與船櫃租賃）營業損益5.68621億元，貨物承攬3.00215億元、貨櫃場1.24235億元、內陸運輸0.67013億元、加油站0.02803億元，其他0.28004億元，調整沖銷-0.11110億元，合計營業利益10.79781億元。這是部門營業損益，不是歸母淨利。貨物承攬報表收益66.86703億元、國際海運12.41787億元，原表另有收益沖銷，不能把未沖銷收益占比硬當對外收入占比；收入规模最大不代表獲利最多。",
+        "period": "2025全年、2026H1及10/8法說，逐项標示",
+        "sources": [
+          "eitc-oct8-deck",
+          "eitc-h1-2026",
+          "eitc-clients"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "eitc-oct8-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260720261008M001.pdf",
+          "title": "2026年10月8日法人說明會（19頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_basis": "封面日期10/8；官網本場索引確認，檔名非首次發布時間證明"
+        },
+        {
+          "source_id": "eitc-h1-2026",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/WPWBD026-A05001ZHPDF-53099120260814134937.PDF",
+          "title": "115年第2季合併財務報告（75頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網檔名8/14不是可獨立確認首次發布日；財報核閱／董事會通過日以內頁為準",
+          "period_start": "2026-01-01",
+          "period_end": "2026-06-30",
+          "report_basis": "合併",
+          "currency": "TWD",
+          "unit": "千元"
+        },
+        {
+          "source_id": "eitc-clients",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A06-0-Clients.html",
+          "title": "主要客戶群",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business"
+          ],
+          "publication_missing_reason": "頁面未列日期"
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_explicit_research_inference",
+      "event_date": "2026-10-08",
+      "research_completed_at": "2026-10-13T21:41:31.144653+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成榮運承接整家公司既定公開查找與10/8整場可取得法說；非每日新增配額。",
+        "19頁簡報全文與圖表已核對；未取得可確認的官方原始問答文字，不找影片，不把個人筆記當官方逐字稿。",
+        "大園園區與長榮物流保稅中心不混為同一設施；子公司與權益法合資收入不能直接相加至母公司收入。",
+        "個別專案客戶、商用年月、收入預估與回收期未充分揭露；未取得可靠最新法人營收／EPS共識。",
+        "H1官網財報p6年初比較現金4,804,129千元，p12現金流期初4,908,078千元不一致；未選值或推算期內現金變動，另交來源衝突。",
+        "股數因2025年現金減資變動；年度／累計EPS分母不一致，不以既有累計差額硬推TTM、CAGR或PEG，另請網站檢查。"
+      ],
+      "completion_unit": "榮運整家公司承接剩餘及10/8整場可取得法說資料"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261013-2607-v1-earnings",
+      "task_id": "backfill-20261009-2607",
+      "related_task_ids": [
+        "meeting-2607.TW-2026-10-08"
+      ],
+      "company_code": "2607",
+      "company_name": "榮運",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:3d662bbb61ac336fa867a1e65136d3223d199c5f4c80bd0d4fea83ad9a5f22ad",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:f486002ba3b5478dacf79153199b285544396a232b7d21cddcc2f5500e90ef19",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【2026H1累計、合併、新台幣】營收90.442億元、年增2.40%；毛利18.87747億元、年減5.36%；營業利益10.79781億元、年減11.91%；本期淨利14.51618億元、歸母淨利14.31407億元、年減13.22%；基本EPS2.68元對去年1.55元。2025現金減資50%，減資基準7/11、變更登記9/3、換發股票基準10/3、新股票10/7交易；H1加權股數由10.67141億股降至5.33571億股。EPS增72.90%並非淨利成長。Q2單季歸母淨利8.78139億元、EPS1.64元，不把H1當Q2單季。\n獲利下降主要可從貨物承攬部門營業損益由5.10449億元降至3.00215億元看到；國際海運與貨櫃場利益反而增加，合計營業成本增幅高於收入、費用亦增加。資料未完全拆出貨量／單價／運價對各部門原因，不能直接認定單一戰爭因素造成全部下降。\n【業外】H1業外淨額7.79573億元，包含股利2.58150億元、其他收入0.11663億元、利息0.47426億元、其他利益淨額4.51940億元、權益法0.88963億元，扣財務成本0.78569億元。其他利益主要為處分不動產廠房設備4.51693億元及匯兌淨利0.01292億元；處分資產利益不是物流經常性收入。Q2業外5.37196億元對去年2.98204億元，匯兌由-3.98235億元變為-0.24392億元是重要改善；全年H1業外仍低於去年8.53108億元。\n2025全年營收170.99193億元、營業利益20.38672億元，本期淨利29.41859億元、歸母淨利28.89795億元（歸母值沿網站共同基線）。營業利益比2024的26.51903億元下滑，業外由10.17935億元增至16.02428億元：處分資產淨利由1.17437億元增至8.88194億元、股利由2.82254億元增至5.45263億元，但匯兌由+3.14697億元變-0.85792億元。未觸發原篩選不代表沒有重大業外依賴。\n【2026/6/30資產負債】資產480.77377億元、負債163.96836億元、權益316.80541億元，現金47.66276億元。短借4.44242億元、長借42.36343億元，另有一年內到期長期負債12.00885億元，原表列借款46.80585億元缺此到期項；租賃負債11.97287億元另列。長期關係人應收116.46095億元主要與融資租賃相關，需看收款與信用風險，不能當現金。\nH1營業現金流表列12.54825億元，低於去年17.98497億元；取得不動產廠房設備含預付款的現金支出46.27696億元、舉借長借25.64947億元。借款與應付設備款增加需連結資產配置及租賃投資，投資金額不是營收。財報年初比較現金與現金流期初現金有1.03949億元差異，本批不推算期內現金變動，保留待公司／正式修正核對。",
+        "period": "2025全年、2026H1及10/8法說，逐项標示",
+        "sources": [
+          "eitc-oct8-deck",
+          "eitc-h1-2026",
+          "eitc-fy2025",
+          "eitc-capital-reduction"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "eitc-oct8-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260720261008M001.pdf",
+          "title": "2026年10月8日法人說明會（19頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_basis": "封面日期10/8；官網本場索引確認，檔名非首次發布時間證明"
+        },
+        {
+          "source_id": "eitc-h1-2026",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/WPWBD026-A05001ZHPDF-53099120260814134937.PDF",
+          "title": "115年第2季合併財務報告（75頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網檔名8/14不是可獨立確認首次發布日；財報核閱／董事會通過日以內頁為準",
+          "period_start": "2026-01-01",
+          "period_end": "2026-06-30",
+          "report_basis": "合併",
+          "currency": "TWD",
+          "unit": "千元"
+        },
+        {
+          "source_id": "eitc-fy2025",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/WPWBD026-A05001ZHPDF-53099120260617090257.PDF",
+          "title": "114年度合併財務報告（90頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "earnings"
+          ],
+          "publication_missing_reason": "官網檔名6/17上架時間不當作財報首次發布日",
+          "period": "2025全年合併"
+        },
+        {
+          "source_id": "eitc-capital-reduction",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/D04-0-Stock.html",
+          "title": "股利、股價及重大訊息—現金減資",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "earnings",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未列日期"
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_explicit_research_inference",
+      "event_date": "2026-10-08",
+      "research_completed_at": "2026-10-13T21:41:31.144653+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成榮運承接整家公司既定公開查找與10/8整場可取得法說；非每日新增配額。",
+        "19頁簡報全文與圖表已核對；未取得可確認的官方原始問答文字，不找影片，不把個人筆記當官方逐字稿。",
+        "大園園區與長榮物流保稅中心不混為同一設施；子公司與權益法合資收入不能直接相加至母公司收入。",
+        "個別專案客戶、商用年月、收入預估與回收期未充分揭露；未取得可靠最新法人營收／EPS共識。",
+        "H1官網財報p6年初比較現金4,804,129千元，p12現金流期初4,908,078千元不一致；未選值或推算期內現金變動，另交來源衝突。",
+        "股數因2025年現金減資變動；年度／累計EPS分母不一致，不以既有累計差額硬推TTM、CAGR或PEG，另請網站檢查。"
+      ],
+      "completion_unit": "榮運整家公司承接剩餘及10/8整場可取得法說資料"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261013-2607-v1-developments",
+      "task_id": "backfill-20261009-2607",
+      "related_task_ids": [
+        "meeting-2607.TW-2026-10-08"
+      ],
+      "company_code": "2607",
+      "company_name": "榮運",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:3d662bbb61ac336fa867a1e65136d3223d199c5f4c80bd0d4fea83ad9a5f22ad",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:f486002ba3b5478dacf79153199b285544396a232b7d21cddcc2f5500e90ef19",
+      "expected_old_section_version": "sha256:9d4e75f6e24e6c0d1b5301c91ee3a643f5fa15ed7a9c8d3f72686fe87a2e715e",
+      "old_content": {
+        "text": "大園物流園區已投入營運，是榮運既有物流業務的設施。園區於2022年第二季啟用，鄰近桃園機場與台北港，提供倉儲服務，並有大型貨櫃車可通往各樓層的車道，方便進出貨。屋頂太陽能設備總裝置容量為1956.57瓩，已於2023年6月8日開始商業運轉。園區與太陽能的啟用時間都早於2026年。本次補上的是既有設施的歷史進度；個別營收、租用率、獲利及新擴建時程未在該官網頁面揭露。10月8日法說的最新展望與問答仍待取得。",
+        "period": "2022Q2／2023-06-08實績；2026-10-10官網查閱",
+        "sources": [
+          "eitc-dayuan"
+        ],
+        "reviewed_at": "2026-10-10"
+      },
+      "new_content": {
+        "text": "【2607-dayuan-logistics｜既有物流設施】沿用前次ID：大園園區2022Q2啟用，屋頂太陽能1,956.57瓩、2023/6/8商轉，保留既有歷史。10月法說列倉儲35,000多坪、辦公1,800坪7層；H1屋頂發電約100萬度。這不是整體園區全數出租或新增收入保證；簡報「全數出租」對應船舶／貨櫃租賃，不是大園園區。單項租用率與收入未揭露。\n【2607-el-dayuan-bonded｜既有業務擴充】長榮物流大園保稅國際物流中心規模近原有3倍，提升海空倉整合及高科技／汽車專案服務。公司簡報已列營運亮點，但未載完整分期完工日期、使用率、收入貢獻或回收期；不與榮運大園園區35,000坪混為同一設施。\n【2607-dallas-integration｜既有業務據點整合】長榮物流執行美國達拉斯倉辦合一，服務北美與高科技供應鏈；未揭露完工／商用年月、倉儲面積及單項貢獻，標示專案執行，不宣稱已全部商用。\n【2607-indonesia-logistics｜既有業務海外拓展】長榮物流印尼子公司PT. Evergreen Global Logistics Indonesia，2022/10/13董事會決議設立，2026/5/26完成注資；10月簡報重申東南亞布局。注資已完成不等於新公司營收已達預期，實際客戶／收入及完整商用里程碑未揭露。空運聚焦亞洲北美高科技，海運專案聚焦新能源、光電儲能、汽車與特殊貨物。\n【2607-aerotropolis-jv｜新合資開發事業】2025/8/8與台灣人壽簽約，9/19中信榮盛核准設立；榮運持49%、採權益法，H1新增投資1.96億元、累計投入約15.17億元、認列投資損失343.3萬元，非已貢獻大量營收。10月官方簡報仍為推進航空城開發；各基地投產、租戶與收入預估未充分揭露，不把媒體所說專案總投資當榮運營收。私人筆記提10/20動土，未取得官方依據不採為確認日期。合資虧損及未來增資義務需持續追蹤。\n【2607-fleet-renewal｜既有業務汰換】遊覽車汰舊換新、貨櫃資產配置與碳盤查是10月行動方案；確切交車時點、資本支出拆分、增量收入未揭露，不把汰換當全數新增運能。",
+        "period": "2025全年、2026H1及10/8法說，逐项標示",
+        "sources": [
+          "eitc-oct8-deck",
+          "eitc-h1-2026",
+          "eitc-dayuan"
+        ],
+        "projects": [
+          {
+            "project_id": "2607-dayuan-logistics",
+            "name": "大園物流園區及太陽能",
+            "type": "existing_business_facility",
+            "status": "已營運",
+            "use_and_customers": "貨主／物流企業倉儲與綠電",
+            "commercial_timing": "園區2022Q2，太陽能2023-06-08",
+            "revenue_contribution": "單項未揭露",
+            "sources": [
+              "eitc-dayuan",
+              "eitc-oct8-deck"
+            ]
+          },
+          {
+            "project_id": "2607-el-dayuan-bonded",
+            "name": "長榮物流大園保稅中心擴充",
+            "type": "existing_business_expansion",
+            "status": "公司列為營運亮點，規模近3倍",
+            "use_and_customers": "高科技、汽車與專案貨源",
+            "commercial_timing": "完整分期日期未揭露",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "eitc-oct8-deck"
+            ]
+          },
+          {
+            "project_id": "2607-dallas-integration",
+            "name": "達拉斯倉辦合一",
+            "type": "existing_business_expansion",
+            "status": "專案執行",
+            "use_and_customers": "北美物流、高科技供應鏈",
+            "commercial_timing": "未揭露，不標全部完成",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "eitc-oct8-deck"
+            ]
+          },
+          {
+            "project_id": "2607-indonesia-logistics",
+            "name": "印尼子公司拓展",
+            "type": "existing_business_expansion",
+            "status": "2026-05-26完成注資",
+            "use_and_customers": "東南亞貨主、海空運物流",
+            "commercial_timing": "完整商用里程碑未揭露",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "eitc-h1-2026",
+              "eitc-oct8-deck"
+            ]
+          },
+          {
+            "project_id": "2607-aerotropolis-jv",
+            "name": "中信榮盛航空城開發",
+            "type": "new_joint_venture",
+            "status": "設立並增資、開發推進",
+            "use_and_customers": "未揭露完整租戶與用途組合",
+            "commercial_timing": "官方完整商用日期未取得",
+            "revenue_contribution": "H1榮運認列投資損失343.3萬元；非營收預估",
+            "sources": [
+              "eitc-h1-2026",
+              "eitc-oct8-deck"
+            ]
+          },
+          {
+            "project_id": "2607-fleet-renewal",
+            "name": "車隊與貨櫃資產配置",
+            "type": "existing_business_replacement",
+            "status": "汰舊換新計畫",
+            "use_and_customers": "客運與租賃客戶",
+            "commercial_timing": "未揭露精確交車日期",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "eitc-oct8-deck"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "eitc-oct8-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260720261008M001.pdf",
+          "title": "2026年10月8日法人說明會（19頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_basis": "封面日期10/8；官網本場索引確認，檔名非首次發布時間證明"
+        },
+        {
+          "source_id": "eitc-h1-2026",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/WPWBD026-A05001ZHPDF-53099120260814134937.PDF",
+          "title": "115年第2季合併財務報告（75頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網檔名8/14不是可獨立確認首次發布日；財報核閱／董事會通過日以內頁為準",
+          "period_start": "2026-01-01",
+          "period_end": "2026-06-30",
+          "report_basis": "合併",
+          "currency": "TWD",
+          "unit": "千元"
+        },
+        {
+          "source_id": "eitc-dayuan",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/B07-1-Intro.html",
+          "title": "大園物流園區業務簡介",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "developments"
+          ],
+          "publication_missing_reason": "頁面未列日期"
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_explicit_research_inference",
+      "event_date": "2026-10-08",
+      "research_completed_at": "2026-10-13T21:41:31.144653+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成榮運承接整家公司既定公開查找與10/8整場可取得法說；非每日新增配額。",
+        "19頁簡報全文與圖表已核對；未取得可確認的官方原始問答文字，不找影片，不把個人筆記當官方逐字稿。",
+        "大園園區與長榮物流保稅中心不混為同一設施；子公司與權益法合資收入不能直接相加至母公司收入。",
+        "個別專案客戶、商用年月、收入預估與回收期未充分揭露；未取得可靠最新法人營收／EPS共識。",
+        "H1官網財報p6年初比較現金4,804,129千元，p12現金流期初4,908,078千元不一致；未選值或推算期內現金變動，另交來源衝突。",
+        "股數因2025年現金減資變動；年度／累計EPS分母不一致，不以既有累計差額硬推TTM、CAGR或PEG，另請網站檢查。"
+      ],
+      "completion_unit": "榮運整家公司承接剩餘及10/8整場可取得法說資料"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261013-2607-v1-transition",
+      "task_id": "backfill-20261009-2607",
+      "related_task_ids": [
+        "meeting-2607.TW-2026-10-08"
+      ],
+      "company_code": "2607",
+      "company_name": "榮運",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:3d662bbb61ac336fa867a1e65136d3223d199c5f4c80bd0d4fea83ad9a5f22ad",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:f486002ba3b5478dacf79153199b285544396a232b7d21cddcc2f5500e90ef19",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【展望】公司以一條龍運輸、船邊／轉運／內陸／倉儲整合服務與成本價格管理提升收益，重點拓展高科技與專案貨源。10月簡報揭露月營收到8月，7、8月年增40.60%、49.39%，是單月實績，不等於全年獲利增幅；更新行情與9月數字仍以網站共同來源處理。紅海／中東與俄烏、極端氣候和貿易碎片化影響港口效率、能源及貨流，屬公司風險觀點。\n【財測與同業】本場未提供可核對整體收入／EPS金額財測，鉅亨FactSet頁未顯示可用共識。找到3月媒體作者EPS期望值，時點舊且非公司財測或最新法人共識，本批不採。優先同業2636台驊：海空運承攬、倉儲與供應鏈整合，對照長榮物流較合適；2616山隆：貨櫃內陸運輸、售油及倉儲，對照榮運母公司服務較合適。兩者資產租賃／碼頭與部門組合不同，不能直接套同一PE；2603長榮為大型船公司兼客戶，非整家公司主要估值同業。\n【研究判斷】收入回升須與承攬利潤及費用率同看；本業與股利、設備處分及權益法收益拆開，可避免把資產處分誤判為物流長期成長。減資造成EPS分母改變，舊年度和累計EPS不直接差分／CAGR；原網站TTM EPS待可比股數重新檢查。中信榮盛仍處投資階段，不能用合資總案金額或動土計畫作已認列收入。融資租賃應收、借款到期結構與設備投資是財務重點。\n【完整會議與限制】本批已讀19頁官方簡報全頁、圖表及官網財報相關業務／部門／業外／資產負債／新案附註；簡報無可核對原始問答文字。公開來源未取得官方逐字稿，不搜尋影片；不把私人投資筆記的數字與問答冒稱官方。單項未揭露欄位已逐項說明，完成合理查找不等於資訊零缺漏。",
+        "period": "2025全年、2026H1及10/8法說，逐项標示",
+        "sources": [
+          "eitc-oct8-deck",
+          "eitc-h1-2026",
+          "eitc-capital-reduction",
+          "peer-t3ex",
+          "peer-sl",
+          "forecast-check"
+        ],
+        "peer_candidates": [
+          {
+            "company_code": "2636",
+            "market": "TWSE",
+            "reason": "海空運承攬及倉配，對照子公司長榮物流"
+          },
+          {
+            "company_code": "2616",
+            "market": "TWSE",
+            "reason": "內陸貨櫃運輸／售油及倉儲，對照母公司服務"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "eitc-oct8-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260720261008M001.pdf",
+          "title": "2026年10月8日法人說明會（19頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_basis": "封面日期10/8；官網本場索引確認，檔名非首次發布時間證明"
+        },
+        {
+          "source_id": "eitc-h1-2026",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/WPWBD026-A05001ZHPDF-53099120260814134937.PDF",
+          "title": "115年第2季合併財務報告（75頁）",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網檔名8/14不是可獨立確認首次發布日；財報核閱／董事會通過日以內頁為準",
+          "period_start": "2026-01-01",
+          "period_end": "2026-06-30",
+          "report_basis": "合併",
+          "currency": "TWD",
+          "unit": "千元"
+        },
+        {
+          "source_id": "eitc-capital-reduction",
+          "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/D04-0-Stock.html",
+          "title": "股利、股價及重大訊息—現金減資",
+          "publisher": "長榮國際儲運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "earnings",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未列日期"
+        },
+        {
+          "source_id": "peer-t3ex",
+          "url": "https://www.t3ex-group.com/Expertise/Index",
+          "title": "台驊服務項目",
+          "publisher": "台驊控股",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未列日期"
+        },
+        {
+          "source_id": "peer-sl",
+          "url": "https://w3.slc.com.tw/page/freight",
+          "title": "山隆運輸事業",
+          "publisher": "山隆通運",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未列日期"
+        },
+        {
+          "source_id": "forecast-check",
+          "url": "https://www.cnyes.com/twstock/2607/research/finirating",
+          "title": "榮運市場預估頁",
+          "publisher": "鉅亨網／FactSet頁面",
+          "published_at": null,
+          "accessed_at": "2026-10-13",
+          "supports": [
+            "transition"
+          ],
+          "publication_missing_reason": "預估欄空白，查閱日不代表共識更新日"
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_explicit_research_inference",
+      "event_date": "2026-10-08",
+      "research_completed_at": "2026-10-13T21:41:31.144653+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批完成榮運承接整家公司既定公開查找與10/8整場可取得法說；非每日新增配額。",
+        "19頁簡報全文與圖表已核對；未取得可確認的官方原始問答文字，不找影片，不把個人筆記當官方逐字稿。",
+        "大園園區與長榮物流保稅中心不混為同一設施；子公司與權益法合資收入不能直接相加至母公司收入。",
+        "個別專案客戶、商用年月、收入預估與回收期未充分揭露；未取得可靠最新法人營收／EPS共識。",
+        "H1官網財報p6年初比較現金4,804,129千元，p12現金流期初4,908,078千元不一致；未選值或推算期內現金變動，另交來源衝突。",
+        "股數因2025年現金減資變動；年度／累計EPS分母不一致，不以既有累計差額硬推TTM、CAGR或PEG，另請網站檢查。"
+      ],
+      "completion_unit": "榮運整家公司承接剩餘及10/8整場可取得法說資料"
+    }
+  ],
+  "numeric_corrections": {
+    "company_code": "2607",
+    "request_only": true,
+    "expected_overview_version": "sha256:f486002ba3b5478dacf79153199b285544396a232b7d21cddcc2f5500e90ef19",
+    "items": [
+      {
+        "field": "表列借款",
+        "issue": "H1既有46.80585億元僅短借＋長借，漏一年內到期長期負債12.00885億元",
+        "source": "eitc-h1-2026",
+        "page": 7,
+        "components_ntd_100million": {
+          "short_term": 4.44242,
+          "long_term": 42.36343,
+          "current_portion_long_term": 12.00885
+        }
+      },
+      {
+        "field": "TTM EPS／單季累計差分／CAGR／PEG",
+        "issue": "2025現金減資50%，2025H1加權股數1067141千股、2026H1 533571千股；原不同股數基礎累計EPS不可直接差分",
+        "suggestion": "檢查股數及官方可比EPS，未完成前標示不可比，不另造調整EPS",
+        "source": "eitc-h1-2026",
+        "pages": [
+          33,
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "field": "cashflow期初與balance_sheet現金",
+        "issue": "同份官網H1財報p6 2025年底比較現金4804129千元，p12期初4908078千元；未找到調節原因",
+        "status": "conflict",
+        "do_not_auto_replace": true,
+        "source": "eitc-h1-2026",
+        "pages": [
+          6,
+          12
+        ]
+      }
+    ]
+  },
+  "source_history": {
+    "eitc-dayuan": {
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/B07-1-Intro.html",
+      "title": "大園物流園區業務簡介",
+      "publisher": "長榮國際儲運",
+      "published_at": null,
+      "published_at_missing_reason": "頁面未列發布日期",
+      "accessed_at": "2026-10-10",
+      "supports": "園區2022Q2啟用，太陽能2023-06-08商轉"
+    }
+  }
+}
