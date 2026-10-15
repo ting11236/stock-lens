@@ -1,0 +1,1213 @@
+{
+  "batch_id": "research-20261015-1725-v1",
+  "adopted_at": "2026-10-16",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261015-1725-v1",
+    "ready": true,
+    "created_at": "2026-10-16T00:44:01.185841+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:a49d63d44935242067b54e1dbb5190b5304b719356e7ed38689cb1a2feeabf61",
+    "work_type": "backfill",
+    "completion_unit": "元禎整家公司公開查找及10/13整場可取得資料",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "完成既定公司公開資料查找及10/13整場可取得文字；未公開／來源無法取得者明示，不等於所有資訊已揭露。",
+      "簡報公司介紹頁H1營收43億元與其損益表46.1087億元不一致；採損益表且與網站基線一致，不採43億元。",
+      "未取得可驗證官方原始問答文字，不找影片；富果為AI影音摘要，僅低信度轉述，不把其細節當官方確認或量產實績。",
+      "2026H1正式財報PDF未在官網本次提供的連結中取得，MOPS下載查詢回傳空白；H1業外精確分項與權益暴增歸因未獨立完成核閱，不以2025原因代替2026。H1資產負債沿網站共同基線並清楚標示。",
+      "未揭露專案具名客戶、個別營收與商用年月；未取得可靠最新法人營收或EPS共識。",
+      "年報產品收入比不等於產品獲利比；子公司投資收益與合併業外不得重複相加。",
+      "舊年報越南尚未實質營運、泰國未規模營運為2025狀況；10月據點已列示不能直接證明已大量出貨。",
+      "簡報歷年營業利益柱形與營益率標示部分年份不完全能互相驗算，本批僅採H1損益表及已讀2025正式財報，不據圖推精確長期序列。"
+    ],
+    "meeting_research": {
+      "company_code": "1725",
+      "meeting_date": "2026-10-13",
+      "research_complete": true,
+      "scope": "16頁簡報全文／圖表、年報營運章節與正式2025財報；H1附註及原始問答缺漏明示",
+      "original_qa_verified": false
+    }
+  },
+  "before": {
+    "record": null,
+    "overview": {
+      "name": "元禎",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 174,
+      "business": "工業化學品、溶劑、塑膠原料與油品經銷貿易",
+      "direction": "跨區倉儲分裝配送與在地服務；最新新增品項／項目待補查",
+      "profit_mechanism": "經銷價差與物流供應鏈服務；非所有營收均為自行製造",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "H1業外增幅篩選",
+      "urls": [
+        "https://cn.yuanjen.com/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 83.89157,
+        "fy2025": 79.96645000000001,
+        "q32025": 19.553530000000002,
+        "q42025": 17.5914,
+        "q12026": 21.99773,
+        "q22026": 24.110970000000002,
+        "ttm": 83.25363,
+        "h1_operating_profit": 1.07021,
+        "h1_nonoperating": 1.02394,
+        "h1_pretax": 2.09415,
+        "h1_parent_profit": 1.8263,
+        "h1_operating_margin": 0.0232105871560031,
+        "h1_nonoperating_share": 0.488952558317217,
+        "fy2025_parent_profit": 2.78349,
+        "q22026_parent_profit": 1.41034,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 46.1087,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 83.89157,
+            "net_income": 3.47358,
+            "eps": 1.91,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 42.82152,
+            "net_income": 0.1492,
+            "eps": 0.08,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 62.37505,
+            "net_income": 2.48492,
+            "eps": 1.37,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 79.96645000000001,
+            "net_income": 2.78349,
+            "eps": 1.53,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 21.99773,
+            "net_income": 0.41596000000000005,
+            "eps": 0.23,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 46.1087,
+            "net_income": 1.8263,
+            "eps": 1.0,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 1.37,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 1.76,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 1.4,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 1.1,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 19.553530000000002,
+              "eps": 1.29,
+              "net_income": 2.33572
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 17.591400000000007,
+              "eps": 0.15999999999999992,
+              "net_income": 0.2985700000000002
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 21.99773,
+              "eps": 0.23,
+              "net_income": 0.41596000000000005
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 24.11097,
+              "eps": 0.77,
+              "net_income": 1.41034
+            }
+          ],
+          "ttms": 83.25363000000002,
+          "ttm_eps": 2.45,
+          "ttm_parent_profit": 4.46059,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 83.25 億元；每股盈餘 2.45 元；歸母淨利 4.46 億元。營收未扣成本與費用，不等於獲利。獲利機制：經銷價差與物流供應鏈服務；非所有營收均為自行製造。",
+      "events": [
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-0.33億元變為1.02億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://cn.yuanjen.com/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "1725",
+            "name": "元禎",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 110.23810999999999,
+            "liabilities": 24.25243,
+            "equity": 85.98568,
+            "parent_equity": 85.98567,
+            "cash": 8.22583,
+            "current_assets": 99.38198,
+            "current_liabilities": 23.35925,
+            "listed_borrowings": 15.58319,
+            "listed_leases": 0.05373,
+            "operating_cashflow": 1.56736,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "1725",
+            "name": "元禎",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 87.99711,
+            "liabilities": 21.62071,
+            "equity": 66.3764,
+            "parent_equity": 66.37639,
+            "cash": 6.77655,
+            "current_assets": 77.52697,
+            "current_liabilities": 20.81515,
+            "listed_borrowings": 15.83221,
+            "listed_leases": 0.01935,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "delivery_updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261015-1725-v1-business",
+      "task_id": "backfill-20261015-1725",
+      "related_task_ids": [
+        "meeting-1725.TW-2026-10-13"
+      ],
+      "company_code": "1725",
+      "company_name": "元禎",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:796b15f885518df5f15d8e27c15864572c4f1b291d2c3d3fa80e11632769d788",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "元禎（1725，上市）是石化原料經銷貿易與物流通路商，連接上游石化廠及下游加工／電子客戶；主要靠採購銷售價差、庫存與授信管理、倉儲分裝及配送效率獲利。年報明言屬物流業、沒有產製過程，不能把所銷樹脂及電子材料都當自行研發製造。倉出與供應商直接送客戶的直送並存；2025會計師將部分直送交易收入真實性列關鍵查核事項，這是審計重點，不等於認定造假。\n2025合併主要商品收入比：化學品39%、塑膠35%、油品25%、其他1%；地區以台灣63%、中國25%、其他12%，皆非2026H1比例、非獲利占比。化學品／溶劑用於塗料稀釋、PU塗料、接著劑、樹脂與油墨；塑膠包括PVC、PE、PP及ABS、PC、PBT、PA等工程塑料，用於電子零件、風扇、齒輪、包材及其他加工；油品包括燃料油、基礎油、白油與潤滑油。電子化學品含電子級IPA、DMK、雙氧水，不因名稱即視為已進入最先進晶圓製程。\n台灣有北中南發貨倉庫、儲槽分裝與運輸服務；中國有上海、廣州據點，東南亞有泰國及越南據點。2025無單一銷售客戶超過10%；上游台塑石化及台灣塑膠分占進貨25.27%、24.56%，是供應商而非客戶。未揭露完整具名客戶清單及各材料認證／訂單。\n【實際可比性】4755三福化可作電子與基礎化學品需求／產品比較，理由是亦供應電子製程用溶劑、清洗等化學品；但其具純化、調配與製造能力，與元禎以通路為主不同，只列部分業務參考，不直接合併PE樣本。台塑1301、台化1326、台塑化6505是上游供應鏈參照，非同模式直接同業；未找到產品組合與投資資產結構都足夠相近的上市純通路對照，不硬湊同業平均。",
+        "period": "2025全年／2026H1及10/13法說，逐項標示",
+        "sources": [
+          "yj-deck",
+          "yj-annual",
+          "yj-fy",
+          "yj-electronic",
+          "yj-sustainable",
+          "yj-about",
+          "yj-qa-secondary",
+          "yj-shared-financial",
+          "yj-shared-balance",
+          "yj-peer-4755"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "yj-deck",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/10/1151013_1725元禎法說會中文簡報.pdf",
+          "title": "10/13法說中文簡報，16頁",
+          "publisher": "元禎",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1及10月展望"
+        },
+        {
+          "source_id": "yj-annual",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年報-07傳輸檔自行組合-中文.pdf",
+          "title": "2025年報，116頁；主要參閱營運概況80–87、財務93–97頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025年；部分計畫截至2026/4"
+        },
+        {
+          "source_id": "yj-fy",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年度財務報告Q4合併.pdf",
+          "title": "2025合併財報，附註22及33／財報8–12、44–45、67頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025全年"
+        },
+        {
+          "source_id": "yj-electronic",
+          "url": "https://www.yuanjen.com/product/electronic-materials/",
+          "title": "電子化學暨材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-sustainable",
+          "url": "https://www.yuanjen.com/product/sustainable-materials/",
+          "title": "永續材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-about",
+          "url": "https://www.yuanjen.com/about/",
+          "title": "公司介紹及沿革",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1725-2026-10-13",
+          "title": "富果法說AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/13會後文字"
+        },
+        {
+          "source_id": "yj-shared-financial",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "title": "網站共同數字基線：10/15晚間匯出",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026H1，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-shared-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+          "title": "網站共同資產負債來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026/6/30時點，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-peer-4755",
+          "url": "https://www.sfchem.com.tw/zh-hant/page/csr-aboutus",
+          "title": "三福化官方產業與產品說明",
+          "publisher": "三福化",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "頁面部分資料為2022年，只用穩定業務模式"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-13",
+      "research_completed_at": "2026-10-16T00:44:01.185841+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "元禎整家公司公開查找及10/13整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成既定公司公開資料查找及10/13整場可取得文字；未公開／來源無法取得者明示，不等於所有資訊已揭露。",
+        "簡報公司介紹頁H1營收43億元與其損益表46.1087億元不一致；採損益表且與網站基線一致，不採43億元。",
+        "未取得可驗證官方原始問答文字，不找影片；富果為AI影音摘要，僅低信度轉述，不把其細節當官方確認或量產實績。",
+        "2026H1正式財報PDF未在官網本次提供的連結中取得，MOPS下載查詢回傳空白；H1業外精確分項與權益暴增歸因未獨立完成核閱，不以2025原因代替2026。H1資產負債沿網站共同基線並清楚標示。",
+        "未揭露專案具名客戶、個別營收與商用年月；未取得可靠最新法人營收或EPS共識。",
+        "年報產品收入比不等於產品獲利比；子公司投資收益與合併業外不得重複相加。",
+        "舊年報越南尚未實質營運、泰國未規模營運為2025狀況；10月據點已列示不能直接證明已大量出貨。",
+        "簡報歷年營業利益柱形與營益率標示部分年份不完全能互相驗算，本批僅採H1損益表及已讀2025正式財報，不據圖推精確長期序列。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261015-1725-v1-earnings",
+      "task_id": "backfill-20261015-1725",
+      "related_task_ids": [
+        "meeting-1725.TW-2026-10-13"
+      ],
+      "company_code": "1725",
+      "company_name": "元禎",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:796b15f885518df5f15d8e27c15864572c4f1b291d2c3d3fa80e11632769d788",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【2026H1累計，合併／新台幣】法說損益表營收46.1087億元、年增7.68%；毛利2.19932億元、年增29.16%，毛利率4.77%對去年3.98%；營業利益1.07021億元對0.58298億元，營益率2.32%。業外1.02394億元對去年-0.32573億元，稅前2.09415億元，稅後1.82630億元，EPS1.00元對0.08元。歸母淨利1.82630億元口徑沿網站基線。由虧轉盈的業外不採一般正值同比增長率解讀；簡報414.35%為以去年負數絕對值表達的改善幅度。H1不是Q2單季，不直接年化EPS成財測。\n本業毛利額增加而營業費用約持平，是營業利益改善的直接數字來源；價格、銷量及品項組合未完整拆解，不硬歸因單一油價上漲。業外占稅前約48.9%為依共同基線的比率，不能把全部EPS反彈當核心石化需求爆發。富果AI摘要稱股利發放時點與股票評價帶來改善，並轉述投資以金融股為主；尚無H1正式附註逐項核對，故不填確定分項金額。\n【2025全年正式合併財報】營收79.96645億元、年減4.68%，營業利益1.45155億元、年減20.56%；業外1.50446億元、年減27.33%；歸母淨利2.78349億元、年減19.87%，EPS1.53元。業外其他收入1.85332億元，其中股利1.83963億元；利息收入0.12857億元，其他損失淨額-0.14970億元，財務成本0.32773億元。其他損失包括匯兌-0.21658億元、透過損益金融資產收益0.12033億元、按攤銷後成本金融資產處分損失-0.05428億元。年報指出匯損及金融資產評價利益減少壓抑業外。\n部分投資收益另列營業收入：財報營收內含股利0.44437億元、金融資產損益0.01172億元、租金0.04796億元；不能把所有投資收益一律當業外。2025部門損益石化1.69211億元、其他0.44334億元，為未分攤總部成本、利息等的部門尺度，非歸母淨利；不把化學品／塑膠收入占比當各自獲利比。其他綜合損益10.27343億元與稅後淨利2.78349億元不同；透過其他綜合損益投資評價增值不直接計入EPS。\n【2026/6/30資產負債，沿網站共同基線，億元】資產110.23811、負債24.25243、權益85.98568；現金8.22583、流動資產99.38198、流動負債23.35925、表列借款15.58319、租賃0.05373；H1營業現金流1.56736。負債比約22%、流動比約4.25倍，但流動資產含投資及營運資產，不等於現金。權益相較2025年底66.37640億元大增，不能當全是當期獲利；2026H1精確OCI及增減原因未取到正式附註，不推定。本期表列借款高於現金，不稱淨現金企業，也不把缺項可能存在的表列借款當完整淨負債。2025年底投資評價增值推升其他權益、部分資金償還負債是當年官方解釋，不能直接套到2026H1。",
+        "period": "2025全年／2026H1及10/13法說，逐項標示",
+        "sources": [
+          "yj-deck",
+          "yj-annual",
+          "yj-fy",
+          "yj-electronic",
+          "yj-sustainable",
+          "yj-about",
+          "yj-qa-secondary",
+          "yj-shared-financial",
+          "yj-shared-balance",
+          "yj-peer-4755"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "yj-deck",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/10/1151013_1725元禎法說會中文簡報.pdf",
+          "title": "10/13法說中文簡報，16頁",
+          "publisher": "元禎",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1及10月展望"
+        },
+        {
+          "source_id": "yj-annual",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年報-07傳輸檔自行組合-中文.pdf",
+          "title": "2025年報，116頁；主要參閱營運概況80–87、財務93–97頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025年；部分計畫截至2026/4"
+        },
+        {
+          "source_id": "yj-fy",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年度財務報告Q4合併.pdf",
+          "title": "2025合併財報，附註22及33／財報8–12、44–45、67頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025全年"
+        },
+        {
+          "source_id": "yj-electronic",
+          "url": "https://www.yuanjen.com/product/electronic-materials/",
+          "title": "電子化學暨材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-sustainable",
+          "url": "https://www.yuanjen.com/product/sustainable-materials/",
+          "title": "永續材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-about",
+          "url": "https://www.yuanjen.com/about/",
+          "title": "公司介紹及沿革",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1725-2026-10-13",
+          "title": "富果法說AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/13會後文字"
+        },
+        {
+          "source_id": "yj-shared-financial",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "title": "網站共同數字基線：10/15晚間匯出",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026H1，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-shared-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+          "title": "網站共同資產負債來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026/6/30時點，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-peer-4755",
+          "url": "https://www.sfchem.com.tw/zh-hant/page/csr-aboutus",
+          "title": "三福化官方產業與產品說明",
+          "publisher": "三福化",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "頁面部分資料為2022年，只用穩定業務模式"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-13",
+      "research_completed_at": "2026-10-16T00:44:01.185841+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "元禎整家公司公開查找及10/13整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成既定公司公開資料查找及10/13整場可取得文字；未公開／來源無法取得者明示，不等於所有資訊已揭露。",
+        "簡報公司介紹頁H1營收43億元與其損益表46.1087億元不一致；採損益表且與網站基線一致，不採43億元。",
+        "未取得可驗證官方原始問答文字，不找影片；富果為AI影音摘要，僅低信度轉述，不把其細節當官方確認或量產實績。",
+        "2026H1正式財報PDF未在官網本次提供的連結中取得，MOPS下載查詢回傳空白；H1業外精確分項與權益暴增歸因未獨立完成核閱，不以2025原因代替2026。H1資產負債沿網站共同基線並清楚標示。",
+        "未揭露專案具名客戶、個別營收與商用年月；未取得可靠最新法人營收或EPS共識。",
+        "年報產品收入比不等於產品獲利比；子公司投資收益與合併業外不得重複相加。",
+        "舊年報越南尚未實質營運、泰國未規模營運為2025狀況；10月據點已列示不能直接證明已大量出貨。",
+        "簡報歷年營業利益柱形與營益率標示部分年份不完全能互相驗算，本批僅採H1損益表及已讀2025正式財報，不據圖推精確長期序列。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261015-1725-v1-developments",
+      "task_id": "backfill-20261015-1725",
+      "related_task_ids": [
+        "meeting-1725.TW-2026-10-13"
+      ],
+      "company_code": "1725",
+      "company_name": "元禎",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:796b15f885518df5f15d8e27c15864572c4f1b291d2c3d3fa80e11632769d788",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【新產品／新市場拓展：電子化學與材料】10月官方簡報列電子化學部及電子材料部；電子級IPA、DMK與雙氧水已列銷售品項，但未揭露新產品首出貨年月、客戶認證及個別收入。官網另列氟樹脂FEP、ETFE、PFA等及相關薄膜、管件和鈦合金，面向線纜絕緣、高頻高速基材、半導體流體控制等應用；這是產品目錄及用途，不等於已供貨某AI／半導體大廠。供應商產品描述中的製造能力不可轉寫成元禎自製能力。\n富果AI會後摘要轉述2025/9成立電子材料部、尋找封裝及線材特殊材料機會，屬未經官方原始問答核驗的方向說明，不升格為已量產新事業。具體商用年月、客戶名單、合約金額及營收預估未找到公開可驗證資訊。\n【既有通路拓點】泰國子公司2025設立、100%持股，越南2020布局；用途為服務當地加工及外移客戶、分散台灣與中國市場。2025年報指出泰國尚無規模營運、越南尚無實質營運；10月簡報列兩地據點，不自行判定業績已放量。未揭露各據點營收目標及損益兩平時間。\n【既有物流能力】桃園蘆竹倉儲2021取得並投入營運，支援北部供應、提高備貨與一次購足能力；這是既有設施，非2026新擴產。年報運輸分裝與週轉效率提升屬經營方向，沒有新核定設備投資金額，不填新增CAPEX。\n【永續產品】2023取得GRS，官網列PCR PE、PP、ABS、PS、PC、PC/ABS、PET等，可用包裝、3C與汽車零件等；屬回收材料產品經銷拓展，不當自有回收工廠或新認證剛完成，未揭露品項營收與新增訂單。\n【營運節能投資】高雄岡山太陽能工程於2025–2026啟動、2026併聯，官方沿革與簡報一致；屬節能設施，未揭露容量、自用／售電比例、商業售電合約及收入，不歸類已形成獨立新能源事業。",
+        "period": "2025全年／2026H1及10/13法說，逐項標示",
+        "sources": [
+          "yj-deck",
+          "yj-annual",
+          "yj-fy",
+          "yj-electronic",
+          "yj-sustainable",
+          "yj-about",
+          "yj-qa-secondary",
+          "yj-shared-financial",
+          "yj-shared-balance",
+          "yj-peer-4755"
+        ],
+        "projects": [
+          {
+            "project_id": "1725-ELECTRONIC-MATERIALS",
+            "name": "電子材料與電子化學品",
+            "type": "新產品／市場拓展",
+            "progress": "現有品項已列售；封裝及線材方向僅第三方轉述",
+            "use_and_customers": "線纜、高頻、流體控制與電子加工客戶；未具名",
+            "commercialization_time": "新品首商用時間未揭露",
+            "revenue_contribution": "未揭露個別收入／金額預估",
+            "sources": [
+              "yj-deck",
+              "yj-annual",
+              "yj-about",
+              "yj-electronic",
+              "yj-sustainable"
+            ]
+          },
+          {
+            "project_id": "1725-THAILAND",
+            "name": "泰國通路據點",
+            "type": "既有業務拓點",
+            "progress": "2025設立；2025未達規模，10月列據點",
+            "use_and_customers": "當地及外移石化加工客戶",
+            "commercialization_time": "設立2025，放量未揭露",
+            "revenue_contribution": "未揭露個別收入／金額預估",
+            "sources": [
+              "yj-deck",
+              "yj-annual",
+              "yj-about",
+              "yj-electronic",
+              "yj-sustainable"
+            ]
+          },
+          {
+            "project_id": "1725-VIETNAM",
+            "name": "越南通路布局",
+            "type": "既有業務拓點",
+            "progress": "2020設立；2025未實質營運，10月列據點",
+            "use_and_customers": "越南及東南亞加工客戶",
+            "commercialization_time": "實質商用進度未揭露",
+            "revenue_contribution": "未揭露個別收入／金額預估",
+            "sources": [
+              "yj-deck",
+              "yj-annual",
+              "yj-about",
+              "yj-electronic",
+              "yj-sustainable"
+            ]
+          },
+          {
+            "project_id": "1725-PCR",
+            "name": "PCR回收材料產品",
+            "type": "新產品延伸",
+            "progress": "2023 GRS，官網列目錄",
+            "use_and_customers": "包裝、3C、汽車零件等材料需求",
+            "commercialization_time": "各品項未揭露",
+            "revenue_contribution": "未揭露個別收入／金額預估",
+            "sources": [
+              "yj-deck",
+              "yj-annual",
+              "yj-about",
+              "yj-electronic",
+              "yj-sustainable"
+            ]
+          },
+          {
+            "project_id": "1725-GANGSHAN-SOLAR",
+            "name": "岡山太陽能",
+            "type": "營運節能設施",
+            "progress": "2026併聯",
+            "use_and_customers": "岡山據點用電／減碳；自用售電比例未揭露",
+            "commercialization_time": "2026併聯",
+            "revenue_contribution": "未揭露個別收入／金額預估",
+            "sources": [
+              "yj-deck",
+              "yj-annual",
+              "yj-about",
+              "yj-electronic",
+              "yj-sustainable"
+            ]
+          },
+          {
+            "project_id": "1725-LUZHU-LOGISTICS",
+            "name": "蘆竹倉儲",
+            "type": "既有物流設施",
+            "progress": "2021取得並投入營運",
+            "use_and_customers": "北部化工客戶倉配",
+            "commercialization_time": "既有已營運，非本期新增",
+            "revenue_contribution": "未揭露個別收入／金額預估",
+            "sources": [
+              "yj-deck",
+              "yj-annual",
+              "yj-about",
+              "yj-electronic",
+              "yj-sustainable"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "yj-deck",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/10/1151013_1725元禎法說會中文簡報.pdf",
+          "title": "10/13法說中文簡報，16頁",
+          "publisher": "元禎",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1及10月展望"
+        },
+        {
+          "source_id": "yj-annual",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年報-07傳輸檔自行組合-中文.pdf",
+          "title": "2025年報，116頁；主要參閱營運概況80–87、財務93–97頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025年；部分計畫截至2026/4"
+        },
+        {
+          "source_id": "yj-fy",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年度財務報告Q4合併.pdf",
+          "title": "2025合併財報，附註22及33／財報8–12、44–45、67頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025全年"
+        },
+        {
+          "source_id": "yj-electronic",
+          "url": "https://www.yuanjen.com/product/electronic-materials/",
+          "title": "電子化學暨材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-sustainable",
+          "url": "https://www.yuanjen.com/product/sustainable-materials/",
+          "title": "永續材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-about",
+          "url": "https://www.yuanjen.com/about/",
+          "title": "公司介紹及沿革",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1725-2026-10-13",
+          "title": "富果法說AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/13會後文字"
+        },
+        {
+          "source_id": "yj-shared-financial",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "title": "網站共同數字基線：10/15晚間匯出",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026H1，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-shared-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+          "title": "網站共同資產負債來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026/6/30時點，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-peer-4755",
+          "url": "https://www.sfchem.com.tw/zh-hant/page/csr-aboutus",
+          "title": "三福化官方產業與產品說明",
+          "publisher": "三福化",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "頁面部分資料為2022年，只用穩定業務模式"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-13",
+      "research_completed_at": "2026-10-16T00:44:01.185841+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "元禎整家公司公開查找及10/13整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成既定公司公開資料查找及10/13整場可取得文字；未公開／來源無法取得者明示，不等於所有資訊已揭露。",
+        "簡報公司介紹頁H1營收43億元與其損益表46.1087億元不一致；採損益表且與網站基線一致，不採43億元。",
+        "未取得可驗證官方原始問答文字，不找影片；富果為AI影音摘要，僅低信度轉述，不把其細節當官方確認或量產實績。",
+        "2026H1正式財報PDF未在官網本次提供的連結中取得，MOPS下載查詢回傳空白；H1業外精確分項與權益暴增歸因未獨立完成核閱，不以2025原因代替2026。H1資產負債沿網站共同基線並清楚標示。",
+        "未揭露專案具名客戶、個別營收與商用年月；未取得可靠最新法人營收或EPS共識。",
+        "年報產品收入比不等於產品獲利比；子公司投資收益與合併業外不得重複相加。",
+        "舊年報越南尚未實質營運、泰國未規模營運為2025狀況；10月據點已列示不能直接證明已大量出貨。",
+        "簡報歷年營業利益柱形與營益率標示部分年份不完全能互相驗算，本批僅採H1損益表及已讀2025正式財報，不據圖推精確長期序列。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261015-1725-v1-transition",
+      "task_id": "backfill-20261015-1725",
+      "related_task_ids": [
+        "meeting-1725.TW-2026-10-13"
+      ],
+      "company_code": "1725",
+      "company_name": "元禎",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:796b15f885518df5f15d8e27c15864572c4f1b291d2c3d3fa80e11632769d788",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【展望與財測】10/13公司簡報認為石化供需及中國復甦仍需觀望，對本業保持審慎；預期投資標的獲利可帶來下半年業外挹注，屬公司方向性預估而非確定淨利。年報2026銷量目標263,100公噸依2025及2026前兩月歷史資料估計，為早期銷量計畫，非營收金額、非已實現，10月簡報未重申其達成度。未取得可核對的公司整體未來營收金額／EPS財測或可靠法人共識；不把「持穩增長」轉成精確預估。\n【研究判讀】公司以原有化工通路為基礎增加電子材料與東南亞據點，屬產品組合及市場延伸；現有公開證據不足以稱已轉型AI材料製造商。核心追蹤應是毛利／營益率、庫存與應收週轉、借款成本，以及投資收益與公允價值風險；年度權益或股息高不保證下一期本業獲利。\n【事件／缺漏】10/7公告為10/13法說通知，會議已完成可取得資料查找；不再只因有通知而重複更新。2025年報揭露上海子公司虧損與當地景氣、境外控股費用，以及泰國初期費用／匯損，這些不代表集團2026當期整體虧損。未找到本次可驗證的新重大併購或財報重編事件，不表示不存在未查得資料。原始問答未取得，第三方AI轉述、H1附註取得失敗與簡報數字衝突逐筆保留；全公司完成標準為查找範圍完成且缺漏已說明。",
+        "period": "2025全年／2026H1及10/13法說，逐項標示",
+        "sources": [
+          "yj-deck",
+          "yj-annual",
+          "yj-fy",
+          "yj-electronic",
+          "yj-sustainable",
+          "yj-about",
+          "yj-qa-secondary",
+          "yj-shared-financial",
+          "yj-shared-balance",
+          "yj-peer-4755"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "yj-deck",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/10/1151013_1725元禎法說會中文簡報.pdf",
+          "title": "10/13法說中文簡報，16頁",
+          "publisher": "元禎",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1及10月展望"
+        },
+        {
+          "source_id": "yj-annual",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年報-07傳輸檔自行組合-中文.pdf",
+          "title": "2025年報，116頁；主要參閱營運概況80–87、財務93–97頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025年；部分計畫截至2026/4"
+        },
+        {
+          "source_id": "yj-fy",
+          "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年度財務報告Q4合併.pdf",
+          "title": "2025合併財報，附註22及33／財報8–12、44–45、67頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2025全年"
+        },
+        {
+          "source_id": "yj-electronic",
+          "url": "https://www.yuanjen.com/product/electronic-materials/",
+          "title": "電子化學暨材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-sustainable",
+          "url": "https://www.yuanjen.com/product/sustainable-materials/",
+          "title": "永續材料產品頁",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-about",
+          "url": "https://www.yuanjen.com/about/",
+          "title": "公司介紹及沿革",
+          "publisher": "元禎",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+        },
+        {
+          "source_id": "yj-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1725-2026-10-13",
+          "title": "富果法說AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/13會後文字"
+        },
+        {
+          "source_id": "yj-shared-financial",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "title": "網站共同數字基線：10/15晚間匯出",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026H1，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-shared-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+          "title": "網站共同資產負債來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "2026/6/30時點，合併／新台幣億元"
+        },
+        {
+          "source_id": "yj-peer-4755",
+          "url": "https://www.sfchem.com.tw/zh-hant/page/csr-aboutus",
+          "title": "三福化官方產業與產品說明",
+          "publisher": "三福化",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+          "period": "頁面部分資料為2022年，只用穩定業務模式"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-13",
+      "research_completed_at": "2026-10-16T00:44:01.185841+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "元禎整家公司公開查找及10/13整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成既定公司公開資料查找及10/13整場可取得文字；未公開／來源無法取得者明示，不等於所有資訊已揭露。",
+        "簡報公司介紹頁H1營收43億元與其損益表46.1087億元不一致；採損益表且與網站基線一致，不採43億元。",
+        "未取得可驗證官方原始問答文字，不找影片；富果為AI影音摘要，僅低信度轉述，不把其細節當官方確認或量產實績。",
+        "2026H1正式財報PDF未在官網本次提供的連結中取得，MOPS下載查詢回傳空白；H1業外精確分項與權益暴增歸因未獨立完成核閱，不以2025原因代替2026。H1資產負債沿網站共同基線並清楚標示。",
+        "未揭露專案具名客戶、個別營收與商用年月；未取得可靠最新法人營收或EPS共識。",
+        "年報產品收入比不等於產品獲利比；子公司投資收益與合併業外不得重複相加。",
+        "舊年報越南尚未實質營運、泰國未規模營運為2025狀況；10月據點已列示不能直接證明已大量出貨。",
+        "簡報歷年營業利益柱形與營益率標示部分年份不完全能互相驗算，本批僅採H1損益表及已讀2025正式財報，不據圖推精確長期序列。"
+      ]
+    }
+  ],
+  "numeric_policy": "保留共同基線財務及資產負債值；來源衝突採損益表46.1087億元；未刷新未獨立查核欄位"
+}

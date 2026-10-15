@@ -117,7 +117,11 @@ def derived_metrics(stock, financial, equity_history=None):
         for key in ('trailing_eps', 'calculated_pe', 'earnings_growth', 'peg'):
             formulas[key] = (None, formulas[key][1], blocked_reason)
         growth_eps = peg_pe = None
-    return {key: {'value': value, 'blocked': bool(blocked_reason and key in ('trailing_eps', 'calculated_pe', 'earnings_growth', 'peg')), 'period': growth_period if key in ('peg','earnings_growth') else period, 'formula': formula,
+    current_eps_reason = records.get(period, {}).get('eps_unavailable_reason') if eps is None else None
+    if current_eps_reason:
+        for key in ('trailing_eps', 'calculated_pe'):
+            formulas[key] = (None, formulas[key][1], current_eps_reason)
+    return {key: {'value': value, 'blocked': bool((blocked_reason and key in ('trailing_eps', 'calculated_pe', 'earnings_growth', 'peg')) or (current_eps_reason and key in ('trailing_eps', 'calculated_pe'))), 'period': growth_period if key in ('peg','earnings_growth') else period, 'formula': formula,
                   'reason': None if value is not None else reason,
                   'comparison_period': (growth_prior_period if key in ('peg','earnings_growth') else prior_period if key == 'roe' else None),
                   'period_mode': growth_mode if key in ('peg','earnings_growth') else None,

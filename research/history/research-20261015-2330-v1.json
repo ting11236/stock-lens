@@ -1,0 +1,726 @@
+{
+  "batch_id": "research-20261015-2330-v1",
+  "adopted_at": "2026-10-16",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261015-2330-v1",
+    "ready": true,
+    "created_at": "2026-10-16T00:38:12.842854+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 3,
+    "updates_sha256": "sha256:ca2d5d21c4594cf3e7f0b8208845ce641e33fa631b97082c3624d168fd5c927a",
+    "work_type": "change_update",
+    "completion_unit": "台積電10/15整場可取得法說資料",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "本批為10/15整場法說可取得公開資料的完整交接，不是台積電全公司歷年研究補齊。",
+      "官方12頁簡報、6頁營運報告全文與製程、平台及現金流圖表已核對；未取得可核對的官方原始問答文字，問答／管理層口頭說明僅採明確標示的媒體轉述；不找影片。",
+      "個別客戶訂單、製程／平台獨立獲利、各新廠收入預估及可靠最新EPS共識未揭露或未找到，不補造。",
+      "中央社在建廠近20座與商業內幕近25座不一致，可能範圍不同但未確認，不採確定總座數。",
+      "N2P／A16原訂2026下半年量產屬既有年報計畫，本次資料未確認兩者實際達成，不以N2進度代替。",
+      "10/8重大訊息及9月月營收個別公告未於本批逐筆結案；本批Q3實績不能代替全市場監看完成。"
+    ],
+    "meeting_research": {
+      "company_code": "2330",
+      "meeting_date": "2026-10-15",
+      "research_complete": true,
+      "scope": "12頁簡報、6頁管理報告與圖表；會後媒體轉述；官方原始問答未取得",
+      "original_qa_verified": false
+    }
+  },
+  "before": {
+    "record": {
+      "name": "台積電",
+      "reviewed_at": "2026-10-02",
+      "sources": {
+        "annual": {
+          "title": "2025 年報／股東報告",
+          "url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+          "publisher": "台積電",
+          "published_at": null,
+          "accessed_at": "2026-10-02"
+        },
+        "q2": {
+          "title": "2026 Q2 營運報告（第 1–3 頁）",
+          "url": "https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/qr/phase4_reports/2026-07/bf09036349a253e83f78155099133806cad0320b/2Q26%20ManagementReport.pdf",
+          "publisher": "台積電",
+          "published_at": "2026-07-16",
+          "accessed_at": "2026-10-02"
+        }
+      },
+      "business": {
+        "text": "專業晶圓代工，替客戶製造晶片；應用涵蓋高效能運算、手機、車用與物聯網。",
+        "period": "2025 年報",
+        "sources": [
+          "annual"
+        ]
+      },
+      "earnings": {
+        "text": "2025 年營業利益率為 50.8%，高於 2024 年的 45.7%。2026 Q2 高效能運算與手機分別占營收 66%、22%，不是獲利占比；該季另有世界先進持股處分及評價利益 632 億元，不能全部視為經常性本業成長。",
+        "period": "2024–2025 年／2026 Q2",
+        "sources": [
+          "annual",
+          "q2"
+        ]
+      },
+      "transition": {
+        "text": "維持專業代工模式，擴充先進製程、封裝與海外產能；較適合視為核心業務升級，而非退出原本業務。此分類是依年報整理的研究判讀。",
+        "period": "2025 年報",
+        "sources": [
+          "annual"
+        ]
+      },
+      "developments": {
+        "text": "2 奈米已於 2025 Q4 進入量產。年報規劃 N2P、A16 於 2026 下半年量產；本摘要尚未查核其後實際進度，不把計畫視為已完成。",
+        "period": "2025 年報所述進度與計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "limitations": [
+        "未取得各應用平台的獨立獲利占比。",
+        "新項目的最新進度仍待補查，來源涵蓋範圍不等同所有近期新聞。"
+      ]
+    },
+    "overview": {
+      "name": "台積電",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "臺灣50業務",
+      "source_row": 6,
+      "business": "晶圓代工與製程服務",
+      "direction": "2奈米、先進封裝及海外製造布局",
+      "profit_mechanism": "晶圓製造毛利；產能利用率、製程組合及折舊影響本業利益",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "H1業外增幅篩選",
+      "urls": [
+        "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 28943.07699,
+        "fy2025": 38090.542720000005,
+        "q32025": 9899.18318,
+        "q42025": 10460.90421,
+        "q12026": 11341.0344,
+        "q22026": 12703.8025,
+        "ttm": 44404.92429,
+        "h1_operating_profit": 14255.68793,
+        "h1_nonoperating": 1246.6098,
+        "h1_pretax": 15502.29773,
+        "h1_parent_profit": 12790.4169,
+        "h1_operating_margin": 0.592879377360218,
+        "h1_nonoperating_share": 0.0804145180096473,
+        "fy2025_parent_profit": 17178.82627,
+        "q22026_parent_profit": 7065.619379999999,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 24044.836900000002,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 28943.07699,
+            "net_income": 11732.67703,
+            "eps": 45.25,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 17730.45533,
+            "net_income": 7598.372299999999,
+            "eps": 29.310000000000002,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 27629.63851,
+            "net_income": 12121.38637,
+            "eps": 46.75,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 38090.542720000005,
+            "net_income": 17178.82627,
+            "eps": 66.26,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 11341.0344,
+            "net_income": 5724.79752,
+            "eps": 22.080000000000002,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 24044.836900000002,
+            "net_income": 12790.4169,
+            "eps": 49.33,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 19.97,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 23.01,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 39.2,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 32.34,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 9899.18318,
+              "eps": 17.439999999999998,
+              "net_income": 4523.014070000001
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 10460.904210000004,
+              "eps": 19.510000000000005,
+              "net_income": 5057.439900000001
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 11341.0344,
+              "eps": 22.080000000000002,
+              "net_income": 5724.79752
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 12703.802500000002,
+              "eps": 27.249999999999996,
+              "net_income": 7065.61938
+            }
+          ],
+          "ttms": 44404.92429000001,
+          "ttm_eps": 86.28,
+          "ttm_parent_profit": 22370.870870000002,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 44,404.92 億元；每股盈餘 86.28 元；歸母淨利 22,370.87 億元。營收未扣成本與費用，不等於獲利。獲利機制：晶圓製造毛利；產能利用率、製程組合及折舊影響本業利益。",
+      "events": [
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由534.26億元變為1246.61億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "公司法說指引",
+          "period": "2026Q3",
+          "scope": "整體合併營收",
+          "unit": "美元／億元",
+          "low": 446.0,
+          "high": 458.0,
+          "published_at": "2026-07-16",
+          "limitations": "假設匯率32；未換算為新台幣年度營收",
+          "urls": [
+            "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2330",
+            "name": "台積電",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 93756.54727000001,
+            "liabilities": 29011.837460000002,
+            "equity": 64744.70981,
+            "parent_equity": 64325.18334,
+            "cash": 31342.18213,
+            "current_assets": 45657.00742,
+            "current_liabilities": 18577.61825,
+            "listed_borrowings": 8642.63674,
+            "listed_leases": 332.76056,
+            "operating_cashflow": 14823.41242,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2330",
+            "name": "台積電",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 79330.23878,
+            "liabilities": 24722.28595,
+            "equity": 54607.95283,
+            "parent_equity": 54195.95994,
+            "cash": 27678.56402,
+            "current_assets": 38171.308170000004,
+            "current_liabilities": 14580.19289,
+            "listed_borrowings": 8960.61999,
+            "listed_leases": 315.94992,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "delivery_updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261015-2330-v1-earnings",
+      "task_id": "meeting-2330.TW-2026-10-15",
+      "company_code": "2330",
+      "company_name": "台積電",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:1b29792152ab6ce7c752ee1123a1326d44180287c6a1fc6446dd2aded6e1aa09",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0d9b382512c830ade9753419b04e11ae333801210b1eb17ce4ccab3abc92650b",
+      "expected_old_section_version": "sha256:f920af6a260c9d8f6f3cad9ac1f4b854d41c6ff0840be5c3374de21cdc6f62c5",
+      "old_content": {
+        "text": "2025 年營業利益率為 50.8%，高於 2024 年的 45.7%。2026 Q2 高效能運算與手機分別占營收 66%、22%，不是獲利占比；該季另有世界先進持股處分及評價利益 632 億元，不能全部視為經常性本業成長。",
+        "period": "2024–2025 年／2026 Q2",
+        "sources": [
+          "annual",
+          "q2"
+        ]
+      },
+      "new_content": {
+        "text": "【2026Q3單季、合併】營收新台幣14,942.4億元，季增17.6%、年增50.9%；美元營收467.2億美元，季增16.2%、年增41.2%。營業利益8,764.5億元、季增14.3%、年增75.0%；歸母淨利7,630.6億元、季增8.0%、年增68.7%；稀釋EPS29.43元。毛利率66.4%、營益率58.7%，分別季減1.3及1.6個百分點；公司說明N2初期量產稀釋毛利。營收成長不代表毛利率同步提高，獲利增幅亦不能直接等同AI需求增幅。\nHPC占總營收68%、手機21%、IoT與車用各4%、消費電子1%、其他2%；HPC季增22%、手機10%、車用23%，HPC不是純AI營收，平台收入占比不是獲利占比。12吋約當晶圓出貨447.6萬片、季增3.2%，總營收增幅不能全部歸因出貨量。北美79%按客戶所在地分類，不是美國廠營收占比。\n【業外與特殊因素】Q3業外345.9億元，低於Q2的958.3億元，官方稱主要因Q2世界先進持股處分及評價利益沒有重複發生。Q3業外以利息淨收益316.6億元為主，長期投資15.1億元、其他損益14.2億元。Q2「其他損益」674.3億元並非全部已證實等於單一VIS處分利益，不沿用舊摘要632億元為本次已核對金額。其他營業收益費損由52.7億元降至5.0億元，主要是Q2認列2024年4月3日地震保險理賠、Q3沒有重複；此項在營業內，勿再加至業外。有效稅率16.2%對Q2的18.1%，亦影響淨利比較。\n【2026/9/30資產負債與Q3現金流】資產100,528.9億元、負債30,096.6億元、權益70,432.3億元；官方負債比29.9%、流動比率2.6倍。現金及約當現金36,218.9億元；現金加有價證券40,169.8億元，兩者口徑不同。有息債務10,315.8億元包含一年內到期債券／銀行借款2,132.0億元，不能漏掉到期部分；公司定義淨現金29,854.0億元，以現金加有價證券減有息債務，不等於包含所有租賃等項目的完整調整淨負債。存貨天數82天較Q2的87天下降，但高於去年同期74天。\nQ3營業現金流9,197.7億元、資本支出4,432.1億元，公司定義自由現金流4,765.6億元；支付股利1,555.9億元，期末現金季增4,876.7億元。其他投資現金流入1,987.4億元主要與美國財政部投資抵減有關，不能當營收或直接視為同額當期獲利。Q3美元CAPEX138.4億美元，前三季累計406.4億美元，非全年實績。\n【公司預估，10/15發布】Q4合併營收523–543億美元、假設美元兌新台幣31.8，毛利率65–67%、營益率56.5–58.5%；2026全年美元營收預計年增約44%。此指引取代已到期Q3營收446–458億美元預估，Q3實績467.2億美元可供比較；未用單一匯率硬換算全年台幣營收。全年CAPEX600–640億美元為商業內幕對管理層說明的轉述，非此簡報列出的全年財測數字。沒有已驗證官方EPS財測或可靠最新法人EPS共識。",
+        "period": "2026Q3單季／9月30日時點及10月15日發布展望，逐項標示",
+        "sources": [
+          "tsmc-3q26-deck",
+          "tsmc-3q26-management",
+          "tsmc-3q26-cna",
+          "tsmc-3q26-bi"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "tsmc-3q26-deck",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/9f58506f6f114f91cefbf86820cc63297b39b130/3Q26%20Presentation%20(E).pdf",
+          "title": "2026第三季法說簡報，12頁",
+          "publisher": "台積電",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-management",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+          "title": "2026第三季營運報告，6頁",
+          "publisher": "台積電",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-cna",
+          "url": "https://www.cna.com.tw/news/afe/202610150212.aspx",
+          "title": "台積電全球近20座廠建置中　2奈米產能2027年增逾1倍",
+          "publisher": "中央社",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-bi",
+          "url": "https://www.businessinsider.tw/article/8327",
+          "title": "【台積電法說】為 AI 再擴產：2nm明年產能翻倍　台南追加一座3nm廠",
+          "publisher": "商業內幕",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_media_report_and_explicit_research_inference",
+      "event_date": "2026-10-15",
+      "research_completed_at": "2026-10-16T00:38:12.842854+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批為10/15整場法說可取得公開資料的完整交接，不是台積電全公司歷年研究補齊。",
+        "官方12頁簡報、6頁營運報告全文與製程、平台及現金流圖表已核對；未取得可核對的官方原始問答文字，問答／管理層口頭說明僅採明確標示的媒體轉述；不找影片。",
+        "個別客戶訂單、製程／平台獨立獲利、各新廠收入預估及可靠最新EPS共識未揭露或未找到，不補造。",
+        "中央社在建廠近20座與商業內幕近25座不一致，可能範圍不同但未確認，不採確定總座數。",
+        "N2P／A16原訂2026下半年量產屬既有年報計畫，本次資料未確認兩者實際達成，不以N2進度代替。",
+        "10/8重大訊息及9月月營收個別公告未於本批逐筆結案；本批Q3實績不能代替全市場監看完成。"
+      ],
+      "completion_unit": "10/15整場法說可取得公開文字及圖表，原始問答缺漏明示"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261015-2330-v1-developments",
+      "task_id": "meeting-2330.TW-2026-10-15",
+      "company_code": "2330",
+      "company_name": "台積電",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:1b29792152ab6ce7c752ee1123a1326d44180287c6a1fc6446dd2aded6e1aa09",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0d9b382512c830ade9753419b04e11ae333801210b1eb17ce4ccab3abc92650b",
+      "expected_old_section_version": "sha256:2c473cb448eb9039ccaa3d4c6eda9389ac0afac34d64c8cf9ddb996a91916420",
+      "old_content": {
+        "text": "2 奈米已於 2025 Q4 進入量產。年報規劃 N2P、A16 於 2026 下半年量產；本摘要尚未查核其後實際進度，不把計畫視為已完成。",
+        "period": "2025 年報所述進度與計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "【製程升級／既有業務擴產】N2已於2025Q4量產；Q3晶圓營收中2奈米占8%（Q2為3%）、3奈米33%、5奈米28%、7奈米10%，7奈米以下合計79%。這是晶圓營收分母，不以占比直接乘總合併營收推個別製程收入。HPC、智慧手機等客戶使用先進製程，具名客戶及製程獲利未揭露。\n【10/15口頭說明之媒體轉述，均為計畫】中央社報導N2新竹及高雄持續擴產，2027產能預計較2026倍增以上；這不是營收或淨利倍增財測。A14預計2027試產、2028量產；台南一座3奈米廠預計2027上半年量產，新增另一座預計2028上半年量產。亞利桑那第二廠建物完成、設備移入，預計2027Q3生產；日本第二廠3奈米預計2028量產。各項實際營收、單獨投資回收與具名訂單未揭露，不把量產年月當已認列營收。\n【既有計畫保留】2025年報原訂N2P、A16於2026下半年量產，本次已查資料未明確確認實際完成，仍標原計畫待後續官方進度。先進封裝屬既有核心升級，本場已讀資料未提供可確認的新CoWoS產能數字，不自行補估。\n【新布局，尚未決策】商業內幕轉述德州大型晶圓廠仍為團隊評估、與客戶討論，並強調若有新廠須由台積電營運；不列為已決定設廠、已承諾CAPEX或已成立合資公司。官方簡報回顧8/11與Sony次世代影像感測器合資協議及9/8與ASML大型光罩合作，均為既有事件回顧，不標成10/15新簽約；本場未提供足以補齊商用時間及收入的資料。",
+        "period": "2026Q3單季／9月30日時點及10月15日發布展望，逐項標示",
+        "sources": [
+          "tsmc-3q26-deck",
+          "tsmc-3q26-management",
+          "tsmc-3q26-cna",
+          "tsmc-3q26-bi"
+        ],
+        "projects": [
+          {
+            "project_id": "2330-N2",
+            "name": "N2製程與擴產",
+            "type": "既有業務擴產／新產品",
+            "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+            "progress": "已量產，Q3晶圓營收占8%；2027產能倍增為媒體轉述公司計畫",
+            "commercialization_time": "2025Q4量產；2027擴產預估",
+            "revenue_contribution": "未揭露個別專案營收／預估；N2僅揭露晶圓營收占比",
+            "sources": [
+              "tsmc-3q26-management",
+              "tsmc-3q26-cna",
+              "tsmc-3q26-bi"
+            ]
+          },
+          {
+            "project_id": "2330-A14",
+            "name": "A14",
+            "type": "新產品",
+            "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+            "progress": "規劃／試產準備，媒體轉述",
+            "commercialization_time": "2027試產、2028量產預估",
+            "revenue_contribution": "未揭露個別專案營收／預估；N2僅揭露晶圓營收占比",
+            "sources": [
+              "tsmc-3q26-management",
+              "tsmc-3q26-cna",
+              "tsmc-3q26-bi"
+            ]
+          },
+          {
+            "project_id": "2330-N3-TAINAN",
+            "name": "台南3奈米產能",
+            "type": "既有業務擴產",
+            "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+            "progress": "既有新廠及額外新廠規劃，媒體轉述",
+            "commercialization_time": "2027H1與2028H1量產預估",
+            "revenue_contribution": "未揭露個別專案營收／預估；N2僅揭露晶圓營收占比",
+            "sources": [
+              "tsmc-3q26-management",
+              "tsmc-3q26-cna",
+              "tsmc-3q26-bi"
+            ]
+          },
+          {
+            "project_id": "2330-ARIZONA-FAB2",
+            "name": "亞利桑那第二廠",
+            "type": "既有業務擴產",
+            "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+            "progress": "建物完成、設備移入，媒體轉述",
+            "commercialization_time": "2027Q3生產預估",
+            "revenue_contribution": "未揭露個別專案營收／預估；N2僅揭露晶圓營收占比",
+            "sources": [
+              "tsmc-3q26-management",
+              "tsmc-3q26-cna",
+              "tsmc-3q26-bi"
+            ]
+          },
+          {
+            "project_id": "2330-JAPAN-FAB2",
+            "name": "日本第二廠3奈米",
+            "type": "既有業務擴產",
+            "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+            "progress": "規劃進度，媒體轉述",
+            "commercialization_time": "2028量產預估",
+            "revenue_contribution": "未揭露個別專案營收／預估；N2僅揭露晶圓營收占比",
+            "sources": [
+              "tsmc-3q26-management",
+              "tsmc-3q26-cna",
+              "tsmc-3q26-bi"
+            ]
+          },
+          {
+            "project_id": "2330-TEXAS-EVALUATION",
+            "name": "德州大型廠評估",
+            "type": "潛在既有業務擴產",
+            "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+            "progress": "評估／討論，未決策，媒體轉述",
+            "commercialization_time": "未揭露",
+            "revenue_contribution": "未揭露個別專案營收／預估；N2僅揭露晶圓營收占比",
+            "sources": [
+              "tsmc-3q26-management",
+              "tsmc-3q26-cna",
+              "tsmc-3q26-bi"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "tsmc-3q26-deck",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/9f58506f6f114f91cefbf86820cc63297b39b130/3Q26%20Presentation%20(E).pdf",
+          "title": "2026第三季法說簡報，12頁",
+          "publisher": "台積電",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-management",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+          "title": "2026第三季營運報告，6頁",
+          "publisher": "台積電",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-cna",
+          "url": "https://www.cna.com.tw/news/afe/202610150212.aspx",
+          "title": "台積電全球近20座廠建置中　2奈米產能2027年增逾1倍",
+          "publisher": "中央社",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-bi",
+          "url": "https://www.businessinsider.tw/article/8327",
+          "title": "【台積電法說】為 AI 再擴產：2nm明年產能翻倍　台南追加一座3nm廠",
+          "publisher": "商業內幕",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_media_report_and_explicit_research_inference",
+      "event_date": "2026-10-15",
+      "research_completed_at": "2026-10-16T00:38:12.842854+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批為10/15整場法說可取得公開資料的完整交接，不是台積電全公司歷年研究補齊。",
+        "官方12頁簡報、6頁營運報告全文與製程、平台及現金流圖表已核對；未取得可核對的官方原始問答文字，問答／管理層口頭說明僅採明確標示的媒體轉述；不找影片。",
+        "個別客戶訂單、製程／平台獨立獲利、各新廠收入預估及可靠最新EPS共識未揭露或未找到，不補造。",
+        "中央社在建廠近20座與商業內幕近25座不一致，可能範圍不同但未確認，不採確定總座數。",
+        "N2P／A16原訂2026下半年量產屬既有年報計畫，本次資料未確認兩者實際達成，不以N2進度代替。",
+        "10/8重大訊息及9月月營收個別公告未於本批逐筆結案；本批Q3實績不能代替全市場監看完成。"
+      ],
+      "completion_unit": "10/15整場法說可取得公開文字及圖表，原始問答缺漏明示"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261015-2330-v1-transition",
+      "task_id": "meeting-2330.TW-2026-10-15",
+      "company_code": "2330",
+      "company_name": "台積電",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:1b29792152ab6ce7c752ee1123a1326d44180287c6a1fc6446dd2aded6e1aa09",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0d9b382512c830ade9753419b04e11ae333801210b1eb17ce4ccab3abc92650b",
+      "expected_old_section_version": "sha256:1bef207c4b15243670f81d8bde6a1e9c39b24ac1a9e91d61979fe27056a3c9e7",
+      "old_content": {
+        "text": "維持專業代工模式，擴充先進製程、封裝與海外產能；較適合視為核心業務升級，而非退出原本業務。此分類是依年報整理的研究判讀。",
+        "period": "2025 年報",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "維持專業晶圓代工模式，先進製程、先進封裝及海外產能屬核心業務升級與擴產，不能都歸為新事業。Q3營收及營業利益成長支持先進製程需求，但N2量產稀釋使毛利率季降；Q2特殊利益消退，使淨利季增幅小於本業利益增幅。這些屬本場資料可支持的獲利品質判讀。\n依商業內幕對10/15管理層說明轉述，公司以由上而下及由下而上方式檢驗AI需求，並觀察客戶資料中心電力與建設；這是公司需求判斷，不能視為所有終端投資一定如期兌現。公司仍對價格敏感的非AI消費需求及總體環境較謹慎；海外擴張、N2良率／成本及客戶CAPEX轉化速度仍須追蹤。管理層稱2026海外毛利稀釋接近2個百分點為媒體轉述預期，不表示海外成本壓力已消失。\n本場未取得可靠同日股價、均線、EPS共識及完整估值假設；不以這場法說摘要直接產出價格買點、評級或組合權重。原有公司核心業務章節不變，整家公司reviewed_at不刷新。",
+        "period": "2026Q3單季／9月30日時點及10月15日發布展望，逐項標示",
+        "sources": [
+          "tsmc-3q26-deck",
+          "tsmc-3q26-management",
+          "tsmc-3q26-cna",
+          "tsmc-3q26-bi"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "tsmc-3q26-deck",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/9f58506f6f114f91cefbf86820cc63297b39b130/3Q26%20Presentation%20(E).pdf",
+          "title": "2026第三季法說簡報，12頁",
+          "publisher": "台積電",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-management",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+          "title": "2026第三季營運報告，6頁",
+          "publisher": "台積電",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-cna",
+          "url": "https://www.cna.com.tw/news/afe/202610150212.aspx",
+          "title": "台積電全球近20座廠建置中　2奈米產能2027年增逾1倍",
+          "publisher": "中央社",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tsmc-3q26-bi",
+          "url": "https://www.businessinsider.tw/article/8327",
+          "title": "【台積電法說】為 AI 再擴產：2nm明年產能翻倍　台南追加一座3nm廠",
+          "publisher": "商業內幕",
+          "published_at": "2026-10-15",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_media_report_and_explicit_research_inference",
+      "event_date": "2026-10-15",
+      "research_completed_at": "2026-10-16T00:38:12.842854+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本批為10/15整場法說可取得公開資料的完整交接，不是台積電全公司歷年研究補齊。",
+        "官方12頁簡報、6頁營運報告全文與製程、平台及現金流圖表已核對；未取得可核對的官方原始問答文字，問答／管理層口頭說明僅採明確標示的媒體轉述；不找影片。",
+        "個別客戶訂單、製程／平台獨立獲利、各新廠收入預估及可靠最新EPS共識未揭露或未找到，不補造。",
+        "中央社在建廠近20座與商業內幕近25座不一致，可能範圍不同但未確認，不採確定總座數。",
+        "N2P／A16原訂2026下半年量產屬既有年報計畫，本次資料未確認兩者實際達成，不以N2進度代替。",
+        "10/8重大訊息及9月月營收個別公告未於本批逐筆結案；本批Q3實績不能代替全市場監看完成。"
+      ],
+      "completion_unit": "10/15整場法說可取得公開文字及圖表，原始問答缺漏明示"
+    }
+  ],
+  "numeric_policy": {
+    "single_quarter_separate": true,
+    "balance_date": "2026-09-30",
+    "q3_diluted_eps_not_added_to_basic_ytd": true,
+    "old_q3_guidance_superseded_by": "2026Q4",
+    "oct8_and_monthly_revenue_queue_not_closed": true
+  }
+}

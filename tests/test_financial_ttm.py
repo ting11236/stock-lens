@@ -128,3 +128,20 @@ class EPSComparabilityTests(unittest.TestCase):
             self.assertTrue(metrics[key]['blocked'])
         self.assertEqual(rows['2026-Q2']['eps'],2.68)
         self.assertIsNotNone(metrics['ps']['value'])
+
+
+class QuarterlyDisclosureTests(unittest.TestCase):
+    def test_single_quarter_diluted_eps_does_not_replace_cumulative_basic_eps(self):
+        from financial_ttm import derived_metrics
+        rows={f'{y}-Q4':{'eps':10+y-2020,'basis':'合併營業收入','revenue':100,'net_income':20} for y in range(2020,2026)}
+        rows['2025-Q3']={'eps':10,'basis':'合併營業收入','revenue':70,'net_income':15}
+        rows['2026-Q2']={'eps':15,'basis':'合併營業收入','revenue':80,'net_income':18}
+        rows['2026-Q3']={'eps':None,'basis':'合併營業收入','revenue':120,'net_income':28,'eps_unavailable_reason':'單季稀釋與累計基本分開'}
+        metrics=derived_metrics({'price':100},{'cumulative':rows})
+        self.assertEqual(metrics['trailing_sales']['value'],150)
+        self.assertTrue(metrics['trailing_eps']['blocked'])
+        self.assertIsNone(metrics['trailing_eps']['value'])
+        self.assertTrue(metrics['calculated_pe']['blocked'])
+        self.assertFalse(metrics['peg']['blocked'])
+        self.assertEqual(metrics['peg']['period_mode'],'cagr5')
+        self.assertEqual(rows['2026-Q2']['eps'],15)

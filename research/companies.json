@@ -16,6 +16,54 @@
         "publisher": "台積電",
         "published_at": "2026-07-16",
         "accessed_at": "2026-10-02"
+      },
+      "tsmc-3q26-deck": {
+        "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/9f58506f6f114f91cefbf86820cc63297b39b130/3Q26%20Presentation%20(E).pdf",
+        "title": "2026第三季法說簡報，12頁",
+        "publisher": "台積電",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "tsmc-3q26-management": {
+        "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf",
+        "title": "2026第三季營運報告，6頁",
+        "publisher": "台積電",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "tsmc-3q26-cna": {
+        "url": "https://www.cna.com.tw/news/afe/202610150212.aspx",
+        "title": "台積電全球近20座廠建置中　2奈米產能2027年增逾1倍",
+        "publisher": "中央社",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "tsmc-3q26-bi": {
+        "url": "https://www.businessinsider.tw/article/8327",
+        "title": "【台積電法說】為 AI 再擴產：2nm明年產能翻倍　台南追加一座3nm廠",
+        "publisher": "商業內幕",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "earnings",
+          "developments",
+          "transition"
+        ]
       }
     },
     "business": {
@@ -26,31 +74,142 @@
       ]
     },
     "earnings": {
-      "text": "2025 年營業利益率為 50.8%，高於 2024 年的 45.7%。2026 Q2 高效能運算與手機分別占營收 66%、22%，不是獲利占比；該季另有世界先進持股處分及評價利益 632 億元，不能全部視為經常性本業成長。",
-      "period": "2024–2025 年／2026 Q2",
+      "text": "2026年第3季，先進製程需求帶動生意與獲利增加。單季合併營收14,942.4億元，比上季增加17.6%、比去年同期增加50.9%；營業利益8,764.5億元、歸母淨利7,630.6億元，分別比去年同期增加75.0%、68.7%。單季稀釋EPS為29.43元。\n每100元營收約留下66.4元毛利、58.7元營業利益。兩個比率比上季略降，公司說明2奈米剛開始大量生產，初期成本壓低毛利率。高效能運算占總營收68%、手機21%；高效能運算涵蓋AI及其他用途。2奈米占晶圓營收8%，3奈米33%、5奈米28%、7奈米10%；各製程的個別獲利未揭露。\n第3季本業以外收益345.9億元，低於第2季958.3億元，主要因上季出售及評價世界先進持股的利益沒有再次發生。本季主要業外收入是利息淨收益316.6億元。上季另有地震保險理賠，列在營業內；有效稅率由18.1%降為16.2%，也影響淨利比較。\n截至9月30日，總資產100,528.9億元、總負債30,096.6億元、總權益70,432.3億元。現金及約當現金36,218.9億元，另加有價證券後為40,169.8億元。有息債務10,315.8億元已含一年內到期債券及借款2,132.0億元。公司以現金加有價證券扣除有息債務，列出淨現金29,854.0億元。\n第3季單季營業現金流入9,197.7億元、資本支出4,432.1億元，公司定義的自由現金流為4,765.6億元。其他投資現金流入1,987.4億元主要來自美國投資抵減，屬投資現金流。存貨天數由上季87天降至82天。前三季設備等投資累計406.4億美元，這是截至9月底的實績。",
+      "period": "2026Q3單季／9月30日時點及10月15日發布展望，逐項標示",
       "sources": [
-        "annual",
-        "q2"
-      ]
+        "tsmc-3q26-deck",
+        "tsmc-3q26-management",
+        "tsmc-3q26-cna",
+        "tsmc-3q26-bi"
+      ],
+      "reviewed_at": "2026-10-16"
     },
     "transition": {
-      "text": "維持專業代工模式，擴充先進製程、封裝與海外產能；較適合視為核心業務升級，而非退出原本業務。此分類是依年報整理的研究判讀。",
-      "period": "2025 年報",
+      "text": "公司發展方向：持續擴充先進製程、封裝及海外產能，承接AI、高效能運算及其他晶片需求。公司希望把需求轉成更多出貨與收入，同時改善新製程初期的生產成本。\n公司10月15日預估，第4季營收為523至543億美元，毛利率65%至67%、營業利益率56.5%至58.5%，假設美元兌新台幣31.8；全年美元營收預計比去年增加約44%。第3季美元營收實際為467.2億美元，高於原先446至458億美元預估。新指引已改看第4季，全年新台幣營收則仍會受匯率影響。\n接下來看三件事：先進製程的訂單是否持續、2奈米初期成本能否改善，以及海外廠擴張後的成本與產出。第3季營收與營業利益增加，但毛利率比上季下降；上季特殊利益減少，也讓淨利的季增幅小於本業獲利增幅。\n商業內幕轉述，管理層會從客戶需求、資料中心電力與建設等方向評估AI需求，對非AI消費需求及總體環境較謹慎；2026海外廠對毛利率的影響預期接近2個百分點。該媒體另轉述全年資本支出600至640億美元，屬管理層口頭說明的媒體報導，與官方簡報列出的數字分開看。\n本次使用官方12頁簡報及6頁營運報告；原始問答文字未取得，口頭說明均標示媒體轉述。個別廠區收入、製程獲利及可靠最新EPS共識仍未取得。",
+      "period": "2026Q3單季／9月30日時點及10月15日發布展望，逐項標示",
       "sources": [
-        "annual"
-      ]
+        "tsmc-3q26-deck",
+        "tsmc-3q26-management",
+        "tsmc-3q26-cna",
+        "tsmc-3q26-bi"
+      ],
+      "reviewed_at": "2026-10-16"
     },
     "developments": {
-      "text": "2 奈米已於 2025 Q4 進入量產。年報規劃 N2P、A16 於 2026 下半年量產；本摘要尚未查核其後實際進度，不把計畫視為已完成。",
-      "period": "2025 年報所述進度與計畫",
+      "text": "公司繼續升級製程、擴充產能與海外製造據點，主要仍是替客戶製造晶片的既有業務。\n2奈米：2025年第4季已量產，2026年第3季占晶圓營收8%，高於上季3%。中央社轉述公司計畫，新竹及高雄持續擴產，2027年2奈米產能預計較2026年增加一倍以上；這是產能計畫，實際營收還要看訂單及價格。\nA14：媒體轉述規劃2027年試產、2028年量產。台南3奈米：一座廠預計2027上半年量產，另一座預計2028上半年量產。\n海外：中央社轉述亞利桑那第二廠建物完成、正在移入設備，預計2027年第3季生產；日本第二廠3奈米預計2028年量產。各廠個別收入與具名訂單尚未揭露。\nN2P及A16：保留年報原訂2026年下半年量產的計畫，這次資料尚未確認實際達成。先進封裝持續升級，本場可取得資料沒有新的可核對CoWoS產能數字。\n德州：商業內幕轉述仍在評估及與客戶討論階段，尚未決定設廠。8月11日與Sony影像感測器合資協議、9月8日與ASML大型光罩合作，是本場簡報回顧的既有事件。",
+      "period": "2026Q3單季／9月30日時點及10月15日發布展望，逐項標示",
       "sources": [
-        "annual"
-      ]
+        "tsmc-3q26-deck",
+        "tsmc-3q26-management",
+        "tsmc-3q26-cna",
+        "tsmc-3q26-bi"
+      ],
+      "projects": [
+        {
+          "project_id": "2330-N2",
+          "name": "N2製程與擴產",
+          "type": "既有業務擴產／新產品",
+          "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+          "progress": "已量產，Q3晶圓營收占8%；2027產能倍增為媒體轉述公司計畫",
+          "commercialization_time": "2025Q4量產；2027擴產預估",
+          "revenue_contribution": "未揭露個別專案營收或預估；已揭露N2晶圓營收占比",
+          "sources": [
+            "tsmc-3q26-management",
+            "tsmc-3q26-cna",
+            "tsmc-3q26-bi"
+          ]
+        },
+        {
+          "project_id": "2330-A14",
+          "name": "A14",
+          "type": "新產品",
+          "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+          "progress": "規劃／試產準備，媒體轉述",
+          "commercialization_time": "2027試產、2028量產預估",
+          "revenue_contribution": "未揭露個別專案營收或預估",
+          "sources": [
+            "tsmc-3q26-management",
+            "tsmc-3q26-cna",
+            "tsmc-3q26-bi"
+          ]
+        },
+        {
+          "project_id": "2330-N3-TAINAN",
+          "name": "台南3奈米產能",
+          "type": "既有業務擴產",
+          "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+          "progress": "既有新廠及額外新廠規劃，媒體轉述",
+          "commercialization_time": "2027H1與2028H1量產預估",
+          "revenue_contribution": "未揭露個別專案營收或預估",
+          "sources": [
+            "tsmc-3q26-management",
+            "tsmc-3q26-cna",
+            "tsmc-3q26-bi"
+          ]
+        },
+        {
+          "project_id": "2330-ARIZONA-FAB2",
+          "name": "亞利桑那第二廠",
+          "type": "既有業務擴產",
+          "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+          "progress": "建物完成、設備移入，媒體轉述",
+          "commercialization_time": "2027Q3生產預估",
+          "revenue_contribution": "未揭露個別專案營收或預估",
+          "sources": [
+            "tsmc-3q26-management",
+            "tsmc-3q26-cna",
+            "tsmc-3q26-bi"
+          ]
+        },
+        {
+          "project_id": "2330-JAPAN-FAB2",
+          "name": "日本第二廠3奈米",
+          "type": "既有業務擴產",
+          "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+          "progress": "規劃進度，媒體轉述",
+          "commercialization_time": "2028量產預估",
+          "revenue_contribution": "未揭露個別專案營收或預估",
+          "sources": [
+            "tsmc-3q26-management",
+            "tsmc-3q26-cna",
+            "tsmc-3q26-bi"
+          ]
+        },
+        {
+          "project_id": "2330-TEXAS-EVALUATION",
+          "name": "德州大型廠評估",
+          "type": "潛在既有業務擴產",
+          "use_and_customers": "晶圓代工客戶；未揭露本項完整具名客戶與訂單",
+          "progress": "評估／討論，未決策，媒體轉述",
+          "commercialization_time": "未揭露",
+          "revenue_contribution": "未揭露個別專案營收或預估",
+          "sources": [
+            "tsmc-3q26-management",
+            "tsmc-3q26-cna",
+            "tsmc-3q26-bi"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-16"
     },
     "limitations": [
       "未取得各應用平台的獨立獲利占比。",
-      "新項目的最新進度仍待補查，來源涵蓋範圍不等同所有近期新聞。"
-    ]
+      "新項目的最新進度仍待補查，來源涵蓋範圍不等同所有近期新聞。",
+      "本批為10/15整場法說可取得公開資料的完整交接，不是台積電全公司歷年研究補齊。",
+      "官方12頁簡報、6頁營運報告全文與製程、平台及現金流圖表已核對；未取得可核對的官方原始問答文字，問答／管理層口頭說明僅採明確標示的媒體轉述；不找影片。",
+      "個別客戶訂單、製程／平台獨立獲利、各新廠收入預估及可靠最新EPS共識未揭露或未找到，不補造。",
+      "中央社在建廠近20座與商業內幕近25座不一致，可能範圍不同但未確認，不採確定總座數。",
+      "N2P／A16原訂2026下半年量產屬既有年報計畫，本次資料未確認兩者實際達成，不以N2進度代替。",
+      "10/8重大訊息及9月月營收個別公告未於本批逐筆結案；本批Q3實績不能代替全市場監看完成。"
+    ],
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "meeting_research": {
+      "event_date": "2026-10-15",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-10-16",
+      "original_qa_verified": false,
+      "batch_id": "research-20261015-2330-v1"
+    }
   },
   "2317.TW": {
     "name": "鴻海",
@@ -3867,5 +4026,363 @@
       "scope": "全國電整家公司既定公開查找與10/12整場會議可取得資料",
       "batch_id": "research-20261013-6281-v1"
     }
+  },
+  "1725.TW": {
+    "name": "元禎",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "yj-deck": {
+        "url": "https://www.yuanjen.com/wp-content/uploads/2026/10/1151013_1725元禎法說會中文簡報.pdf",
+        "title": "10/13法說中文簡報，16頁",
+        "publisher": "元禎",
+        "published_at": "2026-10-13",
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "period": "2026H1及10月展望"
+      },
+      "yj-annual": {
+        "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年報-07傳輸檔自行組合-中文.pdf",
+        "title": "2025年報，116頁；主要參閱營運概況80–87、財務93–97頁",
+        "publisher": "元禎",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+        "period": "2025年；部分計畫截至2026/4"
+      },
+      "yj-fy": {
+        "url": "https://www.yuanjen.com/wp-content/uploads/2026/08/114年度財務報告Q4合併.pdf",
+        "title": "2025合併財報，附註22及33／財報8–12、44–45、67頁",
+        "publisher": "元禎",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+        "period": "2025全年"
+      },
+      "yj-electronic": {
+        "url": "https://www.yuanjen.com/product/electronic-materials/",
+        "title": "電子化學暨材料產品頁",
+        "publisher": "元禎",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+      },
+      "yj-sustainable": {
+        "url": "https://www.yuanjen.com/product/sustainable-materials/",
+        "title": "永續材料產品頁",
+        "publisher": "元禎",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+      },
+      "yj-about": {
+        "url": "https://www.yuanjen.com/about/",
+        "title": "公司介紹及沿革",
+        "publisher": "元禎",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日"
+      },
+      "yj-qa-secondary": {
+        "url": "https://blog.fugle.tw/post/earnings-call-1725-2026-10-13",
+        "title": "富果法說AI摘要，非官方原始問答",
+        "publisher": "富果研究部",
+        "published_at": "2026-10-13",
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "period": "10/13會後文字"
+      },
+      "yj-shared-financial": {
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "title": "網站共同數字基線：10/15晚間匯出",
+        "publisher": "網站匯出之公開資訊觀測站資料",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+        "period": "2026H1，合併／新台幣億元",
+        "verification_status": "沿用共同基線，未獨立取得H1附註"
+      },
+      "yj-shared-balance": {
+        "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1721&companyId=1722&companyId=1723&companyId=1725&companyId=1726",
+        "title": "網站共同資產負債來源",
+        "publisher": "網站匯出之公開資訊觀測站資料",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+        "period": "2026/6/30時點，合併／新台幣億元",
+        "verification_status": "沿用共同基線，未獨立取得H1附註"
+      },
+      "yj-peer-4755": {
+        "url": "https://www.sfchem.com.tw/zh-hant/page/csr-aboutus",
+        "title": "三福化官方產業與產品說明",
+        "publisher": "三福化",
+        "published_at": null,
+        "accessed_at": "2026-10-16",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "官網未明列首次發布日；上傳資料夾月份不當發布日",
+        "period": "頁面部分資料為2022年，只用穩定業務模式"
+      }
+    },
+    "business": {
+      "text": "元禎主要把石化原料買進來，再賣給加工及電子客戶，並提供倉儲、分裝與配送服務。獲利重點是進貨與售價之間的差額，以及庫存、收款和運輸管理；主要角色是原料通路商。\n2025年商品收入中，化學品占39%、塑膠35%、油品25%、其他1%；銷售地區台灣63%、中國25%、其他12%。化學品用於塗料、接著劑、樹脂與油墨；塑膠用於電子零件、風扇、齒輪、包材等；另銷售燃料油、基礎油與潤滑油。這些是2025年收入結構，各項產品的獲利比例未揭露。\n台灣有北中南倉儲配送據點，中國有上海與廣州據點，東南亞有泰國及越南布局。2025年沒有單一客戶占銷售超過10%；主要供應商台塑石化、台灣塑膠分占進貨25.27%、24.56%。\n4755三福化可比較部分電子及基礎化學品需求，但三福化另有純化、調配及製造能力；元禎以通路為主，兩家的獲利模式有差異。上游石化公司則作供應鏈參考。",
+      "period": "2025全年／2026H1及10/13法說，逐項標示",
+      "sources": [
+        "yj-deck",
+        "yj-annual",
+        "yj-fy",
+        "yj-electronic",
+        "yj-sustainable",
+        "yj-about",
+        "yj-qa-secondary",
+        "yj-shared-financial",
+        "yj-shared-balance",
+        "yj-peer-4755"
+      ],
+      "reviewed_at": "2026-10-16"
+    },
+    "earnings": {
+      "text": "2026年上半年，本業及本業以外收益都比去年改善。合併營收46.1087億元、年增7.68%；毛利2.19932億元、毛利率4.77%；營業利益1.07021億元，去年同期0.58298億元。歸母淨利依共同基線為1.82630億元，累計EPS1.00元，去年同期0.08元。\n法說損益表的營收46.1087億元與網站共同基線一致；公司介紹頁另寫43億元，本次採用損益表數字，保留這項來源差異。上半年毛利增加、營業費用約持平，是本業獲利改善的直接數字原因。價格、銷量與產品組合的個別影響尚未拆清。\n上半年業外收益1.02394億元，去年同期為虧損0.32573億元，約占本期稅前利益48.9%。富果AI摘要轉述股利時點及股票評價帶來改善，但正式H1財報附註尚未取得，各項金額仍待核對。\n2025年全年營收79.96645億元、營業利益1.45155億元、歸母淨利2.78349億元、EPS1.53元，分別較2024年減少4.68%、20.56%、19.87%。當年業外淨額1.50446億元，主要有股利收入1.83963億元；2025年的匯率及投資評價說明，只用於解釋當年數字。財報另有部分股利、金融資產收益及租金列在營業收入，投資收入須依報表位置分開看。\n2025年其他綜合損益10.27343億元，與當期淨利分開；投資評價變動可能影響股東權益。2026年上半年權益增加的精確原因仍待正式附註核對。\n資產負債沿用網站共同基線：2026年6月底資產110.23811億元、負債24.25243億元、權益85.98568億元；現金8.22583億元、表列借款15.58319億元、租賃負債0.05373億元。上半年營業現金流入1.56736億元。負債比約22%、流動比率約4.25倍；流動資產仍包含投資、存貨及應收款，閱讀時要一起看收款與變現情況。",
+      "period": "2025全年／2026H1及10/13法說，逐項標示",
+      "sources": [
+        "yj-deck",
+        "yj-annual",
+        "yj-fy",
+        "yj-electronic",
+        "yj-sustainable",
+        "yj-about",
+        "yj-qa-secondary",
+        "yj-shared-financial",
+        "yj-shared-balance",
+        "yj-peer-4755"
+      ],
+      "reviewed_at": "2026-10-16"
+    },
+    "developments": {
+      "text": "電子化學與材料：官方簡報列電子化學部及電子材料部，現有產品包括電子級IPA、DMK及雙氧水；官網另列FEP、ETFE、PFA等氟樹脂、薄膜、管件與鈦合金，可用於線纜絕緣、高頻高速材料及半導體流體控制。公開資料列出產品及用途，個別客戶認證、訂單及新品收入尚未揭露。富果AI摘要提到封裝與線材材料機會，屬第三方轉述。\n泰國與越南：服務當地及外移加工客戶。泰國子公司2025年設立、持股100%，越南自2020年布局。2025年報稱泰國尚未形成規模、越南尚無實質營運；10月簡報已列兩地據點，實際收入規模與損益兩平時間仍待後續資料。\n回收材料：2023年取得GRS認證，官網列出回收PE、PP、ABS、PS、PC及PET等產品，可用於包材、3C及汽車零件。元禎拓展的是材料經銷品項，各品項收入與新增訂單未揭露。\n既有倉儲：桃園蘆竹倉儲2021年取得並投入營運，支援北部供應及備貨；持續改善分裝、運輸與庫存週轉。\n岡山太陽能：2025至2026年啟動工程、2026年完成併聯，是據點的節能設施。容量、自用或售電比例，以及個別收入尚未揭露。",
+      "period": "2025全年／2026H1及10/13法說，逐項標示",
+      "sources": [
+        "yj-deck",
+        "yj-annual",
+        "yj-fy",
+        "yj-electronic",
+        "yj-sustainable",
+        "yj-about",
+        "yj-qa-secondary",
+        "yj-shared-financial",
+        "yj-shared-balance",
+        "yj-peer-4755"
+      ],
+      "projects": [
+        {
+          "project_id": "1725-ELECTRONIC-MATERIALS",
+          "name": "電子材料與電子化學品",
+          "type": "新產品／市場拓展",
+          "progress": "現有品項已列售；封裝及線材方向僅第三方轉述",
+          "use_and_customers": "線纜、高頻、流體控制與電子加工客戶；未具名",
+          "commercialization_time": "新品首商用時間未揭露",
+          "revenue_contribution": "未揭露個別收入／金額預估",
+          "sources": [
+            "yj-deck",
+            "yj-annual",
+            "yj-about",
+            "yj-electronic",
+            "yj-sustainable"
+          ]
+        },
+        {
+          "project_id": "1725-THAILAND",
+          "name": "泰國通路據點",
+          "type": "既有業務拓點",
+          "progress": "2025設立；2025未達規模，10月列據點",
+          "use_and_customers": "當地及外移石化加工客戶",
+          "commercialization_time": "設立2025，放量未揭露",
+          "revenue_contribution": "未揭露個別收入／金額預估",
+          "sources": [
+            "yj-deck",
+            "yj-annual",
+            "yj-about",
+            "yj-electronic",
+            "yj-sustainable"
+          ]
+        },
+        {
+          "project_id": "1725-VIETNAM",
+          "name": "越南通路布局",
+          "type": "既有業務拓點",
+          "progress": "2020設立；2025未實質營運，10月列據點",
+          "use_and_customers": "越南及東南亞加工客戶",
+          "commercialization_time": "實質商用進度未揭露",
+          "revenue_contribution": "未揭露個別收入／金額預估",
+          "sources": [
+            "yj-deck",
+            "yj-annual",
+            "yj-about",
+            "yj-electronic",
+            "yj-sustainable"
+          ]
+        },
+        {
+          "project_id": "1725-PCR",
+          "name": "PCR回收材料產品",
+          "type": "新產品延伸",
+          "progress": "2023 GRS，官網列目錄",
+          "use_and_customers": "包裝、3C、汽車零件等材料需求",
+          "commercialization_time": "各品項未揭露",
+          "revenue_contribution": "未揭露個別收入／金額預估",
+          "sources": [
+            "yj-deck",
+            "yj-annual",
+            "yj-about",
+            "yj-electronic",
+            "yj-sustainable"
+          ]
+        },
+        {
+          "project_id": "1725-GANGSHAN-SOLAR",
+          "name": "岡山太陽能",
+          "type": "營運節能設施",
+          "progress": "2026併聯",
+          "use_and_customers": "岡山據點用電／減碳；自用售電比例未揭露",
+          "commercialization_time": "2026併聯",
+          "revenue_contribution": "未揭露個別收入／金額預估",
+          "sources": [
+            "yj-deck",
+            "yj-annual",
+            "yj-about",
+            "yj-electronic",
+            "yj-sustainable"
+          ]
+        },
+        {
+          "project_id": "1725-LUZHU-LOGISTICS",
+          "name": "蘆竹倉儲",
+          "type": "既有物流設施",
+          "progress": "2021取得並投入營運",
+          "use_and_customers": "北部化工客戶倉配",
+          "commercialization_time": "既有已營運，非本期新增",
+          "revenue_contribution": "未揭露個別收入／金額預估",
+          "sources": [
+            "yj-deck",
+            "yj-annual",
+            "yj-about",
+            "yj-electronic",
+            "yj-sustainable"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-16"
+    },
+    "transition": {
+      "text": "公司發展方向：以原本的化工原料通路為基礎，增加電子材料、回收材料品項，並拓展東南亞客戶。公司希望透過產品與市場延伸，改善獲利來源及配送服務。\n10月13日簡報對石化供需及中國復甦保持審慎，並期待投資標的獲利為下半年帶來業外收益；這是方向性預期，沒有可核對的整體營收或EPS金額目標。年報原列2026銷量目標263,100公噸，是年初計畫，10月簡報未更新達成情況。\n接下來先看每筆原料生意留下多少利潤，再看庫存賣出、貨款收回及借款成本；投資部位則看股利與價格波動。新材料要追蹤客戶認證、實際出貨與收入，泰國及越南據點要看何時形成穩定業績。\n本次完成16頁簡報、年報營運章節及2025正式財報的公開資料查找。官方原始問答與2026H1正式財報附註未取得，富果AI摘要的口頭細節保留為轉述；上半年業外分項及權益變動原因仍待補核。",
+      "period": "2025全年／2026H1及10/13法說，逐項標示",
+      "sources": [
+        "yj-deck",
+        "yj-annual",
+        "yj-fy",
+        "yj-electronic",
+        "yj-sustainable",
+        "yj-about",
+        "yj-qa-secondary",
+        "yj-shared-financial",
+        "yj-shared-balance",
+        "yj-peer-4755"
+      ],
+      "reviewed_at": "2026-10-16",
+      "peer_candidates": [
+        {
+          "company_code": "4755",
+          "market": "TWSE",
+          "comparison_scope": "部分電子及基礎化學品",
+          "reason": "具製造與純化能力，與元禎通路模式不同；非直接估值樣本"
+        }
+      ]
+    },
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "limitations": [
+      "完成既定公司公開資料查找及10/13整場可取得文字；未公開／來源無法取得者明示，不等於所有資訊已揭露。",
+      "簡報公司介紹頁H1營收43億元與其損益表46.1087億元不一致；採損益表且與網站基線一致，不採43億元。",
+      "未取得可驗證官方原始問答文字，不找影片；富果為AI影音摘要，僅低信度轉述，不把其細節當官方確認或量產實績。",
+      "2026H1正式財報PDF未在官網本次提供的連結中取得，MOPS下載查詢回傳空白；H1業外精確分項與權益暴增歸因未獨立完成核閱，不以2025原因代替2026。H1資產負債沿網站共同基線並清楚標示。",
+      "未揭露專案具名客戶、個別營收與商用年月；未取得可靠最新法人營收或EPS共識。",
+      "年報產品收入比不等於產品獲利比；子公司投資收益與合併業外不得重複相加。",
+      "舊年報越南尚未實質營運、泰國未規模營運為2025狀況；10月據點已列示不能直接證明已大量出貨。",
+      "簡報歷年營業利益柱形與營益率標示部分年份不完全能互相驗算，本批僅採H1損益表及已讀2025正式財報，不據圖推精確長期序列。"
+    ],
+    "meeting_research": {
+      "event_date": "2026-10-13",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-10-16",
+      "original_qa_verified": false,
+      "batch_id": "research-20261015-1725-v1"
+    },
+    "source_conflicts": [
+      {
+        "source": "yj-deck",
+        "field": "2026H1 revenue",
+        "company_intro_value": 43,
+        "income_statement_value": 46.1087,
+        "unit": "億元",
+        "adopted_value": 46.1087,
+        "basis": "損益表與共同基線一致",
+        "status": "disclosed"
+      }
+    ]
   }
 }
