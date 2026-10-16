@@ -1,0 +1,1579 @@
+{
+  "batch_id": "research-20261017-4566-v1",
+  "adopted_at": "2026-10-17",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261017-4566-v1",
+    "ready": true,
+    "created_at": "2026-10-17T00:58:22.482752+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:4e6170e521689255dce5a5278a6de0a9896d5ca1b1f0f985b47d44b02639c824",
+    "work_type": "backfill",
+    "completion_unit": "時碩工業整家公司及10/16整場可取得公開資料",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "官方原始問答文字未取得，不查影片；本場所有可取得文字及圖表已一次交付",
+      "個別新產品具名客戶、營收／利益、商用細項未完整揭露",
+      "未取得正式全年營收／EPS金額財測或可靠最新法人EPS共識",
+      "2026Q3完整財報未取得；簡報46.4億為前三季收入，EPS0.99為H1",
+      "2024比較數及Q2基本EPS／借款口徑修正請網站驗證，不盲目改數字",
+      "僅完成本公司及本場公開資料查找，不宣稱全市場監看無缺漏",
+      "可轉債使用8/10官方公告全文轉載；實際募集完成／轉換條件及MOPS原頁本次未取得"
+    ],
+    "meeting_research": {
+      "company_code": "4566",
+      "meeting_date": "2026-10-16",
+      "research_complete": true,
+      "scope": "21實體頁官方簡報全文及圖表、2026H1財報及2025年度關鍵附註、產品官網；問答缺漏明示",
+      "original_qa_verified": false
+    }
+  },
+  "before": {
+    "record": null,
+    "overview": {
+      "name": "時碩工業",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 647,
+      "business": "航太、工業與車用精密金屬加工",
+      "direction": "液冷關鍵零件及機器人致動系統；產品頁未量化新收入",
+      "profit_mechanism": "精密加工毛利；良率、客戶認證及材料影響",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "H1業外增幅篩選",
+      "urls": [
+        "https://www.globaltekww.com/en/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 47.9737,
+        "fy2025": 49.76319,
+        "q32025": 12.69213,
+        "q42025": 12.16521,
+        "q12026": 13.545490000000001,
+        "q22026": 14.67666,
+        "ttm": 53.07949,
+        "h1_operating_profit": 1.20307,
+        "h1_nonoperating": 0.21287,
+        "h1_pretax": 1.41594,
+        "h1_parent_profit": 1.0916,
+        "h1_operating_margin": 0.042628573655798696,
+        "h1_nonoperating_share": 0.15033829117053002,
+        "fy2025_parent_profit": 1.48979,
+        "q22026_parent_profit": 0.6875100000000001,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 28.22215,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 47.9737,
+            "net_income": 2.56357,
+            "eps": 2.56,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 24.90585,
+            "net_income": -0.20369,
+            "eps": -0.19,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 37.59798,
+            "net_income": 0.8327600000000001,
+            "eps": 0.76,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 49.76319,
+            "net_income": 1.48979,
+            "eps": 1.36,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 13.545490000000001,
+            "net_income": 0.40409,
+            "eps": 0.37000000000000005,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 28.22215,
+            "net_income": 1.0916,
+            "eps": 0.9900000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 1.49,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 2.35,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 5.74,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 3.04,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 12.692129999999999,
+              "eps": 0.95,
+              "net_income": 1.03645
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 12.165210000000002,
+              "eps": 0.6000000000000001,
+              "net_income": 0.6570299999999999
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 13.545490000000001,
+              "eps": 0.37000000000000005,
+              "net_income": 0.40409
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 14.676659999999998,
+              "eps": 0.6200000000000001,
+              "net_income": 0.6875099999999998
+            }
+          ],
+          "ttms": 53.07949000000001,
+          "ttm_eps": 2.54,
+          "ttm_parent_profit": 2.78508,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 53.08 億元；每股盈餘 2.54 元；歸母淨利 2.79 億元。營收未扣成本與費用，不等於獲利。獲利機制：精密加工毛利；良率、客戶認證及材料影響。",
+      "events": [
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-1.35億元變為0.21億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.globaltekww.com/en/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "4566",
+            "name": "時碩工業",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 112.51294,
+            "liabilities": 61.02691,
+            "equity": 51.48603,
+            "parent_equity": 50.59588,
+            "cash": 20.01382,
+            "current_assets": 54.33448,
+            "current_liabilities": 37.8363,
+            "listed_borrowings": 24.18236,
+            "listed_leases": 5.63248,
+            "operating_cashflow": 2.74905,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=4564&companyId=4566&companyId=4569&companyId=4571&companyId=4572",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=4564&companyId=4566&companyId=4569&companyId=4571&companyId=4572",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "4566",
+            "name": "時碩工業",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 105.74356,
+            "liabilities": 55.378820000000005,
+            "equity": 50.364740000000005,
+            "parent_equity": 49.47291,
+            "cash": 20.89586,
+            "current_assets": 52.96255,
+            "current_liabilities": 28.27389,
+            "listed_borrowings": 28.83302,
+            "listed_leases": 5.76623,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=4564&companyId=4566&companyId=4569&companyId=4571&companyId=4572",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=4564&companyId=4566&companyId=4569&companyId=4571&companyId=4572",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "delivery_updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-4566-v1-business",
+      "task_id": "backfill-20261017-4566",
+      "related_task_ids": [
+        "meeting-4566.TW-2026-10-16"
+      ],
+      "company_code": "4566",
+      "company_name": "時碩工業",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:4bbf05e5ac6f962908b1cfb22d81f58a1c593c5134be7bc79fddeb770cdd9b2c",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "時碩工業（4566，上市）供應精密金屬零組件及工程整合服務，處於材料／鑄造、精密加工、特殊製程、組裝檢測到OEM設備／系統客戶的供應鏈中。核心不是自行銷售整台伺服器或飛機，而是以製程、認證及長期專案服務車用、工業、航太市場。公司法人成立於2008年；簡報的2000年起源是集團發展軌跡，兩種起算不混用。[gt-about、gt-h1、gt-deck]\n車用涵蓋渦輪增壓、EGR、皮帶張力／減振及傳動相關零件，需求連結車廠與Tier供應鏈；工業涵蓋流量／壓力等儀表、感測及設備零件，並延伸半導體設備與新應用；航太包括引擎相關、附件齒輪箱及飛控致動等精密零件。主要客戶類型是設備商、車用供應鏈及航太OEM，未以未公開名單推定特定AI晶片客戶。[gt-auto、gt-industrial、gt-aero]\n2025全年合併收入49.76319億元；按外部客戶收入，車用24.35414億元、工業16.52993億元、航太8.87912億元。按客戶所在地為亞洲25.87491億元、美洲17.45668億元、歐洲6.43160億元；這是銷售地域，不等於工廠產地。2025財報稱無單一客戶收入超過合併營收10%，不代表任何客戶名稱或2026集中度已確認。[gt-fy，附註23及十四]\n10/16法說稱2026前三季營收約46.4億元，9月底員工1,720人，三國八廠；製造網絡在台灣、中國、泰國，配合北美、歐洲、日本客戶開發。台灣偏工程／多樣少量、中國兼規模生產、泰國支援中國加一。這是公司定位描述，不把全部廠區視為已滿載或具相同認證。[gt-deck]\n相似同業：8222寶一可比航太引擎零組件、特殊製程、OEM認證與長交期訂單，其超合金薄鈑成型／焊接與時碩鑄造／精密加工仍有差異；僅作航太事業參照，不以寶一整體估值替代時碩車用、工業及液冷的估值。現階段沒有單一高度可比的全公司同業；液冷零件也不能直接套整櫃液冷系統商的營收倍數。[peer-8222、gt-deck]",
+        "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+        "sources": [
+          "gt-deck",
+          "gt-h1",
+          "gt-fy",
+          "gt-about",
+          "gt-auto",
+          "gt-industrial",
+          "gt-aero",
+          "gt-uqd",
+          "gt-robot",
+          "gt-index",
+          "peer-8222",
+          "gt-cb-reprint"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "gt-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/456620261016M001.pdf",
+          "title": "10/16法說：2026年第三季營運報告；21個實體頁全文與圖表",
+          "publisher": "時碩工業",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "period": "2025全年、2026H1、前三季營收及未來計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "gt-h1",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2026_q2_report.pdf",
+          "title": "2026年第二季合併財報；89頁，主要核對5–9、47、53、60、80及轉投資附表",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026H1累計／Q2單季／6月30日；比較期另標",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-fy",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2025_q4_report.pdf",
+          "title": "2025年度合併財報；收入、業外、EPS及部門／地區／客戶附註",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2025全年及內列2024比較數",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-about",
+          "url": "https://www.globaltekww.com/tw/about",
+          "title": "企業簡介",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務介紹",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-auto",
+          "url": "https://www.globaltekww.com/tw/automotive-engine-and-transmission-system-components",
+          "title": "汽車引擎與傳動系統零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-industrial",
+          "url": "https://www.globaltekww.com/tw/industrial-instrumentation",
+          "title": "工業儀表產品",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-aero",
+          "url": "https://www.globaltekww.com/tw/engine",
+          "title": "航太引擎及相關零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-uqd",
+          "url": "https://www.globaltekww.com/tw/universal-quick-disconnect",
+          "title": "液冷通用快速接頭UQD",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-robot",
+          "url": "https://www.globaltekww.com/tw/rotary-joint-components",
+          "title": "旋轉關節零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-index",
+          "url": "https://www.globaltekww.com/tw/conferences",
+          "title": "官方法說資料索引；核對10/16會議，不讀影片",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026年法說索引",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "peer-8222",
+          "url": "https://www.aerowin.com/Content_Layout.php?Id=p1-1",
+          "title": "寶一公司簡介／核心加工能力",
+          "publisher": "寶一科技",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-cb-reprint",
+          "url": "https://pchome.megatime.com.tw/news/cat1/20260810/9700004566202608104.html",
+          "title": "8/10董事會第四次無擔保轉換債公告全文轉載，非本次直接取得MOPS原頁",
+          "publisher": "公開資訊觀測站公告／PChome轉載",
+          "published_at": "2026-08-10",
+          "accessed_at": "2026-10-17",
+          "period": "2026-08-10董事會決議；未確認實際募集完成",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "event_date": "2026-10-16",
+      "research_completed_at": "2026-10-17T00:58:22.482752+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/16整場可取得公開資料",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片；本場所有可取得文字及圖表已一次交付",
+        "個別新產品具名客戶、營收／利益、商用細項未完整揭露",
+        "未取得正式全年營收／EPS金額財測或可靠最新法人EPS共識",
+        "2026Q3完整財報未取得；簡報46.4億為前三季收入，EPS0.99為H1",
+        "2024比較數及Q2基本EPS／借款口徑修正請網站驗證，不盲目改數字",
+        "僅完成本公司及本場公開資料查找，不宣稱全市場監看無缺漏",
+        "可轉債使用8/10官方公告全文轉載；實際募集完成／轉換條件及MOPS原頁本次未取得"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-4566-v1-earnings",
+      "task_id": "backfill-20261017-4566",
+      "related_task_ids": [
+        "meeting-4566.TW-2026-10-16"
+      ],
+      "company_code": "4566",
+      "company_name": "時碩工業",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:4bbf05e5ac6f962908b1cfb22d81f58a1c593c5134be7bc79fddeb770cdd9b2c",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【期間與獲利來源】財報原表金額為新台幣千元，以下轉為億元；EPS為元。2025全年收入49.76319億元、營業利益2.20250億元、業外淨額−0.18378億元、稅前2.01872億元、歸母淨利1.48979億元、基本EPS1.36元。收入增長不等於EPS同步成長：2025匯兌損失0.45178億元，2024比較數為匯益1.41475億元；須同時觀察本業、業外、股數及歸屬母公司差異。[gt-fy，附註25、28及十四]\n2026H1累計收入28.22215億元、毛利6.54955億元、營業利益1.20307億元，業外0.21287億元、稅前1.41594億元、集團總淨利1.09320億元、歸母1.09160億元、基本EPS0.99元。2025H1比較數收入24.90585億元、本業1.05765億元、業外−1.35028億元、歸母−0.20369億元、EPS−0.19元。2026H1匯兌損益為+0.05810億元，去年同期−1.50141億元；因此轉盈的重要來源是匯損改善，不能全部歸功於液冷成長。H1財務成本仍有0.40504億元；研發費用1.36781億元高於去年0.83640億元，擴張同時增加費用負擔。[gt-h1，損益表及附註25]\n2026H1分部外部收入：車用13.88265億元、工業9.44611億元、航太4.89339億元；相應分部營業損益0.26859、0.38469、0.54979億元，航太是本期最大分部營業獲利來源，車用則是最大收入來源。工業營業利益低於去年同期0.56933億元，不能稱所有事業獲利已同步加速。分部利益不是各事業歸母淨利，液冷／機器人未單獨揭露收入與利益。[gt-h1，附註十四]\n2026Q2單季收入14.67666億元、營業利益0.81894億元、歸母0.68751億元，財報直接列基本EPS0.63元／稀釋0.62元；不能把H1基本0.99減Q1四捨五入0.37所得0.62當作已公布Q2基本EPS。10/16簡報標題雖是第三季營運報告，但EPS仍是H1，不把46.4億元前三季收入當成已公布Q3全套財報。[gt-h1、gt-deck]\n【資產負債與現金】2026/6/30總資產112.51294億元、總負債61.02691億元、權益51.48603億元、現金及約當現金20.01382億元；流動資產54.33448億元／流動負債37.83630億元。短借9.31794億元、一年內到期長借9.55086億元、一年內到期公司債0.34568億元、非流動長借14.86442億元，合計借款與公司債34.07890億元（不含租賃）；租賃另5.63248億元。網站原表列借款24.18236億元未含上述到期兩項，不視為完整有息債務；已另交數字口徑修正請求，不逕改網站數字。短期還款安排與泰國擴張現金需求須一起檢視。[gt-h1，資產負債表]\nH1營業現金流入2.74905億元；購置不動產廠房設備現金3.15135億元，另增加預付設備款現金2.89378億元，投資活動淨流出6.18570億元。期末現金較2025年底20.89586億元減少；借款融資及投資支出是現金分析重點，不能只以正淨利判斷投資均由內部現金支應。2026/6/30未認列購建承諾合計6.48821億元，其中泰國4.35327億元；承諾不等於已列負債，也不是收入。[gt-h1，現金流量表及承諾附註]\n【比較口徑】2025財報列2024比較歸母淨利2.48039億元／EPS2.48元，與網站舊2024數字2.56357億元／2.56元不同。財報揭露收購價款分攤及比較數調整，已請網站追溯適用版本；未解決前不採舊數字計歷史EPS成長率。",
+        "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+        "sources": [
+          "gt-deck",
+          "gt-h1",
+          "gt-fy",
+          "gt-about",
+          "gt-auto",
+          "gt-industrial",
+          "gt-aero",
+          "gt-uqd",
+          "gt-robot",
+          "gt-index",
+          "peer-8222",
+          "gt-cb-reprint"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "gt-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/456620261016M001.pdf",
+          "title": "10/16法說：2026年第三季營運報告；21個實體頁全文與圖表",
+          "publisher": "時碩工業",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "period": "2025全年、2026H1、前三季營收及未來計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "gt-h1",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2026_q2_report.pdf",
+          "title": "2026年第二季合併財報；89頁，主要核對5–9、47、53、60、80及轉投資附表",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026H1累計／Q2單季／6月30日；比較期另標",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-fy",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2025_q4_report.pdf",
+          "title": "2025年度合併財報；收入、業外、EPS及部門／地區／客戶附註",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2025全年及內列2024比較數",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-about",
+          "url": "https://www.globaltekww.com/tw/about",
+          "title": "企業簡介",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務介紹",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-auto",
+          "url": "https://www.globaltekww.com/tw/automotive-engine-and-transmission-system-components",
+          "title": "汽車引擎與傳動系統零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-industrial",
+          "url": "https://www.globaltekww.com/tw/industrial-instrumentation",
+          "title": "工業儀表產品",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-aero",
+          "url": "https://www.globaltekww.com/tw/engine",
+          "title": "航太引擎及相關零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-uqd",
+          "url": "https://www.globaltekww.com/tw/universal-quick-disconnect",
+          "title": "液冷通用快速接頭UQD",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-robot",
+          "url": "https://www.globaltekww.com/tw/rotary-joint-components",
+          "title": "旋轉關節零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-index",
+          "url": "https://www.globaltekww.com/tw/conferences",
+          "title": "官方法說資料索引；核對10/16會議，不讀影片",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026年法說索引",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "peer-8222",
+          "url": "https://www.aerowin.com/Content_Layout.php?Id=p1-1",
+          "title": "寶一公司簡介／核心加工能力",
+          "publisher": "寶一科技",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-cb-reprint",
+          "url": "https://pchome.megatime.com.tw/news/cat1/20260810/9700004566202608104.html",
+          "title": "8/10董事會第四次無擔保轉換債公告全文轉載，非本次直接取得MOPS原頁",
+          "publisher": "公開資訊觀測站公告／PChome轉載",
+          "published_at": "2026-08-10",
+          "accessed_at": "2026-10-17",
+          "period": "2026-08-10董事會決議；未確認實際募集完成",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "event_date": "2026-10-16",
+      "research_completed_at": "2026-10-17T00:58:22.482752+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/16整場可取得公開資料",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片；本場所有可取得文字及圖表已一次交付",
+        "個別新產品具名客戶、營收／利益、商用細項未完整揭露",
+        "未取得正式全年營收／EPS金額財測或可靠最新法人EPS共識",
+        "2026Q3完整財報未取得；簡報46.4億為前三季收入，EPS0.99為H1",
+        "2024比較數及Q2基本EPS／借款口徑修正請網站驗證，不盲目改數字",
+        "僅完成本公司及本場公開資料查找，不宣稱全市場監看無缺漏",
+        "可轉債使用8/10官方公告全文轉載；實際募集完成／轉換條件及MOPS原頁本次未取得"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-4566-v1-developments",
+      "task_id": "backfill-20261017-4566",
+      "related_task_ids": [
+        "meeting-4566.TW-2026-10-16"
+      ],
+      "company_code": "4566",
+      "company_name": "時碩工業",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:4bbf05e5ac6f962908b1cfb22d81f58a1c593c5134be7bc79fddeb770cdd9b2c",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【新產品】AI液冷是本次最明確的進度變化：10/16官方已由產品／方向介紹進展到「2026年進入量產」。UQD用途是資料中心液冷連接與維修，官方產品頁提及OCP規格，不能據此宣稱已獨立取得OCP認證或特定晶片商訂單。具名客戶、各料號出貨、收入與利潤未單列；不把外部所稱訂單或產值當已認列收入。[gt-deck、gt-uqd]\n【新產品】機器人關節及半導體設備零件是成長方向，產品用途存在不等於個別新案已商用。缺少正式量產日、訂單量或獨立收入的項目如實保留；機器人也不是已成為獨立報導營運分部。[gt-robot、gt-about、gt-deck]\n【既有業務擴產】天陽航太整合鑄造、精密加工與認證；公司稱長約能見度至2030年，但未量化不可撤銷訂單餘額，不能轉成未來年度營收財測。泰國平台177,600平方公尺與3,000萬美元為公司披露的廠區／投資規模，不是收入或新增負債，亦未明確拆分累計已支出及未來支出。法說稱陸續投產，H1泰國主要製造子公司尚虧損，須續追良率、稼動率、交貨與現金回收。[gt-deck、gt-h1]\n本批建立五項固定編號，後續只更新同一項進度；未找到可獨立確認為全新事業部的證據，因此不把所有新產品都稱新事業。",
+        "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+        "sources": [
+          "gt-deck",
+          "gt-h1",
+          "gt-fy",
+          "gt-about",
+          "gt-auto",
+          "gt-industrial",
+          "gt-aero",
+          "gt-uqd",
+          "gt-robot",
+          "gt-index",
+          "peer-8222",
+          "gt-cb-reprint"
+        ],
+        "projects": [
+          {
+            "project_id": "4566-ai-liquid-cooling",
+            "name": "AI／HPC液冷精密零組件",
+            "type": "新產品",
+            "uses_and_customers": "AI／HPC資料中心液冷管路、通用快速接頭等；客戶為液冷系統／設備供應鏈，具名客戶及各產品金額未揭露",
+            "status": "10/16公司簡報確認2026年進入量產階段；非只概念展示",
+            "commercial_timing": "2026年已進量產；個別料號時程未揭露",
+            "revenue_contribution": "未單獨揭露實際／預估營收或毛利，不以全工業分部代替",
+            "sources": [
+              "gt-deck",
+              "gt-uqd"
+            ]
+          },
+          {
+            "project_id": "4566-robot-joints",
+            "name": "機器人旋轉與線性關節零件",
+            "type": "新產品",
+            "uses_and_customers": "機器人關節精密零件；具身機器人列成長方向，客戶名稱未揭露",
+            "status": "已有產品頁及法說發展方向，官方資料未量化目前商業訂單／出貨",
+            "commercial_timing": "未找到可核對的正式量產年月",
+            "revenue_contribution": "未揭露；不用機器人成本占比推算公司營收",
+            "sources": [
+              "gt-robot",
+              "gt-deck"
+            ]
+          },
+          {
+            "project_id": "4566-aerospace-platform",
+            "name": "天陽航太鑄造、加工與認證整合",
+            "type": "既有業務擴產",
+            "uses_and_customers": "航太OEM引擎／相關精密件；鑄造、五軸加工與特殊製程整合",
+            "status": "已營運；公司稱AS9100及五項NADCAP並有客戶長約，合約能見度延伸2030年",
+            "commercial_timing": "已有航太收入；長約至2030是公司能見度說法，不是保證交貨量",
+            "revenue_contribution": "2026H1航太分部收入4.89339億元／營業利益0.54979億元，並非天陽單一子公司或新增產能收入",
+            "sources": [
+              "gt-deck",
+              "gt-h1"
+            ]
+          },
+          {
+            "project_id": "4566-thailand-platform",
+            "name": "泰國中國加一製造平台",
+            "type": "既有業務擴產",
+            "uses_and_customers": "跨國精密製造承接及供應鏈分散；各產品客戶配置未完整揭露",
+            "status": "公司10/16稱產能陸續投產；廠區177,600平方公尺、策略投資3,000萬美元",
+            "commercial_timing": "已陸續投產；全平台滿載及損益兩平日期未揭露",
+            "revenue_contribution": "未揭露獨立收入／新增年產值；H1泰國主要製造子公司仍虧損0.08875億元，不能稱整個泰國已轉盈",
+            "sources": [
+              "gt-deck",
+              "gt-h1"
+            ]
+          },
+          {
+            "project_id": "4566-semiconductor-equipment",
+            "name": "半導體設備精密零件深化",
+            "type": "新產品",
+            "uses_and_customers": "半導體設備相關加工零件；具名客戶與製程節點未揭露",
+            "status": "列為工業與成長方向，未有可分離新案的量化出貨證據",
+            "commercial_timing": "既有工業平台延伸；個別新增專案商用日未揭露",
+            "revenue_contribution": "未單列；不把全工業收入認定為半導體收入",
+            "sources": [
+              "gt-about",
+              "gt-deck"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "gt-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/456620261016M001.pdf",
+          "title": "10/16法說：2026年第三季營運報告；21個實體頁全文與圖表",
+          "publisher": "時碩工業",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "period": "2025全年、2026H1、前三季營收及未來計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "gt-h1",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2026_q2_report.pdf",
+          "title": "2026年第二季合併財報；89頁，主要核對5–9、47、53、60、80及轉投資附表",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026H1累計／Q2單季／6月30日；比較期另標",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-fy",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2025_q4_report.pdf",
+          "title": "2025年度合併財報；收入、業外、EPS及部門／地區／客戶附註",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2025全年及內列2024比較數",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-about",
+          "url": "https://www.globaltekww.com/tw/about",
+          "title": "企業簡介",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務介紹",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-auto",
+          "url": "https://www.globaltekww.com/tw/automotive-engine-and-transmission-system-components",
+          "title": "汽車引擎與傳動系統零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-industrial",
+          "url": "https://www.globaltekww.com/tw/industrial-instrumentation",
+          "title": "工業儀表產品",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-aero",
+          "url": "https://www.globaltekww.com/tw/engine",
+          "title": "航太引擎及相關零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-uqd",
+          "url": "https://www.globaltekww.com/tw/universal-quick-disconnect",
+          "title": "液冷通用快速接頭UQD",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-robot",
+          "url": "https://www.globaltekww.com/tw/rotary-joint-components",
+          "title": "旋轉關節零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-index",
+          "url": "https://www.globaltekww.com/tw/conferences",
+          "title": "官方法說資料索引；核對10/16會議，不讀影片",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026年法說索引",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "peer-8222",
+          "url": "https://www.aerowin.com/Content_Layout.php?Id=p1-1",
+          "title": "寶一公司簡介／核心加工能力",
+          "publisher": "寶一科技",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-cb-reprint",
+          "url": "https://pchome.megatime.com.tw/news/cat1/20260810/9700004566202608104.html",
+          "title": "8/10董事會第四次無擔保轉換債公告全文轉載，非本次直接取得MOPS原頁",
+          "publisher": "公開資訊觀測站公告／PChome轉載",
+          "published_at": "2026-08-10",
+          "accessed_at": "2026-10-17",
+          "period": "2026-08-10董事會決議；未確認實際募集完成",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "event_date": "2026-10-16",
+      "research_completed_at": "2026-10-17T00:58:22.482752+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/16整場可取得公開資料",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片；本場所有可取得文字及圖表已一次交付",
+        "個別新產品具名客戶、營收／利益、商用細項未完整揭露",
+        "未取得正式全年營收／EPS金額財測或可靠最新法人EPS共識",
+        "2026Q3完整財報未取得；簡報46.4億為前三季收入，EPS0.99為H1",
+        "2024比較數及Q2基本EPS／借款口徑修正請網站驗證，不盲目改數字",
+        "僅完成本公司及本場公開資料查找，不宣稱全市場監看無缺漏",
+        "可轉債使用8/10官方公告全文轉載；實際募集完成／轉換條件及MOPS原頁本次未取得"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-4566-v1-transition",
+      "task_id": "backfill-20261017-4566",
+      "related_task_ids": [
+        "meeting-4566.TW-2026-10-16"
+      ],
+      "company_code": "4566",
+      "company_name": "時碩工業",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:4bbf05e5ac6f962908b1cfb22d81f58a1c593c5134be7bc79fddeb770cdd9b2c",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【10/16整場會議結論】已讀官方簡報全部21個實體頁並核對圖表；財務補讀2026H1資產負債、損益、現金流、分部及承諾附註，並查2025全年比較。簡報主張多元成長、航太認證稀缺、中國加一及未來獲利成長快於營收，是公司策略／前瞻陳述；現有數字仍顯示各事業分化，不能視為已兌現整體利潤擴張。[gt-deck、gt-h1、gt-fy]\n未來1–3年追蹤重點是：液冷量產能否轉成持續收入及可見利潤、航太既有長約的實際排程、泰國產能利用改善與投資現金回收，以及車用／傳統工業需求是否抵銷新產品增量。公司沒有在本次已取得官方文字提供可核對的全年營收／EPS金額財測；本次亦未取得具名機構、發布日、假設齊全的可靠EPS consensus，故不填自估數字。[公司方向：gt-deck；後續判讀：research_inference]\n主要風險：匯損重現使淨利偏離本業表現；新廠折舊、研發及良率爬坡快於新增毛利；到期借款與購建承諾增加資金需求；航太認證／交貨延誤，車用與工業需求循環。正面驗證須看到分部營業利益及營業現金流改善，而非只看到新題材或收入成長。這是研究追蹤條件，未核對即時價格，不提供本批買點或估值結論。[gt-h1、gt-deck；research_inference]\n【併購及異常】天陽及蘇州控制權取得屬既有歷史交易，2025又有持股變動及價款分攤調整，不稱為10/16新宣布併購。簡報附錄舉其他跨國公司併購／擴產案例；沒有據此認定時碩自己完成相關交易，外部案例交易細節不納入已確認公司事件。[gt-h1、gt-fy、gt-deck]\n【資料限制】官方索引已查，未取得可核對原始問答文字，遵照指示不找影片；已一次完成本場所有可取得文字與圖表，缺漏不以推測補齊。液冷、機器人、半導體獨立收入／客戶、泰國滿載及轉盈時間未揭露；新題材收入不得由示意圖面積推算。2026第三季EPS／完整利潤率本批未取得，不把H1當Q3。財報首次發布日期未確定均保留null。數字比較修正另交網站驗證，不覆蓋共同數字源。\n【資本籌措】8/10董事會公告全文轉載列第四次無擔保轉換債面額上限10億元、三年期、票面利率0%，用途為償還銀行借款與充實營運資金；轉換辦法等待另行公告。這是決議，不視為已募集完成或全部拿去擴產；後續應追蹤實際發行及稀釋條件。本筆已讀公告全文轉載，未直接取得MOPS歷史公告原頁，來源層級如實標示。10/14新公告查得為10/16法說通知，不另當一件營運成果。[gt-cb-reprint、gt-index]",
+        "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+        "sources": [
+          "gt-deck",
+          "gt-h1",
+          "gt-fy",
+          "gt-about",
+          "gt-auto",
+          "gt-industrial",
+          "gt-aero",
+          "gt-uqd",
+          "gt-robot",
+          "gt-index",
+          "peer-8222",
+          "gt-cb-reprint"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "gt-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/456620261016M001.pdf",
+          "title": "10/16法說：2026年第三季營運報告；21個實體頁全文與圖表",
+          "publisher": "時碩工業",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "period": "2025全年、2026H1、前三季營收及未來計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "gt-h1",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2026_q2_report.pdf",
+          "title": "2026年第二季合併財報；89頁，主要核對5–9、47、53、60、80及轉投資附表",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026H1累計／Q2單季／6月30日；比較期另標",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-fy",
+          "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2025_q4_report.pdf",
+          "title": "2025年度合併財報；收入、業外、EPS及部門／地區／客戶附註",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2025全年及內列2024比較數",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-about",
+          "url": "https://www.globaltekww.com/tw/about",
+          "title": "企業簡介",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務介紹",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-auto",
+          "url": "https://www.globaltekww.com/tw/automotive-engine-and-transmission-system-components",
+          "title": "汽車引擎與傳動系統零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-industrial",
+          "url": "https://www.globaltekww.com/tw/industrial-instrumentation",
+          "title": "工業儀表產品",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-aero",
+          "url": "https://www.globaltekww.com/tw/engine",
+          "title": "航太引擎及相關零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-uqd",
+          "url": "https://www.globaltekww.com/tw/universal-quick-disconnect",
+          "title": "液冷通用快速接頭UQD",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-robot",
+          "url": "https://www.globaltekww.com/tw/rotary-joint-components",
+          "title": "旋轉關節零組件",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-index",
+          "url": "https://www.globaltekww.com/tw/conferences",
+          "title": "官方法說資料索引；核對10/16會議，不讀影片",
+          "publisher": "時碩工業",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "2026年法說索引",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "peer-8222",
+          "url": "https://www.aerowin.com/Content_Layout.php?Id=p1-1",
+          "title": "寶一公司簡介／核心加工能力",
+          "publisher": "寶一科技",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+        },
+        {
+          "source_id": "gt-cb-reprint",
+          "url": "https://pchome.megatime.com.tw/news/cat1/20260810/9700004566202608104.html",
+          "title": "8/10董事會第四次無擔保轉換債公告全文轉載，非本次直接取得MOPS原頁",
+          "publisher": "公開資訊觀測站公告／PChome轉載",
+          "published_at": "2026-08-10",
+          "accessed_at": "2026-10-17",
+          "period": "2026-08-10董事會決議；未確認實際募集完成",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "event_date": "2026-10-16",
+      "research_completed_at": "2026-10-17T00:58:22.482752+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/16整場可取得公開資料",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片；本場所有可取得文字及圖表已一次交付",
+        "個別新產品具名客戶、營收／利益、商用細項未完整揭露",
+        "未取得正式全年營收／EPS金額財測或可靠最新法人EPS共識",
+        "2026Q3完整財報未取得；簡報46.4億為前三季收入，EPS0.99為H1",
+        "2024比較數及Q2基本EPS／借款口徑修正請網站驗證，不盲目改數字",
+        "僅完成本公司及本場公開資料查找，不宣稱全市場監看無缺漏",
+        "可轉債使用8/10官方公告全文轉載；實際募集完成／轉換條件及MOPS原頁本次未取得"
+      ]
+    }
+  ],
+  "numeric_requests": {
+    "batch_id": "research-20261017-4566-v1",
+    "company_code": "4566",
+    "status": "website_validation_required",
+    "baseline_version": "sha256:4bbf05e5ac6f962908b1cfb22d81f58a1c593c5134be7bc79fddeb770cdd9b2c",
+    "requests": [
+      {
+        "field": "listed_borrowings",
+        "period": "2026-06-30",
+        "unit": "億元",
+        "old_value": 24.18236,
+        "proposed_value": 34.0789,
+        "reason": "舊值為短借+非流動長借；須另納一年內到期長借9.55086及公司債0.34568，租賃另列不重複",
+        "source_id": "gt-h1",
+        "page": 6
+      },
+      {
+        "field": "single_quarter_basic_eps",
+        "period": "2026-Q2",
+        "unit": "元",
+        "old_value": 0.62,
+        "proposed_value": 0.63,
+        "diluted_eps": 0.62,
+        "reason": "官方單季基本0.63／稀釋0.62；累計基本EPS直接相減受加權股數與四捨五入影響，不等於正式單季基本EPS",
+        "source_id": "gt-h1",
+        "page": 7
+      },
+      {
+        "field": "annual_comparative_parent_profit_and_eps",
+        "period": "2024",
+        "unit": "億元／元",
+        "old_values": {
+          "parent_profit": 2.56357,
+          "basic_eps": 2.56
+        },
+        "latest_comparative_values": {
+          "parent_profit": 2.48039,
+          "basic_eps": 2.48
+        },
+        "reason": "2025正式財報附註28比較數與舊基線不同；請核對收購價款分攤追溯／重編適用版本與歷史報告，保留版本後再重算CAGR/PEG，不能僅機械覆蓋",
+        "source_id": "gt-fy",
+        "page": 89
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gt-deck",
+        "url": "https://mopsov.twse.com.tw/nas/STR/456620261016M001.pdf",
+        "title": "10/16法說：2026年第三季營運報告；21個實體頁全文與圖表",
+        "publisher": "時碩工業",
+        "published_at": "2026-10-16",
+        "accessed_at": "2026-10-17",
+        "period": "2025全年、2026H1、前三季營收及未來計畫",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      {
+        "source_id": "gt-h1",
+        "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2026_q2_report.pdf",
+        "title": "2026年第二季合併財報；89頁，主要核對5–9、47、53、60、80及轉投資附表",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "2026H1累計／Q2單季／6月30日；比較期另標",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-fy",
+        "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2025_q4_report.pdf",
+        "title": "2025年度合併財報；收入、業外、EPS及部門／地區／客戶附註",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "2025全年及內列2024比較數",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-about",
+        "url": "https://www.globaltekww.com/tw/about",
+        "title": "企業簡介",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網業務介紹",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-auto",
+        "url": "https://www.globaltekww.com/tw/automotive-engine-and-transmission-system-components",
+        "title": "汽車引擎與傳動系統零組件",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-industrial",
+        "url": "https://www.globaltekww.com/tw/industrial-instrumentation",
+        "title": "工業儀表產品",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-aero",
+        "url": "https://www.globaltekww.com/tw/engine",
+        "title": "航太引擎及相關零組件",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-uqd",
+        "url": "https://www.globaltekww.com/tw/universal-quick-disconnect",
+        "title": "液冷通用快速接頭UQD",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-robot",
+        "url": "https://www.globaltekww.com/tw/rotary-joint-components",
+        "title": "旋轉關節零組件",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-index",
+        "url": "https://www.globaltekww.com/tw/conferences",
+        "title": "官方法說資料索引；核對10/16會議，不讀影片",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "2026年法說索引",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "peer-8222",
+        "url": "https://www.aerowin.com/Content_Layout.php?Id=p1-1",
+        "title": "寶一公司簡介／核心加工能力",
+        "publisher": "寶一科技",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網業務",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      {
+        "source_id": "gt-cb-reprint",
+        "url": "https://pchome.megatime.com.tw/news/cat1/20260810/9700004566202608104.html",
+        "title": "8/10董事會第四次無擔保轉換債公告全文轉載，非本次直接取得MOPS原頁",
+        "publisher": "公開資訊觀測站公告／PChome轉載",
+        "published_at": "2026-08-10",
+        "accessed_at": "2026-10-17",
+        "period": "2026-08-10董事會決議；未確認實際募集完成",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      }
+    ]
+  },
+  "verified_corrections": {
+    "current_borrowings": 34.0789,
+    "prior_year_borrowings": 31.13745,
+    "q2_basic_eps": 0.63,
+    "q2_diluted_eps": 0.62,
+    "restated_2024": {
+      "net_income": 2.48039,
+      "eps": 2.48,
+      "pdf_pages": [
+        87,
+        90,
+        92
+      ],
+      "matched_adjustment_thousand": 8318
+    },
+    "ttm_eps": "待補齊公司單季基本EPS；不混用累計差額",
+    "historical_cagr": "使用已修正年度資料重算；舊版本保留"
+  }
+}

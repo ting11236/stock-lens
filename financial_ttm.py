@@ -31,6 +31,7 @@ def rolling_financials(records):
     year, quarter = int(latest[:4]), int(latest[-1])
     end = year * 4 + quarter - 1
     quarters = []
+    reported_eps_mismatch = False
     for index in range(end - 3, end + 1):
         y, q = index // 4, index % 4 + 1
         period = f'{y}-Q{q}'
@@ -44,11 +45,30 @@ def rolling_financials(records):
             if field == 'eps' and (current.get('eps_comparable') is False or (previous or {}).get('eps_comparable') is False):
                 comparable = False
             row[field] = value - prior if numeric(value) and numeric(prior) and comparable else None
+        official_eps = current.get('single_quarter_basic_eps')
+        if numeric(official_eps) and current.get('single_quarter_basic_eps_source'):
+            if row.get('eps') is None or abs(row['eps'] - official_eps) > 1e-9:
+                reported_eps_mismatch = True
+            row['eps'] = official_eps
+            row['eps_method'] = 'official_single_quarter'
+            row['eps_source_url'] = current['single_quarter_basic_eps_source']
         quarters.append(row)
+    ttm_eps = trailing_value(records, latest, 'eps')
+    eps_reason = None
+    eps_formula = None
+    all_official = all(q.get('eps_method') == 'official_single_quarter' for q in quarters)
+    same_basis = len({records.get(q['period'], {}).get('basis') for q in quarters}) == 1
+    comparable_eps = all(records.get(q['period'], {}).get('eps_comparable') is not False for q in quarters)
+    if all_official and same_basis and comparable_eps:
+        ttm_eps = sum(q['eps'] for q in quarters)
+        eps_formula = '最近四季公司公布的單季基本EPS加總'
+    elif reported_eps_mismatch:
+        ttm_eps = None
+        eps_reason = '公司公布的單季基本EPS與累計差額不同；最近四季EPS待補齊同口徑單季數字。'
     return {'period': latest, 'start_period': quarters[0]['period'],
             'basis': records[latest].get('basis'), 'quarters': quarters,
             'ttms': trailing_value(records, latest, 'revenue'),
-            'ttm_eps': trailing_value(records, latest, 'eps'),
+            'ttm_eps': ttm_eps, 'eps_reason': eps_reason, 'eps_formula': eps_formula,
             'ttm_parent_profit': trailing_value(records, latest, 'net_income'),
             'formula': '前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字'}
 
@@ -100,7 +120,7 @@ def derived_metrics(stock, financial, equity_history=None):
     old = balances.get(prior_period, {}).get('equity')
     roe = profit * 100000 / ((equity + old) / 2) * 100 if numeric(profit) and all(numeric(v) and v > 0 for v in (equity, old)) else None
     formulas = {
-        'trailing_eps': (eps, rolling['formula'], '缺少可比的累計 EPS'),
+        'trailing_eps': (eps, rolling.get('eps_formula') or rolling['formula'], '缺少可比的累計 EPS'),
         'trailing_sales': (sales, rolling['formula']+'；億元', '缺少可比的累計營收'),
         'calculated_pe': (pe, '股價 ÷ 最近四季 EPS；與官方 PE 分開', '股價缺值或最近四季 EPS 非正'),
         'ps': (ps, '股價 × 已發行普通股數 ÷（最近四季營收 × 100,000,000 元）', '缺少股價、股數日期或正值營收；金融淨收益不套一般營收 PS'),
@@ -117,7 +137,7 @@ def derived_metrics(stock, financial, equity_history=None):
         for key in ('trailing_eps', 'calculated_pe', 'earnings_growth', 'peg'):
             formulas[key] = (None, formulas[key][1], blocked_reason)
         growth_eps = peg_pe = None
-    current_eps_reason = records.get(period, {}).get('eps_unavailable_reason') if eps is None else None
+    current_eps_reason = (rolling.get('eps_reason') or records.get(period, {}).get('eps_unavailable_reason')) if eps is None else None
     if current_eps_reason:
         for key in ('trailing_eps', 'calculated_pe'):
             formulas[key] = (None, formulas[key][1], current_eps_reason)

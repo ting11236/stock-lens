@@ -145,3 +145,19 @@ class QuarterlyDisclosureTests(unittest.TestCase):
         self.assertFalse(metrics['peg']['blocked'])
         self.assertEqual(metrics['peg']['period_mode'],'cagr5')
         self.assertEqual(rows['2026-Q2']['eps'],15)
+
+
+class OfficialQuarterEPSTests(unittest.TestCase):
+    def test_official_quarter_eps_wins_and_incomplete_rolling_eps_waits(self):
+        rows={'2025-Q2':{'eps':.2,'basis':'A'},'2025-Q3':{'eps':1.1,'basis':'A'},'2025-Q4':{'eps':1.6,'basis':'A'},'2026-Q1':{'eps':.37,'basis':'A'},'2026-Q2':{'eps':.99,'basis':'A','single_quarter_basic_eps':.63,'single_quarter_basic_eps_source':'https://example.com/official'}}
+        result=rolling_financials(rows)
+        self.assertEqual(result['quarters'][-1]['eps'],.63)
+        self.assertIsNone(result['ttm_eps'])
+        self.assertIn('單季基本EPS',result['eps_reason'])
+        for key,value in [('2025-Q3',.9),('2025-Q4',.5),('2026-Q1',.37)]:
+            rows[key].update(single_quarter_basic_eps=value,single_quarter_basic_eps_source='https://example.com/official')
+        self.assertAlmostEqual(rolling_financials(rows)['ttm_eps'],2.4)
+
+    def test_uncited_override_is_ignored(self):
+        rows={'2026-Q1':{'eps':.37},'2026-Q2':{'eps':.99,'single_quarter_basic_eps':.63}}
+        self.assertAlmostEqual(rolling_financials(rows)['quarters'][-1]['eps'],.62)

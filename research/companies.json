@@ -4631,5 +4631,357 @@
         "status": "disclosed"
       }
     ]
+  },
+  "4566.TW": {
+    "name": "時碩工業",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "gt-deck": {
+        "url": "https://mopsov.twse.com.tw/nas/STR/456620261016M001.pdf",
+        "title": "10/16法說：2026年第三季營運報告；21個實體頁全文與圖表",
+        "publisher": "時碩工業",
+        "published_at": "2026-10-16",
+        "accessed_at": "2026-10-17",
+        "period": "2025全年、2026H1、前三季營收及未來計畫",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "gt-h1": {
+        "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2026_q2_report.pdf",
+        "title": "2026年第二季合併財報；89頁，主要核對5–9、47、53、60、80及轉投資附表",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "2026H1累計／Q2單季／6月30日；比較期另標",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-fy": {
+        "url": "https://www.globaltekww.com/uploads/annual-report/consolidated_2025_q4_report.pdf",
+        "title": "2025年度合併財報；收入、業外、EPS及部門／地區／客戶附註",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "2025全年及內列2024比較數",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-about": {
+        "url": "https://www.globaltekww.com/tw/about",
+        "title": "企業簡介",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網業務介紹",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-auto": {
+        "url": "https://www.globaltekww.com/tw/automotive-engine-and-transmission-system-components",
+        "title": "汽車引擎與傳動系統零組件",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-industrial": {
+        "url": "https://www.globaltekww.com/tw/industrial-instrumentation",
+        "title": "工業儀表產品",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-aero": {
+        "url": "https://www.globaltekww.com/tw/engine",
+        "title": "航太引擎及相關零組件",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-uqd": {
+        "url": "https://www.globaltekww.com/tw/universal-quick-disconnect",
+        "title": "液冷通用快速接頭UQD",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-robot": {
+        "url": "https://www.globaltekww.com/tw/rotary-joint-components",
+        "title": "旋轉關節零組件",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-index": {
+        "url": "https://www.globaltekww.com/tw/conferences",
+        "title": "官方法說資料索引；核對10/16會議，不讀影片",
+        "publisher": "時碩工業",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "2026年法說索引",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "peer-8222": {
+        "url": "https://www.aerowin.com/Content_Layout.php?Id=p1-1",
+        "title": "寶一公司簡介／核心加工能力",
+        "publisher": "寶一科技",
+        "published_at": null,
+        "accessed_at": "2026-10-17",
+        "period": "查閱時官網業務",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "原文未確定首次發布日，不以查閱日代替"
+      },
+      "gt-cb-reprint": {
+        "url": "https://pchome.megatime.com.tw/news/cat1/20260810/9700004566202608104.html",
+        "title": "8/10董事會第四次無擔保轉換債公告全文轉載，非本次直接取得MOPS原頁",
+        "publisher": "公開資訊觀測站公告／PChome轉載",
+        "published_at": "2026-08-10",
+        "accessed_at": "2026-10-17",
+        "period": "2026-08-10董事會決議；未確認實際募集完成",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      }
+    },
+    "business": {
+      "text": "時碩工業替車用、工業及航太客戶製造精密金屬零件，提供鑄造、加工、特殊製程、組裝及檢測等服務。車用包括引擎、渦輪與傳動相關零件；工業包括儀表、感測及設備零件；航太包括引擎、齒輪箱及飛控相關零件。\n2025年合併營收49.76319億元，其中車用24.35414億元、工業16.52993億元、航太8.87912億元。2026年上半年車用仍是最大收入來源，航太則是最大分部營業獲利來源；各事業獲利表現不同。\n公司製造據點在台灣、中國及泰國，服務北美、歐洲與日本等客戶。10月16日簡報列三國八廠、9月底員工1,720人；2026前三季營收約46.4億元，當場EPS仍是上半年數字。2025年沒有單一客戶收入超過合併營收10%，當期具名客戶與新產品訂單未完整揭露。\n寶一（8222）可作部分航太零件與客戶認證的比較對象，但加工技術及業務組合仍不同；時碩另有車用、工業與液冷零件，需要分開看。",
+      "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+      "sources": [
+        "gt-deck",
+        "gt-h1",
+        "gt-fy",
+        "gt-about",
+        "gt-auto",
+        "gt-industrial",
+        "gt-aero",
+        "gt-uqd",
+        "gt-robot",
+        "gt-index",
+        "peer-8222",
+        "gt-cb-reprint"
+      ],
+      "reviewed_at": "2026-10-17"
+    },
+    "earnings": {
+      "text": "2026年上半年轉為獲利，除了本業，匯兌損益改善也很重要。合併營收28.22215億元、營業利益1.20307億元、歸母淨利1.09160億元，累計基本EPS0.99元；去年同期歸母虧損0.20369億元、EPS負0.19元。\n上半年匯兌損益由去年虧損1.50141億元，變成利益0.05810億元；研發費用則由0.83640億元增加到1.36781億元。新產品擴張伴隨費用投入，仍要看是否帶來足夠利潤。\n上半年車用、工業、航太分部營業利益分別0.26859、0.38469、0.54979億元。航太本期獲利最多，工業部門利益則低於去年同期；液冷及機器人的獨立收入與利潤尚未公布。\n第2季單季營收14.67666億元、歸母淨利0.68751億元，官方基本EPS0.63元、稀釋EPS0.62元。因加權股數及四捨五入，累計EPS相減與正式單季數字不同；單季採公司公布值，最近四季EPS待同口徑單季數字補齊。\n2025年全年營收49.76319億元、營業利益2.20250億元、歸母淨利1.48979億元、基本EPS1.36元。當年匯兌損失0.45178億元，與2024年匯兌利益1.41475億元形成差異。\n2025正式財報的2024比較歸母淨利為2.48039億元、EPS2.48元。天陽與蘇州收購價款分攤完成後有追溯調整；兩筆未分配盈餘減少合計0.08318億元，與舊基線差額吻合。網站採後續財報比較值，舊歸母2.56357億元、EPS2.56元保留於歷史版本。\n2026年6月底資產112.51294億元、負債61.02691億元、權益51.48603億元、現金20.01382億元。借款與公司債合計34.07890億元，包含短借9.31794億元、長借14.86442億元、一年內到期長借9.55086億元及公司債0.34568億元；租賃負債5.63248億元另列。\n上半年營業現金流入2.74905億元，購置廠房設備現金支出3.15135億元，另增加預付設備款2.89378億元。擴廠需要資金，應一起看借款到期、投資支出與現金回收；6月底尚未認列的購建承諾6.48821億元，其中泰國4.35327億元。",
+      "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+      "sources": [
+        "gt-deck",
+        "gt-h1",
+        "gt-fy",
+        "gt-about",
+        "gt-auto",
+        "gt-industrial",
+        "gt-aero",
+        "gt-uqd",
+        "gt-robot",
+        "gt-index",
+        "peer-8222",
+        "gt-cb-reprint"
+      ],
+      "reviewed_at": "2026-10-17"
+    },
+    "developments": {
+      "text": "液冷零件：10月16日官方簡報確認，2026年已進入大量生產。產品用於AI與高效能運算資料中心的液冷連接及維修，包括通用快速接頭等精密零件；具名客戶、各料號出貨及獨立收入、獲利尚未揭露。\n機器人關節：已有旋轉與線性關節零件產品，列為發展方向；正式量產年月、訂單量及收入仍待公開資料確認。\n航太平台：天陽整合鑄造、加工及認證，已有航太業務。公司稱長約能見度延伸至2030年，實際交貨排程與金額仍需後續追蹤。\n泰國製造平台：公司披露廠區177,600平方公尺、策略投資3,000萬美元，產能陸續投入生產；這是廠區與投資規模。上半年主要泰國製造子公司仍虧損0.08875億元，後續重點是使用率、良率及現金回收。\n半導體設備零件：以既有工業加工能力延伸，產品客戶、個別商用時間及新增收入未單獨揭露。",
+      "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+      "sources": [
+        "gt-deck",
+        "gt-h1",
+        "gt-fy",
+        "gt-about",
+        "gt-auto",
+        "gt-industrial",
+        "gt-aero",
+        "gt-uqd",
+        "gt-robot",
+        "gt-index",
+        "peer-8222",
+        "gt-cb-reprint"
+      ],
+      "projects": [
+        {
+          "project_id": "4566-ai-liquid-cooling",
+          "name": "AI／HPC液冷精密零組件",
+          "type": "新產品",
+          "uses_and_customers": "AI／HPC資料中心液冷管路、通用快速接頭等；客戶為液冷系統／設備供應鏈，具名客戶及各產品金額未揭露",
+          "status": "10/16公司簡報確認2026年進入量產階段；非只概念展示",
+          "commercial_timing": "2026年已進量產；個別料號時程未揭露",
+          "revenue_contribution": "未單獨揭露實際／預估營收或毛利，不以全工業分部代替",
+          "sources": [
+            "gt-deck",
+            "gt-uqd"
+          ]
+        },
+        {
+          "project_id": "4566-robot-joints",
+          "name": "機器人旋轉與線性關節零件",
+          "type": "新產品",
+          "uses_and_customers": "機器人關節精密零件；具身機器人列成長方向，客戶名稱未揭露",
+          "status": "已有產品頁及法說發展方向，官方資料未量化目前商業訂單／出貨",
+          "commercial_timing": "未找到可核對的正式量產年月",
+          "revenue_contribution": "未揭露；不用機器人成本占比推算公司營收",
+          "sources": [
+            "gt-robot",
+            "gt-deck"
+          ]
+        },
+        {
+          "project_id": "4566-aerospace-platform",
+          "name": "天陽航太鑄造、加工與認證整合",
+          "type": "既有業務擴產",
+          "uses_and_customers": "航太OEM引擎／相關精密件；鑄造、五軸加工與特殊製程整合",
+          "status": "已營運；公司稱AS9100及五項NADCAP並有客戶長約，合約能見度延伸2030年",
+          "commercial_timing": "已有航太收入；長約至2030是公司能見度說法，不是保證交貨量",
+          "revenue_contribution": "2026H1航太分部收入4.89339億元／營業利益0.54979億元，並非天陽單一子公司或新增產能收入",
+          "sources": [
+            "gt-deck",
+            "gt-h1"
+          ]
+        },
+        {
+          "project_id": "4566-thailand-platform",
+          "name": "泰國中國加一製造平台",
+          "type": "既有業務擴產",
+          "uses_and_customers": "跨國精密製造承接及供應鏈分散；各產品客戶配置未完整揭露",
+          "status": "公司10/16稱產能陸續投產；廠區177,600平方公尺、策略投資3,000萬美元",
+          "commercial_timing": "已陸續投產；全平台滿載及損益兩平日期未揭露",
+          "revenue_contribution": "未揭露獨立收入／新增年產值；H1泰國主要製造子公司仍虧損0.08875億元，不能稱整個泰國已轉盈",
+          "sources": [
+            "gt-deck",
+            "gt-h1"
+          ]
+        },
+        {
+          "project_id": "4566-semiconductor-equipment",
+          "name": "半導體設備精密零件深化",
+          "type": "新產品",
+          "uses_and_customers": "半導體設備相關加工零件；具名客戶與製程節點未揭露",
+          "status": "列為工業與成長方向，未有可分離新案的量化出貨證據",
+          "commercial_timing": "既有工業平台延伸；個別新增專案商用日未揭露",
+          "revenue_contribution": "未單列；不把全工業收入認定為半導體收入",
+          "sources": [
+            "gt-about",
+            "gt-deck"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-17"
+    },
+    "transition": {
+      "text": "公司發展方向：以精密金屬加工能力為基礎，擴大液冷、航太、機器人及半導體設備零件，並建立泰國製造平台，分散生產地點。公司希望新產品與產線效率帶來更好的獲利，但本場沒有可核對的全年營收或EPS金額目標。\n接下來先看液冷大量生產能否帶來持續收入，再看航太長約的實際交貨、泰國工廠使用率及投資回收；車用與傳統工業需求也會影響整體結果。\n匯率、新廠折舊、研發費用、借款到期與交貨認證，都可能使收入成長與最後獲利不同步。追蹤時一起看各部門營業利益及營業現金流。\n8月10日董事會公告全文轉載列出，擬發行上限10億元、三年期、票面利率0%的第四次轉換公司債，用於償還銀行借款及補充營運資金。實際募集完成與轉換條件尚未確認，保留為決議階段。\n本次已讀21頁官方簡報及相關正式財報，原始問答文字未取得。液冷、機器人及半導體設備零件的客戶與個別收入，以及泰國滿載及轉盈日期仍未揭露。前三季營收與上半年EPS分開列示。",
+      "period": "2025全年／2026H1／2026-10-16法說，各筆明列",
+      "sources": [
+        "gt-deck",
+        "gt-h1",
+        "gt-fy",
+        "gt-about",
+        "gt-auto",
+        "gt-industrial",
+        "gt-aero",
+        "gt-uqd",
+        "gt-robot",
+        "gt-index",
+        "peer-8222",
+        "gt-cb-reprint"
+      ],
+      "reviewed_at": "2026-10-17",
+      "peer_candidates": [
+        {
+          "company_code": "8222",
+          "market": "TWSE",
+          "reason": "部分航太零組件及認證可比；加工技術與車用工業業務組合不同"
+        }
+      ]
+    },
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "limitations": [
+      "官方原始問答文字未取得，不查影片；本場所有可取得文字及圖表已一次交付",
+      "個別新產品具名客戶、營收／利益、商用細項未完整揭露",
+      "未取得正式全年營收／EPS金額財測或可靠最新法人EPS共識",
+      "2026Q3完整財報未取得；簡報46.4億為前三季收入，EPS0.99為H1",
+      "2024比較數及Q2基本EPS／借款口徑修正請網站驗證，不盲目改數字",
+      "僅完成本公司及本場公開資料查找，不宣稱全市場監看無缺漏",
+      "可轉債使用8/10官方公告全文轉載；實際募集完成／轉換條件及MOPS原頁本次未取得"
+    ],
+    "meeting_research": {
+      "event_date": "2026-10-16",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-10-17",
+      "original_qa_verified": false,
+      "batch_id": "research-20261017-4566-v1"
+    }
   }
 }

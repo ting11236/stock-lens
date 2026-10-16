@@ -105,6 +105,21 @@
       "publication_commit": "7d671083a49dcc2df52e19ff1dfd1b69ffc2c81f",
       "workflow_run_id": 38873788956,
       "verified_at": "2026-10-16T16:53:07.213Z"
+    },
+    {
+      "symbol": "1203.TW",
+      "name": "味王",
+      "kind": "法說會",
+      "meeting_date": "2026-10-14",
+      "summary_updated_at": "2026-10-16",
+      "batch_id": "research-20261016-1203-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "d18dc8ee6fb690f21d96449c447eb537e9828d31",
+      "workflow_run_id": 38935937754,
+      "verified_at": "2026-10-16T17:07:53.204Z"
     }
   ]
 }
