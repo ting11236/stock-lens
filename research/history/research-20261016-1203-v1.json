@@ -1,0 +1,1070 @@
+{
+  "batch_id": "research-20261016-1203-v1",
+  "adopted_at": "2026-10-16",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261016-1203-v1",
+    "ready": true,
+    "created_at": "2026-10-16T16:32:21.025035+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:0077f63f2a413e2112318908f9f0e3b0afc7ea0ce02bd90c71fc5014ee06e8d1",
+    "work_type": "backfill",
+    "completion_unit": "味王整家公司及10/14整場可取得公開資料",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "完成味王整家公司既定公開查找與10/14整場可取得文字／圖表，不表示各資訊均公開。",
+      "已讀17頁官方簡報全文、圖表及投資架構SmartArt原始文字；未取得可核對官方原始問答文字，不找影片。富果為AI摘要，僅低信度轉述口頭原因，不作官方逐字稿。",
+      "2026H1業外分項、個別產品／子公司當期獲利及現金流附註未取得完整原文；不把2025原因當2026既成事實，H1現金借款及現金流沿網站共同基線。",
+      "新產品個別客戶、收入、產能利用及投資回收未完整揭露；未找到可靠最新公司營收金額／EPS財測或法人共識。",
+      "土地活化只有年報既有申請與招商方向，本次未找到後續已核准、成交或認列收益證據；保留舊案不冒稱商用。",
+      "簡報台灣品類為公司自行結算、單位元；合併財報為千元，地區／產品收入占比不是獲利占比。",
+      "簡報醬油與味精H1銷售金額同列267,164,658元，但各自基期與增幅不同，原表逐筆保留，不推定其中一筆是誤植、不相加推全公司收入。",
+      "2025合併總淨利6.89531億元與歸母4.30560億元不同；2026H1亦同，不以集團總淨利計EPS。"
+    ],
+    "meeting_research": {
+      "company_code": "1203",
+      "meeting_date": "2026-10-14",
+      "research_complete": true,
+      "scope": "17頁簡報全文、SmartArt投資架構及圖表、年報業務財務與發展；官方原始問答缺漏明示",
+      "original_qa_verified": false
+    }
+  },
+  "before": {
+    "record": {
+      "name": "味王",
+      "reviewed_at": "2026-10-03",
+      "sources": {
+        "annual": {
+          "title": "2025 年報：股東報告及營運計畫（PDF 第 5–9 頁）",
+          "url": "https://www.vewong.com/ecmas0069/store/F4/ANN_REP_2025.pdf",
+          "publisher": "味王",
+          "published_at": null,
+          "accessed_at": "2026-10-03"
+        },
+        "q2": {
+          "title": "董事會通過 2026 第二季合併財務報告",
+          "url": "https://www.vewong.com/ec99/ushop20069/headLineContextD.asp?a=1&cty=2&newsno=580",
+          "publisher": "味王",
+          "published_at": "2026-08-13",
+          "accessed_at": "2026-10-03"
+        }
+      },
+      "business": {
+        "text": "味王製造及銷售調味品、速食麵、常溫調理食品等，並透過泰國、越南投資事業服務海外市場。2025 年調味品營收約 39.57 億元、速食品 13.46 億元、其他 3.52 億元；產品銷售比重與海外營運規模並非各事業獲利比例，不宜由營收直接推算淨利來源。",
+        "period": "2025 年報",
+        "sources": [
+          "annual"
+        ]
+      },
+      "earnings": {
+        "text": "2024–2025 年合併營收約 62.87、56.55 億元，合併淨利 8.64、6.90 億元，EPS 2.36、1.81 元。2026 上半年營收 26.35 億元、營業利益 3.98 億元、合併淨利 3.29 億元，歸母淨利為 2.21 億元；公告未附同期比較，不能據此稱最新獲利已回升。",
+        "period": "2024–2025 年／2026 上半年",
+        "sources": [
+          "annual",
+          "q2"
+        ]
+      },
+      "transition": {
+        "text": "公司以食品本業為核心，發展潔淨配方、銀髮友善及個人常溫餐，延伸小王子品牌與跨界聯名，同時推動生產自動化。研究判讀為產品與製程升級；閒置土地活化則另屬資產運用方向，招商、申請及洽談不能視為已取得開發收入。",
+        "period": "2025 回顧／2026 營業計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "developments": {
+        "text": "年報明列醬油新調配棟與速食麵新麵機已量產，小王子杯麵已推出；後續系列新品仍屬計畫。三重、樹林及新竹閒置基地持續與專業機構合作、申請及招商洽談，尚未提供完工及收益數字；設備投產與土地規劃會分別記錄其實際階段。",
+        "period": "截至 2026 年報刊印時的實績及計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "limitations": [
+        "尚缺 2023 全年與 2025 上半年可比財務，以及產品、海外事業獲利明細。",
+        "土地活化後續核准、成交及收益進度尚待補核；年報未取得明確刊印日期。"
+      ]
+    },
+    "overview": {
+      "name": "味王",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 14,
+      "business": "味精、醬油、泡麵與調理食品",
+      "direction": "調理食品與調味品為既有產品延伸；新增案待補核",
+      "profit_mechanism": "品牌食品與調味品毛利及海外營運",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "H1業外增幅篩選",
+      "urls": [
+        "https://www.vewong.com/ec99/ushop20069/profile.asp",
+        "https://www.vewong.com/goods.asp",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 62.87463,
+        "fy2025": 56.54961,
+        "q32025": 13.82942,
+        "q42025": 13.17026,
+        "q12026": 13.237680000000001,
+        "q22026": 13.10964,
+        "ttm": 53.347,
+        "h1_operating_profit": 3.97949,
+        "h1_nonoperating": 0.5922900000000001,
+        "h1_pretax": 4.57178,
+        "h1_parent_profit": 2.21005,
+        "h1_operating_margin": 0.151039650332558,
+        "h1_nonoperating_share": 0.12955347807637302,
+        "fy2025_parent_profit": 4.3056,
+        "q22026_parent_profit": 1.0441,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 26.34732,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 62.87463,
+            "net_income": 5.61042,
+            "eps": 2.36,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 29.54993,
+            "net_income": 1.52936,
+            "eps": 0.64,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 43.37935,
+            "net_income": 3.03103,
+            "eps": 1.28,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 56.54961,
+            "net_income": 4.3056,
+            "eps": 1.81,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 13.237680000000001,
+            "net_income": 1.16595,
+            "eps": 0.49000000000000005,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 26.34732,
+            "net_income": 2.21005,
+            "eps": 0.93,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 1.81,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 1.88,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 2.63,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 1.8,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 13.829420000000002,
+              "eps": 0.64,
+              "net_income": 1.5016699999999998
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 13.170259999999999,
+              "eps": 0.53,
+              "net_income": 1.2745700000000002
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 13.237680000000001,
+              "eps": 0.49000000000000005,
+              "net_income": 1.16595
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 13.109639999999999,
+              "eps": 0.44,
+              "net_income": 1.0440999999999998
+            }
+          ],
+          "ttms": 53.346999999999994,
+          "ttm_eps": 2.1,
+          "ttm_parent_profit": 4.98629,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 53.35 億元；每股盈餘 2.10 元；歸母淨利 4.99 億元。營收未扣成本與費用，不等於獲利。獲利機制：品牌食品與調味品毛利及海外營運。",
+      "events": [
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-0.83億元變為0.59億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.vewong.com/ec99/ushop20069/profile.asp",
+            "https://www.vewong.com/goods.asp"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "1203",
+            "name": "味王",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 107.12429,
+            "liabilities": 33.56196,
+            "equity": 73.56233,
+            "parent_equity": 64.96367000000001,
+            "cash": 22.54872,
+            "current_assets": 48.642,
+            "current_liabilities": 19.95149,
+            "listed_borrowings": 7.81,
+            "listed_leases": 1.51752,
+            "operating_cashflow": 4.96918,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "1203",
+            "name": "味王",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 104.86198,
+            "liabilities": 30.61721,
+            "equity": 74.24477,
+            "parent_equity": 63.808060000000005,
+            "cash": 21.885360000000002,
+            "current_assets": 47.67257,
+            "current_liabilities": 16.36386,
+            "listed_borrowings": 8.508,
+            "listed_leases": 1.57643,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "delivery_updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261016-1203-v1-business",
+      "task_id": "backfill-20261016-1203",
+      "related_task_ids": [
+        "meeting-1203.TW-2026-10-14"
+      ],
+      "company_code": "1203",
+      "company_name": "味王",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:3e75790f16e0e0e05b77ef1c6973d26949d3aee8738c13685b8aacb230f34c29",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:c101fcf43c96702f7cb5a67ae89f7a5117c7493d45e4ca74e72413e4d29a556b",
+      "expected_old_section_version": "sha256:112e1e7b6ad0d425ce1d6d245c1223ee22cb1ce4e45c069e6e40231a4f3952e5",
+      "old_content": {
+        "text": "味王製造及銷售調味品、速食麵、常溫調理食品等，並透過泰國、越南投資事業服務海外市場。2025 年調味品營收約 39.57 億元、速食品 13.46 億元、其他 3.52 億元；產品銷售比重與海外營運規模並非各事業獲利比例，不宜由營收直接推算淨利來源。",
+        "period": "2025 年報",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "味王（1203，上市）為食品製造與銷售公司，主要產品包括味精、高鮮與風味調味料、醬油、速食麵、常溫調理包、點心麵、罐頭及飲料。消費端有王子／小王子品牌，亦供應營業用味精、加工用醬油及客製化代工；位處農糧與包材供應商、食品加工、品牌及零售／餐飲通路之間。\n2025合併產品收入調味品39.56713億元、速食品13.46177億元、其他3.52071億元，約70%、24%、6%；地區台灣25.68348億元（45.4%）、泰國19.56160億元（34.6%）、越南11.30453億元（20.0%）。這些是營收，不是產品或地區淨利分配。2025個體收入22.95270億元與合併56.54961億元不同，不能以台灣個體代表集團。\n官方投資架構：泰國味王持股48.66%，西貢味王100%；冠軍99.99%；台味由味王79.93%及冠軍20.07%持有，森美由味王95.05%及冠軍4.95%持有。直接與間接股權不重複相加成營收。泰國主做味精、西貢做味精／速食麵／湯粉、森美做食品／電子／環保包材；包材存在電子用途，不代表已轉成AI高成長材料公司。\n年報2025最大客戶以AA代號揭露，銷售9.30677億元占16.46%，未揭露名稱；無單一進貨供應商超過10%。研發表另列鬍鬚張油膏、鼎泰豐小包裝醬油等合作／產品，但沒有該客戶完整收入與新訂單量，不能將AA猜成這些品牌。\n【相似同業及理由】1216統一可比速食麵、食品品牌與通路需求，但集團乳飲、零售及投資結構較多元；1231聯華食品可比休閒品牌、食品代工與新品通路，其鮮食供應鏈與味王常溫調理、海外味精不同。兩者均為部分業務參照，不直接用整體PE當味王公平價；海外味精與包材仍須分開評估。",
+        "period": "2025全年／2026H1及10/14法說，逐項標示",
+        "sources": [
+          "vw-deck",
+          "vw-meeting",
+          "vw-annual",
+          "vw-qa-secondary",
+          "vw-baseline-balance",
+          "vw-peer-1231",
+          "vw-peer-1216"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "vw-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/120320261013M001.pptx",
+          "title": "115年10月14日法說簡報，17頁",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1與10/14法說；10/13官網公告附件，封面10/14"
+        },
+        {
+          "source_id": "vw-meeting",
+          "url": "https://www.vewong.com/ec99/ushop20069/headlinecontextd.asp?a=1&cty=5&newsno=584",
+          "title": "115年度法說會公告及官方簡報索引",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-annual",
+          "url": "https://www.vewong.com/ecmas0069/store/F4/ANN_REP_2025.pdf",
+          "title": "2025年報，主要參閱股東報告、營運85–108及財務115–121頁",
+          "publisher": "味王",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2025全年及2026營運計畫"
+        },
+        {
+          "source_id": "vw-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1203-2026-10-14",
+          "title": "富果10/14會後AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-14",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-baseline-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+          "title": "網站共同資產負債及現金流來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2026/6/30，合併、億元"
+        },
+        {
+          "source_id": "vw-peer-1231",
+          "url": "https://www.lianhwa.com.tw/info/business-division",
+          "title": "聯華食品官方事業介紹",
+          "publisher": "聯華食品",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        },
+        {
+          "source_id": "vw-peer-1216",
+          "url": "https://www.tcbffa.org.tw/member/064032501.htm",
+          "title": "食品公會統一企業會員及產品資料",
+          "publisher": "台灣糖果餅乾麵食公會",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-14",
+      "research_completed_at": "2026-10-16T16:32:21.025035+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味王整家公司及10/14整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成味王整家公司既定公開查找與10/14整場可取得文字／圖表，不表示各資訊均公開。",
+        "已讀17頁官方簡報全文、圖表及投資架構SmartArt原始文字；未取得可核對官方原始問答文字，不找影片。富果為AI摘要，僅低信度轉述口頭原因，不作官方逐字稿。",
+        "2026H1業外分項、個別產品／子公司當期獲利及現金流附註未取得完整原文；不把2025原因當2026既成事實，H1現金借款及現金流沿網站共同基線。",
+        "新產品個別客戶、收入、產能利用及投資回收未完整揭露；未找到可靠最新公司營收金額／EPS財測或法人共識。",
+        "土地活化只有年報既有申請與招商方向，本次未找到後續已核准、成交或認列收益證據；保留舊案不冒稱商用。",
+        "簡報台灣品類為公司自行結算、單位元；合併財報為千元，地區／產品收入占比不是獲利占比。",
+        "簡報醬油與味精H1銷售金額同列267,164,658元，但各自基期與增幅不同，原表逐筆保留，不推定其中一筆是誤植、不相加推全公司收入。",
+        "2025合併總淨利6.89531億元與歸母4.30560億元不同；2026H1亦同，不以集團總淨利計EPS。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261016-1203-v1-earnings",
+      "task_id": "backfill-20261016-1203",
+      "related_task_ids": [
+        "meeting-1203.TW-2026-10-14"
+      ],
+      "company_code": "1203",
+      "company_name": "味王",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:3e75790f16e0e0e05b77ef1c6973d26949d3aee8738c13685b8aacb230f34c29",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:c101fcf43c96702f7cb5a67ae89f7a5117c7493d45e4ca74e72413e4d29a556b",
+      "expected_old_section_version": "sha256:0f2748d8ee072dfa08d3cb2560a0c6799ce21e824f8957916a20a4d2ca7c2d38",
+      "old_content": {
+        "text": "2024–2025 年合併營收約 62.87、56.55 億元，合併淨利 8.64、6.90 億元，EPS 2.36、1.81 元。2026 上半年營收 26.35 億元、營業利益 3.98 億元、合併淨利 3.29 億元，歸母淨利為 2.21 億元；公告未附同期比較，不能據此稱最新獲利已回升。",
+        "period": "2024–2025 年／2026 上半年",
+        "sources": [
+          "annual",
+          "q2"
+        ]
+      },
+      "new_content": {
+        "text": "【2026H1累計／合併／新台幣】官方法說營收26.34732億元，去年29.54993億元，約年減11%；毛利9.03152億元對10.61439億元，營業費用5.05203億元對5.33257億元，營業利益3.97949億元對5.28182億元、約減25%。稅前4.57178億元對4.45034億元、約增3%；集團本期淨利3.29081億元對3.06614億元、約增7%；歸母2.21005億元對1.52936億元、約增45%；基本EPS0.93對0.64元。這是上半年，不是Q2單季，不能由EPS年增寫本業全面復甦。\n由表內稅前減營業利益，H1業外0.59229億元對-0.83148億元，改善1.42377億元，抵銷本業利益減少1.30233億元；是可核對的數字橋接，不是業外原因已逐項證實。集團總淨利與歸母增幅不同涉及非控制權益歸屬，不推定持股異動為唯一原因。毛利減少、費用雖降低仍不足抵銷，是本業下降的直接財務結構；當期匯兌／減損各項原因未取得完整附註，不借用去年說法。\n【台灣品類，自行結算、非合併】H1味精銷售2.67164658億元、年增8.27%；速食麵4.77430620億元、年減0.95%；醬油原表亦列2.67164658億元、年增5.96%；快餐0.86676754億元、年增8.16%。味精與醬油相同當期金額但不同基期，保留原表差異，不推測修正、不用此表推總合併營收。富果AI摘要稱營業用味精、醬油調價與調理包／代工改善；這些為未核對原始問答的轉述，不填確定價格／量的歸因比例。\n【2025全年／合併】營收56.54961億元、年減10.06%；營業利益9.35121億元、年減13.00%；業外0.08139億元對1.16512億元、年減93.01%；集團淨利6.89531億元、歸母4.30560億元、後者年減23.26%，EPS1.81元。年報解釋業外減少主要為匯兌利益與減損迴轉減少；其他綜合損益0.99104億元是另一尺度。個體認列權益法投資收益4.06092億元不再加到合併利益，以免重複。尚無各產品獨立淨利表，不把調味品70%收入當70%獲利。\n【2026/6/30合併資產負債】官方簡報資產107.12429億元、負債33.56196億元、權益73.56233億元，對2025年底104.86198、30.61721、74.24477億元。流動資產48.64200億元、流動負債19.95149億元，流動比2.44倍低於年底2.91倍，速動比1.60倍；負債淨值比0.46是負債／權益，不是負債比46%。負債／資產約31.3%。營收下降而流動負債增加，仍須看週轉及負債細項，不能僅憑流動比判定所有風險低。\n網站共同基線H1現金22.54872億元、表列借款7.81億元、租賃1.51752億元、營業現金流4.96918億元；現金是現金及約當現金，未將所有投資當現金。表列借款可能缺一年內到期項，故不把現金減表列借款稱完整淨現金。負債總額還包含營運負債與其他項目，不等於銀行借款；當期重大借款／現金流原因未取得完整附註，缺漏保留。",
+        "period": "2025全年／2026H1及10/14法說，逐項標示",
+        "sources": [
+          "vw-deck",
+          "vw-meeting",
+          "vw-annual",
+          "vw-qa-secondary",
+          "vw-baseline-balance",
+          "vw-peer-1231",
+          "vw-peer-1216"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "vw-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/120320261013M001.pptx",
+          "title": "115年10月14日法說簡報，17頁",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1與10/14法說；10/13官網公告附件，封面10/14"
+        },
+        {
+          "source_id": "vw-meeting",
+          "url": "https://www.vewong.com/ec99/ushop20069/headlinecontextd.asp?a=1&cty=5&newsno=584",
+          "title": "115年度法說會公告及官方簡報索引",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-annual",
+          "url": "https://www.vewong.com/ecmas0069/store/F4/ANN_REP_2025.pdf",
+          "title": "2025年報，主要參閱股東報告、營運85–108及財務115–121頁",
+          "publisher": "味王",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2025全年及2026營運計畫"
+        },
+        {
+          "source_id": "vw-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1203-2026-10-14",
+          "title": "富果10/14會後AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-14",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-baseline-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+          "title": "網站共同資產負債及現金流來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2026/6/30，合併、億元"
+        },
+        {
+          "source_id": "vw-peer-1231",
+          "url": "https://www.lianhwa.com.tw/info/business-division",
+          "title": "聯華食品官方事業介紹",
+          "publisher": "聯華食品",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        },
+        {
+          "source_id": "vw-peer-1216",
+          "url": "https://www.tcbffa.org.tw/member/064032501.htm",
+          "title": "食品公會統一企業會員及產品資料",
+          "publisher": "台灣糖果餅乾麵食公會",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-14",
+      "research_completed_at": "2026-10-16T16:32:21.025035+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味王整家公司及10/14整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成味王整家公司既定公開查找與10/14整場可取得文字／圖表，不表示各資訊均公開。",
+        "已讀17頁官方簡報全文、圖表及投資架構SmartArt原始文字；未取得可核對官方原始問答文字，不找影片。富果為AI摘要，僅低信度轉述口頭原因，不作官方逐字稿。",
+        "2026H1業外分項、個別產品／子公司當期獲利及現金流附註未取得完整原文；不把2025原因當2026既成事實，H1現金借款及現金流沿網站共同基線。",
+        "新產品個別客戶、收入、產能利用及投資回收未完整揭露；未找到可靠最新公司營收金額／EPS財測或法人共識。",
+        "土地活化只有年報既有申請與招商方向，本次未找到後續已核准、成交或認列收益證據；保留舊案不冒稱商用。",
+        "簡報台灣品類為公司自行結算、單位元；合併財報為千元，地區／產品收入占比不是獲利占比。",
+        "簡報醬油與味精H1銷售金額同列267,164,658元，但各自基期與增幅不同，原表逐筆保留，不推定其中一筆是誤植、不相加推全公司收入。",
+        "2025合併總淨利6.89531億元與歸母4.30560億元不同；2026H1亦同，不以集團總淨利計EPS。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261016-1203-v1-developments",
+      "task_id": "backfill-20261016-1203",
+      "related_task_ids": [
+        "meeting-1203.TW-2026-10-14"
+      ],
+      "company_code": "1203",
+      "company_name": "味王",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:3e75790f16e0e0e05b77ef1c6973d26949d3aee8738c13685b8aacb230f34c29",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:c101fcf43c96702f7cb5a67ae89f7a5117c7493d45e4ca74e72413e4d29a556b",
+      "expected_old_section_version": "sha256:2e022c358d9c99beeb429b57be2393a1bc399ff4a498aa1a7257597cd938d43e",
+      "old_content": {
+        "text": "年報明列醬油新調配棟與速食麵新麵機已量產，小王子杯麵已推出；後續系列新品仍屬計畫。三重、樹林及新竹閒置基地持續與專業機構合作、申請及招商洽談，尚未提供完工及收益數字；設備投產與土地規劃會分別記錄其實際階段。",
+        "period": "截至 2026 年報刊印時的實績及計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "【既有業務設備升級／擴充】豐田醬油調配設備與麵廠生產、自動化包裝及整修，年報列2024完工；所需資金總額分別2.01976及2.67147億元，為整體工程投資，不是2026新增支出或營收。醬油壓榨第一階段2019完成、調配第二階段2024完成；麵線及點心麵自動化包裝2021年底啟動、2024完成。10/14簡報確認兩類產線已上線，不能把本次確認當首次商轉。用途為瓶頸更新、效率與新品彈性，客戶為食品／餐飲／通路；沒有單案收入、毛利或回收期預估。\n【新產品與品牌延伸】已推出小王子杯麵；10月簡報以跨杯麵、爆米花、餅乾等型態、少量多樣與輕量化回應分眾市場。年報規劃醬油潔淨配方、客製化調味醬與小包裝，常溫個人餐、防災儲糧及銀髮介護調理食品；全食物液化、低糖低鈉、植物基為研發／市場方向，未逐品確認商用，不將整串都寫成已上市。\n【可辨識具體品項】年報截至2026/4列祐全加工調味液20L於4月生產、鼎泰豐4.2mL小包裝醬油等客製品；紫米紅豆豆奶2026/3已上市。這是各自已揭露產品／進度，不代表新增重大客戶合約。富果AI摘要提卡滋與日香聯名，未以本場原始問答獨立驗證合作時間及收入，僅保留次級線索，不作公司確定新增訂單。\n【資產活化，非食品新事業】三重、樹林、新竹閒置基地延續專業機構合作、申請及招商，年報沒有可確認完工、成交或收益。10月簡報未提供足以改寫其商用時間的新資料，保留舊進度與未揭露狀態，不因本次法說刷新為已開發或已認列。\n【海外既有業務】泰國與越南以既有味精、速食麵等市場服務及增加品項為方向；年報描述越南需求及毛利修復、泰國邊境因素影響出口，為年報發布時公司判斷。未找到本場新增可量化海外工廠擴產／新商用時程，不把舊海外投資當新案。",
+        "period": "2025全年／2026H1及10/14法說，逐項標示",
+        "sources": [
+          "vw-deck",
+          "vw-meeting",
+          "vw-annual",
+          "vw-qa-secondary",
+          "vw-baseline-balance",
+          "vw-peer-1231",
+          "vw-peer-1216"
+        ],
+        "projects": [
+          {
+            "project_id": "1203-SOYSAUCE-AUTOMATION",
+            "name": "豐田醬油調配設備",
+            "type": "既有業務設備升級／擴充",
+            "progress": "2024完工，2026/10確認已上線",
+            "use_and_customers": "醬油調配與成本效率，食品及餐飲通路",
+            "commercialization_time": "2024完工／已量產",
+            "revenue_contribution": "未揭露；工程資金2.01976億元不是營收",
+            "sources": [
+              "vw-deck",
+              "vw-annual"
+            ]
+          },
+          {
+            "project_id": "1203-NOODLE-AUTOMATION",
+            "name": "麵廠及點心麵自動化",
+            "type": "既有業務擴充／升級",
+            "progress": "2024完工，2026/10確認上線",
+            "use_and_customers": "麵線及點心麵包裝／零售客戶",
+            "commercialization_time": "2024完成",
+            "revenue_contribution": "未揭露；工程資金2.67147億元不是營收",
+            "sources": [
+              "vw-deck",
+              "vw-annual"
+            ]
+          },
+          {
+            "project_id": "1203-PRINCE-EXTENSION",
+            "name": "小王子品牌延伸",
+            "type": "新產品",
+            "progress": "杯麵已推出，其他型態研發／合作方向",
+            "use_and_customers": "杯麵、零食等分眾消費",
+            "commercialization_time": "各新品逐項未揭露",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "vw-deck",
+              "vw-annual"
+            ]
+          },
+          {
+            "project_id": "1203-HEALTH-READYMEAL",
+            "name": "銀髮及常溫個人餐",
+            "type": "新產品",
+            "progress": "研發及市場規劃，不全稱已上市",
+            "use_and_customers": "介護、外食、防災、植物基需求",
+            "commercialization_time": "逐項商用時間未揭露",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "vw-deck",
+              "vw-annual"
+            ]
+          },
+          {
+            "project_id": "1203-CUSTOM-SEASONING",
+            "name": "客製化調味與飲品",
+            "type": "新產品延伸",
+            "progress": "年報列部分4月生產、3月上市品項",
+            "use_and_customers": "餐飲小包裝／代工客戶及消費者",
+            "commercialization_time": "2026/3–4部分已商用",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "vw-deck",
+              "vw-annual"
+            ]
+          },
+          {
+            "project_id": "1203-IDLE-PROPERTY",
+            "name": "三重樹林新竹資產活化",
+            "type": "資產運用",
+            "progress": "既有申請／招商，未找到本次核准成交證據",
+            "use_and_customers": "潛在承租／開發夥伴未具名",
+            "commercialization_time": "未揭露",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "vw-deck",
+              "vw-annual"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "vw-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/120320261013M001.pptx",
+          "title": "115年10月14日法說簡報，17頁",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1與10/14法說；10/13官網公告附件，封面10/14"
+        },
+        {
+          "source_id": "vw-meeting",
+          "url": "https://www.vewong.com/ec99/ushop20069/headlinecontextd.asp?a=1&cty=5&newsno=584",
+          "title": "115年度法說會公告及官方簡報索引",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-annual",
+          "url": "https://www.vewong.com/ecmas0069/store/F4/ANN_REP_2025.pdf",
+          "title": "2025年報，主要參閱股東報告、營運85–108及財務115–121頁",
+          "publisher": "味王",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2025全年及2026營運計畫"
+        },
+        {
+          "source_id": "vw-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1203-2026-10-14",
+          "title": "富果10/14會後AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-14",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-baseline-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+          "title": "網站共同資產負債及現金流來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2026/6/30，合併、億元"
+        },
+        {
+          "source_id": "vw-peer-1231",
+          "url": "https://www.lianhwa.com.tw/info/business-division",
+          "title": "聯華食品官方事業介紹",
+          "publisher": "聯華食品",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        },
+        {
+          "source_id": "vw-peer-1216",
+          "url": "https://www.tcbffa.org.tw/member/064032501.htm",
+          "title": "食品公會統一企業會員及產品資料",
+          "publisher": "台灣糖果餅乾麵食公會",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-14",
+      "research_completed_at": "2026-10-16T16:32:21.025035+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味王整家公司及10/14整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成味王整家公司既定公開查找與10/14整場可取得文字／圖表，不表示各資訊均公開。",
+        "已讀17頁官方簡報全文、圖表及投資架構SmartArt原始文字；未取得可核對官方原始問答文字，不找影片。富果為AI摘要，僅低信度轉述口頭原因，不作官方逐字稿。",
+        "2026H1業外分項、個別產品／子公司當期獲利及現金流附註未取得完整原文；不把2025原因當2026既成事實，H1現金借款及現金流沿網站共同基線。",
+        "新產品個別客戶、收入、產能利用及投資回收未完整揭露；未找到可靠最新公司營收金額／EPS財測或法人共識。",
+        "土地活化只有年報既有申請與招商方向，本次未找到後續已核准、成交或認列收益證據；保留舊案不冒稱商用。",
+        "簡報台灣品類為公司自行結算、單位元；合併財報為千元，地區／產品收入占比不是獲利占比。",
+        "簡報醬油與味精H1銷售金額同列267,164,658元，但各自基期與增幅不同，原表逐筆保留，不推定其中一筆是誤植、不相加推全公司收入。",
+        "2025合併總淨利6.89531億元與歸母4.30560億元不同；2026H1亦同，不以集團總淨利計EPS。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261016-1203-v1-transition",
+      "task_id": "backfill-20261016-1203",
+      "related_task_ids": [
+        "meeting-1203.TW-2026-10-14"
+      ],
+      "company_code": "1203",
+      "company_name": "味王",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:3e75790f16e0e0e05b77ef1c6973d26949d3aee8738c13685b8aacb230f34c29",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:c101fcf43c96702f7cb5a67ae89f7a5117c7493d45e4ca74e72413e4d29a556b",
+      "expected_old_section_version": "sha256:5318eb06a31a97e4ccc659f77cea59568ad5a2897d5b8f0c718ac83b8a172dab",
+      "old_content": {
+        "text": "公司以食品本業為核心，發展潔淨配方、銀髮友善及個人常溫餐，延伸小王子品牌與跨界聯名，同時推動生產自動化。研究判讀為產品與製程升級；閒置土地活化則另屬資產運用方向，招商、申請及洽談不能視為已取得開發收入。",
+        "period": "2025 回顧／2026 營業計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "【中長期判讀】味王仍以食品本業為核心，從調味品、常溫調理及王子／小王子品牌延伸新品，自動化是降低人事與設備成本壓力的手段；屬產品、製程與品牌升級，未有證據支持全面轉進新產業。台灣少數品類收入改善與集團營收／本業利益下降可同時存在，海外與組合因素必須一起看。\n【展望】2025年報預期2026食品事業銷量與營收大致相當為早期方向性計畫，非集團量化財測；10月簡報沒有提供新的公司整體營收金額／EPS區間，本次未找到可靠法人EPS共識。新產品、產線投資及招商不自行換算未來收入。年報預算、實績與10月確認分開保留，沒有宣稱早期計畫已達成。\n【事件與風險】核心追蹤應為合併營收與營業利益、食品毛利和原物料／包材／運輸／人事費用、海外需求與匯率，以及產線效率能否轉為獲利。2025本業與業外均下降的原因有官方說明，2026H1則歸母成長而本業衰退；只看EPS容易錯估獲利品質。泰國48.66%持股與合併報表非控制權益須分清，未揭露客戶AA之集中風險不可忽略。\n未找到本次可驗證新重大併購或財報重編；不把沒有找到寫成確定沒有。整場17頁簡報、投資架構與圖表已查，官方原始問答未取得，低信度AI摘要及當期附註缺漏明示；本批一次完成既定公開查找交付，不代表逐項資料均已公開。",
+        "period": "2025全年／2026H1及10/14法說，逐項標示",
+        "sources": [
+          "vw-deck",
+          "vw-meeting",
+          "vw-annual",
+          "vw-qa-secondary",
+          "vw-baseline-balance",
+          "vw-peer-1231",
+          "vw-peer-1216"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "vw-deck",
+          "url": "https://mopsov.twse.com.tw/nas/STR/120320261013M001.pptx",
+          "title": "115年10月14日法說簡報，17頁",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "2026H1與10/14法說；10/13官網公告附件，封面10/14"
+        },
+        {
+          "source_id": "vw-meeting",
+          "url": "https://www.vewong.com/ec99/ushop20069/headlinecontextd.asp?a=1&cty=5&newsno=584",
+          "title": "115年度法說會公告及官方簡報索引",
+          "publisher": "味王",
+          "published_at": "2026-10-13",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-annual",
+          "url": "https://www.vewong.com/ecmas0069/store/F4/ANN_REP_2025.pdf",
+          "title": "2025年報，主要參閱股東報告、營運85–108及財務115–121頁",
+          "publisher": "味王",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2025全年及2026營運計畫"
+        },
+        {
+          "source_id": "vw-qa-secondary",
+          "url": "https://blog.fugle.tw/post/earnings-call-1203-2026-10-14",
+          "title": "富果10/14會後AI摘要，非官方原始問答",
+          "publisher": "富果研究部",
+          "published_at": "2026-10-14",
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "period": "10/14會議"
+        },
+        {
+          "source_id": "vw-baseline-balance",
+          "url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+          "title": "網站共同資產負債及現金流來源",
+          "publisher": "網站匯出之公開資訊觀測站資料",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日",
+          "period": "2026/6/30，合併、億元"
+        },
+        {
+          "source_id": "vw-peer-1231",
+          "url": "https://www.lianhwa.com.tw/info/business-division",
+          "title": "聯華食品官方事業介紹",
+          "publisher": "聯華食品",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        },
+        {
+          "source_id": "vw-peer-1216",
+          "url": "https://www.tcbffa.org.tw/member/064032501.htm",
+          "title": "食品公會統一企業會員及產品資料",
+          "publisher": "台灣糖果餅乾麵食公會",
+          "published_at": null,
+          "accessed_at": "2026-10-16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日；年報官網更新6/4、內頁部分資料截至4/30，不視為同一發布日"
+        }
+      ],
+      "claim_type": "fact_company_forecast_secondary_ai_report_and_explicit_research_inference",
+      "event_date": "2026-10-14",
+      "research_completed_at": "2026-10-16T16:32:21.025035+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味王整家公司及10/14整場可取得資料",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "完成味王整家公司既定公開查找與10/14整場可取得文字／圖表，不表示各資訊均公開。",
+        "已讀17頁官方簡報全文、圖表及投資架構SmartArt原始文字；未取得可核對官方原始問答文字，不找影片。富果為AI摘要，僅低信度轉述口頭原因，不作官方逐字稿。",
+        "2026H1業外分項、個別產品／子公司當期獲利及現金流附註未取得完整原文；不把2025原因當2026既成事實，H1現金借款及現金流沿網站共同基線。",
+        "新產品個別客戶、收入、產能利用及投資回收未完整揭露；未找到可靠最新公司營收金額／EPS財測或法人共識。",
+        "土地活化只有年報既有申請與招商方向，本次未找到後續已核准、成交或認列收益證據；保留舊案不冒稱商用。",
+        "簡報台灣品類為公司自行結算、單位元；合併財報為千元，地區／產品收入占比不是獲利占比。",
+        "簡報醬油與味精H1銷售金額同列267,164,658元，但各自基期與增幅不同，原表逐筆保留，不推定其中一筆是誤植、不相加推全公司收入。",
+        "2025合併總淨利6.89531億元與歸母4.30560億元不同；2026H1亦同，不以集團總淨利計EPS。"
+      ]
+    }
+  ],
+  "numeric_policy": "保留原財務共同基線；負債淨值比與負債比明確區分；不以總淨利取代歸母，不猜修正品類銷售表"
+}

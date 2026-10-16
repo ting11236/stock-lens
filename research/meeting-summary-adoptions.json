@@ -75,6 +75,36 @@
       "publication_commit": "e27a2ecc00f89008e27304a068a5ffc9e6a3a603",
       "workflow_run_id": 38765047014,
       "verified_at": "2026-10-15T16:02:49.557Z"
+    },
+    {
+      "symbol": "2330.TW",
+      "name": "台積電",
+      "kind": "法說會",
+      "meeting_date": "2026-10-15",
+      "summary_updated_at": "2026-10-16",
+      "batch_id": "research-20261015-2330-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "7d671083a49dcc2df52e19ff1dfd1b69ffc2c81f",
+      "workflow_run_id": 38873788956,
+      "verified_at": "2026-10-16T16:53:07.211Z"
+    },
+    {
+      "symbol": "1725.TW",
+      "name": "元禎",
+      "kind": "法說會",
+      "meeting_date": "2026-10-13",
+      "summary_updated_at": "2026-10-16",
+      "batch_id": "research-20261015-1725-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "7d671083a49dcc2df52e19ff1dfd1b69ffc2c81f",
+      "workflow_run_id": 38873788956,
+      "verified_at": "2026-10-16T16:53:07.213Z"
     }
   ]
 }
