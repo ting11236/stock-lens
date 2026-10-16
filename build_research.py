@@ -9,13 +9,19 @@ from financial_ttm import rolling_financials, derived_metrics
 import argparse
 import json
 import re
-from datetime import date
+from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlsplit
 from update_snapshot import dump, write_changed
 
 ROOT = Path(__file__).resolve().parent
 SECTIONS = ('business', 'earnings', 'transition', 'developments')
+
+
+def research_today(now=None):
+    """Research dates follow Taiwan time, including on UTC deployment runners."""
+    current = now if now is not None else datetime.now(timezone.utc)
+    return current.astimezone(timezone(timedelta(hours=8))).date()
 
 
 def checked_date(value, today):
@@ -26,7 +32,7 @@ def checked_date(value, today):
 
 
 def validate(records, today=None):
-    today = today or date.today()
+    today = today or research_today()
     if not isinstance(records, dict):
         raise ValueError('研究資料必須是以股票代號為索引的物件')
     for symbol, record in records.items():

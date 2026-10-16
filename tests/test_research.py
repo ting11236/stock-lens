@@ -89,3 +89,21 @@ class ResearchTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
+
+class ResearchTimezoneTests(unittest.TestCase):
+    def test_taiwan_midnight_is_already_next_day_on_utc_runner(self):
+        from datetime import datetime, timezone
+        self.assertEqual(r.research_today(datetime(2026,10,15,15,59,tzinfo=timezone.utc)),date(2026,10,15))
+        self.assertEqual(r.research_today(datetime(2026,10,15,16,0,tzinfo=timezone.utc)),date(2026,10,16))
+
+    def test_default_validation_uses_taiwan_today_and_still_rejects_future(self):
+        from unittest.mock import patch
+        record=note()
+        record['reviewed_at']='2026-10-16'
+        record['sources']['annual']['accessed_at']='2026-10-16'
+        with patch.object(r,'research_today',return_value=date(2026,10,16)):
+            self.assertIs(r.validate({'1234.TW':record})['1234.TW'],record)
+            record['sources']['annual']['accessed_at']='2026-10-17'
+            with self.assertRaises(ValueError):
+                r.validate({'1234.TW':record})
