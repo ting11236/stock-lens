@@ -305,7 +305,7 @@ function financialOverviewSummary(o){
 function outlookConclusion(x,o){
  const kind=String(x.type||''),rawScope=String(x.scope||'營收'),scope=rawScope.split(/[；;]/)[0],period=String(x.period||'未確認');
  const target=/長期目標|業務目標/.test(kind),institution=/法人|共識/.test(kind);
- const who=institution?'研究機構預估':target?'公司希望達到的目標是':'公司預估';
+ const who=x.is_historical?'歷史研究機構預估（'+String(x.published_at||'日期未提供')+'）':institution?'研究機構預估':target?'公司希望達到的目標是':'公司預估';
  const unit={'新台幣億元':'億新台幣','新台幣／億元':'億新台幣','美元／億元':'億美元','歐元億元':'億歐元'}[x.unit]||x.unit||'';
  if(!Number.isFinite(x.low))return '公司發展方向：'+plainDirectionText(o.direction)+'（目前資料未提供營收預估金額）。';
  const number=Number(x.low).toLocaleString('zh-TW',{maximumFractionDigits:2})+(Number.isFinite(x.high)?' 至 '+Number(x.high).toLocaleString('zh-TW',{maximumFractionDigits:2}):'');
@@ -327,7 +327,7 @@ function plainDirectionText(text){
  return plainResearchText(text).replace(/先進封裝/g,'先進封裝（把晶片整合在一起，提高效能）').replace(/海外製造布局/g,'增加海外工廠').replace(/產能/g,'工廠生產能力').replace(/光充儲一體充電站/g,'結合太陽能發電、儲電與充電的站點').replace(/EnergyArk 儲能櫃/g,'EnergyArk 儲能櫃（把電存起來、需要時再供電）').replace(/設備智慧監測/g,'用電腦監測設備狀況').replace(/混凝土強度預測與配比模型/g,'預測混凝土強度、找出合適材料比例的電腦模型').replace(/量產/g,'大量生產').replace(/試產/g,'少量試做').replace(/送樣/g,'送產品樣品給客戶測試').replace(/產能利用率/g,'工廠實際開工的比例').replace(/商用/g,'正式供客戶使用').replace(/布局/g,'發展');
 }
 function companyOutlookHtml(stock,p){
- const o=p.overview||{},valid=(o.outlooks||[]).filter(x=>Number.isFinite(x.low));
+ const o=p.overview||{},valid=(o.outlooks||[]).filter(x=>!x.is_historical&&Number.isFinite(x.low));
  let direction=stock.symbol==='1101.TW'?'發展碳排放較低的水泥與建材，增加儲能、充電與電池相關業務，並整合海外水泥事業。':plainDirectionText(o.direction||p.transition?.text?.split('。')[0]||'目前資料尚未提供具體發展方向。');
  if(!/[。！？]$/.test(direction))direction='把重點放在'+direction+'。';
  const conclusion=x=>{const t=outlookConclusion(x,o),i=t.indexOf('：');return '<p><b class="outlook-summary-label">'+esc(t.slice(0,i+1))+'</b><span class="outlook-goal">'+esc(t.slice(i+1))+'</span></p>'};

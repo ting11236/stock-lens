@@ -1,0 +1,1165 @@
+{
+  "batch_id": "research-20261017-2603-v2",
+  "adopted_at": "2026-10-17",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261017-2603-v2",
+    "ready": true,
+    "created_at": "2026-10-17T22:32:06.195585+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:07016c09f01259b9c6fa1042358dcfafc5a8d563a12d5f102446458b1086f2bc",
+    "work_type": "backfill",
+    "origin_date": "2026-10-11",
+    "completion_unit": "長榮整家公司補齊承接欠件；不重複會議計數",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "官方原始問答文字未取得，不查影片",
+      "本批補齊欠件，不把原10/8法說重新計為新會議",
+      "英文財報公司原件以第三方鏡像取得；中文原版優先，原始中文PDF未成功取得",
+      "最新10/16法人共識僅找到索引，全文未能核對，不以片段更新確認數字",
+      "各專案收入／具名客戶、全船隊安裝日未完整揭露",
+      "船隊容量表範圍差異仍未解決，保留原口徑",
+      "數字修正待網站驗證；不直接改網站數字源"
+    ]
+  },
+  "before": {
+    "record": {
+      "name": "長榮",
+      "reviewed_at": null,
+      "research_completion": "partial",
+      "sources": {
+        "emc-presentation": {
+          "url": "https://mopsov.twse.com.tw/nas/STR/260320261008M001.pdf",
+          "title": "長榮海運115年10月法人說明會簡報",
+          "publisher": "長榮海運／公開資訊觀測站",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "29頁簡報全文與主要圖表；業務、財務、聯盟、船隊、智慧貨櫃"
+        },
+        "emc-outlook": {
+          "url": "https://anuenews.cnyes.com/news/id/6625076",
+          "title": "長榮法說第四季展望報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述公司訂艙與第四季展望，非官方逐字稿"
+        },
+        "emc-risk": {
+          "url": "https://anuenews.cnyes.com/news/id/6625082",
+          "title": "長榮法說運價與需求風險報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述需求、通膨與塞港風險，非官方逐字稿"
+        }
+      },
+      "limitations": [
+        "本場可取得簡報全文及主要圖表已核對；原始問答未取得可核對文字，僅採明確標示的媒體轉述，依使用者要求不查影片。",
+        "船隊運力圖口徑差異未解明；未揭露單項獲利、客戶與營收貢獻，不自行估填。",
+        "整場會議交付不等於全公司年度研究補齊；行情、法人共識與同業完整比較不屬此次已完成查核。"
+      ],
+      "meeting_research": {
+        "event_date": "2026-10-08",
+        "completion": "2603-20261008整場法說可取得公開資料",
+        "status": "meeting_complete_with_disclosed_gaps",
+        "reviewed_at": "2026-10-11",
+        "original_qa_verified": false,
+        "batch_id": "research-20261011-2603-v1"
+      },
+      "business": {
+        "text": "長榮主要靠貨櫃海運賺取收入，客戶付運費，公司負擔燃油、港口、內陸運輸、租船及折舊等成本。2026年上半年營收中，貨運占92.96%、船艙租賃占1.20%、其他占5.84%；這些比例說明收入來自哪裡，各項業務實際賺多少仍要看成本。上半年營業成本中，港口費用占38%、燃油占22%；簡報另列1–8月燃油占23%，兩張圖涵蓋的月份不同。長榮參與的海洋聯盟Day10合作期間為2026年4月1日至2027年3月31日，聯盟合計有38條航線、373艘船、508萬TEU運力。TEU是以20呎貨櫃計算的容量單位；上述船數與容量包含聯盟成員。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11"
+      },
+      "earnings": {
+        "text": "2026年上半年，長榮合併營收1,916.72億元、營業利益283.06億元、歸屬母公司淨利243.37億元，每股盈餘（EPS）11.24元。這是1–6月累計成績。2026年第二季末流動比率138.81%，表示流動資產約為短期負債的1.39倍；負債比39.75%，表示總資產中約四成對應負債，涵蓋借款與其他負債。公司2026年8月平均運費為1,577美元／TEU，每噸耗油成本696美元，都是當月營運數據。9月營收使用網站官方資料更新；媒體報導與既有資料有差異，本次研究未採用報導中的年增率。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11"
+      },
+      "developments": {
+        "text": "公司發展方向：持續更新船隊燃料技術，並用智慧貨櫃提高運送監控能力。雙燃料船是既有海運業務的船隊更新與擴充；簡報規劃2027年累計33艘、2030年累計55艘，屬未來交船計畫。公司未在本場資料揭露這項計畫的個別客戶、營收與獲利預估。智慧貨櫃方面，乾櫃已安裝30萬只，覆蓋率86%；冷藏櫃57,900只，覆蓋率100%，可監控位置、異常狀況與溫度。覆蓋率表示已有設備的貨櫃比例；獨立收費、單項收入及實際省下的成本尚未揭露。簡報第26頁的集團運力與第27頁自有加長租船隊，同年度容量數字有差異，原因仍待釐清，因此保留各圖原有範圍。原有NexusWave計畫保留在舊概況，本場資料未重新查核。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11",
+        "project_ids": [
+          "2603-dual-fuel-fleet",
+          "2603-iot-containers"
+        ]
+      },
+      "transition": {
+        "text": "公司展望：據鉅亨網2026年10月8日的法說報導，長榮對第四季較樂觀，訂艙狀況看到11月前仍好；這是媒體轉述公司的看法，尚無本次可用的營收或獲利金額目標。另一篇同媒體報導指出，公司留意通膨與利率可能使2027年第二季後需求減弱。研究觀察：塞港、繞行與航程變化可能使船舶周轉變慢，暫時支撐運價；需求轉弱或可用船舶增加時，運價與毛利可能承壓。後續一起觀察運費、運量、燃料成本與新船供給。原始問答未取得可核對文字，會後展望以媒體轉述標示。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11"
+      }
+    },
+    "overview": {
+      "name": "長榮",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "臺灣50業務",
+      "source_row": 52,
+      "business": "貨櫃海運及相關運輸服務",
+      "direction": "船隊連網導入NexusWave；甲醇雙燃料船隊布局",
+      "profit_mechanism": "運費收入扣除燃油、租船、港口及折舊等成本；運价循環影響顯著",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "本次財務篩選未觸發；非無風險認定",
+      "urls": [
+        "https://www.inmarsat.com/news/latest-news/maritime/2026/evergreen-confirms-fleetwide-rollout-of-inmarsat-nexuswave/",
+        "https://csr.evergreen-marine.com/tw/pdf/csr-policy-report/Evergreen_CSR_Report_CH2.pdf",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 4635.67897,
+        "fy2025": 3790.6862699999997,
+        "q32025": 969.20534,
+        "q42025": 856.93535,
+        "q12026": 865.11471,
+        "q22026": 1051.6098299999999,
+        "ttm": 3742.86523,
+        "h1_operating_profit": 283.06277,
+        "h1_nonoperating": 31.9758,
+        "h1_pretax": 315.03857,
+        "h1_parent_profit": 243.37452,
+        "h1_operating_margin": 0.147680464298746,
+        "h1_nonoperating_share": 0.101498048318338,
+        "fy2025_parent_profit": 685.8055899999999,
+        "q22026_parent_profit": 160.33923,
+        "screening": "未觸發本次篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 1916.72454,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 4635.67897,
+            "net_income": 1394.5329299999999,
+            "eps": 64.87,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1964.54558,
+            "net_income": 383.16089999999997,
+            "eps": 17.7,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 2933.75092,
+            "net_income": 600.62306,
+            "eps": 27.740000000000002,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 3790.6862699999997,
+            "net_income": 685.8055899999999,
+            "eps": 31.68,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 865.11471,
+            "net_income": 83.03529,
+            "eps": 3.84,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1916.72454,
+            "net_income": 243.37452,
+            "eps": 11.24,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 5.06,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 45.57,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 87.07,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 16.7,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 969.20534,
+              "eps": 10.040000000000003,
+              "net_income": 217.46216000000004
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 856.9353499999997,
+              "eps": 3.9399999999999977,
+              "net_income": 85.18252999999993
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 865.11471,
+              "eps": 3.84,
+              "net_income": 83.03529
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 1051.6098299999999,
+              "eps": 7.4,
+              "net_income": 160.33923
+            }
+          ],
+          "ttms": 3742.8652299999994,
+          "ttm_eps": 25.220000000000002,
+          "ttm_parent_profit": 546.0192099999999,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 3,742.87 億元；每股盈餘 25.22 元；歸母淨利 546.02 億元。營收未扣成本與費用，不等於獲利。獲利機制：運費收入扣除燃油、租船、港口及折舊等成本；運价循環影響顯著。",
+      "events": [],
+      "outlooks": [
+        {
+          "type": "法人共識（媒體轉載FactSet）",
+          "period": "2026全年",
+          "scope": "合併營收",
+          "unit": "新台幣億元",
+          "low": 4317.1359999999995,
+          "high": null,
+          "published_at": "2026-10-01",
+          "limitations": "營收中位數4317.136億元；最低3677.16、最高4688.35。非公司財測；来源歷史EPS欄誤列淨利，未採用該欄。未確認後續修正。",
+          "urls": [
+            "https://gfe-desktop.cnyes.com/news/id/6619373"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2603",
+            "name": "長榮",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 9683.46673,
+            "liabilities": 3849.0679699999996,
+            "equity": 5834.39876,
+            "parent_equity": 5609.4285899999995,
+            "cash": 1747.46741,
+            "current_assets": 2607.18061,
+            "current_liabilities": 1878.2131299999999,
+            "listed_borrowings": 927.24307,
+            "listed_leases": 969.07623,
+            "operating_cashflow": 387.79033,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=5880&companyId=2603&companyId=4904&companyId=3045&companyId=6505",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=5880&companyId=2603&companyId=4904&companyId=3045&companyId=6505",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2603",
+            "name": "長榮",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 8943.321759999999,
+            "liabilities": 3081.08445,
+            "equity": 5862.2373099999995,
+            "parent_equity": 5638.1812899999995,
+            "cash": 1743.66257,
+            "current_assets": 2337.28195,
+            "current_liabilities": 1463.5347399999998,
+            "listed_borrowings": 544.39928,
+            "listed_leases": 1113.01893,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=5880&companyId=2603&companyId=4904&companyId=3045&companyId=6505",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=5880&companyId=2603&companyId=4904&companyId=3045&companyId=6505",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "delivery_updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-2603-v2-business",
+      "task_id": "backfill-20261011-2603",
+      "company_code": "2603",
+      "company_name": "長榮",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:ffcffa8a0c9f42cd7bd597bc318fcbb0f92a9b0421fd8a920e0d34c84b35bc3f",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:6a49c5ed5ea357204875f4bbcb212b30c4f27cea93a6069e27cb5f99a6e2bc68",
+      "expected_old_section_version": "sha256:31f6abe26ec125a37339b6b07412eb90de6d4842e343acb8506a80e705d61a2e",
+      "old_content": {
+        "text": "長榮主要靠貨櫃海運賺取收入，客戶付運費，公司負擔燃油、港口、內陸運輸、租船及折舊等成本。2026年上半年營收中，貨運占92.96%、船艙租賃占1.20%、其他占5.84%；這些比例說明收入來自哪裡，各項業務實際賺多少仍要看成本。上半年營業成本中，港口費用占38%、燃油占22%；簡報另列1–8月燃油占23%，兩張圖涵蓋的月份不同。長榮參與的海洋聯盟Day10合作期間為2026年4月1日至2027年3月31日，聯盟合計有38條航線、373艘船、508萬TEU運力。TEU是以20呎貨櫃計算的容量單位；上述船數與容量包含聯盟成員。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11"
+      },
+      "new_content": {
+        "text": "長榮主要靠貨櫃海運賺取收入，客戶付運費，公司負擔燃油、港口、內陸運輸、租船及折舊等成本。2026年上半年營收中，貨運占92.96%、船艙租賃占1.20%、其他占5.84%；這些比例說明收入來自哪裡，各項業務實際賺多少仍要看成本。上半年營業成本中，港口費用占38%、燃油占22%；簡報另列1–8月燃油占23%，兩張圖涵蓋的月份不同。長榮參與的海洋聯盟Day10合作期間為2026年4月1日至2027年3月31日，聯盟合計有38條航線、373艘船、508萬TEU運力。TEU是以20呎貨櫃計算的容量單位；上述船數與容量包含聯盟成員。\n\n【補齊公司定位】長榮是貨櫃班輪承運人，服務出口／進口貨主與承攬業者；產品是航線、艙位及運送／轉運服務，而非單純持有船舶收租。海運、船務代理與碼頭服務可整合供應鏈，聯盟交換艙位有助擴充航線覆蓋，但聯盟總船數／TEU不是上市長榮獨有資產。[emc-presentation、emc-h1-english]\n2026H1財報按服務類別、對外收入拆分：船東業務1,843.84182億元、代理23.94735億元、碼頭45.02748億元、其他3.90789億元，合計1,916.72454億元；集團內交易已沖銷。這與簡報貨運／船艙租賃／其他是不同分類，不能一對一相加。運輸部門包括船東、代理、碼頭，合併財報未單列每條航線或每種船舶的歸母獲利，不用營收占比代替利潤占比。[emc-h1-english，附註6(23)、14]\n【同業】2609陽明是較直接的貨櫃海運參照，同樣受運價、貨量、燃油、租船及船隊成本影響。陽明官方說明涵蓋亞美、亞歐等東西向航線，並與HMM及ONE組Premier Alliance；長榮使用海洋聯盟，船隊規模／航線配比／新船交付與租船結構不同，需網站取得同日期、同EPS口徑數字再比較，不直接認為兩家公司合理PE相同。散裝航運與航空的運價機制及資產用途不同，這次不選為直接同業。[emc-peer-2609；同業選擇為研究判斷]",
+        "period": "原10/8法說保留；本批補核2026H1、期後事件及各筆來源日期",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk",
+          "emc-h1-english",
+          "emc-nexus",
+          "emc-peer-2609",
+          "emc-finance-index",
+          "emc-consensus-1012",
+          "emc-consensus-1016-candidate"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "emc-presentation",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260320261008M001.pdf",
+          "title": "長榮海運115年10月法人說明會簡報",
+          "publisher": "長榮海運／公開資訊觀測站",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "29頁簡報全文與主要圖表；業務、財務、聯盟、船隊、智慧貨櫃"
+        },
+        {
+          "source_id": "emc-outlook",
+          "url": "https://anuenews.cnyes.com/news/id/6625076",
+          "title": "長榮法說第四季展望報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述公司訂艙與第四季展望，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-risk",
+          "url": "https://anuenews.cnyes.com/news/id/6625082",
+          "title": "長榮法說運價與需求風險報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述需求、通膨與塞港風險，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-h1-english",
+          "url": "https://cdn.financialreports.eu/financialreports/media/filings/52158/2026/RNS/52158_rns_2026-09-30_16bf79bf-9277-4e74-931a-41d8dbb946f0.pdf",
+          "title": "2026H1公司英文合併財報原件鏡像，110頁；以中文原版為準",
+          "publisher": "長榮海運／FinancialFilings鏡像",
+          "period": "2026H1及6月30日／2025比較；核閱報告8/13、索引9/30",
+          "published_at": "2026-09-30",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-nexus",
+          "url": "https://www.inmarsat.com/news/latest-news/maritime/2026/evergreen-confirms-fleetwide-rollout-of-inmarsat-nexuswave/",
+          "title": "Evergreen confirms fleetwide rollout of Inmarsat NexusWave",
+          "publisher": "Inmarsat Maritime",
+          "period": "2026年全船隊導入承諾",
+          "published_at": "2026-01-07",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-peer-2609",
+          "url": "https://esg.yangming.com/en/esg/company_profile/1/",
+          "title": "陽明公司概況與聯盟服務",
+          "publisher": "陽明海運",
+          "period": "官網查閱時業務，網頁含2025實績及2026計畫",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-finance-index",
+          "url": "https://wwwc.twse.com.tw/IIH2/zh/company/information.html?code=2603",
+          "title": "證交所長榮資訊揭露／財報申報索引",
+          "publisher": "臺灣證券交易所",
+          "period": "2026年財報申報日期，非把索引當已讀財報",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-consensus-1012",
+          "url": "https://news.cnyes.com/news/id/6628122",
+          "title": "FactSet調查媒體轉載：10/12 EPS預估39.33元",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；不是當日最新共識",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-consensus-1016-candidate",
+          "url": "https://news.cnyes.com/news/id/6631950",
+          "title": "10/16 FactSet調查搜尋索引；全文未能開啟，不當確認新值",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；待全文核對",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-17T22:32:06.195585+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "10/11承接的整家公司補齊欠件；原整場會議不重複計",
+      "claim_type": "fact_company_forecast_institution_forecast_and_labeled_research_inference",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片",
+        "本批補齊欠件，不把原10/8法說重新計為新會議",
+        "英文財報公司原件以第三方鏡像取得；中文原版優先，原始中文PDF未成功取得",
+        "最新10/16法人共識僅找到索引，全文未能核對，不以片段更新確認數字",
+        "各專案收入／具名客戶、全船隊安裝日未完整揭露",
+        "船隊容量表範圍差異仍未解決，保留原口徑",
+        "數字修正待網站驗證；不直接改網站數字源"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-2603-v2-earnings",
+      "task_id": "backfill-20261011-2603",
+      "company_code": "2603",
+      "company_name": "長榮",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:ffcffa8a0c9f42cd7bd597bc318fcbb0f92a9b0421fd8a920e0d34c84b35bc3f",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:6a49c5ed5ea357204875f4bbcb212b30c4f27cea93a6069e27cb5f99a6e2bc68",
+      "expected_old_section_version": "sha256:6f9f6df00e0ff93221ed94cddc11fd77daeab32d909965a7ac99273a897de612",
+      "old_content": {
+        "text": "2026年上半年，長榮合併營收1,916.72億元、營業利益283.06億元、歸屬母公司淨利243.37億元，每股盈餘（EPS）11.24元。這是1–6月累計成績。2026年第二季末流動比率138.81%，表示流動資產約為短期負債的1.39倍；負債比39.75%，表示總資產中約四成對應負債，涵蓋借款與其他負債。公司2026年8月平均運費為1,577美元／TEU，每噸耗油成本696美元，都是當月營運數據。9月營收使用網站官方資料更新；媒體報導與既有資料有差異，本次研究未採用報導中的年增率。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11"
+      },
+      "new_content": {
+        "text": "2026年上半年，長榮合併營收1,916.72億元、營業利益283.06億元、歸屬母公司淨利243.37億元，每股盈餘（EPS）11.24元。這是1–6月累計成績。2026年第二季末流動比率138.81%，表示流動資產約為短期負債的1.39倍；負債比39.75%，表示總資產中約四成對應負債，涵蓋借款與其他負債。公司2026年8月平均運費為1,577美元／TEU，每噸耗油成本696美元，都是當月營運數據。9月營收使用網站官方資料更新；媒體報導與既有資料有差異，本次研究未採用報導中的年增率。\n\n【補齊本業與業外原因】以下財報原表新台幣千元轉億元，EPS為元。2026H1營業利益283.06277億元，低於2025H1的437.63892億元；歸母淨利243.37452億元，低於去年383.16090億元。同期收入1,916.72454億元與去年1,964.54558億元相近，但營業成本由1,444.69500升至1,543.08221億元，收入與成本變化壓縮本業利潤；不能把正EPS理解為景氣獲利已比去年好。[emc-h1-english，損益表]\nH1業外合計31.97580億元，去年35.04359億元。主要分項為利息收入34.66177億元、權益法利益19.41780億元、財務成本−29.88172億元；淨匯兌收益3.36733億元，相較去年匯損16.11589億元雖改善，但未抵銷其他業外與本業壓力。財報另將處分不動產廠房設備利益2.89640億元列於營業利益內的其他利益，分析經常性本業時須留意列報位置，不又加進業外。[emc-h1-english，附註6(24)–(28)]\n【負債補核】6月底資產9,683.46673億元、總負債3,849.06797億元、現金1,747.46741億元。短借0.21621億元、非流動長借832.33230億元、公司債94.69456億元，網站表列合計927.24307億元；另有128.57064億元一年內到期長借列在「其他流動負債」。納入後完整列示借款及債券為1,055.81371億元，租賃969.07623億元另列、不重複相加。現金超過借款不等於無資金需求，須一起看租賃、股利與購船承諾。2025年底完整借款應包含到期長借98.69191億元，為643.09119億元；數字修正另請網站驗證。[emc-h1-english，資產負債表與附註6(14)–(16)]\nH1營業現金流入387.79033億元，購置設備現金138.53147億元，另有預付設備／土地建物現金467.16561億元列其他非流動資產；投資淨流出642.12110億元，籌資淨流入231.63400億元。不可只看已交船設備支出而忽略預付投資。現金流量表期初1,749.01908億元與2025年底資產負債表1,743.66257億元差5.35651億元，財報附註3說明2026/1/1票據、股利付款未完成清償的會計處理調整；不是營業現金流入或新獲利。如此現金流量表的減少1.55167億元，與兩張資產負債表現金差額也不能直接互換。[emc-h1-english，附註3及6(34)]\n會計師為保留結論，原因是部分權益法被投資公司財報未經核閱；相關投資102.70629億元、占總資產1.06%。這不等於全份報表未核閱，也不能忽略限制。[emc-h1-english，核閱報告]",
+        "period": "原10/8法說保留；本批補核2026H1、期後事件及各筆來源日期",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk",
+          "emc-h1-english",
+          "emc-nexus",
+          "emc-peer-2609",
+          "emc-finance-index",
+          "emc-consensus-1012",
+          "emc-consensus-1016-candidate"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "emc-presentation",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260320261008M001.pdf",
+          "title": "長榮海運115年10月法人說明會簡報",
+          "publisher": "長榮海運／公開資訊觀測站",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "29頁簡報全文與主要圖表；業務、財務、聯盟、船隊、智慧貨櫃"
+        },
+        {
+          "source_id": "emc-outlook",
+          "url": "https://anuenews.cnyes.com/news/id/6625076",
+          "title": "長榮法說第四季展望報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述公司訂艙與第四季展望，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-risk",
+          "url": "https://anuenews.cnyes.com/news/id/6625082",
+          "title": "長榮法說運價與需求風險報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述需求、通膨與塞港風險，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-h1-english",
+          "url": "https://cdn.financialreports.eu/financialreports/media/filings/52158/2026/RNS/52158_rns_2026-09-30_16bf79bf-9277-4e74-931a-41d8dbb946f0.pdf",
+          "title": "2026H1公司英文合併財報原件鏡像，110頁；以中文原版為準",
+          "publisher": "長榮海運／FinancialFilings鏡像",
+          "period": "2026H1及6月30日／2025比較；核閱報告8/13、索引9/30",
+          "published_at": "2026-09-30",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-nexus",
+          "url": "https://www.inmarsat.com/news/latest-news/maritime/2026/evergreen-confirms-fleetwide-rollout-of-inmarsat-nexuswave/",
+          "title": "Evergreen confirms fleetwide rollout of Inmarsat NexusWave",
+          "publisher": "Inmarsat Maritime",
+          "period": "2026年全船隊導入承諾",
+          "published_at": "2026-01-07",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-peer-2609",
+          "url": "https://esg.yangming.com/en/esg/company_profile/1/",
+          "title": "陽明公司概況與聯盟服務",
+          "publisher": "陽明海運",
+          "period": "官網查閱時業務，網頁含2025實績及2026計畫",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-finance-index",
+          "url": "https://wwwc.twse.com.tw/IIH2/zh/company/information.html?code=2603",
+          "title": "證交所長榮資訊揭露／財報申報索引",
+          "publisher": "臺灣證券交易所",
+          "period": "2026年財報申報日期，非把索引當已讀財報",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-consensus-1012",
+          "url": "https://news.cnyes.com/news/id/6628122",
+          "title": "FactSet調查媒體轉載：10/12 EPS預估39.33元",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；不是當日最新共識",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-consensus-1016-candidate",
+          "url": "https://news.cnyes.com/news/id/6631950",
+          "title": "10/16 FactSet調查搜尋索引；全文未能開啟，不當確認新值",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；待全文核對",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-17T22:32:06.195585+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "10/11承接的整家公司補齊欠件；原整場會議不重複計",
+      "claim_type": "fact_company_forecast_institution_forecast_and_labeled_research_inference",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片",
+        "本批補齊欠件，不把原10/8法說重新計為新會議",
+        "英文財報公司原件以第三方鏡像取得；中文原版優先，原始中文PDF未成功取得",
+        "最新10/16法人共識僅找到索引，全文未能核對，不以片段更新確認數字",
+        "各專案收入／具名客戶、全船隊安裝日未完整揭露",
+        "船隊容量表範圍差異仍未解決，保留原口徑",
+        "數字修正待網站驗證；不直接改網站數字源"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-2603-v2-developments",
+      "task_id": "backfill-20261011-2603",
+      "company_code": "2603",
+      "company_name": "長榮",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:ffcffa8a0c9f42cd7bd597bc318fcbb0f92a9b0421fd8a920e0d34c84b35bc3f",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:6a49c5ed5ea357204875f4bbcb212b30c4f27cea93a6069e27cb5f99a6e2bc68",
+      "expected_old_section_version": "sha256:9c337664c2c29eb8b680990b494abdb9ffd94ffdc98a68829dfb472c8f41d049",
+      "old_content": {
+        "text": "公司發展方向：持續更新船隊燃料技術，並用智慧貨櫃提高運送監控能力。雙燃料船是既有海運業務的船隊更新與擴充；簡報規劃2027年累計33艘、2030年累計55艘，屬未來交船計畫。公司未在本場資料揭露這項計畫的個別客戶、營收與獲利預估。智慧貨櫃方面，乾櫃已安裝30萬只，覆蓋率86%；冷藏櫃57,900只，覆蓋率100%，可監控位置、異常狀況與溫度。覆蓋率表示已有設備的貨櫃比例；獨立收費、單項收入及實際省下的成本尚未揭露。簡報第26頁的集團運力與第27頁自有加長租船隊，同年度容量數字有差異，原因仍待釐清，因此保留各圖原有範圍。原有NexusWave計畫保留在舊概況，本場資料未重新查核。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11",
+        "project_ids": [
+          "2603-dual-fuel-fleet",
+          "2603-iot-containers"
+        ]
+      },
+      "new_content": {
+        "text": "公司發展方向：持續更新船隊燃料技術，並用智慧貨櫃提高運送監控能力。雙燃料船是既有海運業務的船隊更新與擴充；簡報規劃2027年累計33艘、2030年累計55艘，屬未來交船計畫。公司未在本場資料揭露這項計畫的個別客戶、營收與獲利預估。智慧貨櫃方面，乾櫃已安裝30萬只，覆蓋率86%；冷藏櫃57,900只，覆蓋率100%，可監控位置、異常狀況與溫度。覆蓋率表示已有設備的貨櫃比例；獨立收費、單項收入及實際省下的成本尚未揭露。簡報第26頁的集團運力與第27頁自有加長租船隊，同年度容量數字有差異，原因仍待釐清，因此保留各圖原有範圍。原有NexusWave計畫保留在舊概況，本場資料未重新查核。\n\n【補核既有NexusWave項目】Inmarsat於2026/1/7宣布長榮經試驗後承諾全船隊導入多網路融合連線，支援船員連網、資安、IoT與冷櫃即時監控。這是既有海運服務的數位升級；本次來源未列已完成安裝的船數、全船隊完成日期、獨立收費或實際節省成本，不把「fleetwide rollout」寫成全部安裝完畢，也不當新衛星通訊事業。[emc-nexus]\n【投資／財務相連】H1財報列未交船建造合約總額108.69220億美元，未付款74.53816億美元（原表USD千元）；是不同交付年度的合約承諾，不是當年度資本支出或已上表借款。雙燃料船、智慧櫃仍沿用既有project_id及10/8計畫，未因本次查閱推定後續進度已達成。[emc-h1-english、emc-presentation]\n【碼頭設備升級】8/13子公司ETS董事會為配合加州2030裝卸設備零排放要求，決議購31台電動reach stacker，總價6,644.4萬美元；此為既有碼頭業務設備更新，尚無本次可核對交付完成及增量收入。投資金額與營收貢獻分開。[emc-h1-english，期後事項]",
+        "period": "原10/8法說保留；本批補核2026H1、期後事件及各筆來源日期",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk",
+          "emc-h1-english",
+          "emc-nexus",
+          "emc-peer-2609",
+          "emc-finance-index",
+          "emc-consensus-1012",
+          "emc-consensus-1016-candidate"
+        ],
+        "projects": [
+          {
+            "project_id": "2603-dual-fuel-fleet",
+            "name": "雙燃料船隊更新",
+            "type": "既有業務擴產",
+            "uses_and_customers": "既有貨櫃航線／貨主，減碳及船隊效率",
+            "status": "沿10/8簡報規劃，未驗證其後新增交船",
+            "commercial_timing": "2027累計33艘、2030累計55艘，屬計畫",
+            "revenue_contribution": "未單獨揭露",
+            "sources": [
+              "emc-presentation"
+            ]
+          },
+          {
+            "project_id": "2603-iot-containers",
+            "name": "智慧貨櫃",
+            "type": "新產品／既有服務升級",
+            "uses_and_customers": "乾櫃位置異常及冷櫃溫控／貨主服務",
+            "status": "沿10/8：乾櫃30萬只／86%，冷櫃57900只／100%，各有其分母",
+            "commercial_timing": "已使用；未確認本次後續擴充",
+            "revenue_contribution": "獨立收費、收入與節省成本未揭露",
+            "sources": [
+              "emc-presentation"
+            ]
+          },
+          {
+            "project_id": "2603-nexuswave-connectivity",
+            "name": "NexusWave船隊連網",
+            "type": "既有業務數位升級",
+            "uses_and_customers": "內部船舶營運／船員與貨主監控服務；供應商Inmarsat",
+            "status": "2026/1/7經試驗後宣布全船隊導入承諾，非確認全數安裝",
+            "commercial_timing": "未揭露全數完成年月",
+            "revenue_contribution": "未揭露，不將供應商收入算為長榮收入",
+            "sources": [
+              "emc-nexus"
+            ]
+          },
+          {
+            "project_id": "2603-terminal-electric-equipment",
+            "name": "ETS碼頭電動裝卸設備",
+            "type": "既有業務設備更新",
+            "uses_and_customers": "碼頭作業，配合加州2030零排放要求",
+            "status": "8/13董事會決議31台reach stacker，6644.4萬美元",
+            "commercial_timing": "本次未查得已交付完成日",
+            "revenue_contribution": "未揭露；投資額不是收入",
+            "sources": [
+              "emc-h1-english"
+            ]
+          }
+        ],
+        "project_ids": [
+          "2603-dual-fuel-fleet",
+          "2603-iot-containers",
+          "2603-nexuswave-connectivity",
+          "2603-terminal-electric-equipment"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "emc-presentation",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260320261008M001.pdf",
+          "title": "長榮海運115年10月法人說明會簡報",
+          "publisher": "長榮海運／公開資訊觀測站",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "29頁簡報全文與主要圖表；業務、財務、聯盟、船隊、智慧貨櫃"
+        },
+        {
+          "source_id": "emc-outlook",
+          "url": "https://anuenews.cnyes.com/news/id/6625076",
+          "title": "長榮法說第四季展望報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述公司訂艙與第四季展望，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-risk",
+          "url": "https://anuenews.cnyes.com/news/id/6625082",
+          "title": "長榮法說運價與需求風險報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述需求、通膨與塞港風險，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-h1-english",
+          "url": "https://cdn.financialreports.eu/financialreports/media/filings/52158/2026/RNS/52158_rns_2026-09-30_16bf79bf-9277-4e74-931a-41d8dbb946f0.pdf",
+          "title": "2026H1公司英文合併財報原件鏡像，110頁；以中文原版為準",
+          "publisher": "長榮海運／FinancialFilings鏡像",
+          "period": "2026H1及6月30日／2025比較；核閱報告8/13、索引9/30",
+          "published_at": "2026-09-30",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-nexus",
+          "url": "https://www.inmarsat.com/news/latest-news/maritime/2026/evergreen-confirms-fleetwide-rollout-of-inmarsat-nexuswave/",
+          "title": "Evergreen confirms fleetwide rollout of Inmarsat NexusWave",
+          "publisher": "Inmarsat Maritime",
+          "period": "2026年全船隊導入承諾",
+          "published_at": "2026-01-07",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-peer-2609",
+          "url": "https://esg.yangming.com/en/esg/company_profile/1/",
+          "title": "陽明公司概況與聯盟服務",
+          "publisher": "陽明海運",
+          "period": "官網查閱時業務，網頁含2025實績及2026計畫",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-finance-index",
+          "url": "https://wwwc.twse.com.tw/IIH2/zh/company/information.html?code=2603",
+          "title": "證交所長榮資訊揭露／財報申報索引",
+          "publisher": "臺灣證券交易所",
+          "period": "2026年財報申報日期，非把索引當已讀財報",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-consensus-1012",
+          "url": "https://news.cnyes.com/news/id/6628122",
+          "title": "FactSet調查媒體轉載：10/12 EPS預估39.33元",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；不是當日最新共識",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-consensus-1016-candidate",
+          "url": "https://news.cnyes.com/news/id/6631950",
+          "title": "10/16 FactSet調查搜尋索引；全文未能開啟，不當確認新值",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；待全文核對",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-17T22:32:06.195585+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "10/11承接的整家公司補齊欠件；原整場會議不重複計",
+      "claim_type": "fact_company_forecast_institution_forecast_and_labeled_research_inference",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片",
+        "本批補齊欠件，不把原10/8法說重新計為新會議",
+        "英文財報公司原件以第三方鏡像取得；中文原版優先，原始中文PDF未成功取得",
+        "最新10/16法人共識僅找到索引，全文未能核對，不以片段更新確認數字",
+        "各專案收入／具名客戶、全船隊安裝日未完整揭露",
+        "船隊容量表範圍差異仍未解決，保留原口徑",
+        "數字修正待網站驗證；不直接改網站數字源"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261017-2603-v2-transition",
+      "task_id": "backfill-20261011-2603",
+      "company_code": "2603",
+      "company_name": "長榮",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:ffcffa8a0c9f42cd7bd597bc318fcbb0f92a9b0421fd8a920e0d34c84b35bc3f",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:6a49c5ed5ea357204875f4bbcb212b30c4f27cea93a6069e27cb5f99a6e2bc68",
+      "expected_old_section_version": "sha256:898035e494eac99435bbbb1bcb63af6a74ed6689604db796d6bd62b07673bc5d",
+      "old_content": {
+        "text": "公司展望：據鉅亨網2026年10月8日的法說報導，長榮對第四季較樂觀，訂艙狀況看到11月前仍好；這是媒體轉述公司的看法，尚無本次可用的營收或獲利金額目標。另一篇同媒體報導指出，公司留意通膨與利率可能使2027年第二季後需求減弱。研究觀察：塞港、繞行與航程變化可能使船舶周轉變慢，暫時支撐運價；需求轉弱或可用船舶增加時，運價與毛利可能承壓。後續一起觀察運費、運量、燃料成本與新船供給。原始問答未取得可核對文字，會後展望以媒體轉述標示。",
+        "period": "2026-10-08法說；財務2026上半年，營運指標至8月",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk"
+        ],
+        "reviewed_at": "2026-10-11"
+      },
+      "new_content": {
+        "text": "公司展望：據鉅亨網2026年10月8日的法說報導，長榮對第四季較樂觀，訂艙狀況看到11月前仍好；這是媒體轉述公司的看法，尚無本次可用的營收或獲利金額目標。另一篇同媒體報導指出，公司留意通膨與利率可能使2027年第二季後需求減弱。研究觀察：塞港、繞行與航程變化可能使船舶周轉變慢，暫時支撐運價；需求轉弱或可用船舶增加時，運價與毛利可能承壓。後續一起觀察運費、運量、燃料成本與新船供給。原始問答未取得可核對文字，會後展望以媒體轉述標示。\n\n【補齊公司財測／法人預估】本次未取得公司正式全年營收／EPS金額財測。已讀10/12鉅亨轉載FactSet，2026全年EPS中位數39.33元，10位分析師，區間21.05–50.42元；只作當日歷史調查，不當目前最新共識。搜尋已找到10/16更新索引，但原站及轉載全文均未能開啟核對，故最新值保留缺漏，不以搜尋片段覆蓋。原概況10/1營收共識也屬舊時點，不能假裝仍是最新；由網站保留版本並另追新值。[emc-consensus-1012、emc-consensus-1016-candidate]\n【資金與股權事件】H1財報說明EMA於4/23發行3億美元、三年期、票息5.25%無擔保綠色債券，由長榮保證；這是已發行籌資，不是新增營收。另8/13子公司CCT決議以1,800萬美元收購既有子公司CLP剩餘40%，持股規劃由60%升100%；屬既有子公司少數股權收購決議，不稱新開拓事業，也未在本次驗證最終交割。[emc-h1-english]\n【追蹤條件】中長期研究須同時看實收平均運費、裝載量、單位成本／燃油、可用船舶供給、交船預付款及營業現金流。繞航、塞港、短期運價不能直接外推永久超額報酬；新船節能與數位升級也須看到成本、服務或貨量效益。這些是研究觀察，非本次已驗證即時股價下的買賣判斷。\n【完成範圍與缺漏】本批把10/11留下的公司補齊欠件整批完成，保留原10/8整場法說內容，不重新計算為新會議完成。原始問答缺漏及兩張船隊容量表範圍差異仍保留，不找影片。新查英文合併財報原件經第三方鏡像取得，中文原版優先；已核對財報身分、期間、表列數字與共同基線，首次中文PDF下載未成功。最新共識、個別專案客戶／收入及全船隊安裝完成日如實缺漏；不刷新整家公司reviewed_at。",
+        "period": "原10/8法說保留；本批補核2026H1、期後事件及各筆來源日期",
+        "sources": [
+          "emc-presentation",
+          "emc-outlook",
+          "emc-risk",
+          "emc-h1-english",
+          "emc-nexus",
+          "emc-peer-2609",
+          "emc-finance-index",
+          "emc-consensus-1012",
+          "emc-consensus-1016-candidate"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "emc-presentation",
+          "url": "https://mopsov.twse.com.tw/nas/STR/260320261008M001.pdf",
+          "title": "長榮海運115年10月法人說明會簡報",
+          "publisher": "長榮海運／公開資訊觀測站",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "29頁簡報全文與主要圖表；業務、財務、聯盟、船隊、智慧貨櫃"
+        },
+        {
+          "source_id": "emc-outlook",
+          "url": "https://anuenews.cnyes.com/news/id/6625076",
+          "title": "長榮法說第四季展望報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述公司訂艙與第四季展望，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-risk",
+          "url": "https://anuenews.cnyes.com/news/id/6625082",
+          "title": "長榮法說運價與需求風險報導",
+          "publisher": "鉅亨網",
+          "published_at": "2026-10-08",
+          "accessed_at": "2026-10-11",
+          "supports": "媒體轉述需求、通膨與塞港風險，非官方逐字稿"
+        },
+        {
+          "source_id": "emc-h1-english",
+          "url": "https://cdn.financialreports.eu/financialreports/media/filings/52158/2026/RNS/52158_rns_2026-09-30_16bf79bf-9277-4e74-931a-41d8dbb946f0.pdf",
+          "title": "2026H1公司英文合併財報原件鏡像，110頁；以中文原版為準",
+          "publisher": "長榮海運／FinancialFilings鏡像",
+          "period": "2026H1及6月30日／2025比較；核閱報告8/13、索引9/30",
+          "published_at": "2026-09-30",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-nexus",
+          "url": "https://www.inmarsat.com/news/latest-news/maritime/2026/evergreen-confirms-fleetwide-rollout-of-inmarsat-nexuswave/",
+          "title": "Evergreen confirms fleetwide rollout of Inmarsat NexusWave",
+          "publisher": "Inmarsat Maritime",
+          "period": "2026年全船隊導入承諾",
+          "published_at": "2026-01-07",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-peer-2609",
+          "url": "https://esg.yangming.com/en/esg/company_profile/1/",
+          "title": "陽明公司概況與聯盟服務",
+          "publisher": "陽明海運",
+          "period": "官網查閱時業務，網頁含2025實績及2026計畫",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-finance-index",
+          "url": "https://wwwc.twse.com.tw/IIH2/zh/company/information.html?code=2603",
+          "title": "證交所長榮資訊揭露／財報申報索引",
+          "publisher": "臺灣證券交易所",
+          "period": "2026年財報申報日期，非把索引當已讀財報",
+          "published_at": null,
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，保留null"
+        },
+        {
+          "source_id": "emc-consensus-1012",
+          "url": "https://news.cnyes.com/news/id/6628122",
+          "title": "FactSet調查媒體轉載：10/12 EPS預估39.33元",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；不是當日最新共識",
+          "published_at": "2026-10-12",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "emc-consensus-1016-candidate",
+          "url": "https://news.cnyes.com/news/id/6631950",
+          "title": "10/16 FactSet調查搜尋索引；全文未能開啟，不當確認新值",
+          "publisher": "鉅亨網／FactSet轉載",
+          "period": "2026全年預估；待全文核對",
+          "published_at": "2026-10-16",
+          "accessed_at": "2026-10-17",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-17T22:32:06.195585+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "10/11承接的整家公司補齊欠件；原整場會議不重複計",
+      "claim_type": "fact_company_forecast_institution_forecast_and_labeled_research_inference",
+      "limitations": [
+        "官方原始問答文字未取得，不查影片",
+        "本批補齊欠件，不把原10/8法說重新計為新會議",
+        "英文財報公司原件以第三方鏡像取得；中文原版優先，原始中文PDF未成功取得",
+        "最新10/16法人共識僅找到索引，全文未能核對，不以片段更新確認數字",
+        "各專案收入／具名客戶、全船隊安裝日未完整揭露",
+        "船隊容量表範圍差異仍未解決，保留原口徑",
+        "數字修正待網站驗證；不直接改網站數字源"
+      ]
+    }
+  ],
+  "numeric_requests": {
+    "company_code": "2603",
+    "batch_id": "research-20261017-2603-v2",
+    "website_validation_required": true,
+    "source_url": "https://cdn.financialreports.eu/financialreports/media/filings/52158/2026/RNS/52158_rns_2026-09-30_16bf79bf-9277-4e74-931a-41d8dbb946f0.pdf",
+    "requests": [
+      {
+        "field": "listed_borrowings",
+        "period": "2026-06-30",
+        "unit": "億元",
+        "old_value": 927.24307,
+        "proposed_value": 1055.81371,
+        "current_portion": 128.57064,
+        "reason": "一年內到期長借藏於其他流動負債，租賃另列",
+        "pdf_pages": [
+          7,
+          45
+        ]
+      },
+      {
+        "field": "listed_borrowings",
+        "period": "2025-12-31",
+        "unit": "億元",
+        "old_value": 544.39928,
+        "proposed_value": 643.09119,
+        "current_portion": 98.69191,
+        "reason": "同口徑補納一年內到期長借",
+        "pdf_pages": [
+          7,
+          45
+        ]
+      },
+      {
+        "field": "cashflow_opening_cash",
+        "period": "2026H1",
+        "unit": "億元",
+        "balance_2025_12_31": 1743.66257,
+        "adjusted_opening_cash": 1749.01908,
+        "adjustment": 5.35651,
+        "reason": "票據及股利清償會計處理調整，非營業流入；CF現金減少1.55167，不等於期末減2025年底",
+        "pdf_pages": [
+          12,
+          14
+        ]
+      }
+    ]
+  },
+  "verified_corrections": {
+    "borrowings_2026_06_30": 1055.81371,
+    "borrowings_2025_12_31": 643.09119,
+    "cash_opening_adjustment": 5.35651,
+    "cashflow_not_added_to_operating_cashflow": true
+  },
+  "meeting_research_unchanged": true
+}

@@ -120,6 +120,21 @@
       "publication_commit": "d18dc8ee6fb690f21d96449c447eb537e9828d31",
       "workflow_run_id": 38935937754,
       "verified_at": "2026-10-16T17:07:53.204Z"
+    },
+    {
+      "symbol": "4566.TW",
+      "name": "時碩工業",
+      "kind": "法說會",
+      "meeting_date": "2026-10-16",
+      "summary_updated_at": "2026-10-17",
+      "batch_id": "research-20261017-4566-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "d3e48ba6fee0b805fb1b68c7ecdb632a060f3616",
+      "workflow_run_id": 38937442757,
+      "verified_at": "2026-10-17T14:38:23.070Z"
     }
   ]
 }

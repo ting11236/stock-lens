@@ -95,3 +95,10 @@ test('official single-quarter diluted EPS is labeled separately from cumulative 
  const a=load();a.context.o={financial:{reported_quarters:{'2026-Q3':{period_type:'single_quarter',revenue:14942.4,net_income:7630.6,eps:29.43,eps_basis:'稀釋EPS'}}}};
  const html=a.run('reportedQuarterHtml(o)');assert.match(html,/2026 年第 3 季（單季）/);assert.match(html,/稀釋EPS/);assert.match(html,/29.43/);assert.match(html,/累計基本EPS分開/);
 });
+
+
+test('historical forecasts remain labeled by date and do not become current outlook targets',()=>{
+ const a=load();a.context.p={overview:{direction:'既有業務',outlooks:[{is_historical:true,type:'歷史法人預估',period:'2026全年',scope:'整體合併營收',unit:'新台幣億元',low:999,published_at:'2026-10-01',urls:[]}]},sources:{}};
+ assert.doesNotMatch(a.run("companyOutlookHtml({symbol:'2603.TW'},p)"),/999/);
+ assert.match(a.run("outlookConclusion(p.overview.outlooks[0],p.overview)"),/歷史研究機構預估（2026-10-01）/);
+});
