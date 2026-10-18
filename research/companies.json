@@ -5485,5 +5485,103 @@
       ],
       "reviewed_at": "2026-10-18"
     }
+  },
+  "7799.TW": {
+    "name": "禾榮科",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "official-announcement": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "本公司與GE Precision Healthcare LLC簽署合作協議",
+        "publisher": "臺灣證券交易所開放資料／禾榮科",
+        "published_at": "2026-10-17",
+        "accessed_at": "2026-10-18",
+        "period": "10/16簽署、10/17公告",
+        "supports": [
+          "developments"
+        ],
+        "source_evidence_file": "研究進度/來源留存/TWSE重大公告_20261018.json",
+        "statement": "1.事實發生日:115/10/16\n2.契約或承諾相對人:GE Precision Healthcare LLC\n3.與公司關係:無\n4.契約或承諾起迄日期（或解除日期）:115/10/16\n5.主要內容（解除者不適用）:\n本公司與GE Precision Healthcare LLC簽署合作協議，雙方將以GE Healthcare之智能\n放射治療（iRT）軟體為核心，共同推動BNCT治療軟體應用及策略合作機會之探索。\n6.限制條款（解除者不適用）:依合約規定\n7.承諾事項（解除者不適用）:依合約規定\n8.其他重要約定事項（解除者不適用）:依合約規定\n9.對公司財務、業務之影響:\n本次合作有助於提升客戶應用價值，預期對本公司業務發展及財務表現具有正面助益。\n10.具體目的:\n結合雙方於BNCT治療及AI醫療之技術優勢，共同拓展AI影像輔助於BNCT治療之應用，\n提升工作流程效率，降低客戶系統導入負擔，並提供更完整之治療解決方案。\n11.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n   符合證券交易法施行細則第7條第8款所定對股東權益或證券價格有重大影響之事項):\n無。"
+      }
+    },
+    "limitations": [
+      "只完成本件事件，不代表整家公司補齊",
+      "未揭露金額不填零；公司陳述與研究推論分開",
+      "未以本次事件更新整家公司reviewed_at",
+      "7799應用商用時間及金額未揭露；合作不是臨床或法規核准",
+      "7722僅公司澄清，未取得獨立鑑識或監管結論",
+      "不重計每日新增／承接公司數，不重計法說會數"
+    ],
+    "developments": {
+      "text": "禾榮科已與GE簽署合作協議，計畫把AI影像與放射治療軟體用在BNCT治療流程。接下來要看軟體整合、驗證與客戶採用進度。\n公司於2026年10月17日公告，10月16日與GE Precision Healthcare LLC簽約，以GE Healthcare的智能放射治療（iRT）軟體為核心，探索BNCT治療軟體應用。BNCT是一種利用硼藥物配合中子照射的癌症治療方式。公司希望改善工作流程效率，降低客戶導入系統的負擔。\n目前進度為簽署技術合作協議。商業上市時間、合約金額、收入分潤、具名終端客戶與訂單尚未揭露；臨床驗證與各市場法規核准需分別追蹤。公司預期有助業務與財務，尚未提出可核對的營收或獲利數字目標。",
+      "period": "10/16簽署、10/17公告",
+      "sources": [
+        "official-announcement"
+      ],
+      "projects": [
+        {
+          "project_id": "7799-ge-irt-bnct-software",
+          "name": "GE iRT／BNCT軟體合作應用",
+          "type": "新產品／既有BNCT服務開發",
+          "uses_and_customers": "放射治療軟體應用；GE Precision Healthcare LLC為合作方，終端客戶未揭露",
+          "status": "10/16已簽合作協議，應用及策略機會探索",
+          "commercial_timing": "未揭露可核對商業上市年月",
+          "revenue_contribution": "合約金額、分潤、訂單及認列收入未揭露",
+          "sources": [
+            "official-announcement"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-18"
+    },
+    "event_research": {
+      "batch_id": "research-20261018-announcements-v1",
+      "event_date": "2026-10-16",
+      "status": "event_complete_with_disclosed_gaps",
+      "completed_at": "2026-10-18T21:27:36.633240+08:00"
+    }
+  },
+  "7722.TW": {
+    "name": "LINEPAY",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "official-announcement": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "澄清媒體報導",
+        "publisher": "臺灣證券交易所開放資料／LINEPAY",
+        "published_at": "2026-10-17",
+        "accessed_at": "2026-10-18",
+        "period": "10/17澄清及當時公司評估",
+        "supports": [
+          "transition"
+        ],
+        "source_evidence_file": "研究進度/來源留存/TWSE重大公告_20261018.json",
+        "statement": "1.事實發生日:115/10/17\n2.公司名稱:連加網路商業股份有限公司\n3.與公司關係(請輸入本公司或子公司):本公司\n4.相互持股比例:不適用\n5.傳播媒體名稱:聯合新聞網\n6.報導內容:「中國大陸暗網論壇「長安不夜城」（CABYC）出現一則販售台灣LINE Pay\n用戶資料的貼文，賣家宣稱掌握約75萬筆資料，開價399美元，個資內容涉及姓名、\n手機號碼、身分證字號、生日、地址及財務驗證資訊。」\n7.發生緣由:本公司接獲媒體報導上述事件。\n8.因應措施:\n關於媒體報導本公司用戶資料疑似外洩之情事，經本公司調查結果，\n該資料並非出自LINE Pay。\n經公司交叉比對結果顯示，網路所販售之資料明顯與本公司業務無關，\n亦無任何證據顯示與LINE Pay系統之關聯。\n本公司將持續密切關注事態發展，並及時更新重要資訊。\n9.其他應敘明事項:經評估本次事件對本公司財務業務無重大影響。"
+      }
+    },
+    "limitations": [
+      "只完成本件事件，不代表整家公司補齊",
+      "未揭露金額不填零；公司陳述與研究推論分開",
+      "未以本次事件更新整家公司reviewed_at",
+      "7799應用商用時間及金額未揭露；合作不是臨床或法規核准",
+      "7722僅公司澄清，未取得獨立鑑識或監管結論",
+      "不重計每日新增／承接公司數，不重計法說會數"
+    ],
+    "transition": {
+      "text": "LINEPAY表示，網路販售的資料與LINE Pay業務無關；後續會持續關注並更新資訊。這是公司調查後的正式說明，目前尚未取得獨立鑑識或主管機關調查結論。\n2026年10月17日，公司公告澄清媒體報導的用戶資料疑似外洩事件。公司表示，經調查與交叉比對，該資料並非出自LINE Pay，且未發現與其系統有關的證據。\n公司當時評估對財務及業務無重大影響。後續觀察公司說明是否更新、是否出現監管或獨立調查結果，以及實際客戶使用與成本變化。本次維持原有營收、EPS與估值數字。",
+      "period": "10/17澄清及當時公司評估",
+      "sources": [
+        "official-announcement"
+      ],
+      "reviewed_at": "2026-10-18"
+    },
+    "event_research": {
+      "batch_id": "research-20261018-announcements-v1",
+      "event_date": "2026-10-17",
+      "status": "event_complete_with_disclosed_gaps",
+      "completed_at": "2026-10-18T21:27:36.633240+08:00"
+    }
   }
 }

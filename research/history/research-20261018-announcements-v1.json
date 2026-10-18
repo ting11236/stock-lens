@@ -1,0 +1,150 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261018-announcements-v1",
+    "ready": true,
+    "created_at": "2026-10-18T21:27:36.633240+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 2,
+    "updates_sha256": "sha256:eb04de55ef5b06adf32b73ecc049240e525a8cceead9aa7493b66e94b20d56e7",
+    "work_type": "change_update",
+    "completion_unit": "兩件各自完整官方公告事件；不是新增兩家全公司研究",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "7799應用商用時間及金額未揭露；合作不是臨床或法規核准",
+      "7722僅公司澄清，未取得獨立鑑識或監管結論",
+      "不重計每日新增／承接公司數，不重計法說會數"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-announcements-v1-7799-developments",
+      "task_id": "announcement-7799-1151017-123051",
+      "company_code": "7799",
+      "company_name": "禾榮科",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:fb640c3a33fffd2b607796402de577ee0eada2278507a061d538a56561a872b3",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2026/10/17公告揭露，禾榮科於10/16與GE Precision Healthcare LLC簽署合作協議，以GE Healthcare智能放射治療iRT軟體為核心，探索BNCT治療軟體應用及策略合作，目標是AI影像輔助、工作流程效率及降低客戶導入負擔。這是已簽合作協議與後續應用探索，不是已公布量產銷售合約。[official-announcement]\n對方是具名技術合作方，不據此認定為已下訂設備的終端客戶。公告未揭露合約價金、不可撤銷訂單、收入分潤、認列期間、個別醫院導入、完成驗證或商業上市年月；公司表示預期有助業務與財務屬定性預期，不是已實現獲利或正式金額財測。限制及承諾條款僅稱依合約，不能推測排他性或保證採購。[official-announcement]\n研究判讀：這項合作屬既有BNCT事業的新軟體應用／服務開發，後續應看技術整合、適用市場法規與客戶實際採用，再判斷收入。合作公告不能代替臨床療效、醫材／藥品核准，也不證明各BNCT產品已獲全球許可。[research_inference]\n本批只完成本件合作事件全部官方公告正文的查核與缺漏說明；不代表禾榮科全公司研究已補齊，不刷新整家公司查核日。",
+        "period": "10/16簽署、10/17公告",
+        "sources": [
+          "official-announcement"
+        ],
+        "projects": [
+          {
+            "project_id": "7799-ge-irt-bnct-software",
+            "name": "GE iRT／BNCT軟體合作應用",
+            "type": "新產品／既有BNCT服務開發",
+            "uses_and_customers": "放射治療軟體應用；GE Precision Healthcare LLC為合作方，終端客戶未揭露",
+            "status": "10/16已簽合作協議，應用及策略機會探索",
+            "commercial_timing": "未揭露可核對商業上市年月",
+            "revenue_contribution": "合約金額、分潤、訂單及認列收入未揭露",
+            "sources": [
+              "official-announcement"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "official-announcement",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "本公司與GE Precision Healthcare LLC簽署合作協議",
+          "publisher": "臺灣證券交易所開放資料／禾榮科",
+          "published_at": "2026-10-17",
+          "accessed_at": "2026-10-18",
+          "period": "10/16簽署、10/17公告",
+          "supports": [
+            "developments"
+          ],
+          "source_evidence_file": "研究進度/來源留存/TWSE重大公告_20261018.json",
+          "statement": "1.事實發生日:115/10/16\n2.契約或承諾相對人:GE Precision Healthcare LLC\n3.與公司關係:無\n4.契約或承諾起迄日期（或解除日期）:115/10/16\n5.主要內容（解除者不適用）:\n本公司與GE Precision Healthcare LLC簽署合作協議，雙方將以GE Healthcare之智能\n放射治療（iRT）軟體為核心，共同推動BNCT治療軟體應用及策略合作機會之探索。\n6.限制條款（解除者不適用）:依合約規定\n7.承諾事項（解除者不適用）:依合約規定\n8.其他重要約定事項（解除者不適用）:依合約規定\n9.對公司財務、業務之影響:\n本次合作有助於提升客戶應用價值，預期對本公司業務發展及財務表現具有正面助益。\n10.具體目的:\n結合雙方於BNCT治療及AI醫療之技術優勢，共同拓展AI影像輔助於BNCT治療之應用，\n提升工作流程效率，降低客戶系統導入負擔，並提供更完整之治療解決方案。\n11.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n   符合證券交易法施行細則第7條第8款所定對股東權益或證券價格有重大影響之事項):\n無。"
+        }
+      ],
+      "event_date": "2026-10-16",
+      "research_completed_at": "2026-10-18T21:27:36.633240+08:00",
+      "research_completion": "event_complete_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "本件完整官方公告與缺漏說明",
+      "claim_type": "company_statement_and_labeled_research_inference",
+      "limitations": [
+        "只完成本件事件，不代表整家公司補齊",
+        "未揭露金額不填零；公司陳述與研究推論分開",
+        "未以本次事件更新整家公司reviewed_at"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-announcements-v1-7722-transition",
+      "task_id": "announcement-7722-1151017-205305",
+      "company_code": "7722",
+      "company_name": "LINEPAY",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:baad0895ffc9135dd789631e58ad508c8d2b383248179559804359562a61ef54",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "LINEPAY（連加網路商業，7722）於2026/10/17公告澄清媒體所稱網路販售用戶資料事件。公司表示，經其調查與交叉比對，所販售資料並非出自LINE Pay、與公司業務無關，且未有證據顯示與LINE Pay系統相關；公司並表示經評估對財務業務無重大影響，將持續關注並更新重要資訊。[official-announcement]\n以上為公司正式澄清與當時自行評估；本次沒有獨立鑑識報告或主管機關調查結論，不能改寫成「第三方已證實絕無外洩」，也不能把媒體／賣方聲稱的資料筆數寫成已確認受害人數。不接觸或下載被販售資料。[source_limitation]\n研究判讀：本件先列資安與聲譽風險追蹤，不將未經確認的指控當作營運事故實績；「無重大影響」不是數值為零的損失財測。若有後續公司修正、監管或獨立調查、客戶／商戶使用變化或實際成本，再依證據更新原有判斷。目前沒有依這則公告調整營收、EPS或估值。[research_inference]\n本批完成本件澄清公告正文及來源限制的一次交付，不代表整家公司業務／財務研究已完成；保留既有章節與數字來源，不刷新整家公司查核日。",
+        "period": "10/17澄清及當時公司評估",
+        "sources": [
+          "official-announcement"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "official-announcement",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "澄清媒體報導",
+          "publisher": "臺灣證券交易所開放資料／LINEPAY",
+          "published_at": "2026-10-17",
+          "accessed_at": "2026-10-18",
+          "period": "10/17澄清及當時公司評估",
+          "supports": [
+            "transition"
+          ],
+          "source_evidence_file": "研究進度/來源留存/TWSE重大公告_20261018.json",
+          "statement": "1.事實發生日:115/10/17\n2.公司名稱:連加網路商業股份有限公司\n3.與公司關係(請輸入本公司或子公司):本公司\n4.相互持股比例:不適用\n5.傳播媒體名稱:聯合新聞網\n6.報導內容:「中國大陸暗網論壇「長安不夜城」（CABYC）出現一則販售台灣LINE Pay\n用戶資料的貼文，賣家宣稱掌握約75萬筆資料，開價399美元，個資內容涉及姓名、\n手機號碼、身分證字號、生日、地址及財務驗證資訊。」\n7.發生緣由:本公司接獲媒體報導上述事件。\n8.因應措施:\n關於媒體報導本公司用戶資料疑似外洩之情事，經本公司調查結果，\n該資料並非出自LINE Pay。\n經公司交叉比對結果顯示，網路所販售之資料明顯與本公司業務無關，\n亦無任何證據顯示與LINE Pay系統之關聯。\n本公司將持續密切關注事態發展，並及時更新重要資訊。\n9.其他應敘明事項:經評估本次事件對本公司財務業務無重大影響。"
+        }
+      ],
+      "event_date": "2026-10-17",
+      "research_completed_at": "2026-10-18T21:27:36.633240+08:00",
+      "research_completion": "event_complete_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "本件完整官方公告與缺漏說明",
+      "claim_type": "company_statement_and_labeled_research_inference",
+      "limitations": [
+        "只完成本件事件，不代表整家公司補齊",
+        "未揭露金額不填零；公司陳述與研究推論分開",
+        "未以本次事件更新整家公司reviewed_at"
+      ]
+    }
+  ],
+  "before_records": {
+    "7799.TW": null,
+    "7722.TW": null
+  },
+  "adoption_rules": {
+    "new_meeting": false,
+    "company_reviewed_at_preserved": true,
+    "financial_numbers_preserved": true,
+    "full_company_completion": false
+  }
+}
