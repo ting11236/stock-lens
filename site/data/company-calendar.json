@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -32645,6 +32645,61 @@
     },
     {
       "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "世紀風電",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2072.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "台端",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "3432.TW",
+      "time": "194439"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "沛爾生醫*-創",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "6949.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "LINEPAY",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "7722.TW",
+      "time": "205305"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "禾榮科",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "7799.TW",
+      "time": "123051"
+    },
+    {
+      "cancelled": false,
       "date": "2026-10-19",
       "description": "本公司受邀參加國票證券舉辦之法人座談會",
       "end_date": "2026-10-19",
@@ -44135,37 +44190,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-17",
+      "checked_at": "2026-10-18",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-17",
+      "checked_at": "2026-10-18",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-17",
+      "checked_at": "2026-10-18",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-17",
+      "checked_at": "2026-10-18",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-17",
+      "checked_at": "2026-10-18",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-17",
+      "checked_at": "2026-10-18",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -64975,7 +65030,77 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9925.TW",
       "time": "145427"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "due_date": "2026-10-18",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "世紀風電",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2072.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "due_date": "2026-10-18",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "台端",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3432.TW",
+      "time": "194439"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "due_date": "2026-10-18",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "沛爾生醫*-創",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6949.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "due_date": "2026-10-18",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "LINEPAY",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7722.TW",
+      "time": "205305"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-17",
+      "description": "",
+      "due_date": "2026-10-18",
+      "end_date": "2026-10-17",
+      "kind": "重大訊息",
+      "name": "禾榮科",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7799.TW",
+      "time": "123051"
     }
   ],
-  "updated_at": "2026-10-17T22:40:58+08:00"
+  "updated_at": "2026-10-18T20:29:40+08:00"
 }
