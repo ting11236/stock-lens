@@ -1,0 +1,1081 @@
+{
+  "batch_id": "research-20261018-1219-v2",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261018-1219-v2",
+    "ready": true,
+    "created_at": "2026-10-18T20:37:36.219581+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:f6b12adecbb14d3d07ff6fc16f422d6c3c0c4d635daf5c33ee5b2da3c6151242",
+    "work_type": "backfill",
+    "completion_unit": "福壽整家公司承接欠件完整交付",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "部分非重要子公司及權益法投資財務未經核閱",
+      "新品逐案商用日、具名客戶及收入未完整揭露",
+      "未取得可靠最新公司金額財測或法人共識",
+      "法律後續裁判／最終賠償及供應商求償結果未確認，保留外部追蹤",
+      "舊10/6公告不量化與H1已估列損失不同，補讀已列準備及罰鍰不等於全部最終案件損失",
+      "本批完成公司欠件查找，不等於全市場公告無缺漏"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1219-v2-business",
+      "task_id": "backfill-20261008-1219",
+      "company_code": "1219",
+      "company_name": "福壽",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:f376111bd3dce28d77a6cb082c8f1bf3c5d623b25c23eb5a6114ee4d373bf73d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:7a29670e5554dcbfa034297e0c5b3e59f3d453c451fd6fad9e836126a4115e4d",
+      "expected_old_section_version": "sha256:9ee7db5649f795f1999ce90e8cfed0bbef390fc8218628627bfc0d808ca5045a",
+      "old_content": {
+        "text": "福壽的製銷業務涵蓋食用油脂、穀物食品、寵物食品、農業資材及畜水產飼料，另從事大宗穀物進口銷售及國際貿易。產品包括配合飼料、單味產品、大麥製品、有機質肥料及生技產品；分別服務食品消費、寵物照護與農畜水產生產需求。收入來自產品銷售與貿易，不能把產品種類或循環經濟布局視為各項獲利占比；本輪尚未量化分部毛利或客戶集中度。",
+        "period": "截至2026-10-08官網業務",
+        "sources": [
+          "business-official"
+        ],
+        "reviewed_at": "2026-10-08"
+      },
+      "new_content": {
+        "text": "福壽的製銷業務涵蓋食用油脂、穀物食品、寵物食品、農業資材及畜水產飼料，另從事大宗穀物進口銷售及國際貿易。產品包括配合飼料、單味產品、大麥製品、有機質肥料及生技產品；分別服務食品消費、寵物照護與農畜水產生產需求。收入來自產品銷售與貿易，不能把產品種類或循環經濟布局視為各項獲利占比；本輪尚未量化分部毛利或客戶集中度。\n\n【公司補齊】福壽整合穀物進口／配方飼料、食品、肉品加工、寵物食品與農業資材，服務飼養戶、食品通路、寵物飼主及農民；原料採購與加工／分裝角色不同，亦透過關聯企業提供油脂加工。2025年報產品比重：配合飼料33.9%、油脂27.0%、單味產品22.2%、有機肥料2.9%、大宗穀物10.7%、其他含畜產品3.3%；是產品收入比，不是獲利比。[fw-annual-2025]\nH1重要客戶中聯油脂銷貨11.34711億元占16.3%，同時是關聯企業及委託加工對象；交易收入、加工支出、應收帳款與投資損益須分開，不把這些全部相加為客戶貢獻。[fw-h1-2026，關係人與客戶附註]\n相似同業1210大成：可比較飼料配方、大宗穀物成本與畜禽肉品垂直整合；大成有不同海外與餐飲布局，福壽另有寵物及肥料／循環農業，並非完全同質。估值比較須網站取得同日期、同口徑數字；虧損期不硬套正PE。[fw-peer-1210；理由為研究判斷]",
+        "period": "2025年報／2026H1及已標示事件日期",
+        "sources": [
+          "legal-20261006",
+          "business-official",
+          "fw-factories",
+          "fw-rd",
+          "fw-outlook",
+          "fw-annual-2025",
+          "fw-h1-2026",
+          "fw-pet-current",
+          "fw-peer-1210"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "legal-20261006",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "(補充115年8月24日重大訊息發生原委)\r\n本公司於8月24日接獲臺灣臺中地方檢察署檢察官起訴書，\r\n另接獲臺灣基隆地方檢察署移送併辦意旨書",
+          "published_at": "2026-10-06",
+          "accessed_at": "2026-10-08",
+          "publisher": "證交所／福壽",
+          "supports": "公司保存之官方公告正文；涉案及移送併辦，未揭露確定罰金"
+        },
+        {
+          "source_id": "business-official",
+          "url": "https://esg.fwusow.com.tw/article_d.php?id=213&lang=tw&tb=2",
+          "title": "福壽企業概況",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日期",
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "主要產品及進出口業務"
+        },
+        {
+          "source_id": "fw-factories",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/7",
+          "title": "福壽廠區介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "各廠角色與既有產品",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-rd",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/8",
+          "title": "福壽研發介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "食品、飼料及農業研究方向",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-outlook",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/10",
+          "title": "福壽企業展望",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "展望屬定性方向，無量化財測",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-annual-2025",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2295_db00fc24c28d4efea1c8823cff8b5ac5?type=pdf",
+          "title": "2025年報81實體頁，核讀業務、產品與發展、財務章",
+          "publisher": "福壽",
+          "published_at": "2026-04-16",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績／後續計畫，年報刊印4/16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-h1-2026",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2423_9ea529962b67c31fdc84cc65b56c8312?type=pdf",
+          "title": "2026H1合併財報50頁；主表、存貨、投資、分部、借款、食安事件等",
+          "publisher": "福壽",
+          "published_at": "2026-08-11",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1及6月底；董事會通過8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-pet-current",
+          "url": "https://www.fwusowpet.com.tw/latest",
+          "title": "官方寵物旗艦館現有商品",
+          "publisher": "福壽",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時可見商品，無首次上市日",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        },
+        {
+          "source_id": "fw-peer-1210",
+          "url": "https://www.dachan.com/concept",
+          "title": "大成業務範疇",
+          "publisher": "大成",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官方業務範圍",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:37:36.219581+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "福壽10/8承接整家公司補齊欠件",
+      "limitations": [
+        "部分非重要子公司及權益法投資財務未經核閱",
+        "新品逐案商用日、具名客戶及收入未完整揭露",
+        "未取得可靠最新公司金額財測或法人共識",
+        "法律後續裁判／最終賠償及供應商求償結果未確認，保留外部追蹤",
+        "舊10/6公告不量化與H1已估列損失不同，補讀已列準備及罰鍰不等於全部最終案件損失",
+        "本批完成公司欠件查找，不等於全市場公告無缺漏"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1219-v2-earnings",
+      "task_id": "backfill-20261008-1219",
+      "company_code": "1219",
+      "company_name": "福壽",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:f376111bd3dce28d77a6cb082c8f1bf3c5d623b25c23eb5a6114ee4d373bf73d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:7a29670e5554dcbfa034297e0c5b3e59f3d453c451fd6fad9e836126a4115e4d",
+      "expected_old_section_version": "sha256:db859b60ada676cc9165548f4517fcbabf5c67fb98e1248045698dc01c85aa35",
+      "old_content": {
+        "text": "2026年10月6日補充公告涉及中聯油脂2026年4–6月部分沙拉油苯駢芘超標事件，公告載明檢方指涉未依食安法處理、已起訴自然人，並接獲基隆地檢署移送併辦意旨書。屬起訴與併案程序，不能寫成法院定罪或已確定罰金；公告引用法人罰金規定並非已認列損失金額。公司表示營運正常，但未提供可量化財務影響，不能填零。後續仍需核對裁判、回收、賠償與財報準備；本輪未另查得法院裁判。",
+        "period": "2026-10-06公告",
+        "sources": [
+          "legal-20261006"
+        ],
+        "reviewed_at": "2026-10-08"
+      },
+      "new_content": {
+        "text": "【H1虧損來源】以下新台幣億元，財報原表千元；EPS元。2026H1收入69.69192億元、營業損失2.00840億元、業外損失2.06695億元、稅前虧損4.07535億元、歸母虧損3.08109億元、基本EPS−0.90元。2025全年歸母淨利1.55133億元為網站共同基線全年數，不能拿全年與半年直接比較成長。[fw-h1-2026；全年沿共同基線]\nH1存貨跌價及呆滯損失1.58992億元，去年0.12994億元；成本與淨變現價值調整列營業成本。不能把全數自動認作食安回收，因附註未逐項等同歸因。另有銷貨退回負債準備1.04000億元，說明連結食用油事件；存貨減損與退貨準備列報不同，不能直接全部加總為最終案件損失。[fw-h1-2026，附註5、12、11]\nH1分部損益：飼料+1.69922億元、食品−0.58236億元、肉品加工−0.95410億元、其他−0.56177億元；合計−0.39901億元，再減總管理處費用1.60939億元，銜接營業損失2.00840億元。分部利益尚未分攤總管理處與業外，不是分部歸母淨利。[fw-h1-2026，附註十四]\n權益法投資H1損失1.71518億元，其中投資附表列中聯油脂持股32.33%、本期認列損失1.76675億元，其他投資利益部分抵銷；不把中聯自己的總虧損5.46446億元當福壽已認列金額。H1淨匯兌為利益0.05090億元，並非本次業外虧損主因；財務成本0.45755億元，另有行政罰鍰0.09000億元已列其他利益及損失。該罰鍰不等於後續法院確定判決的全部罰金。[fw-h1-2026，投資附表及附註20、21]\n【負債與現金】6月底資產96.37800億元、負債56.28012億元、權益40.09788億元、現金8.32111億元；流動資產50.71684億元、流動負債35.13868億元。短借21.93681億元、商業本票1.10000億元、長借含一年內到期20.48970億元，完整借款票券43.52651億元，其中長借4.34777億元一年內到期；租賃1.01039億元另列。原表列39.17874億元未含到期長借，另請網站驗證補納。[fw-h1-2026，主表、借款附註]\nH1營業淨現金流出2.20394億元；雖有非現金減損／投資損失調整，營運資金仍受應收及存貨占用，不能把帳面損失全視為當期現金損失，也不能忽略負營業現金流。未履行設備工程承諾0.60452億元，是未來支出承諾不是已認列借款。[fw-h1-2026，現金流及承諾附註]\n【食安及法律狀態】沿10/6原公告，起訴／移送併辦不等於法院定罪，尚未確定賠償不能填零。補讀H1財報已載明產品下架、退貨與損失估列；對供應商求償金額不確定，未認列賠償收益。財報並揭露7/14裁定、7/20執行土地扣押：標的價值43,072,950元、扣押範圍22,918,968元，兩者不可混用，也不是已支付罰金。後續裁判、回收及求償仍待確認；不把8/11核准財報當成10月案件最終結果。[legal-20261006、fw-h1-2026]",
+        "period": "2025年報／2026H1及已標示事件日期",
+        "sources": [
+          "legal-20261006",
+          "business-official",
+          "fw-factories",
+          "fw-rd",
+          "fw-outlook",
+          "fw-annual-2025",
+          "fw-h1-2026",
+          "fw-pet-current",
+          "fw-peer-1210"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "legal-20261006",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "(補充115年8月24日重大訊息發生原委)\r\n本公司於8月24日接獲臺灣臺中地方檢察署檢察官起訴書，\r\n另接獲臺灣基隆地方檢察署移送併辦意旨書",
+          "published_at": "2026-10-06",
+          "accessed_at": "2026-10-08",
+          "publisher": "證交所／福壽",
+          "supports": "公司保存之官方公告正文；涉案及移送併辦，未揭露確定罰金"
+        },
+        {
+          "source_id": "business-official",
+          "url": "https://esg.fwusow.com.tw/article_d.php?id=213&lang=tw&tb=2",
+          "title": "福壽企業概況",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日期",
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "主要產品及進出口業務"
+        },
+        {
+          "source_id": "fw-factories",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/7",
+          "title": "福壽廠區介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "各廠角色與既有產品",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-rd",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/8",
+          "title": "福壽研發介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "食品、飼料及農業研究方向",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-outlook",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/10",
+          "title": "福壽企業展望",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "展望屬定性方向，無量化財測",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-annual-2025",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2295_db00fc24c28d4efea1c8823cff8b5ac5?type=pdf",
+          "title": "2025年報81實體頁，核讀業務、產品與發展、財務章",
+          "publisher": "福壽",
+          "published_at": "2026-04-16",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績／後續計畫，年報刊印4/16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-h1-2026",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2423_9ea529962b67c31fdc84cc65b56c8312?type=pdf",
+          "title": "2026H1合併財報50頁；主表、存貨、投資、分部、借款、食安事件等",
+          "publisher": "福壽",
+          "published_at": "2026-08-11",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1及6月底；董事會通過8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-pet-current",
+          "url": "https://www.fwusowpet.com.tw/latest",
+          "title": "官方寵物旗艦館現有商品",
+          "publisher": "福壽",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時可見商品，無首次上市日",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        },
+        {
+          "source_id": "fw-peer-1210",
+          "url": "https://www.dachan.com/concept",
+          "title": "大成業務範疇",
+          "publisher": "大成",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官方業務範圍",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:37:36.219581+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "福壽10/8承接整家公司補齊欠件",
+      "limitations": [
+        "部分非重要子公司及權益法投資財務未經核閱",
+        "新品逐案商用日、具名客戶及收入未完整揭露",
+        "未取得可靠最新公司金額財測或法人共識",
+        "法律後續裁判／最終賠償及供應商求償結果未確認，保留外部追蹤",
+        "舊10/6公告不量化與H1已估列損失不同，補讀已列準備及罰鍰不等於全部最終案件損失",
+        "本批完成公司欠件查找，不等於全市場公告無缺漏"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1219-v2-developments",
+      "task_id": "backfill-20261008-1219",
+      "company_code": "1219",
+      "company_name": "福壽",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:f376111bd3dce28d77a6cb082c8f1bf3c5d623b25c23eb5a6114ee4d373bf73d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:7a29670e5554dcbfa034297e0c5b3e59f3d453c451fd6fad9e836126a4115e4d",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "本次由年度資料補具體項目：犬貓流質飲品、膠原蛋白機能配方、95%含肉率鮮肉風乾糧、脆口零食；畜禽配方／添加劑與水產適口性試驗；緩效複合肥、專用肥；攜帶式生飲油設計。以上是年報開發方向，逐案時間、客戶與收入未揭露者不填成已商用。[fw-annual-2025]\n官方寵物商店現有機能／無穀商品可證明相關品類已販售，但不能據此確認每一項年報新計畫均已出貨，或推算新品收入。寵物保健／處方及認證仍須逐案證據，不將產品行銷用途寫成已證實醫療療效。[fw-pet-current、fw-annual-2025]\n鹿港肥料、糧農循環及飼料體系是既有業務，不再當新事業；年報長期提AI工具輔助作物施肥管理，是內部服務方向，沒有可核對獨立AI產品收入。四項固定編號已建立，未查得可獨立確認為全新事業部或量化新擴產容量的案子。[fw-factories、fw-annual-2025]",
+        "period": "2025年報／2026H1及已標示事件日期",
+        "sources": [
+          "legal-20261006",
+          "business-official",
+          "fw-factories",
+          "fw-rd",
+          "fw-outlook",
+          "fw-annual-2025",
+          "fw-h1-2026",
+          "fw-pet-current",
+          "fw-peer-1210"
+        ],
+        "projects": [
+          {
+            "project_id": "1219-pet-functional-food",
+            "name": "犬貓機能食品及鮮肉產品",
+            "type": "新產品",
+            "uses_and_customers": "犬貓飼主及寵物通路；流質飲品、膠原蛋白配方、鮮肉風乾糧與零食",
+            "status": "2025年報列個別新開發計畫；官方商店可見既有機能配方及無穀品項，不視為所有計畫均已上市",
+            "commercial_timing": "既有品已銷售，計畫新品逐案年月未揭露",
+            "revenue_contribution": "未單列各新品收入或利益",
+            "sources": [
+              "fw-annual-2025",
+              "fw-pet-current"
+            ]
+          },
+          {
+            "project_id": "1219-feed-formula",
+            "name": "畜禽／水產飼料配方與添加劑",
+            "type": "新產品",
+            "uses_and_customers": "畜禽水產飼養戶；飼效、適口性及配方測試",
+            "status": "年報列配方調整／添加劑及誘餌性競品試驗",
+            "commercial_timing": "既有飼料業務營運，特定新版配方商用日未揭露",
+            "revenue_contribution": "未單列新增配方營收；不能以全飼料分部代替",
+            "sources": [
+              "fw-annual-2025"
+            ]
+          },
+          {
+            "project_id": "1219-agri-material-upgrade",
+            "name": "緩效複合肥、專用肥及生物資材",
+            "type": "新產品",
+            "uses_and_customers": "農民及農資通路；改土、施肥及作物管理",
+            "status": "年報列產品升級／示範田與通路教育，肥料業務本身為既有",
+            "commercial_timing": "新配方、各登記證與上市日未完整核對",
+            "revenue_contribution": "未單列新增產品收入",
+            "sources": [
+              "fw-annual-2025"
+            ]
+          },
+          {
+            "project_id": "1219-oil-portable-product",
+            "name": "攜帶式生飲油產品設計",
+            "type": "新產品",
+            "uses_and_customers": "食品消費者；小包裝、方便使用",
+            "status": "年報計畫，食安回收及供應鏈風險另列，未取得正式上市進度",
+            "commercial_timing": "未找到確認年月",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "fw-annual-2025"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "legal-20261006",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "(補充115年8月24日重大訊息發生原委)\r\n本公司於8月24日接獲臺灣臺中地方檢察署檢察官起訴書，\r\n另接獲臺灣基隆地方檢察署移送併辦意旨書",
+          "published_at": "2026-10-06",
+          "accessed_at": "2026-10-08",
+          "publisher": "證交所／福壽",
+          "supports": "公司保存之官方公告正文；涉案及移送併辦，未揭露確定罰金"
+        },
+        {
+          "source_id": "business-official",
+          "url": "https://esg.fwusow.com.tw/article_d.php?id=213&lang=tw&tb=2",
+          "title": "福壽企業概況",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日期",
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "主要產品及進出口業務"
+        },
+        {
+          "source_id": "fw-factories",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/7",
+          "title": "福壽廠區介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "各廠角色與既有產品",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-rd",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/8",
+          "title": "福壽研發介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "食品、飼料及農業研究方向",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-outlook",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/10",
+          "title": "福壽企業展望",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "展望屬定性方向，無量化財測",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-annual-2025",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2295_db00fc24c28d4efea1c8823cff8b5ac5?type=pdf",
+          "title": "2025年報81實體頁，核讀業務、產品與發展、財務章",
+          "publisher": "福壽",
+          "published_at": "2026-04-16",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績／後續計畫，年報刊印4/16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-h1-2026",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2423_9ea529962b67c31fdc84cc65b56c8312?type=pdf",
+          "title": "2026H1合併財報50頁；主表、存貨、投資、分部、借款、食安事件等",
+          "publisher": "福壽",
+          "published_at": "2026-08-11",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1及6月底；董事會通過8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-pet-current",
+          "url": "https://www.fwusowpet.com.tw/latest",
+          "title": "官方寵物旗艦館現有商品",
+          "publisher": "福壽",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時可見商品，無首次上市日",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        },
+        {
+          "source_id": "fw-peer-1210",
+          "url": "https://www.dachan.com/concept",
+          "title": "大成業務範疇",
+          "publisher": "大成",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官方業務範圍",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:37:36.219581+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "福壽10/8承接整家公司補齊欠件",
+      "limitations": [
+        "部分非重要子公司及權益法投資財務未經核閱",
+        "新品逐案商用日、具名客戶及收入未完整揭露",
+        "未取得可靠最新公司金額財測或法人共識",
+        "法律後續裁判／最終賠償及供應商求償結果未確認，保留外部追蹤",
+        "舊10/6公告不量化與H1已估列損失不同，補讀已列準備及罰鍰不等於全部最終案件損失",
+        "本批完成公司欠件查找，不等於全市場公告無缺漏"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1219-v2-transition",
+      "task_id": "backfill-20261008-1219",
+      "company_code": "1219",
+      "company_name": "福壽",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:f376111bd3dce28d77a6cb082c8f1bf3c5d623b25c23eb5a6114ee4d373bf73d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:7a29670e5554dcbfa034297e0c5b3e59f3d453c451fd6fad9e836126a4115e4d",
+      "expected_old_section_version": "sha256:7cc13cd71781649475c69daac9d07afe23b0065a9d55dde8a289707dd289a92b",
+      "old_content": {
+        "text": "官網廠區資料顯示食用油製造已移轉至轉投資中聯油脂，福壽保留分裝及銷售，需區分自製、轉投資與貿易角色。沙鹿廠涵蓋配合飼料、添加劑、特殊水產與寵物飼料及大麥製品；寵物食品廠有ISO22000／HACCP管理，南投生態農場已列牧草雞與蛋等產品。鹿港生技肥料與有機質肥料為長期既有業務，不能當作2026年新事業。研究判讀：寵物食品及農業循環產品是既有產品升級方向，但本次所讀廠區、研發及展望頁面未提供新產線容量、商用日期、客戶名稱或单項營收預估；不以一般願景代替具體新發展項目，量化計畫仍待年度資料補核。",
+        "period": "2026-10-08官網查閱；頁面未列更新日",
+        "sources": [
+          "fw-factories",
+          "fw-rd",
+          "fw-outlook"
+        ],
+        "reviewed_at": "2026-10-08"
+      },
+      "new_content": {
+        "text": "官網廠區資料顯示食用油製造已移轉至轉投資中聯油脂，福壽保留分裝及銷售，需區分自製、轉投資與貿易角色。沙鹿廠涵蓋配合飼料、添加劑、特殊水產與寵物飼料及大麥製品；寵物食品廠有ISO22000／HACCP管理，南投生態農場已列牧草雞與蛋等產品。鹿港生技肥料與有機質肥料為長期既有業務，不能當作2026年新事業。研究判讀：寵物食品及農業循環產品是既有產品升級方向，但本次所讀廠區、研發及展望頁面未提供新產線容量、商用日期、客戶名稱或单項營收預估；不以一般願景代替具體新發展項目，量化計畫仍待年度資料補核。\n\n【補核後展望】公司方向是產品機能化、通路及客戶品項調整、農資與寵物產品升級；年報未提供本次可使用的未來年度收入／EPS數字財測，本次亦未找到來源完整且可靠的最新法人共識，預估保留缺漏。沒有揭露不等於預估為零。[fw-annual-2025、fw-outlook]\n中期研究須先確認食安回收與信用風險受控、食品事業恢復毛利、關聯企業損失改善，並看營業現金流能否轉正。飼料本業本期仍有正分部損益，卻不足抵銷食品、肉品、其他、總管理處及業外損失，不能只用寵物與循環題材判斷整家公司已復甦。[fw-h1-2026；研究推論]\n併購查找未取得可核對的最新新增控制權案件；2025頂大增資造成持股由29.1%降28%是既有投資變動，不當本月新併購。H1財報保留結論涉及部分非重要子公司及權益法被投資資訊未經核閱，不能冒稱所有附屬財務均獨立核閱。[fw-h1-2026]\n本批一次補完原10/8欠件：分部、虧損與業外原因、新項目、同業、展望及負債；法律程序仍待外部結果，非為趕完成推定無後續損失。未單列新產品收入／具名客戶／商用日及案件最終賠償，已合理查找並明示。全公司reviewed_at不刷新。",
+        "period": "2025年報／2026H1及已標示事件日期",
+        "sources": [
+          "legal-20261006",
+          "business-official",
+          "fw-factories",
+          "fw-rd",
+          "fw-outlook",
+          "fw-annual-2025",
+          "fw-h1-2026",
+          "fw-pet-current",
+          "fw-peer-1210"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "legal-20261006",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "(補充115年8月24日重大訊息發生原委)\r\n本公司於8月24日接獲臺灣臺中地方檢察署檢察官起訴書，\r\n另接獲臺灣基隆地方檢察署移送併辦意旨書",
+          "published_at": "2026-10-06",
+          "accessed_at": "2026-10-08",
+          "publisher": "證交所／福壽",
+          "supports": "公司保存之官方公告正文；涉案及移送併辦，未揭露確定罰金"
+        },
+        {
+          "source_id": "business-official",
+          "url": "https://esg.fwusow.com.tw/article_d.php?id=213&lang=tw&tb=2",
+          "title": "福壽企業概況",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日期",
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "主要產品及進出口業務"
+        },
+        {
+          "source_id": "fw-factories",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/7",
+          "title": "福壽廠區介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "各廠角色與既有產品",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-rd",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/8",
+          "title": "福壽研發介紹",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "食品、飼料及農業研究方向",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-outlook",
+          "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/10",
+          "title": "福壽企業展望",
+          "published_at": null,
+          "accessed_at": "2026-10-08",
+          "publisher": "福壽",
+          "supports": "展望屬定性方向，無量化財測",
+          "published_at_missing_reason": "頁面未列精確發布日期"
+        },
+        {
+          "source_id": "fw-annual-2025",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2295_db00fc24c28d4efea1c8823cff8b5ac5?type=pdf",
+          "title": "2025年報81實體頁，核讀業務、產品與發展、財務章",
+          "publisher": "福壽",
+          "published_at": "2026-04-16",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績／後續計畫，年報刊印4/16",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-h1-2026",
+          "url": "https://www.fwusow.com.tw/index.php/information/item/extdownload/i2423_9ea529962b67c31fdc84cc65b56c8312?type=pdf",
+          "title": "2026H1合併財報50頁；主表、存貨、投資、分部、借款、食安事件等",
+          "publisher": "福壽",
+          "published_at": "2026-08-11",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1及6月底；董事會通過8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fw-pet-current",
+          "url": "https://www.fwusowpet.com.tw/latest",
+          "title": "官方寵物旗艦館現有商品",
+          "publisher": "福壽",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時可見商品，無首次上市日",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        },
+        {
+          "source_id": "fw-peer-1210",
+          "url": "https://www.dachan.com/concept",
+          "title": "大成業務範疇",
+          "publisher": "大成",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官方業務範圍",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "頁面未確定首次發布日期"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:37:36.219581+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "福壽10/8承接整家公司補齊欠件",
+      "limitations": [
+        "部分非重要子公司及權益法投資財務未經核閱",
+        "新品逐案商用日、具名客戶及收入未完整揭露",
+        "未取得可靠最新公司金額財測或法人共識",
+        "法律後續裁判／最終賠償及供應商求償結果未確認，保留外部追蹤",
+        "舊10/6公告不量化與H1已估列損失不同，補讀已列準備及罰鍰不等於全部最終案件損失",
+        "本批完成公司欠件查找，不等於全市場公告無缺漏"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    }
+  ],
+  "before_official_record": {
+    "name": "福壽",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "legal-20261006": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "(補充115年8月24日重大訊息發生原委)\r\n本公司於8月24日接獲臺灣臺中地方檢察署檢察官起訴書，\r\n另接獲臺灣基隆地方檢察署移送併辦意旨書",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-08",
+        "publisher": "證交所／福壽",
+        "supports": "公司保存之官方公告正文；涉案及移送併辦，未揭露確定罰金"
+      },
+      "business-official": {
+        "url": "https://esg.fwusow.com.tw/article_d.php?id=213&lang=tw&tb=2",
+        "title": "福壽企業概況",
+        "published_at": null,
+        "published_at_missing_reason": "頁面未列精確發布日期",
+        "accessed_at": "2026-10-08",
+        "publisher": "福壽",
+        "supports": "主要產品及進出口業務"
+      },
+      "fw-factories": {
+        "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/7",
+        "title": "福壽廠區介紹",
+        "published_at": null,
+        "accessed_at": "2026-10-08",
+        "publisher": "福壽",
+        "supports": "各廠角色與既有產品",
+        "published_at_missing_reason": "頁面未列精確發布日期"
+      },
+      "fw-rd": {
+        "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/8",
+        "title": "福壽研發介紹",
+        "published_at": null,
+        "accessed_at": "2026-10-08",
+        "publisher": "福壽",
+        "supports": "食品、飼料及農業研究方向",
+        "published_at_missing_reason": "頁面未列精確發布日期"
+      },
+      "fw-outlook": {
+        "url": "https://www.fwusow.com.tw/index.php/about-us/itemlist/category/10",
+        "title": "福壽企業展望",
+        "published_at": null,
+        "accessed_at": "2026-10-08",
+        "publisher": "福壽",
+        "supports": "展望屬定性方向，無量化財測",
+        "published_at_missing_reason": "頁面未列精確發布日期"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "僅本章節查核；完整新發展、財務獲利與同業未完成。"
+    ],
+    "earnings": {
+      "text": "2026年10月6日補充公告涉及中聯油脂2026年4–6月部分沙拉油苯駢芘超標事件，公告載明檢方指涉未依食安法處理、已起訴自然人，並接獲基隆地檢署移送併辦意旨書。屬起訴與併案程序，不能寫成法院定罪或已確定罰金；公告引用法人罰金規定並非已認列損失金額。公司表示營運正常，但未提供可量化財務影響，不能填零。後續仍需核對裁判、回收、賠償與財報準備；本輪未另查得法院裁判。",
+      "period": "2026-10-06公告",
+      "sources": [
+        "legal-20261006"
+      ],
+      "reviewed_at": "2026-10-08"
+    },
+    "business": {
+      "text": "福壽的製銷業務涵蓋食用油脂、穀物食品、寵物食品、農業資材及畜水產飼料，另從事大宗穀物進口銷售及國際貿易。產品包括配合飼料、單味產品、大麥製品、有機質肥料及生技產品；分別服務食品消費、寵物照護與農畜水產生產需求。收入來自產品銷售與貿易，不能把產品種類或循環經濟布局視為各項獲利占比；本輪尚未量化分部毛利或客戶集中度。",
+      "period": "截至2026-10-08官網業務",
+      "sources": [
+        "business-official"
+      ],
+      "reviewed_at": "2026-10-08"
+    },
+    "transition": {
+      "text": "官網廠區資料顯示食用油製造已移轉至轉投資中聯油脂，福壽保留分裝及銷售，需區分自製、轉投資與貿易角色。沙鹿廠涵蓋配合飼料、添加劑、特殊水產與寵物飼料及大麥製品；寵物食品廠有ISO22000／HACCP管理，南投生態農場已列牧草雞與蛋等產品。鹿港生技肥料與有機質肥料為長期既有業務，不能當作2026年新事業。研究判讀：寵物食品及農業循環產品是既有產品升級方向，但本次所讀廠區、研發及展望頁面未提供新產線容量、商用日期、客戶名稱或单項營收預估；不以一般願景代替具體新發展項目，量化計畫仍待年度資料補核。",
+      "period": "2026-10-08官網查閱；頁面未列更新日",
+      "sources": [
+        "fw-factories",
+        "fw-rd",
+        "fw-outlook"
+      ],
+      "reviewed_at": "2026-10-08"
+    }
+  },
+  "before_overview": {
+    "name": "福壽",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 20,
+    "business": "食用油、飼料、寵物食品及農業相關產品",
+    "direction": "寵物食品與農業循環產品為持續方向",
+    "profit_mechanism": "食用油加工、飼料及寵物食品毛利",
+    "status": "業務概述已整理；分部獲利未逐項量化",
+    "screening": "2026H1母公司淨損；2026Q2母公司淨損",
+    "urls": [
+      "https://shop.fwusow.com.tw/?lang=zh-TW",
+      "https://www.fwusowpet.com.tw/latest",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "合併營業收入",
+      "fy2024": 143.29749999999999,
+      "fy2025": 143.81994,
+      "q32025": 34.68963,
+      "q42025": 37.85148,
+      "q12026": 36.341120000000004,
+      "q22026": 33.3508,
+      "ttm": 142.23302999999999,
+      "h1_operating_profit": -2.0084,
+      "h1_nonoperating": -2.06695,
+      "h1_pretax": -4.07535,
+      "h1_parent_profit": -3.08109,
+      "h1_operating_margin": -0.0288182618587635,
+      "h1_nonoperating_share": "",
+      "fy2025_parent_profit": 1.55133,
+      "q22026_parent_profit": -3.45048,
+      "screening": "2026H1母公司淨損；2026Q2母公司淨損",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 69.69192,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 143.29749999999999,
+          "net_income": 1.81339,
+          "eps": 0.53,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 71.27883,
+          "net_income": 0.20812000000000003,
+          "eps": 0.06,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "合併營業收入",
+          "revenue": 105.96846,
+          "net_income": 0.8550500000000001,
+          "eps": 0.25,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 143.81994,
+          "net_income": 1.55133,
+          "eps": 0.45,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "合併營業收入",
+          "revenue": 36.341120000000004,
+          "net_income": 0.36939000000000005,
+          "eps": 0.11000000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 69.69192,
+          "net_income": -3.08109,
+          "eps": -0.9,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2020-Q4": {
+          "eps": 1.91,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2021-Q4": {
+          "eps": 1.0,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": 1.0,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 0.94,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "合併營業收入",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 34.689629999999994,
+            "eps": 0.19,
+            "net_income": 0.64693
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 37.85148000000001,
+            "eps": 0.2,
+            "net_income": 0.69628
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 36.341120000000004,
+            "eps": 0.11000000000000001,
+            "net_income": 0.36939000000000005
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 33.35079999999999,
+            "eps": -1.01,
+            "net_income": -3.45048
+          }
+        ],
+        "ttms": 142.23303,
+        "ttm_eps": -0.51,
+        "ttm_parent_profit": -1.73788,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 142.23 億元；每股盈餘 -0.51 元；歸母淨利 -1.74 億元。營收未扣成本與費用，不等於獲利。獲利機制：食用油加工、飼料及寵物食品毛利。",
+    "events": [
+      {
+        "period": "2026H1",
+        "type": "虧損",
+        "status": "財報數值確認",
+        "text": "歸屬母公司淨損-3.08億元；原因尚未逐項核對。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2026Q2",
+        "type": "單季虧損",
+        "status": "累計差額計算",
+        "text": "歸屬母公司淨損-3.45億元；Q2／Q3／Q4由累計差額計算。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "outlooks": [
+      {
+        "type": "待補查／無可用金額",
+        "period": "未確認",
+        "scope": "整體營收",
+        "unit": null,
+        "low": null,
+        "high": null,
+        "published_at": null,
+        "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+        "urls": [
+          "https://shop.fwusow.com.tw/?lang=zh-TW",
+          "https://www.fwusowpet.com.tw/latest"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "1219",
+          "name": "福壽",
+          "date": "2026-06-30",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 96.378,
+          "liabilities": 56.280120000000004,
+          "equity": 40.09788,
+          "parent_equity": 39.82964,
+          "cash": 8.32111,
+          "current_assets": 50.716840000000005,
+          "current_liabilities": 35.13868,
+          "listed_borrowings": 39.17874,
+          "listed_leases": 1.01039,
+          "operating_cashflow": -2.20394,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1213&companyId=1215&companyId=1217&companyId=1218&companyId=1219",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1213&companyId=1215&companyId=1217&companyId=1218&companyId=1219",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "1219",
+          "name": "福壽",
+          "date": "2025-12-31",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 96.4555,
+          "liabilities": 50.485,
+          "equity": 45.9705,
+          "parent_equity": 45.89936,
+          "cash": 8.08417,
+          "current_assets": 48.84046,
+          "current_liabilities": 31.640980000000003,
+          "listed_borrowings": 32.41664,
+          "listed_leases": 0.98326,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1213&companyId=1215&companyId=1217&companyId=1218&companyId=1219",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+      "basis": "合併",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1213&companyId=1215&companyId=1217&companyId=1218&companyId=1219",
+      "regulatory": {
+        "capital_adequacy": null,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "未取得／不適用"
+      }
+    }
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "new_meeting": false,
+    "original_qa_verified": false
+  },
+  "numeric_corrections": {
+    "borrowings_2026_06_30": {
+      "old": 39.17874,
+      "new": 43.52651,
+      "add_current_maturities": 4.34777
+    },
+    "borrowings_2025_12_31": {
+      "old": 32.41664,
+      "new": 37.54835,
+      "add_current_maturities": 5.13171
+    },
+    "proof": "Official H1 PDF pages 23 and 30 visually verified; short loans/bills plus total long loans, NT$ thousand divided by 100000"
+  }
+}
