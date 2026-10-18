@@ -1,0 +1,727 @@
+{
+  "batch_id": "research-20261018-1233-v1",
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261018-1233-v1",
+    "ready": true,
+    "created_at": "2026-10-18T20:33:01.763809+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:37fe47938db54d438f810fc55174f6418432d7ea784588b40da46a2addc56853",
+    "work_type": "backfill",
+    "completion_unit": "天仁整家公司公開資料查找與缺漏說明",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "個別新品／新店營收、單店損益、同店銷售及完整商用時程未揭露",
+      "未取得可靠最新全年公司數字財測或法人共識",
+      "股東會新聞稿全文已讀，不代表原始問答或議事錄全數核對，不查影片",
+      "店數分類有重疊可能且截止期不同，不相加或冒充10月最新",
+      "部分子公司及權益法投資未經核閱，保留財報原有限制",
+      "不把全公司查找完成視為全市場公告監看已完整"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1233-v1-business",
+      "task_id": "backfill-20261018-1233",
+      "company_code": "1233",
+      "company_name": "天仁",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:5d30c87ba817e66281a3bb3229cd966caf015dfd4ed9fe94e3673ace63f45b0f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "天仁（1233，上市）整合茶葉精製、包裝、品牌零售與茶飲／餐飲通路。主要商品為特色茶、袋茶與冷泡茶、禮盒、茶具、茶食品及喫茶趣餐食／飲品，並有喫茶趣ToGo、天仁釀茶所、CHAFFEE等；茶食部分採委外加工。供應鏈承接茶農／原料採購，經精製包裝與食品開發，再透過門市、商場、餐飲與外銷面向消費者。不是只出售茶葉原料的上游茶廠。[tr-annual，業務及產銷章]\n2025全年合併營收21.60758億元，產品比重茶葉41.57%、餐飲54.10%、茶具及其他4.33%。內銷18.91561億元占87.54%、外銷2.69197億元占12.46%。年報稱2025年底國內連鎖店105家，外帶茶飲品牌另述71家；分類／複合據點可能重疊，不能直接相加為總店數或當10月現況。年報稱最近兩年度無單一銷貨客戶或供應商超過10%，具名顧客多為零售消費者，未公開的B2B名稱不猜測。[tr-annual]\n2026H1外部收入茶葉4.60645億元、餐飲6.02796億元、其他0.53386億元；茶飲餐飲已是收入主體。集團品牌頁列世界各地天仁／天福等不等於各海外事業全部納入上市公司合併，營運範圍以財報為準。[tr-h1]\n相似同業選2913農林：可比茶葉生產、製茶品質、原料與品牌需求，官方有自有茶園、茶廠及機械化製茶；天仁較偏下游直營／內部加盟茶飲餐飲，兩者資產結構與營運模式不同，因此僅作茶事業參照，不直接以農林全公司PE當天仁公平價。餐飲服務另須看同店需求、人力、店租與產品組合；本批未找到完全可比的上市同業。[tr-peer；同業理由為研究判斷]",
+        "period": "2025全年／2026H1／6/9股東會新聞稿；各筆標期",
+        "sources": [
+          "tr-annual",
+          "tr-h1",
+          "tr-agm",
+          "tr-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "tr-annual",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273124241657&fd=Downloads_NFiles&RD=2&dl=2026051915224354822&pname=%e2%98%85%e5%a4%a9%e4%bb%812025%e5%b9%b4%e5%a0%b10511-%e4%b8%8a%e5%82%b3%e7%89%88.pdf&MSID=1",
+          "title": "2025中文年報179實體頁；核讀營運／發展／年度財務等章節",
+          "publisher": "天仁",
+          "published_at": "2026-05-19",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績及2026計畫，逐項標期",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-h1",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273111460122&fd=Downloads_NFiles&RD=2&dl=2026051317062667755&pname=%e2%98%85%e5%a4%a9%e4%bb%81115%e5%b9%b4%e7%ac%ac2%e5%ad%a3%e8%b2%a1%e5%a0%b1-final%e7%94%a8%e5%8d%b0.pdf&MSID=2",
+          "title": "2026Q2合併財報73頁；核讀財務主表、業外、租賃、承諾、部門等",
+          "publisher": "天仁",
+          "published_at": "2026-08-12",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1累計／Q2單季及6月底；核閱報告8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-agm",
+          "url": "https://www.tenren.com.tw/Content/IROperOv/contents.aspx?SiteID=10&MmmID=654045726752702774&MSID=1344544163673726335",
+          "title": "6/9股東常會新聞稿全文",
+          "publisher": "天仁",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-10-18",
+          "period": "2026股利決議及當時展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-peer",
+          "url": "https://www.ttch.com.tw/zh/front/index",
+          "title": "台灣農林官方茶業介紹",
+          "publisher": "台灣農林",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:33:01.763809+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "天仁整家公司公開資料查核一次交付",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "個別新品／新店營收、單店損益、同店銷售及完整商用時程未揭露",
+        "未取得可靠最新全年公司數字財測或法人共識",
+        "股東會新聞稿全文已讀，不代表原始問答或議事錄全數核對，不查影片",
+        "店數分類有重疊可能且截止期不同，不相加或冒充10月最新",
+        "部分子公司及權益法投資未經核閱，保留財報原有限制",
+        "不把全公司查找完成視為全市場公告監看已完整"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1233-v1-earnings",
+      "task_id": "backfill-20261018-1233",
+      "company_code": "1233",
+      "company_name": "天仁",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:5d30c87ba817e66281a3bb3229cd966caf015dfd4ed9fe94e3673ace63f45b0f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "以下財務為合併、新台幣億元，EPS元；原表千元轉換，不另維護網站行情計算。2025全年收入21.60758億元、營業利益0.70720億元、業外0.14598億元、稅前0.85318億元、集團總淨利0.67730億元；全年收入較2024減1.62%、營業利益減14.30%。年報提及港幣投資匯兌等影響，不能把不同表中投資評價、其他綜合損益及損益匯兌全部當成同一費用。[tr-annual，財務績效表]\n2026H1累計收入11.16827億元、毛利6.76106億元、營業利益0.54208億元、業外0.09719億元、稅前0.63927億元、總淨利及歸母淨利均0.53007億元；基本EPS0.59元、稀釋0.58元。2025H1收入10.73441億元、營業利益0.43339億元、業外−0.00550億元、歸母0.37178億元、基本EPS0.41元。營收增加、毛利改善及業外轉正共同支撐獲利，並非單靠新店數增加。[tr-h1，損益表]\n【獲利由誰提供】H1分部稅前損益：茶葉−0.09447億元、餐飲+0.81456億元、其他−0.08082億元，合計0.63927億元。餐飲是本期主要分部獲利來源；茶葉仍虧損，但較去年−0.14038億元改善。分部衡量為稅前而非營業利益或歸母淨利，不把餐飲部門0.81456億元再加到集團淨利。[tr-h1，附註十四]\n業外細項：H1股利收入0.05910億元、權益法利益0.01653億元、淨匯兌利益0.00619億元，去年匯損0.07935億元；財務成本0.03070億元包含銀行0.01247與租賃0.01823億元。去年匯損消退解釋部分獲利改善，但不把其他綜合損益投資評價利益0.14595億元當EPS獲利。Q2單季基本EPS0.25元、稀釋0.24元，與H1累計不同。[tr-h1，附註19及損益表]\n【資產負債】2026/6/30資產21.98756億元、負債7.91202億元、權益14.07554億元；現金1.86635億元、流動資產7.03592億元、流動負債5.39690億元。銀行短借0.83500億元，表列無長期借款及公司債；租賃負債2.60207億元另列，不能因現金大於銀行借款就忽略門市租賃。存貨2.98309億元、土地廠房設備8.85255億元，部分土地建物作借款擔保。[tr-h1，主表及附註八]\nH1營業淨現金流入1.48645億元、設備購置現金0.25065億元、投資淨流出0.18246億元；償還租賃本金0.51330億元、短借淨減0.51500億元，期末現金較年初增0.31900億元。現金流有折舊與營運資金變動，不能等同淨利。財報保留結論源於部分非重要子公司及權益法被投資財報未經核閱，不等於整份報告未核閱；限制如實保留。[tr-h1，核閱報告及現金流量表]",
+        "period": "2025全年／2026H1／6/9股東會新聞稿；各筆標期",
+        "sources": [
+          "tr-annual",
+          "tr-h1",
+          "tr-agm",
+          "tr-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "tr-annual",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273124241657&fd=Downloads_NFiles&RD=2&dl=2026051915224354822&pname=%e2%98%85%e5%a4%a9%e4%bb%812025%e5%b9%b4%e5%a0%b10511-%e4%b8%8a%e5%82%b3%e7%89%88.pdf&MSID=1",
+          "title": "2025中文年報179實體頁；核讀營運／發展／年度財務等章節",
+          "publisher": "天仁",
+          "published_at": "2026-05-19",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績及2026計畫，逐項標期",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-h1",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273111460122&fd=Downloads_NFiles&RD=2&dl=2026051317062667755&pname=%e2%98%85%e5%a4%a9%e4%bb%81115%e5%b9%b4%e7%ac%ac2%e5%ad%a3%e8%b2%a1%e5%a0%b1-final%e7%94%a8%e5%8d%b0.pdf&MSID=2",
+          "title": "2026Q2合併財報73頁；核讀財務主表、業外、租賃、承諾、部門等",
+          "publisher": "天仁",
+          "published_at": "2026-08-12",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1累計／Q2單季及6月底；核閱報告8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-agm",
+          "url": "https://www.tenren.com.tw/Content/IROperOv/contents.aspx?SiteID=10&MmmID=654045726752702774&MSID=1344544163673726335",
+          "title": "6/9股東常會新聞稿全文",
+          "publisher": "天仁",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-10-18",
+          "period": "2026股利決議及當時展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-peer",
+          "url": "https://www.ttch.com.tw/zh/front/index",
+          "title": "台灣農林官方茶業介紹",
+          "publisher": "台灣農林",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:33:01.763809+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "天仁整家公司公開資料查核一次交付",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "個別新品／新店營收、單店損益、同店銷售及完整商用時程未揭露",
+        "未取得可靠最新全年公司數字財測或法人共識",
+        "股東會新聞稿全文已讀，不代表原始問答或議事錄全數核對，不查影片",
+        "店數分類有重疊可能且截止期不同，不相加或冒充10月最新",
+        "部分子公司及權益法投資未經核閱，保留財報原有限制",
+        "不把全公司查找完成視為全市場公告監看已完整"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1233-v1-developments",
+      "task_id": "backfill-20261018-1233",
+      "company_code": "1233",
+      "company_name": "天仁",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:5d30c87ba817e66281a3bb3229cd966caf015dfd4ed9fe94e3673ace63f45b0f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "新產品與擴產分開追蹤：茶飲／輕食／茶點以即飲、季節與在地食材創新，部分急沏冷泡茶及茶膳已開發；機能性茶相關商品仍屬年報計畫，未取得個別量產／上市年月，不宣稱已獲醫療保健功效認證。研發費2025為663萬元、H1為311萬元，是費用而非新產品收入。[tr-annual、tr-h1]\n既有通路擴張以中南部外帶茶飲、直營／內部加盟及海外合作夥伴育成為方向。不能把全球品牌名單視為上市公司全資店，也不能把年報105家與另一外帶分類71家直接相加；新店完整商用年月、單店收入及回收期未公開。[tr-annual]\n製茶總廠掃碼溯源、自動倉儲輔助、ERP／TRBI、會員及零售數位化是既有業務升級；6/9股東會新聞稿也重申數位工具與資源彈性，沒有新增量化收入目標。本次未找到可獨立確認的新事業部，因此不把各項更新都稱新事業。固定四項編號見專案明細，未公開貢獻保留未揭露。[tr-annual、tr-agm]",
+        "period": "2025全年／2026H1／6/9股東會新聞稿；各筆標期",
+        "sources": [
+          "tr-annual",
+          "tr-h1",
+          "tr-agm",
+          "tr-peer"
+        ],
+        "projects": [
+          {
+            "project_id": "1233-tea-food-innovation",
+            "name": "茶飲、輕食與季節茶膳",
+            "type": "新產品",
+            "uses_and_customers": "外帶消費者與餐飲顧客；即飲茶、輕食及在地季節食材茶膳",
+            "status": "已有急沏冷泡茶及季度茶膳開發；年報仍列持續開發計畫",
+            "commercial_timing": "部分既有商品已商用；新料號上市日期未完整揭露",
+            "revenue_contribution": "新品獨立收入未揭露，不以餐飲分部全額代替",
+            "sources": [
+              "tr-annual"
+            ]
+          },
+          {
+            "project_id": "1233-functional-products",
+            "name": "機能性茶相關商品研發",
+            "type": "新產品",
+            "uses_and_customers": "面向茶飲與生活消費；非已驗證醫療功效",
+            "status": "年報計畫及研發方向，未查得可核對個別新案許可／正式上市進度",
+            "commercial_timing": "未揭露具體年月",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "tr-annual"
+            ]
+          },
+          {
+            "project_id": "1233-retail-network",
+            "name": "外帶茶飲與中南部通路深化",
+            "type": "既有業務擴產",
+            "uses_and_customers": "ToGo／釀茶所消費者、中南部市場及海外合作夥伴",
+            "status": "年報提出直營／內部加盟展店及海外夥伴育成方向；新據點逐案時程未揭露",
+            "commercial_timing": "既有通路已營運；新增據點無統一完成日",
+            "revenue_contribution": "未揭露新增店收入／單店損益",
+            "sources": [
+              "tr-annual",
+              "tr-agm"
+            ]
+          },
+          {
+            "project_id": "1233-manufacturing-digital",
+            "name": "製茶溯源、自動倉儲與零售數位化",
+            "type": "既有業務製程升級",
+            "uses_and_customers": "內部產銷管理及會員服務；產品溯源與效率",
+            "status": "年報列製茶總廠掃碼溯源、自動倉儲輔助、ERP／TRBI及IT升級方向；非所有項目驗收完成",
+            "commercial_timing": "分階段，未揭露全案驗收日期",
+            "revenue_contribution": "成本節省及增量收入未量化，不稱AI軟體新事業",
+            "sources": [
+              "tr-annual",
+              "tr-agm"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "tr-annual",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273124241657&fd=Downloads_NFiles&RD=2&dl=2026051915224354822&pname=%e2%98%85%e5%a4%a9%e4%bb%812025%e5%b9%b4%e5%a0%b10511-%e4%b8%8a%e5%82%b3%e7%89%88.pdf&MSID=1",
+          "title": "2025中文年報179實體頁；核讀營運／發展／年度財務等章節",
+          "publisher": "天仁",
+          "published_at": "2026-05-19",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績及2026計畫，逐項標期",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-h1",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273111460122&fd=Downloads_NFiles&RD=2&dl=2026051317062667755&pname=%e2%98%85%e5%a4%a9%e4%bb%81115%e5%b9%b4%e7%ac%ac2%e5%ad%a3%e8%b2%a1%e5%a0%b1-final%e7%94%a8%e5%8d%b0.pdf&MSID=2",
+          "title": "2026Q2合併財報73頁；核讀財務主表、業外、租賃、承諾、部門等",
+          "publisher": "天仁",
+          "published_at": "2026-08-12",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1累計／Q2單季及6月底；核閱報告8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-agm",
+          "url": "https://www.tenren.com.tw/Content/IROperOv/contents.aspx?SiteID=10&MmmID=654045726752702774&MSID=1344544163673726335",
+          "title": "6/9股東常會新聞稿全文",
+          "publisher": "天仁",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-10-18",
+          "period": "2026股利決議及當時展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-peer",
+          "url": "https://www.ttch.com.tw/zh/front/index",
+          "title": "台灣農林官方茶業介紹",
+          "publisher": "台灣農林",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:33:01.763809+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "天仁整家公司公開資料查核一次交付",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "個別新品／新店營收、單店損益、同店銷售及完整商用時程未揭露",
+        "未取得可靠最新全年公司數字財測或法人共識",
+        "股東會新聞稿全文已讀，不代表原始問答或議事錄全數核對，不查影片",
+        "店數分類有重疊可能且截止期不同，不相加或冒充10月最新",
+        "部分子公司及權益法投資未經核閱，保留財報原有限制",
+        "不把全公司查找完成視為全市場公告監看已完整"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261018-1233-v1-transition",
+      "task_id": "backfill-20261018-1233",
+      "company_code": "1233",
+      "company_name": "天仁",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:5d30c87ba817e66281a3bb3229cd966caf015dfd4ed9fe94e3673ace63f45b0f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "投資研究重點是茶飲餐飲成長能否轉成稅前獲利與現金，而非只看茶品牌知名度。H1餐飲獲利、茶葉虧損的差異，表示須分開檢視人力／店租、產品組合、來客、原料茶價與食安成本；全年成長不能用半年EPS簡單乘二。[tr-h1；研究推論]\n6/9官方股東會新聞稿通過每股盈餘配息0.06元及資本公積配現金0.14元，合計0.20元；資本公積不是當年度賺出的EPS。當時只披露前五月營收小幅成長及策略方向，不是全年數字財測。原始新聞稿全文已讀，不宣稱股東問答或議事錄全數核對，更不把6月會議當本月新發生事件。[tr-agm]\n本次查找未取得可靠最新公司全年收入／EPS金額財測或具名法人完整預估，預估欄保持缺漏；月營收與股價由網站共同來源更新，本批不重建行情。2026H1附註「無重大期後事項」僅對應財報涵蓋與核准期間，不代表截至10月沒有任何公告。未找到可驗證的新併購重大進度，不作無事件保證。[tr-h1]\n主要風險為消費與禮品需求偏弱、手搖茶飲價格競爭、人員招募／薪資、店租及食安採購成本；國際原料及外幣投資也影響財務。後續正面條件是餐飲獲利持續、茶葉虧損縮小與營業現金流支持展店；若收入成長但費用與租賃承擔更快，需下修原成長假設。[tr-annual、tr-h1；研究推論]\n資料限制：獨立新品收入、逐案客戶與商用年月、單店獲利／同店銷售未完整揭露；不因合理查找結束就宣稱所有資料公開。既有年報2025比重及年底店數保留原期間；本次H1已用最新官方PDF核對。完成為整家公司公開資料查找與缺漏交代，不刷新全公司reviewed_at。",
+        "period": "2025全年／2026H1／6/9股東會新聞稿；各筆標期",
+        "sources": [
+          "tr-annual",
+          "tr-h1",
+          "tr-agm",
+          "tr-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "tr-annual",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273124241657&fd=Downloads_NFiles&RD=2&dl=2026051915224354822&pname=%e2%98%85%e5%a4%a9%e4%bb%812025%e5%b9%b4%e5%a0%b10511-%e4%b8%8a%e5%82%b3%e7%89%88.pdf&MSID=1",
+          "title": "2025中文年報179實體頁；核讀營運／發展／年度財務等章節",
+          "publisher": "天仁",
+          "published_at": "2026-05-19",
+          "accessed_at": "2026-10-18",
+          "period": "2025實績及2026計畫，逐項標期",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-h1",
+          "url": "https://www.tenren.com.tw/WebTools/FilesDownload.ashx?Siteid=10&Mmmid=654047273111460122&fd=Downloads_NFiles&RD=2&dl=2026051317062667755&pname=%e2%98%85%e5%a4%a9%e4%bb%81115%e5%b9%b4%e7%ac%ac2%e5%ad%a3%e8%b2%a1%e5%a0%b1-final%e7%94%a8%e5%8d%b0.pdf&MSID=2",
+          "title": "2026Q2合併財報73頁；核讀財務主表、業外、租賃、承諾、部門等",
+          "publisher": "天仁",
+          "published_at": "2026-08-12",
+          "accessed_at": "2026-10-18",
+          "period": "2026H1累計／Q2單季及6月底；核閱報告8/11",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-agm",
+          "url": "https://www.tenren.com.tw/Content/IROperOv/contents.aspx?SiteID=10&MmmID=654045726752702774&MSID=1344544163673726335",
+          "title": "6/9股東常會新聞稿全文",
+          "publisher": "天仁",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-10-18",
+          "period": "2026股利決議及當時展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "tr-peer",
+          "url": "https://www.ttch.com.tw/zh/front/index",
+          "title": "台灣農林官方茶業介紹",
+          "publisher": "台灣農林",
+          "published_at": null,
+          "accessed_at": "2026-10-18",
+          "period": "查閱時官網業務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確定首次發布日"
+        }
+      ],
+      "research_completed_at": "2026-10-18T20:33:01.763809+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "天仁整家公司公開資料查核一次交付",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "個別新品／新店營收、單店損益、同店銷售及完整商用時程未揭露",
+        "未取得可靠最新全年公司數字財測或法人共識",
+        "股東會新聞稿全文已讀，不代表原始問答或議事錄全數核對，不查影片",
+        "店數分類有重疊可能且截止期不同，不相加或冒充10月最新",
+        "部分子公司及權益法投資未經核閱，保留財報原有限制",
+        "不把全公司查找完成視為全市場公告監看已完整"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview": {
+    "name": "天仁",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 27,
+    "business": "茶葉、茶飲與門市零售",
+    "direction": "數位商城與會員經營為既有方向；新增案待補核",
+    "profit_mechanism": "茶葉及茶飲毛利，受門市成本與銷售組合影響",
+    "status": "業務概述已整理；新案細節待補核",
+    "screening": "本次財務篩選未觸發；非無風險認定",
+    "urls": [
+      "https://www.tenren.com.tw/index.aspx?SiteID=11",
+      "https://teabrew.tenren.com.tw/?lang=zh-TW",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "合併營業收入",
+      "fy2024": 21.96394,
+      "fy2025": 21.607580000000002,
+      "q32025": 5.26499,
+      "q42025": 5.60818,
+      "q12026": 5.68211,
+      "q22026": 5.48616,
+      "ttm": 22.04144,
+      "h1_operating_profit": 0.54208,
+      "h1_nonoperating": 0.09719,
+      "h1_pretax": 0.63927,
+      "h1_parent_profit": 0.53007,
+      "h1_operating_margin": 0.0485375084950489,
+      "h1_nonoperating_share": 0.152032787398126,
+      "fy2025_parent_profit": 0.6792,
+      "q22026_parent_profit": 0.22602000000000003,
+      "screening": "未觸發本次篩選",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 11.16827,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 21.96394,
+          "net_income": 0.88219,
+          "eps": 0.9700000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 10.73441,
+          "net_income": 0.37178000000000005,
+          "eps": 0.41000000000000003,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "合併營業收入",
+          "revenue": 15.9994,
+          "net_income": 0.49858,
+          "eps": 0.55,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 21.607580000000002,
+          "net_income": 0.6792,
+          "eps": 0.75,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "合併營業收入",
+          "revenue": 5.68211,
+          "net_income": 0.30405000000000004,
+          "eps": 0.34,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 11.16827,
+          "net_income": 0.53007,
+          "eps": 0.5900000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2020-Q4": {
+          "eps": 0.63,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2021-Q4": {
+          "eps": 0.48,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": 0.57,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 1.06,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "合併營業收入",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 5.264989999999999,
+            "eps": 0.14,
+            "net_income": 0.12679999999999997
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 5.608180000000003,
+            "eps": 0.19999999999999996,
+            "net_income": 0.18062
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 5.68211,
+            "eps": 0.34,
+            "net_income": 0.30405000000000004
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 5.48616,
+            "eps": 0.25000000000000006,
+            "net_income": 0.22602
+          }
+        ],
+        "ttms": 22.041440000000005,
+        "ttm_eps": 0.93,
+        "ttm_parent_profit": 0.8374900000000001,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 22.04 億元；每股盈餘 0.93 元；歸母淨利 0.84 億元。營收未扣成本與費用，不等於獲利。獲利機制：茶葉及茶飲毛利，受門市成本與銷售組合影響。",
+    "events": [],
+    "outlooks": [
+      {
+        "type": "待補查／無可用金額",
+        "period": "未確認",
+        "scope": "整體營收",
+        "unit": null,
+        "low": null,
+        "high": null,
+        "published_at": null,
+        "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+        "urls": [
+          "https://www.tenren.com.tw/index.aspx?SiteID=11",
+          "https://teabrew.tenren.com.tw/?lang=zh-TW"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "1233",
+          "name": "天仁",
+          "date": "2026-06-30",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 21.987560000000002,
+          "liabilities": 7.91202,
+          "equity": 14.07554,
+          "parent_equity": 14.04368,
+          "cash": 1.86635,
+          "current_assets": 7.03592,
+          "current_liabilities": 5.3969,
+          "listed_borrowings": 0.8350000000000001,
+          "listed_leases": 2.60207,
+          "operating_cashflow": 1.48645,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1232&companyId=1233&companyId=1234&companyId=1235&companyId=1236",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1232&companyId=1233&companyId=1234&companyId=1235&companyId=1236",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "1233",
+          "name": "天仁",
+          "date": "2025-12-31",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 22.00692,
+          "liabilities": 8.43199,
+          "equity": 13.57493,
+          "parent_equity": 13.54339,
+          "cash": 1.54735,
+          "current_assets": 7.10698,
+          "current_liabilities": 5.91785,
+          "listed_borrowings": 1.35,
+          "listed_leases": 2.6528,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1232&companyId=1233&companyId=1234&companyId=1235&companyId=1236",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+      "basis": "合併",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1232&companyId=1233&companyId=1234&companyId=1235&companyId=1236",
+      "regulatory": {
+        "capital_adequacy": null,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "未取得／不適用"
+      }
+    }
+  },
+  "adoption_rules": {
+    "preserve_company_reviewed_at": true,
+    "new_meeting": false,
+    "preserve_financial_and_balance_numbers": true,
+    "segment_profit_basis": "pretax",
+    "original_qa_verified": false
+  }
+}
