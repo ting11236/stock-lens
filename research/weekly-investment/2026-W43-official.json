@@ -1,0 +1,283 @@
+{
+  "update_id": "2026-W43-price-20261019",
+  "asOf": "2026-10-19",
+  "checkedAt": "2026-10-19T22:18:48+08:00",
+  "companies": {
+    "2330": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 27694594.0,
+        "open": 2395.0,
+        "high": 2420.0,
+        "low": 2390.0,
+        "close": 2420.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 2452.0,
+        "10": 2509.5,
+        "20": 2493.0,
+        "60": 2421.5
+      },
+      "prior20_average_volume": 26736054,
+      "volume_ratio": 1.036,
+      "high20": 2590.0,
+      "low20": 2390.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=2330",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "2308": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 7775191.0,
+        "open": 1600.0,
+        "high": 1655.0,
+        "low": 1590.0,
+        "close": 1640.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 1693.0,
+        "10": 1837.5,
+        "20": 1844.75,
+        "60": 1774.08
+      },
+      "prior20_average_volume": 12355009,
+      "volume_ratio": 0.629,
+      "high20": 2115.0,
+      "low20": 1590.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=2308",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "2345": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 4724708.0,
+        "open": 1925.0,
+        "high": 2055.0,
+        "low": 1910.0,
+        "close": 2005.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 2005.0,
+        "10": 2036.5,
+        "20": 1950.5,
+        "60": 2062.5
+      },
+      "prior20_average_volume": 4638258,
+      "volume_ratio": 1.019,
+      "high20": 2145.0,
+      "low20": 1770.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=2345",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "2382": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 10066904.0,
+        "open": 317.0,
+        "high": 318.0,
+        "low": 311.0,
+        "close": 314.5,
+        "note": ""
+      },
+      "ma": {
+        "5": 319.8,
+        "10": 324.6,
+        "20": 331.77,
+        "60": 326.81
+      },
+      "prior20_average_volume": 12567431,
+      "volume_ratio": 0.801,
+      "high20": 349.0,
+      "low20": 311.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=2382",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "6669": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 6774947.0,
+        "open": 1805.0,
+        "high": 1895.0,
+        "low": 1795.0,
+        "close": 1885.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 1989.0,
+        "10": 2114.0,
+        "20": 2114.25,
+        "60": 4128.83
+      },
+      "prior20_average_volume": 4734234,
+      "volume_ratio": 1.431,
+      "high20": 2335.0,
+      "low20": 1795.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=6669",
+      "corporate_action_status": "incomplete_no_signal"
+    },
+    "3711": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 14628863.0,
+        "open": 640.0,
+        "high": 675.0,
+        "low": 639.0,
+        "close": 670.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 700.2,
+        "10": 722.5,
+        "20": 701.9,
+        "60": 633.45
+      },
+      "prior20_average_volume": 16185534,
+      "volume_ratio": 0.904,
+      "high20": 765.0,
+      "low20": 612.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=3711",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "2383": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 1748592.0,
+        "open": 5010.0,
+        "high": 5165.0,
+        "low": 4955.0,
+        "close": 5125.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 5295.0,
+        "10": 5627.0,
+        "20": 5284.75,
+        "60": 5333.83
+      },
+      "prior20_average_volume": 2874715,
+      "volume_ratio": 0.608,
+      "high20": 6325.0,
+      "low20": 4635.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=2383",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "3017": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 2406224.0,
+        "open": 3220.0,
+        "high": 3350.0,
+        "low": 3180.0,
+        "close": 3320.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 3263.0,
+        "10": 3395.5,
+        "20": 3409.25,
+        "60": 3116.08
+      },
+      "prior20_average_volume": 3129368,
+      "volume_ratio": 0.769,
+      "high20": 3700.0,
+      "low20": 3050.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=3017",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "1590": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 595826.0,
+        "open": 1135.0,
+        "high": 1165.0,
+        "low": 1130.0,
+        "close": 1165.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 1166.0,
+        "10": 1185.0,
+        "20": 1201.5,
+        "60": 1345.5
+      },
+      "prior20_average_volume": 977879,
+      "volume_ratio": 0.609,
+      "high20": 1285.0,
+      "low20": 1130.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=1590",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "1256": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 31573.0,
+        "open": 169.0,
+        "high": 169.0,
+        "low": 165.5,
+        "close": 165.5,
+        "note": ""
+      },
+      "ma": {
+        "5": 168.5,
+        "10": 167.85,
+        "20": 168.25,
+        "60": 175.13
+      },
+      "prior20_average_volume": 42915,
+      "volume_ratio": 0.736,
+      "high20": 174.5,
+      "low20": 163.0,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=1256",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "2108": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 367358.0,
+        "open": 29.3,
+        "high": 29.3,
+        "low": 28.85,
+        "close": 29.15,
+        "note": ""
+      },
+      "ma": {
+        "5": 29.57,
+        "10": 29.46,
+        "20": 29.03,
+        "60": 29.06
+      },
+      "prior20_average_volume": 753809,
+      "volume_ratio": 0.487,
+      "high20": 31.45,
+      "low20": 28.05,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=2108",
+      "corporate_action_status": "no_new_trade_no_holdings; historical_basis_retained"
+    },
+    "2408": {
+      "bar": {
+        "date": "2026-10-19",
+        "volume": 41032350.0,
+        "open": 419.0,
+        "high": 437.0,
+        "low": 415.5,
+        "close": 436.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 458.3,
+        "10": 491.95,
+        "20": 501.68,
+        "60": 486.01
+      },
+      "prior20_average_volume": 48575921,
+      "volume_ratio": 0.845,
+      "high20": 537.0,
+      "low20": 415.5,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261019&stockNo=2408",
+      "corporate_action_status": "incomplete_no_signal"
+    }
+  }
+}
