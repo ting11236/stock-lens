@@ -5583,5 +5583,259 @@
       "status": "event_complete_with_disclosed_gaps",
       "completed_at": "2026-10-18T21:27:36.633240+08:00"
     }
+  },
+  "2014.TW": {
+    "name": "中鴻",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "research_completed_at": "2026-10-19T22:14:17.566150+08:00",
+    "sources": {
+      "ch-h1": {
+        "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_202602c.pdf",
+        "title": "2026H1合併財報57頁；主表、存貨、負債準備、借款及分部等",
+        "publisher": "中鴻",
+        "published_at": null,
+        "accessed_at": "2026-10-19",
+        "period": "2026H1累計／Q2單季及6月底；8/4核閱報告",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "8/4為核閱報告日，首次公開發布日未確定"
+      },
+      "ch-fy": {
+        "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_2025.pdf",
+        "title": "2025合併財報76頁；與個體版本分開",
+        "publisher": "中鴻",
+        "published_at": null,
+        "accessed_at": "2026-10-19",
+        "period": "2025全年及2024比較",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+      },
+      "ch-deck": {
+        "url": "https://www.chsteel.com.tw/cg/pdf/note1150924.pdf",
+        "title": "9/24法說23實體頁全文及圖表",
+        "publisher": "中鴻",
+        "published_at": "2026-09-24",
+        "accessed_at": "2026-10-19",
+        "period": "H1及Q1/Q2財務，9/24展望",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "ch-quality": {
+        "url": "https://www.chsteel.com.tw/csr/cg/cs_qua.html",
+        "title": "官方產品開發與品質改善",
+        "publisher": "中鴻",
+        "published_at": null,
+        "accessed_at": "2026-10-19",
+        "period": "2025成果，查閱日頁面",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+      },
+      "ch-products": {
+        "url": "https://www.chsteel.com.tw/cs/cs.html",
+        "title": "銷售產品與用途",
+        "publisher": "中鴻",
+        "published_at": null,
+        "accessed_at": "2026-10-19",
+        "period": "官網查閱時產品",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+      },
+      "ch-pipe": {
+        "url": "https://www.chsteel.com.tw/pr/pipe_spe.html",
+        "title": "鋼管規格與用途",
+        "publisher": "中鴻",
+        "published_at": null,
+        "accessed_at": "2026-10-19",
+        "period": "官網產品用途",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+      },
+      "ch-mou": {
+        "url": "https://money.udn.com/money/amp/story/5612/9800786",
+        "title": "10/7低碳鋼材合作MOU報導",
+        "publisher": "經濟日報／公司轉述",
+        "published_at": "2026-10-07",
+        "accessed_at": "2026-10-19",
+        "period": "10/7簽署，媒體轉述公司",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "ch-peer": {
+        "url": "https://www.csc.com.tw/csc/pd/inta/inta.html",
+        "title": "中鋼產品介紹",
+        "publisher": "中鋼",
+        "published_at": null,
+        "accessed_at": "2026-10-19",
+        "period": "官網產品用途",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+      }
+    },
+    "limitations": [
+      "官方原始問答文字未取得，不找影片；23頁簡報文字圖表已核對",
+      "新品收入／毛利、具名客戶與完整商用時程未單列",
+      "10/7 MOU採具名媒體轉述，官方完整原稿未取得，不當已生效採購訂單",
+      "未取得新版公司年報全文，以官方全年合併財報、最新簡報及產品／開發頁補核",
+      "未取得可靠最新公司金額財測或法人共識",
+      "簡報Q2稅前率與財報不符，金額採財報；產品圖占比的分母不等於完整合併收入",
+      "本批不代表全市場公告監看完成"
+    ],
+    "meeting_research": {
+      "event_date": "2026-09-24",
+      "completion": "中鴻整家公司及9/24整場可取得公開簡報一次交付",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-10-19",
+      "original_qa_verified": false,
+      "batch_id": "research-20261019-2014-v1"
+    },
+    "business": {
+      "text": "中鴻（2014，上市）為中鋼集團鋼材軋延與加工業者，產品含熱軋、冷軋、熱軋酸洗塗油鋼捲及鋼管，生產據點位於高雄橋頭／大發及彰濱鹿港。9/24簡報列中鋼持股40.59%，不是中鋼全資子公司。上游採購扁鋼胚等鋼材原料，再軋延／加工供應再軋延、裁板、成型、機械結構與製管等客戶；不把集團煉鋼產能全部當成中鴻自有產能。\n熱軋是主要收入來源。9/24簡報的產品銷售圖：Q1熱軋3,877百萬元、冷軋325百萬元、鋼管255百萬元；Q2分別4,970、439、305百萬元。圖示熱軋87%是所列三項產品合計內的比例，三項金額合計與完整合併收入不同，不能稱87%為全公司收入占比，亦非利潤占比。\n2026H1財報僅按中鴻／其他及合併沖銷列分部，沒有揭露熱軋、冷軋、鋼管各自歸母獲利；產品比重不能替代獲利來源。收入主要靠鋼材銷售，加工價差、原料成本、產量及產品組合影響毛利，租金、投資與融資影響最後淨利。\n同業2002中鋼可比較熱軋／冷軋鋼品、鋼價與原料循環，但中鋼製程及產品更多元，含電磁鋼等，另為主要股東，並非獨立且完全同質樣本。比較須網站用同日同口徑數字，保留產品與資產結構差異，不把中鋼整體PE直接套給中鴻。",
+      "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+      "sources": [
+        "ch-h1",
+        "ch-fy",
+        "ch-deck",
+        "ch-quality",
+        "ch-products",
+        "ch-pipe",
+        "ch-mou",
+        "ch-peer"
+      ],
+      "reviewed_at": "2026-10-19"
+    },
+    "earnings": {
+      "text": "鋼材本業在2026年上半年轉盈，但其中包含存貨價格回升帶來的利益。接下來要看售價與原料價差是否持續改善。\n以下為合併、新台幣億元（原財報千元）；EPS元。2025全年收入190.21554億元、營業虧損20.07648億元、歸母淨損18.47819億元、基本EPS−1.29元；2024收入304.61521億元、營業虧損12.40502億元、歸母虧損8.91679億元。營收下降且成本高於收入，主要虧損在本業，不能以業外零星收益淡化鋼材經營壓力。個體報表收入190.21223億元與合併不同，本批採合併。\n2026H1收入103.22219億元、毛利3.14325億元、營業利益1.19919億元、業外−0.18860億元、稅前及歸母淨利1.01059億元；基本EPS0.07元。2025H1毛損10.04811億元、營業虧損12.26528億元。2026Q2單季收入58.08088億元、營業利益2.54286億元、稅前及淨利2.48293億元、EPS0.17元；9/24簡報雖稱第三季法說，財務數字仍為H1／Q1／Q2，不當已公布Q3財報。\n存貨調整是轉盈的重要成分：H1存貨跌價回升利益1.31145億元，去年為跌價損失3.33430億元；Q2回升0.85495億元，去年Q2損失4.98712億元。回升利益列成本、提升毛利，不能再次加到業外；也不代表本期現金流入。H1另提虧損性進貨合約負債準備0.28600億元、期末1.07000億元，顯示尚有不可取消採購承擔。\nH1租金收入0.51808億元、利息收入0.12551億元、淨匯兌利益0.10625億元、權益法利益0.02319億元，財務成本1.01720億元；淨業外仍為負，淨利改善不能歸為業外暴增。產品別獲利未單列，不把熱軋收入占比當獲利占比。\n6月底資產263.82656億元、負債140.97410億元、權益122.85246億元；現金20.21804億元、流動資產79.34533億元、流動負債56.84769億元。短借40.94609億元、短期票券4.99856億元、長借80.96007億元，合計126.90472億元，租賃1.02991億元另列。存貨35.01190億元，低於年底40.58285億元；仍須一起看到期再融資、庫存及借款成本。\nH1營業現金流入15.36219億元，設備購置現金1.09622億元、投資淨流出0.95914億元、籌資淨流出9.67419億元；庫存釋出及往來款回收是現金流的重要部分，不能把營業現金流全解讀為可持續盈利。資本支出已簽約或承諾1.01270億元、已入帳0.45926億元，合約金額不等於新增借款或當期收入。\n9/24簡報將Q2稅前淨利率列4.38%，與財報稅前2.48293／收入58.08088無法相符；4.38%較接近營業利益率。金額採財報，不採該標示作確認稅前率，也不擅自改原簡報。",
+      "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+      "sources": [
+        "ch-h1",
+        "ch-fy",
+        "ch-deck",
+        "ch-quality",
+        "ch-products",
+        "ch-pipe",
+        "ch-mou",
+        "ch-peer"
+      ],
+      "reviewed_at": "2026-10-19"
+    },
+    "developments": {
+      "text": "本次固定追蹤四項：RC95再生材熱軋新品、低碳鋼材合作、熱軋製程及鋼管鋸切改善。RC95已有2025產出與規格驗證；低碳合作目前為MOU及開發／驗證／拓市方向，沒有可核對承諾採購金額或收入。兩者不等於公司自行建置新電爐或已完成跨國新廠擴產。\n製程改善目的在品質與效率，不冒稱新事業；每組鋸片加工量提升不等於整體產能、銷量或獲利提升同樣幅度。個別終端客戶、確定商用年月、收入與毛利未單列者如實保留。未找到可獨立確認為新事業部或量化新產能案的證據。",
+      "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+      "sources": [
+        "ch-h1",
+        "ch-fy",
+        "ch-deck",
+        "ch-quality",
+        "ch-products",
+        "ch-pipe",
+        "ch-mou",
+        "ch-peer"
+      ],
+      "projects": [
+        {
+          "project_id": "2014-rc95-hot-rolled",
+          "name": "RC95再生材熱軋鋼捲",
+          "type": "新產品",
+          "uses_and_customers": "M1008RC95再軋延、S275JRRC95裁板用途；客戶名稱未揭露",
+          "status": "2025完成規格開發與製程驗證，產出610噸；公司稱通過再生材含量驗證",
+          "commercial_timing": "2025已有產出，不等於全部已對外認列收入",
+          "revenue_contribution": "未單列收入或毛利；610噸不是收入金額",
+          "sources": [
+            "ch-quality"
+          ]
+        },
+        {
+          "project_id": "2014-low-carbon-value-chain",
+          "name": "中鋼馬來西亞低碳鋼材合作",
+          "type": "新產品／既有業務合作",
+          "uses_and_customers": "串聯中龍煉鋼、中鴻熱軋、中馬冷軋鍍鋅；合作方不是已下單終端客戶",
+          "status": "10/7簽MOU，媒體轉述產品開發、驗證與市場拓展；官方完整稿本次未取得",
+          "commercial_timing": "未揭露確定量產／交付年月",
+          "revenue_contribution": "未揭露合約金額、訂單及收入，MOU不等於已售產品",
+          "sources": [
+            "ch-mou"
+          ]
+        },
+        {
+          "project_id": "2014-hot-rolling-process",
+          "name": "熱軋負載平衡及品質改善",
+          "type": "既有業務製程升級",
+          "uses_and_customers": "硬薄板生產穩定、減少停機及客戶加工損耗",
+          "status": "2025品質改善成果已披露，非新增獨立事業",
+          "commercial_timing": "既有製程已改善，無獨立新商用日",
+          "revenue_contribution": "未單列新增收入；改善效益是公司估算，非新增營收",
+          "sources": [
+            "ch-quality"
+          ]
+        },
+        {
+          "project_id": "2014-pipe-saw-monitoring",
+          "name": "鹿港鋼管鋸切監診",
+          "type": "既有業務製程升級",
+          "uses_and_customers": "鋸切條件與鋸片使用效率，服務既有鋼管製造",
+          "status": "9/24法說稱已導入，每組鋸片鋸切量約提升95%；不是工廠產能增加95%",
+          "commercial_timing": "已導入，未揭露完整驗收日",
+          "revenue_contribution": "未單列收入或成本節省金額",
+          "sources": [
+            "ch-deck"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-19"
+    },
+    "transition": {
+      "text": "公司發展方向：開發再生材與低碳鋼品，改善熱軋品質及鋼管加工效率。公司在9月24日預期第四季鋼市復甦，尚未公布可核對的全年營收或EPS數字目標。\n9/24法說23頁文字及圖表已核對；公司當時預期第四季鋼市復甦，依據為成本、供給檢修與需求回升。這是9/24公司展望，不是10/19已發生實績，亦不是公司全年營收／EPS金額財測；簡報引用的IMF、worldsteel及WSD預測只作公司當時引用脈絡，未當本批獨立核對的最新全球預測。\n目前研究應同時看成品售價與扁鋼胚採購價差、量與稼動、庫存評價、合約準備及借款成本；鋼價上升若原料漲得更快，不必然增加利潤。H1由虧轉盈且有存貨回升，不能直接外推全年或認定已進入持續高獲利；正面驗證是排除單次評價變動後，價差、現金與出貨改善仍能延續。\n公司提AI投資帶動基建用鋼屬總體需求觀點，未公布AI客戶獨立收入，不將中鴻改列已有直接AI訂單的公司。未取得來源完整、可靠最新公司金額財測或法人EPS共識，預估欄保持缺漏。本批不重建股價／均線或提供尚未核對行情下的買點。\n",
+      "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+      "sources": [
+        "ch-h1",
+        "ch-fy",
+        "ch-deck",
+        "ch-quality",
+        "ch-products",
+        "ch-pipe",
+        "ch-mou",
+        "ch-peer"
+      ],
+      "reviewed_at": "2026-10-19"
+    }
   }
 }

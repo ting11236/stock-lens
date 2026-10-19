@@ -1,0 +1,1062 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261019-2014-v1",
+    "ready": true,
+    "created_at": "2026-10-19T22:14:17.566150+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:b337426523f929539ab28c521f955af370d0459bafba83176490a81475d0bc0a",
+    "work_type": "backfill",
+    "completion_unit": "中鴻整家公司及9/24整場可取得公開簡報一次交付",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "source_periods_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "官方原始問答文字未取得，不找影片；23頁簡報文字圖表已核對",
+      "新品收入／毛利、具名客戶與完整商用時程未單列",
+      "10/7 MOU採具名媒體轉述，官方完整原稿未取得，不當已生效採購訂單",
+      "未取得新版公司年報全文，以官方全年合併財報、最新簡報及產品／開發頁補核",
+      "未取得可靠最新公司金額財測或法人共識",
+      "簡報Q2稅前率與財報不符，金額採財報；產品圖占比的分母不等於完整合併收入",
+      "本批不代表全市場公告監看完成"
+    ],
+    "meeting_research": {
+      "company_code": "2014",
+      "meeting_date": "2026-09-24",
+      "research_complete": true,
+      "scope": "23頁官方文字圖表及最新財報補核；原始問答未取得",
+      "original_qa_verified": false
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261019-2014-v1-business",
+      "task_id": "backfill-20261019-2014",
+      "company_code": "2014",
+      "company_name": "中鴻",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:8ebdc58b017eb539b9a0205a12eaef9f2ba1b8382cb1c352a870165ee769dc37",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "中鴻（2014，上市）為中鋼集團鋼材軋延與加工業者，產品含熱軋、冷軋、熱軋酸洗塗油鋼捲及鋼管，生產據點位於高雄橋頭／大發及彰濱鹿港。9/24簡報列中鋼持股40.59%，不是中鋼全資子公司。上游採購扁鋼胚等鋼材原料，再軋延／加工供應再軋延、裁板、成型、機械結構與製管等客戶；不把集團煉鋼產能全部當成中鴻自有產能。[ch-deck、ch-products、ch-pipe]\n熱軋是主要收入來源。9/24簡報的產品銷售圖：Q1熱軋3,877百萬元、冷軋325百萬元、鋼管255百萬元；Q2分別4,970、439、305百萬元。圖示熱軋87%是所列三項產品合計內的比例，三項金額合計與完整合併收入不同，不能稱87%為全公司收入占比，亦非利潤占比。[ch-deck，實體17頁]\n2026H1財報僅按中鴻／其他及合併沖銷列分部，沒有揭露熱軋、冷軋、鋼管各自歸母獲利；產品比重不能替代獲利來源。收入主要靠鋼材銷售，加工價差、原料成本、產量及產品組合影響毛利，租金、投資與融資影響最後淨利。[ch-h1]\n同業2002中鋼可比較熱軋／冷軋鋼品、鋼價與原料循環，但中鋼製程及產品更多元，含電磁鋼等，另為主要股東，並非獨立且完全同質樣本。比較須網站用同日同口徑數字，保留產品與資產結構差異，不把中鋼整體PE直接套給中鴻。[ch-peer；選擇理由為研究判斷]",
+        "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+        "sources": [
+          "ch-h1",
+          "ch-fy",
+          "ch-deck",
+          "ch-quality",
+          "ch-products",
+          "ch-pipe",
+          "ch-mou",
+          "ch-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "ch-h1",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_202602c.pdf",
+          "title": "2026H1合併財報57頁；主表、存貨、負債準備、借款及分部等",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2026H1累計／Q2單季及6月底；8/4核閱報告",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "8/4為核閱報告日，首次公開發布日未確定"
+        },
+        {
+          "source_id": "ch-fy",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_2025.pdf",
+          "title": "2025合併財報76頁；與個體版本分開",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025全年及2024比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-deck",
+          "url": "https://www.chsteel.com.tw/cg/pdf/note1150924.pdf",
+          "title": "9/24法說23實體頁全文及圖表",
+          "publisher": "中鴻",
+          "published_at": "2026-09-24",
+          "accessed_at": "2026-10-19",
+          "period": "H1及Q1/Q2財務，9/24展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-quality",
+          "url": "https://www.chsteel.com.tw/csr/cg/cs_qua.html",
+          "title": "官方產品開發與品質改善",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025成果，查閱日頁面",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-products",
+          "url": "https://www.chsteel.com.tw/cs/cs.html",
+          "title": "銷售產品與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網查閱時產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-pipe",
+          "url": "https://www.chsteel.com.tw/pr/pipe_spe.html",
+          "title": "鋼管規格與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-mou",
+          "url": "https://money.udn.com/money/amp/story/5612/9800786",
+          "title": "10/7低碳鋼材合作MOU報導",
+          "publisher": "經濟日報／公司轉述",
+          "published_at": "2026-10-07",
+          "accessed_at": "2026-10-19",
+          "period": "10/7簽署，媒體轉述公司",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-peer",
+          "url": "https://www.csc.com.tw/csc/pd/inta/inta.html",
+          "title": "中鋼產品介紹",
+          "publisher": "中鋼",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-19T22:14:17.566150+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "中鴻整家公司及9/24整場可取得公開簡報",
+      "limitations": [
+        "官方原始問答文字未取得，不找影片；23頁簡報文字圖表已核對",
+        "新品收入／毛利、具名客戶與完整商用時程未單列",
+        "10/7 MOU採具名媒體轉述，官方完整原稿未取得，不當已生效採購訂單",
+        "未取得新版公司年報全文，以官方全年合併財報、最新簡報及產品／開發頁補核",
+        "未取得可靠最新公司金額財測或法人共識",
+        "簡報Q2稅前率與財報不符，金額採財報；產品圖占比的分母不等於完整合併收入",
+        "本批不代表全市場公告監看完成"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261019-2014-v1-earnings",
+      "task_id": "backfill-20261019-2014",
+      "company_code": "2014",
+      "company_name": "中鴻",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:8ebdc58b017eb539b9a0205a12eaef9f2ba1b8382cb1c352a870165ee769dc37",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "以下為合併、新台幣億元（原財報千元）；EPS元。2025全年收入190.21554億元、營業虧損20.07648億元、歸母淨損18.47819億元、基本EPS−1.29元；2024收入304.61521億元、營業虧損12.40502億元、歸母虧損8.91679億元。營收下降且成本高於收入，主要虧損在本業，不能以業外零星收益淡化鋼材經營壓力。個體報表收入190.21223億元與合併不同，本批採合併。[ch-fy]\n2026H1收入103.22219億元、毛利3.14325億元、營業利益1.19919億元、業外−0.18860億元、稅前及歸母淨利1.01059億元；基本EPS0.07元。2025H1毛損10.04811億元、營業虧損12.26528億元。2026Q2單季收入58.08088億元、營業利益2.54286億元、稅前及淨利2.48293億元、EPS0.17元；9/24簡報雖稱第三季法說，財務數字仍為H1／Q1／Q2，不當已公布Q3財報。[ch-h1、ch-deck]\n存貨調整是轉盈的重要成分：H1存貨跌價回升利益1.31145億元，去年為跌價損失3.33430億元；Q2回升0.85495億元，去年Q2損失4.98712億元。回升利益列成本、提升毛利，不能再次加到業外；也不代表本期現金流入。H1另提虧損性進貨合約負債準備0.28600億元、期末1.07000億元，顯示尚有不可取消採購承擔。[ch-h1，附註九、二十]\nH1租金收入0.51808億元、利息收入0.12551億元、淨匯兌利益0.10625億元、權益法利益0.02319億元，財務成本1.01720億元；淨業外仍為負，淨利改善不能歸為業外暴增。產品別獲利未單列，不把熱軋收入占比當獲利占比。[ch-h1]\n【負債與現金】6月底資產263.82656億元、負債140.97410億元、權益122.85246億元；現金20.21804億元、流動資產79.34533億元、流動負債56.84769億元。短借40.94609億元、短期票券4.99856億元、長借80.96007億元，合計126.90472億元，租賃1.02991億元另列。存貨35.01190億元，低於年底40.58285億元；仍須一起看到期再融資、庫存及借款成本。[ch-h1，主表]\nH1營業現金流入15.36219億元，設備購置現金1.09622億元、投資淨流出0.95914億元、籌資淨流出9.67419億元；庫存釋出及往來款回收是現金流的重要部分，不能把營業現金流全解讀為可持續盈利。資本支出已簽約或承諾1.01270億元、已入帳0.45926億元，合約金額不等於新增借款或當期收入。[ch-h1]\n【來源差異】9/24簡報將Q2稅前淨利率列4.38%，與財報稅前2.48293／收入58.08088無法相符；4.38%較接近營業利益率。金額採財報，不採該標示作確認稅前率，也不擅自改原簡報。[ch-deck、ch-h1]",
+        "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+        "sources": [
+          "ch-h1",
+          "ch-fy",
+          "ch-deck",
+          "ch-quality",
+          "ch-products",
+          "ch-pipe",
+          "ch-mou",
+          "ch-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "ch-h1",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_202602c.pdf",
+          "title": "2026H1合併財報57頁；主表、存貨、負債準備、借款及分部等",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2026H1累計／Q2單季及6月底；8/4核閱報告",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "8/4為核閱報告日，首次公開發布日未確定"
+        },
+        {
+          "source_id": "ch-fy",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_2025.pdf",
+          "title": "2025合併財報76頁；與個體版本分開",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025全年及2024比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-deck",
+          "url": "https://www.chsteel.com.tw/cg/pdf/note1150924.pdf",
+          "title": "9/24法說23實體頁全文及圖表",
+          "publisher": "中鴻",
+          "published_at": "2026-09-24",
+          "accessed_at": "2026-10-19",
+          "period": "H1及Q1/Q2財務，9/24展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-quality",
+          "url": "https://www.chsteel.com.tw/csr/cg/cs_qua.html",
+          "title": "官方產品開發與品質改善",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025成果，查閱日頁面",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-products",
+          "url": "https://www.chsteel.com.tw/cs/cs.html",
+          "title": "銷售產品與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網查閱時產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-pipe",
+          "url": "https://www.chsteel.com.tw/pr/pipe_spe.html",
+          "title": "鋼管規格與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-mou",
+          "url": "https://money.udn.com/money/amp/story/5612/9800786",
+          "title": "10/7低碳鋼材合作MOU報導",
+          "publisher": "經濟日報／公司轉述",
+          "published_at": "2026-10-07",
+          "accessed_at": "2026-10-19",
+          "period": "10/7簽署，媒體轉述公司",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-peer",
+          "url": "https://www.csc.com.tw/csc/pd/inta/inta.html",
+          "title": "中鋼產品介紹",
+          "publisher": "中鋼",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-19T22:14:17.566150+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "中鴻整家公司及9/24整場可取得公開簡報",
+      "limitations": [
+        "官方原始問答文字未取得，不找影片；23頁簡報文字圖表已核對",
+        "新品收入／毛利、具名客戶與完整商用時程未單列",
+        "10/7 MOU採具名媒體轉述，官方完整原稿未取得，不當已生效採購訂單",
+        "未取得新版公司年報全文，以官方全年合併財報、最新簡報及產品／開發頁補核",
+        "未取得可靠最新公司金額財測或法人共識",
+        "簡報Q2稅前率與財報不符，金額採財報；產品圖占比的分母不等於完整合併收入",
+        "本批不代表全市場公告監看完成"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261019-2014-v1-developments",
+      "task_id": "backfill-20261019-2014",
+      "company_code": "2014",
+      "company_name": "中鴻",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:8ebdc58b017eb539b9a0205a12eaef9f2ba1b8382cb1c352a870165ee769dc37",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "本次固定追蹤四項：RC95再生材熱軋新品、低碳鋼材合作、熱軋製程及鋼管鋸切改善。RC95已有2025產出與規格驗證；低碳合作目前為MOU及開發／驗證／拓市方向，沒有可核對承諾採購金額或收入。兩者不等於公司自行建置新電爐或已完成跨國新廠擴產。[ch-quality、ch-mou]\n製程改善目的在品質與效率，不冒稱新事業；每組鋸片加工量提升不等於整體產能、銷量或獲利提升同樣幅度。個別終端客戶、確定商用年月、收入與毛利未單列者如實保留。未找到可獨立確認為新事業部或量化新產能案的證據。[ch-deck、ch-quality]",
+        "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+        "sources": [
+          "ch-h1",
+          "ch-fy",
+          "ch-deck",
+          "ch-quality",
+          "ch-products",
+          "ch-pipe",
+          "ch-mou",
+          "ch-peer"
+        ],
+        "projects": [
+          {
+            "project_id": "2014-rc95-hot-rolled",
+            "name": "RC95再生材熱軋鋼捲",
+            "type": "新產品",
+            "uses_and_customers": "M1008RC95再軋延、S275JRRC95裁板用途；客戶名稱未揭露",
+            "status": "2025完成規格開發與製程驗證，產出610噸；公司稱通過再生材含量驗證",
+            "commercial_timing": "2025已有產出，不等於全部已對外認列收入",
+            "revenue_contribution": "未單列收入或毛利；610噸不是收入金額",
+            "sources": [
+              "ch-quality"
+            ]
+          },
+          {
+            "project_id": "2014-low-carbon-value-chain",
+            "name": "中鋼馬來西亞低碳鋼材合作",
+            "type": "新產品／既有業務合作",
+            "uses_and_customers": "串聯中龍煉鋼、中鴻熱軋、中馬冷軋鍍鋅；合作方不是已下單終端客戶",
+            "status": "10/7簽MOU，媒體轉述產品開發、驗證與市場拓展；官方完整稿本次未取得",
+            "commercial_timing": "未揭露確定量產／交付年月",
+            "revenue_contribution": "未揭露合約金額、訂單及收入，MOU不等於已售產品",
+            "sources": [
+              "ch-mou"
+            ]
+          },
+          {
+            "project_id": "2014-hot-rolling-process",
+            "name": "熱軋負載平衡及品質改善",
+            "type": "既有業務製程升級",
+            "uses_and_customers": "硬薄板生產穩定、減少停機及客戶加工損耗",
+            "status": "2025品質改善成果已披露，非新增獨立事業",
+            "commercial_timing": "既有製程已改善，無獨立新商用日",
+            "revenue_contribution": "未單列新增收入；改善效益是公司估算，非新增營收",
+            "sources": [
+              "ch-quality"
+            ]
+          },
+          {
+            "project_id": "2014-pipe-saw-monitoring",
+            "name": "鹿港鋼管鋸切監診",
+            "type": "既有業務製程升級",
+            "uses_and_customers": "鋸切條件與鋸片使用效率，服務既有鋼管製造",
+            "status": "9/24法說稱已導入，每組鋸片鋸切量約提升95%；不是工廠產能增加95%",
+            "commercial_timing": "已導入，未揭露完整驗收日",
+            "revenue_contribution": "未單列收入或成本節省金額",
+            "sources": [
+              "ch-deck"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "ch-h1",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_202602c.pdf",
+          "title": "2026H1合併財報57頁；主表、存貨、負債準備、借款及分部等",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2026H1累計／Q2單季及6月底；8/4核閱報告",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "8/4為核閱報告日，首次公開發布日未確定"
+        },
+        {
+          "source_id": "ch-fy",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_2025.pdf",
+          "title": "2025合併財報76頁；與個體版本分開",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025全年及2024比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-deck",
+          "url": "https://www.chsteel.com.tw/cg/pdf/note1150924.pdf",
+          "title": "9/24法說23實體頁全文及圖表",
+          "publisher": "中鴻",
+          "published_at": "2026-09-24",
+          "accessed_at": "2026-10-19",
+          "period": "H1及Q1/Q2財務，9/24展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-quality",
+          "url": "https://www.chsteel.com.tw/csr/cg/cs_qua.html",
+          "title": "官方產品開發與品質改善",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025成果，查閱日頁面",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-products",
+          "url": "https://www.chsteel.com.tw/cs/cs.html",
+          "title": "銷售產品與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網查閱時產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-pipe",
+          "url": "https://www.chsteel.com.tw/pr/pipe_spe.html",
+          "title": "鋼管規格與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-mou",
+          "url": "https://money.udn.com/money/amp/story/5612/9800786",
+          "title": "10/7低碳鋼材合作MOU報導",
+          "publisher": "經濟日報／公司轉述",
+          "published_at": "2026-10-07",
+          "accessed_at": "2026-10-19",
+          "period": "10/7簽署，媒體轉述公司",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-peer",
+          "url": "https://www.csc.com.tw/csc/pd/inta/inta.html",
+          "title": "中鋼產品介紹",
+          "publisher": "中鋼",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-19T22:14:17.566150+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "中鴻整家公司及9/24整場可取得公開簡報",
+      "limitations": [
+        "官方原始問答文字未取得，不找影片；23頁簡報文字圖表已核對",
+        "新品收入／毛利、具名客戶與完整商用時程未單列",
+        "10/7 MOU採具名媒體轉述，官方完整原稿未取得，不當已生效採購訂單",
+        "未取得新版公司年報全文，以官方全年合併財報、最新簡報及產品／開發頁補核",
+        "未取得可靠最新公司金額財測或法人共識",
+        "簡報Q2稅前率與財報不符，金額採財報；產品圖占比的分母不等於完整合併收入",
+        "本批不代表全市場公告監看完成"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261019-2014-v1-transition",
+      "task_id": "backfill-20261019-2014",
+      "company_code": "2014",
+      "company_name": "中鴻",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:8ebdc58b017eb539b9a0205a12eaef9f2ba1b8382cb1c352a870165ee769dc37",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "9/24法說23頁文字及圖表已核對；公司當時預期第四季鋼市復甦，依據為成本、供給檢修與需求回升。這是9/24公司展望，不是10/19已發生實績，亦不是公司全年營收／EPS金額財測；簡報引用的IMF、worldsteel及WSD預測只作公司當時引用脈絡，未當本批獨立核對的最新全球預測。[ch-deck]\n目前研究應同時看成品售價與扁鋼胚採購價差、量與稼動、庫存評價、合約準備及借款成本；鋼價上升若原料漲得更快，不必然增加利潤。H1由虧轉盈且有存貨回升，不能直接外推全年或認定已進入持續高獲利；正面驗證是排除單次評價變動後，價差、現金與出貨改善仍能延續。[ch-h1；研究推論]\n公司提AI投資帶動基建用鋼屬總體需求觀點，未公布AI客戶獨立收入，不將中鴻改列已有直接AI訂單的公司。未取得來源完整、可靠最新公司金額財測或法人EPS共識，預估欄保持缺漏。本批不重建股價／均線或提供尚未核對行情下的買點。[ch-deck]\n本次未取得可核對官方原始問答文字，不找影片；完整可取得簡報與關鍵財報已一次交付。10/7 MOU已讀媒體全文轉述，公司首頁搜尋索引有新稿但直接頁面出現舊版，未把索引當取得官方完整原稿。2025年度財報與個體版本分開，未取得新版公司年報全文，年度業務以法說、產品與官方2025開發成果補核。新產品收入、個別客戶、擴產時間及後續新併購未有可確認證據，不作無事件保證。整家公司公開查找完成附缺漏，不刷新公司reviewed_at。",
+        "period": "2025全年／2026H1／9/24法說／10/7合作，逐筆標期",
+        "sources": [
+          "ch-h1",
+          "ch-fy",
+          "ch-deck",
+          "ch-quality",
+          "ch-products",
+          "ch-pipe",
+          "ch-mou",
+          "ch-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "ch-h1",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_202602c.pdf",
+          "title": "2026H1合併財報57頁；主表、存貨、負債準備、借款及分部等",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2026H1累計／Q2單季及6月底；8/4核閱報告",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "8/4為核閱報告日，首次公開發布日未確定"
+        },
+        {
+          "source_id": "ch-fy",
+          "url": "https://www.chsteel.com.tw/cg/pdf/fin_report_2025.pdf",
+          "title": "2025合併財報76頁；與個體版本分開",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025全年及2024比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-deck",
+          "url": "https://www.chsteel.com.tw/cg/pdf/note1150924.pdf",
+          "title": "9/24法說23實體頁全文及圖表",
+          "publisher": "中鴻",
+          "published_at": "2026-09-24",
+          "accessed_at": "2026-10-19",
+          "period": "H1及Q1/Q2財務，9/24展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-quality",
+          "url": "https://www.chsteel.com.tw/csr/cg/cs_qua.html",
+          "title": "官方產品開發與品質改善",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "2025成果，查閱日頁面",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-products",
+          "url": "https://www.chsteel.com.tw/cs/cs.html",
+          "title": "銷售產品與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網查閱時產品",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-pipe",
+          "url": "https://www.chsteel.com.tw/pr/pipe_spe.html",
+          "title": "鋼管規格與用途",
+          "publisher": "中鴻",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        },
+        {
+          "source_id": "ch-mou",
+          "url": "https://money.udn.com/money/amp/story/5612/9800786",
+          "title": "10/7低碳鋼材合作MOU報導",
+          "publisher": "經濟日報／公司轉述",
+          "published_at": "2026-10-07",
+          "accessed_at": "2026-10-19",
+          "period": "10/7簽署，媒體轉述公司",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "ch-peer",
+          "url": "https://www.csc.com.tw/csc/pd/inta/inta.html",
+          "title": "中鋼產品介紹",
+          "publisher": "中鋼",
+          "published_at": null,
+          "accessed_at": "2026-10-19",
+          "period": "官網產品用途",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "未確認首次發布日，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-19T22:14:17.566150+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "中鴻整家公司及9/24整場可取得公開簡報",
+      "limitations": [
+        "官方原始問答文字未取得，不找影片；23頁簡報文字圖表已核對",
+        "新品收入／毛利、具名客戶與完整商用時程未單列",
+        "10/7 MOU採具名媒體轉述，官方完整原稿未取得，不當已生效採購訂單",
+        "未取得新版公司年報全文，以官方全年合併財報、最新簡報及產品／開發頁補核",
+        "未取得可靠最新公司金額財測或法人共識",
+        "簡報Q2稅前率與財報不符，金額採財報；產品圖占比的分母不等於完整合併收入",
+        "本批不代表全市場公告監看完成"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference"
+    }
+  ],
+  "before_official_record": null,
+  "before_overview": {
+    "name": "中鴻",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 215,
+    "business": "熱軋、冷軋、酸洗塗油鋼捲及鋼管",
+    "direction": "高附加價值利基鋼品開發；最新商品化貢獻待補核",
+    "profit_mechanism": "軋鋼及鋼管毛利，受鋼胚成本、鋼价與需求影響",
+    "status": "業務概述已整理；新案細節待補核",
+    "screening": "2024全年母公司淨損；2025全年母公司淨損；2025Q3母公司淨損；2025Q4母公司淨損；2026Q1母公司淨損",
+    "urls": [
+      "https://www.chsteel.com.tw/pr/pro.html",
+      "https://www.chsteel.com.tw/csr/cg/cs_qua.html",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "合併營業收入",
+      "fy2024": 304.61521,
+      "fy2025": 190.21554,
+      "q32025": 41.165710000000004,
+      "q42025": 37.84163,
+      "q12026": 45.141310000000004,
+      "q22026": 58.08088,
+      "ttm": 182.22952999999998,
+      "h1_operating_profit": 1.19919,
+      "h1_nonoperating": -0.18860000000000002,
+      "h1_pretax": 1.01059,
+      "h1_parent_profit": 1.01059,
+      "h1_operating_margin": 0.0116175601389585,
+      "h1_nonoperating_share": -0.186623655488378,
+      "fy2025_parent_profit": -18.47819,
+      "q22026_parent_profit": 2.48293,
+      "screening": "2024全年母公司淨損；2025全年母公司淨損；2025Q3母公司淨損；2025Q4母公司淨損；2026Q1母公司淨損",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 103.22219,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 304.61521,
+          "net_income": -8.91679,
+          "eps": -0.62,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 111.20819999999999,
+          "net_income": -10.4887,
+          "eps": -0.7300000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "合併營業收入",
+          "revenue": 152.37391,
+          "net_income": -15.843160000000001,
+          "eps": -1.1,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 190.21554,
+          "net_income": -18.47819,
+          "eps": -1.29,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "合併營業收入",
+          "revenue": 45.141310000000004,
+          "net_income": -1.47234,
+          "eps": -0.1,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 103.22219,
+          "net_income": 1.01059,
+          "eps": 0.06999999999999999,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2020-Q4": {
+          "eps": 0.37,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2021-Q4": {
+          "eps": 4.42,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": -0.69,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 0.11,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "合併營業收入",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 41.165710000000004,
+            "eps": -0.37,
+            "net_income": -5.354460000000001
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 37.84163000000001,
+            "eps": -0.18999999999999995,
+            "net_income": -2.6350300000000004
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 45.141310000000004,
+            "eps": -0.1,
+            "net_income": -1.47234
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 58.08087999999999,
+            "eps": 0.16999999999999998,
+            "net_income": 2.48293
+          }
+        ],
+        "ttms": 182.22953,
+        "ttm_eps": -0.4899999999999999,
+        "ttm_parent_profit": -6.978900000000001,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 182.23 億元；每股盈餘 -0.49 元；歸母淨利 -6.98 億元。營收未扣成本與費用，不等於獲利。獲利機制：軋鋼及鋼管毛利，受鋼胚成本、鋼价與需求影響。",
+    "events": [
+      {
+        "period": "2024全年",
+        "type": "虧損",
+        "status": "財報數值確認",
+        "text": "歸屬母公司淨損-8.92億元；原因尚未逐項核對。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2025全年",
+        "type": "虧損",
+        "status": "財報數值確認",
+        "text": "歸屬母公司淨損-18.48億元；原因尚未逐項核對。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2025Q3",
+        "type": "單季虧損",
+        "status": "累計差額計算",
+        "text": "歸屬母公司淨損-5.35億元；Q2／Q3／Q4由累計差額計算。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2025Q4",
+        "type": "單季虧損",
+        "status": "累計差額計算",
+        "text": "歸屬母公司淨損-2.64億元；Q2／Q3／Q4由累計差額計算。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2026Q1",
+        "type": "單季虧損",
+        "status": "累計差額計算",
+        "text": "歸屬母公司淨損-1.47億元；Q2／Q3／Q4由累計差額計算。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "outlooks": [
+      {
+        "type": "待補查／無可用金額",
+        "period": "未確認",
+        "scope": "整體營收",
+        "unit": null,
+        "low": null,
+        "high": null,
+        "published_at": null,
+        "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+        "urls": [
+          "https://www.chsteel.com.tw/pr/pro.html",
+          "https://www.chsteel.com.tw/csr/cg/cs_qua.html"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "2014",
+          "name": "中鴻",
+          "date": "2026-06-30",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 263.82656,
+          "liabilities": 140.9741,
+          "equity": 122.85246,
+          "parent_equity": 122.85246,
+          "cash": 20.218040000000002,
+          "current_assets": 79.34533,
+          "current_liabilities": 56.84769,
+          "listed_borrowings": 126.90472,
+          "listed_leases": 1.02991,
+          "operating_cashflow": 15.36219,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2009&companyId=2010&companyId=2012&companyId=2013&companyId=2014",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2009&companyId=2010&companyId=2012&companyId=2013&companyId=2014",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "2014",
+          "name": "中鴻",
+          "date": "2025-12-31",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 268.86152,
+          "liabilities": 147.74799,
+          "equity": 121.11353,
+          "parent_equity": 121.11353,
+          "cash": 17.532,
+          "current_assets": 82.90243000000001,
+          "current_liabilities": 56.504960000000004,
+          "listed_borrowings": 137.53621,
+          "listed_leases": 1.10599,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2009&companyId=2010&companyId=2012&companyId=2013&companyId=2014",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+      "basis": "合併",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2009&companyId=2010&companyId=2012&companyId=2013&companyId=2014",
+      "regulatory": {
+        "capital_adequacy": null,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "未取得／不適用"
+      }
+    }
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "financial_numbers_preserved": true,
+    "ledger_after_live_verification": true,
+    "original_qa_verified": false
+  }
+}
