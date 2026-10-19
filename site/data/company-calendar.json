@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-20",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -2089,18 +2089,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2474.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-19",
-        "description": "本公司受邀參加國票證券舉辦之法人座談會",
-        "end_date": "2026-10-19",
-        "kind": "法說會",
-        "location": "國票證券會議室",
-        "name": "可成",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2474.TW",
-        "time": "12:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2645,18 +2634,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2889.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-19",
-        "description": "本公司自辦說明會，說明公司營運概況",
-        "end_date": "2026-10-19",
-        "kind": "法說會",
-        "location": "本次法說會為線上說明會。",
-        "name": "國票金",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2889.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -44257,37 +44235,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-19",
+      "checked_at": "2026-10-20",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-19",
+      "checked_at": "2026-10-20",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-19",
+      "checked_at": "2026-10-20",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-19",
+      "checked_at": "2026-10-20",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-19",
+      "checked_at": "2026-10-20",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-19",
+      "checked_at": "2026-10-20",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -65223,7 +65201,37 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "6949.TW",
       "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-19",
+      "description": "本公司受邀參加國票證券舉辦之法人座談會",
+      "due_date": "2026-10-20",
+      "end_date": "2026-10-19",
+      "kind": "法說會",
+      "location": "國票證券會議室",
+      "name": "可成",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2474.TW",
+      "time": "12:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-19",
+      "description": "本公司自辦說明會，說明公司營運概況",
+      "due_date": "2026-10-20",
+      "end_date": "2026-10-19",
+      "kind": "法說會",
+      "location": "本次法說會為線上說明會。",
+      "name": "國票金",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2889.TW",
+      "time": "14:00"
     }
   ],
-  "updated_at": "2026-10-19T22:23:24+08:00"
+  "updated_at": "2026-10-20T01:00:32+08:00"
 }
