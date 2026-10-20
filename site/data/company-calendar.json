@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20",
+  "as_of": "2026-10-21",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -354,18 +354,7 @@
     },
     "1439.TW": {
       "next_conference": null,
-      "next_shareholders": {
-        "cancelled": false,
-        "date": "2026-10-20",
-        "description": "已公告股東會日期",
-        "end_date": "2026-10-20",
-        "kind": "股東臨時會",
-        "location": "",
-        "name": "雋揚",
-        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-        "symbol": "1439.TW",
-        "time": ""
-      },
+      "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "1440.TW": {
@@ -1477,18 +1466,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2317.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-10-15",
-        "description": "115年10月15日受Silver Points 邀請參加投資人會議，說明本公司營運概況。 115年10月20日受Auerbach Grayson 邀請參加投資人會議，說明本公司營運概況。",
-        "end_date": "2026-10-20",
-        "kind": "法說會",
-        "location": "電話會議",
-        "name": "鴻海",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-        "symbol": "2317.TW",
-        "time": "09:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1646,18 +1624,7 @@
     },
     "2360.TW": {
       "next_conference": null,
-      "next_shareholders": {
-        "cancelled": false,
-        "date": "2026-10-20",
-        "description": "已公告股東會日期",
-        "end_date": "2026-10-20",
-        "kind": "股東臨時會",
-        "location": "",
-        "name": "致茂",
-        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-        "symbol": "2360.TW",
-        "time": ""
-      },
+      "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "2362.TW": {
@@ -5424,15 +5391,15 @@
     "7769.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-10-13",
-        "description": "本公司受邀參加元大證券舉辦之美國NDR，說明本公司營運概況。",
-        "end_date": "2026-10-20",
+        "date": "2026-10-28",
+        "description": "本公司受國泰證券股份有限公司邀請參加線上法人說明會，說明本公司營運及業務狀況。",
+        "end_date": "2026-10-28",
         "kind": "法說會",
-        "location": "美國",
+        "location": "線上法說會",
         "name": "鴻勁",
         "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
         "symbol": "7769.TW",
-        "time": "09:00"
+        "time": "14:30"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -44969,37 +44936,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-20",
+      "checked_at": "2026-10-21",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-20",
+      "checked_at": "2026-10-21",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-20",
+      "checked_at": "2026-10-21",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-20",
+      "checked_at": "2026-10-21",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-20",
+      "checked_at": "2026-10-21",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-20",
+      "checked_at": "2026-10-21",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -66693,7 +66660,82 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9955.TW",
       "time": "171630"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-20",
+      "description": "已公告股東會日期",
+      "due_date": "2026-10-21",
+      "end_date": "2026-10-20",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "雋揚",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1439.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-15",
+      "description": "115年10月15日受Silver Points 邀請參加投資人會議，說明本公司營運概況。 115年10月20日受Auerbach Grayson 邀請參加投資人會議，說明本公司營運概況。",
+      "due_date": "2026-10-21",
+      "end_date": "2026-10-20",
+      "kind": "法說會",
+      "location": "電話會議",
+      "name": "鴻海",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2317.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-20",
+      "description": "115年10月20日受凱基證券邀請參加投資人會議，說明本公司營運概況。",
+      "due_date": "2026-10-21",
+      "end_date": "2026-10-20",
+      "kind": "法說會",
+      "location": "凱基金融大樓",
+      "name": "鴻海",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2317.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-20",
+      "description": "已公告股東會日期",
+      "due_date": "2026-10-21",
+      "end_date": "2026-10-20",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "致茂",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2360.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-13",
+      "description": "本公司受邀參加元大證券舉辦之美國NDR，說明本公司營運概況。",
+      "due_date": "2026-10-21",
+      "end_date": "2026-10-20",
+      "kind": "法說會",
+      "location": "美國",
+      "name": "鴻勁",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7769.TW",
+      "time": "09:00"
     }
   ],
-  "updated_at": "2026-10-20T23:09:20+08:00"
+  "updated_at": "2026-10-21T00:07:50+08:00"
 }
