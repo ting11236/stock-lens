@@ -1,6 +1,8 @@
 {
-  "errors": {},
-  "latest_price_date": "2026-10-16",
-  "since": "2026-10-17T13:46:56+00:00",
-  "state": "ok"
+  "errors": {
+    "eps": "JSONDecodeError：來源未通過下載或格式檢查"
+  },
+  "latest_price_date": "2026-10-19",
+  "since": "2026-10-20T15:08:53+00:00",
+  "state": "partial"
 }
