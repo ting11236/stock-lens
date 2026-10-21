@@ -165,6 +165,21 @@
       "publication_commit": "8ef09ef19c3c9be6d97697fe886dc4f29f8f2a29",
       "workflow_run_id": 39579269137,
       "verified_at": "2026-10-21T17:46:51.622031+08:00"
+    },
+    {
+      "symbol": "1215.TW",
+      "name": "卜蜂",
+      "kind": "法說會",
+      "meeting_date": "2026-09-21",
+      "summary_updated_at": "2026-10-21",
+      "batch_id": "research-20261021-1215-v2",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "2b5a11088bdfae894db7b793cd8e0c83f393a195",
+      "workflow_run_id": 39624364752,
+      "verified_at": "2026-10-21T23:52:08.600479+08:00"
     }
   ]
 }
