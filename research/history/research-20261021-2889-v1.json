@@ -1,0 +1,831 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261021-2889-v1",
+    "ready": true,
+    "created_at": "2026-10-21T17:40:04.788722+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:9c78d964c33fd6b753490a535779e5f89671fc0fd5c724005e5fe7f109e23db0",
+    "work_type": "backfill",
+    "completion_unit": "國票金整家公司及10/19完整公開資料一次交付",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "all_55_slides_read": true,
+      "charts_checked": true,
+      "source_conflicts_disclosed": true
+    },
+    "limitations": [
+      "官方問答文字未取得，第55頁僅Q&A封面；不找影片",
+      "國旺投資損失季度標籤衝突，不採確認單季數字",
+      "未取得完整新版年報，以官網、正式半年報及55頁最新法說補核",
+      "未取得可靠公司金額財測或具名法人最新共識",
+      "新服務個別客戶、完整商用日及收入未單列",
+      "不代表全市場歷史公告已收齊"
+    ],
+    "meeting_research": {
+      "company_code": "2889",
+      "meeting_date": "2026-10-19",
+      "research_complete": true,
+      "original_qa_verified": false,
+      "scope": "完整55頁簡報文字圖表及正式H1財報補核，問答缺漏明示"
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261021-2889-v1-business",
+      "task_id": "backfill-20261021-2889",
+      "company_code": "2889",
+      "company_name": "國票金",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:72adeb4d5247fa0aef6ef106f5b57c939bf3d645f3f2a277fce8b9fdc529fcef",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "國票金（2889，上市）以直接金融為核心，母公司管理金融投資，主要透過國際票券承作商業本票承銷、簽證、保證與票債券交易，透過國票證券經營經紀、融資融券、自營及承銷，另有創投、台灣國票金租賃及中國國旺租賃。企業籌資／週轉、機構資金運用與個人證券交易是不同客群；法定可投資保險等事業，不代表目前每類均已實際經營。[company、deck]\n9月底組織圖：國際票券、國票創投及國票金租賃為100%持股，國票證券61.72%；樂天國際銀行持股49%，依半年報為權益法關聯企業，並無控制力，不是合併銀行子公司，不能把其所有存放款加到金控合併規模。台灣租賃與中國國旺須分開辨識。[deck第3頁、h1附註]\n前三季國際票券業務收益結構為票券72.75%、債券14.82%、股權13.77%、其他−1.34%；這是子公司收益結構，不是金控歸母利潤比例。國票證券收入以經紀59.55%、自營37.71%、承銷2.46%為主；主要獲利具有市場成交量、利差、債券評價與自營操作敏感度，不可當穩定製造業訂單。[deck第10、22頁]\n相似同業可用2883凱基金的證券子業務比較經紀、自營、承銷、債券及衍生品，但凱基集團另有人壽、銀行等業務，集團整體並不完全可比；比較應由網站取同日同口徑數字，不能將整體金控PE無差別套用。凱基證券官網可核對其相關業務，選擇理由為研究判斷。[peer]",
+        "period": "逐段標示2026H1／前三季／9月底／10/19展望",
+        "sources": [
+          "deck",
+          "h1",
+          "company",
+          "meeting-index",
+          "peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "deck",
+          "url": "https://www.ibf.com.tw/Uploads/10-aee2ff3f.pdf",
+          "title": "10/19營運說明會55頁全文及圖表",
+          "publisher": "國票金控",
+          "published_at": "2026-10-19",
+          "accessed_at": "2026-10-21",
+          "period": "2026年1–9月累計／9月底；歷年比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1",
+          "url": "https://www.ibf.com.tw/Uploads/12-355d1b90.pdf",
+          "title": "2026第二季合併財報，主表與關聯企業附註",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026H1累計／Q2單季及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.ibf.com.tw/company",
+          "title": "公司簡介與業務範圍",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "查閱時官網",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://www.ibf.com.tw/analyst_meeting/2026",
+          "title": "官方法說目錄",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026會議",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "peer",
+          "url": "https://www.kgi.com.tw/zh-tw/others/about-kgis",
+          "title": "凱基證券業務介紹",
+          "publisher": "凱基證券",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "業務比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-21T17:40:04.788722+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/19整場可取得公開資料",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "官方問答文字未取得，第55頁僅Q&A封面；不找影片",
+        "國旺投資損失季度標籤衝突，不採確認單季數字",
+        "未取得完整新版年報，以官網、正式半年報及55頁最新法說補核",
+        "未取得可靠公司金額財測或具名法人最新共識",
+        "新服務個別客戶、完整商用日及收入未單列",
+        "不代表全市場歷史公告已收齊"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261021-2889-v1-earnings",
+      "task_id": "backfill-20261021-2889",
+      "company_code": "2889",
+      "company_name": "國票金",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:72adeb4d5247fa0aef6ef106f5b57c939bf3d645f3f2a277fce8b9fdc529fcef",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "【最新法說口徑】10/19簡報列2026年1–9月累計金控稅後淨利3,693百萬元（36.93億元）、EPS1.01元，2025全年2,296百萬元、EPS0.63元；為公司簡報所列前三季數字，不冒稱已取得第三季正式完整財報。子公司貢獻表合計3,793百萬元，票券2,140、證券2,009、創投−180、台灣租賃26、樂天−202百萬元；該合計與金控3,693不同，不直接視為最終歸母淨利。票券與證券貢獻比例相加超過100%源於其他負貢獻，非錯把虧損填零。[deck第4、8頁]\n國票證券前三季收入8,662,699千元，其中自營3,267,260千元，較去年同期增加244.99%；經紀收入5,158,372千元、年增97.24%。交易及操作改善是當期重要動能，不把金融商品損益一律歸為偶發業外，也不能將行情帶動的高成長固定外推。[deck第22–23頁]\n【正式半年報補核】2026H1合併淨收益74.32502億元，歸母淨利27.82992億元、EPS0.77元，與共享網站基線一致；金控淨收益不是工業公司營業額，毛利率不適用。6月底合併資產5,080.81084億元、負債4,517.65803億元、權益563.15281億元；附買回票債券負債及同業融資是重要資金來源，總負債不能直接等同一般公司借款或危機。[h1主表]\n【資本、現金與損失風險】簡報9月底CAR129.1%、DLR117.66%，與6月底網站基線並非同日；沒有把DLR當負債比或宣稱流動性無風險。半年報現金流中的現金範圍含符合條件附賣回，與資產負債表現金不同。金融營運現金流受金融資產與資金調度影響，不只用正負判斷獲利品質。[deck第6頁；h1]\n創投前三季收益表權益法損失341,447千元，有價證券出售及評價利益177,104千元，仍有負收益；不能將創投整段損失歸因於單一未揭露案件。國旺租賃9月底逾放比25.04%，與台灣國票金租賃不可混為一談。國旺投資損失−163,443千元在同頁表格標2026Q1、內文稱第二季，期間衝突，本批不採作確認季度數字；另國旺圖表左軸出現格式異常，不由圖推算授信金額。樂天前三季仍為負貢獻，資產與戶數成長不代表損益兩平。[deck第29、33–36、44頁]",
+        "period": "逐段標示2026H1／前三季／9月底／10/19展望",
+        "sources": [
+          "deck",
+          "h1",
+          "company",
+          "meeting-index",
+          "peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "deck",
+          "url": "https://www.ibf.com.tw/Uploads/10-aee2ff3f.pdf",
+          "title": "10/19營運說明會55頁全文及圖表",
+          "publisher": "國票金控",
+          "published_at": "2026-10-19",
+          "accessed_at": "2026-10-21",
+          "period": "2026年1–9月累計／9月底；歷年比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1",
+          "url": "https://www.ibf.com.tw/Uploads/12-355d1b90.pdf",
+          "title": "2026第二季合併財報，主表與關聯企業附註",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026H1累計／Q2單季及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.ibf.com.tw/company",
+          "title": "公司簡介與業務範圍",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "查閱時官網",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://www.ibf.com.tw/analyst_meeting/2026",
+          "title": "官方法說目錄",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026會議",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "peer",
+          "url": "https://www.kgi.com.tw/zh-tw/others/about-kgis",
+          "title": "凱基證券業務介紹",
+          "publisher": "凱基證券",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "業務比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-21T17:40:04.788722+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/19整場可取得公開資料",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "官方問答文字未取得，第55頁僅Q&A封面；不找影片",
+        "國旺投資損失季度標籤衝突，不採確認單季數字",
+        "未取得完整新版年報，以官網、正式半年報及55頁最新法說補核",
+        "未取得可靠公司金額財測或具名法人最新共識",
+        "新服務個別客戶、完整商用日及收入未單列",
+        "不代表全市場歷史公告已收齊"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261021-2889-v1-developments",
+      "task_id": "backfill-20261021-2889",
+      "company_code": "2889",
+      "company_name": "國票金",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:72adeb4d5247fa0aef6ef106f5b57c939bf3d645f3f2a277fce8b9fdc529fcef",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "固定追蹤五個發展項目，均區分新服務與既有業務擴大，不把資金餘額、授信額度或投資額當收入。[deck]\n一、永續發展票券：2025已完成首批承銷，9月底餘額17.5億元；現階段專項資金用途，未來一般用途／連結票券仍為發展方向，沒有確定新上線日與收入目標。二、FRCP及綠能融資：既有票券承作擴大，9月底FRCP合約約958億元、動用約953億元，均不是營收；綠能額度與動用、綠色FRCP及ESG融資口徑不完全相同，不相加以免重複。[deck第15–19、50頁]\n三、台灣國票金租賃：2024年4月成立、資本10億元，承作企業分期及貸與，前三季稅後淨利26,301千元；不是中國國旺。簡報第38頁合計108,774千元包含投資收益，第39頁營業收入75,327千元，兩者不同，不混為單一營收。四、樂天企業網銀及企業自貸：既有網銀新服務擴展，9月底企金放款77.4億元、個貸292.6億元為餘額，不是營收；損益兩平仍是目標，未給確定年份。五、證券數位平台及高頻／造市：既有金融服務功能精進，列有智慧單、API與主機共置；不把所有平台當本年新上市，也無單獨AI收入可確認。[deck第24–27、38–46頁]\n每項具名終端客戶、可歸屬新增收入、毛利與完整商用日未單列者保留未揭露，不以零替代；創投的AI、半導體等投資方向是資產配置，不等於國票本身已有AI產品訂單。[deck第31–32頁]",
+        "period": "逐段標示2026H1／前三季／9月底／10/19展望",
+        "sources": [
+          "deck",
+          "h1",
+          "company",
+          "meeting-index",
+          "peer"
+        ],
+        "projects": [
+          {
+            "project_id": "2889-sustainable-cp",
+            "name": "永續發展票券",
+            "type": "新金融產品／既有服務延伸",
+            "uses_and_customers": "企業永續用途籌資，具名客戶未揭露",
+            "status": "2025首批已承銷，9月底餘額17.5億元",
+            "commercial_timing": "既有產品已服務；一般用途產品未給日期",
+            "revenue_contribution": "未單列收入，餘額不是收入",
+            "sources": [
+              "deck"
+            ]
+          },
+          {
+            "project_id": "2889-frcp-green",
+            "name": "FRCP及綠能授信",
+            "type": "既有業務規模擴大",
+            "uses_and_customers": "企業中長期週轉、綠能融資",
+            "status": "FRCP合約958億元、動用953億元",
+            "commercial_timing": "持續承作，無獨立新商用日",
+            "revenue_contribution": "未單列新增收入",
+            "sources": [
+              "deck"
+            ]
+          },
+          {
+            "project_id": "2889-taiwan-leasing",
+            "name": "台灣國票金租賃",
+            "type": "新事業，2024已成立",
+            "uses_and_customers": "企業分期及資金貸與",
+            "status": "2024/4成立，2026前三季獲利26,301千元",
+            "commercial_timing": "已營運",
+            "revenue_contribution": "前三季營業收入75,327千元；非全部新增收入",
+            "sources": [
+              "deck"
+            ]
+          },
+          {
+            "project_id": "2889-rakuten-corporate",
+            "name": "樂天企業網銀與自貸",
+            "type": "既有業務新服務／擴展",
+            "uses_and_customers": "企業開戶、支付及融資",
+            "status": "企業網銀已作業務媒介，拓展企業自貸",
+            "commercial_timing": "未給全部功能推出日、損平年月",
+            "revenue_contribution": "未單列；關聯企業權益法",
+            "sources": [
+              "deck"
+            ]
+          },
+          {
+            "project_id": "2889-securities-digital",
+            "name": "證券數位平台與造市精進",
+            "type": "既有業務產品／通路升級",
+            "uses_and_customers": "個人及高頻機構交易，客戶名未揭露",
+            "status": "已有APP、智慧單及主機共置，持續精進",
+            "commercial_timing": "已提供功能不冒稱2026全新",
+            "revenue_contribution": "未單列平台或AI收入",
+            "sources": [
+              "deck"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "deck",
+          "url": "https://www.ibf.com.tw/Uploads/10-aee2ff3f.pdf",
+          "title": "10/19營運說明會55頁全文及圖表",
+          "publisher": "國票金控",
+          "published_at": "2026-10-19",
+          "accessed_at": "2026-10-21",
+          "period": "2026年1–9月累計／9月底；歷年比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1",
+          "url": "https://www.ibf.com.tw/Uploads/12-355d1b90.pdf",
+          "title": "2026第二季合併財報，主表與關聯企業附註",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026H1累計／Q2單季及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.ibf.com.tw/company",
+          "title": "公司簡介與業務範圍",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "查閱時官網",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://www.ibf.com.tw/analyst_meeting/2026",
+          "title": "官方法說目錄",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026會議",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "peer",
+          "url": "https://www.kgi.com.tw/zh-tw/others/about-kgis",
+          "title": "凱基證券業務介紹",
+          "publisher": "凱基證券",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "業務比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-21T17:40:04.788722+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/19整場可取得公開資料",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "官方問答文字未取得，第55頁僅Q&A封面；不找影片",
+        "國旺投資損失季度標籤衝突，不採確認單季數字",
+        "未取得完整新版年報，以官網、正式半年報及55頁最新法說補核",
+        "未取得可靠公司金額財測或具名法人最新共識",
+        "新服務個別客戶、完整商用日及收入未單列",
+        "不代表全市場歷史公告已收齊"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261021-2889-v1-transition",
+      "task_id": "backfill-20261021-2889",
+      "company_code": "2889",
+      "company_name": "國票金",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:72adeb4d5247fa0aef6ef106f5b57c939bf3d645f3f2a277fce8b9fdc529fcef",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "10/19整場可取得55頁官方簡報已讀全文並逐頁檢視圖表，包含票券、證券、創投、中國租賃、台灣租賃、樂天與ESG，並以正式半年報補核。最後第55頁只有Q&A標題，官方會議目錄未提供可核對問答文字；因此不宣稱核對了現場回答，不找影片。[deck、meeting-index]\n公司計畫優化債券組合收益與流動性、擴大綠能及永續票券、爭取證券經紀／承銷、擴張台灣租賃及網銀獲利性資產。這些為公司方向，未取得可靠具名法人最新EPS共識或公司未來全年營收／EPS金額財測；以not_found保留，不由前三季年化充當財測。[deck]\n研究判斷：持續成長需證券成交與自營收入延續、票券利差及資金成本穩定，同時國旺逾放與創投、樂天虧損受控。票券自保前三季日均餘額增至1,401億元但利差較去年同期下降4.23bp，不能只看規模；外幣資金圖9月底國外銀行44%、國內56%，較年底37%／63%反向變化，雖國內仍逾半，不能寫成國內占比持續提升。債券投資頁稱全為投資等級，不將另頁「高收益率」文字直接改寫為持有非投資等級高收益債。[deck第11–14頁]\n另綠能動用成長標示與基期算式、國旺季度標籤存在口徑／格式問題，本批保留原始金額及問題而不重算當作官方修正。簡報中的央行、利率、法律及地緣敘述僅當公司當時假設，沒有獨立核對的總體資訊不升格為本研究確認事實。未核得新併購，不作絕無併購保證；未取得新版年報全文，本次核心業務以官網、半年報關係架構及最新完整法說交叉補核。此為全公司公開查找完成附缺漏，不等於全市場公告已齊。",
+        "period": "逐段標示2026H1／前三季／9月底／10/19展望",
+        "sources": [
+          "deck",
+          "h1",
+          "company",
+          "meeting-index",
+          "peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "deck",
+          "url": "https://www.ibf.com.tw/Uploads/10-aee2ff3f.pdf",
+          "title": "10/19營運說明會55頁全文及圖表",
+          "publisher": "國票金控",
+          "published_at": "2026-10-19",
+          "accessed_at": "2026-10-21",
+          "period": "2026年1–9月累計／9月底；歷年比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1",
+          "url": "https://www.ibf.com.tw/Uploads/12-355d1b90.pdf",
+          "title": "2026第二季合併財報，主表與關聯企業附註",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026H1累計／Q2單季及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.ibf.com.tw/company",
+          "title": "公司簡介與業務範圍",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "查閱時官網",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://www.ibf.com.tw/analyst_meeting/2026",
+          "title": "官方法說目錄",
+          "publisher": "國票金控",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "2026會議",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        },
+        {
+          "source_id": "peer",
+          "url": "https://www.kgi.com.tw/zh-tw/others/about-kgis",
+          "title": "凱基證券業務介紹",
+          "publisher": "凱基證券",
+          "published_at": null,
+          "accessed_at": "2026-10-21",
+          "period": "業務比較",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ],
+          "publication_missing_reason": "首次發布日未確認，不以查閱日替代"
+        }
+      ],
+      "research_completed_at": "2026-10-21T17:40:04.788722+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "do_not_refresh_company_reviewed_at": true,
+      "completion_unit": "整家公司及10/19整場可取得公開資料",
+      "claim_type": "fact_company_plan_and_labeled_research_inference",
+      "limitations": [
+        "官方問答文字未取得，第55頁僅Q&A封面；不找影片",
+        "國旺投資損失季度標籤衝突，不採確認單季數字",
+        "未取得完整新版年報，以官網、正式半年報及55頁最新法說補核",
+        "未取得可靠公司金額財測或具名法人最新共識",
+        "新服務個別客戶、完整商用日及收入未單列",
+        "不代表全市場歷史公告已收齊"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview": {
+    "name": "國票金",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 465,
+    "business": "金融控股：票券、證券、租賃及樂天銀行等子公司",
+    "direction": "2024年成立租賃公司、數位銀行持續營運；樂天2026減資彌補虧損須分開看",
+    "profit_mechanism": "子公司票券利差、證券手續費／投資、租賃與銀行損益；不是全體子公司皆獲利",
+    "status": "業務概述已整理；分部獲利未逐項量化",
+    "screening": "子公司減資彌補虧損",
+    "urls": [
+      "https://www.ibf.com.tw/company",
+      "https://www.ibf.com.tw/history",
+      "https://www.ibfl.com.tw/about_us.html",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "金控淨收益",
+      "fy2024": 82.07387,
+      "fy2025": 85.85069,
+      "q32025": 28.21045,
+      "q42025": 25.51281,
+      "q12026": 26.70617,
+      "q22026": 47.61885,
+      "ttm": 128.04828,
+      "h1_operating_profit": null,
+      "h1_nonoperating": null,
+      "h1_pretax": 38.34443,
+      "h1_parent_profit": 27.82992,
+      "h1_operating_margin": null,
+      "h1_nonoperating_share": "",
+      "fy2025_parent_profit": 22.95557,
+      "q22026_parent_profit": 18.85619,
+      "screening": "未觸發本次篩選",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 74.32502000000001,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "金控淨收益",
+          "revenue": 82.07387,
+          "net_income": 21.71129,
+          "eps": 0.6100000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "金控淨收益",
+          "revenue": 32.127430000000004,
+          "net_income": 6.56976,
+          "eps": 0.18000000000000002,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "金控淨收益",
+          "revenue": 60.33788,
+          "net_income": 17.07261,
+          "eps": 0.47000000000000003,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "金控淨收益",
+          "revenue": 85.85069,
+          "net_income": 22.95557,
+          "eps": 0.63,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "金控淨收益",
+          "revenue": 26.70617,
+          "net_income": 8.97373,
+          "eps": 0.25,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "金控淨收益",
+          "revenue": 74.32502000000001,
+          "net_income": 27.82992,
+          "eps": 0.77,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2020-Q4": {
+          "eps": 1.12,
+          "basis": "金控淨收益",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2021-Q4": {
+          "eps": 1.3,
+          "basis": "金控淨收益",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": 0.41,
+          "basis": "金控淨收益",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 0.58,
+          "basis": "金控淨收益",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "金控淨收益",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 28.210449999999994,
+            "eps": 0.29000000000000004,
+            "net_income": 10.502850000000002
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 25.51281,
+            "eps": 0.15999999999999998,
+            "net_income": 5.882960000000001
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 26.70617,
+            "eps": 0.25,
+            "net_income": 8.97373
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 47.61885000000001,
+            "eps": 0.52,
+            "net_income": 18.85619
+          }
+        ],
+        "ttms": 128.04828,
+        "ttm_eps": 1.22,
+        "ttm_parent_profit": 44.21573,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）金控淨收益 128.05 億元；每股盈餘 1.22 元；歸母淨利 44.22 億元。營收未扣成本與費用，不等於獲利。獲利機制：子公司票券利差、證券手續費／投資、租賃與銀行損益；不是全體子公司皆獲利。",
+    "events": [
+      {
+        "period": "2026-04-17",
+        "type": "子公司減資彌補虧損",
+        "status": "公司公告標題確認；金額待核",
+        "text": "代樂天國際商業銀行向債權人公告減資彌補虧損；不能直接等同國票金控當期新增損失，須另核權益及歸母影響。",
+        "urls": [
+          "https://www.ibf.com.tw/"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "outlooks": [
+      {
+        "type": "待補查／無可用金額",
+        "period": "未確認",
+        "scope": "整體營收",
+        "unit": null,
+        "low": null,
+        "high": null,
+        "published_at": null,
+        "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+        "urls": [
+          "https://www.ibf.com.tw/company",
+          "https://www.ibf.com.tw/history",
+          "https://www.ibfl.com.tw/about_us.html"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "2889",
+          "name": "國票金",
+          "date": "2026-06-30",
+          "type": "fh",
+          "basis": "合併",
+          "assets": 5080.81084,
+          "liabilities": 4517.65803,
+          "equity": 563.15281,
+          "parent_equity": 476.18411,
+          "cash": 229.26543999999998,
+          "current_assets": null,
+          "current_liabilities": null,
+          "listed_borrowings": null,
+          "listed_leases": 1.60634,
+          "operating_cashflow": -189.09042,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2850&companyId=2851&companyId=2852&companyId=2855&companyId=2889",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2850&companyId=2851&companyId=2852&companyId=2855&companyId=2889",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "2889",
+          "name": "國票金",
+          "date": "2025-12-31",
+          "type": "fh",
+          "basis": "合併",
+          "assets": 4484.59426,
+          "liabilities": 3943.57759,
+          "equity": 541.01667,
+          "parent_equity": 461.45319,
+          "cash": 39.45079,
+          "current_assets": null,
+          "current_liabilities": null,
+          "listed_borrowings": null,
+          "listed_leases": 1.51051,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2850&companyId=2851&companyId=2852&companyId=2855&companyId=2889",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "金融／異業報表。流動比率及現金覆蓋比不套用一般業判讀。資本適足率已補銀行、金控及華票；保險與證券監理指標未補齊。",
+      "basis": "合併",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2850&companyId=2851&companyId=2852&companyId=2855&companyId=2889\nhttps://mopsfin.twse.com.tw/compare/adequacy?compareItem=FinancialHoldingCapitalAdequacy&ys=20262&qnumber=2&quarter=true&finCompanyId=2880&finCompanyId=2881&finCompanyId=2882&finCompanyId=2883&finCompanyId=2884&finCompanyId=2885&finCompanyId=2886&finCompanyId=2887&finCompanyId=2889&finCompanyId=2890&finCompanyId=2891&finCompanyId=2892&finCompanyId=5880",
+      "regulatory": {
+        "capital_adequacy": 1.28,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "金控集團"
+      }
+    }
+  },
+  "adoption_rules": {
+    "financial_numbers_preserved": true,
+    "company_reviewed_at_preserved": true,
+    "original_qa_verified": false,
+    "ledger_after_live_verification": true
+  }
+}
