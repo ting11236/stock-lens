@@ -150,6 +150,21 @@
       "publication_commit": "6d14995300e10197a5b8fe155f1b1a4990247c6a",
       "workflow_run_id": 39267584312,
       "verified_at": "2026-10-19T22:19:16.943101+08:00"
+    },
+    {
+      "symbol": "2889.TW",
+      "name": "國票金",
+      "kind": "法說會",
+      "meeting_date": "2026-10-19",
+      "summary_updated_at": "2026-10-21",
+      "batch_id": "research-20261021-2889-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "8ef09ef19c3c9be6d97697fe886dc4f29f8f2a29",
+      "workflow_run_id": 39579269137,
+      "verified_at": "2026-10-21T17:46:51.622031+08:00"
     }
   ]
 }
