@@ -209528,5 +209528,6577 @@
       "special": false,
       "volume": 1161905.0
     }
+  },
+  "2026-10-21": {
+    "0050": {
+      "close": 108.15,
+      "reference": 107.25,
+      "special": false,
+      "volume": 83301839.0
+    },
+    "0051": {
+      "close": 149.75,
+      "reference": 147.5,
+      "special": false,
+      "volume": 25164.0
+    },
+    "0052": {
+      "close": 62.9,
+      "reference": 62.25,
+      "special": false,
+      "volume": 11775612.0
+    },
+    "0053": {
+      "close": 241.35,
+      "reference": 239.25,
+      "special": false,
+      "volume": 484813.0
+    },
+    "0055": {
+      "close": 51.45,
+      "reference": 50.300000000000004,
+      "special": false,
+      "volume": 965672.0
+    },
+    "0056": {
+      "close": 58.75,
+      "reference": 57.45,
+      "special": false,
+      "volume": 54408829.0
+    },
+    "0057": {
+      "close": 321.3,
+      "reference": 318.95,
+      "special": false,
+      "volume": 59548.0
+    },
+    "0061": {
+      "close": 22.62,
+      "reference": 22.55,
+      "special": false,
+      "volume": 83734.0
+    },
+    "1101": {
+      "close": 26.8,
+      "reference": 26.8,
+      "special": false,
+      "volume": 29843641.0
+    },
+    "1102": {
+      "close": 38.05,
+      "reference": 37.9,
+      "special": false,
+      "volume": 4334334.0
+    },
+    "1103": {
+      "close": 13.35,
+      "reference": 13.35,
+      "special": false,
+      "volume": 392938.0
+    },
+    "1104": {
+      "close": 26.75,
+      "reference": 26.7,
+      "special": false,
+      "volume": 237267.0
+    },
+    "1108": {
+      "close": 10.95,
+      "reference": 11.0,
+      "special": false,
+      "volume": 95452.0
+    },
+    "1109": {
+      "close": 13.05,
+      "reference": 13.0,
+      "special": false,
+      "volume": 279672.0
+    },
+    "1110": {
+      "close": 14.35,
+      "reference": 14.2,
+      "special": false,
+      "volume": 111001.0
+    },
+    "1201": {
+      "close": 11.55,
+      "reference": 11.5,
+      "special": false,
+      "volume": 339708.0
+    },
+    "1203": {
+      "close": 42.1,
+      "reference": 42.65,
+      "special": false,
+      "volume": 17211.0
+    },
+    "1210": {
+      "close": 51.1,
+      "reference": 51.1,
+      "special": false,
+      "volume": 1106071.0
+    },
+    "1213": {
+      "close": 7.21,
+      "reference": 7.13,
+      "special": false,
+      "volume": 1000.0
+    },
+    "1215": {
+      "close": 106.5,
+      "reference": 105.5,
+      "special": false,
+      "volume": 406083.0
+    },
+    "1216": {
+      "close": 78.5,
+      "reference": 78.4,
+      "special": false,
+      "volume": 11137420.0
+    },
+    "1217": {
+      "close": 9.87,
+      "reference": 9.85,
+      "special": false,
+      "volume": 521316.0
+    },
+    "1218": {
+      "close": 14.3,
+      "reference": 14.350000000000001,
+      "special": false,
+      "volume": 579189.0
+    },
+    "1219": {
+      "close": 11.15,
+      "reference": 11.1,
+      "special": false,
+      "volume": 177867.0
+    },
+    "1220": {
+      "close": 10.7,
+      "reference": 10.799999999999999,
+      "special": false,
+      "volume": 73377.0
+    },
+    "1225": {
+      "close": 24.0,
+      "reference": 24.15,
+      "special": false,
+      "volume": 54736.0
+    },
+    "1227": {
+      "close": 27.7,
+      "reference": 27.75,
+      "special": false,
+      "volume": 775907.0
+    },
+    "1229": {
+      "close": 40.0,
+      "reference": 40.0,
+      "special": false,
+      "volume": 1431012.0
+    },
+    "1231": {
+      "close": 74.6,
+      "reference": 74.89999999999999,
+      "special": false,
+      "volume": 301591.0
+    },
+    "1232": {
+      "close": 154.0,
+      "reference": 154.5,
+      "special": false,
+      "volume": 121318.0
+    },
+    "1233": {
+      "close": 27.9,
+      "reference": 27.9,
+      "special": false,
+      "volume": 11020.0
+    },
+    "1234": {
+      "close": 32.2,
+      "reference": 32.35,
+      "special": false,
+      "volume": 58897.0
+    },
+    "1235": {
+      "close": 29.9,
+      "reference": 30.349999999999998,
+      "special": false,
+      "volume": 10564.0
+    },
+    "1236": {
+      "close": 25.9,
+      "reference": 25.95,
+      "special": false,
+      "volume": 60208.0
+    },
+    "1256": {
+      "close": 166.5,
+      "reference": 169.0,
+      "special": false,
+      "volume": 20685.0
+    },
+    "1301": {
+      "close": 77.0,
+      "reference": 74.9,
+      "special": false,
+      "volume": 46663918.0
+    },
+    "1303": {
+      "close": 320.5,
+      "reference": 296.0,
+      "special": false,
+      "volume": 123530362.0
+    },
+    "1304": {
+      "close": 12.85,
+      "reference": 12.9,
+      "special": false,
+      "volume": 1668006.0
+    },
+    "1305": {
+      "close": 12.7,
+      "reference": 12.7,
+      "special": false,
+      "volume": 1204323.0
+    },
+    "1307": {
+      "close": 30.85,
+      "reference": 30.700000000000003,
+      "special": false,
+      "volume": 397154.0
+    },
+    "1308": {
+      "close": 13.95,
+      "reference": 14.049999999999999,
+      "special": false,
+      "volume": 1098880.0
+    },
+    "1309": {
+      "close": 13.8,
+      "reference": 13.8,
+      "special": false,
+      "volume": 644795.0
+    },
+    "1310": {
+      "close": 9.85,
+      "reference": 9.79,
+      "special": false,
+      "volume": 1827911.0
+    },
+    "1312": {
+      "close": 15.35,
+      "reference": 14.95,
+      "special": false,
+      "volume": 26226076.0
+    },
+    "1313": {
+      "close": 12.5,
+      "reference": 12.35,
+      "special": false,
+      "volume": 2004852.0
+    },
+    "1314": {
+      "close": 8.75,
+      "reference": 8.69,
+      "special": false,
+      "volume": 12901542.0
+    },
+    "1315": {
+      "close": 70.6,
+      "reference": 70.19999999999999,
+      "special": false,
+      "volume": 32805.0
+    },
+    "1316": {
+      "close": 10.2,
+      "reference": 10.299999999999999,
+      "special": false,
+      "volume": 1156801.0
+    },
+    "1319": {
+      "close": 81.1,
+      "reference": 81.5,
+      "special": false,
+      "volume": 1048341.0
+    },
+    "1321": {
+      "close": 34.8,
+      "reference": 35.099999999999994,
+      "special": false,
+      "volume": 176025.0
+    },
+    "1323": {
+      "close": 21.55,
+      "reference": 21.85,
+      "special": false,
+      "volume": 14142.0
+    },
+    "1324": {
+      "close": 9.9,
+      "reference": 9.89,
+      "special": false,
+      "volume": 12411.0
+    },
+    "1325": {
+      "close": 27.35,
+      "reference": 27.400000000000002,
+      "special": false,
+      "volume": 346368.0
+    },
+    "1326": {
+      "close": 76.2,
+      "reference": 73.8,
+      "special": false,
+      "volume": 28908097.0
+    },
+    "1337": {
+      "close": 4.38,
+      "reference": 4.3999999999999995,
+      "special": false,
+      "volume": 407240.0
+    },
+    "1338": {
+      "close": 14.5,
+      "reference": 14.5,
+      "special": false,
+      "volume": 30076.0
+    },
+    "1339": {
+      "close": 41.65,
+      "reference": 41.65,
+      "special": false,
+      "volume": 41907.0
+    },
+    "1340": {
+      "close": 5.03,
+      "reference": 5.04,
+      "special": false,
+      "volume": 69596.0
+    },
+    "1341": {
+      "close": 58.4,
+      "reference": 58.4,
+      "special": false,
+      "volume": 3025.0
+    },
+    "1342": {
+      "close": 97.3,
+      "reference": 98.0,
+      "special": false,
+      "volume": 199012.0
+    },
+    "1402": {
+      "close": 28.6,
+      "reference": 28.5,
+      "special": false,
+      "volume": 4350313.0
+    },
+    "1409": {
+      "close": 25.25,
+      "reference": 25.05,
+      "special": false,
+      "volume": 4141027.0
+    },
+    "1410": {
+      "close": 23.65,
+      "reference": 23.5,
+      "special": false,
+      "volume": 36300.0
+    },
+    "1413": {
+      "close": 9.23,
+      "reference": 9.3,
+      "special": false,
+      "volume": 12000.0
+    },
+    "1414": {
+      "close": 17.4,
+      "reference": 17.799999999999997,
+      "special": false,
+      "volume": 86921.0
+    },
+    "1416": {
+      "close": 13.2,
+      "reference": 12.95,
+      "special": false,
+      "volume": 840091.0
+    },
+    "1417": {
+      "close": 8.1,
+      "reference": 8.11,
+      "special": false,
+      "volume": 63265.0
+    },
+    "1418": {
+      "close": 18.0,
+      "reference": 18.0,
+      "special": false,
+      "volume": 46605.0
+    },
+    "1419": {
+      "close": 63.6,
+      "reference": 63.5,
+      "special": false,
+      "volume": 41020.0
+    },
+    "1423": {
+      "close": 34.05,
+      "reference": 34.25,
+      "special": false,
+      "volume": 9010.0
+    },
+    "1432": {
+      "close": 14.9,
+      "reference": 14.9,
+      "special": false,
+      "volume": 63674.0
+    },
+    "1434": {
+      "close": 19.5,
+      "reference": 19.7,
+      "special": false,
+      "volume": 2307582.0
+    },
+    "1435": {
+      "close": 20.0,
+      "reference": 19.55,
+      "special": false,
+      "volume": 7043.0
+    },
+    "1436": {
+      "close": 35.25,
+      "reference": 35.45,
+      "special": false,
+      "volume": 94809.0
+    },
+    "1437": {
+      "close": 31.8,
+      "reference": 31.45,
+      "special": false,
+      "volume": 164237.0
+    },
+    "1438": {
+      "close": 21.5,
+      "reference": 21.65,
+      "special": false,
+      "volume": 15615.0
+    },
+    "1439": {
+      "close": 28.5,
+      "reference": 28.85,
+      "special": false,
+      "volume": 17006.0
+    },
+    "1440": {
+      "close": 13.75,
+      "reference": 13.8,
+      "special": false,
+      "volume": 1551279.0
+    },
+    "1441": {
+      "close": 9.71,
+      "reference": 9.9,
+      "special": false,
+      "volume": 10895.0
+    },
+    "1442": {
+      "close": 26.3,
+      "reference": 26.0,
+      "special": false,
+      "volume": 115014.0
+    },
+    "1443": {
+      "close": 22.2,
+      "reference": 22.349999999999998,
+      "special": false,
+      "volume": 18109.0
+    },
+    "1444": {
+      "close": 6.77,
+      "reference": 6.8,
+      "special": false,
+      "volume": 1031413.0
+    },
+    "1445": {
+      "close": 10.3,
+      "reference": 10.25,
+      "special": false,
+      "volume": 141715.0
+    },
+    "1446": {
+      "close": 13.4,
+      "reference": 13.450000000000001,
+      "special": false,
+      "volume": 52819.0
+    },
+    "1447": {
+      "close": 6.38,
+      "reference": 6.4399999999999995,
+      "special": false,
+      "volume": 1223013.0
+    },
+    "1449": {
+      "close": 12.3,
+      "reference": 12.25,
+      "special": false,
+      "volume": 349254.0
+    },
+    "1451": {
+      "close": 17.0,
+      "reference": 17.0,
+      "special": false,
+      "volume": 88056.0
+    },
+    "1452": {
+      "close": 10.8,
+      "reference": 11.0,
+      "special": false,
+      "volume": 140164.0
+    },
+    "1453": {
+      "close": 10.9,
+      "reference": 10.9,
+      "special": false,
+      "volume": 18134.0
+    },
+    "1454": {
+      "close": 12.05,
+      "reference": 12.3,
+      "special": false,
+      "volume": 54752.0
+    },
+    "1455": {
+      "close": 9.86,
+      "reference": 9.879999999999999,
+      "special": false,
+      "volume": 768449.0
+    },
+    "1456": {
+      "close": 14.35,
+      "reference": 14.5,
+      "special": false,
+      "volume": 87123.0
+    },
+    "1457": {
+      "close": 14.45,
+      "reference": 14.45,
+      "special": false,
+      "volume": 86990.0
+    },
+    "1459": {
+      "close": 18.0,
+      "reference": 17.9,
+      "special": false,
+      "volume": 139463.0
+    },
+    "1460": {
+      "close": 6.09,
+      "reference": 6.1,
+      "special": false,
+      "volume": 244753.0
+    },
+    "1463": {
+      "close": 17.8,
+      "reference": 17.900000000000002,
+      "special": false,
+      "volume": 100242.0
+    },
+    "1464": {
+      "close": 9.88,
+      "reference": 9.88,
+      "special": false,
+      "volume": 228888.0
+    },
+    "1465": {
+      "close": 11.75,
+      "reference": 11.75,
+      "special": false,
+      "volume": 357417.0
+    },
+    "1466": {
+      "close": 14.25,
+      "reference": 14.55,
+      "special": false,
+      "volume": 188031.0
+    },
+    "1467": {
+      "close": 7.97,
+      "reference": 7.97,
+      "special": false,
+      "volume": 57741.0
+    },
+    "1468": {
+      "close": 13.35,
+      "reference": 13.1,
+      "special": false,
+      "volume": 83019.0
+    },
+    "1470": {
+      "close": 24.3,
+      "reference": 24.400000000000002,
+      "special": false,
+      "volume": 10000.0
+    },
+    "1471": {
+      "close": 9.02,
+      "reference": 9.049999999999999,
+      "special": false,
+      "volume": 167788.0
+    },
+    "1472": {
+      "close": 88.1,
+      "reference": 88.3,
+      "special": false,
+      "volume": 44000.0
+    },
+    "1473": {
+      "close": 18.7,
+      "reference": 18.75,
+      "special": false,
+      "volume": 41980.0
+    },
+    "1474": {
+      "close": 10.0,
+      "reference": 9.96,
+      "special": false,
+      "volume": 17434.0
+    },
+    "1475": {
+      "close": 25.0,
+      "reference": 25.4,
+      "special": false,
+      "volume": 55298.0
+    },
+    "1476": {
+      "close": 325.0,
+      "reference": 325.5,
+      "special": false,
+      "volume": 1102896.0
+    },
+    "1477": {
+      "close": 209.0,
+      "reference": 207.5,
+      "special": false,
+      "volume": 585761.0
+    },
+    "1503": {
+      "close": 192.0,
+      "reference": 191.0,
+      "special": false,
+      "volume": 752825.0
+    },
+    "1504": {
+      "close": 70.6,
+      "reference": 68.3,
+      "special": false,
+      "volume": 6929584.0
+    },
+    "1506": {
+      "close": 9.5,
+      "reference": 9.58,
+      "special": false,
+      "volume": 84066.0
+    },
+    "1512": {
+      "close": 6.21,
+      "reference": 6.3,
+      "special": false,
+      "volume": 93839.0
+    },
+    "1513": {
+      "close": 162.0,
+      "reference": 161.0,
+      "special": false,
+      "volume": 1291335.0
+    },
+    "1514": {
+      "close": 99.9,
+      "reference": 98.80000000000001,
+      "special": false,
+      "volume": 596714.0
+    },
+    "1515": {
+      "close": 28.7,
+      "reference": 27.95,
+      "special": false,
+      "volume": 592586.0
+    },
+    "1517": {
+      "close": 10.25,
+      "reference": 10.3,
+      "special": false,
+      "volume": 179030.0
+    },
+    "1519": {
+      "close": 626.0,
+      "reference": 631.0,
+      "special": false,
+      "volume": 1060667.0
+    },
+    "1521": {
+      "close": 25.05,
+      "reference": 25.3,
+      "special": false,
+      "volume": 19195.0
+    },
+    "1522": {
+      "close": 26.65,
+      "reference": 26.75,
+      "special": false,
+      "volume": 161619.0
+    },
+    "1524": {
+      "close": 26.75,
+      "reference": 27.1,
+      "special": false,
+      "volume": 272042.0
+    },
+    "1525": {
+      "close": 63.5,
+      "reference": 61.3,
+      "special": false,
+      "volume": 28003.0
+    },
+    "1526": {
+      "close": 16.05,
+      "reference": 16.1,
+      "special": false,
+      "volume": 182196.0
+    },
+    "1527": {
+      "close": 32.25,
+      "reference": 32.3,
+      "special": false,
+      "volume": 42327.0
+    },
+    "1528": {
+      "close": 25.4,
+      "reference": 24.5,
+      "special": false,
+      "volume": 12463229.0
+    },
+    "1529": {
+      "close": 14.8,
+      "reference": 14.8,
+      "special": false,
+      "volume": 171180.0
+    },
+    "1530": {
+      "close": 26.8,
+      "reference": 26.650000000000002,
+      "special": false,
+      "volume": 36407.0
+    },
+    "1531": {
+      "close": 11.4,
+      "reference": 11.55,
+      "special": false,
+      "volume": 193267.0
+    },
+    "1532": {
+      "close": 21.7,
+      "reference": 21.8,
+      "special": false,
+      "volume": 323281.0
+    },
+    "1533": {
+      "close": 28.65,
+      "reference": 28.65,
+      "special": false,
+      "volume": 86203.0
+    },
+    "1535": {
+      "close": 45.6,
+      "reference": 45.65,
+      "special": false,
+      "volume": 23150.0
+    },
+    "1536": {
+      "close": 44.7,
+      "reference": 44.2,
+      "special": false,
+      "volume": 617407.0
+    },
+    "1537": {
+      "close": 114.0,
+      "reference": 114.0,
+      "special": false,
+      "volume": 47909.0
+    },
+    "1539": {
+      "close": 15.35,
+      "reference": 15.35,
+      "special": false,
+      "volume": 25172.0
+    },
+    "1540": {
+      "close": 18.9,
+      "reference": 18.7,
+      "special": false,
+      "volume": 93114.0
+    },
+    "1541": {
+      "close": 19.6,
+      "reference": 19.55,
+      "special": false,
+      "volume": 18086.0
+    },
+    "1558": {
+      "close": 114.5,
+      "reference": 115.0,
+      "special": false,
+      "volume": 74426.0
+    },
+    "1560": {
+      "close": 877.0,
+      "reference": 858.0,
+      "special": false,
+      "volume": 1442899.0
+    },
+    "1563": {
+      "close": 79.9,
+      "reference": 80.2,
+      "special": false,
+      "volume": 283020.0
+    },
+    "1568": {
+      "close": 28.9,
+      "reference": 28.9,
+      "special": false,
+      "volume": 181829.0
+    },
+    "1582": {
+      "close": 71.6,
+      "reference": 70.1,
+      "special": false,
+      "volume": 320844.0
+    },
+    "1583": {
+      "close": 47.0,
+      "reference": 47.5,
+      "special": false,
+      "volume": 6003.0
+    },
+    "1587": {
+      "close": 23.0,
+      "reference": 23.25,
+      "special": false,
+      "volume": 234909.0
+    },
+    "1590": {
+      "close": 1120.0,
+      "reference": 1110.0,
+      "special": false,
+      "volume": 1095055.0
+    },
+    "1597": {
+      "close": 142.0,
+      "reference": 138.5,
+      "special": false,
+      "volume": 1073493.0
+    },
+    "1598": {
+      "close": 19.1,
+      "reference": 19.400000000000002,
+      "special": false,
+      "volume": 132842.0
+    },
+    "1603": {
+      "close": 30.2,
+      "reference": 30.099999999999998,
+      "special": false,
+      "volume": 53713.0
+    },
+    "1604": {
+      "close": 23.3,
+      "reference": 23.3,
+      "special": false,
+      "volume": 146723.0
+    },
+    "1605": {
+      "close": 37.3,
+      "reference": 37.0,
+      "special": false,
+      "volume": 10138711.0
+    },
+    "1608": {
+      "close": 35.85,
+      "reference": 35.300000000000004,
+      "special": false,
+      "volume": 1132397.0
+    },
+    "1609": {
+      "close": 37.6,
+      "reference": 37.25,
+      "special": false,
+      "volume": 1616406.0
+    },
+    "1611": {
+      "close": 11.4,
+      "reference": 11.35,
+      "special": false,
+      "volume": 237043.0
+    },
+    "1612": {
+      "close": 33.15,
+      "reference": 33.15,
+      "special": false,
+      "volume": 406043.0
+    },
+    "1614": {
+      "close": 31.4,
+      "reference": 31.299999999999997,
+      "special": false,
+      "volume": 20700.0
+    },
+    "1615": {
+      "close": 48.7,
+      "reference": 48.85,
+      "special": false,
+      "volume": 559304.0
+    },
+    "1616": {
+      "close": 18.0,
+      "reference": 17.95,
+      "special": false,
+      "volume": 182792.0
+    },
+    "1617": {
+      "close": 23.1,
+      "reference": 21.650000000000002,
+      "special": false,
+      "volume": 2049615.0
+    },
+    "1618": {
+      "close": 38.15,
+      "reference": 38.35,
+      "special": false,
+      "volume": 350576.0
+    },
+    "1623": {
+      "close": 178.5,
+      "reference": 179.0,
+      "special": false,
+      "volume": 41442.0
+    },
+    "1626": {
+      "close": 9.67,
+      "reference": 9.7,
+      "special": false,
+      "volume": 30741.0
+    },
+    "1702": {
+      "close": 33.2,
+      "reference": 33.2,
+      "special": false,
+      "volume": 113695.0
+    },
+    "1707": {
+      "close": 85.6,
+      "reference": 85.89999999999999,
+      "special": false,
+      "volume": 139277.0
+    },
+    "1708": {
+      "close": 51.3,
+      "reference": 51.099999999999994,
+      "special": false,
+      "volume": 1121156.0
+    },
+    "1709": {
+      "close": 56.0,
+      "reference": 56.5,
+      "special": false,
+      "volume": 41028869.0
+    },
+    "1710": {
+      "close": 17.7,
+      "reference": 17.45,
+      "special": false,
+      "volume": 3138859.0
+    },
+    "1711": {
+      "close": 47.2,
+      "reference": 46.0,
+      "special": false,
+      "volume": 9305062.0
+    },
+    "1712": {
+      "close": 40.25,
+      "reference": 40.2,
+      "special": false,
+      "volume": 374506.0
+    },
+    "1713": {
+      "close": 45.0,
+      "reference": 45.2,
+      "special": false,
+      "volume": 245988.0
+    },
+    "1714": {
+      "close": 18.9,
+      "reference": 19.099999999999998,
+      "special": false,
+      "volume": 18223732.0
+    },
+    "1717": {
+      "close": 71.2,
+      "reference": 71.5,
+      "special": false,
+      "volume": 7913806.0
+    },
+    "1718": {
+      "close": 11.6,
+      "reference": 11.35,
+      "special": false,
+      "volume": 19489707.0
+    },
+    "1720": {
+      "close": 56.8,
+      "reference": 56.9,
+      "special": false,
+      "volume": 228324.0
+    },
+    "1721": {
+      "close": 24.8,
+      "reference": 24.0,
+      "special": false,
+      "volume": 917262.0
+    },
+    "1722": {
+      "close": 41.9,
+      "reference": 41.5,
+      "special": false,
+      "volume": 1834416.0
+    },
+    "1723": {
+      "close": 80.8,
+      "reference": 81.5,
+      "special": false,
+      "volume": 626552.0
+    },
+    "1725": {
+      "close": 32.55,
+      "reference": 32.4,
+      "special": false,
+      "volume": 63499.0
+    },
+    "1726": {
+      "close": 76.0,
+      "reference": 75.9,
+      "special": false,
+      "volume": 34343.0
+    },
+    "1727": {
+      "close": 99.1,
+      "reference": 96.19999999999999,
+      "special": false,
+      "volume": 3259035.0
+    },
+    "1730": {
+      "close": 51.0,
+      "reference": 51.0,
+      "special": false,
+      "volume": 22820.0
+    },
+    "1731": {
+      "close": 20.9,
+      "reference": 21.0,
+      "special": false,
+      "volume": 132315.0
+    },
+    "1732": {
+      "close": 26.6,
+      "reference": 26.3,
+      "special": false,
+      "volume": 110805.0
+    },
+    "1733": {
+      "close": 29.85,
+      "reference": 30.0,
+      "special": false,
+      "volume": 45530.0
+    },
+    "1734": {
+      "close": 30.7,
+      "reference": 30.8,
+      "special": false,
+      "volume": 105110.0
+    },
+    "1735": {
+      "close": 22.95,
+      "reference": 20.9,
+      "special": false,
+      "volume": 266040.0
+    },
+    "1736": {
+      "close": 121.5,
+      "reference": 121.5,
+      "special": false,
+      "volume": 155999.0
+    },
+    "1737": {
+      "close": 30.1,
+      "reference": 30.1,
+      "special": false,
+      "volume": 62643.0
+    },
+    "1752": {
+      "close": 31.25,
+      "reference": 31.4,
+      "special": false,
+      "volume": 45363.0
+    },
+    "1760": {
+      "close": 52.5,
+      "reference": 52.8,
+      "special": false,
+      "volume": 61989.0
+    },
+    "1762": {
+      "close": 34.35,
+      "reference": 34.4,
+      "special": false,
+      "volume": 54803.0
+    },
+    "1773": {
+      "close": 168.0,
+      "reference": 166.0,
+      "special": false,
+      "volume": 332441.0
+    },
+    "1776": {
+      "close": 18.65,
+      "reference": 18.5,
+      "special": false,
+      "volume": 39254.0
+    },
+    "1783": {
+      "close": 36.3,
+      "reference": 36.4,
+      "special": false,
+      "volume": 68221.0
+    },
+    "1786": {
+      "close": 39.85,
+      "reference": 39.85,
+      "special": false,
+      "volume": 85433.0
+    },
+    "1789": {
+      "close": 19.6,
+      "reference": 19.200000000000003,
+      "special": false,
+      "volume": 305684.0
+    },
+    "1795": {
+      "close": 176.0,
+      "reference": 175.0,
+      "special": false,
+      "volume": 583638.0
+    },
+    "1802": {
+      "close": 67.2,
+      "reference": 67.4,
+      "special": false,
+      "volume": 146869304.0
+    },
+    "1805": {
+      "close": 9.93,
+      "reference": 9.95,
+      "special": false,
+      "volume": 37001.0
+    },
+    "1806": {
+      "close": 7.91,
+      "reference": 7.94,
+      "special": false,
+      "volume": 172626.0
+    },
+    "1808": {
+      "close": 34.35,
+      "reference": 34.5,
+      "special": false,
+      "volume": 1209249.0
+    },
+    "1809": {
+      "close": 47.3,
+      "reference": 47.3,
+      "special": false,
+      "volume": 14688849.0
+    },
+    "1810": {
+      "close": 22.95,
+      "reference": 22.75,
+      "special": false,
+      "volume": 1001079.0
+    },
+    "1817": {
+      "close": 39.7,
+      "reference": 39.75,
+      "special": false,
+      "volume": 44103.0
+    },
+    "1903": {
+      "close": 47.15,
+      "reference": 47.15,
+      "special": false,
+      "volume": 89077.0
+    },
+    "1904": {
+      "close": 24.45,
+      "reference": 24.349999999999998,
+      "special": false,
+      "volume": 1164203.0
+    },
+    "1905": {
+      "close": 12.75,
+      "reference": 12.85,
+      "special": false,
+      "volume": 1401757.0
+    },
+    "1906": {
+      "close": 10.9,
+      "reference": 10.9,
+      "special": false,
+      "volume": 20799.0
+    },
+    "1907": {
+      "close": 28.1,
+      "reference": 28.3,
+      "special": false,
+      "volume": 816072.0
+    },
+    "1909": {
+      "close": 10.0,
+      "reference": 10.05,
+      "special": false,
+      "volume": 2496515.0
+    },
+    "2002": {
+      "close": 19.6,
+      "reference": 19.6,
+      "special": false,
+      "volume": 40273888.0
+    },
+    "2006": {
+      "close": 93.3,
+      "reference": 90.7,
+      "special": false,
+      "volume": 2517939.0
+    },
+    "2007": {
+      "close": 7.02,
+      "reference": 7.05,
+      "special": false,
+      "volume": 173454.0
+    },
+    "2008": {
+      "close": 30.5,
+      "reference": 30.5,
+      "special": false,
+      "volume": 28671.0
+    },
+    "2009": {
+      "close": 39.0,
+      "reference": 38.6,
+      "special": false,
+      "volume": 496600.0
+    },
+    "2010": {
+      "close": 23.1,
+      "reference": 23.1,
+      "special": false,
+      "volume": 709368.0
+    },
+    "2012": {
+      "close": 13.85,
+      "reference": 14.45,
+      "special": false,
+      "volume": 168067.0
+    },
+    "2013": {
+      "close": 41.5,
+      "reference": 41.25,
+      "special": false,
+      "volume": 37780.0
+    },
+    "2014": {
+      "close": 16.95,
+      "reference": 16.9,
+      "special": false,
+      "volume": 1043780.0
+    },
+    "2015": {
+      "close": 64.9,
+      "reference": 65.10000000000001,
+      "special": false,
+      "volume": 116699.0
+    },
+    "2017": {
+      "close": 8.89,
+      "reference": 8.9,
+      "special": false,
+      "volume": 179471.0
+    },
+    "2020": {
+      "close": 23.75,
+      "reference": 24.05,
+      "special": false,
+      "volume": 760363.0
+    },
+    "2022": {
+      "close": 7.0,
+      "reference": 7.01,
+      "special": false,
+      "volume": 221914.0
+    },
+    "2023": {
+      "close": 14.7,
+      "reference": 15.049999999999999,
+      "special": false,
+      "volume": 2191666.0
+    },
+    "2024": {
+      "close": 12.8,
+      "reference": 12.9,
+      "special": false,
+      "volume": 17533.0
+    },
+    "2025": {
+      "close": 13.45,
+      "reference": 13.5,
+      "special": false,
+      "volume": 452014.0
+    },
+    "2027": {
+      "close": 49.9,
+      "reference": 49.949999999999996,
+      "special": false,
+      "volume": 7963314.0
+    },
+    "2028": {
+      "close": 16.45,
+      "reference": 16.4,
+      "special": false,
+      "volume": 122845.0
+    },
+    "2029": {
+      "close": 21.75,
+      "reference": 21.75,
+      "special": false,
+      "volume": 165981.0
+    },
+    "2030": {
+      "close": 28.9,
+      "reference": 29.25,
+      "special": false,
+      "volume": 6303528.0
+    },
+    "2031": {
+      "close": 47.8,
+      "reference": 47.4,
+      "special": false,
+      "volume": 717185.0
+    },
+    "2032": {
+      "close": 18.25,
+      "reference": 18.15,
+      "special": false,
+      "volume": 303424.0
+    },
+    "2033": {
+      "close": 65.3,
+      "reference": 66.0,
+      "special": false,
+      "volume": 6333509.0
+    },
+    "2034": {
+      "close": 24.0,
+      "reference": 23.85,
+      "special": false,
+      "volume": 2145406.0
+    },
+    "2038": {
+      "close": 12.45,
+      "reference": 12.5,
+      "special": false,
+      "volume": 93444.0
+    },
+    "2049": {
+      "close": 308.0,
+      "reference": 300.5,
+      "special": false,
+      "volume": 1742704.0
+    },
+    "2059": {
+      "close": 10080.0,
+      "reference": 10100.0,
+      "special": false,
+      "volume": 623099.0
+    },
+    "2062": {
+      "close": 17.85,
+      "reference": 17.900000000000002,
+      "special": false,
+      "volume": 43503.0
+    },
+    "2069": {
+      "close": 27.35,
+      "reference": 24.900000000000002,
+      "special": false,
+      "volume": 2215821.0
+    },
+    "2072": {
+      "close": 122.0,
+      "reference": 120.5,
+      "special": false,
+      "volume": 165497.0
+    },
+    "2101": {
+      "close": 29.55,
+      "reference": 29.8,
+      "special": false,
+      "volume": 1291780.0
+    },
+    "2102": {
+      "close": 15.9,
+      "reference": 16.25,
+      "special": false,
+      "volume": 264684.0
+    },
+    "2103": {
+      "close": 28.3,
+      "reference": 28.5,
+      "special": false,
+      "volume": 2366926.0
+    },
+    "2104": {
+      "close": 11.45,
+      "reference": 11.45,
+      "special": false,
+      "volume": 3133559.0
+    },
+    "2105": {
+      "close": 31.9,
+      "reference": 32.1,
+      "special": false,
+      "volume": 4757750.0
+    },
+    "2106": {
+      "close": 16.9,
+      "reference": 17.0,
+      "special": false,
+      "volume": 434369.0
+    },
+    "2107": {
+      "close": 29.05,
+      "reference": 28.35,
+      "special": false,
+      "volume": 356816.0
+    },
+    "2108": {
+      "close": 28.95,
+      "reference": 28.9,
+      "special": false,
+      "volume": 267484.0
+    },
+    "2109": {
+      "close": 14.3,
+      "reference": 14.3,
+      "special": false,
+      "volume": 243412.0
+    },
+    "2114": {
+      "close": 89.0,
+      "reference": 89.3,
+      "special": false,
+      "volume": 10347.0
+    },
+    "2115": {
+      "close": 24.4,
+      "reference": 24.549999999999997,
+      "special": false,
+      "volume": 71493.0
+    },
+    "2201": {
+      "close": 28.85,
+      "reference": 29.1,
+      "special": false,
+      "volume": 2451810.0
+    },
+    "2204": {
+      "close": 52.3,
+      "reference": 52.599999999999994,
+      "special": false,
+      "volume": 485088.0
+    },
+    "2206": {
+      "close": 63.9,
+      "reference": 63.9,
+      "special": false,
+      "volume": 343461.0
+    },
+    "2207": {
+      "close": 526.0,
+      "reference": 532.0,
+      "special": false,
+      "volume": 192160.0
+    },
+    "2208": {
+      "close": 17.9,
+      "reference": 17.95,
+      "special": false,
+      "volume": 2117124.0
+    },
+    "2211": {
+      "close": 80.0,
+      "reference": 79.9,
+      "special": false,
+      "volume": 545141.0
+    },
+    "2227": {
+      "close": 42.5,
+      "reference": 43.0,
+      "special": false,
+      "volume": 59627.0
+    },
+    "2228": {
+      "close": 70.6,
+      "reference": 71.1,
+      "special": false,
+      "volume": 152397.0
+    },
+    "2231": {
+      "close": 88.0,
+      "reference": 88.0,
+      "special": false,
+      "volume": 154785.0
+    },
+    "2233": {
+      "close": 152.0,
+      "reference": 149.5,
+      "special": false,
+      "volume": 154200.0
+    },
+    "2236": {
+      "close": 90.1,
+      "reference": 83.69999999999999,
+      "special": false,
+      "volume": 989549.0
+    },
+    "2237": {
+      "close": 25.25,
+      "reference": 25.35,
+      "special": false,
+      "volume": 28250.0
+    },
+    "2239": {
+      "close": 18.0,
+      "reference": 17.5,
+      "special": false,
+      "volume": 273349.0
+    },
+    "2241": {
+      "close": 48.95,
+      "reference": 47.75,
+      "special": false,
+      "volume": 1982355.0
+    },
+    "2243": {
+      "close": 58.0,
+      "reference": 55.8,
+      "special": false,
+      "volume": 309669.0
+    },
+    "2247": {
+      "close": 216.0,
+      "reference": 217.5,
+      "special": false,
+      "volume": 48009.0
+    },
+    "2248": {
+      "close": 59.0,
+      "reference": 59.5,
+      "special": false,
+      "volume": 16100.0
+    },
+    "2250": {
+      "close": 51.5,
+      "reference": 51.3,
+      "special": false,
+      "volume": 29894.0
+    },
+    "2254": {
+      "close": 94.9,
+      "reference": 94.9,
+      "special": false,
+      "volume": 3623622.0
+    },
+    "2258": {
+      "close": 30.25,
+      "reference": 30.05,
+      "special": false,
+      "volume": 173304.0
+    },
+    "2301": {
+      "close": 263.5,
+      "reference": 262.0,
+      "special": false,
+      "volume": 9619730.0
+    },
+    "2302": {
+      "close": 46.3,
+      "reference": 42.8,
+      "special": false,
+      "volume": 3842345.0
+    },
+    "2303": {
+      "close": 128.0,
+      "reference": 127.0,
+      "special": false,
+      "volume": 73831482.0
+    },
+    "2305": {
+      "close": 56.3,
+      "reference": 54.699999999999996,
+      "special": false,
+      "volume": 6704387.0
+    },
+    "2308": {
+      "close": 1625.0,
+      "reference": 1605.0,
+      "special": false,
+      "volume": 11497703.0
+    },
+    "2312": {
+      "close": 32.6,
+      "reference": 32.1,
+      "special": false,
+      "volume": 113604049.0
+    },
+    "2313": {
+      "close": 240.5,
+      "reference": 243.5,
+      "special": false,
+      "volume": 62594503.0
+    },
+    "2314": {
+      "close": 9.2,
+      "reference": 9.35,
+      "special": false,
+      "volume": 208376.0
+    },
+    "2316": {
+      "close": 158.0,
+      "reference": 154.0,
+      "special": false,
+      "volume": 2094176.0
+    },
+    "2317": {
+      "close": 250.0,
+      "reference": 241.5,
+      "special": false,
+      "volume": 54598076.0
+    },
+    "2321": {
+      "close": 26.0,
+      "reference": null,
+      "special": true,
+      "volume": 2381.0
+    },
+    "2323": {
+      "close": 11.5,
+      "reference": 11.7,
+      "special": false,
+      "volume": 8488401.0
+    },
+    "2324": {
+      "close": 37.7,
+      "reference": 36.900000000000006,
+      "special": false,
+      "volume": 77791578.0
+    },
+    "2327": {
+      "close": 542.0,
+      "reference": 523.0,
+      "special": false,
+      "volume": 34082494.0
+    },
+    "2328": {
+      "close": 54.3,
+      "reference": 50.9,
+      "special": false,
+      "volume": 23977635.0
+    },
+    "2329": {
+      "close": 43.15,
+      "reference": 42.6,
+      "special": false,
+      "volume": 1329757.0
+    },
+    "2330": {
+      "close": 2420.0,
+      "reference": 2405.0,
+      "special": false,
+      "volume": 27095005.0
+    },
+    "2331": {
+      "close": 18.1,
+      "reference": 18.0,
+      "special": false,
+      "volume": 463816.0
+    },
+    "2332": {
+      "close": 21.25,
+      "reference": 20.6,
+      "special": false,
+      "volume": 14571624.0
+    },
+    "2337": {
+      "close": 103.0,
+      "reference": 100.0,
+      "special": false,
+      "volume": 23712167.0
+    },
+    "2338": {
+      "close": 46.4,
+      "reference": 45.15,
+      "special": false,
+      "volume": 2516185.0
+    },
+    "2340": {
+      "close": 48.75,
+      "reference": 47.5,
+      "special": false,
+      "volume": 21912894.0
+    },
+    "2342": {
+      "close": 42.4,
+      "reference": 41.05,
+      "special": false,
+      "volume": 1122049.0
+    },
+    "2344": {
+      "close": 159.5,
+      "reference": 152.5,
+      "special": false,
+      "volume": 49966848.0
+    },
+    "2345": {
+      "close": 1815.0,
+      "reference": 1970.0,
+      "special": false,
+      "volume": 7776595.0
+    },
+    "2347": {
+      "close": 99.7,
+      "reference": 99.0,
+      "special": false,
+      "volume": 4637183.0
+    },
+    "2348": {
+      "close": 70.3,
+      "reference": 70.0,
+      "special": false,
+      "volume": 177938.0
+    },
+    "2349": {
+      "close": 10.4,
+      "reference": 10.4,
+      "special": false,
+      "volume": 1185987.0
+    },
+    "2351": {
+      "close": 206.0,
+      "reference": 195.5,
+      "special": false,
+      "volume": 1753409.0
+    },
+    "2352": {
+      "close": 29.45,
+      "reference": 29.15,
+      "special": false,
+      "volume": 4277277.0
+    },
+    "2353": {
+      "close": 32.3,
+      "reference": 32.4,
+      "special": false,
+      "volume": 19234766.0
+    },
+    "2354": {
+      "close": 63.4,
+      "reference": 62.0,
+      "special": false,
+      "volume": 3804375.0
+    },
+    "2355": {
+      "close": 52.0,
+      "reference": 52.2,
+      "special": false,
+      "volume": 7640206.0
+    },
+    "2356": {
+      "close": 61.3,
+      "reference": 60.0,
+      "special": false,
+      "volume": 24837866.0
+    },
+    "2357": {
+      "close": 982.0,
+      "reference": 981.0,
+      "special": false,
+      "volume": 1806956.0
+    },
+    "2359": {
+      "close": 119.0,
+      "reference": 118.0,
+      "special": false,
+      "volume": 664507.0
+    },
+    "2360": {
+      "close": 2010.0,
+      "reference": 2000.0,
+      "special": false,
+      "volume": 2678021.0
+    },
+    "2362": {
+      "close": 48.05,
+      "reference": 47.75,
+      "special": false,
+      "volume": 377846.0
+    },
+    "2363": {
+      "close": 54.0,
+      "reference": 53.7,
+      "special": false,
+      "volume": 2785827.0
+    },
+    "2364": {
+      "close": 61.0,
+      "reference": 61.2,
+      "special": false,
+      "volume": 228154.0
+    },
+    "2365": {
+      "close": 27.05,
+      "reference": 26.75,
+      "special": false,
+      "volume": 525592.0
+    },
+    "2367": {
+      "close": 46.25,
+      "reference": 45.6,
+      "special": false,
+      "volume": 11096078.0
+    },
+    "2368": {
+      "close": 1195.0,
+      "reference": 1185.0,
+      "special": false,
+      "volume": 8389399.0
+    },
+    "2369": {
+      "close": 29.7,
+      "reference": 29.05,
+      "special": false,
+      "volume": 1899073.0
+    },
+    "2371": {
+      "close": 28.35,
+      "reference": 28.3,
+      "special": false,
+      "volume": 12269475.0
+    },
+    "2373": {
+      "close": 52.2,
+      "reference": 51.800000000000004,
+      "special": false,
+      "volume": 24383.0
+    },
+    "2374": {
+      "close": 66.5,
+      "reference": 63.9,
+      "special": false,
+      "volume": 4344104.0
+    },
+    "2375": {
+      "close": 122.0,
+      "reference": 119.0,
+      "special": false,
+      "volume": 5477314.0
+    },
+    "2376": {
+      "close": 358.5,
+      "reference": 355.0,
+      "special": false,
+      "volume": 4251172.0
+    },
+    "2377": {
+      "close": 165.0,
+      "reference": 164.5,
+      "special": false,
+      "volume": 8215198.0
+    },
+    "2379": {
+      "close": 792.0,
+      "reference": 774.0,
+      "special": false,
+      "volume": 2973191.0
+    },
+    "2380": {
+      "close": 16.55,
+      "reference": 16.6,
+      "special": false,
+      "volume": 166553.0
+    },
+    "2382": {
+      "close": 328.5,
+      "reference": 320.5,
+      "special": false,
+      "volume": 10432299.0
+    },
+    "2383": {
+      "close": 4990.0,
+      "reference": 4945.0,
+      "special": false,
+      "volume": 2722601.0
+    },
+    "2385": {
+      "close": 101.0,
+      "reference": 102.5,
+      "special": false,
+      "volume": 2404759.0
+    },
+    "2387": {
+      "close": 35.7,
+      "reference": 35.85,
+      "special": false,
+      "volume": 190084.0
+    },
+    "2388": {
+      "close": 67.2,
+      "reference": 65.2,
+      "special": false,
+      "volume": 1833819.0
+    },
+    "2390": {
+      "close": 9.98,
+      "reference": 9.950000000000001,
+      "special": false,
+      "volume": 200565.0
+    },
+    "2392": {
+      "close": 39.8,
+      "reference": 39.5,
+      "special": false,
+      "volume": 745895.0
+    },
+    "2393": {
+      "close": 67.9,
+      "reference": 67.4,
+      "special": false,
+      "volume": 1197989.0
+    },
+    "2395": {
+      "close": 683.0,
+      "reference": 684.0,
+      "special": false,
+      "volume": 2121229.0
+    },
+    "2397": {
+      "close": 64.1,
+      "reference": 63.699999999999996,
+      "special": false,
+      "volume": 79169.0
+    },
+    "2399": {
+      "close": 45.0,
+      "reference": 44.4,
+      "special": false,
+      "volume": 1436457.0
+    },
+    "2401": {
+      "close": 24.85,
+      "reference": 24.5,
+      "special": false,
+      "volume": 1233111.0
+    },
+    "2402": {
+      "close": 60.6,
+      "reference": 60.1,
+      "special": false,
+      "volume": 2529711.0
+    },
+    "2404": {
+      "close": 1105.0,
+      "reference": 1090.0,
+      "special": false,
+      "volume": 1011335.0
+    },
+    "2405": {
+      "close": 14.95,
+      "reference": 15.0,
+      "special": false,
+      "volume": 625950.0
+    },
+    "2406": {
+      "close": 29.9,
+      "reference": 28.2,
+      "special": false,
+      "volume": 6297353.0
+    },
+    "2408": {
+      "close": 436.5,
+      "reference": 422.0,
+      "special": false,
+      "volume": 31832407.0
+    },
+    "2409": {
+      "close": 37.25,
+      "reference": 35.75,
+      "special": false,
+      "volume": 305682716.0
+    },
+    "2412": {
+      "close": 154.0,
+      "reference": 154.5,
+      "special": false,
+      "volume": 8492648.0
+    },
+    "2413": {
+      "close": 57.6,
+      "reference": 52.4,
+      "special": false,
+      "volume": 3298665.0
+    },
+    "2414": {
+      "close": 51.3,
+      "reference": 51.4,
+      "special": false,
+      "volume": 146676.0
+    },
+    "2415": {
+      "close": 26.15,
+      "reference": 26.099999999999998,
+      "special": false,
+      "volume": 120283.0
+    },
+    "2417": {
+      "close": 38.05,
+      "reference": 37.599999999999994,
+      "special": false,
+      "volume": 202885.0
+    },
+    "2419": {
+      "close": 27.9,
+      "reference": 27.599999999999998,
+      "special": false,
+      "volume": 698762.0
+    },
+    "2420": {
+      "close": 54.0,
+      "reference": 53.6,
+      "special": false,
+      "volume": 176616.0
+    },
+    "2421": {
+      "close": 159.5,
+      "reference": 158.0,
+      "special": false,
+      "volume": 1535468.0
+    },
+    "2423": {
+      "close": 69.1,
+      "reference": 68.6,
+      "special": false,
+      "volume": 41366.0
+    },
+    "2424": {
+      "close": 14.9,
+      "reference": 15.05,
+      "special": false,
+      "volume": 81340.0
+    },
+    "2425": {
+      "close": 33.45,
+      "reference": 34.0,
+      "special": false,
+      "volume": 786894.0
+    },
+    "2426": {
+      "close": 91.9,
+      "reference": 89.80000000000001,
+      "special": false,
+      "volume": 6024229.0
+    },
+    "2427": {
+      "close": 22.4,
+      "reference": 22.299999999999997,
+      "special": false,
+      "volume": 269609.0
+    },
+    "2428": {
+      "close": 258.0,
+      "reference": 251.0,
+      "special": false,
+      "volume": 580354.0
+    },
+    "2429": {
+      "close": 34.4,
+      "reference": 34.35,
+      "special": false,
+      "volume": 224249.0
+    },
+    "2430": {
+      "close": 17.3,
+      "reference": 17.400000000000002,
+      "special": false,
+      "volume": 16063.0
+    },
+    "2431": {
+      "close": 10.05,
+      "reference": 10.15,
+      "special": false,
+      "volume": 139676.0
+    },
+    "2432": {
+      "close": 27.9,
+      "reference": 27.9,
+      "special": false,
+      "volume": 22000.0
+    },
+    "2433": {
+      "close": 38.45,
+      "reference": 38.6,
+      "special": false,
+      "volume": 77669.0
+    },
+    "2434": {
+      "close": 53.0,
+      "reference": 51.2,
+      "special": false,
+      "volume": 195360.0
+    },
+    "2436": {
+      "close": 70.3,
+      "reference": 68.2,
+      "special": false,
+      "volume": 1533355.0
+    },
+    "2438": {
+      "close": 18.9,
+      "reference": 18.799999999999997,
+      "special": false,
+      "volume": 60347.0
+    },
+    "2439": {
+      "close": 81.6,
+      "reference": 79.6,
+      "special": false,
+      "volume": 1781767.0
+    },
+    "2440": {
+      "close": 15.05,
+      "reference": 14.700000000000001,
+      "special": false,
+      "volume": 245457.0
+    },
+    "2441": {
+      "close": 117.5,
+      "reference": 112.5,
+      "special": false,
+      "volume": 2595767.0
+    },
+    "2442": {
+      "close": 13.55,
+      "reference": 13.55,
+      "special": false,
+      "volume": 671752.0
+    },
+    "2444": {
+      "close": 15.45,
+      "reference": 14.049999999999999,
+      "special": false,
+      "volume": 1261690.0
+    },
+    "2449": {
+      "close": 278.0,
+      "reference": 259.5,
+      "special": false,
+      "volume": 23064413.0
+    },
+    "2450": {
+      "close": 28.1,
+      "reference": 28.05,
+      "special": false,
+      "volume": 73703.0
+    },
+    "2451": {
+      "close": 274.0,
+      "reference": 269.5,
+      "special": false,
+      "volume": 1391301.0
+    },
+    "2453": {
+      "close": 53.2,
+      "reference": 52.1,
+      "special": false,
+      "volume": 267623.0
+    },
+    "2454": {
+      "close": 4140.0,
+      "reference": 4150.0,
+      "special": false,
+      "volume": 9351855.0
+    },
+    "2455": {
+      "close": 490.5,
+      "reference": 485.5,
+      "special": false,
+      "volume": 5838570.0
+    },
+    "2457": {
+      "close": 21.6,
+      "reference": 21.5,
+      "special": false,
+      "volume": 596565.0
+    },
+    "2458": {
+      "close": 130.5,
+      "reference": 130.0,
+      "special": false,
+      "volume": 927250.0
+    },
+    "2459": {
+      "close": 65.3,
+      "reference": 65.2,
+      "special": false,
+      "volume": 52529.0
+    },
+    "2460": {
+      "close": 31.45,
+      "reference": 31.65,
+      "special": false,
+      "volume": 198904.0
+    },
+    "2461": {
+      "close": 16.65,
+      "reference": 16.799999999999997,
+      "special": false,
+      "volume": 249439.0
+    },
+    "2462": {
+      "close": 19.3,
+      "reference": 19.1,
+      "special": false,
+      "volume": 105800.0
+    },
+    "2464": {
+      "close": 170.0,
+      "reference": 171.0,
+      "special": false,
+      "volume": 4387447.0
+    },
+    "2465": {
+      "close": 87.5,
+      "reference": 82.8,
+      "special": false,
+      "volume": 1509328.0
+    },
+    "2466": {
+      "close": 248.5,
+      "reference": 226.0,
+      "special": false,
+      "volume": 2529451.0
+    },
+    "2467": {
+      "close": 480.0,
+      "reference": 483.0,
+      "special": false,
+      "volume": 908489.0
+    },
+    "2468": {
+      "close": 50.0,
+      "reference": 48.75,
+      "special": false,
+      "volume": 7006628.0
+    },
+    "2471": {
+      "close": 49.95,
+      "reference": 49.75,
+      "special": false,
+      "volume": 54826.0
+    },
+    "2472": {
+      "close": 219.5,
+      "reference": 212.5,
+      "special": false,
+      "volume": 2258876.0
+    },
+    "2474": {
+      "close": 195.5,
+      "reference": 194.5,
+      "special": false,
+      "volume": 1299331.0
+    },
+    "2476": {
+      "close": 121.0,
+      "reference": 121.5,
+      "special": false,
+      "volume": 653100.0
+    },
+    "2477": {
+      "close": 22.7,
+      "reference": 22.75,
+      "special": false,
+      "volume": 68034.0
+    },
+    "2478": {
+      "close": 126.5,
+      "reference": 120.0,
+      "special": false,
+      "volume": 9214483.0
+    },
+    "2480": {
+      "close": 183.5,
+      "reference": 181.5,
+      "special": false,
+      "volume": 582978.0
+    },
+    "2481": {
+      "close": 159.0,
+      "reference": 153.5,
+      "special": false,
+      "volume": 7707121.0
+    },
+    "2482": {
+      "close": 15.7,
+      "reference": 15.7,
+      "special": false,
+      "volume": 67955.0
+    },
+    "2483": {
+      "close": 37.25,
+      "reference": 33.9,
+      "special": false,
+      "volume": 966211.0
+    },
+    "2484": {
+      "close": 82.4,
+      "reference": 82.0,
+      "special": false,
+      "volume": 11913470.0
+    },
+    "2485": {
+      "close": 39.7,
+      "reference": 38.5,
+      "special": false,
+      "volume": 8039658.0
+    },
+    "2486": {
+      "close": 212.0,
+      "reference": 208.0,
+      "special": false,
+      "volume": 1504897.0
+    },
+    "2488": {
+      "close": 49.9,
+      "reference": 50.0,
+      "special": false,
+      "volume": 49008.0
+    },
+    "2489": {
+      "close": 41.7,
+      "reference": 40.1,
+      "special": false,
+      "volume": 32657324.0
+    },
+    "2491": {
+      "close": 36.2,
+      "reference": 34.85,
+      "special": false,
+      "volume": 496613.0
+    },
+    "2492": {
+      "close": 405.5,
+      "reference": 369.0,
+      "special": false,
+      "volume": 26563522.0
+    },
+    "2493": {
+      "close": 201.5,
+      "reference": 183.5,
+      "special": false,
+      "volume": 1840308.0
+    },
+    "2495": {
+      "close": 33.15,
+      "reference": 32.85,
+      "special": false,
+      "volume": 758740.0
+    },
+    "2496": {
+      "close": 54.8,
+      "reference": 54.599999999999994,
+      "special": false,
+      "volume": 7800.0
+    },
+    "2497": {
+      "close": 43.05,
+      "reference": 42.9,
+      "special": false,
+      "volume": 72740.0
+    },
+    "2498": {
+      "close": 40.55,
+      "reference": 39.949999999999996,
+      "special": false,
+      "volume": 3605951.0
+    },
+    "2501": {
+      "close": 20.4,
+      "reference": 20.299999999999997,
+      "special": false,
+      "volume": 986418.0
+    },
+    "2504": {
+      "close": 32.1,
+      "reference": 32.0,
+      "special": false,
+      "volume": 1551684.0
+    },
+    "2505": {
+      "close": 18.0,
+      "reference": 17.95,
+      "special": false,
+      "volume": 189045.0
+    },
+    "2506": {
+      "close": 8.39,
+      "reference": 8.41,
+      "special": false,
+      "volume": 235054.0
+    },
+    "2509": {
+      "close": 13.2,
+      "reference": 13.25,
+      "special": false,
+      "volume": 54582.0
+    },
+    "2511": {
+      "close": 8.1,
+      "reference": 8.1,
+      "special": false,
+      "volume": 563038.0
+    },
+    "2514": {
+      "close": 11.2,
+      "reference": 11.25,
+      "special": false,
+      "volume": 77220.0
+    },
+    "2515": {
+      "close": 11.8,
+      "reference": 11.9,
+      "special": false,
+      "volume": 6657860.0
+    },
+    "2516": {
+      "close": 15.15,
+      "reference": 15.200000000000001,
+      "special": false,
+      "volume": 113582.0
+    },
+    "2520": {
+      "close": 37.4,
+      "reference": 37.25,
+      "special": false,
+      "volume": 679292.0
+    },
+    "2524": {
+      "close": 33.65,
+      "reference": 33.3,
+      "special": false,
+      "volume": 69295.0
+    },
+    "2527": {
+      "close": 48.9,
+      "reference": 47.449999999999996,
+      "special": false,
+      "volume": 423487.0
+    },
+    "2528": {
+      "close": 17.5,
+      "reference": 17.8,
+      "special": false,
+      "volume": 524895.0
+    },
+    "2530": {
+      "close": 20.1,
+      "reference": 20.150000000000002,
+      "special": false,
+      "volume": 243220.0
+    },
+    "2534": {
+      "close": 16.15,
+      "reference": 16.45,
+      "special": false,
+      "volume": 401270.0
+    },
+    "2535": {
+      "close": 88.5,
+      "reference": 88.3,
+      "special": false,
+      "volume": 109370.0
+    },
+    "2536": {
+      "close": 18.2,
+      "reference": 18.3,
+      "special": false,
+      "volume": 137100.0
+    },
+    "2537": {
+      "close": 10.9,
+      "reference": 10.950000000000001,
+      "special": false,
+      "volume": 218421.0
+    },
+    "2538": {
+      "close": 8.64,
+      "reference": 8.620000000000001,
+      "special": false,
+      "volume": 307974.0
+    },
+    "2539": {
+      "close": 33.25,
+      "reference": 33.15,
+      "special": false,
+      "volume": 434117.0
+    },
+    "2540": {
+      "close": 45.95,
+      "reference": 46.800000000000004,
+      "special": false,
+      "volume": 707246.0
+    },
+    "2542": {
+      "close": 40.1,
+      "reference": 40.15,
+      "special": false,
+      "volume": 7492179.0
+    },
+    "2543": {
+      "close": 37.8,
+      "reference": 37.9,
+      "special": false,
+      "volume": 601740.0
+    },
+    "2545": {
+      "close": 33.45,
+      "reference": 33.300000000000004,
+      "special": false,
+      "volume": 236963.0
+    },
+    "2546": {
+      "close": 104.0,
+      "reference": 103.5,
+      "special": false,
+      "volume": 70986.0
+    },
+    "2547": {
+      "close": 9.89,
+      "reference": 9.84,
+      "special": false,
+      "volume": 799947.0
+    },
+    "2548": {
+      "close": 92.5,
+      "reference": 92.4,
+      "special": false,
+      "volume": 642263.0
+    },
+    "2597": {
+      "close": 169.0,
+      "reference": 166.0,
+      "special": false,
+      "volume": 294886.0
+    },
+    "2601": {
+      "close": 6.0,
+      "reference": 5.98,
+      "special": false,
+      "volume": 1117501.0
+    },
+    "2603": {
+      "close": 257.5,
+      "reference": 259.5,
+      "special": false,
+      "volume": 10636353.0
+    },
+    "2605": {
+      "close": 35.5,
+      "reference": 35.45,
+      "special": false,
+      "volume": 3958182.0
+    },
+    "2606": {
+      "close": 72.7,
+      "reference": 72.7,
+      "special": false,
+      "volume": 2093048.0
+    },
+    "2607": {
+      "close": 55.6,
+      "reference": 56.0,
+      "special": false,
+      "volume": 682022.0
+    },
+    "2608": {
+      "close": 28.35,
+      "reference": 28.450000000000003,
+      "special": false,
+      "volume": 295685.0
+    },
+    "2609": {
+      "close": 62.1,
+      "reference": 62.2,
+      "special": false,
+      "volume": 17896796.0
+    },
+    "2610": {
+      "close": 20.35,
+      "reference": 20.400000000000002,
+      "special": false,
+      "volume": 12501711.0
+    },
+    "2611": {
+      "close": 16.4,
+      "reference": 16.299999999999997,
+      "special": false,
+      "volume": 550107.0
+    },
+    "2612": {
+      "close": 60.2,
+      "reference": 59.800000000000004,
+      "special": false,
+      "volume": 123998.0
+    },
+    "2613": {
+      "close": 22.25,
+      "reference": 22.2,
+      "special": false,
+      "volume": 179005.0
+    },
+    "2614": {
+      "close": 15.0,
+      "reference": 15.1,
+      "special": false,
+      "volume": 628237.0
+    },
+    "2615": {
+      "close": 116.5,
+      "reference": 117.0,
+      "special": false,
+      "volume": 10192383.0
+    },
+    "2616": {
+      "close": 13.05,
+      "reference": 13.100000000000001,
+      "special": false,
+      "volume": 59244.0
+    },
+    "2617": {
+      "close": 31.35,
+      "reference": 31.35,
+      "special": false,
+      "volume": 599264.0
+    },
+    "2618": {
+      "close": 42.05,
+      "reference": 42.349999999999994,
+      "special": false,
+      "volume": 17926830.0
+    },
+    "2630": {
+      "close": 42.9,
+      "reference": 42.699999999999996,
+      "special": false,
+      "volume": 360553.0
+    },
+    "2633": {
+      "close": 26.35,
+      "reference": 26.05,
+      "special": false,
+      "volume": 5495548.0
+    },
+    "2634": {
+      "close": 61.7,
+      "reference": 61.0,
+      "special": false,
+      "volume": 4081521.0
+    },
+    "2636": {
+      "close": 70.6,
+      "reference": 70.8,
+      "special": false,
+      "volume": 238601.0
+    },
+    "2637": {
+      "close": 100.5,
+      "reference": 99.1,
+      "special": false,
+      "volume": 1158742.0
+    },
+    "2642": {
+      "close": 20.1,
+      "reference": 20.150000000000002,
+      "special": false,
+      "volume": 36161.0
+    },
+    "2645": {
+      "close": 170.5,
+      "reference": 170.0,
+      "special": false,
+      "volume": 544278.0
+    },
+    "2646": {
+      "close": 20.05,
+      "reference": 20.0,
+      "special": false,
+      "volume": 2000199.0
+    },
+    "2701": {
+      "close": 10.2,
+      "reference": 10.25,
+      "special": false,
+      "volume": 53438.0
+    },
+    "2702": {
+      "close": 12.0,
+      "reference": 12.05,
+      "special": false,
+      "volume": 15678.0
+    },
+    "2704": {
+      "close": 44.3,
+      "reference": 44.449999999999996,
+      "special": false,
+      "volume": 60460.0
+    },
+    "2705": {
+      "close": 14.95,
+      "reference": 15.0,
+      "special": false,
+      "volume": 96625.0
+    },
+    "2706": {
+      "close": 12.1,
+      "reference": 12.15,
+      "special": false,
+      "volume": 55730.0
+    },
+    "2707": {
+      "close": 176.5,
+      "reference": 176.5,
+      "special": false,
+      "volume": 91345.0
+    },
+    "2712": {
+      "close": 13.3,
+      "reference": 13.200000000000001,
+      "special": false,
+      "volume": 7235.0
+    },
+    "2722": {
+      "close": 20.45,
+      "reference": 20.4,
+      "special": false,
+      "volume": 63013.0
+    },
+    "2723": {
+      "close": 84.6,
+      "reference": 85.6,
+      "special": false,
+      "volume": 368604.0
+    },
+    "2727": {
+      "close": 245.5,
+      "reference": 246.0,
+      "special": false,
+      "volume": 260768.0
+    },
+    "2731": {
+      "close": 143.5,
+      "reference": 142.5,
+      "special": false,
+      "volume": 149024.0
+    },
+    "2739": {
+      "close": 35.65,
+      "reference": 35.65,
+      "special": false,
+      "volume": 53474.0
+    },
+    "2748": {
+      "close": 38.25,
+      "reference": 38.3,
+      "special": false,
+      "volume": 49216.0
+    },
+    "2753": {
+      "close": 183.5,
+      "reference": 184.0,
+      "special": false,
+      "volume": 149934.0
+    },
+    "2762": {
+      "close": 78.2,
+      "reference": 78.5,
+      "special": false,
+      "volume": 61751.0
+    },
+    "2801": {
+      "close": 29.6,
+      "reference": 28.900000000000002,
+      "special": false,
+      "volume": 18554269.0
+    },
+    "2812": {
+      "close": 18.6,
+      "reference": 18.5,
+      "special": false,
+      "volume": 7417698.0
+    },
+    "2816": {
+      "close": 43.25,
+      "reference": 42.65,
+      "special": false,
+      "volume": 190844.0
+    },
+    "2820": {
+      "close": 16.65,
+      "reference": 16.549999999999997,
+      "special": false,
+      "volume": 2470576.0
+    },
+    "2832": {
+      "close": 55.7,
+      "reference": 55.5,
+      "special": false,
+      "volume": 122391.0
+    },
+    "2834": {
+      "close": 17.9,
+      "reference": 17.799999999999997,
+      "special": false,
+      "volume": 12320520.0
+    },
+    "2836": {
+      "close": 12.0,
+      "reference": 11.95,
+      "special": false,
+      "volume": 1333854.0
+    },
+    "2838": {
+      "close": 20.35,
+      "reference": 20.1,
+      "special": false,
+      "volume": 1138056.0
+    },
+    "2845": {
+      "close": 13.25,
+      "reference": 13.2,
+      "special": false,
+      "volume": 5724574.0
+    },
+    "2849": {
+      "close": 15.15,
+      "reference": 15.25,
+      "special": false,
+      "volume": 141306.0
+    },
+    "2850": {
+      "close": 165.5,
+      "reference": 162.0,
+      "special": false,
+      "volume": 179830.0
+    },
+    "2851": {
+      "close": 50.3,
+      "reference": 49.65,
+      "special": false,
+      "volume": 1191621.0
+    },
+    "2852": {
+      "close": 27.85,
+      "reference": 27.8,
+      "special": false,
+      "volume": 254925.0
+    },
+    "2855": {
+      "close": 55.6,
+      "reference": 54.1,
+      "special": false,
+      "volume": 4360302.0
+    },
+    "2880": {
+      "close": 49.8,
+      "reference": 48.099999999999994,
+      "special": false,
+      "volume": 16257141.0
+    },
+    "2881": {
+      "close": 158.5,
+      "reference": 153.5,
+      "special": false,
+      "volume": 16846697.0
+    },
+    "2882": {
+      "close": 114.0,
+      "reference": 110.0,
+      "special": false,
+      "volume": 32961730.0
+    },
+    "2883": {
+      "close": 38.25,
+      "reference": 37.25,
+      "special": false,
+      "volume": 47423520.0
+    },
+    "2884": {
+      "close": 49.2,
+      "reference": 48.35,
+      "special": false,
+      "volume": 25480642.0
+    },
+    "2885": {
+      "close": 71.3,
+      "reference": 70.5,
+      "special": false,
+      "volume": 24831009.0
+    },
+    "2886": {
+      "close": 53.6,
+      "reference": 53.2,
+      "special": false,
+      "volume": 13497811.0
+    },
+    "2887": {
+      "close": 41.95,
+      "reference": 41.0,
+      "special": false,
+      "volume": 46500512.0
+    },
+    "2889": {
+      "close": 16.9,
+      "reference": 16.95,
+      "special": false,
+      "volume": 7005631.0
+    },
+    "2890": {
+      "close": 45.4,
+      "reference": 44.25,
+      "special": false,
+      "volume": 20391925.0
+    },
+    "2891": {
+      "close": 74.8,
+      "reference": 71.6,
+      "special": false,
+      "volume": 44237923.0
+    },
+    "2892": {
+      "close": 41.3,
+      "reference": 40.75,
+      "special": false,
+      "volume": 17859806.0
+    },
+    "2897": {
+      "close": 10.9,
+      "reference": 10.85,
+      "special": false,
+      "volume": 2582067.0
+    },
+    "2901": {
+      "close": 24.55,
+      "reference": 24.5,
+      "special": false,
+      "volume": 28052.0
+    },
+    "2903": {
+      "close": 21.95,
+      "reference": 22.05,
+      "special": false,
+      "volume": 1009068.0
+    },
+    "2904": {
+      "close": 12.55,
+      "reference": 12.5,
+      "special": false,
+      "volume": 11212.0
+    },
+    "2905": {
+      "close": 17.8,
+      "reference": 17.55,
+      "special": false,
+      "volume": 1108745.0
+    },
+    "2906": {
+      "close": 13.65,
+      "reference": 13.55,
+      "special": false,
+      "volume": 70879.0
+    },
+    "2908": {
+      "close": 21.8,
+      "reference": 21.7,
+      "special": false,
+      "volume": 300787.0
+    },
+    "2910": {
+      "close": 23.3,
+      "reference": 23.650000000000002,
+      "special": false,
+      "volume": 13012.0
+    },
+    "2911": {
+      "close": 6.04,
+      "reference": 6.0200000000000005,
+      "special": false,
+      "volume": 37457.0
+    },
+    "2912": {
+      "close": 224.5,
+      "reference": 227.0,
+      "special": false,
+      "volume": 1581800.0
+    },
+    "2913": {
+      "close": 11.25,
+      "reference": 11.25,
+      "special": false,
+      "volume": 905132.0
+    },
+    "2915": {
+      "close": 57.6,
+      "reference": 57.9,
+      "special": false,
+      "volume": 1760531.0
+    },
+    "2923": {
+      "close": 23.85,
+      "reference": 24.55,
+      "special": false,
+      "volume": 156390.0
+    },
+    "2929": {
+      "close": 5.75,
+      "reference": 5.77,
+      "special": false,
+      "volume": 109626.0
+    },
+    "2939": {
+      "close": 23.8,
+      "reference": 24.45,
+      "special": false,
+      "volume": 31242.0
+    },
+    "2945": {
+      "close": 39.2,
+      "reference": 39.550000000000004,
+      "special": false,
+      "volume": 11257.0
+    },
+    "3002": {
+      "close": 18.6,
+      "reference": 18.55,
+      "special": false,
+      "volume": 121038.0
+    },
+    "3003": {
+      "close": 55.8,
+      "reference": 55.5,
+      "special": false,
+      "volume": 163051.0
+    },
+    "3004": {
+      "close": 123.0,
+      "reference": 122.0,
+      "special": false,
+      "volume": 278551.0
+    },
+    "3005": {
+      "close": 124.5,
+      "reference": 123.0,
+      "special": false,
+      "volume": 2200166.0
+    },
+    "3006": {
+      "close": 246.0,
+      "reference": 231.5,
+      "special": false,
+      "volume": 7305278.0
+    },
+    "3008": {
+      "close": 6170.0,
+      "reference": 5975.0,
+      "special": false,
+      "volume": 2671131.0
+    },
+    "3010": {
+      "close": 139.0,
+      "reference": 135.5,
+      "special": false,
+      "volume": 1117321.0
+    },
+    "3011": {
+      "close": 9.92,
+      "reference": 9.93,
+      "special": false,
+      "volume": 115177.0
+    },
+    "3013": {
+      "close": 96.6,
+      "reference": 95.6,
+      "special": false,
+      "volume": 5158509.0
+    },
+    "3014": {
+      "close": 143.0,
+      "reference": 141.0,
+      "special": false,
+      "volume": 605214.0
+    },
+    "3015": {
+      "close": 50.9,
+      "reference": 50.699999999999996,
+      "special": false,
+      "volume": 191451.0
+    },
+    "3016": {
+      "close": 154.5,
+      "reference": 151.0,
+      "special": false,
+      "volume": 6664828.0
+    },
+    "3017": {
+      "close": 3235.0,
+      "reference": 3325.0,
+      "special": false,
+      "volume": 3944666.0
+    },
+    "3018": {
+      "close": 10.5,
+      "reference": null,
+      "special": true,
+      "volume": 9830.0
+    },
+    "3019": {
+      "close": 134.0,
+      "reference": 132.0,
+      "special": false,
+      "volume": 2647297.0
+    },
+    "3021": {
+      "close": 26.1,
+      "reference": 26.1,
+      "special": false,
+      "volume": 246028.0
+    },
+    "3022": {
+      "close": 90.9,
+      "reference": 89.7,
+      "special": false,
+      "volume": 494683.0
+    },
+    "3023": {
+      "close": 308.0,
+      "reference": 305.5,
+      "special": false,
+      "volume": 886593.0
+    },
+    "3024": {
+      "close": 13.2,
+      "reference": 13.25,
+      "special": false,
+      "volume": 396602.0
+    },
+    "3025": {
+      "close": 55.4,
+      "reference": 54.699999999999996,
+      "special": false,
+      "volume": 151771.0
+    },
+    "3026": {
+      "close": 815.0,
+      "reference": 794.0,
+      "special": false,
+      "volume": 15616955.0
+    },
+    "3027": {
+      "close": 19.05,
+      "reference": 18.900000000000002,
+      "special": false,
+      "volume": 174786.0
+    },
+    "3028": {
+      "close": 59.9,
+      "reference": 59.5,
+      "special": false,
+      "volume": 568480.0
+    },
+    "3029": {
+      "close": 119.0,
+      "reference": 118.5,
+      "special": false,
+      "volume": 737568.0
+    },
+    "3030": {
+      "close": 277.0,
+      "reference": 280.0,
+      "special": false,
+      "volume": 1019661.0
+    },
+    "3031": {
+      "close": 33.4,
+      "reference": 32.55,
+      "special": false,
+      "volume": 3523030.0
+    },
+    "3032": {
+      "close": 73.9,
+      "reference": 72.0,
+      "special": false,
+      "volume": 164035.0
+    },
+    "3033": {
+      "close": 42.05,
+      "reference": 41.75,
+      "special": false,
+      "volume": 1099936.0
+    },
+    "3034": {
+      "close": 590.0,
+      "reference": 568.0,
+      "special": false,
+      "volume": 4742223.0
+    },
+    "3035": {
+      "close": 198.0,
+      "reference": 192.5,
+      "special": false,
+      "volume": 3909585.0
+    },
+    "3036": {
+      "close": 212.5,
+      "reference": 207.5,
+      "special": false,
+      "volume": 2762071.0
+    },
+    "3037": {
+      "close": 1100.0,
+      "reference": 1055.0,
+      "special": false,
+      "volume": 19030702.0
+    },
+    "3038": {
+      "close": 20.15,
+      "reference": 20.25,
+      "special": false,
+      "volume": 133582.0
+    },
+    "3040": {
+      "close": 30.3,
+      "reference": 30.2,
+      "special": false,
+      "volume": 86835.0
+    },
+    "3041": {
+      "close": 23.85,
+      "reference": 23.400000000000002,
+      "special": false,
+      "volume": 390404.0
+    },
+    "3042": {
+      "close": 182.5,
+      "reference": 179.5,
+      "special": false,
+      "volume": 6674534.0
+    },
+    "3043": {
+      "close": 19.3,
+      "reference": 19.25,
+      "special": false,
+      "volume": 47125.0
+    },
+    "3044": {
+      "close": 583.0,
+      "reference": 567.0,
+      "special": false,
+      "volume": 4027154.0
+    },
+    "3045": {
+      "close": 130.5,
+      "reference": 130.5,
+      "special": false,
+      "volume": 10412323.0
+    },
+    "3046": {
+      "close": 51.6,
+      "reference": 51.2,
+      "special": false,
+      "volume": 95767.0
+    },
+    "3047": {
+      "close": 14.85,
+      "reference": 14.6,
+      "special": false,
+      "volume": 1074876.0
+    },
+    "3048": {
+      "close": 55.1,
+      "reference": 53.5,
+      "special": false,
+      "volume": 1796789.0
+    },
+    "3049": {
+      "close": 11.6,
+      "reference": 11.6,
+      "special": false,
+      "volume": 1642063.0
+    },
+    "3050": {
+      "close": 11.45,
+      "reference": 11.5,
+      "special": false,
+      "volume": 294708.0
+    },
+    "3051": {
+      "close": 21.35,
+      "reference": 21.35,
+      "special": false,
+      "volume": 192302.0
+    },
+    "3052": {
+      "close": 10.7,
+      "reference": 10.7,
+      "special": false,
+      "volume": 87512.0
+    },
+    "3054": {
+      "close": 55.0,
+      "reference": 55.4,
+      "special": false,
+      "volume": 100637.0
+    },
+    "3055": {
+      "close": 153.0,
+      "reference": 144.5,
+      "special": false,
+      "volume": 878404.0
+    },
+    "3056": {
+      "close": 13.25,
+      "reference": 13.2,
+      "special": false,
+      "volume": 592960.0
+    },
+    "3057": {
+      "close": 14.3,
+      "reference": 14.450000000000001,
+      "special": false,
+      "volume": 43368.0
+    },
+    "3058": {
+      "close": 8.13,
+      "reference": 8.13,
+      "special": false,
+      "volume": 280966.0
+    },
+    "3059": {
+      "close": 38.9,
+      "reference": 38.1,
+      "special": false,
+      "volume": 1718668.0
+    },
+    "3060": {
+      "close": 27.6,
+      "reference": 27.5,
+      "special": false,
+      "volume": 383402.0
+    },
+    "3062": {
+      "close": 23.05,
+      "reference": 22.650000000000002,
+      "special": false,
+      "volume": 2532893.0
+    },
+    "3090": {
+      "close": 164.0,
+      "reference": 157.0,
+      "special": false,
+      "volume": 8409749.0
+    },
+    "3092": {
+      "close": 23.85,
+      "reference": 23.6,
+      "special": false,
+      "volume": 220164.0
+    },
+    "3094": {
+      "close": 56.0,
+      "reference": 55.6,
+      "special": false,
+      "volume": 2934542.0
+    },
+    "3130": {
+      "close": 207.0,
+      "reference": 207.0,
+      "special": false,
+      "volume": 31292.0
+    },
+    "3135": {
+      "close": 143.0,
+      "reference": 138.5,
+      "special": false,
+      "volume": 549749.0
+    },
+    "3138": {
+      "close": 98.8,
+      "reference": 98.0,
+      "special": false,
+      "volume": 483804.0
+    },
+    "3149": {
+      "close": 72.7,
+      "reference": 71.8,
+      "special": false,
+      "volume": 3195723.0
+    },
+    "3150": {
+      "close": 15.0,
+      "reference": 15.05,
+      "special": false,
+      "volume": 37000.0
+    },
+    "3164": {
+      "close": 16.9,
+      "reference": 17.0,
+      "special": false,
+      "volume": 6829.0
+    },
+    "3167": {
+      "close": 1000.0,
+      "reference": 971.0,
+      "special": false,
+      "volume": 707872.0
+    },
+    "3168": {
+      "close": 41.4,
+      "reference": 41.9,
+      "special": false,
+      "volume": 8082.0
+    },
+    "3189": {
+      "close": 1010.0,
+      "reference": 945.0,
+      "special": false,
+      "volume": 21361332.0
+    },
+    "3209": {
+      "close": 45.85,
+      "reference": 45.35,
+      "special": false,
+      "volume": 813383.0
+    },
+    "3229": {
+      "close": 52.9,
+      "reference": 48.1,
+      "special": false,
+      "volume": 780471.0
+    },
+    "3231": {
+      "close": 195.0,
+      "reference": 189.0,
+      "special": false,
+      "volume": 80137864.0
+    },
+    "3257": {
+      "close": 47.55,
+      "reference": 46.599999999999994,
+      "special": false,
+      "volume": 139701.0
+    },
+    "3266": {
+      "close": 13.8,
+      "reference": 14.0,
+      "special": false,
+      "volume": 32040.0
+    },
+    "3296": {
+      "close": 25.6,
+      "reference": 26.25,
+      "special": false,
+      "volume": 63522.0
+    },
+    "3305": {
+      "close": 112.0,
+      "reference": 113.5,
+      "special": false,
+      "volume": 3868185.0
+    },
+    "3308": {
+      "close": 21.45,
+      "reference": 21.7,
+      "special": false,
+      "volume": 44429.0
+    },
+    "3311": {
+      "close": 46.15,
+      "reference": 46.75,
+      "special": false,
+      "volume": 1526803.0
+    },
+    "3312": {
+      "close": 50.8,
+      "reference": 48.699999999999996,
+      "special": false,
+      "volume": 714425.0
+    },
+    "3321": {
+      "close": 16.5,
+      "reference": 16.75,
+      "special": false,
+      "volume": 125174.0
+    },
+    "3338": {
+      "close": 67.0,
+      "reference": 66.0,
+      "special": false,
+      "volume": 210495.0
+    },
+    "3346": {
+      "close": 21.45,
+      "reference": 21.349999999999998,
+      "special": false,
+      "volume": 264920.0
+    },
+    "3356": {
+      "close": 73.6,
+      "reference": 73.1,
+      "special": false,
+      "volume": 294287.0
+    },
+    "3376": {
+      "close": 182.5,
+      "reference": 178.5,
+      "special": false,
+      "volume": 3885077.0
+    },
+    "3380": {
+      "close": 32.65,
+      "reference": 32.35,
+      "special": false,
+      "volume": 3214802.0
+    },
+    "3406": {
+      "close": 1140.0,
+      "reference": 1040.0,
+      "special": false,
+      "volume": 2682052.0
+    },
+    "3413": {
+      "close": 281.5,
+      "reference": 276.5,
+      "special": false,
+      "volume": 294884.0
+    },
+    "3416": {
+      "close": 178.0,
+      "reference": 179.0,
+      "special": false,
+      "volume": 187073.0
+    },
+    "3419": {
+      "close": 11.45,
+      "reference": 11.45,
+      "special": false,
+      "volume": 95036.0
+    },
+    "3432": {
+      "close": 13.9,
+      "reference": 13.950000000000001,
+      "special": false,
+      "volume": 32000.0
+    },
+    "3437": {
+      "close": 19.65,
+      "reference": 19.549999999999997,
+      "special": false,
+      "volume": 248287.0
+    },
+    "3443": {
+      "close": 8000.0,
+      "reference": 7745.0,
+      "special": false,
+      "volume": 1995878.0
+    },
+    "3447": {
+      "close": 27.85,
+      "reference": 27.700000000000003,
+      "special": false,
+      "volume": 46324.0
+    },
+    "3450": {
+      "close": 450.0,
+      "reference": 430.5,
+      "special": false,
+      "volume": 4067013.0
+    },
+    "3481": {
+      "close": 48.5,
+      "reference": 46.8,
+      "special": false,
+      "volume": 83059939.0
+    },
+    "3494": {
+      "close": 7.01,
+      "reference": 7.02,
+      "special": false,
+      "volume": 185131.0
+    },
+    "3501": {
+      "close": 37.7,
+      "reference": 38.0,
+      "special": false,
+      "volume": 154994.0
+    },
+    "3504": {
+      "close": 73.9,
+      "reference": 76.2,
+      "special": false,
+      "volume": 2806164.0
+    },
+    "3515": {
+      "close": 226.5,
+      "reference": 226.0,
+      "special": false,
+      "volume": 352734.0
+    },
+    "3518": {
+      "close": 40.1,
+      "reference": 39.35,
+      "special": false,
+      "volume": 1844898.0
+    },
+    "3528": {
+      "close": 82.0,
+      "reference": 81.5,
+      "special": false,
+      "volume": 110315.0
+    },
+    "3530": {
+      "close": 57.1,
+      "reference": 56.5,
+      "special": false,
+      "volume": 58577.0
+    },
+    "3532": {
+      "close": 428.0,
+      "reference": 389.5,
+      "special": false,
+      "volume": 5143745.0
+    },
+    "3533": {
+      "close": 1820.0,
+      "reference": 1805.0,
+      "special": false,
+      "volume": 900816.0
+    },
+    "3535": {
+      "close": 96.8,
+      "reference": 93.89999999999999,
+      "special": false,
+      "volume": 2932917.0
+    },
+    "3543": {
+      "close": 53.4,
+      "reference": 51.1,
+      "special": false,
+      "volume": 7118877.0
+    },
+    "3545": {
+      "close": 53.7,
+      "reference": 51.400000000000006,
+      "special": false,
+      "volume": 2713827.0
+    },
+    "3550": {
+      "close": 24.0,
+      "reference": 23.85,
+      "special": false,
+      "volume": 498964.0
+    },
+    "3557": {
+      "close": 23.35,
+      "reference": 23.450000000000003,
+      "special": false,
+      "volume": 35778.0
+    },
+    "3563": {
+      "close": 684.0,
+      "reference": 668.0,
+      "special": false,
+      "volume": 314473.0
+    },
+    "3576": {
+      "close": 17.3,
+      "reference": 17.0,
+      "special": false,
+      "volume": 16238071.0
+    },
+    "3583": {
+      "close": 620.0,
+      "reference": 614.0,
+      "special": false,
+      "volume": 352200.0
+    },
+    "3588": {
+      "close": 50.5,
+      "reference": 50.0,
+      "special": false,
+      "volume": 116516.0
+    },
+    "3591": {
+      "close": 27.75,
+      "reference": 27.6,
+      "special": false,
+      "volume": 722616.0
+    },
+    "3592": {
+      "close": 252.5,
+      "reference": 250.5,
+      "special": false,
+      "volume": 345877.0
+    },
+    "3593": {
+      "close": 10.35,
+      "reference": 10.5,
+      "special": false,
+      "volume": 6012.0
+    },
+    "3596": {
+      "close": 158.0,
+      "reference": 157.5,
+      "special": false,
+      "volume": 960048.0
+    },
+    "3605": {
+      "close": 178.0,
+      "reference": 166.0,
+      "special": false,
+      "volume": 9902891.0
+    },
+    "3607": {
+      "close": 13.75,
+      "reference": 13.8,
+      "special": false,
+      "volume": 116515.0
+    },
+    "3617": {
+      "close": 254.5,
+      "reference": 251.5,
+      "special": false,
+      "volume": 299724.0
+    },
+    "3622": {
+      "close": 43.9,
+      "reference": 44.0,
+      "special": false,
+      "volume": 100193.0
+    },
+    "3645": {
+      "close": 72.6,
+      "reference": 72.89999999999999,
+      "special": false,
+      "volume": 1083957.0
+    },
+    "3652": {
+      "close": 32.7,
+      "reference": 33.0,
+      "special": false,
+      "volume": 45060.0
+    },
+    "3653": {
+      "close": 6535.0,
+      "reference": 6650.0,
+      "special": false,
+      "volume": 1309182.0
+    },
+    "3661": {
+      "close": 3710.0,
+      "reference": 3640.0,
+      "special": false,
+      "volume": 1280895.0
+    },
+    "3665": {
+      "close": 1950.0,
+      "reference": 1925.0,
+      "special": false,
+      "volume": 2693833.0
+    },
+    "3669": {
+      "close": 31.7,
+      "reference": 31.75,
+      "special": false,
+      "volume": 76515.0
+    },
+    "3673": {
+      "close": 75.8,
+      "reference": 72.39999999999999,
+      "special": false,
+      "volume": 20583837.0
+    },
+    "3679": {
+      "close": 108.5,
+      "reference": 108.5,
+      "special": false,
+      "volume": 33639.0
+    },
+    "3686": {
+      "close": 14.8,
+      "reference": 15.0,
+      "special": false,
+      "volume": 117315.0
+    },
+    "3694": {
+      "close": 49.0,
+      "reference": 48.15,
+      "special": false,
+      "volume": 342213.0
+    },
+    "3701": {
+      "close": 59.0,
+      "reference": 58.4,
+      "special": false,
+      "volume": 8165017.0
+    },
+    "3702": {
+      "close": 115.0,
+      "reference": 113.5,
+      "special": false,
+      "volume": 11165176.0
+    },
+    "3703": {
+      "close": 20.55,
+      "reference": 20.6,
+      "special": false,
+      "volume": 874437.0
+    },
+    "3704": {
+      "close": 40.1,
+      "reference": 39.95,
+      "special": false,
+      "volume": 789986.0
+    },
+    "3705": {
+      "close": 58.9,
+      "reference": 58.9,
+      "special": false,
+      "volume": 418148.0
+    },
+    "3706": {
+      "close": 81.3,
+      "reference": 80.7,
+      "special": false,
+      "volume": 7288996.0
+    },
+    "3708": {
+      "close": 94.8,
+      "reference": 94.7,
+      "special": false,
+      "volume": 155515.0
+    },
+    "3711": {
+      "close": 684.0,
+      "reference": 660.0,
+      "special": false,
+      "volume": 11053174.0
+    },
+    "3712": {
+      "close": 19.95,
+      "reference": 20.099999999999998,
+      "special": false,
+      "volume": 292476.0
+    },
+    "3714": {
+      "close": 62.6,
+      "reference": 61.7,
+      "special": false,
+      "volume": 2812552.0
+    },
+    "3715": {
+      "close": 135.0,
+      "reference": 129.5,
+      "special": false,
+      "volume": 5621299.0
+    },
+    "3716": {
+      "close": 33.65,
+      "reference": 33.65,
+      "special": false,
+      "volume": 92121.0
+    },
+    "3717": {
+      "close": 28.0,
+      "reference": 27.75,
+      "special": false,
+      "volume": 4518429.0
+    },
+    "4104": {
+      "close": 73.5,
+      "reference": 72.7,
+      "special": false,
+      "volume": 133240.0
+    },
+    "4106": {
+      "close": 23.85,
+      "reference": 24.1,
+      "special": false,
+      "volume": 46174.0
+    },
+    "4108": {
+      "close": 11.2,
+      "reference": 11.1,
+      "special": false,
+      "volume": 292131.0
+    },
+    "4119": {
+      "close": 53.4,
+      "reference": 52.8,
+      "special": false,
+      "volume": 67350.0
+    },
+    "4133": {
+      "close": 20.9,
+      "reference": 20.849999999999998,
+      "special": false,
+      "volume": 59298.0
+    },
+    "4137": {
+      "close": 80.2,
+      "reference": 80.2,
+      "special": false,
+      "volume": 75976.0
+    },
+    "4142": {
+      "close": 17.9,
+      "reference": 17.799999999999997,
+      "special": false,
+      "volume": 366997.0
+    },
+    "4148": {
+      "close": 30.8,
+      "reference": 31.1,
+      "special": false,
+      "volume": 27032.0
+    },
+    "4155": {
+      "close": 17.2,
+      "reference": 16.15,
+      "special": false,
+      "volume": 3484060.0
+    },
+    "4164": {
+      "close": 27.25,
+      "reference": 27.1,
+      "special": false,
+      "volume": 91439.0
+    },
+    "4169": {
+      "close": 156.0,
+      "reference": 142.0,
+      "special": false,
+      "volume": 348249.0
+    },
+    "4178": {
+      "close": 17.15,
+      "reference": 17.2,
+      "special": false,
+      "volume": 159500.0
+    },
+    "4190": {
+      "close": 24.0,
+      "reference": 24.1,
+      "special": false,
+      "volume": 13384.0
+    },
+    "4195": {
+      "close": 15.15,
+      "reference": 15.25,
+      "special": false,
+      "volume": 47005.0
+    },
+    "4306": {
+      "close": 14.7,
+      "reference": 14.75,
+      "special": false,
+      "volume": 658237.0
+    },
+    "4414": {
+      "close": 8.01,
+      "reference": 8.06,
+      "special": false,
+      "volume": 212574.0
+    },
+    "4426": {
+      "close": 8.17,
+      "reference": 8.09,
+      "special": false,
+      "volume": 99679.0
+    },
+    "4438": {
+      "close": 57.6,
+      "reference": 57.5,
+      "special": false,
+      "volume": 31139.0
+    },
+    "4439": {
+      "close": 99.5,
+      "reference": 100.5,
+      "special": false,
+      "volume": 11000.0
+    },
+    "4440": {
+      "close": 17.3,
+      "reference": 17.45,
+      "special": false,
+      "volume": 33029.0
+    },
+    "4441": {
+      "close": 162.5,
+      "reference": 165.0,
+      "special": false,
+      "volume": 211215.0
+    },
+    "4526": {
+      "close": 38.05,
+      "reference": 34.599999999999994,
+      "special": false,
+      "volume": 10869645.0
+    },
+    "4532": {
+      "close": 24.15,
+      "reference": 24.299999999999997,
+      "special": false,
+      "volume": 715141.0
+    },
+    "4536": {
+      "close": 154.0,
+      "reference": 155.0,
+      "special": false,
+      "volume": 75544.0
+    },
+    "4540": {
+      "close": 59.4,
+      "reference": 58.6,
+      "special": false,
+      "volume": 877228.0
+    },
+    "4545": {
+      "close": 37.3,
+      "reference": 36.599999999999994,
+      "special": false,
+      "volume": 26100.0
+    },
+    "4551": {
+      "close": 164.5,
+      "reference": 156.5,
+      "special": false,
+      "volume": 785833.0
+    },
+    "4552": {
+      "close": 15.0,
+      "reference": 15.0,
+      "special": false,
+      "volume": 92805.0
+    },
+    "4555": {
+      "close": 42.6,
+      "reference": 43.2,
+      "special": false,
+      "volume": 88237.0
+    },
+    "4557": {
+      "close": 55.8,
+      "reference": 55.8,
+      "special": false,
+      "volume": 39836.0
+    },
+    "4560": {
+      "close": 28.9,
+      "reference": 28.95,
+      "special": false,
+      "volume": 201951.0
+    },
+    "4562": {
+      "close": 29.85,
+      "reference": 30.0,
+      "special": false,
+      "volume": 79523.0
+    },
+    "4564": {
+      "close": 15.6,
+      "reference": 15.75,
+      "special": false,
+      "volume": 917377.0
+    },
+    "4566": {
+      "close": 85.1,
+      "reference": 85.8,
+      "special": false,
+      "volume": 13726781.0
+    },
+    "4569": {
+      "close": 152.0,
+      "reference": 152.0,
+      "special": false,
+      "volume": 4198.0
+    },
+    "4571": {
+      "close": 160.0,
+      "reference": 160.0,
+      "special": false,
+      "volume": 83521.0
+    },
+    "4572": {
+      "close": 131.5,
+      "reference": 129.5,
+      "special": false,
+      "volume": 23216.0
+    },
+    "4576": {
+      "close": 215.0,
+      "reference": 203.0,
+      "special": false,
+      "volume": 967982.0
+    },
+    "4581": {
+      "close": 48.2,
+      "reference": 47.800000000000004,
+      "special": false,
+      "volume": 9172.0
+    },
+    "4582": {
+      "close": 20.35,
+      "reference": 20.35,
+      "special": false,
+      "volume": 37877.0
+    },
+    "4583": {
+      "close": 391.5,
+      "reference": 392.5,
+      "special": false,
+      "volume": 98405.0
+    },
+    "4585": {
+      "close": 276.5,
+      "reference": 272.0,
+      "special": false,
+      "volume": 71913.0
+    },
+    "4588": {
+      "close": 54.6,
+      "reference": 55.2,
+      "special": false,
+      "volume": 22928.0
+    },
+    "4590": {
+      "close": 80.3,
+      "reference": 80.39999999999999,
+      "special": false,
+      "volume": 170022.0
+    },
+    "4720": {
+      "close": 29.25,
+      "reference": 26.6,
+      "special": false,
+      "volume": 33962488.0
+    },
+    "4722": {
+      "close": 194.5,
+      "reference": 189.5,
+      "special": false,
+      "volume": 363053.0
+    },
+    "4736": {
+      "close": 130.5,
+      "reference": 130.0,
+      "special": false,
+      "volume": 70135.0
+    },
+    "4737": {
+      "close": 57.0,
+      "reference": 56.0,
+      "special": false,
+      "volume": 49377.0
+    },
+    "4739": {
+      "close": 82.8,
+      "reference": 81.5,
+      "special": false,
+      "volume": 437177.0
+    },
+    "4746": {
+      "close": 46.85,
+      "reference": 47.0,
+      "special": false,
+      "volume": 306135.0
+    },
+    "4755": {
+      "close": 125.0,
+      "reference": 122.5,
+      "special": false,
+      "volume": 458703.0
+    },
+    "4763": {
+      "close": 46.65,
+      "reference": 45.699999999999996,
+      "special": false,
+      "volume": 3995295.0
+    },
+    "4764": {
+      "close": 172.0,
+      "reference": 166.5,
+      "special": false,
+      "volume": 467147.0
+    },
+    "4766": {
+      "close": 360.0,
+      "reference": 359.0,
+      "special": false,
+      "volume": 117304.0
+    },
+    "4770": {
+      "close": 313.5,
+      "reference": 285.0,
+      "special": false,
+      "volume": 5804316.0
+    },
+    "4771": {
+      "close": 210.0,
+      "reference": 203.0,
+      "special": false,
+      "volume": 176078.0
+    },
+    "4807": {
+      "close": 31.15,
+      "reference": 31.45,
+      "special": false,
+      "volume": 98608.0
+    },
+    "4904": {
+      "close": 112.0,
+      "reference": 112.0,
+      "special": false,
+      "volume": 6381915.0
+    },
+    "4906": {
+      "close": 42.5,
+      "reference": 42.6,
+      "special": false,
+      "volume": 8190428.0
+    },
+    "4912": {
+      "close": 99.3,
+      "reference": 99.89999999999999,
+      "special": false,
+      "volume": 192912.0
+    },
+    "4915": {
+      "close": 61.6,
+      "reference": 61.7,
+      "special": false,
+      "volume": 3448755.0
+    },
+    "4916": {
+      "close": 103.5,
+      "reference": 101.0,
+      "special": false,
+      "volume": 2125856.0
+    },
+    "4919": {
+      "close": 143.5,
+      "reference": 134.0,
+      "special": false,
+      "volume": 9961638.0
+    },
+    "4927": {
+      "close": 56.3,
+      "reference": 56.5,
+      "special": false,
+      "volume": 16147176.0
+    },
+    "4930": {
+      "close": 15.35,
+      "reference": 15.4,
+      "special": false,
+      "volume": 24453.0
+    },
+    "4934": {
+      "close": 15.25,
+      "reference": 15.1,
+      "special": false,
+      "volume": 746397.0
+    },
+    "4935": {
+      "close": 33.75,
+      "reference": 33.8,
+      "special": false,
+      "volume": 84126.0
+    },
+    "4938": {
+      "close": 105.0,
+      "reference": 105.0,
+      "special": false,
+      "volume": 29515747.0
+    },
+    "4942": {
+      "close": 31.25,
+      "reference": 31.05,
+      "special": false,
+      "volume": 103360.0
+    },
+    "4943": {
+      "close": 6.99,
+      "reference": 6.96,
+      "special": false,
+      "volume": 10243.0
+    },
+    "4949": {
+      "close": 85.8,
+      "reference": 79.1,
+      "special": false,
+      "volume": 4628224.0
+    },
+    "4952": {
+      "close": 47.3,
+      "reference": 46.949999999999996,
+      "special": false,
+      "volume": 109845.0
+    },
+    "4956": {
+      "close": 39.65,
+      "reference": 39.1,
+      "special": false,
+      "volume": 1183998.0
+    },
+    "4958": {
+      "close": 578.0,
+      "reference": 547.0,
+      "special": false,
+      "volume": 34141516.0
+    },
+    "4960": {
+      "close": 30.85,
+      "reference": 30.55,
+      "special": false,
+      "volume": 54240918.0
+    },
+    "4961": {
+      "close": 188.0,
+      "reference": 183.0,
+      "special": false,
+      "volume": 1039414.0
+    },
+    "4967": {
+      "close": 249.0,
+      "reference": 248.5,
+      "special": false,
+      "volume": 620938.0
+    },
+    "4968": {
+      "close": 93.8,
+      "reference": 91.3,
+      "special": false,
+      "volume": 334059.0
+    },
+    "4976": {
+      "close": 39.45,
+      "reference": 39.550000000000004,
+      "special": false,
+      "volume": 5092177.0
+    },
+    "4977": {
+      "close": 180.5,
+      "reference": 171.0,
+      "special": false,
+      "volume": 4050574.0
+    },
+    "4989": {
+      "close": 68.9,
+      "reference": 68.80000000000001,
+      "special": false,
+      "volume": 7103148.0
+    },
+    "4994": {
+      "close": 80.6,
+      "reference": 80.5,
+      "special": false,
+      "volume": 65111.0
+    },
+    "4999": {
+      "close": 17.5,
+      "reference": 17.45,
+      "special": false,
+      "volume": 51093.0
+    },
+    "5007": {
+      "close": 55.4,
+      "reference": 55.6,
+      "special": false,
+      "volume": 35261.0
+    },
+    "5203": {
+      "close": 59.5,
+      "reference": 59.5,
+      "special": false,
+      "volume": 59467.0
+    },
+    "5215": {
+      "close": 35.85,
+      "reference": 35.9,
+      "special": false,
+      "volume": 33358.0
+    },
+    "5222": {
+      "close": 92.8,
+      "reference": 92.7,
+      "special": false,
+      "volume": 132022.0
+    },
+    "5225": {
+      "close": 55.1,
+      "reference": 54.9,
+      "special": false,
+      "volume": 79885.0
+    },
+    "5234": {
+      "close": 295.0,
+      "reference": 292.0,
+      "special": false,
+      "volume": 132161.0
+    },
+    "5236": {
+      "close": 124.0,
+      "reference": 124.0,
+      "special": false,
+      "volume": 47270.0
+    },
+    "5243": {
+      "close": 97.7,
+      "reference": 96.7,
+      "special": false,
+      "volume": 2407523.0
+    },
+    "5244": {
+      "close": 36.6,
+      "reference": 36.5,
+      "special": false,
+      "volume": 70628.0
+    },
+    "5258": {
+      "close": 44.95,
+      "reference": 44.6,
+      "special": false,
+      "volume": 229029.0
+    },
+    "5269": {
+      "close": 1485.0,
+      "reference": 1470.0,
+      "special": false,
+      "volume": 260461.0
+    },
+    "5283": {
+      "close": 51.0,
+      "reference": 51.5,
+      "special": false,
+      "volume": 80906.0
+    },
+    "5284": {
+      "close": 266.5,
+      "reference": 265.0,
+      "special": false,
+      "volume": 205492.0
+    },
+    "5285": {
+      "close": 90.8,
+      "reference": 87.2,
+      "special": false,
+      "volume": 730813.0
+    },
+    "5288": {
+      "close": 182.0,
+      "reference": 183.0,
+      "special": false,
+      "volume": 38783.0
+    },
+    "5292": {
+      "close": 248.0,
+      "reference": 245.5,
+      "special": false,
+      "volume": 291281.0
+    },
+    "5306": {
+      "close": 87.7,
+      "reference": 88.0,
+      "special": false,
+      "volume": 112048.0
+    },
+    "5388": {
+      "close": 75.0,
+      "reference": 73.7,
+      "special": false,
+      "volume": 1851384.0
+    },
+    "5434": {
+      "close": 573.0,
+      "reference": 561.0,
+      "special": false,
+      "volume": 574888.0
+    },
+    "5469": {
+      "close": 84.5,
+      "reference": 85.5,
+      "special": false,
+      "volume": 4179476.0
+    },
+    "5471": {
+      "close": 49.55,
+      "reference": 48.599999999999994,
+      "special": false,
+      "volume": 437909.0
+    },
+    "5484": {
+      "close": 36.1,
+      "reference": 35.9,
+      "special": false,
+      "volume": 75978.0
+    },
+    "5515": {
+      "close": 49.8,
+      "reference": 50.5,
+      "special": false,
+      "volume": 527355.0
+    },
+    "5519": {
+      "close": 23.7,
+      "reference": 23.65,
+      "special": false,
+      "volume": 147173.0
+    },
+    "5521": {
+      "close": 11.1,
+      "reference": 11.15,
+      "special": false,
+      "volume": 1146255.0
+    },
+    "5522": {
+      "close": 61.8,
+      "reference": 62.099999999999994,
+      "special": false,
+      "volume": 495222.0
+    },
+    "5525": {
+      "close": 21.6,
+      "reference": 21.6,
+      "special": false,
+      "volume": 68805.0
+    },
+    "5531": {
+      "close": 6.74,
+      "reference": 6.75,
+      "special": false,
+      "volume": 250679.0
+    },
+    "5533": {
+      "close": 13.85,
+      "reference": 13.9,
+      "special": false,
+      "volume": 55453.0
+    },
+    "5534": {
+      "close": 69.7,
+      "reference": 70.10000000000001,
+      "special": false,
+      "volume": 733666.0
+    },
+    "5538": {
+      "close": 35.75,
+      "reference": 35.75,
+      "special": false,
+      "volume": 64069.0
+    },
+    "5546": {
+      "close": 13.8,
+      "reference": 13.5,
+      "special": false,
+      "volume": 60660.0
+    },
+    "5607": {
+      "close": 52.0,
+      "reference": 51.5,
+      "special": false,
+      "volume": 189329.0
+    },
+    "5608": {
+      "close": 16.3,
+      "reference": 16.2,
+      "special": false,
+      "volume": 694368.0
+    },
+    "5706": {
+      "close": 43.1,
+      "reference": 43.25,
+      "special": false,
+      "volume": 91205.0
+    },
+    "5871": {
+      "close": 107.5,
+      "reference": 106.5,
+      "special": false,
+      "volume": 4925635.0
+    },
+    "5876": {
+      "close": 53.8,
+      "reference": 53.699999999999996,
+      "special": false,
+      "volume": 8018809.0
+    },
+    "5880": {
+      "close": 28.0,
+      "reference": 27.45,
+      "special": false,
+      "volume": 11744444.0
+    },
+    "5906": {
+      "close": 36.7,
+      "reference": 39.800000000000004,
+      "special": false,
+      "volume": 1539.0
+    },
+    "5907": {
+      "close": 4.41,
+      "reference": 4.45,
+      "special": false,
+      "volume": 240000.0
+    },
+    "6005": {
+      "close": 31.0,
+      "reference": 30.5,
+      "special": false,
+      "volume": 4490768.0
+    },
+    "6024": {
+      "close": 57.7,
+      "reference": 57.300000000000004,
+      "special": false,
+      "volume": 167835.0
+    },
+    "6108": {
+      "close": 33.0,
+      "reference": 32.8,
+      "special": false,
+      "volume": 12406755.0
+    },
+    "6112": {
+      "close": 48.2,
+      "reference": 48.1,
+      "special": false,
+      "volume": 870457.0
+    },
+    "6115": {
+      "close": 43.7,
+      "reference": 43.650000000000006,
+      "special": false,
+      "volume": 52573.0
+    },
+    "6116": {
+      "close": 14.7,
+      "reference": 14.6,
+      "special": false,
+      "volume": 14536303.0
+    },
+    "6117": {
+      "close": 66.9,
+      "reference": 66.60000000000001,
+      "special": false,
+      "volume": 322830.0
+    },
+    "6120": {
+      "close": 13.5,
+      "reference": 13.6,
+      "special": false,
+      "volume": 1793794.0
+    },
+    "6128": {
+      "close": 19.0,
+      "reference": 19.05,
+      "special": false,
+      "volume": 37171.0
+    },
+    "6133": {
+      "close": 26.85,
+      "reference": 24.450000000000003,
+      "special": false,
+      "volume": 2574959.0
+    },
+    "6136": {
+      "close": 26.3,
+      "reference": 26.150000000000002,
+      "special": false,
+      "volume": 301765.0
+    },
+    "6139": {
+      "close": 659.0,
+      "reference": 646.0,
+      "special": false,
+      "volume": 1524976.0
+    },
+    "6141": {
+      "close": 53.8,
+      "reference": 59.699999999999996,
+      "special": false,
+      "volume": 7936480.0
+    },
+    "6152": {
+      "close": 18.35,
+      "reference": 19.0,
+      "special": false,
+      "volume": 4486972.0
+    },
+    "6153": {
+      "close": 18.6,
+      "reference": 18.700000000000003,
+      "special": false,
+      "volume": 6951887.0
+    },
+    "6155": {
+      "close": 71.7,
+      "reference": 65.2,
+      "special": false,
+      "volume": 4234896.0
+    },
+    "6164": {
+      "close": 13.3,
+      "reference": 12.4,
+      "special": false,
+      "volume": 1247369.0
+    },
+    "6165": {
+      "close": 49.4,
+      "reference": 50.1,
+      "special": false,
+      "volume": 404860.0
+    },
+    "6166": {
+      "close": 107.0,
+      "reference": 106.5,
+      "special": false,
+      "volume": 669342.0
+    },
+    "6168": {
+      "close": 35.6,
+      "reference": 35.45,
+      "special": false,
+      "volume": 2673991.0
+    },
+    "6176": {
+      "close": 90.8,
+      "reference": 92.3,
+      "special": false,
+      "volume": 1665643.0
+    },
+    "6177": {
+      "close": 45.5,
+      "reference": 45.35,
+      "special": false,
+      "volume": 395550.0
+    },
+    "6183": {
+      "close": 90.4,
+      "reference": 91.0,
+      "special": false,
+      "volume": 23958.0
+    },
+    "6184": {
+      "close": 39.6,
+      "reference": 39.7,
+      "special": false,
+      "volume": 75919.0
+    },
+    "6189": {
+      "close": 48.25,
+      "reference": 48.2,
+      "special": false,
+      "volume": 210090.0
+    },
+    "6191": {
+      "close": 92.2,
+      "reference": 90.5,
+      "special": false,
+      "volume": 2578795.0
+    },
+    "6192": {
+      "close": 114.0,
+      "reference": 113.5,
+      "special": false,
+      "volume": 69401.0
+    },
+    "6196": {
+      "close": 615.0,
+      "reference": 593.0,
+      "special": false,
+      "volume": 1063132.0
+    },
+    "6197": {
+      "close": 337.0,
+      "reference": 324.0,
+      "special": false,
+      "volume": 1381628.0
+    },
+    "6201": {
+      "close": 46.3,
+      "reference": 46.0,
+      "special": false,
+      "volume": 27220.0
+    },
+    "6202": {
+      "close": 55.9,
+      "reference": 54.699999999999996,
+      "special": false,
+      "volume": 717536.0
+    },
+    "6205": {
+      "close": 68.1,
+      "reference": 65.89999999999999,
+      "special": false,
+      "volume": 328675.0
+    },
+    "6206": {
+      "close": 131.0,
+      "reference": 129.5,
+      "special": false,
+      "volume": 439394.0
+    },
+    "6209": {
+      "close": 110.0,
+      "reference": 112.0,
+      "special": false,
+      "volume": 96884414.0
+    },
+    "6213": {
+      "close": 823.0,
+      "reference": 749.0,
+      "special": false,
+      "volume": 4238873.0
+    },
+    "6214": {
+      "close": 199.0,
+      "reference": 196.5,
+      "special": false,
+      "volume": 540416.0
+    },
+    "6215": {
+      "close": 91.6,
+      "reference": 90.5,
+      "special": false,
+      "volume": 183708.0
+    },
+    "6216": {
+      "close": 19.3,
+      "reference": 19.35,
+      "special": false,
+      "volume": 52689.0
+    },
+    "6224": {
+      "close": 76.6,
+      "reference": 76.3,
+      "special": false,
+      "volume": 724142.0
+    },
+    "6225": {
+      "close": 81.4,
+      "reference": 83.5,
+      "special": false,
+      "volume": 142531.0
+    },
+    "6226": {
+      "close": 40.7,
+      "reference": 41.45,
+      "special": false,
+      "volume": 5738503.0
+    },
+    "6230": {
+      "close": 111.0,
+      "reference": 108.5,
+      "special": false,
+      "volume": 37076.0
+    },
+    "6235": {
+      "close": 35.9,
+      "reference": 35.8,
+      "special": false,
+      "volume": 173239.0
+    },
+    "6239": {
+      "close": 266.0,
+      "reference": 256.0,
+      "special": false,
+      "volume": 8932401.0
+    },
+    "6243": {
+      "close": 37.5,
+      "reference": 36.9,
+      "special": false,
+      "volume": 160390.0
+    },
+    "6257": {
+      "close": 248.0,
+      "reference": 238.0,
+      "special": false,
+      "volume": 7325881.0
+    },
+    "6269": {
+      "close": 86.6,
+      "reference": 88.3,
+      "special": false,
+      "volume": 141493745.0
+    },
+    "6271": {
+      "close": 232.0,
+      "reference": 219.0,
+      "special": false,
+      "volume": 3482076.0
+    },
+    "6272": {
+      "close": 23.7,
+      "reference": 23.4,
+      "special": false,
+      "volume": 78401.0
+    },
+    "6277": {
+      "close": 98.2,
+      "reference": 96.10000000000001,
+      "special": false,
+      "volume": 5095807.0
+    },
+    "6278": {
+      "close": 316.5,
+      "reference": 288.0,
+      "special": false,
+      "volume": 18751060.0
+    },
+    "6281": {
+      "close": 50.6,
+      "reference": 50.800000000000004,
+      "special": false,
+      "volume": 20809.0
+    },
+    "6282": {
+      "close": 42.9,
+      "reference": 41.8,
+      "special": false,
+      "volume": 3914918.0
+    },
+    "6283": {
+      "close": 19.15,
+      "reference": 18.9,
+      "special": false,
+      "volume": 65012.0
+    },
+    "6285": {
+      "close": 246.5,
+      "reference": 247.5,
+      "special": false,
+      "volume": 16188423.0
+    },
+    "6405": {
+      "close": 40.65,
+      "reference": 40.05,
+      "special": false,
+      "volume": 425826.0
+    },
+    "6409": {
+      "close": 913.0,
+      "reference": 870.0,
+      "special": false,
+      "volume": 396144.0
+    },
+    "6412": {
+      "close": 73.6,
+      "reference": 75.0,
+      "special": false,
+      "volume": 905066.0
+    },
+    "6414": {
+      "close": 384.5,
+      "reference": 383.5,
+      "special": false,
+      "volume": 619162.0
+    },
+    "6415": {
+      "close": 490.0,
+      "reference": 462.5,
+      "special": false,
+      "volume": 5055003.0
+    },
+    "6416": {
+      "close": 122.0,
+      "reference": 120.0,
+      "special": false,
+      "volume": 594041.0
+    },
+    "6426": {
+      "close": 342.0,
+      "reference": 331.0,
+      "special": false,
+      "volume": 1852466.0
+    },
+    "6431": {
+      "close": 16.4,
+      "reference": 16.4,
+      "special": false,
+      "volume": 11006.0
+    },
+    "6438": {
+      "close": 172.0,
+      "reference": 167.0,
+      "special": false,
+      "volume": 998675.0
+    },
+    "6442": {
+      "close": 1500.0,
+      "reference": 1455.0,
+      "special": false,
+      "volume": 1043954.0
+    },
+    "6443": {
+      "close": 26.75,
+      "reference": 24.8,
+      "special": false,
+      "volume": 24822363.0
+    },
+    "6446": {
+      "close": 1175.0,
+      "reference": 1155.0,
+      "special": false,
+      "volume": 1496190.0
+    },
+    "6449": {
+      "close": 245.0,
+      "reference": 236.0,
+      "special": false,
+      "volume": 1267838.0
+    },
+    "6451": {
+      "close": 373.5,
+      "reference": 352.5,
+      "special": false,
+      "volume": 849432.0
+    },
+    "6456": {
+      "close": 98.4,
+      "reference": 89.5,
+      "special": false,
+      "volume": 36231857.0
+    },
+    "6464": {
+      "close": 76.7,
+      "reference": 76.0,
+      "special": false,
+      "volume": 10100.0
+    },
+    "6467": {
+      "close": 187.0,
+      "reference": 200.0,
+      "special": false,
+      "volume": 1207854.0
+    },
+    "6472": {
+      "close": 413.5,
+      "reference": 413.0,
+      "special": false,
+      "volume": 332276.0
+    },
+    "6477": {
+      "close": 32.35,
+      "reference": 31.900000000000002,
+      "special": false,
+      "volume": 327557.0
+    },
+    "6491": {
+      "close": 431.0,
+      "reference": 406.5,
+      "special": false,
+      "volume": 1489135.0
+    },
+    "6504": {
+      "close": 38.85,
+      "reference": 38.45,
+      "special": false,
+      "volume": 59442.0
+    },
+    "6505": {
+      "close": 109.5,
+      "reference": 106.5,
+      "special": false,
+      "volume": 39226485.0
+    },
+    "6515": {
+      "close": 4970.0,
+      "reference": 4960.0,
+      "special": false,
+      "volume": 430194.0
+    },
+    "6525": {
+      "close": 124.5,
+      "reference": 121.5,
+      "special": false,
+      "volume": 309041.0
+    },
+    "6526": {
+      "close": 806.0,
+      "reference": 801.0,
+      "special": false,
+      "volume": 2665160.0
+    },
+    "6531": {
+      "close": 831.0,
+      "reference": 800.0,
+      "special": false,
+      "volume": 2484433.0
+    },
+    "6533": {
+      "close": 291.0,
+      "reference": 281.5,
+      "special": false,
+      "volume": 1729227.0
+    },
+    "6534": {
+      "close": 91.0,
+      "reference": 90.6,
+      "special": false,
+      "volume": 11321.0
+    },
+    "6541": {
+      "close": 31.05,
+      "reference": 31.1,
+      "special": false,
+      "volume": 345407.0
+    },
+    "6550": {
+      "close": 15.7,
+      "reference": 15.5,
+      "special": false,
+      "volume": 225085.0
+    },
+    "6552": {
+      "close": 23.3,
+      "reference": 23.45,
+      "special": false,
+      "volume": 33893.0
+    },
+    "6558": {
+      "close": 23.25,
+      "reference": 23.4,
+      "special": false,
+      "volume": 156974.0
+    },
+    "6573": {
+      "close": 15.05,
+      "reference": 14.9,
+      "special": false,
+      "volume": 69300.0
+    },
+    "6579": {
+      "close": 142.5,
+      "reference": 142.5,
+      "special": false,
+      "volume": 163558.0
+    },
+    "6581": {
+      "close": 108.0,
+      "reference": 108.0,
+      "special": false,
+      "volume": 11103.0
+    },
+    "6582": {
+      "close": 31.45,
+      "reference": 31.5,
+      "special": false,
+      "volume": 13286.0
+    },
+    "6585": {
+      "close": 95.6,
+      "reference": 94.8,
+      "special": false,
+      "volume": 72355.0
+    },
+    "6589": {
+      "close": 49.35,
+      "reference": 49.1,
+      "special": false,
+      "volume": 232203.0
+    },
+    "6591": {
+      "close": 41.7,
+      "reference": 41.7,
+      "special": false,
+      "volume": 82161.0
+    },
+    "6592": {
+      "close": 56.4,
+      "reference": 56.6,
+      "special": false,
+      "volume": 321232.0
+    },
+    "6598": {
+      "close": 30.3,
+      "reference": 28.85,
+      "special": false,
+      "volume": 622233.0
+    },
+    "6605": {
+      "close": 132.5,
+      "reference": 135.0,
+      "special": false,
+      "volume": 843434.0
+    },
+    "6606": {
+      "close": 24.15,
+      "reference": 24.299999999999997,
+      "special": false,
+      "volume": 21510.0
+    },
+    "6614": {
+      "close": 34.8,
+      "reference": 34.8,
+      "special": false,
+      "volume": 28794.0
+    },
+    "6625": {
+      "close": 72.8,
+      "reference": 72.8,
+      "special": false,
+      "volume": 60344.0
+    },
+    "6641": {
+      "close": 16.75,
+      "reference": 17.0,
+      "special": false,
+      "volume": 9342.0
+    },
+    "6645": {
+      "close": 13.9,
+      "reference": 13.700000000000001,
+      "special": false,
+      "volume": 18090.0
+    },
+    "6655": {
+      "close": 135.0,
+      "reference": 134.5,
+      "special": false,
+      "volume": 16023.0
+    },
+    "6657": {
+      "close": 33.6,
+      "reference": 33.75,
+      "special": false,
+      "volume": 76439.0
+    },
+    "6658": {
+      "close": 197.5,
+      "reference": 198.0,
+      "special": false,
+      "volume": 422239.0
+    },
+    "6666": {
+      "close": 41.15,
+      "reference": 42.35,
+      "special": false,
+      "volume": 37485.0
+    },
+    "6668": {
+      "close": 58.6,
+      "reference": 58.1,
+      "special": false,
+      "volume": 11186022.0
+    },
+    "6669": {
+      "close": 1880.0,
+      "reference": 1925.0,
+      "special": false,
+      "volume": 6213743.0
+    },
+    "6670": {
+      "close": 264.5,
+      "reference": 264.5,
+      "special": false,
+      "volume": 103463.0
+    },
+    "6671": {
+      "close": 23.15,
+      "reference": 23.299999999999997,
+      "special": false,
+      "volume": 6015.0
+    },
+    "6672": {
+      "close": 627.0,
+      "reference": 570.0,
+      "special": false,
+      "volume": 1244841.0
+    },
+    "6674": {
+      "close": 18.3,
+      "reference": 18.3,
+      "special": false,
+      "volume": 20000.0
+    },
+    "6689": {
+      "close": 74.8,
+      "reference": 73.0,
+      "special": false,
+      "volume": 1898516.0
+    },
+    "6691": {
+      "close": 673.0,
+      "reference": 671.0,
+      "special": false,
+      "volume": 396286.0
+    },
+    "6695": {
+      "close": 57.5,
+      "reference": 56.1,
+      "special": false,
+      "volume": 6563100.0
+    },
+    "6698": {
+      "close": 31.3,
+      "reference": 31.05,
+      "special": false,
+      "volume": 90398.0
+    },
+    "6706": {
+      "close": 145.5,
+      "reference": 140.0,
+      "special": false,
+      "volume": 1550713.0
+    },
+    "6715": {
+      "close": 480.0,
+      "reference": 464.5,
+      "special": false,
+      "volume": 925256.0
+    },
+    "6719": {
+      "close": 179.5,
+      "reference": 176.5,
+      "special": false,
+      "volume": 281095.0
+    },
+    "6722": {
+      "close": 32.1,
+      "reference": 32.300000000000004,
+      "special": false,
+      "volume": 15020.0
+    },
+    "6742": {
+      "close": 58.9,
+      "reference": 59.9,
+      "special": false,
+      "volume": 1158760.0
+    },
+    "6743": {
+      "close": 32.65,
+      "reference": 32.65,
+      "special": false,
+      "volume": 410170.0
+    },
+    "6753": {
+      "close": 121.5,
+      "reference": 122.5,
+      "special": false,
+      "volume": 386821.0
+    },
+    "6754": {
+      "close": 40.2,
+      "reference": 40.2,
+      "special": false,
+      "volume": 28367.0
+    },
+    "6756": {
+      "close": 128.5,
+      "reference": 124.5,
+      "special": false,
+      "volume": 2844963.0
+    },
+    "6757": {
+      "close": 52.7,
+      "reference": 52.2,
+      "special": false,
+      "volume": 401754.0
+    },
+    "6768": {
+      "close": 62.9,
+      "reference": 63.199999999999996,
+      "special": false,
+      "volume": 226875.0
+    },
+    "6770": {
+      "close": 66.2,
+      "reference": 64.10000000000001,
+      "special": false,
+      "volume": 49700463.0
+    },
+    "6771": {
+      "close": 40.3,
+      "reference": 40.4,
+      "special": false,
+      "volume": 7000.0
+    },
+    "6776": {
+      "close": 53.0,
+      "reference": 53.2,
+      "special": false,
+      "volume": 91486.0
+    },
+    "6781": {
+      "close": 918.0,
+      "reference": 916.0,
+      "special": false,
+      "volume": 325648.0
+    },
+    "6782": {
+      "close": 270.0,
+      "reference": 262.5,
+      "special": false,
+      "volume": 860729.0
+    },
+    "6789": {
+      "close": 469.0,
+      "reference": 428.0,
+      "special": false,
+      "volume": 1887895.0
+    },
+    "6790": {
+      "close": 37.55,
+      "reference": 37.599999999999994,
+      "special": false,
+      "volume": 79004.0
+    },
+    "6792": {
+      "close": 58.8,
+      "reference": 58.8,
+      "special": false,
+      "volume": 27400.0
+    },
+    "6794": {
+      "close": 69.0,
+      "reference": 68.6,
+      "special": false,
+      "volume": 33084.0
+    },
+    "6796": {
+      "close": 51.7,
+      "reference": 52.300000000000004,
+      "special": false,
+      "volume": 119556.0
+    },
+    "6799": {
+      "close": 83.8,
+      "reference": 82.3,
+      "special": false,
+      "volume": 43351.0
+    },
+    "6805": {
+      "close": 2395.0,
+      "reference": 2290.0,
+      "special": false,
+      "volume": 1872367.0
+    },
+    "6807": {
+      "close": 33.35,
+      "reference": 32.75,
+      "special": false,
+      "volume": 2000.0
+    },
+    "6830": {
+      "close": 493.5,
+      "reference": 476.0,
+      "special": false,
+      "volume": 744109.0
+    },
+    "6831": {
+      "close": 425.0,
+      "reference": 409.5,
+      "special": false,
+      "volume": 479791.0
+    },
+    "6834": {
+      "close": 144.0,
+      "reference": 131.0,
+      "special": false,
+      "volume": 10802239.0
+    },
+    "6835": {
+      "close": 32.1,
+      "reference": 31.900000000000002,
+      "special": false,
+      "volume": 11086.0
+    },
+    "6838": {
+      "close": 25.5,
+      "reference": 25.3,
+      "special": false,
+      "volume": 91677.0
+    },
+    "6854": {
+      "close": 91.0,
+      "reference": 90.7,
+      "special": false,
+      "volume": 108692.0
+    },
+    "6861": {
+      "close": 247.0,
+      "reference": 241.5,
+      "special": false,
+      "volume": 416328.0
+    },
+    "6862": {
+      "close": 140.5,
+      "reference": 137.0,
+      "special": false,
+      "volume": 142529.0
+    },
+    "6863": {
+      "close": 97.4,
+      "reference": 97.5,
+      "special": false,
+      "volume": 56548.0
+    },
+    "6869": {
+      "close": 70.8,
+      "reference": 70.3,
+      "special": false,
+      "volume": 217648.0
+    },
+    "6873": {
+      "close": 63.7,
+      "reference": 65.10000000000001,
+      "special": false,
+      "volume": 418875.0
+    },
+    "6885": {
+      "close": 29.75,
+      "reference": 30.85,
+      "special": false,
+      "volume": 933750.0
+    },
+    "6887": {
+      "close": 34.6,
+      "reference": 35.1,
+      "special": false,
+      "volume": 13010.0
+    },
+    "6890": {
+      "close": 147.0,
+      "reference": 146.0,
+      "special": false,
+      "volume": 327830.0
+    },
+    "6901": {
+      "close": 17.3,
+      "reference": 17.0,
+      "special": false,
+      "volume": 1388628.0
+    },
+    "6902": {
+      "close": 154.0,
+      "reference": 142.5,
+      "special": false,
+      "volume": 1581700.0
+    },
+    "6906": {
+      "close": 79.0,
+      "reference": 79.0,
+      "special": false,
+      "volume": 16018.0
+    },
+    "6908": {
+      "close": 24.8,
+      "reference": 25.05,
+      "special": false,
+      "volume": 31846.0
+    },
+    "6909": {
+      "close": 52.7,
+      "reference": 47.95,
+      "special": false,
+      "volume": 1190662.0
+    },
+    "6914": {
+      "close": 115.0,
+      "reference": 114.5,
+      "special": false,
+      "volume": 36939.0
+    },
+    "6916": {
+      "close": 18.65,
+      "reference": 18.75,
+      "special": false,
+      "volume": 10000.0
+    },
+    "6918": {
+      "close": 74.0,
+      "reference": 74.6,
+      "special": false,
+      "volume": 34300.0
+    },
+    "6919": {
+      "close": 76.0,
+      "reference": 75.2,
+      "special": false,
+      "volume": 1999390.0
+    },
+    "6921": {
+      "close": 64.5,
+      "reference": 64.5,
+      "special": false,
+      "volume": 10006.0
+    },
+    "6923": {
+      "close": 71.3,
+      "reference": 71.39999999999999,
+      "special": false,
+      "volume": 87000.0
+    },
+    "6924": {
+      "close": 140.0,
+      "reference": 138.0,
+      "special": false,
+      "volume": 13160.0
+    },
+    "6928": {
+      "close": 46.5,
+      "reference": 46.2,
+      "special": false,
+      "volume": 37261.0
+    },
+    "6931": {
+      "close": 37.85,
+      "reference": 37.95,
+      "special": false,
+      "volume": 33560.0
+    },
+    "6933": {
+      "close": 398.0,
+      "reference": 396.0,
+      "special": false,
+      "volume": 2434170.0
+    },
+    "6934": {
+      "close": 85.2,
+      "reference": 86.9,
+      "special": false,
+      "volume": 65430.0
+    },
+    "6936": {
+      "close": 31.95,
+      "reference": 32.3,
+      "special": false,
+      "volume": 18015.0
+    },
+    "6937": {
+      "close": 278.0,
+      "reference": 278.0,
+      "special": false,
+      "volume": 158674.0
+    },
+    "6944": {
+      "close": 771.0,
+      "reference": 755.0,
+      "special": false,
+      "volume": 205527.0
+    },
+    "6947": {
+      "close": 66.8,
+      "reference": 66.0,
+      "special": false,
+      "volume": 197095.0
+    },
+    "6949": {
+      "close": 39.1,
+      "reference": 37.2,
+      "special": false,
+      "volume": 7371520.0
+    },
+    "6951": {
+      "close": 67.4,
+      "reference": 67.9,
+      "special": false,
+      "volume": 44140.0
+    },
+    "6952": {
+      "close": 39.5,
+      "reference": 39.4,
+      "special": false,
+      "volume": 6000.0
+    },
+    "6955": {
+      "close": 90.3,
+      "reference": 92.2,
+      "special": false,
+      "volume": 12350.0
+    },
+    "6957": {
+      "close": 448.0,
+      "reference": 465.0,
+      "special": false,
+      "volume": 1279664.0
+    },
+    "6958": {
+      "close": 16.6,
+      "reference": 16.85,
+      "special": false,
+      "volume": 37240.0
+    },
+    "6962": {
+      "close": 31.2,
+      "reference": 30.7,
+      "special": false,
+      "volume": 1324153.0
+    },
+    "6965": {
+      "close": 65.3,
+      "reference": 65.0,
+      "special": false,
+      "volume": 29100.0
+    },
+    "6969": {
+      "close": 28.0,
+      "reference": 27.8,
+      "special": false,
+      "volume": 33359.0
+    },
+    "6988": {
+      "close": 12.2,
+      "reference": 12.149999999999999,
+      "special": false,
+      "volume": 21468.0
+    },
+    "6994": {
+      "close": 26.0,
+      "reference": 27.05,
+      "special": false,
+      "volume": 1173073.0
+    },
+    "7610": {
+      "close": 1415.0,
+      "reference": 1410.0,
+      "special": false,
+      "volume": 275328.0
+    },
+    "7631": {
+      "close": 130.0,
+      "reference": 129.0,
+      "special": false,
+      "volume": 14624.0
+    },
+    "7689": {
+      "close": 134.5,
+      "reference": 134.0,
+      "special": false,
+      "volume": 34715.0
+    },
+    "7705": {
+      "close": 29.2,
+      "reference": 29.2,
+      "special": false,
+      "volume": 44014.0
+    },
+    "7711": {
+      "close": 580.0,
+      "reference": 578.0,
+      "special": false,
+      "volume": 640648.0
+    },
+    "7721": {
+      "close": 59.5,
+      "reference": 59.9,
+      "special": false,
+      "volume": 52364.0
+    },
+    "7722": {
+      "close": 251.0,
+      "reference": 251.0,
+      "special": false,
+      "volume": 43470.0
+    },
+    "7730": {
+      "close": 220.5,
+      "reference": 200.5,
+      "special": false,
+      "volume": 362345.0
+    },
+    "7732": {
+      "close": 33.6,
+      "reference": 33.1,
+      "special": false,
+      "volume": 5000.0
+    },
+    "7736": {
+      "close": 68.3,
+      "reference": 68.1,
+      "special": false,
+      "volume": 71023.0
+    },
+    "7740": {
+      "close": 104.0,
+      "reference": 106.0,
+      "special": false,
+      "volume": 172611.0
+    },
+    "7749": {
+      "close": 328.5,
+      "reference": 326.0,
+      "special": false,
+      "volume": 63262.0
+    },
+    "7750": {
+      "close": 1890.0,
+      "reference": 1825.0,
+      "special": false,
+      "volume": 122944.0
+    },
+    "7760": {
+      "close": 32.5,
+      "reference": 32.0,
+      "special": false,
+      "volume": 40019.0
+    },
+    "7765": {
+      "close": 231.0,
+      "reference": 229.5,
+      "special": false,
+      "volume": 62371.0
+    },
+    "7768": {
+      "close": 268.0,
+      "reference": 273.5,
+      "special": false,
+      "volume": 45730.0
+    },
+    "7769": {
+      "close": 5130.0,
+      "reference": 5205.0,
+      "special": false,
+      "volume": 589620.0
+    },
+    "7780": {
+      "close": 15.8,
+      "reference": 15.75,
+      "special": false,
+      "volume": 431476.0
+    },
+    "7786": {
+      "close": 118.5,
+      "reference": 121.0,
+      "special": false,
+      "volume": 243478.0
+    },
+    "7788": {
+      "close": 289.0,
+      "reference": 287.0,
+      "special": false,
+      "volume": 864254.0
+    },
+    "7791": {
+      "close": 49.05,
+      "reference": 50.3,
+      "special": false,
+      "volume": 151283.0
+    },
+    "7795": {
+      "close": 425.0,
+      "reference": 430.0,
+      "special": false,
+      "volume": 1015490.0
+    },
+    "7799": {
+      "close": 440.0,
+      "reference": 438.0,
+      "special": false,
+      "volume": 283903.0
+    },
+    "7803": {
+      "close": 16.3,
+      "reference": 16.650000000000002,
+      "special": false,
+      "volume": 105997.0
+    },
+    "7812": {
+      "close": 64.3,
+      "reference": 62.599999999999994,
+      "special": false,
+      "volume": 183573.0
+    },
+    "7818": {
+      "close": 58.4,
+      "reference": 59.0,
+      "special": false,
+      "volume": 35230.0
+    },
+    "7821": {
+      "close": 35.25,
+      "reference": 35.55,
+      "special": false,
+      "volume": 56271.0
+    },
+    "7822": {
+      "close": 796.0,
+      "reference": 794.0,
+      "special": false,
+      "volume": 105986.0
+    },
+    "7823": {
+      "close": 75.0,
+      "reference": 75.1,
+      "special": false,
+      "volume": 15174.0
+    },
+    "7827": {
+      "close": 150.5,
+      "reference": 156.5,
+      "special": false,
+      "volume": 150924.0
+    },
+    "7835": {
+      "close": 17.6,
+      "reference": 17.55,
+      "special": false,
+      "volume": 25000.0
+    },
+    "7855": {
+      "close": 41.35,
+      "reference": 41.4,
+      "special": false,
+      "volume": 206994.0
+    },
+    "8011": {
+      "close": 16.65,
+      "reference": 16.549999999999997,
+      "special": false,
+      "volume": 239170.0
+    },
+    "8016": {
+      "close": 298.0,
+      "reference": 288.5,
+      "special": false,
+      "volume": 516932.0
+    },
+    "8021": {
+      "close": 506.0,
+      "reference": 489.0,
+      "special": false,
+      "volume": 7153974.0
+    },
+    "8028": {
+      "close": 258.0,
+      "reference": 252.0,
+      "special": false,
+      "volume": 3851118.0
+    },
+    "8033": {
+      "close": 163.0,
+      "reference": 160.0,
+      "special": false,
+      "volume": 981651.0
+    },
+    "8039": {
+      "close": 293.0,
+      "reference": 296.0,
+      "special": false,
+      "volume": 47697515.0
+    },
+    "8045": {
+      "close": 53.7,
+      "reference": 54.6,
+      "special": false,
+      "volume": 66283.0
+    },
+    "8046": {
+      "close": 1340.0,
+      "reference": 1305.0,
+      "special": false,
+      "volume": 7320658.0
+    },
+    "8070": {
+      "close": 50.6,
+      "reference": 50.1,
+      "special": false,
+      "volume": 935492.0
+    },
+    "8072": {
+      "close": 26.15,
+      "reference": 26.099999999999998,
+      "special": false,
+      "volume": 51480.0
+    },
+    "8081": {
+      "close": 265.0,
+      "reference": 264.0,
+      "special": false,
+      "volume": 310729.0
+    },
+    "8101": {
+      "close": 9.98,
+      "reference": 9.99,
+      "special": false,
+      "volume": 3231.0
+    },
+    "8103": {
+      "close": 108.0,
+      "reference": 103.5,
+      "special": false,
+      "volume": 1392239.0
+    },
+    "8104": {
+      "close": 30.05,
+      "reference": 29.8,
+      "special": false,
+      "volume": 198985.0
+    },
+    "8105": {
+      "close": 14.2,
+      "reference": 14.2,
+      "special": false,
+      "volume": 1241126.0
+    },
+    "8110": {
+      "close": 45.8,
+      "reference": 45.199999999999996,
+      "special": false,
+      "volume": 1592190.0
+    },
+    "8112": {
+      "close": 84.5,
+      "reference": 83.3,
+      "special": false,
+      "volume": 3111217.0
+    },
+    "8114": {
+      "close": 178.5,
+      "reference": 180.5,
+      "special": false,
+      "volume": 219868.0
+    },
+    "8131": {
+      "close": 62.6,
+      "reference": 61.5,
+      "special": false,
+      "volume": 1291428.0
+    },
+    "8150": {
+      "close": 102.5,
+      "reference": 99.1,
+      "special": false,
+      "volume": 12890324.0
+    },
+    "8162": {
+      "close": 62.6,
+      "reference": 59.2,
+      "special": false,
+      "volume": 318782.0
+    },
+    "8163": {
+      "close": 28.85,
+      "reference": 28.5,
+      "special": false,
+      "volume": 706198.0
+    },
+    "8201": {
+      "close": 17.0,
+      "reference": 15.6,
+      "special": false,
+      "volume": 952900.0
+    },
+    "8210": {
+      "close": 802.0,
+      "reference": 801.0,
+      "special": false,
+      "volume": 1135162.0
+    },
+    "8213": {
+      "close": 42.85,
+      "reference": 41.0,
+      "special": false,
+      "volume": 18308471.0
+    },
+    "8215": {
+      "close": 29.15,
+      "reference": 29.2,
+      "special": false,
+      "volume": 4146631.0
+    },
+    "8222": {
+      "close": 34.7,
+      "reference": 34.75,
+      "special": false,
+      "volume": 155543.0
+    },
+    "8249": {
+      "close": 39.8,
+      "reference": 39.5,
+      "special": false,
+      "volume": 110535.0
+    },
+    "8261": {
+      "close": 153.5,
+      "reference": 150.5,
+      "special": false,
+      "volume": 1018206.0
+    },
+    "8271": {
+      "close": 180.5,
+      "reference": 180.5,
+      "special": false,
+      "volume": 814317.0
+    },
+    "8341": {
+      "close": 74.9,
+      "reference": 74.60000000000001,
+      "special": false,
+      "volume": 119715.0
+    },
+    "8367": {
+      "close": 40.7,
+      "reference": 41.0,
+      "special": false,
+      "volume": 8089.0
+    },
+    "8374": {
+      "close": 71.2,
+      "reference": 70.8,
+      "special": false,
+      "volume": 97953.0
+    },
+    "8404": {
+      "close": 13.3,
+      "reference": 13.350000000000001,
+      "special": false,
+      "volume": 290948.0
+    },
+    "8411": {
+      "close": 11.1,
+      "reference": 11.1,
+      "special": false,
+      "volume": 37296.0
+    },
+    "8422": {
+      "close": 26.1,
+      "reference": 25.75,
+      "special": false,
+      "volume": 5238471.0
+    },
+    "8429": {
+      "close": 6.16,
+      "reference": 6.24,
+      "special": false,
+      "volume": 319274.0
+    },
+    "8438": {
+      "close": 70.6,
+      "reference": 70.1,
+      "special": false,
+      "volume": 127119.0
+    },
+    "8442": {
+      "close": 48.7,
+      "reference": 48.300000000000004,
+      "special": false,
+      "volume": 24319.0
+    },
+    "8443": {
+      "close": 11.0,
+      "reference": 11.2,
+      "special": false,
+      "volume": 6992.0
+    },
+    "8454": {
+      "close": 253.0,
+      "reference": 250.0,
+      "special": false,
+      "volume": 217454.0
+    },
+    "8462": {
+      "close": 163.5,
+      "reference": 161.0,
+      "special": false,
+      "volume": 640025.0
+    },
+    "8463": {
+      "close": 21.4,
+      "reference": 21.349999999999998,
+      "special": false,
+      "volume": 23030.0
+    },
+    "8464": {
+      "close": 364.0,
+      "reference": 358.5,
+      "special": false,
+      "volume": 671143.0
+    },
+    "8466": {
+      "close": 14.8,
+      "reference": 14.950000000000001,
+      "special": false,
+      "volume": 10000.0
+    },
+    "8467": {
+      "close": 100.5,
+      "reference": 99.5,
+      "special": false,
+      "volume": 14038.0
+    },
+    "8473": {
+      "close": 37.8,
+      "reference": 37.8,
+      "special": false,
+      "volume": 400548.0
+    },
+    "8476": {
+      "close": 19.9,
+      "reference": 20.299999999999997,
+      "special": false,
+      "volume": 201071.0
+    },
+    "8478": {
+      "close": 131.5,
+      "reference": 137.0,
+      "special": false,
+      "volume": 353155.0
+    },
+    "8481": {
+      "close": 40.0,
+      "reference": 40.5,
+      "special": false,
+      "volume": 30001.0
+    },
+    "8482": {
+      "close": 46.95,
+      "reference": 47.35,
+      "special": false,
+      "volume": 11848.0
+    },
+    "8487": {
+      "close": 67.0,
+      "reference": 68.2,
+      "special": false,
+      "volume": 17156.0
+    },
+    "8488": {
+      "close": 9.36,
+      "reference": 9.379999999999999,
+      "special": false,
+      "volume": 7000.0
+    },
+    "8499": {
+      "close": 231.0,
+      "reference": 231.5,
+      "special": false,
+      "volume": 23415.0
+    },
+    "8908": {
+      "close": 40.0,
+      "reference": 40.8,
+      "special": false,
+      "volume": 23449.0
+    },
+    "8926": {
+      "close": 56.8,
+      "reference": 56.599999999999994,
+      "special": false,
+      "volume": 949771.0
+    },
+    "8940": {
+      "close": 14.85,
+      "reference": 15.0,
+      "special": false,
+      "volume": 24949.0
+    },
+    "8996": {
+      "close": 1660.0,
+      "reference": 1545.0,
+      "special": false,
+      "volume": 6234488.0
+    },
+    "9103": {
+      "close": 5.72,
+      "reference": 5.7299999999999995,
+      "special": false,
+      "volume": 1823779.0
+    },
+    "9105": {
+      "close": 8.85,
+      "reference": 8.99,
+      "special": false,
+      "volume": 43928415.0
+    },
+    "9110": {
+      "close": 2.95,
+      "reference": 3.0,
+      "special": false,
+      "volume": 281000.0
+    },
+    "9136": {
+      "close": 8.38,
+      "reference": 8.770000000000001,
+      "special": false,
+      "volume": 276394.0
+    },
+    "9802": {
+      "close": 63.4,
+      "reference": 66.1,
+      "special": false,
+      "volume": 1068702.0
+    },
+    "9902": {
+      "close": 13.3,
+      "reference": 13.25,
+      "special": false,
+      "volume": 61373.0
+    },
+    "9904": {
+      "close": 26.4,
+      "reference": 26.549999999999997,
+      "special": false,
+      "volume": 15045177.0
+    },
+    "9905": {
+      "close": 21.3,
+      "reference": 21.2,
+      "special": false,
+      "volume": 58505.0
+    },
+    "9906": {
+      "close": 38.4,
+      "reference": 39.0,
+      "special": false,
+      "volume": 20305.0
+    },
+    "9907": {
+      "close": 14.9,
+      "reference": 14.950000000000001,
+      "special": false,
+      "volume": 1058005.0
+    },
+    "9908": {
+      "close": 28.85,
+      "reference": 28.900000000000002,
+      "special": false,
+      "volume": 134147.0
+    },
+    "9910": {
+      "close": 68.0,
+      "reference": 68.7,
+      "special": false,
+      "volume": 1947036.0
+    },
+    "9911": {
+      "close": 79.7,
+      "reference": 80.0,
+      "special": false,
+      "volume": 365645.0
+    },
+    "9912": {
+      "close": 12.95,
+      "reference": 12.95,
+      "special": false,
+      "volume": 11730.0
+    },
+    "9914": {
+      "close": 65.6,
+      "reference": 68.0,
+      "special": false,
+      "volume": 2589491.0
+    },
+    "9917": {
+      "close": 107.0,
+      "reference": 107.5,
+      "special": false,
+      "volume": 346501.0
+    },
+    "9918": {
+      "close": 42.35,
+      "reference": 42.550000000000004,
+      "special": false,
+      "volume": 14969.0
+    },
+    "9919": {
+      "close": 14.35,
+      "reference": 14.5,
+      "special": false,
+      "volume": 480312.0
+    },
+    "9921": {
+      "close": 90.4,
+      "reference": 93.5,
+      "special": false,
+      "volume": 1206580.0
+    },
+    "9924": {
+      "close": 37.95,
+      "reference": 38.050000000000004,
+      "special": false,
+      "volume": 87367.0
+    },
+    "9925": {
+      "close": 39.45,
+      "reference": 39.5,
+      "special": false,
+      "volume": 375739.0
+    },
+    "9926": {
+      "close": 48.8,
+      "reference": 48.75,
+      "special": false,
+      "volume": 12127.0
+    },
+    "9927": {
+      "close": 59.5,
+      "reference": 59.5,
+      "special": false,
+      "volume": 116799.0
+    },
+    "9928": {
+      "close": 17.5,
+      "reference": 17.7,
+      "special": false,
+      "volume": 95225.0
+    },
+    "9929": {
+      "close": 11.25,
+      "reference": 11.25,
+      "special": false,
+      "volume": 31476.0
+    },
+    "9930": {
+      "close": 59.2,
+      "reference": 58.800000000000004,
+      "special": false,
+      "volume": 183111.0
+    },
+    "9931": {
+      "close": 34.1,
+      "reference": 34.1,
+      "special": false,
+      "volume": 8142.0
+    },
+    "9933": {
+      "close": 43.7,
+      "reference": 42.95,
+      "special": false,
+      "volume": 4067543.0
+    },
+    "9934": {
+      "close": 9.93,
+      "reference": 9.93,
+      "special": false,
+      "volume": 177347.0
+    },
+    "9935": {
+      "close": 18.7,
+      "reference": 18.55,
+      "special": false,
+      "volume": 79929.0
+    },
+    "9937": {
+      "close": 54.3,
+      "reference": 54.699999999999996,
+      "special": false,
+      "volume": 18168.0
+    },
+    "9938": {
+      "close": 38.0,
+      "reference": 38.3,
+      "special": false,
+      "volume": 1114413.0
+    },
+    "9939": {
+      "close": 126.0,
+      "reference": 125.0,
+      "special": false,
+      "volume": 804346.0
+    },
+    "9940": {
+      "close": 19.9,
+      "reference": 19.799999999999997,
+      "special": false,
+      "volume": 132757.0
+    },
+    "9941": {
+      "close": 77.7,
+      "reference": 77.10000000000001,
+      "special": false,
+      "volume": 377436.0
+    },
+    "9942": {
+      "close": 113.5,
+      "reference": 114.0,
+      "special": false,
+      "volume": 45842.0
+    },
+    "9943": {
+      "close": 50.9,
+      "reference": 50.9,
+      "special": false,
+      "volume": 52710.0
+    },
+    "9944": {
+      "close": 17.5,
+      "reference": 17.3,
+      "special": false,
+      "volume": 41746.0
+    },
+    "9945": {
+      "close": 29.3,
+      "reference": 29.5,
+      "special": false,
+      "volume": 3671110.0
+    },
+    "9946": {
+      "close": 16.25,
+      "reference": 16.35,
+      "special": false,
+      "volume": 262393.0
+    },
+    "9955": {
+      "close": 22.0,
+      "reference": 22.15,
+      "special": false,
+      "volume": 236223.0
+    },
+    "9958": {
+      "close": 86.7,
+      "reference": 84.2,
+      "special": false,
+      "volume": 1231959.0
+    }
   }
 }
