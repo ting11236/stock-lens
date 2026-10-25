@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -1263,7 +1263,7 @@
     "2072.TW": {
       "next_conference": null,
       "next_shareholders": null,
-      "summary_reviewed_at": "2026-10-03"
+      "summary_reviewed_at": null
     },
     "2101.TW": {
       "next_conference": null,
@@ -14643,7 +14643,7 @@
       "end_date": "2026-06-12",
       "kind": "股東常會",
       "location": "",
-      "name": "世紀風電",
+      "name": "世紀能源",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "2072.TW",
       "time": ""
@@ -19263,7 +19263,7 @@
       "end_date": "2026-08-12",
       "kind": "股東臨時會",
       "location": "",
-      "name": "世紀風電",
+      "name": "世紀能源",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "2072.TW",
       "time": ""
@@ -37712,6 +37712,61 @@
     },
     {
       "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "世紀能源",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2072.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "台端",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "3432.TW",
+      "time": "220850"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "訊連",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "5203.TW",
+      "time": "104519"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "泰合",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "6467.TW",
+      "time": "110003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "沛爾生醫*-創",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "6949.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
       "date": "2026-10-27",
       "description": "本公司受邀參加統一證券舉辦之法人說明會，說明本公司營運概況。",
       "end_date": "2026-10-27",
@@ -49424,37 +49479,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "name": "2026-09 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
     },
     {
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -49478,6 +49533,21 @@
     },
     {
       "cancelled": false,
+      "date": "2026-06-12",
+      "description": "已公告股東會日期",
+      "due_date": "2026-06-13",
+      "end_date": "2026-06-12",
+      "kind": "股東常會",
+      "location": "",
+      "name": "世紀能源",
+      "reason": "股東常會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": null,
+      "symbol": "2072.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
       "date": "2026-06-26",
       "description": "已公告股東會日期",
       "due_date": "2026-06-27",
@@ -49490,6 +49560,36 @@
       "summary_reviewed_at": null,
       "symbol": "6467.TW",
       "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-08-12",
+      "description": "已公告股東會日期",
+      "due_date": "2026-08-13",
+      "end_date": "2026-08-12",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "世紀能源",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": null,
+      "symbol": "2072.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-09-07",
+      "description": "本公司受邀參加永豐金證券主辦之SinoPac Taiwan Corporate Access Day，向投資人說明本公司未來營運發展計劃、財務及業務等相關資訊。",
+      "due_date": "2026-09-09",
+      "end_date": "2026-09-08",
+      "kind": "法說會",
+      "location": "英國倫敦",
+      "name": "世紀能源",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09",
+      "summary_reviewed_at": null,
+      "symbol": "2072.TW",
+      "time": "09:00"
     },
     {
       "cancelled": false,
@@ -49531,7 +49631,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -49601,7 +49701,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -49741,7 +49841,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -50652,7 +50752,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -51480,7 +51580,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -52616,7 +52716,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -54105,7 +54205,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -54189,7 +54289,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -56170,7 +56270,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -56178,11 +56278,11 @@
       "date": "2026-10-12",
       "due_date": "2026-10-12",
       "kind": "月營收",
-      "name": "世紀風電",
+      "name": "世紀能源",
       "period": "2026-09",
       "reason": "月營收數字更新至 2026-09，摘要待同步",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW"
     },
     {
@@ -64076,7 +64176,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -64090,7 +64190,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "160929"
     },
@@ -65511,7 +65611,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -66600,7 +66700,7 @@
       "name": "世紀能源",
       "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "09:00"
     },
@@ -66614,7 +66714,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -67733,7 +67833,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -69166,7 +69266,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -70305,7 +70405,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -70375,7 +70475,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -70571,7 +70671,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -71596,7 +71696,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -72959,7 +73059,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -74281,7 +74381,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70003"
     },
@@ -75842,7 +75942,7 @@
       "name": "世紀風電",
       "reason": "新重大訊息待整理",
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
-      "summary_reviewed_at": "2026-10-03",
+      "summary_reviewed_at": null,
       "symbol": "2072.TW",
       "time": "70004"
     },
@@ -76506,7 +76606,77 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9924.TW",
       "time": "100116"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "due_date": "2026-10-25",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "世紀能源",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": null,
+      "symbol": "2072.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "due_date": "2026-10-25",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "台端",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3432.TW",
+      "time": "220850"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "due_date": "2026-10-25",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "訊連",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5203.TW",
+      "time": "104519"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "due_date": "2026-10-25",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "泰合",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": null,
+      "symbol": "6467.TW",
+      "time": "110003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-24",
+      "description": "",
+      "due_date": "2026-10-25",
+      "end_date": "2026-10-24",
+      "kind": "重大訊息",
+      "name": "沛爾生醫*-創",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6949.TW",
+      "time": "70003"
     }
   ],
-  "updated_at": "2026-10-24T22:02:21+08:00"
+  "updated_at": "2026-10-25T19:40:19+08:00"
 }
