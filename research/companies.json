@@ -6292,5 +6292,259 @@
       ],
       "reviewed_at": "2026-10-21"
     }
+  },
+  "1437.TW": {
+    "name": "勤益控",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "research_completed_at": "2026-10-25T19:41:49.842922+08:00",
+    "sources": {
+      "h1": {
+        "url": "https://www.gtm.com.tw/wp-content/uploads/115Q2_%E5%90%88%E4%BD%B5_%E5%AE%8C%E7%A8%BF%E6%AA%94-%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+        "title": "H1正式合併財報47實體頁，主表與借款、部門、投資附註",
+        "publisher": "勤益控",
+        "published_at": "2026-08-13",
+        "accessed_at": "2026-10-25",
+        "period": "2026H1及6月底",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "fy": {
+        "url": "https://www.gtm.com.tw/wp-content/uploads/114Q4_%E5%90%88%E4%BD%B5_%E5%AE%8C%E7%A8%BF%E6%AA%94-%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf",
+        "title": "2025年度合併財報61頁，主表",
+        "publisher": "勤益控",
+        "published_at": null,
+        "accessed_at": "2026-10-25",
+        "period": "2025全年及2024比較",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "首次公開日未確認"
+      },
+      "annual": {
+        "url": "https://www.gtm.com.tw/wp-content/uploads/%E2%97%8F%E4%B8%8A%E5%82%B3%E7%89%88_114%E5%B9%B4%E5%B9%B4%E5%A0%B1%E4%B8%AD%E6%96%87%E7%89%88Final0511%E6%9B%B4%E6%96%B0.pdf",
+        "title": "2025年報92頁，致股東及中長期計畫",
+        "publisher": "勤益控",
+        "published_at": null,
+        "accessed_at": "2026-10-25",
+        "period": "2025成果及2026計畫",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "首次公開日未確認"
+      },
+      "property": {
+        "url": "https://www.gtm.com.tw/development/",
+        "title": "官方地產與承租戶",
+        "publisher": "勤益控",
+        "published_at": null,
+        "accessed_at": "2026-10-25",
+        "period": "官網查閱時",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "首次公開日未確認"
+      },
+      "textile": {
+        "url": "https://www.gtm.com.tw/textile/",
+        "title": "官方紡織業務",
+        "publisher": "勤益控",
+        "published_at": null,
+        "accessed_at": "2026-10-25",
+        "period": "官網查閱時",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "首次公開日未確認"
+      },
+      "investment": {
+        "url": "https://www.gtm.com.tw/investment/",
+        "title": "官方投資業務",
+        "publisher": "勤益控",
+        "published_at": null,
+        "accessed_at": "2026-10-25",
+        "period": "官網及2025年底",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "首次公開日未確認"
+      },
+      "deck": {
+        "url": "https://www.gtm.com.tw/wp-content/uploads/●法說會簡報-1437-勤益投控-20260629test.pdf",
+        "title": "6/29法說14頁完整文字及圖表",
+        "publisher": "勤益控",
+        "published_at": "2026-06-29",
+        "accessed_at": "2026-10-25",
+        "period": "2026Q1",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "peer": {
+        "url": "https://stockfeeltt.farglory-land.com.tw/land",
+        "title": "遠雄土地開發平台",
+        "publisher": "遠雄建設",
+        "published_at": null,
+        "accessed_at": "2026-10-25",
+        "period": "同業模式比較",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
+        "publication_missing_reason": "首次公開日未確認"
+      },
+      "treasury": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "10/19董事會第17次庫藏股公告",
+        "publisher": "證交所／勤益控",
+        "published_at": "2026-10-19",
+        "accessed_at": "2026-10-21",
+        "period": "10/19決議，10/20–12/18預計執行",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      }
+    },
+    "limitations": [
+      "6/29官方原始問答文字未取得，不找影片",
+      "大園三期完工、二期太陽能實際併網與新增收入未確認，預計不當實績",
+      "可靠公司正式全年金額財測或具名法人最新共識未找到",
+      "10/19庫藏股為計畫，最新實際執行未核對",
+      "年報核讀業務及計畫章節，不宣稱全92頁逐頁核讀",
+      "歷史公告及上櫃監看仍有缺口"
+    ],
+    "business": {
+      "text": "勤益控（1437，上市）2014年轉型投資控股，主要為不動產出租與開發、紡織、金融投資及再生能源。勤德經營台北、新莊及大園出租物件；官網列宜家家居、物流與汽車展示承租戶，這是租賃客戶，不是商品買主。紡織保留羊毛、服裝及團體／國軍服裝等業務；持有龍德造船及創投等權益法投資，不將被投資公司全部營收合併。\n2026H1部門外部收入（新台幣千元）不動產293,220、紡織42,846、綠電4,696、其他69,123；部門損益依序166,111、7,053、1,686、26,551，加調整4,833為營業利益206,234。部門損益非歸母淨利，不把金融投資收益一律當租金。勤德投資性不動產租金287,698千元，與完整不動產部門收入亦有差異。\n同業5522遠雄可用於土地開發、資產價值與景氣比較，但遠雄偏建案銷售，勤益租賃及金融投資比重大；兩者交屋認列與持續租金模式不同，不直接套相同PE。選擇為業務部分比較，非宣稱完全同質。",
+      "period": "逐段標示2025全年、2026H1/Q2、6/29法說、年報計畫、10/19公告",
+      "sources": [
+        "h1",
+        "fy",
+        "annual",
+        "property",
+        "textile",
+        "investment",
+        "deck",
+        "peer",
+        "treasury"
+      ],
+      "reviewed_at": "2026-10-25"
+    },
+    "earnings": {
+      "text": "上半年獲利改善，除了出租與其他本業，金融投資的價格回升及轉投資獲利也有明顯貢獻。2026年上半年歸母淨利約4.14億元、EPS 2.05元；這些投資收益能否延續，需要另外觀察。\n以下合併、新台幣千元，EPS元。2025全年收入926,710、營業利益409,398、業外159,004、歸母489,297、EPS2.41；2024收入845,762、營業利益379,590、業外266,505、歸母661,327。營收及本業改善但淨利下降，需同看投資及所得稅。\n2026H1收入409,885、營業利益206,234、業外258,879、歸母414,497、EPS2.05；Q2單季收入236,084、歸母276,485、EPS1.37，去年Q2歸母虧損37,084。H1業外主要為透過損益按公允價值衡量（FVTPL）的金融資產淨利益173,666、權益法利益119,444及匯兌淨利益5,869，扣財務成本48,840等；去年FVTPL淨損失52,127、匯損65,492。改善不能全當租金成長，也不保證投資評價獲利可持續。\n6月底資產14,109,816、負債5,532,880、權益8,576,936；投資性不動產帳面8,003,025，非市場售價。現金531,737，流動資產2,566,511、流動負債1,379,284；短借915,000、流動到期長借110,790、非流動長借3,400,000，合計4,425,790。抵質押資產7,593,597，須注意資產受限及借款到期，不能因淨資產高便說沒有流動性風險。\nH1營業現金淨流入21,533，低於淨利414,746，重要原因包含剔除金融評價、權益法收益及投資資金占用。現金流正負須與控股投資模式一起讀，未實現收益不等於現金入帳；股利現金支出97,618與庫藏股支出17,783另列。未使用借款額度不等同可無條件即時取得的現金。\n已讀10/19庫藏股公告：擬10/20至12/18買回750,000股、區間22–36元、目的轉讓員工，屬董事會計畫，不是已執行完成、公司保證股價或投資買點；是否買回及轉讓應追後續公告。",
+      "period": "逐段標示2025全年、2026H1/Q2、6/29法說、年報計畫、10/19公告",
+      "sources": [
+        "h1",
+        "fy",
+        "annual",
+        "property",
+        "textile",
+        "investment",
+        "deck",
+        "peer",
+        "treasury"
+      ],
+      "reviewed_at": "2026-10-25"
+    },
+    "developments": {
+      "text": "固定追蹤三項。大園物流園區／新莊不動產活化屬既有業務開發及租賃，官網一期、二期均已有出租物件與承租戶，不能再寫成尚未投產的新廠。未取得可確認新一期開工、交付、投資額或新增年租金資料，既有出租與未來開發規劃分開。\n功能性新布種與品牌通路更新屬既有紡織產品開發，官方提與機關、研發單位開發及線上通路，未列完整新品型號、量產日、客戶訂單或收入，不因方向存在就當已大幅轉型成功。\n勤益綠能及權益投資布局：綠電已有H1收入及部門利益，為已營運事業；新案的實際完成與合約貢獻仍待確認，不把整體投資收益當新增售電收入。創投／策略持股是資本配置，投資額與被投資企業營收不是本公司新增收入。\n無可核對獨立新事業商用案者不虛增項目；各項新增營收貢獻與確定商用日未揭露，保留原因，不填零。\n最新補核2025年報致股東報告及中長期計畫：大園三期仍在籌劃，物流倉儲及高階工業地產為評估方向，未給確定完工年月。屋頂太陽能規劃3MW，一期已掛表，2025發電收入9,484千元；二期因政策因素延宕，公司力求2026年底前併網，這是目標，不是已完成。未把技術趨勢段落中的鈣鈦礦、氫能等直接當公司已有商用產品。",
+      "period": "逐段標示2025全年、2026H1/Q2、6/29法說、年報計畫、10/19公告",
+      "sources": [
+        "h1",
+        "fy",
+        "annual",
+        "property",
+        "textile",
+        "investment",
+        "deck",
+        "peer",
+        "treasury"
+      ],
+      "projects": [
+        {
+          "project_id": "1437-property-logistics",
+          "name": "大園物流及自有地產活化",
+          "type": "既有業務開發／擴大",
+          "uses_and_customers": "物流、零售及展示空間；官網承租戶已列，新增案未確認",
+          "status": "一期二期已出租；2025年報揭露三期在籌劃，物流及高階工業用途評估",
+          "commercial_timing": "三期未揭露確定完工／出租日",
+          "revenue_contribution": "新案未單列，不能把既有租金全部當新增",
+          "sources": [
+            "property",
+            "h1",
+            "annual"
+          ]
+        },
+        {
+          "project_id": "1437-functional-textiles",
+          "name": "功能性布種與品牌通路",
+          "type": "既有業務新產品開發",
+          "uses_and_customers": "羊毛／團體服裝，具體新訂單未揭露",
+          "status": "官網發展方向，型號與量產未確認",
+          "commercial_timing": "未揭露",
+          "revenue_contribution": "未單列",
+          "sources": [
+            "textile"
+          ]
+        },
+        {
+          "project_id": "1437-renewable-energy",
+          "name": "屋頂太陽能一期營運與二期",
+          "type": "既有新事業持續營運／投資",
+          "uses_and_customers": "再生能源，個別客戶及新案未揭露",
+          "status": "年報規劃3MW，一期已掛表；二期政策因素延宕",
+          "commercial_timing": "公司力求2026年底前二期併網，未確認已完成",
+          "revenue_contribution": "2025發電9484千元，2026H1綠電部門4696千元；非新增二期收入",
+          "sources": [
+            "annual",
+            "h1"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-10-25"
+    },
+    "transition": {
+      "text": "公司發展方向：持續經營出租資產，籌劃大園三期，並推動屋頂太陽能二期。公司力求太陽能二期在2026年底前併網，實際完成進度仍待確認；大園三期尚未給出確定完工日。\n6/29官方14頁簡報全文與圖表已核對，為Q1財務與投資架構；本次更晚的正式H1財報作財務基準，不拿Q1簡報冒充10月新會議。第13頁只有Q&A標題，未取得可核對官方問答文字，不查影片。\n研究判斷：長期研究需把穩定租金、房地產開發時程、金融資產評價及權益法被投資公司分開。租金續約、出租率、投資收益可持續性及資產質押是核心檢查點；未實現資產增值或高每股淨值不等於立即可分配現金。持有造船、能源或創投標的，不等於勤益本身直接接獲其產業訂單。\n未取得可靠最新公司全年營收／EPS金額財測或具名法人共識，不以半年年化替代。官網未列完整開發完工時間、新品及綠電新案資料，合理查找後明列；已取得92頁2025年報，核讀致股東報告與第74頁中長期業務發展計畫；並非聲稱年報所有治理附件均逐頁查核。原始問答與後續庫藏股實際執行、全市場歷史公告監看仍有缺漏，",
+      "period": "逐段標示2025全年、2026H1/Q2、6/29法說、年報計畫、10/19公告",
+      "sources": [
+        "h1",
+        "fy",
+        "annual",
+        "property",
+        "textile",
+        "investment",
+        "deck",
+        "peer",
+        "treasury"
+      ],
+      "reviewed_at": "2026-10-25"
+    }
   }
 }
