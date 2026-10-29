@@ -1,8 +1,6 @@
 {
-  "errors": {
-    "companies": "JSONDecodeError：來源未通過下載或格式檢查"
-  },
-  "latest_price_date": "2026-10-22",
-  "since": "2026-10-28T16:41:43+00:00",
-  "state": "failed"
+  "errors": {},
+  "latest_price_date": "2026-10-28",
+  "since": "2026-10-29T16:57:05+00:00",
+  "state": "ok"
 }
