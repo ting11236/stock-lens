@@ -1,0 +1,153 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261031-6467-v2",
+    "ready": true,
+    "created_at": "2026-10-31T21:27:13.592587+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 1,
+    "updates_sha256": "sha256:ce8c2cf2cbf1b43fddb461e5c32b46a28509267a2005cd2374aa8cc397b8adfd",
+    "work_type": "change_update",
+    "completion_unit": "TAH4411兒童適應症申請整件公開資料一次交付",
+    "full_company_completion": false,
+    "new_meeting": false,
+    "validation": {
+      "baseline_locked": true,
+      "full_event_delivered": true,
+      "partner_original_read": true,
+      "existing_transition_preserved": true
+    },
+    "limitations": [
+      "未取得完整臨床報告或日本主管機關審查文件，僅核對公司及夥伴公告",
+      "核准／上市時間及收入未定",
+      "不取代BEQIA專利風險；非全公司研究完成"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261031-6467-v2-developments",
+      "task_id": "announcement-6467-1151030-154229",
+      "company_code": "6467",
+      "company_name": "泰合",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:fc24a18d9c4c7992892511c0c7caad73286892bd3f5382adbf70ce918d0106d9",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2026/10/30泰合公告，日本授權夥伴Miyarisan已完成TAH4411 Ondansetron口溶膜兒童新適應症第三期試驗，並向日本主管機關提出新藥上市申請。日本夥伴同日原稿確認，擬申請適應症為急性腸胃炎相關消化道症狀（噁心、嘔吐）；不是已核准的新適應症，也不能把公告標題中的化療止吐背景混成兒童接受化療的試驗。[twse、miyarisan]\n夥伴說明研究對象為6個月以上、未滿15歲兒童，公告稱主要終點達顯著差異。這是贊助方公布的試驗結果，本批未取得完整臨床報告或主管機關審查文件，不把新聞稿當獨立療效、安全性或優於既有藥品的判定。原稿明示核准與否、日期、內容及銷售開始／計畫尚未確定，不列確定商用日。[miyarisan]\n依泰合重大公告，新適應症開發費由Miyarisan負擔，泰合未來依合約收取權利金、收入視實際銷售而定；未披露權利金率、保證最低銷售、里程碑款、定價及收入金額。本次送件本身不證明已產生權利金，也不能推算對EPS貢獻或研發費用節省幅度。[twse]\n固定項目6467-tah4411-japan-pediatric：既有授權藥品的新適應症開發，夥伴為Miyarisan，目標用途為上述兒童症狀；目前階段為已提出申請、商用及營收待確認。TAH4411與TAH3311／BEQIA不同，本案不取代後者美國專利訴訟風險。後續研究應追日本審查結果、核准範圍、上市與實際銷售及公司權利金認列；以上為研究判斷，不作醫療建議。[research_inference]\n本件完整公開公告及夥伴原稿一次交付，保留未公開資料，不代表泰合全公司研究完成，不刷新整家公司reviewed_at。\n",
+        "period": "2026-10-30",
+        "sources": [
+          "twse",
+          "miyarisan"
+        ],
+        "projects": [
+          {
+            "project_id": "6467-tah4411-japan-pediatric",
+            "name": "TAH4411日本兒童急性腸胃炎新適應症",
+            "type": "既有授權藥品新適應症開發",
+            "uses_and_customers": "兒童急性腸胃炎相關噁心、嘔吐；日本夥伴Miyarisan，終端銷售未確認",
+            "status": "夥伴完成三期並於10/30提出日本製造販售承認申請；非已核准",
+            "commercial_timing": "原稿明示核准與否、時間及銷售計畫未定",
+            "revenue_contribution": "夥伴負擔新適應症開發費；泰合權利金依合約及實際銷售，費率與金額未揭露",
+            "sources": [
+              "twse",
+              "miyarisan"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "twse",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "本公司日本授權夥伴Miyarisan就TAH4411化療止吐口\r\n溶膜用於兒童新適應症向日本主管機關提出新藥上市申請",
+          "publisher": "證交所／泰合",
+          "published_at": "2026-10-30",
+          "accessed_at": "2026-10-31",
+          "period": "10/30申請公告",
+          "source_evidence_file": "研究進度/來源留存/TWSE重大公告_20261031.json",
+          "statement": "1.事實發生日:115/10/30\n2.公司名稱:泰合生技藥品股份有限公司\n3.與公司關係(請輸入本公司或子公司):本公司\n4.相互持股比例:不適用\n5.發生緣由:\n 本公司日本授權夥伴Miyarisan Pharmaceutical Co., Ltd.\n（Miyarisan）已完成TAH4411Ondansetron化療止吐口溶膜\n 用於兒童急性腸胃炎相關嘔吐之三期臨床試驗，並就該兒童\n 新適應症向日本主管機關提出新藥上市申請（NDA）。\n6.因應措施:無。\n7.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n  符合證券交易法施行細則第7條第9款所定對股東權益或證券價格有重大影響之事項):\n(1)新藥開發時程長、投入經費高且並未保證一定能成功，此等可能使投資面臨風險，\n   投資人應審慎判斷謹慎投資。\n(2)日本Miyarisan負擔新適應症的開發費用，泰合未來將可依合約收取權利金，相\n   關收入將視實際銷售表現而定。\n(3)日本Miyarisan公司之公告連結：\n   https://www.miyarisan.com/?p=4030",
+          "supports": [
+            "developments"
+          ]
+        },
+        {
+          "source_id": "miyarisan",
+          "url": "https://www.miyarisan.com/?p=4030",
+          "title": "Ondansetron製造販售承認申請",
+          "publisher": "Miyarisan Pharmaceutical",
+          "published_at": "2026-10-30",
+          "accessed_at": "2026-10-31",
+          "period": "10/30申請與試驗公告",
+          "source_evidence_file": "研究進度/來源留存/2026-10-31-6467/miyarisan4030.html",
+          "supports": [
+            "developments"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-31T21:27:13.592587+08:00",
+      "research_completion": "event_complete_with_disclosed_gaps",
+      "completion_unit": "TAH4411兒童適應症申請整件公開資料一次交付",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "company_partner_statements_and_labeled_research_inference",
+      "limitations": [
+        "未取得完整臨床報告或日本主管機關審查文件，僅核對公司及夥伴公告",
+        "核准／上市時間及收入未定",
+        "不取代BEQIA專利風險；非全公司研究完成"
+      ]
+    }
+  ],
+  "before_official_record": {
+    "name": "泰合",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "official-announcement": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "公告本公司505(b)(2)新藥BEQIA\r\n(TAH3311)美國專利訴訟案",
+        "publisher": "證交所開放資料／泰合",
+        "published_at": "2026-10-24",
+        "accessed_at": "2026-10-25",
+        "period": "2026/10/24事件及當時陳述",
+        "source_evidence_file": "研究進度/來源留存/TWSE重大公告_20261025晚間.json",
+        "statement": "1.法律事件之當事人:\n 原告- Bristol Myers Squibb（BMS)and Pfizer Inc.(Pfizer)\n 被告-泰合生技藥品股份有限公司\n2.法律事件之法院名稱或處分機關:United States District Court for DELAWARE\n3.法律事件之相關文書案號:1:99-mc-09999\n4.事實發生日:115/10/24\n5.發生原委(含爭訟標的):美國Bristol Myers Squibb（BMS）藥廠就本公司自主\n 研發之抗血栓口溶膜新藥BEQIA（TAH3311），於美國提出專利侵權訴訟。本公\n 司收到訴訟通知之日期為美國時間10月23日。BEQIA為本公司自主研發之口溶\n 膜新劑型抗血栓藥物。該產品已於2026年6月19日向美國食品藥物管理局（FDA）\n 重新遞交新藥查驗登記（NDA）申請，目前已正式進入實質審查階段；FDA訂\n 定之目標審查完成日期（PDUFA Goal Date）為2027年4月22日。\n6.處理過程:藥品專利訴訟為美國製藥產業競爭常態，尤其505(b)(2)新劑型藥物\n 開發及商業化過程中，經常涉及原廠藥品既有專利權利範圍之認定。本公司已\n 委請美國專業律師依相關法律程序處理，積極維護本公司及股東權益。\n7.對公司財務業務影響及預估影響金額:經本公司初步評估，截至目前本案對公\n 司整體營運及財務狀況尚無重大影響；後續相關費用將視訴訟進展而定。\n8.因應措施及改善情形:本公司將持續配合美國FDA藥證審核作業，並進行專利訴\n 訟相關作業；後續將依訴訟進展及相關規定辦理資訊揭露。\n9.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n  符合證券交易法施行細則第7條第2款所定對股東權益或證券價格有重大影響之事項):\n (1)此類專利訴訟係美國藥證申請過程中專利挑戰的例行性程序，經常出現於505(b)\n    (2)新劑型新藥開發過程，為產業競爭常態。本公司一向重視智慧財產權保護，將\n    依法維護產品及相關權益，並持續推進BEQIA之法規審查、商業化準備及潛在合作\n    機會洽談。\n (2)藥物開發時程長、投入經費高，且須經主管機關審核；藥證申請及產品上市時程具\n    有不確定性，投資人應審慎評估投資風險。",
+        "supports": [
+          "transition"
+        ]
+      }
+    },
+    "limitations": [
+      "非全公司研究補齊",
+      "影響仍待公司評估，不當零",
+      "未取得第三方原始通知或完整法院文書，不獨立認證公司陳述"
+    ],
+    "transition": {
+      "text": "泰合公告，抗血栓口溶膜新藥BEQIA（TAH3311）收到美國專利訴訟通知，已委任律師處理。藥證審查與專利訴訟要分開追蹤，實際上市時間仍有不確定性。\n依公司2026年10月24日公告，公司於美國時間10月23日收到通知，公告列原告為BMS與Pfizer、法院為美國德拉瓦聯邦地院。完整起訴狀、專利清單與法院文書尚未獨立取得；公告中的案號字串也尚未核實。\n公司表示，6月19日已重新遞交美國新藥申請，所述目標審查完成日為2027年4月22日。這是審查里程碑，核准結果與實際上市日仍須看後續進展。\n公司當時初步評估整體營運與財務尚無重大影響，費用將視訴訟進展而定。法院裁判、禁令、和解、律師費預算及收入影響尚未確定。後續觀察法院正式程序、公司公告與藥證審查更新。",
+      "period": "10/24事件",
+      "sources": [
+        "official-announcement"
+      ],
+      "reviewed_at": "2026-10-25"
+    },
+    "event_research": {
+      "batch_id": "research-20261025-announcements-v1",
+      "event_date": "2026-10-24",
+      "status": "event_complete_with_disclosed_gaps",
+      "completed_at": "2026-10-25T21:30:31.843484+08:00"
+    }
+  },
+  "adoption_rules": {
+    "transition_unchanged": true,
+    "prior_event_metadata_preserved": true,
+    "financial_numbers_preserved": true,
+    "company_reviewed_at_preserved": true,
+    "new_meeting": false,
+    "full_company_completion": false
+  }
+}
