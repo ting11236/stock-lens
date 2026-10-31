@@ -1,0 +1,246 @@
+{
+  "asOf": "2026-10-30",
+  "checkedAt": "2026-10-31T19:29:35+08:00",
+  "companies": {
+    "2330": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 36615931.0,
+        "open": 2380.0,
+        "high": 2380.0,
+        "low": 2360.0,
+        "close": 2370.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 2399.0,
+        "10": 2410.0,
+        "20": 2470.25,
+        "60": 2431.58
+      },
+      "prior20_average_volume": 28237634,
+      "volume_ratio": 1.297,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=2330"
+    },
+    "2308": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 23167211.0,
+        "open": 1365.0,
+        "high": 1395.0,
+        "low": 1335.0,
+        "close": 1335.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 1487.0,
+        "10": 1557.0,
+        "20": 1736.0,
+        "60": 1757.42
+      },
+      "prior20_average_volume": 12064441,
+      "volume_ratio": 1.92,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=2308"
+    },
+    "2345": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 5163470.0,
+        "open": 1680.0,
+        "high": 1685.0,
+        "low": 1580.0,
+        "close": 1615.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 1744.0,
+        "10": 1844.0,
+        "20": 1925.5,
+        "60": 2024.33
+      },
+      "prior20_average_volume": 4812141,
+      "volume_ratio": 1.073,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=2345"
+    },
+    "2382": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 13702196.0,
+        "open": 311.0,
+        "high": 318.0,
+        "low": 308.0,
+        "close": 318.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 323.1,
+        "10": 321.75,
+        "20": 325.5,
+        "60": 328.23
+      },
+      "prior20_average_volume": 11632884,
+      "volume_ratio": 1.178,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=2382"
+    },
+    "6669": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 4470449.0,
+        "open": 1815.0,
+        "high": 1830.0,
+        "low": 1770.0,
+        "close": 1810.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 1887.0,
+        "10": 1887.5,
+        "20": 2033.25,
+        "60": 3721.42
+      },
+      "prior20_average_volume": 4693013,
+      "volume_ratio": 0.953,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=6669"
+    },
+    "3711": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 32345201.0,
+        "open": 654.0,
+        "high": 675.0,
+        "low": 624.0,
+        "close": 668.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 670.2,
+        "10": 670.9,
+        "20": 702.3,
+        "60": 645.32
+      },
+      "prior20_average_volume": 16101305,
+      "volume_ratio": 2.009,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=3711"
+    },
+    "2383": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 3861753.0,
+        "open": 4570.0,
+        "high": 4760.0,
+        "low": 4560.0,
+        "close": 4675.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 4906.0,
+        "10": 4987.5,
+        "20": 5291.5,
+        "60": 5371.0
+      },
+      "prior20_average_volume": 3015638,
+      "volume_ratio": 1.281,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=2383"
+    },
+    "3017": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 2780943.0,
+        "open": 2890.0,
+        "high": 3150.0,
+        "low": 2885.0,
+        "close": 3095.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 3138.0,
+        "10": 3197.0,
+        "20": 3329.5,
+        "60": 3220.5
+      },
+      "prior20_average_volume": 3124660,
+      "volume_ratio": 0.89,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=3017"
+    },
+    "1590": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 1081774.0,
+        "open": 1095.0,
+        "high": 1115.0,
+        "low": 1050.0,
+        "close": 1075.0,
+        "note": ""
+      },
+      "ma": {
+        "5": 1121.0,
+        "10": 1131.0,
+        "20": 1162.5,
+        "60": 1315.67
+      },
+      "prior20_average_volume": 954710,
+      "volume_ratio": 1.133,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=1590"
+    },
+    "1256": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 16340.0,
+        "open": 163.5,
+        "high": 164.5,
+        "low": 163.5,
+        "close": 164.5,
+        "note": ""
+      },
+      "ma": {
+        "5": 165.6,
+        "10": 166.55,
+        "20": 167.32,
+        "60": 173.43
+      },
+      "prior20_average_volume": 36465,
+      "volume_ratio": 0.448,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=1256"
+    },
+    "2108": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 415037.0,
+        "open": 28.7,
+        "high": 28.85,
+        "low": 28.1,
+        "close": 28.35,
+        "note": ""
+      },
+      "ma": {
+        "5": 28.69,
+        "10": 28.96,
+        "20": 29.06,
+        "60": 29.19
+      },
+      "prior20_average_volume": 669113,
+      "volume_ratio": 0.62,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=2108"
+    },
+    "2408": {
+      "bar": {
+        "date": "2026-10-30",
+        "volume": 46973380.0,
+        "open": 440.0,
+        "high": 465.5,
+        "low": 435.5,
+        "close": 454.5,
+        "note": ""
+      },
+      "ma": {
+        "5": 452.7,
+        "10": 444.5,
+        "20": 480.27,
+        "60": 493.08
+      },
+      "prior20_average_volume": 45324600,
+      "volume_ratio": 1.036,
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261031&stockNo=2408"
+    }
+  }
+}

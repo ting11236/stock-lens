@@ -138,3 +138,11 @@ test('W43 review separates cyclical evidence, priority and prospective signals',
  assert.equal(w43.companies.find(c=>c.code==='3017').building_plan.paused,true);
  const html=render(w43);assert.match(html,/最新交易資料日期：10月19日/);assert.match(html,/data-weekly-company="2408"/);assert.match(html,/2026-W43-screen.json/);const overview=html.split('id="weekly-overview"')[1].split('id="weekly-industries"')[0];assert.doesNotMatch(overview.split('轉機股')[1],/南帝：2026上半年/);const wait=overview.split('data-weekly-category="等待買點"')[1].split('</section>')[0];assert.equal((wait.match(/優先關注<\/small>/g)||[]).length,1);
 });
+
+const w44=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment/2026-W44-v1.json'),'utf8'));
+test('W44 reassessment withdraws expired plans, updates Q3 on one share basis, and does not fabricate trades',()=>{
+ assert.equal(w44.week_id,'2026-W44');assert.equal(w44.screening.universe_count,1092);assert.equal(w44.screening.candidate_count,123);assert.equal(w44.screening.priceAsOf,'2026-10-29');assert.equal(w44.priceAsOf,'2026-10-30');assert.equal(w44.industries.length,3);assert.deepEqual(w44.top_wait,[]);assert.deepEqual(w44.top_layout,[]);assert.equal(w44.portfolio.base_weights.cash,100);assert.equal(w44.signal_eligibility.historical_signals_replayed,false);
+ for(const c of w44.companies){assert.equal(c.building_plan.tranches.length,0);for(const k of ['first_attention','best_entry','breakout'])assert.equal(c.prices[k],null);assert.equal(c.prior_plan_reference.update_id,'2026-W43-v1');assert.equal(c.prior_plan_reference.expired_at,'2026-10-26T00:00:00+08:00');assert.equal(c.exit_plan.tranches.length,0);const h=c.technical.price_history;assert.equal(h.at(-1).close,c.price);assert.equal(h.at(-1).date,'2026-10-30');assert.equal(Object.keys(c.scores).length,5);}
+ const d=w44.companies.find(c=>c.code==='2308');assert.equal(d.financial.eps,9.04);assert.equal(d.financial.ttm_eps,33.31);assert.equal(d.valuation.ttm_pe,40.08);assert.equal(d.financial.gross_margin,34.1);
+ const html=render(w44);assert.match(html,/最新交易資料日期：10月30日/);assert.match(html,/2026-W44-screen.json/);assert.match(html,/舊買點已/);assert.doesNotMatch(html,/data-weekly-category="等待買點"[^]*?優先關注<small/);assert.match(html,/沒有新買訊/);
+});

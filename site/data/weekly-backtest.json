@@ -151,14 +151,74 @@
       "elapsed_days": 13,
       "date": "2026-10-25",
       "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 14,
+      "date": "2026-10-26",
+      "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 15,
+      "date": "2026-10-27",
+      "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 16,
+      "date": "2026-10-28",
+      "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 17,
+      "date": "2026-10-29",
+      "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 18,
+      "date": "2026-10-30",
+      "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 19,
+      "date": "2026-10-31",
+      "stock_market_value": 0.0
     }
   ],
-  "last_asOf": "2026-10-25",
+  "last_asOf": "2026-10-31",
   "equity": 10000.0,
   "total_return_pct": 0.0,
   "realized_pnl": 0.0,
   "unrealized_pnl": 0.0,
-  "elapsed_days": 13,
+  "elapsed_days": 19,
   "costs": {
     "fee_rate": 0.001425,
     "minimum_fee": 1.0,
