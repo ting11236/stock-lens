@@ -1,0 +1,882 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261031-1201-v1",
+    "ready": true,
+    "created_at": "2026-10-31T19:24:49.606820+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:094b2de2270f53c69d3b165f3cfcb5022c1123451ead61d60a1ce957e91d26e1",
+    "work_type": "backfill",
+    "completion_unit": "整家公司查找完成附缺漏",
+    "new_meeting": false,
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "audit_qualification_disclosed": true
+    },
+    "limitations": [
+      "官方原始問答文字未取得，不找影片",
+      "新品型號、客戶、量產與獨立營收未單列",
+      "最新可靠公司全年金額財測或法人共識未找到",
+      "半年報保留核閱結論明示；不推定後續無修正",
+      "跨日重大公告仍有未核讀項目"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261031-1201-v1-business",
+      "task_id": "backfill-20261031-1201",
+      "company_code": "1201",
+      "company_name": "味全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:35f708758fc05e1467be20f34aa23d1571e9f953afc20481f55cbc204a9d8a53",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d35bdfcc87d7d4568f97486ad0f685baf4a929ab451ec1b5e4c033657bd48e49",
+      "expected_old_section_version": "sha256:3ee754b032cc2ebab9dcf7f9ad4b5defad1c69f555e67e34e99cc59557d68d74",
+      "old_content": {
+        "text": "以食品製造、品牌行銷及通路經營為主，產品包含乳品、果汁、咖啡、調味品與方便食品，並經營食品包材及進出口貿易。2025 年集團營業比重為食品 94.3%、包材 3.0%、其他 2.7%；集團口徑與母公司產品別比重不同。",
+        "period": "2025 年報",
+        "sources": [
+          "annual",
+          "operations"
+        ]
+      },
+      "new_content": {
+        "text": "味全（1201，上市）以食品製造、品牌及通路經營為核心，乳品、飲料、發酵乳、調味醬料、蛋品及點心等，連接生乳與食品原料採購、加工品保、冷鏈及零售／餐飲客戶。台灣廠區含台中、斗六、高雄，不能把大陸或包材事業省略而當純台灣鮮乳公司。[company、annual-2025]\n正式H1按食品、包材與其他事業分部，2026H1外部收入依序9,924,773、323,986、196,859千元；部門稅後損益152,610、41,319、50,134千元，非營業利益，也不是逐項品牌獲利。食品合計含不同地區與品類，未單列林鳳營等品牌獲利，不用品牌知名度推估收入占比。[2026-H1-consolidated]\n主要用途為家庭即飲／即食與餐飲原料，年報列咖啡茶飲連鎖、早餐及連鎖餐廳等B2B客群，乳品、果汁、抹醬及蛋／點心搭配設備與食譜服務，未揭露全部具名客戶及訂單。相似同業1216統一可比乳飲與食品通路／原料成本，但集團其他零售與多角化差異大，只作部分產品同業比較，不直接套集團估值；此為研究選擇理由，未以同業即時數字推算。[annual-2025；研究判斷]",
+        "period": "2025全年／2026H1與Q2／2026年報計畫；歷史法說另標",
+        "sources": [
+          "annual-2025",
+          "2026-H1-consolidated",
+          "2025-FY-consolidated",
+          "meeting-2025-11-28",
+          "company"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.weichuan.com.tw/uploads/annual_reports/6a2b5fe3e292a.pdf",
+          "title": "annual-2025",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年及2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/6aa0f59ac2b2a.pdf",
+          "title": "2026-H1-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2026H1/Q2及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2025-FY-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/69bbb300a0538.pdf",
+          "title": "2025-FY-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-2025-11-28",
+          "url": "https://www.weichuan.com.tw/uploads/legal_person_seminars/69295e012c40a.pdf",
+          "title": "meeting-2025-11-28",
+          "publisher": "味全",
+          "published_at": "2025-11-28",
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025年前三季，歷史簡報",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.weichuan.com.tw/tw/about",
+          "title": "公司廠區及事業介紹",
+          "publisher": "味全",
+          "published_at": null,
+          "accessed_at": "2026-10-31",
+          "period": "官網查閱時",
+          "supports": [
+            "business"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-31T19:24:49.606820+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味全整家公司公開資料一次交付",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官方原始問答文字未取得，不找影片",
+        "新品型號、客戶、量產與獨立營收未單列",
+        "最新可靠公司全年金額財測或法人共識未找到",
+        "半年報保留核閱結論明示；不推定後續無修正",
+        "跨日重大公告仍有未核讀項目"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261031-1201-v1-earnings",
+      "task_id": "backfill-20261031-1201",
+      "company_code": "1201",
+      "company_name": "味全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:35f708758fc05e1467be20f34aa23d1571e9f953afc20481f55cbc204a9d8a53",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d35bdfcc87d7d4568f97486ad0f685baf4a929ab451ec1b5e4c033657bd48e49",
+      "expected_old_section_version": "sha256:727d522cb071a6a32ac62aff6bdc0a3f66e49c5988a6962c1a412a27dc523841",
+      "old_content": {
+        "text": "2025 年合併營收 218.42 億元，較 2024 年 234.74 億元減少約 7%；營業利益 3.66 億元、年減 37.5%，歸母淨利 2.03 億元、EPS 0.40 元。年報指出毛利額隨業績下滑，另有剩餘乳出售損失增加與匯兌利益減少，不能只用營收推估淨利。",
+        "period": "2024–2025 年",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "以下合併、新台幣千元，EPS元。2025全年收入21,842,084、營業利益366,119、業外−29,385、歸母203,055、EPS0.40；2024收入23,473,804、營業利益585,722、歸母442,713、EPS0.87。年度主表由掃描PDF第12實體頁目視核對。[2025-FY-consolidated]\n2026H1收入10,445,618、毛利2,780,828、營業虧損45,337，去年H1營業利益263,497；推銷及管理支出增加而毛利下降，不能只看淨利改善。H1業外244,027、稅前198,690，所得稅項目為利益45,373，推升本期淨利244,063，歸母243,515、EPS0.48。Q2單季營業虧損84,881、歸母141,999、EPS0.28，不能把累計EPS當單季。[2026-H1-consolidated]\n業外重要成分為FVTPL金融資產利益223,329千元，去年損失27,309；非金融資產減損迴轉33,456、處分及報廢資產損失34,565，與小額匯兌及其他項目一起形成其他利益187,044千元。評價利益、迴轉及所得稅利益不能當持續產品毛利或保證現金收益。[2026-H1-consolidated]\n6月底資產19,047,444、負債11,082,256、權益7,965,188千元；現金1,263,989、流動資產7,119,755、流動負債6,645,576。短借2,301,113、短票109,939、流動到期長借18,000、非流動長借3,364,231，合計5,793,283千元，租賃259,278另列；總負債不等於借款。H1營業現金流入256,095，投資淨流出677,629、籌資淨流入692,593，現金增加不能全解釋為本業賺現金。[2026-H1-consolidated]\n【核閱限制】會計師出具保留結論，原因是部分非重要子公司與權益法投資同期間未經會計師核閱；未核閱資產及投資約占合併13%，H1相關綜合損益約占25%。此為核閱範圍限制，不是直接認定造假，也不能省略說成無保留。主張均限該財報時點，不推定後續沒有修正。[2026-H1-consolidated實體3–4頁]",
+        "period": "2025全年／2026H1與Q2／2026年報計畫；歷史法說另標",
+        "sources": [
+          "annual-2025",
+          "2026-H1-consolidated",
+          "2025-FY-consolidated",
+          "meeting-2025-11-28",
+          "company"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.weichuan.com.tw/uploads/annual_reports/6a2b5fe3e292a.pdf",
+          "title": "annual-2025",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年及2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/6aa0f59ac2b2a.pdf",
+          "title": "2026-H1-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2026H1/Q2及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2025-FY-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/69bbb300a0538.pdf",
+          "title": "2025-FY-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-2025-11-28",
+          "url": "https://www.weichuan.com.tw/uploads/legal_person_seminars/69295e012c40a.pdf",
+          "title": "meeting-2025-11-28",
+          "publisher": "味全",
+          "published_at": "2025-11-28",
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025年前三季，歷史簡報",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.weichuan.com.tw/tw/about",
+          "title": "公司廠區及事業介紹",
+          "publisher": "味全",
+          "published_at": null,
+          "accessed_at": "2026-10-31",
+          "period": "官網查閱時",
+          "supports": [
+            "business"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-31T19:24:49.606820+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味全整家公司公開資料一次交付",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官方原始問答文字未取得，不找影片",
+        "新品型號、客戶、量產與獨立營收未單列",
+        "最新可靠公司全年金額財測或法人共識未找到",
+        "半年報保留核閱結論明示；不推定後續無修正",
+        "跨日重大公告仍有未核讀項目"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261031-1201-v1-developments",
+      "task_id": "backfill-20261031-1201",
+      "company_code": "1201",
+      "company_name": "味全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:35f708758fc05e1467be20f34aa23d1571e9f953afc20481f55cbc204a9d8a53",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d35bdfcc87d7d4568f97486ad0f685baf4a929ab451ec1b5e4c033657bd48e49",
+      "expected_old_section_version": "sha256:0ca9b683a9898c876c8eba2b889402f98fed033120b1b37a444185f4603159ce",
+      "old_content": {
+        "text": "包材事業的真空成型設備與人員培訓在年報已列為完成建置；咖啡杯蓋新產線及與合作夥伴拓展連鎖包材市場則仍屬規劃。2026 年亦計畫投資 HPP、PET 等設備改善食品供應鏈，尚未核實後續完工日期、實際量產或新增營收。",
+        "period": "2025 年報所載現況／2026 計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "三項固定追蹤均為既有業務延伸，而非已確認新獨立事業。第一，健康與植物蛋白／發酵乳產品開發：年報列健康、簡單配方及多品類創新方向，未給具體產品型號、量產日期與獨立營收，因此不冒稱新品已上市。第二，B2B機料整合與客製食品：針對咖啡茶飲、早餐及連鎖餐廳，結合乳品果汁原料、飲料設備與應用食譜，為既有服務升級，不把餐飲市場成長率直接當公司財測。第三，供應鏈及數位／AI經營管理優化：目的為產銷整合、品保與效率，未披露獨立AI銷售收入或可確認新產線投產時程，不將管理工具寫成AI新事業。[annual-2025實體8、60頁]\n各項用途與客群已有方向，但具名新增客戶、完成進度、確定商用年月、收入及毛利貢獻未單列，保留未揭露。官網提斗六設備更新屬持續改善，沒有本次可核對工程編號與新增年產能，不把泛稱投入鉅資變成確定擴廠案。[company]",
+        "period": "2025全年／2026H1與Q2／2026年報計畫；歷史法說另標",
+        "sources": [
+          "annual-2025",
+          "2026-H1-consolidated",
+          "2025-FY-consolidated",
+          "meeting-2025-11-28",
+          "company"
+        ],
+        "projects": [
+          {
+            "project_id": "1201-healthy-products",
+            "name": "健康／植物蛋白與發酵乳開發",
+            "type": "既有業務新產品／服務開發",
+            "uses_and_customers": "家庭食品飲料，具名新客戶未揭露",
+            "status": "2026年報計畫，未逐項披露完成進度",
+            "commercial_timing": "具體商用日未揭露",
+            "revenue_contribution": "新增收入或效益未單列",
+            "sources": [
+              "annual-2025"
+            ]
+          },
+          {
+            "project_id": "1201-b2b-solutions",
+            "name": "B2B機料整合與客製食品",
+            "type": "既有業務新產品／服務開發",
+            "uses_and_customers": "咖啡茶飲、早餐及連鎖餐廳原料與設備應用",
+            "status": "2026年報計畫，未逐項披露完成進度",
+            "commercial_timing": "具體商用日未揭露",
+            "revenue_contribution": "新增收入或效益未單列",
+            "sources": [
+              "annual-2025"
+            ]
+          },
+          {
+            "project_id": "1201-supply-digital",
+            "name": "供應鏈與數位管理優化",
+            "type": "既有業務流程改善",
+            "uses_and_customers": "內部產銷、品保及經營效率",
+            "status": "2026年報計畫，未逐項披露完成進度",
+            "commercial_timing": "具體商用日未揭露",
+            "revenue_contribution": "新增收入或效益未單列",
+            "sources": [
+              "annual-2025"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.weichuan.com.tw/uploads/annual_reports/6a2b5fe3e292a.pdf",
+          "title": "annual-2025",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年及2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/6aa0f59ac2b2a.pdf",
+          "title": "2026-H1-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2026H1/Q2及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2025-FY-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/69bbb300a0538.pdf",
+          "title": "2025-FY-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-2025-11-28",
+          "url": "https://www.weichuan.com.tw/uploads/legal_person_seminars/69295e012c40a.pdf",
+          "title": "meeting-2025-11-28",
+          "publisher": "味全",
+          "published_at": "2025-11-28",
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025年前三季，歷史簡報",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.weichuan.com.tw/tw/about",
+          "title": "公司廠區及事業介紹",
+          "publisher": "味全",
+          "published_at": null,
+          "accessed_at": "2026-10-31",
+          "period": "官網查閱時",
+          "supports": [
+            "business"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-31T19:24:49.606820+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味全整家公司公開資料一次交付",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官方原始問答文字未取得，不找影片",
+        "新品型號、客戶、量產與獨立營收未單列",
+        "最新可靠公司全年金額財測或法人共識未找到",
+        "半年報保留核閱結論明示；不推定後續無修正",
+        "跨日重大公告仍有未核讀項目"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261031-1201-v1-transition",
+      "task_id": "backfill-20261031-1201",
+      "company_code": "1201",
+      "company_name": "味全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:35f708758fc05e1467be20f34aa23d1571e9f953afc20481f55cbc204a9d8a53",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d35bdfcc87d7d4568f97486ad0f685baf4a929ab451ec1b5e4c033657bd48e49",
+      "expected_old_section_version": "sha256:0c70f30f260f379312135d0f52cc59115c90354d9f16ca8c2ee3d625d78d2c23",
+      "old_content": {
+        "text": "2026 年計畫聚焦核心品牌、通路大客戶及供應鏈整合，推動管理系統數位化與 AI 應用。中國大陸事業規劃智慧零售及線上到線下的外食營運平台。依年報判讀，重點為食品本業與通路模式升級，相關計畫尚不能視為已產生新增獲利。",
+        "period": "2025 回顧／2026 營業計畫",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "已讀2025年報致股東與2026營業計畫、研發及中長期業務章節；2026H1正式主表及重要附註與2025年度主表補核。官網最新列2025/11/28法說14頁，全文與圖表已檢視，屬歷史背景，不能當2026新會議或新數據；未取得可核對官方問答文字，不查影片。[annual-2025、meeting-2025-11-28]\n2026年報計畫含乳品／豆漿預算銷量105,190噸等，為公司預算量，不是已實現出貨或營收／EPS金額財測。未取得可靠具名法人最新EPS共識或公司正式全年金額預測，不以半年年化代替。[annual-2025]\n研究判斷：應追食品本業是否回復營業獲利、台灣與大陸需求及通路效率、原料與冷鏈成本、金融評價及稅項能否延續。EPS改善若主要由評價與稅項帶動，與產品競爭力改善不同；缺乏新品獨立實績時不推估大幅成長。核閱保留範圍、後續財報修正與新重大公告須續看。全公司公開查找完成附缺漏，不表示所有品牌與客戶資料均公開，不刷新全公司reviewed_at，也不代表全市場跨日公告已處理完。",
+        "period": "2025全年／2026H1與Q2／2026年報計畫；歷史法說另標",
+        "sources": [
+          "annual-2025",
+          "2026-H1-consolidated",
+          "2025-FY-consolidated",
+          "meeting-2025-11-28",
+          "company"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.weichuan.com.tw/uploads/annual_reports/6a2b5fe3e292a.pdf",
+          "title": "annual-2025",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年及2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/6aa0f59ac2b2a.pdf",
+          "title": "2026-H1-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2026H1/Q2及6月底",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2025-FY-consolidated",
+          "url": "https://www.weichuan.com.tw/uploads/quarterly_reports/69bbb300a0538.pdf",
+          "title": "2025-FY-consolidated",
+          "publisher": "味全",
+          "published_at": null,
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025全年",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-2025-11-28",
+          "url": "https://www.weichuan.com.tw/uploads/legal_person_seminars/69295e012c40a.pdf",
+          "title": "meeting-2025-11-28",
+          "publisher": "味全",
+          "published_at": "2025-11-28",
+          "publication_missing_reason": "首次公開日未確認；目錄created_at不當首次公開證明",
+          "accessed_at": "2026-10-31",
+          "period": "2025年前三季，歷史簡報",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "company",
+          "url": "https://www.weichuan.com.tw/tw/about",
+          "title": "公司廠區及事業介紹",
+          "publisher": "味全",
+          "published_at": null,
+          "accessed_at": "2026-10-31",
+          "period": "官網查閱時",
+          "supports": [
+            "business"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-10-31T19:24:49.606820+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "味全整家公司公開資料一次交付",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官方原始問答文字未取得，不找影片",
+        "新品型號、客戶、量產與獨立營收未單列",
+        "最新可靠公司全年金額財測或法人共識未找到",
+        "半年報保留核閱結論明示；不推定後續無修正",
+        "跨日重大公告仍有未核讀項目"
+      ],
+      "claim_type": "fact_company_plan_and_labeled_research_inference"
+    }
+  ],
+  "before_official_record": {
+    "name": "味全",
+    "reviewed_at": "2026-10-03",
+    "sources": {
+      "annual": {
+        "title": "2025 年報（印刷第 1–4、52、69、90 頁）",
+        "url": "https://www.weichuan.com.tw/uploads/annual_reports/6a2b5fe3e292a.pdf",
+        "publisher": "味全食品",
+        "published_at": null,
+        "accessed_at": "2026-10-03"
+      },
+      "operations": {
+        "title": "營運概況／食品、包材與進出口貿易",
+        "url": "https://www.weichuan.com.tw/tw/about/operation",
+        "publisher": "味全食品",
+        "published_at": null,
+        "accessed_at": "2026-10-03"
+      }
+    },
+    "business": {
+      "text": "以食品製造、品牌行銷及通路經營為主，產品包含乳品、果汁、咖啡、調味品與方便食品，並經營食品包材及進出口貿易。2025 年集團營業比重為食品 94.3%、包材 3.0%、其他 2.7%；集團口徑與母公司產品別比重不同。",
+      "period": "2025 年報",
+      "sources": [
+        "annual",
+        "operations"
+      ]
+    },
+    "earnings": {
+      "text": "2025 年合併營收 218.42 億元，較 2024 年 234.74 億元減少約 7%；營業利益 3.66 億元、年減 37.5%，歸母淨利 2.03 億元、EPS 0.40 元。年報指出毛利額隨業績下滑，另有剩餘乳出售損失增加與匯兌利益減少，不能只用營收推估淨利。",
+      "period": "2024–2025 年",
+      "sources": [
+        "annual"
+      ]
+    },
+    "transition": {
+      "text": "2026 年計畫聚焦核心品牌、通路大客戶及供應鏈整合，推動管理系統數位化與 AI 應用。中國大陸事業規劃智慧零售及線上到線下的外食營運平台。依年報判讀，重點為食品本業與通路模式升級，相關計畫尚不能視為已產生新增獲利。",
+      "period": "2025 回顧／2026 營業計畫",
+      "sources": [
+        "annual"
+      ]
+    },
+    "developments": {
+      "text": "包材事業的真空成型設備與人員培訓在年報已列為完成建置；咖啡杯蓋新產線及與合作夥伴拓展連鎖包材市場則仍屬規劃。2026 年亦計畫投資 HPP、PET 等設備改善食品供應鏈，尚未核實後續完工日期、實際量產或新增營收。",
+      "period": "2025 年報所載現況／2026 計畫",
+      "sources": [
+        "annual"
+      ]
+    },
+    "limitations": [
+      "未取得完整分部獲利拆解，食品營業比重不代表食品獲利占比。",
+      "本輪財務比較涵蓋 2024–2025 年，2023 年及 2026 半年報尚待補查。",
+      "2026 營業計畫未逐項取得後續執行公告，未將計畫視為完成。"
+    ]
+  },
+  "before_overview": {
+    "name": "味全",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 13,
+    "business": "乳品、飲料、食品與調味品",
+    "direction": "本次核對既有食品業務；新增投資計畫待補核",
+    "profit_mechanism": "食品飲料製銷毛利，受原料成本與通路費用影響",
+    "status": "業務概述已整理；新案細節待補核",
+    "screening": "2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選",
+    "urls": [
+      "https://www.weichuan.com.tw/en/home",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "合併營業收入",
+      "fy2024": 234.73803999999998,
+      "fy2025": 218.42084,
+      "q32025": 59.85811,
+      "q42025": 51.242940000000004,
+      "q12026": 50.010670000000005,
+      "q22026": 54.44551,
+      "ttm": 215.55723,
+      "h1_operating_profit": -0.45337000000000005,
+      "h1_nonoperating": 2.44027,
+      "h1_pretax": 1.9868999999999999,
+      "h1_parent_profit": 2.43515,
+      "h1_operating_margin": -0.00434028891349463,
+      "h1_nonoperating_share": 1.22817957622427,
+      "fy2025_parent_profit": 2.03055,
+      "q22026_parent_profit": 1.41999,
+      "screening": "2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 104.45618,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 234.73803999999998,
+          "net_income": 4.42713,
+          "eps": 0.8700000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 107.31979,
+          "net_income": 1.36173,
+          "eps": 0.27,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "合併營業收入",
+          "revenue": 167.1779,
+          "net_income": 2.15859,
+          "eps": 0.43000000000000005,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 218.42084,
+          "net_income": 2.03055,
+          "eps": 0.4,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "合併營業收入",
+          "revenue": 50.010670000000005,
+          "net_income": 1.01516,
+          "eps": 0.2,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 104.45618,
+          "net_income": 2.43515,
+          "eps": 0.48000000000000004,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2020-Q4": {
+          "eps": 1.06,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2021-Q4": {
+          "eps": 1.0,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": 0.47,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 0.53,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "合併營業收入",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 59.858109999999996,
+            "eps": 0.16000000000000003,
+            "net_income": 0.7968599999999997
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 51.242940000000004,
+            "eps": -0.030000000000000027,
+            "net_income": -0.12803999999999993
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 50.010670000000005,
+            "eps": 0.2,
+            "net_income": 1.01516
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 54.44551,
+            "eps": 0.28,
+            "net_income": 1.41999
+          }
+        ],
+        "ttms": 215.55723,
+        "ttm_eps": 0.6100000000000001,
+        "ttm_parent_profit": 3.10397,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 215.56 億元；每股盈餘 0.61 元；歸母淨利 3.10 億元。營收未扣成本與費用，不等於獲利。獲利機制：食品飲料製銷毛利，受原料成本與通路費用影響。",
+    "events": [
+      {
+        "period": "2025Q4",
+        "type": "單季虧損",
+        "status": "累計差額計算",
+        "text": "歸屬母公司淨損-0.13億元；Q2／Q3／Q4由累計差額計算。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2026H1",
+        "type": "業外占比高",
+        "status": "數值篩選；原因待核對",
+        "text": "業外淨額2.44億元，占稅前利益122.8%；並不代表全為一次性利益。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2026H1 vs 2025H1",
+        "type": "業外增加",
+        "status": "數值篩選；原因待核對",
+        "text": "業外由-0.58億元變為2.44億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "outlooks": [
+      {
+        "type": "待補查／無可用金額",
+        "period": "未確認",
+        "scope": "整體營收",
+        "unit": null,
+        "low": null,
+        "high": null,
+        "published_at": null,
+        "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+        "urls": [
+          "https://www.weichuan.com.tw/en/home"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "1201",
+          "name": "味全",
+          "date": "2026-06-30",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 190.47444,
+          "liabilities": 110.82256,
+          "equity": 79.65188,
+          "parent_equity": 79.57376000000001,
+          "cash": 12.639890000000001,
+          "current_assets": 71.19755,
+          "current_liabilities": 66.45576,
+          "listed_borrowings": 57.75283,
+          "listed_leases": 2.59278,
+          "operating_cashflow": 2.56095,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "1201",
+          "name": "味全",
+          "date": "2025-12-31",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 176.19437,
+          "liabilities": 99.48683,
+          "equity": 76.70754000000001,
+          "parent_equity": 76.62467000000001,
+          "cash": 9.638,
+          "current_assets": 60.38693,
+          "current_liabilities": 60.68848,
+          "listed_borrowings": 49.28309,
+          "listed_leases": 2.69093,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+      "basis": "合併",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1109&companyId=1110&companyId=1201&companyId=1203&companyId=1210",
+      "regulatory": {
+        "capital_adequacy": null,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "未取得／不適用"
+      }
+    }
+  },
+  "adoption_rules": {
+    "new_meeting": false,
+    "company_reviewed_at_preserved": true,
+    "original_qa_verified": false
+  },
+  "numeric_corrections": {
+    "borrowings_2026_06_30": 57.93283,
+    "borrowings_2025_12_31": 49.46309,
+    "proof": "Official H1 PDF page6 visually verified; both periods include 18000 NT$thousand current long-term maturities"
+  }
+}
