@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-02",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -45653,6 +45653,39 @@
     },
     {
       "cancelled": false,
+      "date": "2026-10-31",
+      "description": "",
+      "end_date": "2026-10-31",
+      "kind": "重大訊息",
+      "name": "上曜",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "1316.TW",
+      "time": "134558"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-31",
+      "description": "",
+      "end_date": "2026-10-31",
+      "kind": "重大訊息",
+      "name": "世紀能源",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2072.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-31",
+      "description": "",
+      "end_date": "2026-10-31",
+      "kind": "重大訊息",
+      "name": "沛爾生醫*-創",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "6949.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
       "date": "2026-11-02",
       "description": "受邀參加元大證券舉辦法人說明會，會中就本公司已公開發布之營運及財務業務狀況做說明。",
       "end_date": "2026-11-02",
@@ -57581,37 +57614,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-10-31",
-      "name": "2026-09 法說會",
-      "status": "ok",
-      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09"
-    },
-    {
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-02",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-02",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-02",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-02",
+      "name": "2027-01 法說會",
+      "status": "ok",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=116&month=01"
+    },
+    {
+      "checked_at": "2026-11-02",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-02",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -94694,7 +94727,49 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9919.TW",
       "time": "175230"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-31",
+      "description": "",
+      "due_date": "2026-11-01",
+      "end_date": "2026-10-31",
+      "kind": "重大訊息",
+      "name": "上曜",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1316.TW",
+      "time": "134558"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-31",
+      "description": "",
+      "due_date": "2026-11-01",
+      "end_date": "2026-10-31",
+      "kind": "重大訊息",
+      "name": "世紀能源",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": null,
+      "symbol": "2072.TW",
+      "time": "70003"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-31",
+      "description": "",
+      "due_date": "2026-11-01",
+      "end_date": "2026-10-31",
+      "kind": "重大訊息",
+      "name": "沛爾生醫*-創",
+      "reason": "新重大訊息待整理",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6949.TW",
+      "time": "70003"
     }
   ],
-  "updated_at": "2026-10-31T23:45:59+08:00"
+  "updated_at": "2026-11-02T00:50:03+08:00"
 }
