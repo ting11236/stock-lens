@@ -6699,26 +6699,318 @@
         "supports": [
           "transition"
         ]
+      },
+      "annual-2025": {
+        "url": "https://tw.cyberlink.com/stat/newsletters/cht/2026/ir/shareholder/115financial.pdf",
+        "title": "2025年報，2026計畫",
+        "publisher": "訊連",
+        "published_at": null,
+        "accessed_at": "2026-11-03",
+        "period": "2025全年／2026計畫",
+        "publication_missing_reason": "頁面未列首次公開日；不以檔名上傳時間或查閱日代替",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "h1-2026": {
+        "url": "https://dl-file.cyberlink.com/web/upload-file/ir/english/IR_Rpt_115_0_0_2_0_20260903204244.pdf",
+        "title": "2026半年合併核閱財報",
+        "publisher": "訊連",
+        "published_at": null,
+        "accessed_at": "2026-11-03",
+        "period": "2026H1／2026-06-30",
+        "publication_missing_reason": "頁面未列首次公開日；不以檔名上傳時間或查閱日代替",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "q3-2026": {
+        "url": "https://www.cyberlink.com/stat/newsletters/eng/2026/Presentation/2026-Q3-Results-Presentation.pdf",
+        "title": "2026Q3法說簡報（未經查核）",
+        "publisher": "訊連",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-03",
+        "period": "2026Q3單季／前9月累計與Q4展望",
+        "publication_missing_reason": null,
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "creative-2027": {
+        "url": "https://www.cyberlink.com/eng/press_room/view_5292.html",
+        "title": "Director Suite新版本AI Agents",
+        "publisher": "訊連",
+        "published_at": "2026-09-17",
+        "accessed_at": "2026-11-03",
+        "period": "2026年9月產品發布",
+        "publication_missing_reason": null,
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "faceme-security": {
+        "url": "https://www.cyberlink.com/eng/press_room/view_5295.html",
+        "title": "FaceMe Security 8.9.2／Axis ACAP",
+        "publisher": "訊連",
+        "published_at": null,
+        "accessed_at": "2026-11-03",
+        "period": "2026年10月新產品",
+        "publication_missing_reason": "官網列表及頁首為10/14，內文dateline10/15；日期衝突保留，不任選其一",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "apple-support-tw": {
+        "url": "https://support.cyberlink.com/tw/apple-platform-subscription-support",
+        "title": "Apple平台訂閱支援與替代下載",
+        "publisher": "訊連",
+        "published_at": null,
+        "accessed_at": "2026-11-03",
+        "period": "11/3查閱時服務方案",
+        "publication_missing_reason": "頁面未列首次公開日；不以檔名上傳時間或查閱日代替",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "apple-support-jp": {
+        "url": "https://support.cyberlink.com/jp/faq/ios-macOS-service-update",
+        "title": "iOS/macOS服務更新與補償",
+        "publisher": "訊連",
+        "published_at": null,
+        "accessed_at": "2026-11-03",
+        "period": "11/3查閱時服務方案",
+        "publication_missing_reason": "頁面未列首次公開日；不以檔名上傳時間或查閱日代替",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "perfect-merger": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1899830/000110465926118301/tm2627441d2_ex99-1.htm",
+        "title": "玩美交易完成6-K附件",
+        "publisher": "Perfect Corp.／SEC",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-11-03",
+        "period": "2026-10-23生效",
+        "publication_missing_reason": null,
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "perfect-13d": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1899830/000110465926118333/xslSCHEDULE_13D_X02/primary_doc.xml",
+        "title": "訊連及子公司13D/A第3次修正",
+        "publisher": "訊連及CyberLink International／SEC",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-11-03",
+        "period": "交易後持股與股別變化",
+        "publication_missing_reason": null,
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "penpower": {
+        "url": "https://www.penpowerinc.com/enterpriseSolutions/Integrations/Overview",
+        "title": "蒙恬技術授權方案",
+        "publisher": "蒙恬",
+        "published_at": null,
+        "accessed_at": "2026-11-03",
+        "period": "查閱時產品定位",
+        "publication_missing_reason": "頁面未列首次公開日；不以檔名上傳時間或查閱日代替",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
       }
     },
     "limitations": [
-      "非全公司研究補齊",
-      "影響仍待公司評估，不當零",
-      "未取得第三方原始通知或完整法院文書，不獨立認證公司陳述"
+      "官方10/28原始文字Q&A未找到；未看影片，不以第三方AI逐字稿代替正式問答",
+      "IR列表目前正式財報最新H1，Q3採未查核簡報，Q3完整附註、現金流與資產負債未取得",
+      "個別產品ARR、留存率、付費轉換率、客戶名稱與獲利貢獻未揭露",
+      "最新可驗證具名法人EPS共識及公司全年金額財測未找到，不採無預估者/日期的網頁數字",
+      "Apple恢復上架日期與實際損失未揭露；Mac替代下載不等於iOS商店恢復",
+      "玩美交易後合併起算、購價分攤、商譽及損益影響尚待正式財報，不把持股變動當有機成長",
+      "Q3簡報營益率及部分比重與列示金額換算存在差異，保留雙口徑請網站核對",
+      "全市場歷史監看與上櫃涵蓋尚未驗證完整，成功截止不前移"
     ],
     "transition": {
-      "text": "訊連部分產品自2026年10月24日起在Apple平台停止提供下載，公司已申訴爭取恢復。接下來要看恢復進度、受影響產品銷售，以及其他通路能否承接。\n公司公告表示，接獲Apple通知，部分產品不符合其部分要求，因此相關銷售受到影響。公司表示Windows、Android與網頁版產品不受此次事件影響，將持續強化這些平台與通路。\n公告列出的14.69%，是相關比例占2025年合併營收的比重，用來了解過往營收涉及程度。實際損失仍待公司評估，還要看中斷多久、訂閱續約、退款及替代通路銷售。具體產品名單與恢復日期尚未揭露。\n目前依據為訊連10月24日的正式公告；Apple完整通知與各平台獨立確認資料尚未取得。後續以恢復下載狀態及公司更新公告追蹤。",
-      "period": "10/24事件",
+      "text": "公司發展方向：持續推進對話式AI創作、AI PC與FaceMe企業服務。公司對第四季訊連主體（不含玩美）的營收與獲利預期為年減，尚未給出金額目標。\nApple平台事件與後續：部分產品自10/24停止在Apple平台提供下載，公司申訴爭取恢復；原公告及10/28簡報所列14.69%是受影響產品占2025合併營收的歷史比重，不是確認將損失14.69%全年營收。Windows、Android及網頁版不屬此次中斷範圍。\n11/3查閱官方支援頁，iOS受影響App列PowerDirector、PhotoDirector、MyEdit、Promeo、VividGlam，商店下載與更新仍暫停。Mac訂戶可改用新版安裝／CAM下載，部分訂戶提供1個月延長，iOS提供MyEdit兌換或Apple退款申請指引；這些是服務承接與補償方案，不是Apple恢復上架，也未揭露確定恢復日、退款金額及實際收入損失。受影響產品名單已由官方支援頁補充。\n10/28公司對2026Q4指引為訊連主體（不含玩美）營收、獲利預期年減，並持續推Agentic AI、AI PC與FaceMe、用AI改善內部效率。這是公司方向性預期，未給金額財測；內部AI客服、測試及行銷效率不是新外售AI事業收入。最新可靠具名法人EPS共識未找到，不將網站自估EPS作市場共識。\n研究追蹤重點：Apple實際恢復與續約／退款、B2C付費轉換能否抵銷客單與用戶流失、OEM需求止跌、FaceMe授權是否連續而非單季大案、行銷／研發投入能否改善營運槓桿，以及玩美交易後合併範圍對營收、費用及資金的影響。短期毛利率高不代表營業利益穩定；玩美新合併增量也不等同原有業務復甦。此為研究判斷，非已實現財測。\n本次已核讀整份21頁簡報與圖表及相關年報／財報章節。官方文字Q&A未找到，不引用影片或將第三方整理冒充原始問答；客戶、產品獲利與未公開財測按缺漏保留，完成的是公開資料查找及整家公司摘要，不宣稱未知問題已取得答案。",
+      "period": "2025全年／2026H1資產負債／Q3單季與前9月／10月事件及11/3服務方案",
       "sources": [
+        "annual-2025",
+        "h1-2026",
+        "q3-2026",
+        "creative-2027",
+        "faceme-security",
+        "apple-support-tw",
+        "apple-support-jp",
+        "perfect-merger",
+        "perfect-13d",
+        "penpower",
         "official-announcement"
       ],
-      "reviewed_at": "2026-10-25"
+      "reviewed_at": "2026-11-03"
     },
     "event_research": {
       "batch_id": "research-20261025-announcements-v1",
       "event_date": "2026-10-24",
       "status": "event_complete_with_disclosed_gaps",
       "completed_at": "2026-10-25T21:30:31.843484+08:00"
+    },
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "research_completed_at": "2026-11-03T18:53:39.060608+08:00",
+    "meeting_research": {
+      "event_date": "2026-10-28",
+      "completion": "整家公司公開資料查找完成附缺漏",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-11-03",
+      "original_qa_verified": false,
+      "batch_id": "research-20261103-5203-v1"
+    },
+    "business": {
+      "text": "訊連（5203，上市）是以自研多媒體與電腦視覺軟體變現的軟體公司：PowerDirector剪輯、PhotoDirector影像編修、Director Suite影音套裝，MyEdit線上圖像／影音服務及Promeo商務行銷素材；PowerDVD播放與PC/OEM預載則是較成熟業務。消費者透過直營網站、App商店與PC合作通路付費，訂閱、升級及生成式AI點數帶來收入；FaceMe以辨識引擎SDK、eKYC、Security與系統方案服務企業、金融與安控場景，不能當成生產GPU或AI硬體的公司。\n2026Q3營收分為Create B2C 401,138千元（76.8%）、Computer Vision 46,343千元（8.9%）及PC-OEM/ODD 74,405千元（14.3%）；此為產品營收，未揭露各群營業利益。前9月Computer Vision占6.5%，因此人臉辨識成長尚不能等同集團主體已轉為企業AI。2025年報76%數位創作／24%影音娛樂及其他是另一套分類，不與Q3三群相加。\n2025年外銷以美洲64.72%、亞洲25.09%為主，內銷4.78%；單一匿名客戶占全年19.96%，未揭露身分，不能猜為Apple或PC大廠。Q3 FaceMe增量來自日本汽車集團擴大部署、醫療讀卡與台灣eKYC等授權／續約，公司未列具名客戶、訂單額或認列年期。\n研究比較：ADBE Adobe的創意工具／訂閱商業模式可比較消費創作與AI變現，但產品廣度、客群及規模不同，不能直接套用估值；年報亦列Adobe、ByteDance、Wondershare為競爭者。台灣5211蒙恬僅作辨識技術授權與軟硬整合的部分比較，OCR／手寫及電子簽名與FaceMe臉辨、B2C影音用途不同，並無完全對應的台股純同業；未以官方資訊服務分類平均PE冒充真正同業。",
+      "period": "2025全年／2026H1資產負債／Q3單季與前9月／10月事件及11/3服務方案",
+      "sources": [
+        "annual-2025",
+        "h1-2026",
+        "q3-2026",
+        "creative-2027",
+        "faceme-security",
+        "apple-support-tw",
+        "apple-support-jp",
+        "perfect-merger",
+        "perfect-13d",
+        "penpower"
+      ],
+      "reviewed_at": "2026-11-03"
+    },
+    "earnings": {
+      "text": "營收下滑，行銷與研發支出仍高，讓本業獲利承壓。FaceMe成長很快，但規模尚小；投資與匯率變化也會影響最後淨利。\n營收與獲利要分開看。2025全年合併營收2,459,506千元、稅後純益286,976千元、EPS3.63元，較2024營收成長18.9%而純益減8.8%。網站共同基線最近四季營收依序2025Q3 635,881、Q4 653,143、2026Q1 585,334、Q2 528,130千元；10/28新簡報另列Q3 521,886千元（年減17.9%），供網站更新期間，非由研究另維護行情或TTM。\n最新Q3未查核簡報：毛利451,188千元、毛利率86.5%，營業利益12,636千元、純益20,901千元、單季EPS0.27元；前9月營收1,635,350千元、營業利益109,189千元（年減56.4%）、純益152,575千元（年減25.2%）、累計EPS1.94元，不能把累計當單季或全年。簡報營益率列2.5%，但12,636÷521,886約2.42%，保留差異；前9月B2C占比簡報76.8%而金額換算約76.87%，請數字端核對正式申報，不靜默改原稿。\nQ3高毛利沒有轉成高營益率：研發186,417、行銷221,537及管理30,598千元，合計438,552千元，營收下滑而費用僅年減1.8%，形成負向營運槓桿。B2C年減14.9%、OEM/ODD年減45.6%，FaceMe年增68%仍只占8.9%；產品獲利未單列，不稱FaceMe已填補本業缺口。\n前9月業外107,630千元，較去年9,319千元增1,055%，匯兌由損失88,062轉利益14,868千元為主要變化；其他收入96,409千元反而略減，並非新AI收入暴增。H1正式附註列利息25,934、租金36,631千元，屬資金及不動產收益；不能把簡報其他收入整包當軟體訂閱收入。\n資產負債採已核閱2026/6/30合併口徑，不冒稱11月現況：資產6,085,477、負債1,705,239、權益4,380,238、現金674,961、流動資產2,653,351、流動負債1,329,758千元，與網站基線一致。負債主要含合約負債458,151與其他應付款792,846千元；後者含應付股利285,633千元，是相較2025年底負債上升的重要原因，不能解讀為新增同額銀行借款。財報未列銀行借款／公司債，租賃負債共5,486千元，仍不使用「總負債=有息借款」或將金融資產全當現金。\nH1營業現金流252,977千元，購置不動產設備現金6,486千元；軟體研發主要體現在費用，不把研發預算當建廠CAPEX。持有玩美權益法投資1,606,372及投資性不動產1,186,186千元，資產不是全由軟體營運現金組成。半年報為核閱非查核，核閱結論未提出保留；10/23玩美交易後資產負債及合併範圍須待新財報重估。",
+      "period": "2025全年／2026H1資產負債／Q3單季與前9月／10月事件及11/3服務方案",
+      "sources": [
+        "annual-2025",
+        "h1-2026",
+        "q3-2026",
+        "creative-2027",
+        "faceme-security",
+        "apple-support-tw",
+        "apple-support-jp",
+        "perfect-merger",
+        "perfect-13d",
+        "penpower"
+      ],
+      "reviewed_at": "2026-11-03"
+    },
+    "developments": {
+      "text": "發展項目以既有業務新產品為主，沒有可確認新工廠擴產。2027版Director Suite及PowerDirector Agentic Editor、PhotoDirector Edit by Chat、MyEdit Agent、Promeo Agent讓創作者／中小企業以對話製作內容；9月已發布產品，10/28展示更多功能，但AI Micro-drama等仍列即將推出，不把2027版本名當2027才開始營收。\nAI PC Mode已在PhotoDirector／Promeo支援本地AI功能，法說稱涵蓋Intel、NVIDIA平台與20多項on-device功能；另一本地修圖AI Agent仍待推出。這是軟體功能及硬體平台合作，不代表出售NVIDIA硬體、具名大額訂單或獨立AI營收已確認。\nFaceMe Security 8.9.2在10月發布Axis ACAP相機內辨識及透過本地MCP服務連接工作流程，針對門禁、安控與事件處理；相機端完成辨識不等於所有管理伺服器都不需要。Axis為技術生態合作對象，非據此確認採購客戶。Q3日本汽車、醫療與台灣eKYC案例屬商用授權／續約進展，但逐案營收與毛利未公開。\n玩美為投資與業務組合變化，應單獨追蹤。H1持股36.29%且採權益法；SEC公告交易已於10/23完成，訊連及子公司13D/A確認保留36,960,961股，占存續公司約68.01%。原Class A股別消失致申報該類0%不代表全數賣出；原持股延續亦未收現金對價。後續控制判斷、合併起算及購價分攤待正式財報，不能把持股增加直接推算新增收入或EPS。",
+      "period": "2025全年／2026H1資產負債／Q3單季與前9月／10月事件及11/3服務方案",
+      "sources": [
+        "annual-2025",
+        "h1-2026",
+        "q3-2026",
+        "creative-2027",
+        "faceme-security",
+        "apple-support-tw",
+        "apple-support-jp",
+        "perfect-merger",
+        "perfect-13d",
+        "penpower"
+      ],
+      "projects": [
+        {
+          "project_id": "5203-creative-agents",
+          "name": "創作軟體與商務AI Agents",
+          "type": "既有業務新產品",
+          "uses_and_customers": "創作者及中小企業對話式影音、照片、行銷素材",
+          "status": "9/17發布2027版本，10/28更新功能；Micro-drama待推出",
+          "commercial_timing": "既有版本已發布，待推出功能無確定日",
+          "revenue_contribution": "個別AI產品、ARR及付費率未單列",
+          "sources": [
+            "annual-2025",
+            "creative-2027",
+            "q3-2026"
+          ]
+        },
+        {
+          "project_id": "5203-on-device-ai",
+          "name": "AI PC本地運算功能",
+          "type": "既有業務新產品",
+          "uses_and_customers": "PhotoDirector/Promeo使用者；Intel/NVIDIA為平台合作",
+          "status": "AI PC Mode已推出，本地修圖Agent待推出",
+          "commercial_timing": "已商用功能與未公開上線日的開發功能分開",
+          "revenue_contribution": "無獨立營收預估；非硬體製造擴產",
+          "sources": [
+            "q3-2026"
+          ]
+        },
+        {
+          "project_id": "5203-faceme-security-acap",
+          "name": "FaceMe Security 8.9.2與相機端辨識",
+          "type": "既有業務新產品",
+          "uses_and_customers": "安控門禁、Axis ACAP生態、企業事件流程",
+          "status": "10月發布；日期頁首10/14與內文10/15衝突保留",
+          "commercial_timing": "產品發布已確認，逐案部署日期未揭露",
+          "revenue_contribution": "個別版本營收未揭露",
+          "sources": [
+            "faceme-security"
+          ]
+        },
+        {
+          "project_id": "5203-faceme-enterprise",
+          "name": "FaceMe企業授權與eKYC部署",
+          "type": "既有業務拓展",
+          "uses_and_customers": "日本汽車集團、醫療讀卡、台灣金融eKYC；客戶未具名",
+          "status": "Q3新增授權、續約與擴大部署",
+          "commercial_timing": "公司稱Q3已有貢獻，未揭每案商用日",
+          "revenue_contribution": "Computer Vision Q3收入46,343千元年增68%，非逐案收入",
+          "sources": [
+            "q3-2026"
+          ]
+        },
+        {
+          "project_id": "5203-perfect-private",
+          "name": "玩美私有化後投資／業務組合",
+          "type": "投資／併購結構變動",
+          "uses_and_customers": "玩美創作App與美妝時尚品牌AI/AR方案；未新增確認訊連客戶",
+          "status": "10/23合併完成，延續持股約68.01%",
+          "commercial_timing": "交易生效10/23，會計合併起算待正式財報",
+          "revenue_contribution": "新增收入、EPS、商譽及購價分攤未公布，不推算",
+          "sources": [
+            "perfect-merger",
+            "perfect-13d",
+            "h1-2026"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-11-03"
     }
   },
   "6467.TW": {
