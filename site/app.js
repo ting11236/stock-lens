@@ -675,7 +675,9 @@ function initResearchUI(){
 }
 
 let calendar={payload:null,error:false,view:'upcoming'};
+function publicCalendarEvent(e){return e.kind!=='重大訊息'||(e.research_impact?.policy==='research-impact-v1'&&e.research_impact?.status==='material');}
 function calendarEventHtml(e){
+ if(!publicCalendarEvent(e))return '';
  const range=e.end_date&&e.end_date!==e.date?' 至 '+e.end_date:'';
  return '<article class="calendar-event"><h3>'+esc(e.name)+'（'+esc(e.symbol.slice(0,-3))+'） · '+esc(e.kind)+'</h3><p><b>'+esc(e.date+range)+(e.time?' '+esc(e.time):'')+'</b>'+(e.location?' · '+esc(e.location):'')+'</p><p>'+esc(e.reason||e.description||'')+'</p>'+(e.due_date?'<p>建議更新日：'+esc(e.due_date)+' · 摘要資料日期：'+esc(e.summary_reviewed_at||'未提供')+'</p>':e.kind!=='重大訊息'?'<p>摘要安排：會議結束翌日，補讀簡報或議事資料。</p>':'')+'<div class="links"><button class="button small" type="button" data-calendar-symbol="'+esc(e.symbol)+'">查看公司資料</button>'+(safeResearchUrl(e.source)?'<a class="button small" href="'+esc(e.source)+'" target="_blank" rel="noopener noreferrer">官方公告 ↗</a>':'')+'</div></article>';
 }
@@ -687,7 +689,7 @@ function companyMeetingBrief(stock){
 function calendarCompanyHtml(stock){
  const p=calendar.payload,c=p?.companies?.[stock.symbol];
  if(!p)return '<p>公司會議日程'+(calendar.error?'暫時無法載入。':'載入中。')+'</p>';
- const upcoming=[c?.next_conference,c?.next_shareholders].filter(Boolean),queue=p.update_queue.filter(e=>e.symbol===stock.symbol);
+ const upcoming=[c?.next_conference,c?.next_shareholders].filter(Boolean),queue=p.update_queue.filter(e=>e.symbol===stock.symbol&&publicCalendarEvent(e));
  return '<h3>下次會議與摘要更新</h3><p>日程資料日期：'+esc(p.as_of)+'。'+(p.errors?.length?'部分來源更新失敗，請點官方公告確認最新安排。':'依官方已公告日期整理。')+'</p>'+['法說會','股東會'].map((label,i)=>'<p><b>下次'+label+'：</b>'+([c?.next_conference,c?.next_shareholders][i]?esc([c.next_conference,c.next_shareholders][i].date+([c.next_conference,c.next_shareholders][i].end_date!==[c.next_conference,c.next_shareholders][i].date?' 至 '+[c.next_conference,c.next_shareholders][i].end_date:'')):'目前查詢範圍未查得未來場次')+'</p>').join('')+upcoming.map(calendarEventHtml).join('')+'<h3>摘要更新待辦</h3>'+(queue.length?queue.map(calendarEventHtml).join(''):'<p>目前沒有依已收錄公告產生的更新待辦。</p>')+'<p class="tiny">會議日程每天查詢；摘要仍需讀完會後簡報與公告再整理。股價、月營收及已支援的財報數字依每日資料流程更新。</p>';
 }
 function wireCalendarCompanies(root){root.querySelectorAll('[data-calendar-symbol]').forEach(b=>b.onclick=()=>{if($('calendarDialog').open)$('calendarDialog').close();if($('researchDialog').open)$('researchDialog').close();state.filter='全部';state.industryFilter=null;state.categoryAnchor=null;state.search=b.dataset.calendarSymbol.slice(0,-3);$('search').value=state.search;$('categoryFilter').value='全部';for(const key of ['priceMin','priceMax','metricMin','metricMax']){state[key]=null;$(key).value='';}setTab('all');selectCompany(b.dataset.calendarSymbol);});}
@@ -701,11 +703,11 @@ function renderCalendar(){
   root.innerHTML='<p>列出最近一個月已更新並上線的會議摘要，最新更新排在前面。</p>'+(rows.length?rows.map(e=>'<article class="calendar-event recent-meeting-summary"><h3><button type="button" class="calendar-company-link" data-calendar-symbol="'+esc(e.symbol)+'">'+esc(e.name)+'（'+esc(e.symbol.slice(0,-3))+'）</button> · '+esc(e.kind)+'</h3><p>會議日期：<time datetime="'+esc(e.meeting_date)+'">'+esc(e.meeting_date)+'</time></p><p>摘要更新日期：<time datetime="'+esc(e.summary_updated_at)+'">'+esc(e.summary_updated_at)+'</time></p></article>').join(''):'<p>最近一個月尚無已完成更新並上線的會議摘要。</p>');wireCalendarCompanies(root);return;
  }
  if(!p){root.innerHTML='<p>'+esc(calendar.error?'日程暫時無法載入，請稍後更新。':'正在載入公司日程…')+'</p>';return;}
- const upcoming=p.events.filter(e=>e.kind!=='重大訊息'&&!e.cancelled&&(e.end_date||e.date)>=p.as_of),queue=p.update_queue;
+ const upcoming=p.events.filter(e=>e.kind!=='重大訊息'&&!e.cancelled&&(e.end_date||e.date)>=p.as_of),queue=p.update_queue.filter(publicCalendarEvent);
  $('calendarUpcoming').textContent='即將開會（'+upcoming.length+' 場）';$('calendarQueue').textContent='摘要更新待辦（'+queue.length+' 項）';
  $('calendarUpcoming').setAttribute('aria-selected',String(calendar.view==='upcoming'));$('calendarQueue').setAttribute('aria-selected',String(calendar.view==='queue'));$('calendarRecent').setAttribute('aria-selected','false');
  const rows=calendar.view==='queue'?queue:upcoming;
- root.innerHTML='<p>日程資料日期：'+esc(p.as_of)+'。法說會查詢前一個月到未來兩個月；股東會依官方公告。'+(p.errors?.length?'部分來源更新失敗，保留已有資料。':'')+'</p><p>股價、月營收與已支援的財報數字每日更新；摘要待辦用來安排閱讀會後簡報、議事資料及重大訊息；<b>完成整理後，再更新摘要資料日期</b>。</p>'+(rows.length?rows.map(calendarEventHtml).join(''):'<p>目前沒有符合條件的項目。</p>');wireCalendarCompanies(root);
+ root.innerHTML='<p>日程資料日期：'+esc(p.as_of)+'。法說會查詢前一個月到未來兩個月；股東會依官方公告。'+(p.errors?.length?'部分來源更新失敗，保留已有資料。':'')+'</p><p>這裡列出會議與會影響公司研究的事件。例行公告不列入；影響尚未確認的內容先留待查證。財報、營收數字有更新時，另外安排摘要同步。<b>會議摘要完成整理後，才列入最近更新。</b></p>'+(rows.length?rows.map(calendarEventHtml).join(''):'<p>目前沒有符合條件的項目。</p>');wireCalendarCompanies(root);
 }
 async function fetchCalendar(){try{await loadReadingPanels('calendar-pages.html');calendar.error=false;}catch{calendar.error=true;$('calendarContent').innerHTML='<p>日程頁面暫時無法載入，請稍後再試。</p>';}renderCalendar();}
 function weeklyChangeHtml(stock){

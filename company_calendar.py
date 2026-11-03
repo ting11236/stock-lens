@@ -1,9 +1,10 @@
 """Daily official meeting calendar and an explicit research-update queue."""
-import json,re
+import gzip,json,re
 from datetime import date,datetime,timedelta,timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from update_snapshot import get,read_json,write_changed,dump
+from announcement_filter import news_events,public_event,triage,adopted_events,already_researched,POLICY
 ROOT=Path(__file__).resolve().parent
 MEETINGS='https://openapi.twse.com.tw/v1/opendata/t187ap38_L'
 NEWS='https://openapi.twse.com.tw/v1/opendata/t187ap04_L'
@@ -64,8 +65,11 @@ def make_output(events,stocks,profiles,today,previous=None):
     prev=previous or {};universe={s['symbol']:s for s in stocks};cutoff=(today-timedelta(days=180)).isoformat();day=today.isoformat()
     dedup={}
     for e in events:
-        if e['symbol'] in universe and e.get('end_date',e['date'])>=cutoff:dedup[(e['symbol'],e['kind'],e['date'],e.get('time',''))]=e
-    events=sorted(dedup.values(),key=lambda e:(e['date'],e['symbol'],e['kind']))
+        if e['symbol'] in universe and e.get('end_date',e['date'])>=cutoff:
+            key=(e['symbol'],e['kind'],e['date'],e.get('time',''))
+            if key not in dedup or e.get('statement') or not dedup[key].get('statement'):dedup[key]=e
+    events=sorted((visible for e in dedup.values() if (visible:=public_event(e)) is not None),key=lambda e:(e['date'],e['symbol'],e['kind']))
+    researched={(e['symbol'],e['date'],e.get('time','')) for e in dedup.values() if e['kind']=='重大訊息' and already_researched(e,profiles.get(e['symbol'],{}))}
     queue=[];companies={};seen={}
     prior_seen=prev.get('financial_seen',{})
     for symbol,stock in universe.items():
@@ -76,9 +80,10 @@ def make_output(events,stocks,profiles,today,previous=None):
         companies[symbol]={'next_conference':next((e for e in upcoming if e['kind']=='法說會'),None),'next_shareholders':next((e for e in upcoming if e['kind'].startswith('股東')),None),'summary_reviewed_at':reviewed or None}
         for e in own:
             end=e.get('end_date',e['date'])
+            if e['kind']=='重大訊息' and (e['symbol'],e['date'],e.get('time','')) in researched:continue
             # Same-day review may have preceded the meeting; do not silently clear it.
-            if end<day and reviewed<=end:
-                queue.append({**e,'due_date':(date.fromisoformat(end)+timedelta(days=1)).isoformat(),'reason':'新重大訊息待整理' if e['kind']=='重大訊息' else e['kind']+'結束後，補讀簡報／議事資料並更新摘要','summary_reviewed_at':reviewed or None})
+            if (end<=day if e['kind']=='重大訊息' else end<day) and reviewed<=end:
+                queue.append({**e,'due_date':end if e['kind']=='重大訊息' else (date.fromisoformat(end)+timedelta(days=1)).isoformat(),'reason':e['research_impact']['reason']+'：'+e['description'] if e['kind']=='重大訊息' else e['kind']+'結束後，補讀簡報／議事資料並更新摘要','summary_reviewed_at':reviewed or None})
         for key,label in [('eps','財報'),('revenue_growth','月營收')]:
             period=stock.get('field_meta',{}).get(key,{}).get('date');old=prior_seen.get(symbol,{}).get(key,{})
             if not period:continue
@@ -87,10 +92,15 @@ def make_output(events,stocks,profiles,today,previous=None):
             seen.setdefault(symbol,{})[key]={'period':period,'detected_at':detected}
             if detected and reviewed<=detected:
                 queue.append({'symbol':symbol,'name':stock['name'],'kind':label,'date':detected,'due_date':detected,'reason':label+'數字更新至 '+period+'，摘要待同步','period':period,'summary_reviewed_at':reviewed or None,'source':stock.get('field_meta',{}).get(key,{}).get('source_url') or MEETINGS})
-    return {'schema_version':1,'as_of':day,'events':events,'companies':companies,'update_queue':sorted(queue,key=lambda e:(e['due_date'],e['symbol'])),'financial_seen':seen,'sources':[]}
+    return {'schema_version':1,'as_of':day,'announcement_policy':POLICY,'events':events,'companies':companies,'update_queue':sorted(queue,key=lambda e:(e['due_date'],e['symbol'])),'financial_seen':seen,'sources':[]}
 
 def run(root=ROOT,today=None):
     today=today or datetime.now(TZ).date();folder=root/'site/data';prev=read_json(folder/'company-calendar.json',read_json(root/'research/company-calendar-seed.json',{}));events=list(prev.get('events',[]));errors=[];sources=[]
+    archive_path=root/'research/monitoring-tasks/announcement-monitor.json.gz'
+    archived=[]
+    if archive_path.exists():
+        archived=json.loads(gzip.decompress(archive_path.read_bytes()))['events']
+    events=archived+events
     for offset in (-1,0,1,2):
         month=today.year*12+today.month-1+offset;y,m=divmod(month,12);m+=1
         url=CONFERENCES+f'?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year={y-1911}&month={m:02d}'
@@ -109,12 +119,30 @@ def run(root=ROOT,today=None):
                 if len(rows)<500:raise ValueError('股東會筆數異常')
                 events=[e for e in events if not e['kind'].startswith('股東')]+parse(rows)
             else:
-                for r in rows:
-                    code=r.get('公司代號','');d=normalized_date(r.get('發言日期'))
-                    if re.fullmatch(r'\d{4}',code) and d:events.append({'symbol':code+'.TW','name':r.get('公司名稱',code),'kind':'重大訊息','date':d,'end_date':d,'time':r.get('發言時間',''),'description':r.get('主旨',''),'source':url,'cancelled':False})
+                events+=news_events(rows,url,normalized_date)
             sources.append({'name':kind,'url':url,'status':'ok','checked_at':today.isoformat()})
         except Exception as e:errors.append(kind+'：'+type(e).__name__);sources.append({'name':kind,'url':url,'status':'failed'})
     stockdata=read_json(folder/'stocks.json',{});profiles=read_json(folder/'company-research.json',{}).get('profiles',{})
+    for adopted in adopted_events(profiles,NEWS,normalized_date):
+        matching=[e for e in events if e['kind']=='重大訊息' and e['symbol']==adopted['symbol'] and e['date']==adopted['date'] and ' '.join(e.get('description','').split())==' '.join(adopted['description'].split())]
+        if any(e.get('statement') for e in matching):continue
+        if matching:adopted['time']=matching[0].get('time','')
+        events.append(adopted)
     output=make_output(events,stockdata.get('stocks',[]),profiles,today,prev);output.update(sources=sources,errors=errors,updated_at=datetime.now(TZ).isoformat(timespec='seconds'))
+    # Raw observations and uncertain/routine items stay in the research archive,
+    # outside the public calendar and scheduled research-update queue.
+    raw={}
+    for e in events:
+        if e.get('kind')!='重大訊息':continue
+        key=(e['symbol'],e['date'],e.get('time',''))
+        if key not in raw or e.get('raw_announcement'):raw[key]=e
+    archive={'schema_version':1,'policy':POLICY,'events':list(raw.values())}
+    encoded=gzip.compress(dump(archive).encode(),mtime=0)
+    archive_path.parent.mkdir(parents=True,exist_ok=True)
+    if not archive_path.exists() or archive_path.read_bytes()!=encoded:archive_path.write_bytes(encoded)
+    pending=[{**e,'research_impact':triage(e)} for e in raw.values() if triage(e)['status']=='review']
+    review_path=root/'research/monitoring-tasks/announcement-review.json.gz'
+    review_bytes=gzip.compress(dump({'schema_version':1,'policy':POLICY,'as_of':today.isoformat(),'events':pending}).encode(),mtime=0)
+    if not review_path.exists() or review_path.read_bytes()!=review_bytes:review_path.write_bytes(review_bytes)
     write_changed(folder/'company-calendar.json',dump(output));print('公司日程',len(output['events']),'更新待辦',len(output['update_queue']),'來源失敗',len(errors))
 if __name__=='__main__':run()

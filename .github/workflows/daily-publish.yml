@@ -38,7 +38,7 @@ jobs:
       - name: 檢查資料處理與前端邏輯
         run: |
           python -m unittest discover -s tests -v
-          node --test tests/app.test.cjs tests/reopen-cache.test.cjs tests/meeting-summary.test.cjs
+          node --test tests/app.test.cjs tests/reopen-cache.test.cjs tests/meeting-summary.test.cjs tests/calendar-impact.test.cjs
       - name: 取得每日資料；失敗仍發布舊資料與狀態
         id: update
         continue-on-error: true
@@ -55,10 +55,13 @@ jobs:
         run: python company_calendar.py
       - name: 保留有變更的快照、CSV 與更新狀態
         run: |
-          if ! git diff --quiet -- site/data || test -n "$(git ls-files --others --exclude-standard site/data)"; then
+          if ! git diff --quiet -- site/data research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz || test -n "$(git ls-files --others --exclude-standard site/data research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add site/data
+            for file in research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz; do
+              if test -f "$file"; then git add "$file"; fi
+            done
             git commit -m 'data: 更新上市台股快照與來源狀態'
             git pull --rebase origin main
             git push origin HEAD:main
