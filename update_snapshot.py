@@ -28,6 +28,7 @@ SOURCES = {
     'income': 'opendata/t187ap06_L_ci',
     'balance': 'opendata/t187ap07_L_ci',
 }
+QUARTERLY = {'eps', 'margins', 'income', 'balance'}
 NUMERIC = ('price','pe','pb','ps','peg','dividend_yield','eps','trailing_eps',
            'gross_margin','revenue_growth','earnings_growth','roe')
 INDUSTRIES = dict(zip('01 02 03 04 05 06 07 08 09 10 11 12 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38'.split(),
@@ -109,7 +110,8 @@ def fingerprint(obj):
 
 
 def validate(name, rows):
-    if not isinstance(rows, list) or len(rows) < (500 if name in ('companies','prices','ratios') else 100):
+    minimum = 1 if name in QUARTERLY else (500 if name in ('companies','prices','ratios') else 100)
+    if not isinstance(rows, list) or len(rows) < minimum:
         raise ValueError('來源格式或筆數異常，拒絕覆蓋有效資料')
     key = 'Code' if name in ('prices','ratios') else '公司代號'
     if any(not isinstance(r, dict) or not r.get(key) for r in rows):
@@ -133,16 +135,51 @@ def validate(name, rows):
         raise ValueError('來源缺少有效日期')
     if name in ('eps','margins','income','balance') and any(not quarter(r) for r in rows):
         raise ValueError('財報期間無效')
+    if name in QUARTERLY:
+        if any(not re.fullmatch(r'\d{4}', str(r[key])) for r in rows):
+            raise ValueError('財報股票代號無效')
+        for row in rows:
+            published = day(row.get('出表日期'))
+            year, completed_quarter = int(published[:4]), (int(published[5:7])-1)//3
+            if completed_quarter == 0:
+                year, completed_quarter = year-1, 4
+            latest = f'{year}-Q{completed_quarter}'
+            if quarter(row) > latest:
+                raise ValueError('財報期間晚於出表日期')
+        metric = required[name][0]
+        if sum(number(r.get(metric)) is not None for r in rows) < len(rows)*.5:
+            raise ValueError('財報有效數值比例異常')
     return rows
 
 
 def fetch_source(name):
     try:
-        rows = validate(name, json.loads(get(BASE + SOURCES[name]).decode('utf-8-sig')))
+        # A temporary HTML/truncated response must not fail the entire day's feed.
+        for attempt in range(3):
+            try:
+                decoded = json.loads(get(BASE + SOURCES[name]).decode('utf-8-sig'))
+                break
+            except (json.JSONDecodeError, UnicodeDecodeError):
+                if attempt == 2:
+                    raise
+                time.sleep(2 ** attempt)
+        rows = validate(name, decoded)
         return name, rows, None
     except Exception as error:
         # Do not include URLs or secret query strings in logs/status.
         return name, None, type(error).__name__ + '：來源未通過下載或格式檢查'
+
+
+def merge_quarterly(previous, incoming):
+    """Latest validated statement per company; a seasonal feed is a delta."""
+    merged = {str(r['公司代號']): r for r in previous}
+    for row in incoming:
+        code = str(row['公司代號'])
+        old = merged.get(code)
+        version = lambda r: (quarter(r) or '', day(r.get('出表日期')) or '')
+        if old is None or version(row) >= version(old):
+            merged[code] = row
+    return [merged[code] for code in sorted(merged)]
 
 
 def classify(s):
@@ -217,6 +254,11 @@ def build_rows(feeds, history, now):
         bp = quarter(balance)
         if bp:
             history.setdefault(code,{}).setdefault(bp,{})['equity'] = number(balance.get('歸屬於母公司業主之權益合計'))
+        if not ip:
+            # First run of the new cache: keep using this company's archived
+            # income period, including recomputing price-dependent ratios.
+            ip = max((period for period, record in history.get(code,{}).items()
+                      if all(record.get(k) is not None for k in ('eps','revenue','net_income'))), default=None)
         trailing = ttm(history,code,ip,'eps') if ip else None
         prior_period = str(int(ip[:4])-1)+ip[4:] if ip else None
         prior_eps = ttm(history,code,prior_period,'eps') if ip else None
@@ -259,12 +301,15 @@ def preserve_fields(rows, previous, failed, now):
             source_failed = bool(dependencies.get(key,set()) & set(failed)) or any(meta['source'] == BASE+SOURCES[n] for n in failed)
             if key == 'price' and prior and s[key] is None and prev.get(key) is not None:
                 s[key], s['field_meta'][key] = prev[key], dict(prior,stale_reason='本次未提供有效收盤價，保留最近可取得的價格及原交易日期')
+            elif prior and meta['source'] in {BASE+SOURCES[n] for n in QUARTERLY} and not meta.get('date') and not source_failed:
+                s[key], s['field_meta'][key] = prev.get(key), dict(prior,stale_reason='本次未提供該公司新財報，保留原資料與期間')
             elif prior and (source_failed or (prior.get('date') and meta.get('date') and prior['date'] > meta['date'])):
                 s[key], s['field_meta'][key] = prev.get(key), dict(prior,stale_reason='本次來源失敗或日期倒退，沿用前次有效值')
             elif prior and s[key] == prev.get(key) and {k:v for k,v in meta.items() if k!='downloaded_at'} == {k:v for k,v in prior.items() if k not in ('downloaded_at','stale_reason')}:
                 meta['downloaded_at'] = prior['downloaded_at']
         s['price_date'] = s['field_meta']['price']['date']
         s['ratio_date'] = s['field_meta']['pe']['date']
+        s['financial_data_date'] = s['field_meta']['eps']['date']
         s['snapshot_at'] = max((m['downloaded_at'] for m in s['field_meta'].values()),default=now)
         s['category'] = classify(s)
     return rows
@@ -311,11 +356,20 @@ def csv_text(rows):
 def run(data_dir=DATA, loader=fetch_source, now=None):
     previous = read_json(data_dir/'stocks.json',{})
     history = read_json(data_dir/'financial-history.json',{})
+    quarterly_cache = read_json(data_dir/'quarterly-sources.json',{})
     with ThreadPoolExecutor(max_workers=3) as pool:
         results = list(pool.map(loader,SOURCES))
     now = now or datetime.now(timezone.utc).isoformat(timespec='seconds')
     feeds = {n:r for n,r,e in results if r is not None}
     errors = {n:e for n,r,e in results if e}
+    quarterly_coverage = {}
+    for name in sorted(QUARTERLY):
+        if name in feeds:
+            received = feeds[name]
+            quarterly_cache[name] = merge_quarterly(quarterly_cache.get(name,[]), received)
+            feeds[name] = quarterly_cache[name]
+            quarterly_coverage[name] = {'received_companies':len(received),
+                                        'retained_statement_companies':len(feeds[name])}
     old_count = len(previous.get('stocks',[]))
     if 'companies' in feeds and old_count > 500 and len(feeds['companies']) < old_count*.95:
         errors['companies'] = '公司名冊筆數異常下降，保留前次快照';feeds.pop('companies')
@@ -355,12 +409,14 @@ def run(data_dir=DATA, loader=fetch_source, now=None):
         write_changed(data_dir/'stocks.json',dump(payload))
         write_changed(data_dir/'stocks.csv',csv_text(rows))
         write_changed(data_dir/'financial-history.json',dump(history))
+        write_changed(data_dir/'quarterly-sources.json',dump(quarterly_cache))
     elif not (data_dir/'stocks.json').exists():
         write_changed(data_dir/'stocks.json',dump(dict(schema_version=2,stocks=[],fetched_at=None)))
         write_changed(data_dir/'stocks.csv',csv_text([]))
     # Status records transitions, not each retry timestamp. Actions logs retain every attempt.
     status = {'state':'failed' if not core_ok else ('partial' if errors else 'ok'),'errors':errors,
               'latest_price_date':read_json(data_dir/'stocks.json',{}).get('latest_price_date')}
+    status['quarterly_coverage'] = quarterly_coverage
     prior_status = read_json(data_dir/'status.json',{})
     status['since'] = prior_status.get('since',now) if all(prior_status.get(k)==v for k,v in status.items()) else now
     write_changed(data_dir/'status.json',dump(status))
