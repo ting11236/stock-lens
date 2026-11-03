@@ -180,6 +180,21 @@
       "publication_commit": "2b5a11088bdfae894db7b793cd8e0c83f393a195",
       "workflow_run_id": 39624364752,
       "verified_at": "2026-10-21T23:52:08.600479+08:00"
+    },
+    {
+      "symbol": "5203.TW",
+      "name": "訊連",
+      "kind": "法說會",
+      "meeting_date": "2026-10-28",
+      "summary_updated_at": "2026-11-03",
+      "batch_id": "research-20261103-5203-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "ad8f82a0365826c6c2b819f0c75e69b2bb7cbd64",
+      "workflow_run_id": 41623439348,
+      "verified_at": "2026-11-03T18:59:05.441105+08:00"
     }
   ]
 }
