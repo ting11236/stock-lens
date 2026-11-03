@@ -1,5 +1,7 @@
 {
-  "errors": {},
+  "errors": {
+    "revenue": "JSONDecodeError：來源未通過下載或格式檢查"
+  },
   "latest_price_date": "2026-11-02",
   "quarterly_coverage": {
     "balance": {
@@ -19,6 +21,6 @@
       "retained_statement_companies": 53
     }
   },
-  "since": "2026-11-03T11:36:16+00:00",
-  "state": "ok"
+  "since": "2026-11-03T17:52:57+00:00",
+  "state": "partial"
 }
