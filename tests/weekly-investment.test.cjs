@@ -146,3 +146,10 @@ test('W44 reassessment withdraws expired plans, updates Q3 on one share basis, a
  const d=w44.companies.find(c=>c.code==='2308');assert.equal(d.financial.eps,9.04);assert.equal(d.financial.ttm_eps,33.31);assert.equal(d.valuation.ttm_pe,40.08);assert.equal(d.financial.gross_margin,34.1);
  const html=render(w44);assert.match(html,/最新交易資料日期：10月30日/);assert.match(html,/2026-W44-screen.json/);assert.match(html,/舊買點已/);assert.doesNotMatch(html,/data-weekly-category="等待買點"[^]*?優先關注<small/);assert.match(html,/沒有新買訊/);
 });
+
+const w45=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../site/data/weekly-investment/2026-W45-v1.json'),'utf8'));
+test('W45 review respects afternoon cutoff, leaves unsupported entries absent and preserves W44 archive',()=>{
+ assert.equal(w45.week_id,'2026-W45');assert.equal(w45.screening.universe_count,1093);assert.equal(w45.screening.candidate_count,129);assert.equal(w45.screening.priceAsOf,'2026-10-30');assert.equal(w45.priceAsOf,'2026-11-02');assert.equal(w45.changes.rating_changes.length,0);assert.equal(w45.changes.priority_changes.length,0);assert.equal(w45.portfolio.base_weights.cash,100);assert.deepEqual(w45.top_wait,[]);
+ for(const c of w45.companies){assert.equal(c.building_plan.tranches.length,0);assert.equal(c.exit_plan.tranches.length,0);assert.equal(c.prior_plan_reference.update_id,'2026-W44-v1');assert.equal(c.prior_plan_reference.expired_at,'2026-11-02T00:00:00+08:00');assert.equal(c.technical.price_history.at(-1).date,'2026-11-02');assert.equal(c.price,c.technical.price_history.at(-1).close);for(const k of ['first_attention','best_entry','breakout'])assert.equal(c.prices[k],null);assert.equal(Object.keys(c.scores).length,5);assert.equal(c.prices.valid_until,'2026-11-09T00:00:00+08:00');}
+ assert.equal(w45.companies.find(c=>c.code==='2330').price,2330);assert.equal(w45.companies.find(c=>c.code==='2308').price,1355);assert.equal(w45.companies.find(c=>c.code==='2382').price,318);assert.equal(w45.companies.find(c=>c.code==='2308').financial.ttm_eps,33.31);const html=render(w45);assert.match(html,/最新交易資料日期：11月2日/);assert.match(html,/沒有新買訊/);assert.match(html,/2026-W45-screen.json/);
+});
