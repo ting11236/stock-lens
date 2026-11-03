@@ -1,0 +1,1352 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261104-1326-v1",
+    "ready": true,
+    "created_at": "2026-11-04T02:00:07.717105+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:0acad2bedc222136e854183f469cf0b3ee1d41505ea9cab70ee6f9c83acb4d08",
+    "work_type": "backfill",
+    "completion_unit": "整家公司公開資料查找完成附缺漏",
+    "new_meeting": false,
+    "historical_meeting_date": "2026-08-27",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "financial_periods_labeled": true,
+      "old_project_ids_preserved": true
+    },
+    "limitations": [
+      "正式財報列表仍到2026H1；10/12 Q3為公司自結，不冒稱核閱完整Q3",
+      "H1會計師保留核閱結論（部分子公司／轉投資未核閱）已明列",
+      "官方原始文字Q&A未找到，簡報末頁僅標題；未找影片",
+      "茂金屬PP時程來源衝突保留，10月新說法為媒體，未取得官方逐案修訂",
+      "SiC、低碳氫、AI招商具名客戶及收入未驗證；無獨立金額財測",
+      "最新可靠具名法人EPS共識未找到",
+      "2025歷史Sony/rPP/沙鹿來源沿用原查閱日，未假稱新事件",
+      "借款缺一年內到期項交網站修正，不改網站財務檔"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-1326-v1-business",
+      "task_id": "site-baseline-20261004-1326",
+      "company_code": "1326",
+      "company_name": "台化",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:8c8dff1ba6cd4ee2ba0f24b64c5fc104fb757c0cc00f1b30ee50fcf9289bd15d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:315cdb07ec1085eef9787ef8a3fe7ea886c45a55290362c345dba3dda4fab4a5",
+      "expected_old_section_version": "sha256:483cbff4bff4e688fe92e5e27a67fc78c5f3b7bc7a1e678e0fb72889a787870b",
+      "old_content": {
+        "period": "截至2026-10-06官網產品；非當年銷售占比",
+        "sources": [
+          "plastics-products",
+          "plastics-integration"
+        ],
+        "text": "台化既有石化與纖維業務之外，塑膠部製造及銷售ABS、PS、PP、PC、ASA、SAN與PC/ABS合膠，並提供高性能複合材料及再生、生質樹脂。材料供下游加工，用途涵蓋交通運輸、家電、科技辦公用品、包裝與建築。部分上游原料與六輕體系整合；產品目錄代表可供應品項，不代表各品項收入占比或獲利均已量化。",
+        "reviewed_at": "2026-10-06"
+      },
+      "new_content": {
+        "text": "台化（1326，上市）核心仍是石化、合成樹脂與纖維材料，透過六輕上游整合取得輕油、乙烯、丙烯等原料，向下游聚酯、塑膠加工、紡織及工業客戶銷售。芳香烴BZ/PX/OX、SM、酚酮、PTA/PIA屬石化鏈；ABS、PS、PP、PC為塑膠；耐隆原絲／加工絲、短纖紗與福懋布料屬纖維紡織，另有公用水電蒸汽。不能只用塑膠部產品目錄概括整家公司。[annual-2025印頁119–120、138–139]\n用途方面，PX/PTA連接聚酯纖維、薄膜與瓶用樹脂，PIA用於聚酯與塗料改質，SM連接苯乙烯樹脂；ABS/PC等供家電、汽車、事務機及電子零件，PP涵蓋包材、纖維及醫材；耐隆用於服飾、輪胎簾布及工業絲。客戶多為材料加工廠與品牌供應鏈，不把終端AI市場規模直接算為台化收入。[annual-2025]\n8/27法說2026H1合併營收約1,689億元，石化占62.7%、塑膠18.5%、其他12.7%、福懋6.1%；中國大陸含港澳44.3%、台灣35.6%。這與年報母公司各部門比重的分母不同，不混算。產品毛利、客戶訂單與具名客戶未逐項揭露；Sony合作另外區分公告及實際出貨。[meeting-20260827]\n研究同業選擇：1312國喬、1309台達化可比較ABS/PS及SM相關產品價差，但各自產品與工廠結構不同；1402遠東新僅對照聚酯／紡織鏈需求，不能直接作整體估值同業；6505台塑化為上游供應與權益法投資曝險，非純替代同業。年報列台達、國喬、亞東石化與遠東等各產品競爭者，以上按業務作部分比較，不用單一塑化平均PE取代差異。[annual-2025印頁137；研究判斷]",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "plastics-products",
+          "plastics-integration",
+          "sony-renewable-ps",
+          "rpp-nol",
+          "shalu-hydro-operation",
+          "computex-highperformance-20260603",
+          "annual-2025",
+          "2026-H1-consolidated",
+          "meeting-20260827",
+          "q3-self",
+          "pp-oct-media"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.fcfc-plastics.com/",
+          "title": "台化塑膠部產品及应用",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "樹脂種類、永續材料與交通、家電、包裝等应用",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-products",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/list/cate-399744.htm",
+          "title": "台化塑膠部事業介紹",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "上下游整合與製銷",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-integration",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/sony-coporation-1770339415.htm",
+          "title": "可再生塑膠導入Sony產品供應鏈",
+          "published_at": "2026-02-06",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "台化角色是可再生PS樹脂；採生質資源質量平衡，預計供Sony未來產品",
+          "publisher": "台化塑膠事業部",
+          "source_id": "sony-renewable-ps",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1670963-1757906738.htm",
+          "title": "rPP產品取得NOL證明",
+          "published_at": "2025-09-15",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "公司公告已取得NOL；不是所有用途通用許可或收入證明",
+          "publisher": "台化塑膠事業部",
+          "source_id": "rpp-nol",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fpg.com.tw/esg/tw/news/media/148",
+          "title": "台化沙鹿小水力啟用（台化提供）",
+          "published_at": "2025-02-14",
+          "accessed_at": "2026-10-06",
+          "supports": "已投入運轉、裝置容量731.5kW，年發電480萬度為新聞稿表述非年度實績",
+          "publisher": "台塑企業／台化",
+          "source_id": "shalu-hydro-operation",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1714839.htm",
+          "title": "台化官網轉載品觀點：高性能複合材料與電子材料展望",
+          "published_at": "2026-06-03",
+          "accessed_at": "2026-10-07",
+          "supports": "占比以台化整體营收為分母，計畫時間及用途；來源性質是官網轉載媒體",
+          "publisher": "台化塑膠部（轉載品觀點財經）",
+          "source_id": "computex-highperformance-20260603",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.fcfc.com.tw/download/704133",
+          "title": "2025台化年報",
+          "publisher": "台化",
+          "published_at": "2026-06-25",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.fcfc.com.tw/download/732499",
+          "title": "2026H1合併核閱財報",
+          "publisher": "台化",
+          "published_at": "2026-08-10",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2/H1及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20260827",
+          "url": "https://www.fcfc.com.tw/pdf/743878/115%E5%B9%B48%E6%9C%88%E5%8F%B0%E5%8C%96%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E6%8A%95%E5%BD%B1%E7%89%87_%E4%B8%AD%E6%96%87.pdf",
+          "title": "8/27法說11頁",
+          "publisher": "台化",
+          "published_at": "2026-08-27",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026H1",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "q3-self",
+          "url": "https://www.fcfc.com.tw/download/779199",
+          "title": "10/12公司官網9月與Q3自結新聞稿（非MOPS原始頁）",
+          "publisher": "台化",
+          "published_at": "2026-10-12",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q3/前9月自結",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "pp-oct-media",
+          "url": "https://money.udn.com/money/story/5710/9822457",
+          "title": "PP茂金屬及新事業時程報導，非官方原件",
+          "publisher": "經濟日報",
+          "published_at": "2026-10-19",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "當時報導展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:00:07.717105+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "台化整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "正式財報列表仍到2026H1；10/12 Q3為公司自結，不冒稱核閱完整Q3",
+        "H1會計師保留核閱結論（部分子公司／轉投資未核閱）已明列",
+        "官方原始文字Q&A未找到，簡報末頁僅標題；未找影片",
+        "茂金屬PP時程來源衝突保留，10月新說法為媒體，未取得官方逐案修訂",
+        "SiC、低碳氫、AI招商具名客戶及收入未驗證；無獨立金額財測",
+        "最新可靠具名法人EPS共識未找到",
+        "2025歷史Sony/rPP/沙鹿來源沿用原查閱日，未假稱新事件",
+        "借款缺一年內到期項交網站修正，不改網站財務檔"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-1326-v1-earnings",
+      "task_id": "site-baseline-20261004-1326",
+      "company_code": "1326",
+      "company_name": "台化",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:8c8dff1ba6cd4ee2ba0f24b64c5fc104fb757c0cc00f1b30ee50fcf9289bd15d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:315cdb07ec1085eef9787ef8a3fe7ea886c45a55290362c345dba3dda4fab4a5",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2025全年合併營收287,033,924千元（年減17.66%）、營業損失4,043,825千元、業外淨損963,822千元、稅前淨損5,007,647千元；歸屬母公司淨損5,797,137千元、EPS−0.99元。年報歸因油價下跌、中國新增供給與需求疲弱、產品售價／銷量減少，加上匯損、轉投資獲利及股利減少；不能將全年虧損簡化成單一減損或匯率因素。[annual-2025印頁166；網站共同基線]\n2026H1正式合併財報營收168,904,093千元、營業利益5,051,891千元、業外9,289,057千元、稅前14,340,948千元、歸屬母公司12,333,837千元、累計EPS2.11元。業外約占稅前65%，主要權益法收益9,198,597千元；8/27公司說明同比增加主要來自台塑化投資收益及匯損減少。故石化價差本業回升與轉投資挹注須分開，不能把EPS全部歸因新材料放量。[2026-H1-consolidated；meeting-20260827頁3–7]\n最新10/12公司官網第三季自結新聞稿：Q3營收952.25億元、營業損失878,566千元（本業再度轉虧）、歸屬母公司淨利54.18億元、EPS0.92元；前9月營收2,641.29億元、淨利177.52億元、累計EPS3.03元。公司說明Q3營業利益季減28.1億元，業外增加15.1億元，原料漲幅未充分轉嫁、同業競爭及客戶剛需採購形成壓力。此為自結而非完整核閱Q3財報，與H1正式數字分開；宏觀衝突敘述僅列公司歸因，不當本研究獨立驗證。[q3-self]\n資產負債採2026/6/30已核閱合併：資產728,084,007、負債169,858,981、權益558,225,026、現金18,436,040、流動資產333,205,189、流動負債117,716,786千元。金融資產公允價值及其他權益大增，不代表同額經營現金入帳；流動資產內FVOCI金融資產222,689,630千元也非現金。[2026-H1-consolidated頁7–8]\n借款須含短借44,310,957、短期票券24,672,605、一年內到期長期負債11,113,925、公司債23,800,000及長借24,731,178千元，合計128,628,665千元（租賃另951,841千元）。網站原表列借款117,514,740千元未含一年內到期項，本次提出修正交網站核對，研究不另算或維護淨負債。H1營業現金流為流出446,000千元，主要存貨與應收增加占用資金，不能因淨利增加就說現金流同步轉強。[2026-H1-consolidated頁8、14]\n財報核閱採保留結論：部分非重要子公司與權益法投資財報未經核閱；這是查證範圍限制，不等於已證實財務造假，也不能省略為「財報完全無保留」。集團福懋相關銀行求償案仍有上訴或發回程序，半年報未能判斷最終結果，不將爭議金額直接當新增確定損失；支持函亦非全部授信額已由台化借入。[2026-H1-consolidated頁4–6、77–78]",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "plastics-products",
+          "plastics-integration",
+          "sony-renewable-ps",
+          "rpp-nol",
+          "shalu-hydro-operation",
+          "computex-highperformance-20260603",
+          "annual-2025",
+          "2026-H1-consolidated",
+          "meeting-20260827",
+          "q3-self",
+          "pp-oct-media"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.fcfc-plastics.com/",
+          "title": "台化塑膠部產品及应用",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "樹脂種類、永續材料與交通、家電、包裝等应用",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-products",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/list/cate-399744.htm",
+          "title": "台化塑膠部事業介紹",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "上下游整合與製銷",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-integration",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/sony-coporation-1770339415.htm",
+          "title": "可再生塑膠導入Sony產品供應鏈",
+          "published_at": "2026-02-06",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "台化角色是可再生PS樹脂；採生質資源質量平衡，預計供Sony未來產品",
+          "publisher": "台化塑膠事業部",
+          "source_id": "sony-renewable-ps",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1670963-1757906738.htm",
+          "title": "rPP產品取得NOL證明",
+          "published_at": "2025-09-15",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "公司公告已取得NOL；不是所有用途通用許可或收入證明",
+          "publisher": "台化塑膠事業部",
+          "source_id": "rpp-nol",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fpg.com.tw/esg/tw/news/media/148",
+          "title": "台化沙鹿小水力啟用（台化提供）",
+          "published_at": "2025-02-14",
+          "accessed_at": "2026-10-06",
+          "supports": "已投入運轉、裝置容量731.5kW，年發電480萬度為新聞稿表述非年度實績",
+          "publisher": "台塑企業／台化",
+          "source_id": "shalu-hydro-operation",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1714839.htm",
+          "title": "台化官網轉載品觀點：高性能複合材料與電子材料展望",
+          "published_at": "2026-06-03",
+          "accessed_at": "2026-10-07",
+          "supports": "占比以台化整體营收為分母，計畫時間及用途；來源性質是官網轉載媒體",
+          "publisher": "台化塑膠部（轉載品觀點財經）",
+          "source_id": "computex-highperformance-20260603",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.fcfc.com.tw/download/704133",
+          "title": "2025台化年報",
+          "publisher": "台化",
+          "published_at": "2026-06-25",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.fcfc.com.tw/download/732499",
+          "title": "2026H1合併核閱財報",
+          "publisher": "台化",
+          "published_at": "2026-08-10",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2/H1及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20260827",
+          "url": "https://www.fcfc.com.tw/pdf/743878/115%E5%B9%B48%E6%9C%88%E5%8F%B0%E5%8C%96%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E6%8A%95%E5%BD%B1%E7%89%87_%E4%B8%AD%E6%96%87.pdf",
+          "title": "8/27法說11頁",
+          "publisher": "台化",
+          "published_at": "2026-08-27",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026H1",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "q3-self",
+          "url": "https://www.fcfc.com.tw/download/779199",
+          "title": "10/12公司官網9月與Q3自結新聞稿（非MOPS原始頁）",
+          "publisher": "台化",
+          "published_at": "2026-10-12",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q3/前9月自結",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "pp-oct-media",
+          "url": "https://money.udn.com/money/story/5710/9822457",
+          "title": "PP茂金屬及新事業時程報導，非官方原件",
+          "publisher": "經濟日報",
+          "published_at": "2026-10-19",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "當時報導展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:00:07.717105+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "台化整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "正式財報列表仍到2026H1；10/12 Q3為公司自結，不冒稱核閱完整Q3",
+        "H1會計師保留核閱結論（部分子公司／轉投資未核閱）已明列",
+        "官方原始文字Q&A未找到，簡報末頁僅標題；未找影片",
+        "茂金屬PP時程來源衝突保留，10月新說法為媒體，未取得官方逐案修訂",
+        "SiC、低碳氫、AI招商具名客戶及收入未驗證；無獨立金額財測",
+        "最新可靠具名法人EPS共識未找到",
+        "2025歷史Sony/rPP/沙鹿來源沿用原查閱日，未假稱新事件",
+        "借款缺一年內到期項交網站修正，不改網站財務檔"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-1326-v1-developments",
+      "task_id": "site-baseline-20261004-1326",
+      "company_code": "1326",
+      "company_name": "台化",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:8c8dff1ba6cd4ee2ba0f24b64c5fc104fb757c0cc00f1b30ee50fcf9289bd15d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:315cdb07ec1085eef9787ef8a3fe7ea886c45a55290362c345dba3dda4fab4a5",
+      "expected_old_section_version": "sha256:8c61b8cd0db1d294358e7c06206042e8a3d0a494bd8932eb8a02fa6f1e7f795c",
+      "old_content": {
+        "text": "新材料方向有兩個具體項目。第一，台化參與Sony可再生塑膠供應鏈，負責可再生聚苯乙烯（PS）樹脂；供應鏈採生質資源的質量平衡法，預計用於Sony未來影音產品，不能混稱為廢塑膠物理回收或已認列營收。第二，公司2025年9月15日公告rPP取得FDA無異議函（NOL）；這是再生PP的合規里程碑，不等於所有用途通用許可或已取得大額訂單。兩者是既有材料業務的新產品方向；精確商用／出貨時點、單項收入與獲利本輪未找到。 綠能另有已發生實績：沙鹿配水中心小水力2025年2月14日啟用，利用既有自來水管路落差發電，裝置容量731.5kW，是公司第五座投運水力案場，應分類為既有能源業務擴展。新聞稿所述年發電480萬度不是本輪取得的年度實績；本輪未找到此案場營收、售電價格或獲利貢獻。 官網2026年6月3日轉載媒體訪談稱，高性能複合材料年營收約100億元、約占台化整體營收4%，三年提升至30%是展望，並非已達成或保證收入。文中另列高潔淨茂金屬PP供FOUP／FOSB晶圓載具，原預計2026年底量產；電子級5N5低碳氫用於晶圓還原、清洗與保護環境，原預計2027第三季產出。均屬新產品計畫，客戶名稱、各項實際營收及後續進度未確認。",
+        "period": "歷史已查資料／2026-06-03計畫补核",
+        "sources": [
+          "sony-renewable-ps",
+          "rpp-nol",
+          "shalu-hydro-operation",
+          "computex-highperformance-20260603"
+        ],
+        "reviewed_at": "2026-10-07"
+      },
+      "new_content": {
+        "text": "新材料與公用能源項目分開追蹤。Sony可再生PS採生質資源質量平衡供應鏈，不是所有PCR物理回收料；rPP於2025/9取得FDA NOL為指定條件合規里程碑，非通用批准或已確認大單。既有公告保持歷史日期，未取得新的逐案出貨／收入就不更新成已大規模貢獻。[既有sony-renewable-ps、rpp-nol]\n茂金屬PP方面，2025年報原計畫投資1.33億元、2026/9投產，供食品包材、醫材與半導體耗材。6月官網轉載訪談提年底量產，10月媒體引公司說法改為11月試車、2027量產；時程有變化，不能繼續無條件沿用9月或年底已量產。最新仍屬計畫，官方逐案修訂原件與客戶驗證／收入未取得。[annual-2025印頁135；computex-highperformance-20260603；pp-oct-media]\n高性能材料已有PC合膠伺服器備援電池模組規格等開發，FOUP/FOSB、PEEK、芳香族尼龍與電子級5N5低碳氫是不同產品／計畫，不能合稱全部已進入AI量產；低碳氫原2027Q3產出為舊訪談預期，最新確定商用與單項營收未公開。官網轉載的高性能材料年營收約100億元及3年占比30%也是受訪展望，不是正式財測與整體毛利率保證。[annual-2025印頁130–135；computex-highperformance-20260603]\n既有業務擴產／效率：年報列新港PC-ABS專用押出改造於2026/1完成，寧波PABS磁懸浮公用設備原預計2026/10完成，尚未找到完工驗收新證據。沙鹿小水力歷史已啟用，731.5kW為裝置容量、年480萬度為估計，不等於實際全年售電量或獲利；8/27法說2025太陽能及水力合計98,777千度是集團合計，不當沙鹿單場實績。[annual-2025；既有shalu-hydro-operation；meeting-20260827頁10]\n另10/19經濟日報報導12吋碳化矽長晶、低碳氫與AI運算中心招商。這些有潛在業務組合影響，但本輪未取得官方逐案新時程、客戶、簽約及收入證據，列發展待追蹤，不寫成已商用新事業；招商不等於確定租約。[pp-oct-media]",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "plastics-products",
+          "plastics-integration",
+          "sony-renewable-ps",
+          "rpp-nol",
+          "shalu-hydro-operation",
+          "computex-highperformance-20260603",
+          "annual-2025",
+          "2026-H1-consolidated",
+          "meeting-20260827",
+          "q3-self",
+          "pp-oct-media"
+        ],
+        "projects": [
+          {
+            "project_id": "1326-sony-renewable-ps",
+            "name": "Sony供應鏈可再生PS",
+            "type": "既有業務新產品",
+            "uses_and_customers": "影音產品供應鏈，生質資源質量平衡法",
+            "status": "沿用2月合作公告；未核新出貨",
+            "commercial_timing": "確定商用日未揭露",
+            "revenue_contribution": "未單列",
+            "sources": [
+              "sony-renewable-ps"
+            ]
+          },
+          {
+            "project_id": "1326-rpp-nol",
+            "name": "rPP食品接觸用途合規",
+            "type": "既有業務新產品",
+            "uses_and_customers": "再生PP指定用途與條件",
+            "status": "2025/9取得NOL，非所有用途通用批准",
+            "commercial_timing": "大規模出貨未確認",
+            "revenue_contribution": "未單列",
+            "sources": [
+              "rpp-nol"
+            ]
+          },
+          {
+            "project_id": "1326-metallocene-pp",
+            "name": "高潔淨茂金屬PP",
+            "type": "既有業務新產品／設備改造",
+            "uses_and_customers": "食品醫材與FOUP/FOSB半導體載具，客戶未具名",
+            "status": "年報9月投產；6月轉載年底；10月媒體改11月試車2027量產",
+            "commercial_timing": "最新媒體預期2027；官方修訂原件未得",
+            "revenue_contribution": "年報投資1.33億元為投入非營收；單項收入未披露",
+            "sources": [
+              "annual-2025",
+              "computex-highperformance-20260603",
+              "pp-oct-media"
+            ]
+          },
+          {
+            "project_id": "1326-highperformance-materials",
+            "name": "高性能複合材料",
+            "type": "既有業務新產品",
+            "uses_and_customers": "伺服器備援電池模組、無人機、電子與工業材料",
+            "status": "年報列規格開發，部分產品已有商務應用方向",
+            "commercial_timing": "逐案驗證及量產日未單列",
+            "revenue_contribution": "年100億元及3年30%為轉載訪談說法，非正式財測",
+            "sources": [
+              "annual-2025",
+              "computex-highperformance-20260603"
+            ]
+          },
+          {
+            "project_id": "1326-electronic-hydrogen",
+            "name": "電子級低碳氫氣",
+            "type": "新產品／擬發展新業務",
+            "uses_and_customers": "晶圓還原清洗保護氣體",
+            "status": "仍屬建置與開發預期",
+            "commercial_timing": "原訪談2027Q3產出；未取得官方新修訂",
+            "revenue_contribution": "未確認營收與具名客戶",
+            "sources": [
+              "computex-highperformance-20260603",
+              "pp-oct-media"
+            ]
+          },
+          {
+            "project_id": "1326-shalu-hydro",
+            "name": "沙鹿小水力",
+            "type": "既有能源業務擴產",
+            "uses_and_customers": "管路落差發電及綠電",
+            "status": "歷史2025/2啟用，731.5kW",
+            "commercial_timing": "已啟用；非本次新增事件",
+            "revenue_contribution": "年480萬度為估計，營收利潤未單列",
+            "sources": [
+              "shalu-hydro-operation"
+            ]
+          },
+          {
+            "project_id": "1326-xingang-pcabs",
+            "name": "新港PC-ABS押出改造",
+            "type": "既有業務擴產",
+            "uses_and_customers": "差異化PC-ABS規格",
+            "status": "年報列2026/1改造完成",
+            "commercial_timing": "2026/1完成；實際稼動未單列",
+            "revenue_contribution": "新增產能與收入未量化",
+            "sources": [
+              "annual-2025"
+            ]
+          },
+          {
+            "project_id": "1326-ningbo-energy",
+            "name": "寧波PABS公用設備節能",
+            "type": "既有業務設備改善",
+            "uses_and_customers": "磁懸浮公用設備降低能耗",
+            "status": "年報原計畫",
+            "commercial_timing": "原2026/10完成，未得驗收新證據",
+            "revenue_contribution": "節能效益非外售收入",
+            "sources": [
+              "annual-2025"
+            ]
+          },
+          {
+            "project_id": "1326-sic-crystal",
+            "name": "12吋碳化矽長晶",
+            "type": "擬發展新事業／研發",
+            "uses_and_customers": "半導體材料，客戶未揭露",
+            "status": "僅核得10月媒體報導；官方新里程碑未核",
+            "commercial_timing": "報導預期不得當確定商用",
+            "revenue_contribution": "未確認訂單與營收",
+            "sources": [
+              "pp-oct-media"
+            ]
+          },
+          {
+            "project_id": "1326-ai-datacenter-site",
+            "name": "AI運算中心招商",
+            "type": "擬發展新事業／資產活化",
+            "uses_and_customers": "場地與供電服務招商",
+            "status": "媒體稱招商；未得確定合約",
+            "commercial_timing": "商用時間未確認",
+            "revenue_contribution": "招商不等於簽約租金或營收",
+            "sources": [
+              "pp-oct-media"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.fcfc-plastics.com/",
+          "title": "台化塑膠部產品及应用",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "樹脂種類、永續材料與交通、家電、包裝等应用",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-products",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/list/cate-399744.htm",
+          "title": "台化塑膠部事業介紹",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "上下游整合與製銷",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-integration",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/sony-coporation-1770339415.htm",
+          "title": "可再生塑膠導入Sony產品供應鏈",
+          "published_at": "2026-02-06",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "台化角色是可再生PS樹脂；採生質資源質量平衡，預計供Sony未來產品",
+          "publisher": "台化塑膠事業部",
+          "source_id": "sony-renewable-ps",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1670963-1757906738.htm",
+          "title": "rPP產品取得NOL證明",
+          "published_at": "2025-09-15",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "公司公告已取得NOL；不是所有用途通用許可或收入證明",
+          "publisher": "台化塑膠事業部",
+          "source_id": "rpp-nol",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fpg.com.tw/esg/tw/news/media/148",
+          "title": "台化沙鹿小水力啟用（台化提供）",
+          "published_at": "2025-02-14",
+          "accessed_at": "2026-10-06",
+          "supports": "已投入運轉、裝置容量731.5kW，年發電480萬度為新聞稿表述非年度實績",
+          "publisher": "台塑企業／台化",
+          "source_id": "shalu-hydro-operation",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1714839.htm",
+          "title": "台化官網轉載品觀點：高性能複合材料與電子材料展望",
+          "published_at": "2026-06-03",
+          "accessed_at": "2026-10-07",
+          "supports": "占比以台化整體营收為分母，計畫時間及用途；來源性質是官網轉載媒體",
+          "publisher": "台化塑膠部（轉載品觀點財經）",
+          "source_id": "computex-highperformance-20260603",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.fcfc.com.tw/download/704133",
+          "title": "2025台化年報",
+          "publisher": "台化",
+          "published_at": "2026-06-25",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.fcfc.com.tw/download/732499",
+          "title": "2026H1合併核閱財報",
+          "publisher": "台化",
+          "published_at": "2026-08-10",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2/H1及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20260827",
+          "url": "https://www.fcfc.com.tw/pdf/743878/115%E5%B9%B48%E6%9C%88%E5%8F%B0%E5%8C%96%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E6%8A%95%E5%BD%B1%E7%89%87_%E4%B8%AD%E6%96%87.pdf",
+          "title": "8/27法說11頁",
+          "publisher": "台化",
+          "published_at": "2026-08-27",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026H1",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "q3-self",
+          "url": "https://www.fcfc.com.tw/download/779199",
+          "title": "10/12公司官網9月與Q3自結新聞稿（非MOPS原始頁）",
+          "publisher": "台化",
+          "published_at": "2026-10-12",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q3/前9月自結",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "pp-oct-media",
+          "url": "https://money.udn.com/money/story/5710/9822457",
+          "title": "PP茂金屬及新事業時程報導，非官方原件",
+          "publisher": "經濟日報",
+          "published_at": "2026-10-19",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "當時報導展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:00:07.717105+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "台化整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "正式財報列表仍到2026H1；10/12 Q3為公司自結，不冒稱核閱完整Q3",
+        "H1會計師保留核閱結論（部分子公司／轉投資未核閱）已明列",
+        "官方原始文字Q&A未找到，簡報末頁僅標題；未找影片",
+        "茂金屬PP時程來源衝突保留，10月新說法為媒體，未取得官方逐案修訂",
+        "SiC、低碳氫、AI招商具名客戶及收入未驗證；無獨立金額財測",
+        "最新可靠具名法人EPS共識未找到",
+        "2025歷史Sony/rPP/沙鹿來源沿用原查閱日，未假稱新事件",
+        "借款缺一年內到期項交網站修正，不改網站財務檔"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-1326-v1-transition",
+      "task_id": "site-baseline-20261004-1326",
+      "company_code": "1326",
+      "company_name": "台化",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:8c8dff1ba6cd4ee2ba0f24b64c5fc104fb757c0cc00f1b30ee50fcf9289bd15d",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:315cdb07ec1085eef9787ef8a3fe7ea886c45a55290362c345dba3dda4fab4a5",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "台化的研究主軸是「石化價差、本業負荷、轉投資與資產評價」四條線。H1雖轉盈，第三季自結顯示原料成本轉嫁仍有壓力；產品有新用途不代表景氣循環已結束，營收增加也須拆分價差、售量及定檢復車效果。Q3原料／產品價差壓力與權益法收益挹注屬需要更新的實質訊息；一般例行公告不另列網站重大事件。[q3-self、meeting-20260827；研究判斷]\n本次將原本只涵蓋塑膠部的摘要補成石化、塑膠、纖維紡織、公用流體與合併投資曝險；補2025虧損原因、H1現金流、借款缺項及核閱保留，並調整茂金屬PP時程為「有新媒體說法、官方修訂待確認」。新材料論點後續須看客戶驗證、可確認量產、逐項收入和毛利，以及研發／設備現金投入，不能以市場TAM或計畫占比代替獲利。[研究判斷]\n已讀8/27法說全部11頁含圖表；末頁僅Q&A標題，未附問答文字。官方原始文字問答未找到，不看影片、不以AI逐字稿補造。最新可驗證具名法人EPS共識與公司全年金額財測未找到，缺漏保留；未更新行情、PE或買點。",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "plastics-products",
+          "plastics-integration",
+          "sony-renewable-ps",
+          "rpp-nol",
+          "shalu-hydro-operation",
+          "computex-highperformance-20260603",
+          "annual-2025",
+          "2026-H1-consolidated",
+          "meeting-20260827",
+          "q3-self",
+          "pp-oct-media"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.fcfc-plastics.com/",
+          "title": "台化塑膠部產品及应用",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "樹脂種類、永續材料與交通、家電、包裝等应用",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-products",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/list/cate-399744.htm",
+          "title": "台化塑膠部事業介紹",
+          "published_at": null,
+          "published_at_missing_reason": "頁面未列精確發布日",
+          "accessed_at": "2026-10-06",
+          "supports": "上下游整合與製銷",
+          "publisher": "台化塑膠事業部",
+          "source_id": "plastics-integration",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/sony-coporation-1770339415.htm",
+          "title": "可再生塑膠導入Sony產品供應鏈",
+          "published_at": "2026-02-06",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "台化角色是可再生PS樹脂；採生質資源質量平衡，預計供Sony未來產品",
+          "publisher": "台化塑膠事業部",
+          "source_id": "sony-renewable-ps",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1670963-1757906738.htm",
+          "title": "rPP產品取得NOL證明",
+          "published_at": "2025-09-15",
+          "published_at_missing_reason": null,
+          "accessed_at": "2026-10-06",
+          "supports": "公司公告已取得NOL；不是所有用途通用許可或收入證明",
+          "publisher": "台化塑膠事業部",
+          "source_id": "rpp-nol",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fpg.com.tw/esg/tw/news/media/148",
+          "title": "台化沙鹿小水力啟用（台化提供）",
+          "published_at": "2025-02-14",
+          "accessed_at": "2026-10-06",
+          "supports": "已投入運轉、裝置容量731.5kW，年發電480萬度為新聞稿表述非年度實績",
+          "publisher": "台塑企業／台化",
+          "source_id": "shalu-hydro-operation",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "url": "https://www.fcfc-plastics.com/news-detail/show-1714839.htm",
+          "title": "台化官網轉載品觀點：高性能複合材料與電子材料展望",
+          "published_at": "2026-06-03",
+          "accessed_at": "2026-10-07",
+          "supports": "占比以台化整體营收為分母，計畫時間及用途；來源性質是官網轉載媒體",
+          "publisher": "台化塑膠部（轉載品觀點財經）",
+          "source_id": "computex-highperformance-20260603",
+          "retained_historical_source": true,
+          "not_represented_as_new_read": true
+        },
+        {
+          "source_id": "annual-2025",
+          "url": "https://www.fcfc.com.tw/download/704133",
+          "title": "2025台化年報",
+          "publisher": "台化",
+          "published_at": "2026-06-25",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026計畫",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "2026-H1-consolidated",
+          "url": "https://www.fcfc.com.tw/download/732499",
+          "title": "2026H1合併核閱財報",
+          "publisher": "台化",
+          "published_at": "2026-08-10",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2/H1及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20260827",
+          "url": "https://www.fcfc.com.tw/pdf/743878/115%E5%B9%B48%E6%9C%88%E5%8F%B0%E5%8C%96%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E6%8A%95%E5%BD%B1%E7%89%87_%E4%B8%AD%E6%96%87.pdf",
+          "title": "8/27法說11頁",
+          "publisher": "台化",
+          "published_at": "2026-08-27",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026H1",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "q3-self",
+          "url": "https://www.fcfc.com.tw/download/779199",
+          "title": "10/12公司官網9月與Q3自結新聞稿（非MOPS原始頁）",
+          "publisher": "台化",
+          "published_at": "2026-10-12",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q3/前9月自結",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "pp-oct-media",
+          "url": "https://money.udn.com/money/story/5710/9822457",
+          "title": "PP茂金屬及新事業時程報導，非官方原件",
+          "publisher": "經濟日報",
+          "published_at": "2026-10-19",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "當時報導展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:00:07.717105+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "台化整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "正式財報列表仍到2026H1；10/12 Q3為公司自結，不冒稱核閱完整Q3",
+        "H1會計師保留核閱結論（部分子公司／轉投資未核閱）已明列",
+        "官方原始文字Q&A未找到，簡報末頁僅標題；未找影片",
+        "茂金屬PP時程來源衝突保留，10月新說法為媒體，未取得官方逐案修訂",
+        "SiC、低碳氫、AI招商具名客戶及收入未驗證；無獨立金額財測",
+        "最新可靠具名法人EPS共識未找到",
+        "2025歷史Sony/rPP/沙鹿來源沿用原查閱日，未假稱新事件",
+        "借款缺一年內到期項交網站修正，不改網站財務檔"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true
+    }
+  ],
+  "before_official_record": {
+    "name": "台化",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "plastics-products": {
+        "url": "https://www.fcfc-plastics.com/",
+        "title": "台化塑膠部產品及应用",
+        "published_at": null,
+        "published_at_missing_reason": "頁面未列精確發布日",
+        "accessed_at": "2026-10-06",
+        "supports": "樹脂種類、永續材料與交通、家電、包裝等应用",
+        "publisher": "台化塑膠事業部"
+      },
+      "plastics-integration": {
+        "url": "https://www.fcfc-plastics.com/list/cate-399744.htm",
+        "title": "台化塑膠部事業介紹",
+        "published_at": null,
+        "published_at_missing_reason": "頁面未列精確發布日",
+        "accessed_at": "2026-10-06",
+        "supports": "上下游整合與製銷",
+        "publisher": "台化塑膠事業部"
+      },
+      "sony-renewable-ps": {
+        "url": "https://www.fcfc-plastics.com/news-detail/sony-coporation-1770339415.htm",
+        "title": "可再生塑膠導入Sony產品供應鏈",
+        "published_at": "2026-02-06",
+        "published_at_missing_reason": null,
+        "accessed_at": "2026-10-06",
+        "supports": "台化角色是可再生PS樹脂；採生質資源質量平衡，預計供Sony未來產品",
+        "publisher": "台化塑膠事業部"
+      },
+      "rpp-nol": {
+        "url": "https://www.fcfc-plastics.com/news-detail/show-1670963-1757906738.htm",
+        "title": "rPP產品取得NOL證明",
+        "published_at": "2025-09-15",
+        "published_at_missing_reason": null,
+        "accessed_at": "2026-10-06",
+        "supports": "公司公告已取得NOL；不是所有用途通用許可或收入證明",
+        "publisher": "台化塑膠事業部"
+      },
+      "shalu-hydro-operation": {
+        "url": "https://www.fpg.com.tw/esg/tw/news/media/148",
+        "title": "台化沙鹿小水力啟用（台化提供）",
+        "published_at": "2025-02-14",
+        "accessed_at": "2026-10-06",
+        "supports": "已投入運轉、裝置容量731.5kW，年發電480萬度為新聞稿表述非年度實績",
+        "publisher": "台塑企業／台化"
+      },
+      "computex-highperformance-20260603": {
+        "url": "https://www.fcfc-plastics.com/news-detail/show-1714839.htm",
+        "title": "台化官網轉載品觀點：高性能複合材料與電子材料展望",
+        "published_at": "2026-06-03",
+        "accessed_at": "2026-10-07",
+        "supports": "占比以台化整體营收為分母，計畫時間及用途；來源性質是官網轉載媒體",
+        "publisher": "台化塑膠部（轉載品觀點財經）"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "30%是官網轉載訪談展望，仍待原始法說或正式財測交叉核對。",
+      "2025虧損、2026H1業外原因、石化纖維摘要及同業待續查。"
+    ],
+    "business": {
+      "period": "截至2026-10-06官網產品；非當年銷售占比",
+      "sources": [
+        "plastics-products",
+        "plastics-integration"
+      ],
+      "text": "台化既有石化與纖維業務之外，塑膠部製造及銷售ABS、PS、PP、PC、ASA、SAN與PC/ABS合膠，並提供高性能複合材料及再生、生質樹脂。材料供下游加工，用途涵蓋交通運輸、家電、科技辦公用品、包裝與建築。部分上游原料與六輕體系整合；產品目錄代表可供應品項，不代表各品項收入占比或獲利均已量化。",
+      "reviewed_at": "2026-10-06"
+    },
+    "developments": {
+      "text": "新材料方向有兩個具體項目。第一，台化參與Sony可再生塑膠供應鏈，負責可再生聚苯乙烯（PS）樹脂；供應鏈採生質資源的質量平衡法，預計用於Sony未來影音產品，不能混稱為廢塑膠物理回收或已認列營收。第二，公司2025年9月15日公告rPP取得FDA無異議函（NOL）；這是再生PP的合規里程碑，不等於所有用途通用許可或已取得大額訂單。兩者是既有材料業務的新產品方向；精確商用／出貨時點、單項收入與獲利本輪未找到。 綠能另有已發生實績：沙鹿配水中心小水力2025年2月14日啟用，利用既有自來水管路落差發電，裝置容量731.5kW，是公司第五座投運水力案場，應分類為既有能源業務擴展。新聞稿所述年發電480萬度不是本輪取得的年度實績；本輪未找到此案場營收、售電價格或獲利貢獻。 官網2026年6月3日轉載媒體訪談稱，高性能複合材料年營收約100億元、約占台化整體營收4%，三年提升至30%是展望，並非已達成或保證收入。文中另列高潔淨茂金屬PP供FOUP／FOSB晶圓載具，原預計2026年底量產；電子級5N5低碳氫用於晶圓還原、清洗與保護環境，原預計2027第三季產出。均屬新產品計畫，客戶名稱、各項實際營收及後續進度未確認。",
+      "period": "歷史已查資料／2026-06-03計畫补核",
+      "sources": [
+        "sony-renewable-ps",
+        "rpp-nol",
+        "shalu-hydro-operation",
+        "computex-highperformance-20260603"
+      ],
+      "reviewed_at": "2026-10-07"
+    }
+  },
+  "before_overview": {
+    "name": "台化",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 49,
+    "business": "石化原料、工程塑膠及纖維",
+    "direction": "再生塑膠、高性能材料及低碳能源方向；新增營收未量化",
+    "profit_mechanism": "化學品與塑膠／纖維价差；轉投資損益另看財報",
+    "status": "業務概述已整理；分部獲利未逐項量化",
+    "screening": "2025全年母公司淨損；2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選；單季獲利回升／業外原因",
+    "urls": [
+      "https://www.fcfc.com.tw/product-category",
+      "https://www.fcfc.com.tw/",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "合併營業收入",
+      "fy2024": 3486.0757399999998,
+      "fy2025": 2870.33924,
+      "q32025": 695.75979,
+      "q42025": 650.00989,
+      "q12026": 817.49811,
+      "q22026": 871.54282,
+      "ttm": 3034.81061,
+      "h1_operating_profit": 50.51891,
+      "h1_nonoperating": 92.89057,
+      "h1_pretax": 143.40948,
+      "h1_parent_profit": 123.33837,
+      "h1_operating_margin": 0.0299098198881421,
+      "h1_nonoperating_share": 0.6477296340520861,
+      "fy2025_parent_profit": -57.97137,
+      "q22026_parent_profit": 60.88798,
+      "screening": "2025全年母公司淨損；2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 1689.04093,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 3486.0757399999998,
+          "net_income": 3.79411,
+          "eps": 0.06,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 1524.56956,
+          "net_income": -72.81905,
+          "eps": -1.24,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "合併營業收入",
+          "revenue": 2220.32935,
+          "net_income": -55.01944,
+          "eps": -0.9400000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 2870.33924,
+          "net_income": -57.97137,
+          "eps": -0.9900000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "合併營業收入",
+          "revenue": 817.49811,
+          "net_income": 62.45039,
+          "eps": 1.07,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 1689.04093,
+          "net_income": 123.33837,
+          "eps": 2.11,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2020-Q4": {
+          "eps": 3.34,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2021-Q4": {
+          "eps": 6.56,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": 1.26,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 1.46,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "合併營業收入",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 695.7597900000001,
+            "eps": 0.29999999999999993,
+            "net_income": 17.79961
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 650.0098899999998,
+            "eps": -0.050000000000000044,
+            "net_income": -2.9519299999999973
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 817.49811,
+            "eps": 1.07,
+            "net_income": 62.45039
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 871.5428199999999,
+            "eps": 1.0399999999999998,
+            "net_income": 60.88798
+          }
+        ],
+        "ttms": 3034.8106099999995,
+        "ttm_eps": 2.3599999999999994,
+        "ttm_parent_profit": 138.18605,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 3,034.81 億元；每股盈餘 2.36 元；歸母淨利 138.19 億元。營收未扣成本與費用，不等於獲利。獲利機制：化學品與塑膠／纖維价差；轉投資損益另看財報。",
+    "events": [
+      {
+        "period": "2026-04-10",
+        "type": "單季獲利回升／業外原因",
+        "status": "公司自結說明確認；非半年歸因",
+        "text": "2026Q1稅前利益73.02億元，較2025Q4增加71.43億元。營業利益增加約40.1億元，來自芳香烴利差改善、產銷調整及相對低庫存成本；業外淨收益增加約31.3億元，其中權益法投資收益增加30.9億元，台塑化增加33.4億元、麥寮汽電減少2.8億元。均為季對季變動，不能當成上半年業外金額。",
+        "urls": [
+          "https://en.fcfc.com.tw/download/653993"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2025全年",
+        "type": "虧損",
+        "status": "財報數值確認",
+        "text": "歸屬母公司淨損-57.97億元；原因尚未逐項核對。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2025Q4",
+        "type": "單季虧損",
+        "status": "累計差額計算",
+        "text": "歸屬母公司淨損-2.95億元；Q2／Q3／Q4由累計差額計算。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2026H1",
+        "type": "業外占比高",
+        "status": "數值篩選；原因待核對",
+        "text": "業外淨額92.89億元，占稅前利益64.8%；並不代表全為一次性利益。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      },
+      {
+        "period": "2026H1 vs 2025H1",
+        "type": "業外增加",
+        "status": "數值篩選；原因待核對",
+        "text": "業外由-45.24億元變為92.89億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "outlooks": [
+      {
+        "type": "法人共識（媒體轉載FactSet）",
+        "period": "2026全年",
+        "scope": "合併營收",
+        "unit": "新台幣億元",
+        "low": 3370.6569,
+        "high": null,
+        "published_at": "2026-08-12",
+        "limitations": "營收中位數3370.6569億元、最低3289.6、最高3589.16；非公司財測，後續修正待核。來源歷史EPS欄誤列淨利，未採用該欄。",
+        "urls": [
+          "https://news.cnyes.com/news/print/6572908"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "1326",
+          "name": "台化",
+          "date": "2026-06-30",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 7280.840069999999,
+          "liabilities": 1698.58981,
+          "equity": 5582.25026,
+          "parent_equity": 5188.64057,
+          "cash": 184.3604,
+          "current_assets": 3332.0518899999997,
+          "current_liabilities": 1177.16786,
+          "listed_borrowings": 1175.1473999999998,
+          "listed_leases": 9.51841,
+          "operating_cashflow": -4.46,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "1326",
+          "name": "台化",
+          "date": "2025-12-31",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 5389.41986,
+          "liabilities": 1578.4010899999998,
+          "equity": 3811.0187699999997,
+          "parent_equity": 3458.6650299999997,
+          "cash": 171.94155,
+          "current_assets": 1885.8008399999999,
+          "current_liabilities": 900.58494,
+          "listed_borrowings": 1047.73237,
+          "listed_leases": 10.14894,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+      "basis": "合併",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+      "regulatory": {
+        "capital_adequacy": null,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "未取得／不適用"
+      }
+    }
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "original_qa_verified": false,
+    "historical_meeting_not_new_meeting": true,
+    "prior_sources_preserved": true,
+    "financial_corrections_in_separate_history": true
+  }
+}

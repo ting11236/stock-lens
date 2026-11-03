@@ -3004,7 +3004,9 @@
         "published_at_missing_reason": "頁面未列精確發布日",
         "accessed_at": "2026-10-06",
         "supports": "樹脂種類、永續材料與交通、家電、包裝等应用",
-        "publisher": "台化塑膠事業部"
+        "publisher": "台化塑膠事業部",
+        "retained_historical_source": true,
+        "not_represented_as_new_read": true
       },
       "plastics-integration": {
         "url": "https://www.fcfc-plastics.com/list/cate-399744.htm",
@@ -3013,7 +3015,9 @@
         "published_at_missing_reason": "頁面未列精確發布日",
         "accessed_at": "2026-10-06",
         "supports": "上下游整合與製銷",
-        "publisher": "台化塑膠事業部"
+        "publisher": "台化塑膠事業部",
+        "retained_historical_source": true,
+        "not_represented_as_new_read": true
       },
       "sony-renewable-ps": {
         "url": "https://www.fcfc-plastics.com/news-detail/sony-coporation-1770339415.htm",
@@ -3022,7 +3026,9 @@
         "published_at_missing_reason": null,
         "accessed_at": "2026-10-06",
         "supports": "台化角色是可再生PS樹脂；採生質資源質量平衡，預計供Sony未來產品",
-        "publisher": "台化塑膠事業部"
+        "publisher": "台化塑膠事業部",
+        "retained_historical_source": true,
+        "not_represented_as_new_read": true
       },
       "rpp-nol": {
         "url": "https://www.fcfc-plastics.com/news-detail/show-1670963-1757906738.htm",
@@ -3031,7 +3037,9 @@
         "published_at_missing_reason": null,
         "accessed_at": "2026-10-06",
         "supports": "公司公告已取得NOL；不是所有用途通用許可或收入證明",
-        "publisher": "台化塑膠事業部"
+        "publisher": "台化塑膠事業部",
+        "retained_historical_source": true,
+        "not_represented_as_new_read": true
       },
       "shalu-hydro-operation": {
         "url": "https://www.fpg.com.tw/esg/tw/news/media/148",
@@ -3039,7 +3047,9 @@
         "published_at": "2025-02-14",
         "accessed_at": "2026-10-06",
         "supports": "已投入運轉、裝置容量731.5kW，年發電480萬度為新聞稿表述非年度實績",
-        "publisher": "台塑企業／台化"
+        "publisher": "台塑企業／台化",
+        "retained_historical_source": true,
+        "not_represented_as_new_read": true
       },
       "computex-highperformance-20260603": {
         "url": "https://www.fcfc-plastics.com/news-detail/show-1714839.htm",
@@ -3047,33 +3057,302 @@
         "published_at": "2026-06-03",
         "accessed_at": "2026-10-07",
         "supports": "占比以台化整體营收為分母，計畫時間及用途；來源性質是官網轉載媒體",
-        "publisher": "台化塑膠部（轉載品觀點財經）"
+        "publisher": "台化塑膠部（轉載品觀點財經）",
+        "retained_historical_source": true,
+        "not_represented_as_new_read": true
+      },
+      "annual-2025": {
+        "url": "https://www.fcfc.com.tw/download/704133",
+        "title": "2025台化年報",
+        "publisher": "台化",
+        "published_at": "2026-06-25",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2025全年與2026計畫",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "2026-H1-consolidated": {
+        "url": "https://www.fcfc.com.tw/download/732499",
+        "title": "2026H1合併核閱財報",
+        "publisher": "台化",
+        "published_at": "2026-08-10",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2026Q2/H1及6/30",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "meeting-20260827": {
+        "url": "https://www.fcfc.com.tw/pdf/743878/115%E5%B9%B48%E6%9C%88%E5%8F%B0%E5%8C%96%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E6%8A%95%E5%BD%B1%E7%89%87_%E4%B8%AD%E6%96%87.pdf",
+        "title": "8/27法說11頁",
+        "publisher": "台化",
+        "published_at": "2026-08-27",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2026H1",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "q3-self": {
+        "url": "https://www.fcfc.com.tw/download/779199",
+        "title": "10/12公司官網9月與Q3自結新聞稿（非MOPS原始頁）",
+        "publisher": "台化",
+        "published_at": "2026-10-12",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2026Q3/前9月自結",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "pp-oct-media": {
+        "url": "https://money.udn.com/money/story/5710/9822457",
+        "title": "PP茂金屬及新事業時程報導，非官方原件",
+        "publisher": "經濟日報",
+        "published_at": "2026-10-19",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "當時報導展望",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
       }
     },
     "limitations": [
-      "僅部分章節已查核；完整公司研究尚未完成。",
-      "30%是官網轉載訪談展望，仍待原始法說或正式財測交叉核對。",
-      "2025虧損、2026H1業外原因、石化纖維摘要及同業待續查。"
+      "正式財報列表仍到2026H1；10/12 Q3為公司自結，不冒稱核閱完整Q3",
+      "H1會計師保留核閱結論（部分子公司／轉投資未核閱）已明列",
+      "官方原始文字Q&A未找到，簡報末頁僅標題；未找影片",
+      "茂金屬PP時程來源衝突保留，10月新說法為媒體，未取得官方逐案修訂",
+      "SiC、低碳氫、AI招商具名客戶及收入未驗證；無獨立金額財測",
+      "最新可靠具名法人EPS共識未找到",
+      "2025歷史Sony/rPP/沙鹿來源沿用原查閱日，未假稱新事件",
+      "借款缺一年內到期項交網站修正，不改網站財務檔"
     ],
     "business": {
-      "period": "截至2026-10-06官網產品；非當年銷售占比",
+      "text": "台化（1326，上市）核心仍是石化、合成樹脂與纖維材料，透過六輕上游整合取得輕油、乙烯、丙烯等原料，向下游聚酯、塑膠加工、紡織及工業客戶銷售。芳香烴BZ/PX/OX、SM、酚酮、PTA/PIA屬石化鏈；ABS、PS、PP、PC為塑膠；耐隆原絲／加工絲、短纖紗與福懋布料屬纖維紡織，另有公用水電蒸汽。不能只用塑膠部產品目錄概括整家公司。\n用途方面，PX/PTA連接聚酯纖維、薄膜與瓶用樹脂，PIA用於聚酯與塗料改質，SM連接苯乙烯樹脂；ABS/PC等供家電、汽車、事務機及電子零件，PP涵蓋包材、纖維及醫材；耐隆用於服飾、輪胎簾布及工業絲。客戶多為材料加工廠與品牌供應鏈，不把終端AI市場規模直接算為台化收入。\n8/27法說2026H1合併營收約1,689億元，石化占62.7%、塑膠18.5%、其他12.7%、福懋6.1%；中國大陸含港澳44.3%、台灣35.6%。這與年報母公司各部門比重的分母不同，不混算。產品毛利、客戶訂單與具名客戶未逐項揭露；Sony合作另外區分公告及實際出貨。\n研究同業選擇：1312國喬、1309台達化可比較ABS/PS及SM相關產品價差，但各自產品與工廠結構不同；1402遠東新僅對照聚酯／紡織鏈需求，不能直接作整體估值同業；6505台塑化為上游供應與權益法投資曝險，非純替代同業。年報列台達、國喬、亞東石化與遠東等各產品競爭者，以上按業務作部分比較，不用單一塑化平均PE取代差異。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
       "sources": [
         "plastics-products",
-        "plastics-integration"
-      ],
-      "text": "台化既有石化與纖維業務之外，塑膠部製造及銷售ABS、PS、PP、PC、ASA、SAN與PC/ABS合膠，並提供高性能複合材料及再生、生質樹脂。材料供下游加工，用途涵蓋交通運輸、家電、科技辦公用品、包裝與建築。部分上游原料與六輕體系整合；產品目錄代表可供應品項，不代表各品項收入占比或獲利均已量化。",
-      "reviewed_at": "2026-10-06"
-    },
-    "developments": {
-      "text": "新材料方向有兩個具體項目。第一，台化參與Sony可再生塑膠供應鏈，負責可再生聚苯乙烯（PS）樹脂；供應鏈採生質資源的質量平衡法，預計用於Sony未來影音產品，不能混稱為廢塑膠物理回收或已認列營收。第二，公司2025年9月15日公告rPP取得FDA無異議函（NOL）；這是再生PP的合規里程碑，不等於所有用途通用許可或已取得大額訂單。兩者是既有材料業務的新產品方向；精確商用／出貨時點、單項收入與獲利本輪未找到。 綠能另有已發生實績：沙鹿配水中心小水力2025年2月14日啟用，利用既有自來水管路落差發電，裝置容量731.5kW，是公司第五座投運水力案場，應分類為既有能源業務擴展。新聞稿所述年發電480萬度不是本輪取得的年度實績；本輪未找到此案場營收、售電價格或獲利貢獻。 官網2026年6月3日轉載媒體訪談稱，高性能複合材料年營收約100億元、約占台化整體營收4%，三年提升至30%是展望，並非已達成或保證收入。文中另列高潔淨茂金屬PP供FOUP／FOSB晶圓載具，原預計2026年底量產；電子級5N5低碳氫用於晶圓還原、清洗與保護環境，原預計2027第三季產出。均屬新產品計畫，客戶名稱、各項實際營收及後續進度未確認。",
-      "period": "歷史已查資料／2026-06-03計畫补核",
-      "sources": [
+        "plastics-integration",
         "sony-renewable-ps",
         "rpp-nol",
         "shalu-hydro-operation",
-        "computex-highperformance-20260603"
+        "computex-highperformance-20260603",
+        "annual-2025",
+        "2026-H1-consolidated",
+        "meeting-20260827",
+        "q3-self",
+        "pp-oct-media"
       ],
-      "reviewed_at": "2026-10-07"
+      "reviewed_at": "2026-11-04"
+    },
+    "developments": {
+      "text": "新材料與公用能源項目分開追蹤。Sony可再生PS採生質資源質量平衡供應鏈，不是所有PCR物理回收料；rPP於2025/9取得FDA NOL為指定條件合規里程碑，非通用批准或已確認大單。既有公告保持歷史日期，未取得新的逐案出貨／收入就不更新成已大規模貢獻。\n茂金屬PP方面，2025年報原計畫投資1.33億元、2026/9投產，供食品包材、醫材與半導體耗材。6月官網轉載訪談提年底量產，10月媒體引公司說法改為11月試車、2027量產；時程有變化，不能繼續無條件沿用9月或年底已量產。最新仍屬計畫，官方逐案修訂原件與客戶驗證／收入未取得。\n高性能材料已有PC合膠伺服器備援電池模組規格等開發，FOUP/FOSB、PEEK、芳香族尼龍與電子級5N5低碳氫是不同產品／計畫，不能合稱全部已進入AI量產；低碳氫原2027Q3產出為舊訪談預期，最新確定商用與單項營收未公開。官網轉載的高性能材料年營收約100億元及3年占比30%也是受訪展望，不是正式財測與整體毛利率保證。\n既有業務擴產／效率：年報列新港PC-ABS專用押出改造於2026/1完成，寧波PABS磁懸浮公用設備原預計2026/10完成，尚未找到完工驗收新證據。沙鹿小水力歷史已啟用，731.5kW為裝置容量、年480萬度為估計，不等於實際全年售電量或獲利；8/27法說2025太陽能及水力合計98,777千度是集團合計，不當沙鹿單場實績。\n另10/19經濟日報報導12吋碳化矽長晶、低碳氫與AI運算中心招商。這些有潛在業務組合影響，但本輪未取得官方逐案新時程、客戶、簽約及收入證據，列發展待追蹤，不寫成已商用新事業；招商不等於確定租約。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+      "sources": [
+        "plastics-products",
+        "plastics-integration",
+        "sony-renewable-ps",
+        "rpp-nol",
+        "shalu-hydro-operation",
+        "computex-highperformance-20260603",
+        "annual-2025",
+        "2026-H1-consolidated",
+        "meeting-20260827",
+        "q3-self",
+        "pp-oct-media"
+      ],
+      "projects": [
+        {
+          "project_id": "1326-sony-renewable-ps",
+          "name": "Sony供應鏈可再生PS",
+          "type": "既有業務新產品",
+          "uses_and_customers": "影音產品供應鏈，生質資源質量平衡法",
+          "status": "沿用2月合作公告；未核新出貨",
+          "commercial_timing": "確定商用日未揭露",
+          "revenue_contribution": "未單列",
+          "sources": [
+            "sony-renewable-ps"
+          ]
+        },
+        {
+          "project_id": "1326-rpp-nol",
+          "name": "rPP食品接觸用途合規",
+          "type": "既有業務新產品",
+          "uses_and_customers": "再生PP指定用途與條件",
+          "status": "2025/9取得NOL，非所有用途通用批准",
+          "commercial_timing": "大規模出貨未確認",
+          "revenue_contribution": "未單列",
+          "sources": [
+            "rpp-nol"
+          ]
+        },
+        {
+          "project_id": "1326-metallocene-pp",
+          "name": "高潔淨茂金屬PP",
+          "type": "既有業務新產品／設備改造",
+          "uses_and_customers": "食品醫材與FOUP/FOSB半導體載具，客戶未具名",
+          "status": "年報9月投產；6月轉載年底；10月媒體改11月試車2027量產",
+          "commercial_timing": "最新媒體預期2027；官方修訂原件未得",
+          "revenue_contribution": "年報投資1.33億元為投入非營收；單項收入未披露",
+          "sources": [
+            "annual-2025",
+            "computex-highperformance-20260603",
+            "pp-oct-media"
+          ]
+        },
+        {
+          "project_id": "1326-highperformance-materials",
+          "name": "高性能複合材料",
+          "type": "既有業務新產品",
+          "uses_and_customers": "伺服器備援電池模組、無人機、電子與工業材料",
+          "status": "年報列規格開發，部分產品已有商務應用方向",
+          "commercial_timing": "逐案驗證及量產日未單列",
+          "revenue_contribution": "年100億元及3年30%為轉載訪談說法，非正式財測",
+          "sources": [
+            "annual-2025",
+            "computex-highperformance-20260603"
+          ]
+        },
+        {
+          "project_id": "1326-electronic-hydrogen",
+          "name": "電子級低碳氫氣",
+          "type": "新產品／擬發展新業務",
+          "uses_and_customers": "晶圓還原清洗保護氣體",
+          "status": "仍屬建置與開發預期",
+          "commercial_timing": "原訪談2027Q3產出；未取得官方新修訂",
+          "revenue_contribution": "未確認營收與具名客戶",
+          "sources": [
+            "computex-highperformance-20260603",
+            "pp-oct-media"
+          ]
+        },
+        {
+          "project_id": "1326-shalu-hydro",
+          "name": "沙鹿小水力",
+          "type": "既有能源業務擴產",
+          "uses_and_customers": "管路落差發電及綠電",
+          "status": "歷史2025/2啟用，731.5kW",
+          "commercial_timing": "已啟用；非本次新增事件",
+          "revenue_contribution": "年480萬度為估計，營收利潤未單列",
+          "sources": [
+            "shalu-hydro-operation"
+          ]
+        },
+        {
+          "project_id": "1326-xingang-pcabs",
+          "name": "新港PC-ABS押出改造",
+          "type": "既有業務擴產",
+          "uses_and_customers": "差異化PC-ABS規格",
+          "status": "年報列2026/1改造完成",
+          "commercial_timing": "2026/1完成；實際稼動未單列",
+          "revenue_contribution": "新增產能與收入未量化",
+          "sources": [
+            "annual-2025"
+          ]
+        },
+        {
+          "project_id": "1326-ningbo-energy",
+          "name": "寧波PABS公用設備節能",
+          "type": "既有業務設備改善",
+          "uses_and_customers": "磁懸浮公用設備降低能耗",
+          "status": "年報原計畫",
+          "commercial_timing": "原2026/10完成，未得驗收新證據",
+          "revenue_contribution": "節能效益非外售收入",
+          "sources": [
+            "annual-2025"
+          ]
+        },
+        {
+          "project_id": "1326-sic-crystal",
+          "name": "12吋碳化矽長晶",
+          "type": "擬發展新事業／研發",
+          "uses_and_customers": "半導體材料，客戶未揭露",
+          "status": "僅核得10月媒體報導；官方新里程碑未核",
+          "commercial_timing": "報導預期不得當確定商用",
+          "revenue_contribution": "未確認訂單與營收",
+          "sources": [
+            "pp-oct-media"
+          ]
+        },
+        {
+          "project_id": "1326-ai-datacenter-site",
+          "name": "AI運算中心招商",
+          "type": "擬發展新事業／資產活化",
+          "uses_and_customers": "場地與供電服務招商",
+          "status": "媒體稱招商；未得確定合約",
+          "commercial_timing": "商用時間未確認",
+          "revenue_contribution": "招商不等於簽約租金或營收",
+          "sources": [
+            "pp-oct-media"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-11-04"
+    },
+    "earnings": {
+      "text": "2025全年合併營收287,033,924千元（年減17.66%）、營業損失4,043,825千元、業外淨損963,822千元、稅前淨損5,007,647千元；歸屬母公司淨損5,797,137千元、EPS−0.99元。年報歸因油價下跌、中國新增供給與需求疲弱、產品售價／銷量減少，加上匯損、轉投資獲利及股利減少；不能將全年虧損簡化成單一減損或匯率因素。\n2026H1正式合併財報營收168,904,093千元、營業利益5,051,891千元、業外9,289,057千元、稅前14,340,948千元、歸屬母公司12,333,837千元、累計EPS2.11元。業外約占稅前65%，主要權益法收益9,198,597千元；8/27公司說明同比增加主要來自台塑化投資收益及匯損減少。故石化價差本業回升與轉投資挹注須分開，不能把EPS全部歸因新材料放量。\n最新10/12公司官網第三季自結新聞稿：Q3營收952.25億元、營業損失878,566千元（本業再度轉虧）、歸屬母公司淨利54.18億元、EPS0.92元；前9月營收2,641.29億元、淨利177.52億元、累計EPS3.03元。公司說明Q3營業利益季減28.1億元，業外增加15.1億元，原料漲幅未充分轉嫁、同業競爭及客戶剛需採購形成壓力。此為自結而非完整核閱Q3財報，與H1正式數字分開；宏觀衝突敘述僅列公司歸因，不當本研究獨立驗證。\n資產負債採2026/6/30已核閱合併：資產728,084,007、負債169,858,981、權益558,225,026、現金18,436,040、流動資產333,205,189、流動負債117,716,786千元。金融資產公允價值及其他權益大增，不代表同額經營現金入帳；流動資產內FVOCI金融資產222,689,630千元也非現金。\n借款須含短借44,310,957、短期票券24,672,605、一年內到期長期負債11,113,925、公司債23,800,000及長借24,731,178千元，合計128,628,665千元（租賃另951,841千元）。網站原表列借款117,514,740千元未含一年內到期項，本次提出修正交網站核對，研究不另算或維護淨負債。H1營業現金流為流出446,000千元，主要存貨與應收增加占用資金，不能因淨利增加就說現金流同步轉強。\n財報核閱採保留結論：部分非重要子公司與權益法投資財報未經核閱；這是查證範圍限制，不等於已證實財務造假，也不能省略為「財報完全無保留」。集團福懋相關銀行求償案仍有上訴或發回程序，半年報未能判斷最終結果，不將爭議金額直接當新增確定損失；支持函亦非全部授信額已由台化借入。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+      "sources": [
+        "plastics-products",
+        "plastics-integration",
+        "sony-renewable-ps",
+        "rpp-nol",
+        "shalu-hydro-operation",
+        "computex-highperformance-20260603",
+        "annual-2025",
+        "2026-H1-consolidated",
+        "meeting-20260827",
+        "q3-self",
+        "pp-oct-media"
+      ],
+      "reviewed_at": "2026-11-04"
+    },
+    "transition": {
+      "text": "台化的研究主軸是「石化價差、本業負荷、轉投資與資產評價」四條線。H1雖轉盈，第三季自結顯示原料成本轉嫁仍有壓力；產品有新用途不代表景氣循環已結束，營收增加也須拆分價差、售量及定檢復車效果。Q3原料／產品價差壓力與權益法收益挹注屬需要更新的實質訊息；一般例行公告不另列網站重大事件。\n本次將原本只涵蓋塑膠部的摘要補成石化、塑膠、纖維紡織、公用流體與合併投資曝險；補2025虧損原因、H1現金流、借款缺項及核閱保留，並調整茂金屬PP時程為「有新媒體說法、官方修訂待確認」。新材料論點後續須看客戶驗證、可確認量產、逐項收入和毛利，以及研發／設備現金投入，不能以市場TAM或計畫占比代替獲利。\n已讀8/27法說全部11頁含圖表；末頁僅Q&A標題，未附問答文字。官方原始文字問答未找到，不看影片、不以AI逐字稿補造。最新可驗證具名法人EPS共識與公司全年金額財測未找到，缺漏保留；未更新行情、PE或買點。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+      "sources": [
+        "plastics-products",
+        "plastics-integration",
+        "sony-renewable-ps",
+        "rpp-nol",
+        "shalu-hydro-operation",
+        "computex-highperformance-20260603",
+        "annual-2025",
+        "2026-H1-consolidated",
+        "meeting-20260827",
+        "q3-self",
+        "pp-oct-media"
+      ],
+      "reviewed_at": "2026-11-04"
+    },
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "research_completed_at": "2026-11-04T02:00:07.717105+08:00",
+    "historical_meeting_research": {
+      "event_date": "2026-08-27",
+      "reviewed_at": "2026-11-04",
+      "batch_id": "research-20261104-1326-v1",
+      "original_qa_verified": false,
+      "status": "historical_material_read_with_disclosed_gaps"
     }
   },
   "2884.TW": {
@@ -3117,13 +3396,20 @@
         "publisher": "證交所／2646"
       },
       "starlux-annual-2025": {
-        "url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E8%8B%B1%E6%96%87%E7%89%88%29-V2_tcm14-15751.pdf",
-        "title": "星宇2025英文年報，印刷頁79、109–110",
+        "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf",
+        "title": "星宇2025年報／2026計畫",
         "published_at": null,
-        "accessed_at": "2026-10-07",
-        "supports": "業務類型、2025營收結構及未公開未來財測",
+        "accessed_at": "2026-11-04",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ],
         "publisher": "星宇航空",
-        "published_at_missing_reason": "原文件未列可確認的精確發布日"
+        "published_at_missing_reason": "原文件未列可確認的精確發布日",
+        "publication_missing_reason": "官方頁未列首次公開日；不以檔名或查閱日代替",
+        "period": "2025全年與2026展望"
       },
       "a3501000-first-delivery": {
         "url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
@@ -3141,39 +3427,230 @@
         "supports": "2026與2033機隊規劃，不代表已達成",
         "publisher": "星宇航空",
         "published_at_missing_reason": "原文件未列可確認的精確發布日"
+      },
+      "starlux-annual-2025-historical": {
+        "url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E8%8B%B1%E6%96%87%E7%89%88%29-V2_tcm14-15751.pdf",
+        "title": "星宇2025英文年報，印刷頁79、109–110",
+        "published_at": null,
+        "accessed_at": "2026-10-07",
+        "supports": "業務類型、2025營收結構及未公開未來財測",
+        "publisher": "星宇航空",
+        "published_at_missing_reason": "原文件未列可確認的精確發布日"
+      },
+      "h1-2026": {
+        "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+        "title": "星宇2026H1個別財報",
+        "publisher": "星宇航空",
+        "published_at": "2026-08-11",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2026Q2單季／H1累計及6/30",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "meeting-20251222": {
+        "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/Investor_Conference_CN_251222_new_tcm5-13890.pdf",
+        "title": "2025/12/22法說31頁，歷史資料",
+        "publisher": "星宇航空",
+        "published_at": "2025-12-22",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2025前9月與當時2026展望",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "prague-timetable": {
+        "url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/TPEPRG_timetable",
+        "title": "布拉格官方營運班表調整",
+        "publisher": "星宇航空",
+        "published_at": "2026-10-02",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2026/9/30–2027/3/27",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "europe-interline": {
+        "url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+        "title": "歐洲聯程合作",
+        "publisher": "星宇航空",
+        "published_at": "2026-10-01",
+        "publication_missing_reason": null,
+        "accessed_at": "2026-11-04",
+        "period": "2026年10月起服務",
+        "supports": [
+          "business",
+          "earnings",
+          "developments",
+          "transition"
+        ]
+      },
+      "fleet-update-20261020-media": {
+        "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
+        "title": "MoneyDJ引星宇公關長更新機隊與基地規劃，非官方新聞稿",
+        "publisher": "MoneyDJ",
+        "published_at": "2026-10-20",
+        "accessed_at": "2026-11-04",
+        "period": "10/20受訪時實績及2026/2027目標",
+        "supports": [
+          "developments",
+          "transition"
+        ]
       }
     },
     "limitations": [
-      "僅部分章節已查核；完整公司研究尚未完成。",
-      "本次只查核受影響章節，不代表整家公司查核完成。",
-      "2026上半年虧損原因、最新航網及客貨運分部獲利尚未完成。",
-      "新project_id為研究端提案，須網站對照既有項目後採用。",
-      "首架交付不等於其他17架已交付；各計畫後續變更尚待查核。"
+      "官網最新列正式財報為H1、法說為2025/12/22，未取得2026Q3完整財報",
+      "官方文字問答未找到，不找影片",
+      "各航線及機隊獨立收入、利潤、預測未單列",
+      "10/5飛機處分舊公告保留，後續認列及第三架成交尚未核得",
+      "最新可靠具名法人EPS共識未找到",
+      "高雄基地後續商用細節與實際年底機隊數未確認",
+      "個別報表、外幣租賃負債及借款缺項提出網站修正，不直接覆寫網站數字",
+      "10/20較新機隊與高雄資訊為具名發言人媒體報導，未取得同日官方原件；與年報不同時點規劃並列"
     ],
     "earnings": {
-      "text": "2026年10月5日補充公告第二架A330-900客機預計處分利益約新台幣1.5億元，第三架價格尚未確定，交付後另公告。整案3架，每架交易金額上限1.15億美元、總額上限3.45億美元；上限不是成交總額，也不是獲利。屬個別資產處分，不能視為客貨運持續性獲利。本則不足以確認1.5億元已全數於哪季財報認列，也未說明稅後影響；未回填2026上半年損益。",
-      "period": "2026-10-05公告／未來計畫另列",
+      "text": "2025全年個別營收44,053,262千元、營業利益1,637,261千元、稅前利益43,471千元、本期淨利272,608千元、EPS0.09元。稅後淨利含所得稅利益229,137千元，不能把全部淨利視為客貨運持續經常性獲利。網站共同基線最近四季收入為2025Q3 107.32428、Q4 113.56439、2026Q1 137.59797、Q2 147.93059億元，期間由網站維護，不重建另一套TTM。\n2026H1個別營收28,552,856千元、毛利3,338,824千元、營業利益517,440千元、業外淨支出862,960千元、稅前及稅後淨損345,520千元，累計EPS−0.11元；2026Q2單季營業損失840,884千元、稅後淨損1,255,276千元、EPS−0.42元，不能把Q2單季當H1累計。收入增而營運成本增幅更快，毛利減少，季度本業已轉虧；不把虧損只歸因匯率。\nH1財務成本823,783千元，含銀行借款利息529,181及租賃利息287,222千元，另有淨匯損164,003千元；其中匯損低於去年同期，但融資成本上升。當期不動產設備處分利益僅33千元，與10月公告預計飛機處分利益不是同一期間，不回填上半年。2026/10/5第二架A330-900預計處分利益約1.5億元沿用既有公告；第三架成交及認列後續未核得，總交易上限不等於確定處分收入或淨利。\n2026/6/30個別資產154,291,742、負債123,531,015、權益30,760,727、現金13,530,647、流動資產21,569,568、流動負債27,115,087千元。負債包括預收票款等合約負債，不能全當借款；流動資產低於流動負債需連同機票預收與未履約義務判讀，不能只因客戶先付款就說沒有流動性風險。\n借款含長借52,641,029及一年內到期3,214,419千元，另公司債4,992,822千元。尤其「避險之金融負債」39,876,048千元實為非衍生性租賃負債的外幣組成部分，另列租賃1,781,044千元，財報調節合計租賃及避險金融負債41,657,092千元；不能只取租賃科目而漏掉主要租機義務，也不把這整包當當期衍生商品虧損。此為數字底稿修正項，交網站計算。\nH1營業現金流入7,676,096千元，但包含折舊調整及合約負債增加3,537,982千元；投資流出13,858,259千元、籌資流入4,373,418千元，現金較年底減少1,809,169千元。故正營業現金流不等於扣除購機後自由現金流轉強。尚未交付飛機與航空城土地付款屬未來承諾，牌告購機價非最終實付金額，也非一次全列當期負債。H1核閱為無保留結論，非年度查核。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
       "sources": [
+        "starlux-annual-2025",
+        "h1-2026",
+        "meeting-20251222",
+        "prague-timetable",
+        "europe-interline",
+        "fleet-update-20261020-media",
         "announcement-47c542aaa629a34d332d0dc4fe75a918c2fe8e1a3af9abe006caa44cb3c5e06a"
       ],
-      "reviewed_at": "2026-10-07"
+      "reviewed_at": "2026-11-04"
     },
     "business": {
-      "text": "提供國際定期與包機客運、貨物／快遞／郵件運輸，另有機上免稅品及商品零售。2025全年客運收入占80.48%、貨運11.24%、其他8.28%，為營收結構，不是獲利比例。營運以台灣樞紐串接亞洲與北美，客運靠座位銷售、貨運目前利用客機腹艙；收入須扣燃油、人員、折舊與租賃等成本。年報明言未揭露未來財測，不能以機隊成長率推算營收。",
-      "period": "2025全年／2026年報策略",
+      "text": "星宇航空（2646，上市）經營國際定期與包機客運、貨物／快遞／郵件運輸及機上商品等。以台灣樞紐連接亞洲與北美，並拓展歐洲；一般旅客、旅行社、貨代與快遞業者為客群，上游依賴飛機／引擎製造與租賃、燃油、維修、地勤及機場。主要靠客運座位與腹艙貨運變現，不能將尚未交付的全貨機當成當期收入。\n2025全年個別營收44,053,262千元，其中客運35,451,720千元（約80.5%）、貨運4,953,620千元（約11.2%）、其他約8.3%；這些是收入占比，沒有逐項獲利。H1財報亦為個別非合併口徑，網站共同基線標示「合併營業收入」須修正，不能因套用一般產業欄位而誤標。\n獲利核心在票價／收益率、載客率與機隊利用率能否覆蓋燃油、人員、維修、場站、折舊及融資租賃成本。長程航線會增座公里與腹艙貨量，但開航前成本、航班銜接及新市場培養可能先壓利潤；半導體商務與AI貨運需求是機會，不代表所有新增運力都能以高價售出。\n相似同業2618長榮航、2610華航可比較台灣樞紐、國際客運／貨運、油價匯率與機隊資本支出，惟貨機占比、轉機網路、航線成熟度及租購結構不同。星宇目前腹艙貨運與既有大型貨機業者不可直接等同；不以同航運類其他海運股作同業估值。具名大型客戶、各航線獲利及收益率完整序列未揭露。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
       "sources": [
-        "starlux-annual-2025"
+        "starlux-annual-2025",
+        "h1-2026",
+        "meeting-20251222",
+        "prague-timetable",
+        "europe-interline",
+        "fleet-update-20261020-media",
+        "starlux-annual-2025-historical",
+        "a3501000-first-delivery"
       ],
-      "reviewed_at": "2026-10-07"
+      "reviewed_at": "2026-11-04"
     },
     "developments": {
-      "text": "既有客運擴展（project_id=2646-fleet-a3501000）：Airbus於2026年1月6日確認首架A350-1000交付，總訂購18架，用途為長程及部分亞太客運，單機收入未揭露。貨運新營運模式（project_id=2646-cargo-a350f）：已訂10架A350F，供未來專用貨運航網；本輪未確認首架交付、投入商用日期或收入。2025法說原規劃2026年底43架、2033年68架，仍是當時規劃，不當作2026年10月現有機隊實績。",
-      "period": "2026-01已交付／2025法說未來計畫",
+      "text": "既有客運擴張沿用2646-fleet-a3501000：首架A350-1000已於2026年1月交付，2025年報列2026年底43架為目標、非11月已達機數；新增飛機先產生交付、訓練、折舊與融資成本，單機收入與投資回收未披露。\n專用貨運機隊沿用2646-cargo-a350f：年報最新規劃117年即2028年起陸續引進A350F，取代較舊官方資料2027年起的時程；訂購10架不等於全數已交付或已營運。這是既有貨運從腹艙向全貨機的業務擴張，未單列未來貨運收入財測，不能把全球AI貨運成長率直接套公司營收。\n歐洲及聯程：布拉格已見官方營運班表，10/2公告調整9/30至2027/3/27時刻；10/1已公布Finnair及Smartwings聯程，可一票到底及行李直掛。這些是航網／通路擴展，不是收購航空公司、也非全部延伸航點都由星宇自營。單航線獲利、轉機占比及新增收入未公開。\n高雄第三基地是2026年報下半年能量建置規劃，最新正式商用細節／獨立收入未核得，不把官網搜尋有高雄地名當已具完整自營基地。數位訂位、COSMILE會員與JX Cargo等則屬既有流程及客戶服務升級，不列成獨立AI新事業或軟體銷售收入。\n較新資訊：10/20 MoneyDJ引公關長梁文龍表示，當時第38架抵台，2026年底目標改為42架、2027年底48架；高雄已配置1架、規劃2027增至2架。這是具名媒體訪問更新，取代年報43架作為較新展望，但不冒稱11/4現有機數已獨立確認。官方同日修訂原件仍未取得。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
       "sources": [
-        "a3501000-first-delivery",
+        "starlux-annual-2025",
+        "h1-2026",
+        "meeting-20251222",
+        "prague-timetable",
+        "europe-interline",
+        "fleet-update-20261020-media",
         "starlux-ir-20251222"
       ],
-      "reviewed_at": "2026-10-07"
+      "projects": [
+        {
+          "project_id": "2646-fleet-a3501000",
+          "name": "A350-1000客運機隊",
+          "type": "既有業務擴產",
+          "uses_and_customers": "長程及區域客運與腹艙",
+          "status": "首架已交付；年報年底43架，10/20具名媒體受訪改42架，不能當現有實績",
+          "commercial_timing": "10/20媒體：2026年底42、2027年底48為預期；同日官方原件未取得",
+          "revenue_contribution": "單機與新增收入未單列",
+          "sources": [
+            "starlux-annual-2025",
+            "meeting-20251222",
+            "fleet-update-20261020-media"
+          ]
+        },
+        {
+          "project_id": "2646-cargo-a350f",
+          "name": "A350F專用貨運",
+          "type": "既有貨運業務擴張／新營運模式",
+          "uses_and_customers": "未來全貨機及高價值貨物客群",
+          "status": "訂購10架；未核得首架交付",
+          "commercial_timing": "最新年報117年即2028起，取代舊2027說法",
+          "revenue_contribution": "無可核對金額財測，不用訂購價當營收",
+          "sources": [
+            "starlux-annual-2025",
+            "h1-2026"
+          ]
+        },
+        {
+          "project_id": "2646-europe-network",
+          "name": "布拉格及歐洲聯程",
+          "type": "既有業務市場／通路拓展",
+          "uses_and_customers": "自營布拉格航線及Finnair/Smartwings聯程客群",
+          "status": "已公布營運班表與聯程服務",
+          "commercial_timing": "2026/10新聯程；班表至2027/3",
+          "revenue_contribution": "單航線/轉機新增收入未揭露",
+          "sources": [
+            "prague-timetable",
+            "europe-interline"
+          ]
+        },
+        {
+          "project_id": "2646-kaohsiung-base",
+          "name": "高雄第三基地",
+          "type": "既有業務擴產",
+          "uses_and_customers": "台灣南部旅客與航網",
+          "status": "年報原建置計畫；10/20媒體引公關長稱已配置1架",
+          "commercial_timing": "報導預期2027增至2架；非已完成全套基地驗收",
+          "revenue_contribution": "未揭露",
+          "sources": [
+            "starlux-annual-2025",
+            "fleet-update-20261020-media"
+          ]
+        },
+        {
+          "project_id": "2646-digital-service",
+          "name": "訂位會員與貨運數位服務",
+          "type": "既有業務流程／服務升級",
+          "uses_and_customers": "COSMILE會員、旅客與貨運客戶",
+          "status": "年報列系統升級與JX Cargo開發",
+          "commercial_timing": "各功能依既有服務，未單列全數完成日",
+          "revenue_contribution": "未披露獨立軟體/AI銷售收入",
+          "sources": [
+            "starlux-annual-2025"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-11-04"
+    },
+    "transition": {
+      "text": "本次研究將原先偏公司介紹與飛機處分公告的內容，補成完整營運、H1虧損、借款／租機、現金流及機隊時程的摘要。重要異常是擴張帶來收入卻未帶來同等獲利、第二季本業虧損與利息負擔增加；飛機處分預估利益與本業獲利分開。未公開財測不以自行按機隊數乘算補值。\n研究後續看新機交付後利用率、票價收益率／載客率、新歐洲航線培養成本、貨運需求能否支撐運價，以及採購租賃及土地承諾的資金安排。匯率避險採其他綜合損益與損益不同呈現，不能將帳面避險變動全當本期淨損或現金損失。一般促銷與例行公告不另放網站重大訊息，除非有可確認中長期營運影響。\n官網法說列表最新仍為2025/12/22，31頁簡報已全讀並核對圖表；其2025營運數據及2026預期保留歷史期間，不冒充2026新法說。未找到官方原始文字問答，不看影片。最新正式報告列表到2026H1，未取得Q3完整財報；可靠具名法人EPS共識、逐航線獲利及A330處分後續認列未找到，均明示缺漏。\n本版補入10/20具名媒體對機隊與高雄的較新說法，與舊年報計畫區分；保留未取得官方同日原件的來源限制。v1未採用時以本版完整四章取代，若v1已採用則須重取基線，禁止強制覆蓋。",
+      "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+      "sources": [
+        "starlux-annual-2025",
+        "h1-2026",
+        "meeting-20251222",
+        "prague-timetable",
+        "europe-interline",
+        "fleet-update-20261020-media"
+      ],
+      "reviewed_at": "2026-11-04"
+    },
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "research_completed_at": "2026-11-04T02:03:58.676526+08:00",
+    "historical_meeting_research": {
+      "event_date": "2025-12-22",
+      "reviewed_at": "2026-11-04",
+      "batch_id": "research-20261104-2646-v2",
+      "original_qa_verified": false,
+      "status": "historical_material_read_with_disclosed_gaps"
     }
   },
   "6141.TW": {

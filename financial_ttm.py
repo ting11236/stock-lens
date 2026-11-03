@@ -114,7 +114,7 @@ def derived_metrics(stock, financial, equity_history=None):
     peg_pe = price / growth_eps if numeric(price) and price > 0 and numeric(growth_eps) and growth_eps > 0 else None
     pe = price / eps if numeric(price) and price > 0 and numeric(eps) and eps > 0 else None
     # Ordinary operating revenue, not financial-industry net-income equivalents.
-    ps = price * shares / (sales * 100000000) if rolling['basis'] == '合併營業收入' and all(numeric(v) and v > 0 for v in (price, shares, sales)) and stock.get('shares_date') else None
+    ps = price * shares / (sales * 100000000) if rolling['basis'] in ('合併營業收入', '個別營業收入') and all(numeric(v) and v > 0 for v in (price, shares, sales)) and stock.get('shares_date') else None
     balances = equity_history or {}
     equity = balances.get(period, {}).get('equity')
     old = balances.get(prior_period, {}).get('equity')

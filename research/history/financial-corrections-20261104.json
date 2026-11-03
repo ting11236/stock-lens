@@ -1,0 +1,1147 @@
+{
+  "reviewed_at": "2026-11-04",
+  "before": {
+    "1326.TW": {
+      "name": "台化",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 49,
+      "business": "石化原料、工程塑膠及纖維",
+      "direction": "再生塑膠、高性能材料及低碳能源方向；新增營收未量化",
+      "profit_mechanism": "化學品與塑膠／纖維价差；轉投資損益另看財報",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "2025全年母公司淨損；2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選；單季獲利回升／業外原因",
+      "urls": [
+        "https://www.fcfc.com.tw/product-category",
+        "https://www.fcfc.com.tw/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 3486.0757399999998,
+        "fy2025": 2870.33924,
+        "q32025": 695.75979,
+        "q42025": 650.00989,
+        "q12026": 817.49811,
+        "q22026": 871.54282,
+        "ttm": 3034.81061,
+        "h1_operating_profit": 50.51891,
+        "h1_nonoperating": 92.89057,
+        "h1_pretax": 143.40948,
+        "h1_parent_profit": 123.33837,
+        "h1_operating_margin": 0.0299098198881421,
+        "h1_nonoperating_share": 0.6477296340520861,
+        "fy2025_parent_profit": -57.97137,
+        "q22026_parent_profit": 60.88798,
+        "screening": "2025全年母公司淨損；2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 1689.04093,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 3486.0757399999998,
+            "net_income": 3.79411,
+            "eps": 0.06,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1524.56956,
+            "net_income": -72.81905,
+            "eps": -1.24,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 2220.32935,
+            "net_income": -55.01944,
+            "eps": -0.9400000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 2870.33924,
+            "net_income": -57.97137,
+            "eps": -0.9900000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 817.49811,
+            "net_income": 62.45039,
+            "eps": 1.07,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1689.04093,
+            "net_income": 123.33837,
+            "eps": 2.11,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 3.34,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 6.56,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 1.26,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 1.46,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 695.7597900000001,
+              "eps": 0.29999999999999993,
+              "net_income": 17.79961
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 650.0098899999998,
+              "eps": -0.050000000000000044,
+              "net_income": -2.9519299999999973
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 817.49811,
+              "eps": 1.07,
+              "net_income": 62.45039
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 871.5428199999999,
+              "eps": 1.0399999999999998,
+              "net_income": 60.88798
+            }
+          ],
+          "ttms": 3034.8106099999995,
+          "ttm_eps": 2.3599999999999994,
+          "ttm_parent_profit": 138.18605,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 3,034.81 億元；每股盈餘 2.36 元；歸母淨利 138.19 億元。營收未扣成本與費用，不等於獲利。獲利機制：化學品與塑膠／纖維价差；轉投資損益另看財報。",
+      "events": [
+        {
+          "period": "2026-04-10",
+          "type": "單季獲利回升／業外原因",
+          "status": "公司自結說明確認；非半年歸因",
+          "text": "2026Q1稅前利益73.02億元，較2025Q4增加71.43億元。營業利益增加約40.1億元，來自芳香烴利差改善、產銷調整及相對低庫存成本；業外淨收益增加約31.3億元，其中權益法投資收益增加30.9億元，台塑化增加33.4億元、麥寮汽電減少2.8億元。均為季對季變動，不能當成上半年業外金額。",
+          "urls": [
+            "https://en.fcfc.com.tw/download/653993"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-57.97億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q4",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-2.95億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1",
+          "type": "業外占比高",
+          "status": "數值篩選；原因待核對",
+          "text": "業外淨額92.89億元，占稅前利益64.8%；並不代表全為一次性利益。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-45.24億元變為92.89億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "法人共識（媒體轉載FactSet）",
+          "period": "2026全年",
+          "scope": "合併營收",
+          "unit": "新台幣億元",
+          "low": 3370.6569,
+          "high": null,
+          "published_at": "2026-08-12",
+          "limitations": "營收中位數3370.6569億元、最低3289.6、最高3589.16；非公司財測，後續修正待核。來源歷史EPS欄誤列淨利，未採用該欄。",
+          "urls": [
+            "https://news.cnyes.com/news/print/6572908"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "1326",
+            "name": "台化",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 7280.840069999999,
+            "liabilities": 1698.58981,
+            "equity": 5582.25026,
+            "parent_equity": 5188.64057,
+            "cash": 184.3604,
+            "current_assets": 3332.0518899999997,
+            "current_liabilities": 1177.16786,
+            "listed_borrowings": 1175.1473999999998,
+            "listed_leases": 9.51841,
+            "operating_cashflow": -4.46,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "1326",
+            "name": "台化",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 5389.41986,
+            "liabilities": 1578.4010899999998,
+            "equity": 3811.0187699999997,
+            "parent_equity": 3458.6650299999997,
+            "cash": 171.94155,
+            "current_assets": 1885.8008399999999,
+            "current_liabilities": 900.58494,
+            "listed_borrowings": 1047.73237,
+            "listed_leases": 10.14894,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "2646.TW": {
+      "name": "星宇航空",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 435,
+      "business": "國際航空客運、貨運及相關服務",
+      "direction": "2026年1月首架A350-1000交付，7月特色塗裝機交付；長程航網與未來貨機計畫須分開",
+      "profit_mechanism": "客票、貨運及附屬服務毛利，受航網投入、載客率、油價和租賃成本影響",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+      "urls": [
+        "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "https://www.starlux-airlines.com/en-VN/about-us/media-center/news/2026/20260704111",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 355.46851,
+        "fy2025": 440.53262,
+        "q32025": 107.32428,
+        "q42025": 113.56439,
+        "q12026": 137.59797,
+        "q22026": 147.93059,
+        "ttm": 506.41723,
+        "h1_operating_profit": 5.1744,
+        "h1_nonoperating": -8.6296,
+        "h1_pretax": -3.4552,
+        "h1_parent_profit": null,
+        "h1_operating_margin": 0.0181221801419795,
+        "h1_nonoperating_share": "",
+        "fy2025_parent_profit": null,
+        "q22026_parent_profit": null,
+        "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 285.52855999999997,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 355.46851,
+            "net_income": null,
+            "eps": 0.53,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 219.64395,
+            "net_income": null,
+            "eps": 0.31,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 326.96823,
+            "net_income": null,
+            "eps": 0.16,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 440.53262,
+            "net_income": null,
+            "eps": 0.09,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 137.59797,
+            "net_income": null,
+            "eps": 0.30000000000000004,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 285.52855999999997,
+            "net_income": null,
+            "eps": -0.11000000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2021-Q4": {
+            "eps": -2.69,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": -3.47,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 0.08,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 107.32428000000002,
+              "eps": -0.15,
+              "net_income": null
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 113.56439,
+              "eps": -0.07,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 137.59797,
+              "eps": 0.30000000000000004,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 147.93058999999997,
+              "eps": -0.41000000000000003,
+              "net_income": null
+            }
+          ],
+          "ttms": 506.4172299999999,
+          "ttm_eps": -0.33,
+          "ttm_parent_profit": null,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 506.42 億元；每股盈餘 -0.33 元；歸母淨利 未取得 億元。營收未扣成本與費用，不等於獲利。獲利機制：客票、貨運及附屬服務毛利，受航網投入、載客率、油價和租賃成本影響。",
+      "events": [
+        {
+          "period": "2026H1",
+          "type": "本期淨損／歸屬欄未單列",
+          "status": "MOPS本期淨利口徑；未替代母公司欄",
+          "text": "本期淨利（淨損）-3.45520億元；來源母公司歸屬欄為空，另列本期數，未混填母公司淨利。逐季虧損仍待同口徑補核。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+            "https://www.starlux-airlines.com/en-VN/about-us/media-center/news/2026/20260704111"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2646",
+            "name": "星宇航空",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 1542.91742,
+            "liabilities": 1235.31015,
+            "equity": 307.60726999999997,
+            "parent_equity": 307.60726999999997,
+            "cash": 135.30647,
+            "current_assets": 215.69567999999998,
+            "current_liabilities": 271.15087,
+            "listed_borrowings": 576.33851,
+            "listed_leases": 17.81044,
+            "operating_cashflow": 76.76096,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2646",
+            "name": "星宇航空",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 1372.9756,
+            "liabilities": 1059.01272,
+            "equity": 313.96288,
+            "parent_equity": 313.96288,
+            "cash": 153.39816,
+            "current_assets": 223.30402,
+            "current_liabilities": 201.68535,
+            "listed_borrowings": 528.58886,
+            "listed_leases": 17.14304,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "個別",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "after": {
+    "1326.TW": {
+      "name": "台化",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 49,
+      "business": "石化原料、工程塑膠及纖維",
+      "direction": "再生塑膠、高性能材料及低碳能源方向；新增營收未量化",
+      "profit_mechanism": "化學品與塑膠／纖維价差；轉投資損益另看財報",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "2025全年母公司淨損；2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選；單季獲利回升／業外原因",
+      "urls": [
+        "https://www.fcfc.com.tw/product-category",
+        "https://www.fcfc.com.tw/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 3486.0757399999998,
+        "fy2025": 2870.33924,
+        "q32025": 695.75979,
+        "q42025": 650.00989,
+        "q12026": 817.49811,
+        "q22026": 871.54282,
+        "ttm": 3034.81061,
+        "h1_operating_profit": 50.51891,
+        "h1_nonoperating": 92.89057,
+        "h1_pretax": 143.40948,
+        "h1_parent_profit": 123.33837,
+        "h1_operating_margin": 0.0299098198881421,
+        "h1_nonoperating_share": 0.6477296340520861,
+        "fy2025_parent_profit": -57.97137,
+        "q22026_parent_profit": 60.88798,
+        "screening": "2025全年母公司淨損；2025Q4母公司淨損；H1業外占稅前利益≥50%；H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 1689.04093,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 3486.0757399999998,
+            "net_income": 3.79411,
+            "eps": 0.06,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1524.56956,
+            "net_income": -72.81905,
+            "eps": -1.24,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 2220.32935,
+            "net_income": -55.01944,
+            "eps": -0.9400000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 2870.33924,
+            "net_income": -57.97137,
+            "eps": -0.9900000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 817.49811,
+            "net_income": 62.45039,
+            "eps": 1.07,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1689.04093,
+            "net_income": 123.33837,
+            "eps": 2.11,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 3.34,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 6.56,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 1.26,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 1.46,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 695.7597900000001,
+              "eps": 0.29999999999999993,
+              "net_income": 17.79961
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 650.0098899999998,
+              "eps": -0.050000000000000044,
+              "net_income": -2.9519299999999973
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 817.49811,
+              "eps": 1.07,
+              "net_income": 62.45039
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 871.5428199999999,
+              "eps": 1.0399999999999998,
+              "net_income": 60.88798
+            }
+          ],
+          "ttms": 3034.8106099999995,
+          "ttm_eps": 2.3599999999999994,
+          "ttm_parent_profit": 138.18605,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 3,034.81 億元；每股盈餘 2.36 元；歸母淨利 138.19 億元。營收未扣成本與費用，不等於獲利。獲利機制：化學品與塑膠／纖維价差；轉投資損益另看財報。",
+      "events": [
+        {
+          "period": "2026-04-10",
+          "type": "單季獲利回升／業外原因",
+          "status": "公司自結說明確認；非半年歸因",
+          "text": "2026Q1稅前利益73.02億元，較2025Q4增加71.43億元。營業利益增加約40.1億元，來自芳香烴利差改善、產銷調整及相對低庫存成本；業外淨收益增加約31.3億元，其中權益法投資收益增加30.9億元，台塑化增加33.4億元、麥寮汽電減少2.8億元。均為季對季變動，不能當成上半年業外金額。",
+          "urls": [
+            "https://en.fcfc.com.tw/download/653993"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-57.97億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q4",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-2.95億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1",
+          "type": "業外占比高",
+          "status": "數值篩選；原因待核對",
+          "text": "業外淨額92.89億元，占稅前利益64.8%；並不代表全為一次性利益。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-45.24億元變為92.89億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "法人共識（媒體轉載FactSet）",
+          "period": "2026全年",
+          "scope": "合併營收",
+          "unit": "新台幣億元",
+          "low": 3370.6569,
+          "high": null,
+          "published_at": "2026-08-12",
+          "limitations": "營收中位數3370.6569億元、最低3289.6、最高3589.16；非公司財測，後續修正待核。來源歷史EPS欄誤列淨利，未採用該欄。",
+          "urls": [
+            "https://news.cnyes.com/news/print/6572908"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "1326",
+            "name": "台化",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 7280.840069999999,
+            "liabilities": 1698.58981,
+            "equity": 5582.25026,
+            "parent_equity": 5188.64057,
+            "cash": 184.3604,
+            "current_assets": 3332.0518899999997,
+            "current_liabilities": 1177.16786,
+            "listed_borrowings": 1286.28665,
+            "listed_leases": 9.51841,
+            "operating_cashflow": -4.46,
+            "source_url": "https://www.fcfc.com.tw/download/732499",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1323&companyId=1324&companyId=1325&companyId=1326&companyId=1337",
+            "reviewed_at": "2026-11-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計",
+            "borrowings_components_twd_thousand": {
+              "short_term": 44310957,
+              "short_notes": 24672605,
+              "current_maturities": 11113925,
+              "bonds": 23800000,
+              "long_term": 24731178
+            },
+            "source_pages": [
+              8
+            ]
+          },
+          {
+            "symbol": "1326",
+            "name": "台化",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 5389.41986,
+            "liabilities": 1578.4010899999998,
+            "equity": 3811.0187699999997,
+            "parent_equity": 3458.6650299999997,
+            "cash": 171.94155,
+            "current_assets": 1885.8008399999999,
+            "current_liabilities": 900.58494,
+            "listed_borrowings": 1274.16477,
+            "listed_leases": 10.14894,
+            "operating_cashflow": null,
+            "source_url": "https://www.fcfc.com.tw/download/732499",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-11-04",
+            "unit": "億元",
+            "cashflow_period": null,
+            "borrowings_components_twd_thousand": {
+              "short_term": 32444063,
+              "short_notes": 8484194,
+              "current_maturities": 22643240,
+              "bonds": 25800000,
+              "long_term": 38044980
+            },
+            "source_pages": [
+              8
+            ]
+          }
+        ],
+        "note": "借款與公司債包含一年內到期部分；租賃負債另外列示。現金為現金及約當現金。資料為2026半年合併財報，會計師出具保留核閱結論。",
+        "basis": "合併",
+        "source_url": "https://www.fcfc.com.tw/download/732499",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "2646.TW": {
+      "name": "星宇航空",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 435,
+      "business": "國際航空客運、貨運及相關服務",
+      "direction": "2026年1月首架A350-1000交付，7月特色塗裝機交付；長程航網與未來貨機計畫須分開",
+      "profit_mechanism": "客票、貨運及附屬服務毛利，受航網投入、載客率、油價和租賃成本影響",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+      "urls": [
+        "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "https://www.starlux-airlines.com/en-VN/about-us/media-center/news/2026/20260704111",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "個別營業收入",
+        "fy2024": 355.46851,
+        "fy2025": 440.53262,
+        "q32025": 107.32428,
+        "q42025": 113.56439,
+        "q12026": 137.59797,
+        "q22026": 147.93059,
+        "ttm": 506.41723,
+        "h1_operating_profit": 5.1744,
+        "h1_nonoperating": -8.6296,
+        "h1_pretax": -3.4552,
+        "h1_parent_profit": null,
+        "h1_operating_margin": 0.0181221801419795,
+        "h1_nonoperating_share": "",
+        "fy2025_parent_profit": null,
+        "q22026_parent_profit": null,
+        "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 285.52855999999997,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "個別營業收入",
+            "revenue": 355.46851,
+            "net_income": null,
+            "eps": 0.53,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03",
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2025-Q2": {
+            "basis": "個別營業收入",
+            "revenue": 219.64395,
+            "net_income": null,
+            "eps": 0.31,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03",
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2025-Q3": {
+            "basis": "個別營業收入",
+            "revenue": 326.96823,
+            "net_income": null,
+            "eps": 0.16,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03",
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2025-Q4": {
+            "basis": "個別營業收入",
+            "revenue": 440.53262,
+            "net_income": null,
+            "eps": 0.09,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03",
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2026-Q1": {
+            "basis": "個別營業收入",
+            "revenue": 137.59797,
+            "net_income": null,
+            "eps": 0.30000000000000004,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03",
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2026-Q2": {
+            "basis": "個別營業收入",
+            "revenue": 285.52855999999997,
+            "net_income": null,
+            "eps": -0.11000000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03",
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2021-Q4": {
+            "eps": -2.69,
+            "basis": "個別營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true,
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2022-Q4": {
+            "eps": -3.47,
+            "basis": "個別營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true,
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          },
+          "2023-Q4": {
+            "eps": 0.08,
+            "basis": "個別營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true,
+            "basis_correction_reviewed_at": "2026-11-04",
+            "basis_correction_sources": [
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+              "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf"
+            ]
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 107.32428000000002,
+              "eps": -0.15,
+              "net_income": null
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 113.56439,
+              "eps": -0.07,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 137.59797,
+              "eps": 0.30000000000000004,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 147.93058999999997,
+              "eps": -0.41000000000000003,
+              "net_income": null
+            }
+          ],
+          "ttms": 506.4172299999999,
+          "ttm_eps": -0.33,
+          "ttm_parent_profit": null,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        },
+        "statement_basis_note": "2026半年及年報為個別財報；本期淨利與原表未單列的歸母淨利保持分開。歷史數值沿用原表，本次修正報表標籤。"
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）個別營業收入 506.42 億元；每股盈餘 -0.33 元；歸母淨利 未取得 億元。營收未扣成本與費用，不等於獲利。獲利機制：客票、貨運及附屬服務毛利，受航網投入、載客率、油價和租賃成本影響。",
+      "events": [
+        {
+          "period": "2026H1",
+          "type": "本期淨損／歸屬欄未單列",
+          "status": "MOPS本期淨利口徑；未替代母公司欄",
+          "text": "本期淨利（淨損）-3.45520億元；來源母公司歸屬欄為空，另列本期數，未混填母公司淨利。逐季虧損仍待同口徑補核。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+            "https://www.starlux-airlines.com/en-VN/about-us/media-center/news/2026/20260704111"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2646",
+            "name": "星宇航空",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 1542.91742,
+            "liabilities": 1235.31015,
+            "equity": 307.60726999999997,
+            "parent_equity": 307.60726999999997,
+            "cash": 135.30647,
+            "current_assets": 215.69567999999998,
+            "current_liabilities": 271.15087,
+            "listed_borrowings": 608.4827,
+            "listed_leases": 416.57092,
+            "operating_cashflow": 76.76096,
+            "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+            "reviewed_at": "2026-11-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計",
+            "borrowings_components_twd_thousand": {
+              "long_term": 52641029,
+              "current_maturities": 3214419,
+              "bonds": 4992822
+            },
+            "lease_components_twd_thousand": {
+              "separate_lease_liabilities": 1781044,
+              "foreign_currency_lease_component": 39876048
+            },
+            "source_pages": [
+              5,
+              15,
+              16,
+              38
+            ]
+          },
+          {
+            "symbol": "2646",
+            "name": "星宇航空",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 1372.9756,
+            "liabilities": 1059.01272,
+            "equity": 313.96288,
+            "parent_equity": 313.96288,
+            "cash": 153.39816,
+            "current_assets": 223.30402,
+            "current_liabilities": 201.68535,
+            "listed_borrowings": 544.45684,
+            "listed_leases": 352.51874,
+            "operating_cashflow": null,
+            "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-11-04",
+            "unit": "億元",
+            "cashflow_period": null,
+            "borrowings_components_twd_thousand": {
+              "long_term": 47866064,
+              "current_maturities": 1586798,
+              "bonds": 4992822
+            },
+            "lease_components_twd_thousand": {
+              "separate_lease_liabilities": 1714304,
+              "foreign_currency_lease_component": 33537570
+            },
+            "source_pages": [
+              5,
+              15,
+              16,
+              38
+            ]
+          }
+        ],
+        "note": "個別財報。借款與公司債含一年內到期部分；租賃包含列在避險金融負債項下的外幣租機負債，兩項合計列示。現金為現金及約當現金。",
+        "basis": "個別",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "evidence": {
+    "1326": {
+      "url": "https://www.fcfc.com.tw/download/732499",
+      "pages": [
+        8
+      ]
+    },
+    "2646": {
+      "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+      "pages": [
+        5,
+        15,
+        16,
+        38
+      ]
+    }
+  },
+  "notes": [
+    "Only 1326 and 2646 corrected",
+    "Individual financial statement does not populate absent parent-attributable profit",
+    "No Q3 self-assessed figures overwrite reviewed H1 financial tables"
+  ]
+}

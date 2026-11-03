@@ -29,6 +29,19 @@ class CAGRTests(unittest.TestCase):
             self.assertNotIn(r['peg']['period_mode'],('cagr3','cagr5'))
 
 class FinancialTTMTests(unittest.TestCase):
+
+    def test_ps_accepts_consistent_individual_revenue_but_not_mixed_or_financial_basis(self):
+        from financial_ttm import derived_metrics
+        stock={'price':20,'issued_shares':100000000,'shares_date':'2026-06-30'}
+        rows={'2025-Q4':{'revenue':30,'basis':'個別營業收入'},
+              '2025-Q2':{'revenue':10,'basis':'個別營業收入'},
+              '2026-Q2':{'revenue':20,'basis':'個別營業收入'}}
+        self.assertAlmostEqual(derived_metrics(stock,{'cumulative':rows})['ps']['value'],.5)
+        rows['2025-Q4']['basis']='合併營業收入'
+        self.assertIsNone(derived_metrics(stock,{'cumulative':rows})['ps']['value'])
+        for row in rows.values():row['basis']='金融業淨收益'
+        self.assertIsNone(derived_metrics(stock,{'cumulative':rows})['ps']['value'])
+
     def test_cumulative_formula_and_quarter_differences(self):
         records = {'2025-Q2': {'revenue': 50, 'eps': 2},
                    '2025-Q3': {'revenue': 80, 'eps': 3},

@@ -1,0 +1,997 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261104-2646-v2",
+    "ready": true,
+    "created_at": "2026-11-04T02:03:58.676526+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:4ebf67d00654a71adcec4ce3236ba27b57ddf0aea45d3bc8129673fd605644e2",
+    "work_type": "backfill",
+    "completion_unit": "整家公司公開資料查找完成附缺漏",
+    "new_meeting": false,
+    "historical_meeting_date": "2025-12-22",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "financial_periods_labeled": true,
+      "old_project_ids_preserved": true,
+      "same_baseline_only_if_v1_not_imported": true
+    },
+    "limitations": [
+      "官網最新列正式財報為H1、法說為2025/12/22，未取得2026Q3完整財報",
+      "官方文字問答未找到，不找影片",
+      "各航線及機隊獨立收入、利潤、預測未單列",
+      "10/5飛機處分舊公告保留，後續認列及第三架成交尚未核得",
+      "最新可靠具名法人EPS共識未找到",
+      "高雄基地後續商用細節與實際年底機隊數未確認",
+      "個別報表、外幣租賃負債及借款缺項提出網站修正，不直接覆寫網站數字",
+      "10/20較新機隊與高雄資訊為具名發言人媒體報導，未取得同日官方原件；與年報不同時點規劃並列"
+    ],
+    "supersedes_batch_id": "research-20261104-2646-v1"
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-2646-v2-business",
+      "task_id": "backfill-20261007-2646",
+      "company_code": "2646",
+      "company_name": "星宇航空",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:e7a89f23fbc76853b6817cc95d98113a43475667d0731d422e15f9c440422349",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:efd1dc7d5854127ee9845a707916bb65a10eaad329d0996c97609d4b2c433345",
+      "expected_old_section_version": "sha256:e7cdcdd2f6e70f651417c9116fd8e0694c08b6f8e967ad27918ef28afc4180a0",
+      "old_content": {
+        "text": "提供國際定期與包機客運、貨物／快遞／郵件運輸，另有機上免稅品及商品零售。2025全年客運收入占80.48%、貨運11.24%、其他8.28%，為營收結構，不是獲利比例。營運以台灣樞紐串接亞洲與北美，客運靠座位銷售、貨運目前利用客機腹艙；收入須扣燃油、人員、折舊與租賃等成本。年報明言未揭露未來財測，不能以機隊成長率推算營收。",
+        "period": "2025全年／2026年報策略",
+        "sources": [
+          "starlux-annual-2025"
+        ],
+        "reviewed_at": "2026-10-07"
+      },
+      "new_content": {
+        "text": "星宇航空（2646，上市）經營國際定期與包機客運、貨物／快遞／郵件運輸及機上商品等。以台灣樞紐連接亞洲與北美，並拓展歐洲；一般旅客、旅行社、貨代與快遞業者為客群，上游依賴飛機／引擎製造與租賃、燃油、維修、地勤及機場。主要靠客運座位與腹艙貨運變現，不能將尚未交付的全貨機當成當期收入。[starlux-annual-2025印頁6、97–100]\n2025全年個別營收44,053,262千元，其中客運35,451,720千元（約80.5%）、貨運4,953,620千元（約11.2%）、其他約8.3%；這些是收入占比，沒有逐項獲利。H1財報亦為個別非合併口徑，網站共同基線標示「合併營業收入」須修正，不能因套用一般產業欄位而誤標。[starlux-annual-2025；h1-2026]\n獲利核心在票價／收益率、載客率與機隊利用率能否覆蓋燃油、人員、維修、場站、折舊及融資租賃成本。長程航線會增座公里與腹艙貨量，但開航前成本、航班銜接及新市場培養可能先壓利潤；半導體商務與AI貨運需求是機會，不代表所有新增運力都能以高價售出。[meeting-20251222；研究判斷]\n相似同業2618長榮航、2610華航可比較台灣樞紐、國際客運／貨運、油價匯率與機隊資本支出，惟貨機占比、轉機網路、航線成熟度及租購結構不同。星宇目前腹艙貨運與既有大型貨機業者不可直接等同；不以同航運類其他海運股作同業估值。具名大型客戶、各航線獲利及收益率完整序列未揭露。[annual產業分析；研究選擇]",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "starlux-annual-2025",
+          "h1-2026",
+          "meeting-20251222",
+          "prague-timetable",
+          "europe-interline",
+          "fleet-update-20261020-media"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "starlux-annual-2025",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf",
+          "title": "星宇2025年報／2026計畫",
+          "publisher": "星宇航空",
+          "published_at": null,
+          "publication_missing_reason": "官方頁未列首次公開日；不以檔名或查閱日代替",
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1-2026",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+          "title": "星宇2026H1個別財報",
+          "publisher": "星宇航空",
+          "published_at": "2026-08-11",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2單季／H1累計及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20251222",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/Investor_Conference_CN_251222_new_tcm5-13890.pdf",
+          "title": "2025/12/22法說31頁，歷史資料",
+          "publisher": "星宇航空",
+          "published_at": "2025-12-22",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025前9月與當時2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "prague-timetable",
+          "url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/TPEPRG_timetable",
+          "title": "布拉格官方營運班表調整",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-02",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026/9/30–2027/3/27",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "europe-interline",
+          "url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+          "title": "歐洲聯程合作",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-01",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026年10月起服務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fleet-update-20261020-media",
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
+          "title": "MoneyDJ引星宇公關長更新機隊與基地規劃，非官方新聞稿",
+          "publisher": "MoneyDJ",
+          "published_at": "2026-10-20",
+          "accessed_at": "2026-11-04",
+          "period": "10/20受訪時實績及2026/2027目標",
+          "supports": [
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:03:58.676526+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "星宇航空整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官網最新列正式財報為H1、法說為2025/12/22，未取得2026Q3完整財報",
+        "官方文字問答未找到，不找影片",
+        "各航線及機隊獨立收入、利潤、預測未單列",
+        "10/5飛機處分舊公告保留，後續認列及第三架成交尚未核得",
+        "最新可靠具名法人EPS共識未找到",
+        "高雄基地後續商用細節與實際年底機隊數未確認",
+        "個別報表、外幣租賃負債及借款缺項提出網站修正，不直接覆寫網站數字",
+        "10/20較新機隊與高雄資訊為具名發言人媒體報導，未取得同日官方原件；與年報不同時點規劃並列"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true,
+      "supersedes_update_id": "research-20261104-2646-v1-business"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-2646-v2-earnings",
+      "task_id": "backfill-20261007-2646",
+      "company_code": "2646",
+      "company_name": "星宇航空",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:e7a89f23fbc76853b6817cc95d98113a43475667d0731d422e15f9c440422349",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:efd1dc7d5854127ee9845a707916bb65a10eaad329d0996c97609d4b2c433345",
+      "expected_old_section_version": "sha256:99ce17f992f2801836e6fcc7aeffc371623adf1fd53081ecc634a68d8274b8eb",
+      "old_content": {
+        "text": "2026年10月5日補充公告第二架A330-900客機預計處分利益約新台幣1.5億元，第三架價格尚未確定，交付後另公告。整案3架，每架交易金額上限1.15億美元、總額上限3.45億美元；上限不是成交總額，也不是獲利。屬個別資產處分，不能視為客貨運持續性獲利。本則不足以確認1.5億元已全數於哪季財報認列，也未說明稅後影響；未回填2026上半年損益。",
+        "period": "2026-10-05公告／未來計畫另列",
+        "sources": [
+          "announcement-47c542aaa629a34d332d0dc4fe75a918c2fe8e1a3af9abe006caa44cb3c5e06a"
+        ],
+        "reviewed_at": "2026-10-07"
+      },
+      "new_content": {
+        "text": "2025全年個別營收44,053,262千元、營業利益1,637,261千元、稅前利益43,471千元、本期淨利272,608千元、EPS0.09元。稅後淨利含所得稅利益229,137千元，不能把全部淨利視為客貨運持續經常性獲利。網站共同基線最近四季收入為2025Q3 107.32428、Q4 113.56439、2026Q1 137.59797、Q2 147.93059億元，期間由網站維護，不重建另一套TTM。[starlux-annual-2025；網站共同基線]\n2026H1個別營收28,552,856千元、毛利3,338,824千元、營業利益517,440千元、業外淨支出862,960千元、稅前及稅後淨損345,520千元，累計EPS−0.11元；2026Q2單季營業損失840,884千元、稅後淨損1,255,276千元、EPS−0.42元，不能把Q2單季當H1累計。收入增而營運成本增幅更快，毛利減少，季度本業已轉虧；不把虧損只歸因匯率。[h1-2026頁6]\nH1財務成本823,783千元，含銀行借款利息529,181及租賃利息287,222千元，另有淨匯損164,003千元；其中匯損低於去年同期，但融資成本上升。當期不動產設備處分利益僅33千元，與10月公告預計飛機處分利益不是同一期間，不回填上半年。2026/10/5第二架A330-900預計處分利益約1.5億元沿用既有公告；第三架成交及認列後續未核得，總交易上限不等於確定處分收入或淨利。[h1-2026頁28；既有10/5公告]\n2026/6/30個別資產154,291,742、負債123,531,015、權益30,760,727、現金13,530,647、流動資產21,569,568、流動負債27,115,087千元。負債包括預收票款等合約負債，不能全當借款；流動資產低於流動負債需連同機票預收與未履約義務判讀，不能只因客戶先付款就說沒有流動性風險。[h1-2026頁4–5]\n借款含長借52,641,029及一年內到期3,214,419千元，另公司債4,992,822千元。尤其「避險之金融負債」39,876,048千元實為非衍生性租賃負債的外幣組成部分，另列租賃1,781,044千元，財報調節合計租賃及避險金融負債41,657,092千元；不能只取租賃科目而漏掉主要租機義務，也不把這整包當當期衍生商品虧損。此為數字底稿修正項，交網站計算。[h1-2026頁15–16、38]\nH1營業現金流入7,676,096千元，但包含折舊調整及合約負債增加3,537,982千元；投資流出13,858,259千元、籌資流入4,373,418千元，現金較年底減少1,809,169千元。故正營業現金流不等於扣除購機後自由現金流轉強。尚未交付飛機與航空城土地付款屬未來承諾，牌告購機價非最終實付金額，也非一次全列當期負債。H1核閱為無保留結論，非年度查核。[h1-2026頁3、8、33]",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "starlux-annual-2025",
+          "h1-2026",
+          "meeting-20251222",
+          "prague-timetable",
+          "europe-interline",
+          "fleet-update-20261020-media"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "starlux-annual-2025",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf",
+          "title": "星宇2025年報／2026計畫",
+          "publisher": "星宇航空",
+          "published_at": null,
+          "publication_missing_reason": "官方頁未列首次公開日；不以檔名或查閱日代替",
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1-2026",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+          "title": "星宇2026H1個別財報",
+          "publisher": "星宇航空",
+          "published_at": "2026-08-11",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2單季／H1累計及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20251222",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/Investor_Conference_CN_251222_new_tcm5-13890.pdf",
+          "title": "2025/12/22法說31頁，歷史資料",
+          "publisher": "星宇航空",
+          "published_at": "2025-12-22",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025前9月與當時2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "prague-timetable",
+          "url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/TPEPRG_timetable",
+          "title": "布拉格官方營運班表調整",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-02",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026/9/30–2027/3/27",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "europe-interline",
+          "url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+          "title": "歐洲聯程合作",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-01",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026年10月起服務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fleet-update-20261020-media",
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
+          "title": "MoneyDJ引星宇公關長更新機隊與基地規劃，非官方新聞稿",
+          "publisher": "MoneyDJ",
+          "published_at": "2026-10-20",
+          "accessed_at": "2026-11-04",
+          "period": "10/20受訪時實績及2026/2027目標",
+          "supports": [
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:03:58.676526+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "星宇航空整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官網最新列正式財報為H1、法說為2025/12/22，未取得2026Q3完整財報",
+        "官方文字問答未找到，不找影片",
+        "各航線及機隊獨立收入、利潤、預測未單列",
+        "10/5飛機處分舊公告保留，後續認列及第三架成交尚未核得",
+        "最新可靠具名法人EPS共識未找到",
+        "高雄基地後續商用細節與實際年底機隊數未確認",
+        "個別報表、外幣租賃負債及借款缺項提出網站修正，不直接覆寫網站數字",
+        "10/20較新機隊與高雄資訊為具名發言人媒體報導，未取得同日官方原件；與年報不同時點規劃並列"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true,
+      "supersedes_update_id": "research-20261104-2646-v1-earnings"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-2646-v2-developments",
+      "task_id": "backfill-20261007-2646",
+      "company_code": "2646",
+      "company_name": "星宇航空",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:e7a89f23fbc76853b6817cc95d98113a43475667d0731d422e15f9c440422349",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:efd1dc7d5854127ee9845a707916bb65a10eaad329d0996c97609d4b2c433345",
+      "expected_old_section_version": "sha256:2a813713b37c2c5834af5560f01d5e4bd4d35fa81a44bd0eb0eb15e7d2521f02",
+      "old_content": {
+        "text": "既有客運擴展（project_id=2646-fleet-a3501000）：Airbus於2026年1月6日確認首架A350-1000交付，總訂購18架，用途為長程及部分亞太客運，單機收入未揭露。貨運新營運模式（project_id=2646-cargo-a350f）：已訂10架A350F，供未來專用貨運航網；本輪未確認首架交付、投入商用日期或收入。2025法說原規劃2026年底43架、2033年68架，仍是當時規劃，不當作2026年10月現有機隊實績。",
+        "period": "2026-01已交付／2025法說未來計畫",
+        "sources": [
+          "a3501000-first-delivery",
+          "starlux-ir-20251222"
+        ],
+        "reviewed_at": "2026-10-07"
+      },
+      "new_content": {
+        "text": "既有客運擴張沿用2646-fleet-a3501000：首架A350-1000已於2026年1月交付，2025年報列2026年底43架為目標、非11月已達機數；新增飛機先產生交付、訓練、折舊與融資成本，單機收入與投資回收未披露。[starlux-annual-2025；既有a3501000-first-delivery]\n專用貨運機隊沿用2646-cargo-a350f：年報最新規劃117年即2028年起陸續引進A350F，取代較舊官方資料2027年起的時程；訂購10架不等於全數已交付或已營運。這是既有貨運從腹艙向全貨機的業務擴張，未單列未來貨運收入財測，不能把全球AI貨運成長率直接套公司營收。[starlux-annual-2025印頁9；h1-2026頁33]\n歐洲及聯程：布拉格已見官方營運班表，10/2公告調整9/30至2027/3/27時刻；10/1已公布Finnair及Smartwings聯程，可一票到底及行李直掛。這些是航網／通路擴展，不是收購航空公司、也非全部延伸航點都由星宇自營。單航線獲利、轉機占比及新增收入未公開。[prague-timetable、europe-interline]\n高雄第三基地是2026年報下半年能量建置規劃，最新正式商用細節／獨立收入未核得，不把官網搜尋有高雄地名當已具完整自營基地。數位訂位、COSMILE會員與JX Cargo等則屬既有流程及客戶服務升級，不列成獨立AI新事業或軟體銷售收入。[starlux-annual-2025印頁7–9]\n較新資訊：10/20 MoneyDJ引公關長梁文龍表示，當時第38架抵台，2026年底目標改為42架、2027年底48架；高雄已配置1架、規劃2027增至2架。這是具名媒體訪問更新，取代年報43架作為較新展望，但不冒稱11/4現有機數已獨立確認。官方同日修訂原件仍未取得。[fleet-update-20261020-media]",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "starlux-annual-2025",
+          "h1-2026",
+          "meeting-20251222",
+          "prague-timetable",
+          "europe-interline",
+          "fleet-update-20261020-media"
+        ],
+        "projects": [
+          {
+            "project_id": "2646-fleet-a3501000",
+            "name": "A350-1000客運機隊",
+            "type": "既有業務擴產",
+            "uses_and_customers": "長程及區域客運與腹艙",
+            "status": "首架已交付；年報年底43架，10/20具名媒體受訪改42架，不能當現有實績",
+            "commercial_timing": "10/20媒體：2026年底42、2027年底48為預期；同日官方原件未取得",
+            "revenue_contribution": "單機與新增收入未單列",
+            "sources": [
+              "starlux-annual-2025",
+              "meeting-20251222",
+              "fleet-update-20261020-media"
+            ]
+          },
+          {
+            "project_id": "2646-cargo-a350f",
+            "name": "A350F專用貨運",
+            "type": "既有貨運業務擴張／新營運模式",
+            "uses_and_customers": "未來全貨機及高價值貨物客群",
+            "status": "訂購10架；未核得首架交付",
+            "commercial_timing": "最新年報117年即2028起，取代舊2027說法",
+            "revenue_contribution": "無可核對金額財測，不用訂購價當營收",
+            "sources": [
+              "starlux-annual-2025",
+              "h1-2026"
+            ]
+          },
+          {
+            "project_id": "2646-europe-network",
+            "name": "布拉格及歐洲聯程",
+            "type": "既有業務市場／通路拓展",
+            "uses_and_customers": "自營布拉格航線及Finnair/Smartwings聯程客群",
+            "status": "已公布營運班表與聯程服務",
+            "commercial_timing": "2026/10新聯程；班表至2027/3",
+            "revenue_contribution": "單航線/轉機新增收入未揭露",
+            "sources": [
+              "prague-timetable",
+              "europe-interline"
+            ]
+          },
+          {
+            "project_id": "2646-kaohsiung-base",
+            "name": "高雄第三基地",
+            "type": "既有業務擴產",
+            "uses_and_customers": "台灣南部旅客與航網",
+            "status": "年報原建置計畫；10/20媒體引公關長稱已配置1架",
+            "commercial_timing": "報導預期2027增至2架；非已完成全套基地驗收",
+            "revenue_contribution": "未揭露",
+            "sources": [
+              "starlux-annual-2025",
+              "fleet-update-20261020-media"
+            ]
+          },
+          {
+            "project_id": "2646-digital-service",
+            "name": "訂位會員與貨運數位服務",
+            "type": "既有業務流程／服務升級",
+            "uses_and_customers": "COSMILE會員、旅客與貨運客戶",
+            "status": "年報列系統升級與JX Cargo開發",
+            "commercial_timing": "各功能依既有服務，未單列全數完成日",
+            "revenue_contribution": "未披露獨立軟體/AI銷售收入",
+            "sources": [
+              "starlux-annual-2025"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "starlux-annual-2025",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf",
+          "title": "星宇2025年報／2026計畫",
+          "publisher": "星宇航空",
+          "published_at": null,
+          "publication_missing_reason": "官方頁未列首次公開日；不以檔名或查閱日代替",
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1-2026",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+          "title": "星宇2026H1個別財報",
+          "publisher": "星宇航空",
+          "published_at": "2026-08-11",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2單季／H1累計及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20251222",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/Investor_Conference_CN_251222_new_tcm5-13890.pdf",
+          "title": "2025/12/22法說31頁，歷史資料",
+          "publisher": "星宇航空",
+          "published_at": "2025-12-22",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025前9月與當時2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "prague-timetable",
+          "url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/TPEPRG_timetable",
+          "title": "布拉格官方營運班表調整",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-02",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026/9/30–2027/3/27",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "europe-interline",
+          "url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+          "title": "歐洲聯程合作",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-01",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026年10月起服務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fleet-update-20261020-media",
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
+          "title": "MoneyDJ引星宇公關長更新機隊與基地規劃，非官方新聞稿",
+          "publisher": "MoneyDJ",
+          "published_at": "2026-10-20",
+          "accessed_at": "2026-11-04",
+          "period": "10/20受訪時實績及2026/2027目標",
+          "supports": [
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:03:58.676526+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "星宇航空整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官網最新列正式財報為H1、法說為2025/12/22，未取得2026Q3完整財報",
+        "官方文字問答未找到，不找影片",
+        "各航線及機隊獨立收入、利潤、預測未單列",
+        "10/5飛機處分舊公告保留，後續認列及第三架成交尚未核得",
+        "最新可靠具名法人EPS共識未找到",
+        "高雄基地後續商用細節與實際年底機隊數未確認",
+        "個別報表、外幣租賃負債及借款缺項提出網站修正，不直接覆寫網站數字",
+        "10/20較新機隊與高雄資訊為具名發言人媒體報導，未取得同日官方原件；與年報不同時點規劃並列"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true,
+      "supersedes_update_id": "research-20261104-2646-v1-developments"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261104-2646-v2-transition",
+      "task_id": "backfill-20261007-2646",
+      "company_code": "2646",
+      "company_name": "星宇航空",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:e7a89f23fbc76853b6817cc95d98113a43475667d0731d422e15f9c440422349",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:efd1dc7d5854127ee9845a707916bb65a10eaad329d0996c97609d4b2c433345",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "本次研究將原先偏公司介紹與飛機處分公告的內容，補成完整營運、H1虧損、借款／租機、現金流及機隊時程的摘要。重要異常是擴張帶來收入卻未帶來同等獲利、第二季本業虧損與利息負擔增加；飛機處分預估利益與本業獲利分開。未公開財測不以自行按機隊數乘算補值。[h1-2026；研究判斷]\n研究後續看新機交付後利用率、票價收益率／載客率、新歐洲航線培養成本、貨運需求能否支撐運價，以及採購租賃及土地承諾的資金安排。匯率避險採其他綜合損益與損益不同呈現，不能將帳面避險變動全當本期淨損或現金損失。一般促銷與例行公告不另放網站重大訊息，除非有可確認中長期營運影響。[h1-2026；研究判斷]\n官網法說列表最新仍為2025/12/22，31頁簡報已全讀並核對圖表；其2025營運數據及2026預期保留歷史期間，不冒充2026新法說。未找到官方原始文字問答，不看影片。最新正式報告列表到2026H1，未取得Q3完整財報；可靠具名法人EPS共識、逐航線獲利及A330處分後續認列未找到，均明示缺漏。\n本版補入10/20具名媒體對機隊與高雄的較新說法，與舊年報計畫區分；保留未取得官方同日原件的來源限制。v1未採用時以本版完整四章取代，若v1已採用則須重取基線，禁止強制覆蓋。",
+        "period": "2025全年／2026H1及2026年計畫；後續來源逐筆另標",
+        "sources": [
+          "starlux-annual-2025",
+          "h1-2026",
+          "meeting-20251222",
+          "prague-timetable",
+          "europe-interline",
+          "fleet-update-20261020-media"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "starlux-annual-2025",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf",
+          "title": "星宇2025年報／2026計畫",
+          "publisher": "星宇航空",
+          "published_at": null,
+          "publication_missing_reason": "官方頁未列首次公開日；不以檔名或查閱日代替",
+          "accessed_at": "2026-11-04",
+          "period": "2025全年與2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "h1-2026",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q2_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-16605.pdf",
+          "title": "星宇2026H1個別財報",
+          "publisher": "星宇航空",
+          "published_at": "2026-08-11",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026Q2單季／H1累計及6/30",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "meeting-20251222",
+          "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/Investor_Conference_CN_251222_new_tcm5-13890.pdf",
+          "title": "2025/12/22法說31頁，歷史資料",
+          "publisher": "星宇航空",
+          "published_at": "2025-12-22",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2025前9月與當時2026展望",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "prague-timetable",
+          "url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/TPEPRG_timetable",
+          "title": "布拉格官方營運班表調整",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-02",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026/9/30–2027/3/27",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "europe-interline",
+          "url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+          "title": "歐洲聯程合作",
+          "publisher": "星宇航空",
+          "published_at": "2026-10-01",
+          "publication_missing_reason": null,
+          "accessed_at": "2026-11-04",
+          "period": "2026年10月起服務",
+          "supports": [
+            "business",
+            "earnings",
+            "developments",
+            "transition"
+          ]
+        },
+        {
+          "source_id": "fleet-update-20261020-media",
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
+          "title": "MoneyDJ引星宇公關長更新機隊與基地規劃，非官方新聞稿",
+          "publisher": "MoneyDJ",
+          "published_at": "2026-10-20",
+          "accessed_at": "2026-11-04",
+          "period": "10/20受訪時實績及2026/2027目標",
+          "supports": [
+            "developments",
+            "transition"
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-04T02:03:58.676526+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "星宇航空整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "官網最新列正式財報為H1、法說為2025/12/22，未取得2026Q3完整財報",
+        "官方文字問答未找到，不找影片",
+        "各航線及機隊獨立收入、利潤、預測未單列",
+        "10/5飛機處分舊公告保留，後續認列及第三架成交尚未核得",
+        "最新可靠具名法人EPS共識未找到",
+        "高雄基地後續商用細節與實際年底機隊數未確認",
+        "個別報表、外幣租賃負債及借款缺項提出網站修正，不直接覆寫網站數字",
+        "10/20較新機隊與高雄資訊為具名發言人媒體報導，未取得同日官方原件；與年報不同時點規劃並列"
+      ],
+      "claim_type": "fact_company_forecast_and_labeled_research_inference",
+      "preserve_existing_sources": true,
+      "supersedes_update_id": "research-20261104-2646-v1-transition"
+    }
+  ],
+  "before_official_record": {
+    "name": "星宇航空",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "announcement-47c542aaa629a34d332d0dc4fe75a918c2fe8e1a3af9abe006caa44cb3c5e06a": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "公告本公司出售A330-900型客機之相關訊息(補充公告第二架出售損益)",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-07",
+        "supports": "公司公告正文，官方10/6出表快照；本輪重新閱讀網站交接保存正文",
+        "publisher": "證交所／2646"
+      },
+      "starlux-annual-2025": {
+        "url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E8%8B%B1%E6%96%87%E7%89%88%29-V2_tcm14-15751.pdf",
+        "title": "星宇2025英文年報，印刷頁79、109–110",
+        "published_at": null,
+        "accessed_at": "2026-10-07",
+        "supports": "業務類型、2025營收結構及未公開未來財測",
+        "publisher": "星宇航空",
+        "published_at_missing_reason": "原文件未列可確認的精確發布日"
+      },
+      "a3501000-first-delivery": {
+        "url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "title": "Airbus：星宇首架A350-1000交付",
+        "published_at": "2026-01-06",
+        "accessed_at": "2026-10-07",
+        "supports": "18架訂購中首架交付，以及10架A350F訂單",
+        "publisher": "Airbus"
+      },
+      "starlux-ir-20251222": {
+        "url": "https://webassets2.starlux-airlines.com/en-TW/Images/Investor_Conference_CN_251222_tcm14-13887.pdf",
+        "title": "星宇2025年法人說明會，PDF頁14、26",
+        "published_at": null,
+        "accessed_at": "2026-10-07",
+        "supports": "2026與2033機隊規劃，不代表已達成",
+        "publisher": "星宇航空",
+        "published_at_missing_reason": "原文件未列可確認的精確發布日"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "本次只查核受影響章節，不代表整家公司查核完成。",
+      "2026上半年虧損原因、最新航網及客貨運分部獲利尚未完成。",
+      "新project_id為研究端提案，須網站對照既有項目後採用。",
+      "首架交付不等於其他17架已交付；各計畫後續變更尚待查核。"
+    ],
+    "earnings": {
+      "text": "2026年10月5日補充公告第二架A330-900客機預計處分利益約新台幣1.5億元，第三架價格尚未確定，交付後另公告。整案3架，每架交易金額上限1.15億美元、總額上限3.45億美元；上限不是成交總額，也不是獲利。屬個別資產處分，不能視為客貨運持續性獲利。本則不足以確認1.5億元已全數於哪季財報認列，也未說明稅後影響；未回填2026上半年損益。",
+      "period": "2026-10-05公告／未來計畫另列",
+      "sources": [
+        "announcement-47c542aaa629a34d332d0dc4fe75a918c2fe8e1a3af9abe006caa44cb3c5e06a"
+      ],
+      "reviewed_at": "2026-10-07"
+    },
+    "business": {
+      "text": "提供國際定期與包機客運、貨物／快遞／郵件運輸，另有機上免稅品及商品零售。2025全年客運收入占80.48%、貨運11.24%、其他8.28%，為營收結構，不是獲利比例。營運以台灣樞紐串接亞洲與北美，客運靠座位銷售、貨運目前利用客機腹艙；收入須扣燃油、人員、折舊與租賃等成本。年報明言未揭露未來財測，不能以機隊成長率推算營收。",
+      "period": "2025全年／2026年報策略",
+      "sources": [
+        "starlux-annual-2025"
+      ],
+      "reviewed_at": "2026-10-07"
+    },
+    "developments": {
+      "text": "既有客運擴展（project_id=2646-fleet-a3501000）：Airbus於2026年1月6日確認首架A350-1000交付，總訂購18架，用途為長程及部分亞太客運，單機收入未揭露。貨運新營運模式（project_id=2646-cargo-a350f）：已訂10架A350F，供未來專用貨運航網；本輪未確認首架交付、投入商用日期或收入。2025法說原規劃2026年底43架、2033年68架，仍是當時規劃，不當作2026年10月現有機隊實績。",
+      "period": "2026-01已交付／2025法說未來計畫",
+      "sources": [
+        "a3501000-first-delivery",
+        "starlux-ir-20251222"
+      ],
+      "reviewed_at": "2026-10-07"
+    }
+  },
+  "before_overview": {
+    "name": "星宇航空",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 435,
+    "business": "國際航空客運、貨運及相關服務",
+    "direction": "2026年1月首架A350-1000交付，7月特色塗裝機交付；長程航網與未來貨機計畫須分開",
+    "profit_mechanism": "客票、貨運及附屬服務毛利，受航網投入、載客率、油價和租賃成本影響",
+    "status": "業務概述已整理；分部獲利未逐項量化",
+    "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+    "urls": [
+      "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+      "https://www.starlux-airlines.com/en-VN/about-us/media-center/news/2026/20260704111",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "合併營業收入",
+      "fy2024": 355.46851,
+      "fy2025": 440.53262,
+      "q32025": 107.32428,
+      "q42025": 113.56439,
+      "q12026": 137.59797,
+      "q22026": 147.93059,
+      "ttm": 506.41723,
+      "h1_operating_profit": 5.1744,
+      "h1_nonoperating": -8.6296,
+      "h1_pretax": -3.4552,
+      "h1_parent_profit": null,
+      "h1_operating_margin": 0.0181221801419795,
+      "h1_nonoperating_share": "",
+      "fy2025_parent_profit": null,
+      "q22026_parent_profit": null,
+      "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 285.52855999999997,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 355.46851,
+          "net_income": null,
+          "eps": 0.53,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 219.64395,
+          "net_income": null,
+          "eps": 0.31,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "合併營業收入",
+          "revenue": 326.96823,
+          "net_income": null,
+          "eps": 0.16,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 440.53262,
+          "net_income": null,
+          "eps": 0.09,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "合併營業收入",
+          "revenue": 137.59797,
+          "net_income": null,
+          "eps": 0.30000000000000004,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 285.52855999999997,
+          "net_income": null,
+          "eps": -0.11000000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2021-Q4": {
+          "eps": -2.69,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": -3.47,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 0.08,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "合併營業收入",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 107.32428000000002,
+            "eps": -0.15,
+            "net_income": null
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 113.56439,
+            "eps": -0.07,
+            "net_income": null
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 137.59797,
+            "eps": 0.30000000000000004,
+            "net_income": null
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 147.93058999999997,
+            "eps": -0.41000000000000003,
+            "net_income": null
+          }
+        ],
+        "ttms": 506.4172299999999,
+        "ttm_eps": -0.33,
+        "ttm_parent_profit": null,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 506.42 億元；每股盈餘 -0.33 元；歸母淨利 未取得 億元。營收未扣成本與費用，不等於獲利。獲利機制：客票、貨運及附屬服務毛利，受航網投入、載客率、油價和租賃成本影響。",
+    "events": [
+      {
+        "period": "2026H1",
+        "type": "本期淨損／歸屬欄未單列",
+        "status": "MOPS本期淨利口徑；未替代母公司欄",
+        "text": "本期淨利（淨損）-3.45520億元；來源母公司歸屬欄為空，另列本期數，未混填母公司淨利。逐季虧損仍待同口徑補核。",
+        "urls": [
+          "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "outlooks": [
+      {
+        "type": "待補查／無可用金額",
+        "period": "未確認",
+        "scope": "整體營收",
+        "unit": null,
+        "low": null,
+        "high": null,
+        "published_at": null,
+        "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+        "urls": [
+          "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+          "https://www.starlux-airlines.com/en-VN/about-us/media-center/news/2026/20260704111"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "2646",
+          "name": "星宇航空",
+          "date": "2026-06-30",
+          "type": "ci",
+          "basis": "個別",
+          "assets": 1542.91742,
+          "liabilities": 1235.31015,
+          "equity": 307.60726999999997,
+          "parent_equity": 307.60726999999997,
+          "cash": 135.30647,
+          "current_assets": 215.69567999999998,
+          "current_liabilities": 271.15087,
+          "listed_borrowings": 576.33851,
+          "listed_leases": 17.81044,
+          "operating_cashflow": 76.76096,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "2646",
+          "name": "星宇航空",
+          "date": "2025-12-31",
+          "type": "ci",
+          "basis": "個別",
+          "assets": 1372.9756,
+          "liabilities": 1059.01272,
+          "equity": 313.96288,
+          "parent_equity": 313.96288,
+          "cash": 153.39816,
+          "current_assets": 223.30402,
+          "current_liabilities": 201.68535,
+          "listed_borrowings": 528.58886,
+          "listed_leases": 17.14304,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+      "basis": "個別",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2636&companyId=2637&companyId=2642&companyId=2645&companyId=2646",
+      "regulatory": {
+        "capital_adequacy": null,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "未取得／不適用"
+      }
+    }
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "original_qa_verified": false,
+    "historical_meeting_not_new_meeting": true,
+    "prior_sources_preserved": true,
+    "financial_corrections_in_separate_history": true
+  }
+}
