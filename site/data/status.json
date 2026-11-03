@@ -1,11 +1,24 @@
 {
-  "errors": {
-    "balance": "ValueError：來源未通過下載或格式檢查",
-    "eps": "ValueError：來源未通過下載或格式檢查",
-    "income": "JSONDecodeError：來源未通過下載或格式檢查",
-    "margins": "ValueError：來源未通過下載或格式檢查"
-  },
+  "errors": {},
   "latest_price_date": "2026-11-02",
-  "since": "2026-11-03T10:59:41+00:00",
-  "state": "partial"
+  "quarterly_coverage": {
+    "balance": {
+      "received_companies": 53,
+      "retained_statement_companies": 53
+    },
+    "eps": {
+      "received_companies": 53,
+      "retained_statement_companies": 53
+    },
+    "income": {
+      "received_companies": 53,
+      "retained_statement_companies": 53
+    },
+    "margins": {
+      "received_companies": 53,
+      "retained_statement_companies": 53
+    }
+  },
+  "since": "2026-11-03T11:36:16+00:00",
+  "state": "ok"
 }
