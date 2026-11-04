@@ -1,24 +1,24 @@
 {
   "errors": {},
-  "latest_price_date": "2026-11-02",
+  "latest_price_date": "2026-11-03",
   "quarterly_coverage": {
     "balance": {
-      "received_companies": 53,
-      "retained_statement_companies": 53
+      "received_companies": 75,
+      "retained_statement_companies": 75
     },
     "eps": {
-      "received_companies": 53,
-      "retained_statement_companies": 53
+      "received_companies": 75,
+      "retained_statement_companies": 75
     },
     "income": {
-      "received_companies": 53,
-      "retained_statement_companies": 53
+      "received_companies": 75,
+      "retained_statement_companies": 75
     },
     "margins": {
-      "received_companies": 53,
-      "retained_statement_companies": 53
+      "received_companies": 75,
+      "retained_statement_companies": 75
     }
   },
-  "since": "2026-11-03T17:56:40+00:00",
+  "since": "2026-11-04T16:40:14+00:00",
   "state": "ok"
 }
