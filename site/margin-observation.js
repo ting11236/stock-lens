@@ -5,9 +5,37 @@
   let loading=null,ready=false,market='combined',period='90';
   function draw(){
     const template=content.querySelector('template[data-margin-chart="'+market+'-'+period+'"]'),host=content.querySelector('[data-margin-chart-host]');
-    if(host&&template)host.innerHTML=template.innerHTML;
+    if(host&&template){host.innerHTML=template.innerHTML;wirePoints(host)}
     content.querySelectorAll('[data-margin-market]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.marginMarket===market)));
     content.querySelectorAll('[data-margin-period]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.marginPeriod===period)));
+  }
+  function wirePoints(host){
+    const svg=host.querySelector('svg'),points=svg?[...svg.querySelectorAll('circle')]:[];
+    if(!points.length)return;
+    const box=document.createElement('div');box.className='margin-point-detail';
+    box.innerHTML='<button type="button" aria-label="前一個交易日">‹</button><output aria-live="polite"></output><button type="button" aria-label="後一個交易日">›</button>';
+    svg.before(box);
+    const output=box.querySelector('output'),buttons=box.querySelectorAll('button');let selected=points.length-1;
+    function select(i){
+      selected=Math.max(0,Math.min(points.length-1,i));
+      points.forEach((p,j)=>{p.setAttribute('r',j===selected?'6':'3.2');p.setAttribute('data-selected',String(j===selected))});
+      output.textContent=points[selected].querySelector('title').textContent;
+      buttons[0].disabled=selected===0;buttons[1].disabled=selected===points.length-1;
+    }
+    points.forEach((p,i)=>{
+      p.setAttribute('tabindex','0');p.setAttribute('role','button');p.setAttribute('aria-label',p.querySelector('title').textContent);
+      p.addEventListener('click',()=>select(i));p.addEventListener('focus',()=>select(i));
+      p.addEventListener('keydown',e=>{if(['Enter',' ','ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();const n=e.key==='ArrowLeft'?i-1:e.key==='ArrowRight'?i+1:i;select(n);points[selected].focus()}});
+    });
+    function nearest(e){
+      if(e.type==='click'&&e.target.closest('circle'))return;
+      const rect=svg.getBoundingClientRect(),x=(e.clientX-rect.left)/rect.width*820;
+      select(points.reduce((best,p,i)=>Math.abs(Number(p.getAttribute('cx'))-x)<Math.abs(Number(points[best].getAttribute('cx'))-x)?i:best,0));
+    }
+    svg.addEventListener('click',nearest);
+    svg.addEventListener('pointermove',e=>{if(e.pointerType==='mouse')nearest(e)});
+    buttons[0].addEventListener('click',()=>select(selected-1));buttons[1].addEventListener('click',()=>select(selected+1));
+    select(selected);
   }
   function wire(){
     content.querySelectorAll('[data-margin-market]').forEach(b=>b.addEventListener('click',()=>{market=b.dataset.marginMarket;draw()}));

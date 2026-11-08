@@ -7,7 +7,7 @@ function setup(fetch){
  Object.defineProperty(document,'baseURI',{value:'https://example.com/stock-lens/'});
  const dialog=document.getElementById('marginObservationDialog');dialog.showModal=()=>dialog.open=true;dialog.close=()=>dialog.open=false;
  const ctx=vm.createContext({document,window,DOMParser:window.DOMParser,URL,fetch});vm.runInContext(source,ctx);
- return {document,dialog,open:()=>document.getElementById('marginObservationOpen').click()};
+ return {document,window,dialog,open:()=>document.getElementById('marginObservationOpen').click()};
 }
 const html='<section class="margin-panel"><button data-margin-market="combined"></button><button data-margin-market="twse"></button><button data-margin-period="30"></button><div data-margin-chart-host></div><template data-margin-chart="combined-90">合計</template><template data-margin-chart="twse-90">上市</template><template data-margin-chart="twse-30">上市月線</template></section>';
 const flush=()=>new Promise(r=>setImmediate(r));
@@ -25,3 +25,13 @@ test('failed margin download can retry without getting stuck on a rejected promi
  assert.equal(calls,2);assert.ok(s.document.querySelector('.margin-panel'));
 });
 
+
+test('chart points show exact values and previous/next controls work without another download',async()=>{
+ let calls=0;const chart=html.replace('>合計</template>','><svg><circle cx="64"><title>2026-11-05：≥ 154.1%</title></circle><circle cx="794"><title>2026-11-06：≥ 149.9%</title></circle></svg></template>');
+ const s=setup(async()=>{calls++;return {ok:true,text:async()=>chart}});s.open();await flush();
+ const host=s.document.querySelector('[data-margin-chart-host]'),out=host.querySelector('output'),points=host.querySelectorAll('circle'),buttons=host.querySelectorAll('.margin-point-detail button');
+ assert.equal(out.textContent,'2026-11-06：≥ 149.9%');assert.equal(buttons[1].disabled,true);
+ points[0].dispatchEvent(new s.window.Event('click',{bubbles:true}));assert.equal(out.textContent,'2026-11-05：≥ 154.1%');assert.equal(points[0].getAttribute('data-selected'),'true');
+ buttons[1].click();assert.equal(out.textContent,'2026-11-06：≥ 149.9%');
+ s.dialog.close();s.open();assert.equal(calls,1);assert.equal(out.textContent,'2026-11-06：≥ 149.9%');
+});
