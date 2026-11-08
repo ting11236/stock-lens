@@ -1,6 +1,6 @@
 {
   "announcement_policy": "research-impact-v1",
-  "as_of": "2026-11-08",
+  "as_of": "2026-11-09",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -6713,54 +6713,6 @@
   },
   "errors": [],
   "events": [
-    {
-      "cancelled": false,
-      "date": "2026-05-12",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-12",
-      "kind": "股東常會",
-      "location": "",
-      "name": "聯發",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1459.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-12",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-12",
-      "kind": "股東常會",
-      "location": "",
-      "name": "生達",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1720.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-12",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-12",
-      "kind": "股東常會",
-      "location": "",
-      "name": "憶聲",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3024.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-12",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-12",
-      "kind": "股東常會",
-      "location": "",
-      "name": "大量",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3167.TW",
-      "time": ""
-    },
     {
       "cancelled": false,
       "date": "2026-05-13",
@@ -39401,37 +39353,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "name": "2027-01 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=116&month=01"
     },
     {
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -54317,5 +54269,5 @@
       "symbol": "9924.TW"
     }
   ],
-  "updated_at": "2026-11-08T22:24:17+08:00"
+  "updated_at": "2026-11-09T00:42:49+08:00"
 }
