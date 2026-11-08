@@ -38,7 +38,7 @@ jobs:
       - name: 檢查資料處理與前端邏輯
         run: |
           python -m unittest discover -s tests -v
-          node --test tests/app.test.cjs tests/reopen-cache.test.cjs tests/meeting-summary.test.cjs tests/calendar-impact.test.cjs
+          node --test tests/app.test.cjs tests/reopen-cache.test.cjs tests/meeting-summary.test.cjs tests/calendar-impact.test.cjs tests/margin-cache.test.cjs
       - name: 取得每日資料；失敗仍發布舊資料與狀態
         id: update
         continue-on-error: true
@@ -50,6 +50,8 @@ jobs:
       - name: 更新近期漲跌排行與交易日歷史
         continue-on-error: true
         run: python market_movers.py
+      - name: 更新上市上櫃融資觀察
+        run: python margin_observation.py
       - name: 更新法說會、股東會與公司摘要待辦
         continue-on-error: true
         run: python company_calendar.py

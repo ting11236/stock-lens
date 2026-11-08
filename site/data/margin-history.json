@@ -1,0 +1,4268 @@
+{
+  "basis": "各標的當日收盤價×融資張數×1000，除以同日市場融資金額；缺價時為下限，含ETF。",
+  "errors": [],
+  "history": [
+    {
+      "combined": {
+        "collateral_twd": 1305739542150.0,
+        "covered_lots": 11178243.0,
+        "financed_symbols": 2046,
+        "financing_twd": 712878266000.0,
+        "lot_coverage_pct": 99.95891919018402,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:00684R",
+          "上市:1589",
+          "上市:2254",
+          "上市:2712",
+          "上市:5906",
+          "上櫃:5904",
+          "上櫃:6708",
+          "上櫃:6843",
+          "上櫃:7782",
+          "上櫃:8066",
+          "上櫃:8917"
+        ],
+        "ratio": 183.16444818504257,
+        "total_lots": 11182837.0
+      },
+      "date": "2026-08-07",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/07&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/07&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260807&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260807&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 312095055910.0,
+        "covered_lots": 2195068.0,
+        "financed_symbols": 820,
+        "financing_twd": 175213756000.0,
+        "lot_coverage_pct": 99.93940081014424,
+        "lower_bound": true,
+        "missing_symbols": [
+          "5904",
+          "6708",
+          "6843",
+          "7782",
+          "8066",
+          "8917"
+        ],
+        "ratio": 178.1224619772434,
+        "total_lots": 2196399.0
+      },
+      "twse": {
+        "collateral_twd": 993644486240.0,
+        "covered_lots": 8983175.0,
+        "financed_symbols": 1226,
+        "financing_twd": 537664510000.0,
+        "lot_coverage_pct": 99.96368972890038,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "00684R",
+          "1589",
+          "2254",
+          "2712",
+          "5906"
+        ],
+        "ratio": 184.80752732591557,
+        "total_lots": 8986438.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1358318538510.0,
+        "covered_lots": 11207040.0,
+        "financed_symbols": 2042,
+        "financing_twd": 722291136000.0,
+        "lot_coverage_pct": 99.99329930402878,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上櫃:5514",
+          "上櫃:6212"
+        ],
+        "ratio": 188.05693034422063,
+        "total_lots": 11207791.0
+      },
+      "date": "2026-08-10",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/10&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/10&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260810&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260810&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 323246480470.0,
+        "covered_lots": 2204516.0,
+        "financed_symbols": 819,
+        "financing_twd": 176995575000.0,
+        "lot_coverage_pct": 99.99764126123576,
+        "lower_bound": true,
+        "missing_symbols": [
+          "5514",
+          "6212"
+        ],
+        "ratio": 182.62969595143835,
+        "total_lots": 2204568.0
+      },
+      "twse": {
+        "collateral_twd": 1035072058040.0,
+        "covered_lots": 9002524.0,
+        "financed_symbols": 1223,
+        "financing_twd": 545295561000.0,
+        "lot_coverage_pct": 99.9922361136673,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589"
+        ],
+        "ratio": 189.81853733447136,
+        "total_lots": 9003223.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1362205588330.0,
+        "covered_lots": 11180404.0,
+        "financed_symbols": 2043,
+        "financing_twd": 722329160000.0,
+        "lot_coverage_pct": 99.98507432387537,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1443",
+          "上市:1589",
+          "上櫃:3332",
+          "上櫃:4530",
+          "上櫃:5212",
+          "上櫃:6171",
+          "上櫃:8923"
+        ],
+        "ratio": 188.58515809191476,
+        "total_lots": 11182073.0
+      },
+      "date": "2026-08-11",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/11&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/11&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260811&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260811&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 325778033620.0,
+        "covered_lots": 2210528.0,
+        "financed_symbols": 820,
+        "financing_twd": 178177183000.0,
+        "lot_coverage_pct": 99.956499916346,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3332",
+          "4530",
+          "5212",
+          "6171",
+          "8923"
+        ],
+        "ratio": 182.83936704735083,
+        "total_lots": 2211490.0
+      },
+      "twse": {
+        "collateral_twd": 1036427554710.0,
+        "covered_lots": 8969876.0,
+        "financed_symbols": 1223,
+        "financing_twd": 544151977000.0,
+        "lot_coverage_pct": 99.992118683925,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1443",
+          "1589"
+        ],
+        "ratio": 190.46656054141286,
+        "total_lots": 8970583.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1392728851870.0,
+        "covered_lots": 11156047.0,
+        "financed_symbols": 2043,
+        "financing_twd": 727143423000.0,
+        "lot_coverage_pct": 99.88418819190504,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:1909",
+          "上櫃:1796",
+          "上櫃:3118",
+          "上櫃:4728",
+          "上櫃:5212",
+          "上櫃:5455",
+          "上櫃:6843"
+        ],
+        "ratio": 191.53427065653318,
+        "total_lots": 11168982.0
+      },
+      "date": "2026-08-12",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/12&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/12&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260812&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260812&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 336759006920.0,
+        "covered_lots": 2205436.0,
+        "financed_symbols": 820,
+        "financing_twd": 179059511000.0,
+        "lot_coverage_pct": 99.8862292046733,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1796",
+          "3118",
+          "4728",
+          "5212",
+          "5455",
+          "6843"
+        ],
+        "ratio": 188.07099664200467,
+        "total_lots": 2207948.0
+      },
+      "twse": {
+        "collateral_twd": 1055969844950.0,
+        "covered_lots": 8950611.0,
+        "financed_symbols": 1223,
+        "financing_twd": 548083912000.0,
+        "lot_coverage_pct": 99.88368529792433,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "1909"
+        ],
+        "ratio": 192.66572541724233,
+        "total_lots": 8961034.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1413422279350.0,
+        "covered_lots": 11175265.0,
+        "financed_symbols": 2045,
+        "financing_twd": 730524516000.0,
+        "lot_coverage_pct": 99.92417566745307,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1218",
+          "上市:1589",
+          "上市:6176",
+          "上櫃:3531",
+          "上櫃:6212",
+          "上櫃:6228"
+        ],
+        "ratio": 193.48047168755113,
+        "total_lots": 11183745.0
+      },
+      "date": "2026-08-13",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/13&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/13&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260813&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260813&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 343054513870.0,
+        "covered_lots": 2213796.0,
+        "financed_symbols": 820,
+        "financing_twd": 180743862000.0,
+        "lot_coverage_pct": 99.99512173969603,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3531",
+          "6212",
+          "6228"
+        ],
+        "ratio": 189.80147379499948,
+        "total_lots": 2213904.0
+      },
+      "twse": {
+        "collateral_twd": 1070367765480.0,
+        "covered_lots": 8961469.0,
+        "financed_symbols": 1225,
+        "financing_twd": 549780654000.0,
+        "lot_coverage_pct": 99.90666501223377,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1218",
+          "1589",
+          "6176"
+        ],
+        "ratio": 194.68996547848698,
+        "total_lots": 8969841.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1398812817090.0,
+        "covered_lots": 11127324.0,
+        "financed_symbols": 2046,
+        "financing_twd": 728670419000.0,
+        "lot_coverage_pct": 99.93696978231851,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00684R",
+          "上市:1589",
+          "上市:5906",
+          "上市:6176",
+          "上櫃:5212",
+          "上櫃:5455",
+          "上櫃:5520",
+          "上櫃:6103",
+          "上櫃:6212"
+        ],
+        "ratio": 191.96783355219475,
+        "total_lots": 11134342.0
+      },
+      "date": "2026-08-14",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/14&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/14&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260814&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260814&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 337145184030.0,
+        "covered_lots": 2215846.0,
+        "financed_symbols": 820,
+        "financing_twd": 181611101000.0,
+        "lot_coverage_pct": 99.99043346338408,
+        "lower_bound": true,
+        "missing_symbols": [
+          "5212",
+          "5455",
+          "5520",
+          "6103",
+          "6212"
+        ],
+        "ratio": 185.6412863385482,
+        "total_lots": 2216058.0
+      },
+      "twse": {
+        "collateral_twd": 1061667633060.0,
+        "covered_lots": 8911478.0,
+        "financed_symbols": 1226,
+        "financing_twd": 547059318000.0,
+        "lot_coverage_pct": 99.9236848703181,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00684R",
+          "1589",
+          "5906",
+          "6176"
+        ],
+        "ratio": 194.06810159844494,
+        "total_lots": 8918284.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1413121670560.0,
+        "covered_lots": 11079344.0,
+        "financed_symbols": 2049,
+        "financing_twd": 732926653000.0,
+        "lot_coverage_pct": 99.93214494229974,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上市:6176",
+          "上櫃:2235",
+          "上櫃:4530",
+          "上櫃:5455",
+          "上櫃:6103",
+          "上櫃:6228",
+          "上櫃:6865",
+          "上櫃:8923"
+        ],
+        "ratio": 192.80533253577832,
+        "total_lots": 11086867.0
+      },
+      "date": "2026-08-17",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/17&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/17&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260817&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260817&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 341197293320.0,
+        "covered_lots": 2218482.0,
+        "financed_symbols": 822,
+        "financing_twd": 182824981000.0,
+        "lot_coverage_pct": 99.9653937140926,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2235",
+          "4530",
+          "5455",
+          "6103",
+          "6228",
+          "6865",
+          "8923"
+        ],
+        "ratio": 186.62509436825815,
+        "total_lots": 2219250.0
+      },
+      "twse": {
+        "collateral_twd": 1071924377240.0,
+        "covered_lots": 8860862.0,
+        "financed_symbols": 1227,
+        "financing_twd": 550101672000.0,
+        "lot_coverage_pct": 99.92382395405666,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589",
+          "6176"
+        ],
+        "ratio": 194.8593199767624,
+        "total_lots": 8867617.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1373764655280.0,
+        "covered_lots": 11024693.0,
+        "financed_symbols": 2048,
+        "financing_twd": 729474814000.0,
+        "lot_coverage_pct": 99.90665151245211,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00683L",
+          "上市:00684R",
+          "上市:1516",
+          "上市:1589",
+          "上市:2254",
+          "上市:6176",
+          "上櫃:1259",
+          "上櫃:2064",
+          "上櫃:5520",
+          "上櫃:5601",
+          "上櫃:6103",
+          "上櫃:6212",
+          "上櫃:6615",
+          "上櫃:6865",
+          "上櫃:9960"
+        ],
+        "ratio": 188.32242442300412,
+        "total_lots": 11034994.0
+      },
+      "date": "2026-08-18",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/18&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/18&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260818&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260818&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 332664215330.0,
+        "covered_lots": 2218678.0,
+        "financed_symbols": 822,
+        "financing_twd": 182463435000.0,
+        "lot_coverage_pct": 99.95584905422366,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1259",
+          "2064",
+          "5520",
+          "5601",
+          "6103",
+          "6212",
+          "6615",
+          "6865",
+          "9960"
+        ],
+        "ratio": 182.31829041802266,
+        "total_lots": 2219658.0
+      },
+      "twse": {
+        "collateral_twd": 1041100439950.0,
+        "covered_lots": 8806015.0,
+        "financed_symbols": 1226,
+        "financing_twd": 547011379000.0,
+        "lot_coverage_pct": 99.89426381478823,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00683L",
+          "00684R",
+          "1516",
+          "1589",
+          "2254",
+          "6176"
+        ],
+        "ratio": 190.32518882024937,
+        "total_lots": 8815336.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1354457622410.0,
+        "covered_lots": 11032788.0,
+        "financed_symbols": 2049,
+        "financing_twd": 730614269000.0,
+        "lot_coverage_pct": 99.86076428397062,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:5906",
+          "上市:6176",
+          "上市:8105",
+          "上櫃:1259",
+          "上櫃:1813",
+          "上櫃:3684",
+          "上櫃:5212",
+          "上櫃:5245",
+          "上櫃:5520",
+          "上櫃:5523",
+          "上櫃:6103",
+          "上櫃:6195",
+          "上櫃:6212",
+          "上櫃:6222",
+          "上櫃:6865",
+          "上櫃:8444"
+        ],
+        "ratio": 185.38614421859862,
+        "total_lots": 11048171.0
+      },
+      "date": "2026-08-19",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/19&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/19&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260819&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260819&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 328019688540.0,
+        "covered_lots": 2218140.0,
+        "financed_symbols": 821,
+        "financing_twd": 182424031000.0,
+        "lot_coverage_pct": 99.9249483963914,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1259",
+          "1813",
+          "3684",
+          "5212",
+          "5245",
+          "5520",
+          "5523",
+          "6103",
+          "6195",
+          "6212",
+          "6222",
+          "6865",
+          "8444"
+        ],
+        "ratio": 179.81166556943367,
+        "total_lots": 2219806.0
+      },
+      "twse": {
+        "collateral_twd": 1026437933870.0,
+        "covered_lots": 8814648.0,
+        "financed_symbols": 1228,
+        "financing_twd": 548190238000.0,
+        "lot_coverage_pct": 99.84462581689814,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "5906",
+          "6176",
+          "8105"
+        ],
+        "ratio": 187.2411916007158,
+        "total_lots": 8828365.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1371117660060.0,
+        "covered_lots": 11026821.0,
+        "financed_symbols": 2048,
+        "financing_twd": 732486754000.0,
+        "lot_coverage_pct": 99.82827845072904,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2867",
+          "上市:6176",
+          "上市:8105",
+          "上櫃:2064",
+          "上櫃:2235",
+          "上櫃:2924",
+          "上櫃:3332",
+          "上櫃:4728",
+          "上櫃:4747",
+          "上櫃:6496",
+          "上櫃:8905",
+          "上櫃:8923"
+        ],
+        "ratio": 187.18668325024754,
+        "total_lots": 11045789.0
+      },
+      "date": "2026-08-20",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/20&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/20&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260820&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260820&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 335443212580.0,
+        "covered_lots": 2231695.0,
+        "financed_symbols": 821,
+        "financing_twd": 184079129000.0,
+        "lot_coverage_pct": 99.8210400698485,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "2235",
+          "2924",
+          "3332",
+          "4728",
+          "4747",
+          "6496",
+          "8905",
+          "8923"
+        ],
+        "ratio": 182.22772695757376,
+        "total_lots": 2235696.0
+      },
+      "twse": {
+        "collateral_twd": 1035674447480.0,
+        "covered_lots": 8795126.0,
+        "financed_symbols": 1227,
+        "financing_twd": 548407625000.0,
+        "lot_coverage_pct": 99.83011530071249,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2867",
+          "6176",
+          "8105"
+        ],
+        "ratio": 188.8512121763442,
+        "total_lots": 8810093.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1362046939010.0,
+        "covered_lots": 11070081.0,
+        "financed_symbols": 2048,
+        "financing_twd": 732150150000.0,
+        "lot_coverage_pct": 99.83282858152387,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上市:2867",
+          "上市:4190",
+          "上市:5906",
+          "上市:6176",
+          "上市:8105",
+          "上櫃:4305",
+          "上櫃:4728",
+          "上櫃:4747",
+          "上櫃:5601"
+        ],
+        "ratio": 186.03382639612926,
+        "total_lots": 11088618.0
+      },
+      "date": "2026-08-21",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/21&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/21&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260821&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260821&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 336885454760.0,
+        "covered_lots": 2237626.0,
+        "financed_symbols": 820,
+        "financing_twd": 185210828000.0,
+        "lot_coverage_pct": 99.8499323289851,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4305",
+          "4728",
+          "4747",
+          "5601"
+        ],
+        "ratio": 181.8929586341464,
+        "total_lots": 2240989.0
+      },
+      "twse": {
+        "collateral_twd": 1025161484250.0,
+        "covered_lots": 8832455.0,
+        "financed_symbols": 1228,
+        "financing_twd": 546939322000.0,
+        "lot_coverage_pct": 99.82849642542652,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589",
+          "2867",
+          "4190",
+          "5906",
+          "6176",
+          "8105"
+        ],
+        "ratio": 187.43605424113207,
+        "total_lots": 8847629.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1342894071790.0,
+        "covered_lots": 11062752.0,
+        "financed_symbols": 2052,
+        "financing_twd": 729290008000.0,
+        "lot_coverage_pct": 99.69449346573242,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2867",
+          "上市:5906",
+          "上市:8105",
+          "上櫃:3332",
+          "上櫃:4305",
+          "上櫃:4747",
+          "上櫃:5371",
+          "上櫃:5455",
+          "上櫃:6212",
+          "上櫃:6560",
+          "上櫃:7782",
+          "上櫃:8066",
+          "上櫃:8102",
+          "上櫃:8444",
+          "上櫃:8917",
+          "上櫃:8923",
+          "上櫃:8931",
+          "上櫃:9960"
+        ],
+        "ratio": 184.1371823361112,
+        "total_lots": 11096653.0
+      },
+      "date": "2026-08-24",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/24&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/24&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260824&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260824&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 330693474360.0,
+        "covered_lots": 2214723.0,
+        "financed_symbols": 821,
+        "financing_twd": 184030578000.0,
+        "lot_coverage_pct": 98.88017037197434,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3332",
+          "4305",
+          "4747",
+          "5371",
+          "5455",
+          "6212",
+          "6560",
+          "7782",
+          "8066",
+          "8102",
+          "8444",
+          "8917",
+          "8923",
+          "8931",
+          "9960"
+        ],
+        "ratio": 179.69485177620862,
+        "total_lots": 2239805.0
+      },
+      "twse": {
+        "collateral_twd": 1012200597430.0,
+        "covered_lots": 8848029.0,
+        "financed_symbols": 1231,
+        "financing_twd": 545259430000.0,
+        "lot_coverage_pct": 99.900427330355,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2867",
+          "5906",
+          "8105"
+        ],
+        "ratio": 185.63651387560597,
+        "total_lots": 8856848.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1366007955100.0,
+        "covered_lots": 11106771.0,
+        "financed_symbols": 2053,
+        "financing_twd": 730857453000.0,
+        "lot_coverage_pct": 99.752459352527,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2867",
+          "上市:8105",
+          "上櫃:1259",
+          "上櫃:1788",
+          "上櫃:2064",
+          "上櫃:2751",
+          "上櫃:4568",
+          "上櫃:4747",
+          "上櫃:5371",
+          "上櫃:5520",
+          "上櫃:6124",
+          "上櫃:6843",
+          "上櫃:7782",
+          "上櫃:8424",
+          "上櫃:9960"
+        ],
+        "ratio": 186.90484026575288,
+        "total_lots": 11134333.0
+      },
+      "date": "2026-08-25",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/25&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/25&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260825&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260825&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 336446875290.0,
+        "covered_lots": 2214756.0,
+        "financed_symbols": 822,
+        "financing_twd": 183919755000.0,
+        "lot_coverage_pct": 99.15966913287293,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1259",
+          "1788",
+          "2064",
+          "2751",
+          "4568",
+          "4747",
+          "5371",
+          "5520",
+          "6124",
+          "6843",
+          "7782",
+          "8424",
+          "9960"
+        ],
+        "ratio": 182.9313416005801,
+        "total_lots": 2233525.0
+      },
+      "twse": {
+        "collateral_twd": 1029561079810.0,
+        "covered_lots": 8892015.0,
+        "financed_symbols": 1231,
+        "financing_twd": 546937698000.0,
+        "lot_coverage_pct": 99.90121121588062,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2867",
+          "8105"
+        ],
+        "ratio": 188.24101603799122,
+        "total_lots": 8900808.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1424500208070.0,
+        "covered_lots": 11115730.0,
+        "financed_symbols": 2055,
+        "financing_twd": 742463472000.0,
+        "lot_coverage_pct": 99.75614969960249,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:00684R",
+          "上市:1589",
+          "上市:2867",
+          "上市:8105",
+          "上櫃:00982B",
+          "上櫃:1259",
+          "上櫃:4568",
+          "上櫃:4747",
+          "上櫃:5371",
+          "上櫃:5520",
+          "上櫃:6697",
+          "上櫃:9960"
+        ],
+        "ratio": 191.8613186764291,
+        "total_lots": 11142902.0
+      },
+      "date": "2026-08-26",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/26&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/26&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260826&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260826&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 352266605250.0,
+        "covered_lots": 2230519.0,
+        "financed_symbols": 823,
+        "financing_twd": 187660887000.0,
+        "lot_coverage_pct": 99.18416659774304,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00982B",
+          "1259",
+          "4568",
+          "4747",
+          "5371",
+          "5520",
+          "6697",
+          "9960"
+        ],
+        "ratio": 187.71445178664214,
+        "total_lots": 2248866.0
+      },
+      "twse": {
+        "collateral_twd": 1072233602820.0,
+        "covered_lots": 8885211.0,
+        "financed_symbols": 1232,
+        "financing_twd": 554802585000.0,
+        "lot_coverage_pct": 99.90077620553818,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "00684R",
+          "1589",
+          "2867",
+          "8105"
+        ],
+        "ratio": 193.26398827431564,
+        "total_lots": 8894036.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1446195498780.0,
+        "covered_lots": 11106269.0,
+        "financed_symbols": 2056,
+        "financing_twd": 750934121000.0,
+        "lot_coverage_pct": 99.73136222144298,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00684R",
+          "上市:1563",
+          "上市:1589",
+          "上市:2867",
+          "上市:6949",
+          "上櫃:1240",
+          "上櫃:2751",
+          "上櫃:4305",
+          "上櫃:4747",
+          "上櫃:5371",
+          "上櫃:7584",
+          "上櫃:8923",
+          "上櫃:9960"
+        ],
+        "ratio": 192.5862014172612,
+        "total_lots": 11136185.0
+      },
+      "date": "2026-08-27",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/27&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/27&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260827&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260827&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 364200403460.0,
+        "covered_lots": 2236134.0,
+        "financed_symbols": 823,
+        "financing_twd": 191015337000.0,
+        "lot_coverage_pct": 99.17964366658832,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1240",
+          "2751",
+          "4305",
+          "4747",
+          "5371",
+          "7584",
+          "8923",
+          "9960"
+        ],
+        "ratio": 190.66552936532003,
+        "total_lots": 2254630.0
+      },
+      "twse": {
+        "collateral_twd": 1081995095320.0,
+        "covered_lots": 8870135.0,
+        "financed_symbols": 1233,
+        "financing_twd": 559918784000.0,
+        "lot_coverage_pct": 99.87141891256654,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00684R",
+          "1563",
+          "1589",
+          "2867",
+          "6949"
+        ],
+        "ratio": 193.24143540788944,
+        "total_lots": 8881555.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1469404749450.0,
+        "covered_lots": 11120639.0,
+        "financed_symbols": 2056,
+        "financing_twd": 759871067000.0,
+        "lot_coverage_pct": 99.68745475888362,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00683L",
+          "上市:00684R",
+          "上市:1472",
+          "上市:1563",
+          "上市:1589",
+          "上市:2867",
+          "上市:6949",
+          "上櫃:4305",
+          "上櫃:4728",
+          "上櫃:4747",
+          "上櫃:5371",
+          "上櫃:6228",
+          "上櫃:6542",
+          "上櫃:6751",
+          "上櫃:8917",
+          "上櫃:8923"
+        ],
+        "ratio": 193.3755360960467,
+        "total_lots": 11155505.0
+      },
+      "date": "2026-08-28",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/28&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/28&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260828&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260828&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 367660822790.0,
+        "covered_lots": 2242984.0,
+        "financed_symbols": 823,
+        "financing_twd": 192693531000.0,
+        "lot_coverage_pct": 99.12505932962168,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4305",
+          "4728",
+          "4747",
+          "5371",
+          "6228",
+          "6542",
+          "6751",
+          "8917",
+          "8923"
+        ],
+        "ratio": 190.80081250366416,
+        "total_lots": 2262782.0
+      },
+      "twse": {
+        "collateral_twd": 1101743926660.0,
+        "covered_lots": 8877655.0,
+        "financed_symbols": 1233,
+        "financing_twd": 567177536000.0,
+        "lot_coverage_pct": 99.8305580866513,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00683L",
+          "00684R",
+          "1472",
+          "1563",
+          "1589",
+          "2867",
+          "6949"
+        ],
+        "ratio": 194.25027557156284,
+        "total_lots": 8892723.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1466983907970.0,
+        "covered_lots": 11086528.0,
+        "financed_symbols": 2056,
+        "financing_twd": 764537003000.0,
+        "lot_coverage_pct": 99.5839607934899,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:00972",
+          "上市:1563",
+          "上市:1589",
+          "上市:2867",
+          "上市:6949",
+          "上櫃:2064",
+          "上櫃:2235",
+          "上櫃:3252",
+          "上櫃:3332",
+          "上櫃:3531",
+          "上櫃:4568",
+          "上櫃:5310",
+          "上櫃:5371",
+          "上櫃:5601",
+          "上櫃:5902",
+          "上櫃:6228",
+          "上櫃:6542",
+          "上櫃:6624"
+        ],
+        "ratio": 191.8787321233162,
+        "total_lots": 11132845.0
+      },
+      "date": "2026-08-31",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/08/31&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/08/31&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260831&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260831&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 371406368700.0,
+        "covered_lots": 2237078.0,
+        "financed_symbols": 823,
+        "financing_twd": 194660092000.0,
+        "lot_coverage_pct": 98.46372022313558,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "2235",
+          "3252",
+          "3332",
+          "3531",
+          "4568",
+          "5310",
+          "5371",
+          "5601",
+          "5902",
+          "6228",
+          "6542",
+          "6624"
+        ],
+        "ratio": 190.7973868110573,
+        "total_lots": 2271982.0
+      },
+      "twse": {
+        "collateral_twd": 1095577539270.0,
+        "covered_lots": 8849450.0,
+        "financed_symbols": 1233,
+        "financing_twd": 569876911000.0,
+        "lot_coverage_pct": 99.87119764745262,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "00972",
+          "1563",
+          "1589",
+          "2867",
+          "6949"
+        ],
+        "ratio": 192.2481009710534,
+        "total_lots": 8860863.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1505540191740.0,
+        "covered_lots": 11147336.0,
+        "financed_symbols": 2053,
+        "financing_twd": 775418678000.0,
+        "lot_coverage_pct": 99.76315132156014,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1563",
+          "上市:1589",
+          "上市:4581",
+          "上市:5906",
+          "上市:6949",
+          "上櫃:4305",
+          "上櫃:5371",
+          "上櫃:5523",
+          "上櫃:5601",
+          "上櫃:6210",
+          "上櫃:6212",
+          "上櫃:6228",
+          "上櫃:6730",
+          "上櫃:6752",
+          "上櫃:7782",
+          "上櫃:8047",
+          "上櫃:8917",
+          "上櫃:8941"
+        ],
+        "ratio": 194.15836043866872,
+        "total_lots": 11173801.0
+      },
+      "date": "2026-09-01",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/01&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/01&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260901&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260901&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 384340194530.0,
+        "covered_lots": 2260477.0,
+        "financed_symbols": 822,
+        "financing_twd": 197303220000.0,
+        "lot_coverage_pct": 99.28276748973452,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4305",
+          "5371",
+          "5523",
+          "5601",
+          "6210",
+          "6212",
+          "6228",
+          "6730",
+          "6752",
+          "7782",
+          "8047",
+          "8917",
+          "8941"
+        ],
+        "ratio": 194.79671671349308,
+        "total_lots": 2276807.0
+      },
+      "twse": {
+        "collateral_twd": 1121199997210.0,
+        "covered_lots": 8886859.0,
+        "financed_symbols": 1231,
+        "financing_twd": 578115458000.0,
+        "lot_coverage_pct": 99.88608512043507,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1563",
+          "1589",
+          "4581",
+          "5906",
+          "6949"
+        ],
+        "ratio": 193.9404978183441,
+        "total_lots": 8896994.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1493292204800.0,
+        "covered_lots": 11185667.0,
+        "financed_symbols": 2056,
+        "financing_twd": 783847181000.0,
+        "lot_coverage_pct": 99.72932480719999,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1563",
+          "上市:1589",
+          "上市:6949",
+          "上櫃:3095",
+          "上櫃:3118",
+          "上櫃:4305",
+          "上櫃:4535",
+          "上櫃:4728",
+          "上櫃:5371",
+          "上櫃:5601",
+          "上櫃:6212",
+          "上櫃:6228",
+          "上櫃:6649",
+          "上櫃:8066",
+          "上櫃:8917",
+          "上櫃:8923"
+        ],
+        "ratio": 190.50807874245578,
+        "total_lots": 11216026.0
+      },
+      "date": "2026-09-02",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/02&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/02&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260902&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260902&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 379754438650.0,
+        "covered_lots": 2265884.0,
+        "financed_symbols": 821,
+        "financing_twd": 198171896000.0,
+        "lot_coverage_pct": 99.1137048989872,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3095",
+          "3118",
+          "4305",
+          "4535",
+          "4728",
+          "5371",
+          "5601",
+          "6212",
+          "6228",
+          "6649",
+          "8066",
+          "8917",
+          "8923"
+        ],
+        "ratio": 191.62880626120668,
+        "total_lots": 2286146.0
+      },
+      "twse": {
+        "collateral_twd": 1113537766150.0,
+        "covered_lots": 8919783.0,
+        "financed_symbols": 1235,
+        "financing_twd": 585675285000.0,
+        "lot_coverage_pct": 99.88693017151407,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1563",
+          "1589",
+          "6949"
+        ],
+        "ratio": 190.1288640086631,
+        "total_lots": 8929880.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1429997738190.0,
+        "covered_lots": 11166914.0,
+        "financed_symbols": 2054,
+        "financing_twd": 774901048000.0,
+        "lot_coverage_pct": 99.88527461282641,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1423",
+          "上市:1470",
+          "上市:1563",
+          "上市:1589",
+          "上市:3164",
+          "上市:6655",
+          "上市:6949",
+          "上市:6952",
+          "上櫃:2064",
+          "上櫃:4305",
+          "上櫃:4728",
+          "上櫃:5310",
+          "上櫃:5520",
+          "上櫃:6129",
+          "上櫃:6228",
+          "上櫃:7757",
+          "上櫃:8923"
+        ],
+        "ratio": 184.53939917629327,
+        "total_lots": 11179740.0
+      },
+      "date": "2026-09-03",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/03&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/03&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260903&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260903&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 362640044450.0,
+        "covered_lots": 2274462.0,
+        "financed_symbols": 820,
+        "financing_twd": 196161741000.0,
+        "lot_coverage_pct": 99.89933036243704,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "4305",
+          "4728",
+          "5310",
+          "5520",
+          "6129",
+          "6228",
+          "7757",
+          "8923"
+        ],
+        "ratio": 184.86787617265287,
+        "total_lots": 2276754.0
+      },
+      "twse": {
+        "collateral_twd": 1067357693740.0,
+        "covered_lots": 8892452.0,
+        "financed_symbols": 1234,
+        "financing_twd": 578739307000.0,
+        "lot_coverage_pct": 99.8816801464138,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1423",
+          "1470",
+          "1563",
+          "1589",
+          "3164",
+          "6655",
+          "6949",
+          "6952"
+        ],
+        "ratio": 184.42806300350358,
+        "total_lots": 8902986.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1471999591410.0,
+        "covered_lots": 11195215.0,
+        "financed_symbols": 2053,
+        "financing_twd": 780137627000.0,
+        "lot_coverage_pct": 99.89902316782955,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00684R",
+          "上市:1563",
+          "上市:1589",
+          "上市:5906",
+          "上市:6949",
+          "上櫃:4406",
+          "上櫃:4550",
+          "上櫃:5310",
+          "上櫃:5520",
+          "上櫃:6129",
+          "上櫃:6228",
+          "上櫃:6496",
+          "上櫃:6615",
+          "上櫃:7782",
+          "上櫃:8923",
+          "上櫃:8929"
+        ],
+        "ratio": 188.68460390386988,
+        "total_lots": 11206531.0
+      },
+      "date": "2026-09-04",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/04&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/04&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260904&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260904&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 375752741250.0,
+        "covered_lots": 2286091.0,
+        "financed_symbols": 820,
+        "financing_twd": 198243039000.0,
+        "lot_coverage_pct": 99.94801685845196,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4406",
+          "4550",
+          "5310",
+          "5520",
+          "6129",
+          "6228",
+          "6496",
+          "6615",
+          "7782",
+          "8923",
+          "8929"
+        ],
+        "ratio": 189.541455349663,
+        "total_lots": 2287280.0
+      },
+      "twse": {
+        "collateral_twd": 1096246850160.0,
+        "covered_lots": 8909124.0,
+        "financed_symbols": 1233,
+        "financing_twd": 581894588000.0,
+        "lot_coverage_pct": 99.88645907599192,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00684R",
+          "1563",
+          "1589",
+          "5906",
+          "6949"
+        ],
+        "ratio": 188.3926870548588,
+        "total_lots": 8919251.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1510120778350.0,
+        "covered_lots": 11374922.0,
+        "financed_symbols": 2057,
+        "financing_twd": 788728984000.0,
+        "lot_coverage_pct": 99.9879837792447,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:00684R",
+          "上市:1589",
+          "上櫃:5523",
+          "上櫃:6129",
+          "上櫃:6228",
+          "上櫃:6624",
+          "上櫃:7757",
+          "上櫃:8087",
+          "上櫃:8923",
+          "上櫃:009807"
+        ],
+        "ratio": 191.46256939760184,
+        "total_lots": 11376289.0
+      },
+      "date": "2026-09-07",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/07&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/07&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260907&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260907&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 383803538740.0,
+        "covered_lots": 2302324.0,
+        "financed_symbols": 820,
+        "financing_twd": 200457405000.0,
+        "lot_coverage_pct": 99.96899747203476,
+        "lower_bound": true,
+        "missing_symbols": [
+          "5523",
+          "6129",
+          "6228",
+          "6624",
+          "7757",
+          "8087",
+          "8923",
+          "009807"
+        ],
+        "ratio": 191.46388667457808,
+        "total_lots": 2303038.0
+      },
+      "twse": {
+        "collateral_twd": 1126317239610.0,
+        "covered_lots": 9072598.0,
+        "financed_symbols": 1237,
+        "financing_twd": 588271579000.0,
+        "lot_coverage_pct": 99.9928030206593,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "00684R",
+          "1589"
+        ],
+        "ratio": 191.46212052681878,
+        "total_lots": 9073251.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1486534537790.0,
+        "covered_lots": 11352807.0,
+        "financed_symbols": 2057,
+        "financing_twd": 786334459000.0,
+        "lot_coverage_pct": 99.98163787026772,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00638R",
+          "上市:00656R",
+          "上市:00682U",
+          "上市:1589",
+          "上市:4581",
+          "上市:5906",
+          "上櫃:5523",
+          "上櫃:6129",
+          "上櫃:6210",
+          "上櫃:6228",
+          "上櫃:6496",
+          "上櫃:6624",
+          "上櫃:8087",
+          "上櫃:8905"
+        ],
+        "ratio": 189.0460885664938,
+        "total_lots": 11354892.0
+      },
+      "date": "2026-09-08",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/08&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/08&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260908&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260908&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 379140594090.0,
+        "covered_lots": 2305774.0,
+        "financed_symbols": 820,
+        "financing_twd": 200067483000.0,
+        "lot_coverage_pct": 99.98022747080734,
+        "lower_bound": true,
+        "missing_symbols": [
+          "5523",
+          "6129",
+          "6210",
+          "6228",
+          "6496",
+          "6624",
+          "8087",
+          "8905"
+        ],
+        "ratio": 189.50635475830921,
+        "total_lots": 2306230.0
+      },
+      "twse": {
+        "collateral_twd": 1107393943700.0,
+        "covered_lots": 9047033.0,
+        "financed_symbols": 1237,
+        "financing_twd": 586266976000.0,
+        "lot_coverage_pct": 99.98199733839103,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00638R",
+          "00656R",
+          "00682U",
+          "1589",
+          "4581",
+          "5906"
+        ],
+        "ratio": 188.8890196844381,
+        "total_lots": 9048662.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1498528375020.0,
+        "covered_lots": 11384749.0,
+        "financed_symbols": 2059,
+        "financing_twd": 787751371000.0,
+        "lot_coverage_pct": 99.97474451433025,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00684R",
+          "上市:1589",
+          "上櫃:2064",
+          "上櫃:4568",
+          "上櫃:4728",
+          "上櫃:5520",
+          "上櫃:5601",
+          "上櫃:6129",
+          "上櫃:6169",
+          "上櫃:6228",
+          "上櫃:6542"
+        ],
+        "ratio": 190.22859625337293,
+        "total_lots": 11387625.0
+      },
+      "date": "2026-09-09",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/09&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/09&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260909&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260909&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 382204782790.0,
+        "covered_lots": 2314684.0,
+        "financed_symbols": 821,
+        "financing_twd": 200584560000.0,
+        "lot_coverage_pct": 99.90388064107772,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "4568",
+          "4728",
+          "5520",
+          "5601",
+          "6129",
+          "6169",
+          "6228",
+          "6542"
+        ],
+        "ratio": 190.54546510957772,
+        "total_lots": 2316911.0
+      },
+      "twse": {
+        "collateral_twd": 1116323592230.0,
+        "covered_lots": 9070065.0,
+        "financed_symbols": 1238,
+        "financing_twd": 587166811000.0,
+        "lot_coverage_pct": 99.99284510568849,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00684R",
+          "1589"
+        ],
+        "ratio": 190.1203493311886,
+        "total_lots": 9070714.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1500170199520.0,
+        "covered_lots": 11395998.0,
+        "financed_symbols": 2060,
+        "financing_twd": 793171388000.0,
+        "lot_coverage_pct": 99.73806064050646,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00684R",
+          "上市:1589",
+          "上市:3164",
+          "上市:3356",
+          "上市:3591",
+          "上市:6807",
+          "上櫃:2235",
+          "上櫃:5016",
+          "上櫃:5601",
+          "上櫃:6129",
+          "上櫃:6212",
+          "上櫃:6228",
+          "上櫃:8437"
+        ],
+        "ratio": 189.13569276656764,
+        "total_lots": 11425927.0
+      },
+      "date": "2026-09-10",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/10&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/10&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260910&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260910&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 380600845060.0,
+        "covered_lots": 2322142.0,
+        "financed_symbols": 823,
+        "financing_twd": 201273701000.0,
+        "lot_coverage_pct": 99.96224740305611,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2235",
+          "5016",
+          "5601",
+          "6129",
+          "6212",
+          "6228",
+          "8437"
+        ],
+        "ratio": 189.09616267253912,
+        "total_lots": 2323019.0
+      },
+      "twse": {
+        "collateral_twd": 1119569354460.0,
+        "covered_lots": 9073856.0,
+        "financed_symbols": 1237,
+        "financing_twd": 591897687000.0,
+        "lot_coverage_pct": 99.68084924070418,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00684R",
+          "1589",
+          "3164",
+          "3356",
+          "3591",
+          "6807"
+        ],
+        "ratio": 189.1491349010796,
+        "total_lots": 9102908.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1452255106230.0,
+        "covered_lots": 11407160.0,
+        "financed_symbols": 2060,
+        "financing_twd": 787440150000.0,
+        "lot_coverage_pct": 99.68339801405003,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1472",
+          "上市:1589",
+          "上市:2024",
+          "上市:3356",
+          "上市:3591",
+          "上櫃:2064",
+          "上櫃:4305",
+          "上櫃:4568",
+          "上櫃:4728",
+          "上櫃:5310",
+          "上櫃:5455",
+          "上櫃:6129",
+          "上櫃:6195",
+          "上櫃:6212",
+          "上櫃:6228",
+          "上櫃:6496",
+          "上櫃:6615",
+          "上櫃:6720",
+          "上櫃:8905",
+          "上櫃:8941"
+        ],
+        "ratio": 184.42736330246814,
+        "total_lots": 11443390.0
+      },
+      "date": "2026-09-11",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/11&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/11&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260911&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260911&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 365927948470.0,
+        "covered_lots": 2309361.0,
+        "financed_symbols": 822,
+        "financing_twd": 199568970000.0,
+        "lot_coverage_pct": 99.8277386953789,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "4305",
+          "4568",
+          "4728",
+          "5310",
+          "5455",
+          "6129",
+          "6195",
+          "6212",
+          "6228",
+          "6496",
+          "6615",
+          "6720",
+          "8905",
+          "8941"
+        ],
+        "ratio": 183.3591406870517,
+        "total_lots": 2313346.0
+      },
+      "twse": {
+        "collateral_twd": 1086327157760.0,
+        "covered_lots": 9097799.0,
+        "financed_symbols": 1238,
+        "financing_twd": 587871180000.0,
+        "lot_coverage_pct": 99.64682536031589,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1472",
+          "1589",
+          "2024",
+          "3356",
+          "3591"
+        ],
+        "ratio": 184.79000072090622,
+        "total_lots": 9130044.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1431612158030.0,
+        "covered_lots": 11430277.0,
+        "financed_symbols": 2062,
+        "financing_twd": 781587759000.0,
+        "lot_coverage_pct": 99.70237425462723,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1472",
+          "上市:1589",
+          "上市:3356",
+          "上市:3591",
+          "上市:6641",
+          "上櫃:3095",
+          "上櫃:3285",
+          "上櫃:4413",
+          "上櫃:6228",
+          "上櫃:7782",
+          "上櫃:8102",
+          "上櫃:8433",
+          "上櫃:8923"
+        ],
+        "ratio": 183.1671672879923,
+        "total_lots": 11464398.0
+      },
+      "date": "2026-09-14",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/14&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/14&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260914&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260914&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 362246822920.0,
+        "covered_lots": 2296835.0,
+        "financed_symbols": 823,
+        "financing_twd": 197710150000.0,
+        "lot_coverage_pct": 99.91978001278126,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3095",
+          "3285",
+          "4413",
+          "6228",
+          "7782",
+          "8102",
+          "8433",
+          "8923"
+        ],
+        "ratio": 183.22115628357977,
+        "total_lots": 2298679.0
+      },
+      "twse": {
+        "collateral_twd": 1069365335110.0,
+        "covered_lots": 9133442.0,
+        "financed_symbols": 1239,
+        "financing_twd": 583877609000.0,
+        "lot_coverage_pct": 99.64785086690962,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1472",
+          "1589",
+          "3356",
+          "3591",
+          "6641"
+        ],
+        "ratio": 183.1488857641739,
+        "total_lots": 9165719.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1405250890810.0,
+        "covered_lots": 11453614.0,
+        "financed_symbols": 2061,
+        "financing_twd": 779729070000.0,
+        "lot_coverage_pct": 99.73014311505331,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上市:3356",
+          "上市:3591",
+          "上市:5906",
+          "上櫃:1259",
+          "上櫃:2719",
+          "上櫃:3531",
+          "上櫃:5601",
+          "上櫃:6228",
+          "上櫃:6692",
+          "上櫃:8107"
+        ],
+        "ratio": 180.2229703722602,
+        "total_lots": 11484606.0
+      },
+      "date": "2026-09-15",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/15&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/15&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260915&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260915&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 356111460180.0,
+        "covered_lots": 2291700.0,
+        "financed_symbols": 823,
+        "financing_twd": 197488605000.0,
+        "lot_coverage_pct": 99.89560153350232,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1259",
+          "2719",
+          "3531",
+          "5601",
+          "6228",
+          "6692",
+          "8107"
+        ],
+        "ratio": 180.32000387060307,
+        "total_lots": 2294095.0
+      },
+      "twse": {
+        "collateral_twd": 1049139430630.0,
+        "covered_lots": 9161914.0,
+        "financed_symbols": 1238,
+        "financing_twd": 582240465000.0,
+        "lot_coverage_pct": 99.68884211117314,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589",
+          "3356",
+          "3591",
+          "5906"
+        ],
+        "ratio": 180.19005783632713,
+        "total_lots": 9190511.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1451105023520.0,
+        "covered_lots": 11522698.0,
+        "financed_symbols": 2062,
+        "financing_twd": 785889577000.0,
+        "lot_coverage_pct": 99.74154637294119,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:00684R",
+          "上市:1423",
+          "上市:1541",
+          "上市:1589",
+          "上市:3168",
+          "上市:3356",
+          "上市:3591",
+          "上市:7732",
+          "上市:8499",
+          "上櫃:1259",
+          "上櫃:4305",
+          "上櫃:5523",
+          "上櫃:6212",
+          "上櫃:6730",
+          "上櫃:8923"
+        ],
+        "ratio": 184.64489999464644,
+        "total_lots": 11552556.0
+      },
+      "date": "2026-09-16",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/16&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/16&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260916&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260916&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 372999267100.0,
+        "covered_lots": 2303263.0,
+        "financed_symbols": 824,
+        "financing_twd": 199722917000.0,
+        "lot_coverage_pct": 99.98194192854126,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1259",
+          "4305",
+          "5523",
+          "6212",
+          "6730",
+          "8923"
+        ],
+        "ratio": 186.75837139911192,
+        "total_lots": 2303679.0
+      },
+      "twse": {
+        "collateral_twd": 1078105756420.0,
+        "covered_lots": 9219435.0,
+        "financed_symbols": 1238,
+        "financing_twd": 586166660000.0,
+        "lot_coverage_pct": 99.68166946105997,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "00684R",
+          "1423",
+          "1541",
+          "1589",
+          "3168",
+          "3356",
+          "3591",
+          "7732",
+          "8499"
+        ],
+        "ratio": 183.9247828288289,
+        "total_lots": 9248877.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1457411282340.0,
+        "covered_lots": 11543523.0,
+        "financed_symbols": 2062,
+        "financing_twd": 791327000000.0,
+        "lot_coverage_pct": 99.74995806854878,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:3356",
+          "上市:3591",
+          "上櫃:5520",
+          "上櫃:5601",
+          "上櫃:6228",
+          "上櫃:8917",
+          "上櫃:8923"
+        ],
+        "ratio": 184.17307665983847,
+        "total_lots": 11572459.0
+      },
+      "date": "2026-09-17",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/17&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/17&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260917&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260917&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 373250147760.0,
+        "covered_lots": 2309714.0,
+        "financed_symbols": 824,
+        "financing_twd": 201929733000.0,
+        "lot_coverage_pct": 99.98168939764179,
+        "lower_bound": true,
+        "missing_symbols": [
+          "5520",
+          "5601",
+          "6228",
+          "8917",
+          "8923"
+        ],
+        "ratio": 184.84159921114738,
+        "total_lots": 2310137.0
+      },
+      "twse": {
+        "collateral_twd": 1084161134580.0,
+        "covered_lots": 9233809.0,
+        "financed_symbols": 1238,
+        "financing_twd": 589397267000.0,
+        "lot_coverage_pct": 99.69216142561228,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "3356",
+          "3591"
+        ],
+        "ratio": 183.94403830515216,
+        "total_lots": 9262322.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1520301111080.0,
+        "covered_lots": 11575528.0,
+        "financed_symbols": 2059,
+        "financing_twd": 798656504000.0,
+        "lot_coverage_pct": 99.69866967129965,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上市:3356",
+          "上市:3591",
+          "上櫃:1240",
+          "上櫃:2235",
+          "上櫃:2751",
+          "上櫃:4305",
+          "上櫃:4413",
+          "上櫃:5601",
+          "上櫃:5902",
+          "上櫃:8923",
+          "上櫃:8929"
+        ],
+        "ratio": 190.35731925623935,
+        "total_lots": 11610514.0
+      },
+      "date": "2026-09-18",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/18&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/18&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260918&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260918&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 392790661180.0,
+        "covered_lots": 2323694.0,
+        "financed_symbols": 824,
+        "financing_twd": 204617024000.0,
+        "lot_coverage_pct": 99.69944638925918,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1240",
+          "2235",
+          "2751",
+          "4305",
+          "4413",
+          "5601",
+          "5902",
+          "8923",
+          "8929"
+        ],
+        "ratio": 191.9638227071468,
+        "total_lots": 2330699.0
+      },
+      "twse": {
+        "collateral_twd": 1127510449900.0,
+        "covered_lots": 9251834.0,
+        "financed_symbols": 1235,
+        "financing_twd": 594039480000.0,
+        "lot_coverage_pct": 99.6984745924353,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589",
+          "3356",
+          "3591"
+        ],
+        "ratio": 189.80395880421955,
+        "total_lots": 9279815.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1550369676620.0,
+        "covered_lots": 11662215.0,
+        "financed_symbols": 2057,
+        "financing_twd": 809766318000.0,
+        "lot_coverage_pct": 99.99069731551104,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00656R",
+          "上市:1589",
+          "上櫃:1240",
+          "上櫃:2926",
+          "上櫃:4502",
+          "上櫃:5520",
+          "上櫃:6212",
+          "上櫃:6615"
+        ],
+        "ratio": 191.45889896349084,
+        "total_lots": 11663300.0
+      },
+      "date": "2026-09-21",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/21&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/21&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260921&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260921&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 395907933360.0,
+        "covered_lots": 2332430.0,
+        "financed_symbols": 824,
+        "financing_twd": 206728540000.0,
+        "lot_coverage_pct": 99.98315345827781,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1240",
+          "2926",
+          "4502",
+          "5520",
+          "6212",
+          "6615"
+        ],
+        "ratio": 191.51101892365708,
+        "total_lots": 2332823.0
+      },
+      "twse": {
+        "collateral_twd": 1154461743260.0,
+        "covered_lots": 9329785.0,
+        "financed_symbols": 1233,
+        "financing_twd": 603037778000.0,
+        "lot_coverage_pct": 99.99258344455487,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00656R",
+          "1589"
+        ],
+        "ratio": 191.44103161974704,
+        "total_lots": 9330477.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1568051548390.0,
+        "covered_lots": 11579586.0,
+        "financed_symbols": 2058,
+        "financing_twd": 813385463000.0,
+        "lot_coverage_pct": 99.99197790426419,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1525",
+          "上市:1589",
+          "上櫃:4305",
+          "上櫃:4530",
+          "上櫃:6228",
+          "上櫃:6482"
+        ],
+        "ratio": 192.78086709425247,
+        "total_lots": 11580515.0
+      },
+      "date": "2026-09-22",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/22&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/22&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260922&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260922&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 399919037300.0,
+        "covered_lots": 2334980.0,
+        "financed_symbols": 823,
+        "financing_twd": 208524048000.0,
+        "lot_coverage_pct": 99.9929768785137,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4305",
+          "4530",
+          "6228",
+          "6482"
+        ],
+        "ratio": 191.7855715615112,
+        "total_lots": 2335144.0
+      },
+      "twse": {
+        "collateral_twd": 1168132511090.0,
+        "covered_lots": 9244606.0,
+        "financed_symbols": 1235,
+        "financing_twd": 604861415000.0,
+        "lot_coverage_pct": 99.99172558894608,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1525",
+          "1589"
+        ],
+        "ratio": 193.12399206188414,
+        "total_lots": 9245371.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1573835550910.0,
+        "covered_lots": 11625242.0,
+        "financed_symbols": 2058,
+        "financing_twd": 817219243000.0,
+        "lot_coverage_pct": 99.96377302289746,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上市:2601",
+          "上市:6952",
+          "上市:7732",
+          "上櫃:1259",
+          "上櫃:2235",
+          "上櫃:3118",
+          "上櫃:3684",
+          "上櫃:4305",
+          "上櫃:5601",
+          "上櫃:6751",
+          "上櫃:8183",
+          "上櫃:8923"
+        ],
+        "ratio": 192.58425011291615,
+        "total_lots": 11629455.0
+      },
+      "date": "2026-09-23",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/23&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/23&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260923&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260923&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 400870330820.0,
+        "covered_lots": 2343825.0,
+        "financed_symbols": 823,
+        "financing_twd": 210851410000.0,
+        "lot_coverage_pct": 99.85659454215698,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1259",
+          "2235",
+          "3118",
+          "3684",
+          "4305",
+          "5601",
+          "6751",
+          "8183",
+          "8923"
+        ],
+        "ratio": 190.11982458168052,
+        "total_lots": 2347191.0
+      },
+      "twse": {
+        "collateral_twd": 1172965220090.0,
+        "covered_lots": 9281417.0,
+        "financed_symbols": 1235,
+        "financing_twd": 606367833000.0,
+        "lot_coverage_pct": 99.99087507099561,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589",
+          "2601",
+          "6952",
+          "7732"
+        ],
+        "ratio": 193.44120124030394,
+        "total_lots": 9282264.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1594955922140.0,
+        "covered_lots": 11624862.0,
+        "financed_symbols": 2059,
+        "financing_twd": 826830915000.0,
+        "lot_coverage_pct": 99.96644527311759,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1541",
+          "上市:1589",
+          "上市:2601",
+          "上市:5906",
+          "上市:6655",
+          "上市:6807",
+          "上櫃:2064",
+          "上櫃:2926",
+          "上櫃:6615",
+          "上櫃:7782",
+          "上櫃:8183",
+          "上櫃:8923"
+        ],
+        "ratio": 192.8998895910901,
+        "total_lots": 11628764.0
+      },
+      "date": "2026-09-24",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/24&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/24&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260924&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260924&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 402441327160.0,
+        "covered_lots": 2346158.0,
+        "financed_symbols": 824,
+        "financing_twd": 211727513000.0,
+        "lot_coverage_pct": 99.87680136497616,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "2926",
+          "6615",
+          "7782",
+          "8183",
+          "8923"
+        ],
+        "ratio": 190.07512129989453,
+        "total_lots": 2349052.0
+      },
+      "twse": {
+        "collateral_twd": 1192514594980.0,
+        "covered_lots": 9278704.0,
+        "financed_symbols": 1235,
+        "financing_twd": 615103402000.0,
+        "lot_coverage_pct": 99.98913759392532,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1541",
+          "1589",
+          "2601",
+          "5906",
+          "6655",
+          "6807"
+        ],
+        "ratio": 193.87221580998505,
+        "total_lots": 9279712.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1591047675340.0,
+        "covered_lots": 11666046.0,
+        "financed_symbols": 2059,
+        "financing_twd": 832328644000.0,
+        "lot_coverage_pct": 99.96861960899108,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2601",
+          "上市:5906",
+          "上櫃:2235",
+          "上櫃:3332",
+          "上櫃:3531",
+          "上櫃:6496",
+          "上櫃:6542",
+          "上櫃:8102",
+          "上櫃:8183"
+        ],
+        "ratio": 191.15618413584238,
+        "total_lots": 11669708.0
+      },
+      "date": "2026-09-29",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/29&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/29&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260929&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260929&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 404394726420.0,
+        "covered_lots": 2364205.0,
+        "financed_symbols": 824,
+        "financing_twd": 213675300000.0,
+        "lot_coverage_pct": 99.87744528550897,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2235",
+          "3332",
+          "3531",
+          "6496",
+          "6542",
+          "8102",
+          "8183"
+        ],
+        "ratio": 189.2566555048712,
+        "total_lots": 2367106.0
+      },
+      "twse": {
+        "collateral_twd": 1186652948920.0,
+        "covered_lots": 9301841.0,
+        "financed_symbols": 1235,
+        "financing_twd": 618653344000.0,
+        "lot_coverage_pct": 99.99181949308377,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2601",
+          "5906"
+        ],
+        "ratio": 191.81225809716145,
+        "total_lots": 9302602.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1619983319010.0,
+        "covered_lots": 11663345.0,
+        "financed_symbols": 2059,
+        "financing_twd": 838131378000.0,
+        "lot_coverage_pct": 99.9704203279118,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00684R",
+          "上市:1589",
+          "上市:2601",
+          "上櫃:2064",
+          "上櫃:4305",
+          "上櫃:4527",
+          "上櫃:5455",
+          "上櫃:5520",
+          "上櫃:5601",
+          "上櫃:6212",
+          "上櫃:8183"
+        ],
+        "ratio": 193.28512945973966,
+        "total_lots": 11666796.0
+      },
+      "date": "2026-09-30",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/09/30&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/09/30&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260930&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20260930&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 414908884130.0,
+        "covered_lots": 2377787.0,
+        "financed_symbols": 824,
+        "financing_twd": 215878925000.0,
+        "lot_coverage_pct": 99.88695547700924,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "4305",
+          "4527",
+          "5455",
+          "5520",
+          "5601",
+          "6212",
+          "8183"
+        ],
+        "ratio": 192.195177982288,
+        "total_lots": 2380478.0
+      },
+      "twse": {
+        "collateral_twd": 1205074434880.0,
+        "covered_lots": 9285558.0,
+        "financed_symbols": 1235,
+        "financing_twd": 622252453000.0,
+        "lot_coverage_pct": 99.9918159167067,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00684R",
+          "1589",
+          "2601"
+        ],
+        "ratio": 193.66326786983353,
+        "total_lots": 9286318.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1648421104140.0,
+        "covered_lots": 11712497.0,
+        "financed_symbols": 2058,
+        "financing_twd": 848739169000.0,
+        "lot_coverage_pct": 99.69960299756882,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00666R",
+          "上市:1589",
+          "上市:2323",
+          "上市:2601",
+          "上市:6655",
+          "上櫃:2235",
+          "上櫃:4527",
+          "上櫃:5455",
+          "上櫃:6114",
+          "上櫃:6222",
+          "上櫃:7767",
+          "上櫃:8424",
+          "上櫃:8917",
+          "上櫃:8923"
+        ],
+        "ratio": 194.21998705234728,
+        "total_lots": 11747787.0
+      },
+      "date": "2026-10-01",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/01&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/01&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261001&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261001&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 419706844020.0,
+        "covered_lots": 2393204.0,
+        "financed_symbols": 824,
+        "financing_twd": 218871976000.0,
+        "lot_coverage_pct": 99.92622040099859,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2235",
+          "4527",
+          "5455",
+          "6114",
+          "6222",
+          "7767",
+          "8424",
+          "8917",
+          "8923"
+        ],
+        "ratio": 191.75906010918456,
+        "total_lots": 2394971.0
+      },
+      "twse": {
+        "collateral_twd": 1228714260120.0,
+        "covered_lots": 9319293.0,
+        "financed_symbols": 1234,
+        "financing_twd": 629867193000.0,
+        "lot_coverage_pct": 99.6415731903632,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00666R",
+          "1589",
+          "2323",
+          "2601",
+          "6655"
+        ],
+        "ratio": 195.07513230967723,
+        "total_lots": 9352816.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1686732596740.0,
+        "covered_lots": 11771079.0,
+        "financed_symbols": 2055,
+        "financing_twd": 856643194000.0,
+        "lot_coverage_pct": 99.70791731117225,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2323",
+          "上市:2601",
+          "上櫃:2751",
+          "上櫃:3684",
+          "上櫃:4175",
+          "上櫃:4305",
+          "上櫃:4527",
+          "上櫃:5455",
+          "上櫃:6276",
+          "上櫃:7584",
+          "上櫃:8905",
+          "上櫃:8917",
+          "上櫃:8923"
+        ],
+        "ratio": 196.90025071745333,
+        "total_lots": 11805561.0
+      },
+      "date": "2026-10-02",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/02&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/02&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261002&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261002&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 435486270960.0,
+        "covered_lots": 2406253.0,
+        "financed_symbols": 822,
+        "financing_twd": 221538772000.0,
+        "lot_coverage_pct": 99.9459202385823,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2751",
+          "3684",
+          "4175",
+          "4305",
+          "4527",
+          "5455",
+          "6276",
+          "7584",
+          "8905",
+          "8917",
+          "8923"
+        ],
+        "ratio": 196.57338849923752,
+        "total_lots": 2407555.0
+      },
+      "twse": {
+        "collateral_twd": 1251246325780.0,
+        "covered_lots": 9364826.0,
+        "financed_symbols": 1233,
+        "financing_twd": 635104422000.0,
+        "lot_coverage_pct": 99.64694638415851,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2323",
+          "2601"
+        ],
+        "ratio": 197.01426764432134,
+        "total_lots": 9398006.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1716623949810.0,
+        "covered_lots": 11789433.0,
+        "financed_symbols": 2057,
+        "financing_twd": 857525076000.0,
+        "lot_coverage_pct": 99.7193766858587,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2323",
+          "上櫃:1259",
+          "上櫃:4305",
+          "上櫃:4527",
+          "上櫃:5514",
+          "上櫃:5601",
+          "上櫃:6169",
+          "上櫃:8905"
+        ],
+        "ratio": 200.18352790536937,
+        "total_lots": 11822610.0
+      },
+      "date": "2026-10-05",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/05&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/05&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261005&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261005&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 445684802160.0,
+        "covered_lots": 2412953.0,
+        "financed_symbols": 823,
+        "financing_twd": 224173355000.0,
+        "lot_coverage_pct": 99.99183639641133,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1259",
+          "4305",
+          "4527",
+          "5514",
+          "5601",
+          "6169",
+          "8905"
+        ],
+        "ratio": 198.81256724734303,
+        "total_lots": 2413150.0
+      },
+      "twse": {
+        "collateral_twd": 1270939147650.0,
+        "covered_lots": 9376480.0,
+        "financed_symbols": 1234,
+        "financing_twd": 633351721000.0,
+        "lot_coverage_pct": 99.64950167172186,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2323"
+        ],
+        "ratio": 200.668776212262,
+        "total_lots": 9409460.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1711809377750.0,
+        "covered_lots": 11742678.0,
+        "financed_symbols": 2056,
+        "financing_twd": 863808196000.0,
+        "lot_coverage_pct": 99.70104150242884,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2323",
+          "上櫃:4413",
+          "上櫃:4527",
+          "上櫃:6751",
+          "上櫃:8342",
+          "上櫃:8923",
+          "上櫃:9960"
+        ],
+        "ratio": 198.17007822764396,
+        "total_lots": 11777889.0
+      },
+      "date": "2026-10-06",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/06&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/06&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261006&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261006&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 442133769830.0,
+        "covered_lots": 2418860.0,
+        "financed_symbols": 824,
+        "financing_twd": 226151152000.0,
+        "lot_coverage_pct": 99.90785146035404,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4413",
+          "4527",
+          "6751",
+          "8342",
+          "8923",
+          "9960"
+        ],
+        "ratio": 195.50365581600045,
+        "total_lots": 2421091.0
+      },
+      "twse": {
+        "collateral_twd": 1269675607920.0,
+        "covered_lots": 9323818.0,
+        "financed_symbols": 1232,
+        "financing_twd": 637657044000.0,
+        "lot_coverage_pct": 99.64752899442738,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2323"
+        ],
+        "ratio": 199.1157503656464,
+        "total_lots": 9356798.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1719219179330.0,
+        "covered_lots": 11741596.0,
+        "financed_symbols": 2058,
+        "financing_twd": 868958974000.0,
+        "lot_coverage_pct": 99.61575941262178,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1439",
+          "上市:1589",
+          "上市:2323",
+          "上市:4155",
+          "上市:6807",
+          "上櫃:3171",
+          "上櫃:4175",
+          "上櫃:5601",
+          "上櫃:6167",
+          "上櫃:6173",
+          "上櫃:8923"
+        ],
+        "ratio": 197.84814137036577,
+        "total_lots": 11786886.0
+      },
+      "date": "2026-10-07",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/07&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/07&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261007&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261007&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 446202643930.0,
+        "covered_lots": 2418047.0,
+        "financed_symbols": 825,
+        "financing_twd": 228958200000.0,
+        "lot_coverage_pct": 99.56382996244811,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3171",
+          "4175",
+          "5601",
+          "6167",
+          "6173",
+          "8923"
+        ],
+        "ratio": 194.88388881900713,
+        "total_lots": 2428640.0
+      },
+      "twse": {
+        "collateral_twd": 1273016535400.0,
+        "covered_lots": 9323549.0,
+        "financed_symbols": 1233,
+        "financing_twd": 640000774000.0,
+        "lot_coverage_pct": 99.62923607693152,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1439",
+          "1589",
+          "2323",
+          "4155",
+          "6807"
+        ],
+        "ratio": 198.90859310117023,
+        "total_lots": 9358246.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1712543482930.0,
+        "covered_lots": 11778104.0,
+        "financed_symbols": 2054,
+        "financing_twd": 874277944000.0,
+        "lot_coverage_pct": 99.59260237619864,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上市:2323",
+          "上市:4155",
+          "上市:4581",
+          "上市:5906",
+          "上市:8488",
+          "上櫃:2718",
+          "上櫃:3332",
+          "上櫃:5520",
+          "上櫃:6167",
+          "上櫃:6173",
+          "上櫃:6212",
+          "上櫃:9949"
+        ],
+        "ratio": 195.8808974517605,
+        "total_lots": 11826284.0
+      },
+      "date": "2026-10-08",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/08&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/08&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261008&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261008&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 438749866620.0,
+        "covered_lots": 2405024.0,
+        "financed_symbols": 822,
+        "financing_twd": 227872177000.0,
+        "lot_coverage_pct": 99.39906528614246,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2718",
+          "3332",
+          "5520",
+          "6167",
+          "6173",
+          "6212",
+          "9949"
+        ],
+        "ratio": 192.54209636132978,
+        "total_lots": 2419564.0
+      },
+      "twse": {
+        "collateral_twd": 1273793616310.0,
+        "covered_lots": 9373080.0,
+        "financed_symbols": 1232,
+        "financing_twd": 646405767000.0,
+        "lot_coverage_pct": 99.64238331745815,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589",
+          "2323",
+          "4155",
+          "4581",
+          "5906",
+          "8488"
+        ],
+        "ratio": 197.05789789310467,
+        "total_lots": 9406720.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1719895657050.0,
+        "covered_lots": 11862158.0,
+        "financed_symbols": 2052,
+        "financing_twd": 881676004000.0,
+        "lot_coverage_pct": 99.89912529214757,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:4155",
+          "上市:8443",
+          "上櫃:2064",
+          "上櫃:2718",
+          "上櫃:4530",
+          "上櫃:5520",
+          "上櫃:6167",
+          "上櫃:6173",
+          "上櫃:6212",
+          "上櫃:6730",
+          "上櫃:8923"
+        ],
+        "ratio": 195.07116551285887,
+        "total_lots": 11874136.0
+      },
+      "date": "2026-10-12",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/12&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/12&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261012&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261012&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 438301310010.0,
+        "covered_lots": 2410177.0,
+        "financed_symbols": 821,
+        "financing_twd": 228346504000.0,
+        "lot_coverage_pct": 99.55147300577109,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "2718",
+          "4530",
+          "5520",
+          "6167",
+          "6173",
+          "6212",
+          "6730",
+          "8923"
+        ],
+        "ratio": 191.94570634197228,
+        "total_lots": 2421036.0
+      },
+      "twse": {
+        "collateral_twd": 1281594347040.0,
+        "covered_lots": 9451981.0,
+        "financed_symbols": 1231,
+        "financing_twd": 653329500000.0,
+        "lot_coverage_pct": 99.98816261332261,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "4155",
+          "8443"
+        ],
+        "ratio": 196.16355101675342,
+        "total_lots": 9453100.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1637007149500.0,
+        "covered_lots": 11802264.0,
+        "financed_symbols": 2052,
+        "financing_twd": 868179308000.0,
+        "lot_coverage_pct": 99.89725253150752,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00666R",
+          "上市:00682U",
+          "上市:1589",
+          "上市:4155",
+          "上市:5906",
+          "上櫃:3171",
+          "上櫃:3226",
+          "上櫃:6167",
+          "上櫃:6173",
+          "上櫃:6212",
+          "上櫃:6542",
+          "上櫃:6865",
+          "上櫃:8923"
+        ],
+        "ratio": 188.55634249923864,
+        "total_lots": 11814403.0
+      },
+      "date": "2026-10-13",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/13&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/13&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261013&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261013&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 411918826210.0,
+        "covered_lots": 2373131.0,
+        "financed_symbols": 819,
+        "financing_twd": 223200683000.0,
+        "lot_coverage_pct": 99.54750960393773,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3171",
+          "3226",
+          "6167",
+          "6173",
+          "6212",
+          "6542",
+          "6865",
+          "8923"
+        ],
+        "ratio": 184.55088070227814,
+        "total_lots": 2383918.0
+      },
+      "twse": {
+        "collateral_twd": 1225088323290.0,
+        "covered_lots": 9429133.0,
+        "financed_symbols": 1233,
+        "financing_twd": 644978625000.0,
+        "lot_coverage_pct": 99.98566351571526,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00666R",
+          "00682U",
+          "1589",
+          "4155",
+          "5906"
+        ],
+        "ratio": 189.94246875855768,
+        "total_lots": 9430485.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1673283207050.0,
+        "covered_lots": 11856655.0,
+        "financed_symbols": 2051,
+        "financing_twd": 877098044000.0,
+        "lot_coverage_pct": 99.9010229009769,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1423",
+          "上市:1589",
+          "上市:4155",
+          "上市:5906",
+          "上櫃:2064",
+          "上櫃:2751",
+          "上櫃:3332",
+          "上櫃:6167",
+          "上櫃:6173",
+          "上櫃:6212",
+          "上櫃:8923",
+          "上櫃:8929"
+        ],
+        "ratio": 190.77493314419021,
+        "total_lots": 11868402.0
+      },
+      "date": "2026-10-14",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/14&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/14&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261014&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261014&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 424800387540.0,
+        "covered_lots": 2390503.0,
+        "financed_symbols": 818,
+        "financing_twd": 225530654000.0,
+        "lot_coverage_pct": 99.55654600647773,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "2751",
+          "3332",
+          "6167",
+          "6173",
+          "6212",
+          "8923",
+          "8929"
+        ],
+        "ratio": 188.35594186677613,
+        "total_lots": 2401151.0
+      },
+      "twse": {
+        "collateral_twd": 1248482819510.0,
+        "covered_lots": 9466152.0,
+        "financed_symbols": 1233,
+        "financing_twd": 651567390000.0,
+        "lot_coverage_pct": 99.98839156160537,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1423",
+          "1589",
+          "4155",
+          "5906"
+        ],
+        "ratio": 191.6122320839292,
+        "total_lots": 9467251.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1562002218100.0,
+        "covered_lots": 11878018.0,
+        "financed_symbols": 2051,
+        "financing_twd": 865377916000.0,
+        "lot_coverage_pct": 99.90331815945699,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:4155",
+          "上市:5906",
+          "上櫃:5520",
+          "上櫃:5523",
+          "上櫃:6167",
+          "上櫃:6173",
+          "上櫃:6228",
+          "上櫃:6496",
+          "上櫃:8923"
+        ],
+        "ratio": 180.49943142990952,
+        "total_lots": 11889513.0
+      },
+      "date": "2026-10-15",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/15&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/15&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261015&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261015&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 386805863530.0,
+        "covered_lots": 2357778.0,
+        "financed_symbols": 817,
+        "financing_twd": 218962901000.0,
+        "lot_coverage_pct": 99.5564717377407,
+        "lower_bound": true,
+        "missing_symbols": [
+          "5520",
+          "5523",
+          "6167",
+          "6173",
+          "6228",
+          "6496",
+          "8923"
+        ],
+        "ratio": 176.65360742092105,
+        "total_lots": 2368282.0
+      },
+      "twse": {
+        "collateral_twd": 1175196354570.0,
+        "covered_lots": 9520240.0,
+        "financed_symbols": 1234,
+        "financing_twd": 646415015000.0,
+        "lot_coverage_pct": 99.98959168199994,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "4155",
+          "5906"
+        ],
+        "ratio": 181.80214371567467,
+        "total_lots": 9521231.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1571890181780.0,
+        "covered_lots": 11890231.0,
+        "financed_symbols": 2052,
+        "financing_twd": 863844167000.0,
+        "lot_coverage_pct": 99.89024048465231,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1470",
+          "上市:1589",
+          "上市:2910",
+          "上市:4155",
+          "上市:5906",
+          "上櫃:3332",
+          "上櫃:4305",
+          "上櫃:4413",
+          "上櫃:4502",
+          "上櫃:4530",
+          "上櫃:4535",
+          "上櫃:5455",
+          "上櫃:5520",
+          "上櫃:6167",
+          "上櫃:6173",
+          "上櫃:6624",
+          "上櫃:7782",
+          "上櫃:8279",
+          "上櫃:8917",
+          "上櫃:8923"
+        ],
+        "ratio": 181.9645535419816,
+        "total_lots": 11903296.0
+      },
+      "date": "2026-10-16",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/16&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/16&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261016&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261016&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 387965131970.0,
+        "covered_lots": 2352594.0,
+        "financed_symbols": 817,
+        "financing_twd": 218250119000.0,
+        "lot_coverage_pct": 99.490914442501,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3332",
+          "4305",
+          "4413",
+          "4502",
+          "4530",
+          "4535",
+          "5455",
+          "5520",
+          "6167",
+          "6173",
+          "6624",
+          "7782",
+          "8279",
+          "8917",
+          "8923"
+        ],
+        "ratio": 177.76170466601212,
+        "total_lots": 2364632.0
+      },
+      "twse": {
+        "collateral_twd": 1183925049810.0,
+        "covered_lots": 9537637.0,
+        "financed_symbols": 1235,
+        "financing_twd": 645594048000.0,
+        "lot_coverage_pct": 99.98923329304816,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1470",
+          "1589",
+          "2910",
+          "4155",
+          "5906"
+        ],
+        "ratio": 183.38537250733762,
+        "total_lots": 9538664.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1540170509590.0,
+        "covered_lots": 11940479.0,
+        "financed_symbols": 2050,
+        "financing_twd": 855838557000.0,
+        "lot_coverage_pct": 99.97313225194763,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:2939",
+          "上市:4581",
+          "上櫃:1593",
+          "上櫃:2926",
+          "上櫃:4305",
+          "上櫃:4530",
+          "上櫃:4728",
+          "上櫃:5455",
+          "上櫃:5601",
+          "上櫃:7782",
+          "上櫃:8923"
+        ],
+        "ratio": 179.9604022268887,
+        "total_lots": 11943688.0
+      },
+      "date": "2026-10-19",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/19&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/19&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261019&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261019&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 378737108200.0,
+        "covered_lots": 2348635.0,
+        "financed_symbols": 817,
+        "financing_twd": 215220125000.0,
+        "lot_coverage_pct": 99.90050932081766,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1593",
+          "2926",
+          "4305",
+          "4530",
+          "4728",
+          "5455",
+          "5601",
+          "7782",
+          "8923"
+        ],
+        "ratio": 175.9766230969339,
+        "total_lots": 2350974.0
+      },
+      "twse": {
+        "collateral_twd": 1161433401390.0,
+        "covered_lots": 9591844.0,
+        "financed_symbols": 1233,
+        "financing_twd": 640618432000.0,
+        "lot_coverage_pct": 99.99093061671599,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "2939",
+          "4581"
+        ],
+        "ratio": 181.2987799561159,
+        "total_lots": 9592714.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1514368899640.0,
+        "covered_lots": 11946150.0,
+        "financed_symbols": 2052,
+        "financing_twd": 853108341000.0,
+        "lot_coverage_pct": 99.99147078274359,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上櫃:4535",
+          "上櫃:4911",
+          "上櫃:5514",
+          "上櫃:6169",
+          "上櫃:6228",
+          "上櫃:6624",
+          "上櫃:7584",
+          "上櫃:7782"
+        ],
+        "ratio": 177.51190872953848,
+        "total_lots": 11947169.0
+      },
+      "date": "2026-10-20",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/20&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/20&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261020&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261020&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 372609550530.0,
+        "covered_lots": 2345820.0,
+        "financed_symbols": 817,
+        "financing_twd": 215008230000.0,
+        "lot_coverage_pct": 99.96923131995933,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4535",
+          "4911",
+          "5514",
+          "6169",
+          "6228",
+          "6624",
+          "7584",
+          "7782"
+        ],
+        "ratio": 173.30013392045504,
+        "total_lots": 2346542.0
+      },
+      "twse": {
+        "collateral_twd": 1141759349110.0,
+        "covered_lots": 9600330.0,
+        "financed_symbols": 1235,
+        "financing_twd": 638100111000.0,
+        "lot_coverage_pct": 99.99690645204736,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589"
+        ],
+        "ratio": 178.9310688758053,
+        "total_lots": 9600627.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1560991897200.0,
+        "covered_lots": 11983772.0,
+        "financed_symbols": 2050,
+        "financing_twd": 860341776000.0,
+        "lot_coverage_pct": 99.99415076491056,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上櫃:3332",
+          "上櫃:5455",
+          "上櫃:5601",
+          "上櫃:6212",
+          "上櫃:6624",
+          "上櫃:8102"
+        ],
+        "ratio": 181.43857949773673,
+        "total_lots": 11984473.0
+      },
+      "date": "2026-10-21",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/21&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/21&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261021&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261021&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 382776187760.0,
+        "covered_lots": 2351733.0,
+        "financed_symbols": 816,
+        "financing_twd": 215968217000.0,
+        "lot_coverage_pct": 99.98244156612728,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3332",
+          "5455",
+          "5601",
+          "6212",
+          "6624",
+          "8102"
+        ],
+        "ratio": 177.2372773536395,
+        "total_lots": 2352146.0
+      },
+      "twse": {
+        "collateral_twd": 1178215709440.0,
+        "covered_lots": 9632039.0,
+        "financed_symbols": 1234,
+        "financing_twd": 644373559000.0,
+        "lot_coverage_pct": 99.9970100682836,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589"
+        ],
+        "ratio": 182.84668776112832,
+        "total_lots": 9632327.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1481927543910.0,
+        "covered_lots": 11937317.0,
+        "financed_symbols": 2051,
+        "financing_twd": 846510627000.0,
+        "lot_coverage_pct": 99.96898924882464,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1583",
+          "上市:1589",
+          "上市:4581",
+          "上櫃:4139",
+          "上櫃:4305",
+          "上櫃:4530",
+          "上櫃:4535",
+          "上櫃:4728",
+          "上櫃:5455",
+          "上櫃:5520",
+          "上櫃:6212",
+          "上櫃:6843"
+        ],
+        "ratio": 175.06307619100923,
+        "total_lots": 11941020.0
+      },
+      "date": "2026-10-22",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/22&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/22&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261022&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261022&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 360004232020.0,
+        "covered_lots": 2333277.0,
+        "financed_symbols": 816,
+        "financing_twd": 212630453000.0,
+        "lot_coverage_pct": 99.85701556694333,
+        "lower_bound": true,
+        "missing_symbols": [
+          "4139",
+          "4305",
+          "4530",
+          "4535",
+          "4728",
+          "5455",
+          "5520",
+          "6212",
+          "6843"
+        ],
+        "ratio": 169.3098175452789,
+        "total_lots": 2336618.0
+      },
+      "twse": {
+        "collateral_twd": 1121923311890.0,
+        "covered_lots": 9604040.0,
+        "financed_symbols": 1235,
+        "financing_twd": 633880174000.0,
+        "lot_coverage_pct": 99.99623089495837,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1583",
+          "1589",
+          "4581"
+        ],
+        "ratio": 176.99296458671068,
+        "total_lots": 9604402.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1450442931620.0,
+        "covered_lots": 11866649.0,
+        "financed_symbols": 2053,
+        "financing_twd": 832650517000.0,
+        "lot_coverage_pct": 99.96088884006896,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上櫃:3310",
+          "上櫃:3332",
+          "上櫃:4139",
+          "上櫃:4305",
+          "上櫃:5520",
+          "上櫃:6212",
+          "上櫃:6222",
+          "上櫃:6542",
+          "上櫃:8917",
+          "上櫃:8928"
+        ],
+        "ratio": 174.19588434843908,
+        "total_lots": 11871292.0
+      },
+      "date": "2026-10-27",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/27&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/27&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261027&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261027&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 352749130910.0,
+        "covered_lots": 2316318.0,
+        "financed_symbols": 816,
+        "financing_twd": 209263657000.0,
+        "lot_coverage_pct": 99.81199484116947,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3310",
+          "3332",
+          "4139",
+          "4305",
+          "5520",
+          "6212",
+          "6222",
+          "6542",
+          "8917",
+          "8928"
+        ],
+        "ratio": 168.56683858392097,
+        "total_lots": 2320681.0
+      },
+      "twse": {
+        "collateral_twd": 1097693800710.0,
+        "covered_lots": 9550331.0,
+        "financed_symbols": 1237,
+        "financing_twd": 623386860000.0,
+        "lot_coverage_pct": 99.9970682503978,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589"
+        ],
+        "ratio": 176.08548898672646,
+        "total_lots": 9550611.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1533707969090.0,
+        "covered_lots": 11883273.0,
+        "financed_symbols": 2053,
+        "financing_twd": 843541285000.0,
+        "lot_coverage_pct": 99.99508577055413,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00647L",
+          "上市:00682U",
+          "上市:1589",
+          "上櫃:2064",
+          "上櫃:2751",
+          "上櫃:4305",
+          "上櫃:5455",
+          "上櫃:5520",
+          "上櫃:6195",
+          "上櫃:6212",
+          "上櫃:7782"
+        ],
+        "ratio": 181.81777185807806,
+        "total_lots": 11883857.0
+      },
+      "date": "2026-10-28",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/28&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/28&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261028&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261028&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 374969576570.0,
+        "covered_lots": 2332672.0,
+        "financed_symbols": 816,
+        "financing_twd": 211241733000.0,
+        "lot_coverage_pct": 99.98825519321922,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "2751",
+          "4305",
+          "5455",
+          "5520",
+          "6195",
+          "6212",
+          "7782"
+        ],
+        "ratio": 177.50733779958148,
+        "total_lots": 2332946.0
+      },
+      "twse": {
+        "collateral_twd": 1158738392520.0,
+        "covered_lots": 9550601.0,
+        "financed_symbols": 1237,
+        "financing_twd": 632299552000.0,
+        "lot_coverage_pct": 99.99675423632364,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00647L",
+          "00682U",
+          "1589"
+        ],
+        "ratio": 183.25782279219453,
+        "total_lots": 9550911.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1498630099260.0,
+        "covered_lots": 11920551.0,
+        "financed_symbols": 2053,
+        "financing_twd": 843869729000.0,
+        "lot_coverage_pct": 99.9720057776452,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:7732",
+          "上市:8481",
+          "上市:8487",
+          "上市:9918",
+          "上櫃:2719",
+          "上櫃:3171",
+          "上櫃:3646",
+          "上櫃:4207",
+          "上櫃:4305",
+          "上櫃:4530",
+          "上櫃:5455",
+          "上櫃:5520",
+          "上櫃:6210",
+          "上櫃:6569",
+          "上櫃:8923"
+        ],
+        "ratio": 177.59021893532102,
+        "total_lots": 11923889.0
+      },
+      "date": "2026-10-29",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/29&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/29&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261029&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261029&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 367485832920.0,
+        "covered_lots": 2332174.0,
+        "financed_symbols": 816,
+        "financing_twd": 209958881000.0,
+        "lot_coverage_pct": 99.87341175866011,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2719",
+          "3171",
+          "3646",
+          "4207",
+          "4305",
+          "4530",
+          "5455",
+          "5520",
+          "6210",
+          "6569",
+          "8923"
+        ],
+        "ratio": 175.02752499428686,
+        "total_lots": 2335130.0
+      },
+      "twse": {
+        "collateral_twd": 1131144266340.0,
+        "covered_lots": 9588377.0,
+        "financed_symbols": 1237,
+        "financing_twd": 633910848000.0,
+        "lot_coverage_pct": 99.99601616851565,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "7732",
+          "8481",
+          "8487",
+          "9918"
+        ],
+        "ratio": 178.4390139258194,
+        "total_lots": 9588759.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1413639464220.0,
+        "covered_lots": 11861566.0,
+        "financed_symbols": 2054,
+        "financing_twd": 828769231000.0,
+        "lot_coverage_pct": 99.98793728094174,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1470",
+          "上市:1589",
+          "上市:5906",
+          "上櫃:2719",
+          "上櫃:4207",
+          "上櫃:5520",
+          "上櫃:5523",
+          "上櫃:6212",
+          "上櫃:7728",
+          "上櫃:009807"
+        ],
+        "ratio": 170.57093957437232,
+        "total_lots": 11862997.0
+      },
+      "date": "2026-10-30",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/10/30&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/10/30&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261030&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261030&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 342853584570.0,
+        "covered_lots": 2305979.0,
+        "financed_symbols": 816,
+        "financing_twd": 205301345000.0,
+        "lot_coverage_pct": 99.94413306126553,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2719",
+          "4207",
+          "5520",
+          "5523",
+          "6212",
+          "7728",
+          "009807"
+        ],
+        "ratio": 167.00016484061516,
+        "total_lots": 2307268.0
+      },
+      "twse": {
+        "collateral_twd": 1070785879650.0,
+        "covered_lots": 9555587.0,
+        "financed_symbols": 1238,
+        "financing_twd": 623467886000.0,
+        "lot_coverage_pct": 99.99851398046135,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1470",
+          "1589",
+          "5906"
+        ],
+        "ratio": 171.74675772313955,
+        "total_lots": 9555729.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1411025039620.0,
+        "covered_lots": 11878081.0,
+        "financed_symbols": 2055,
+        "financing_twd": 827110895000.0,
+        "lot_coverage_pct": 99.98378788834047,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:00684R",
+          "上市:1589",
+          "上市:5906",
+          "上市:6671",
+          "上市:6952",
+          "上櫃:00982B",
+          "上櫃:3118",
+          "上櫃:4153",
+          "上櫃:4207",
+          "上櫃:4550",
+          "上櫃:5514",
+          "上櫃:5523",
+          "上櫃:6496",
+          "上櫃:6730",
+          "上櫃:6899",
+          "上櫃:8102",
+          "上櫃:8905",
+          "上櫃:8917"
+        ],
+        "ratio": 170.59683872499346,
+        "total_lots": 11880007.0
+      },
+      "date": "2026-11-02",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/11/02&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/11/02&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261102&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261102&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 341828960260.0,
+        "covered_lots": 2307146.0,
+        "financed_symbols": 816,
+        "financing_twd": 204411530000.0,
+        "lot_coverage_pct": 99.92334064989805,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00982B",
+          "3118",
+          "4153",
+          "4207",
+          "4550",
+          "5514",
+          "5523",
+          "6496",
+          "6730",
+          "6899",
+          "8102",
+          "8905",
+          "8917"
+        ],
+        "ratio": 167.22587040956057,
+        "total_lots": 2308916.0
+      },
+      "twse": {
+        "collateral_twd": 1069196079360.0,
+        "covered_lots": 9570935.0,
+        "financed_symbols": 1239,
+        "financing_twd": 622699365000.0,
+        "lot_coverage_pct": 99.99837009176906,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "00684R",
+          "1589",
+          "5906",
+          "6671",
+          "6952"
+        ],
+        "ratio": 171.70341571811304,
+        "total_lots": 9571091.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1283778168340.0,
+        "covered_lots": 11748702.0,
+        "financed_symbols": 2051,
+        "financing_twd": 796337364000.0,
+        "lot_coverage_pct": 99.97065218103477,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00666R",
+          "上市:00684R",
+          "上市:1423",
+          "上市:1589",
+          "上市:5906",
+          "上櫃:3646",
+          "上櫃:4153",
+          "上櫃:4207",
+          "上櫃:4406",
+          "上櫃:5455",
+          "上櫃:5523",
+          "上櫃:5601",
+          "上櫃:6212",
+          "上櫃:6542"
+        ],
+        "ratio": 161.21033953393652,
+        "total_lots": 11752151.0
+      },
+      "date": "2026-11-03",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/11/03&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/11/03&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261103&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261103&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 308131456420.0,
+        "covered_lots": 2266213.0,
+        "financed_symbols": 812,
+        "financing_twd": 196562898000.0,
+        "lot_coverage_pct": 99.86343878673361,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3646",
+          "4153",
+          "4207",
+          "4406",
+          "5455",
+          "5523",
+          "5601",
+          "6212",
+          "6542"
+        ],
+        "ratio": 156.75972401465103,
+        "total_lots": 2269312.0
+      },
+      "twse": {
+        "collateral_twd": 975646711920.0,
+        "covered_lots": 9482489.0,
+        "financed_symbols": 1239,
+        "financing_twd": 599774466000.0,
+        "lot_coverage_pct": 99.99630912219432,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00666R",
+          "00684R",
+          "1423",
+          "1589",
+          "5906"
+        ],
+        "ratio": 162.6689309444527,
+        "total_lots": 9482839.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1286120013260.0,
+        "covered_lots": 11764799.0,
+        "financed_symbols": 2053,
+        "financing_twd": 787865089000.0,
+        "lot_coverage_pct": 99.99397391085876,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上櫃:2235",
+          "上櫃:4207",
+          "上櫃:4530",
+          "上櫃:5601",
+          "上櫃:6222"
+        ],
+        "ratio": 163.2411476554205,
+        "total_lots": 11765508.0
+      },
+      "date": "2026-11-04",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/11/04&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/11/04&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261104&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261104&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 303164230400.0,
+        "covered_lots": 2249889.0,
+        "financed_symbols": 815,
+        "financing_twd": 190919219000.0,
+        "lot_coverage_pct": 99.9687193552988,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2235",
+          "4207",
+          "4530",
+          "5601",
+          "6222"
+        ],
+        "ratio": 158.79188694984134,
+        "total_lots": 2250593.0
+      },
+      "twse": {
+        "collateral_twd": 982955782860.0,
+        "covered_lots": 9514910.0,
+        "financed_symbols": 1238,
+        "financing_twd": 596945870000.0,
+        "lot_coverage_pct": 99.9999474509231,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589"
+        ],
+        "ratio": 164.6641399596248,
+        "total_lots": 9514915.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1171901569450.0,
+        "covered_lots": 11638839.0,
+        "financed_symbols": 2053,
+        "financing_twd": 760446342000.0,
+        "lot_coverage_pct": 99.80943415011721,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00682U",
+          "上市:1589",
+          "上市:3714",
+          "上市:5906",
+          "上櫃:3226",
+          "上櫃:4207",
+          "上櫃:6615",
+          "上櫃:6649"
+        ],
+        "ratio": 154.10706906260586,
+        "total_lots": 11661061.0
+      },
+      "date": "2026-11-05",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/11/05&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/11/05&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261105&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261105&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 274239624030.0,
+        "covered_lots": 2218865.0,
+        "financed_symbols": 814,
+        "financing_twd": 184037303000.0,
+        "lot_coverage_pct": 99.92159797820955,
+        "lower_bound": true,
+        "missing_symbols": [
+          "3226",
+          "4207",
+          "6615",
+          "6649"
+        ],
+        "ratio": 149.01306396019072,
+        "total_lots": 2220606.0
+      },
+      "twse": {
+        "collateral_twd": 897661945420.0,
+        "covered_lots": 9419974.0,
+        "financed_symbols": 1239,
+        "financing_twd": 576409039000.0,
+        "lot_coverage_pct": 99.78305071100915,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00682U",
+          "1589",
+          "3714",
+          "5906"
+        ],
+        "ratio": 155.73349560536644,
+        "total_lots": 9440455.0
+      }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1055869822250.0,
+        "covered_lots": 11157417.0,
+        "financed_symbols": 2055,
+        "financing_twd": 704026732000.0,
+        "lot_coverage_pct": 99.79201606057454,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:1589",
+          "上市:3714",
+          "上市:5906",
+          "上櫃:2064",
+          "上櫃:3531",
+          "上櫃:4207",
+          "上櫃:4406",
+          "上櫃:4728",
+          "上櫃:6212",
+          "上櫃:6624"
+        ],
+        "ratio": 149.97581402207325,
+        "total_lots": 11180671.0
+      },
+      "date": "2026-11-06",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/11/06&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/11/06&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261106&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261106&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 244525910630.0,
+        "covered_lots": 2139943.0,
+        "financed_symbols": 815,
+        "financing_twd": 169974100000.0,
+        "lot_coverage_pct": 99.87025854485158,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "3531",
+          "4207",
+          "4406",
+          "4728",
+          "6212",
+          "6624"
+        ],
+        "ratio": 143.860688557845,
+        "total_lots": 2142723.0
+      },
+      "twse": {
+        "collateral_twd": 811343911620.0,
+        "covered_lots": 9017474.0,
+        "financed_symbols": 1240,
+        "financing_twd": 534052632000.0,
+        "lot_coverage_pct": 99.77346627796486,
+        "lower_bound": true,
+        "missing_symbols": [
+          "1589",
+          "3714",
+          "5906"
+        ],
+        "ratio": 151.9220883869738,
+        "total_lots": 9037948.0
+      }
+    }
+  ],
+  "method_version": "same-day-collateral-v1",
+  "schema_version": 1,
+  "updated_at": "2026-11-09T00:43:49+08:00"
+}

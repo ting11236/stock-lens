@@ -5,6 +5,7 @@
 <title>Stock Lens｜上市台股分類估值研究</title>
 <link rel="stylesheet" href="styles.css?v=20261011-meeting-updates"><script src="app.js?v=20261104-material-events" defer></script>
 <link rel="stylesheet" href="weekly-investment.css?v=2026-W41-ui-cards-r14"><script src="weekly-investment.js?v=2026-W43-v1" defer></script>
+<link rel="stylesheet" href="margin-observation.css?v=20261109-v1"><script src="margin-observation.js?v=20261109-v1" defer></script>
 </head>
 <body>
 <div class="shell">
@@ -12,7 +13,7 @@
 <main>
 <section class="hero"><div class="market-summary"><span><b id="marketCount">—</b>上市股票</span><span><b id="marketDate">—</b>最近股價日期</span></div></section>
 <div id="notice" class="notice" role="status">正在載入市場資料…</div><p class="tiny" id="lastUpdated">每日台灣時間 18:20 嘗試更新；非即時行情。</p>
-<section id="marketMovers" class="market-movers" aria-label="最近股票漲跌排行"><button id="moversOpen" type="button" class="button" aria-haspopup="dialog"><span>最近夯什麼、不夯什麼 ↗</span><small class="movers-subtitle">（近日漲跌幅度最大股票整理）</small></button><button id="weeklyInvestmentOpen" type="button" class="button weekly-launch" aria-haspopup="dialog"><span>AI研究報告｜台股投資建議 ↗</span><small class="weekly-button-note">進場訊號 · 信心程度 · 買點失效</small></button></section>
+<section id="marketMovers" class="market-movers" aria-label="最近股票漲跌排行"><button id="moversOpen" type="button" class="button" aria-haspopup="dialog"><span>最近夯什麼、不夯什麼 ↗</span><small class="movers-subtitle">（近日漲跌幅度最大股票整理）</small></button><button id="weeklyInvestmentOpen" type="button" class="button weekly-launch" aria-haspopup="dialog"><span>AI研究報告｜台股投資建議 ↗</span><small class="weekly-button-note">進場訊號 · 信心程度 · 買點失效</small></button><button id="marginObservationOpen" type="button" class="button" aria-haspopup="dialog"><span>台股融資觀察 ↗</span><small>上市・上櫃維持率（估算）</small></button></section>
 <section id="categoryCards" class="metrics" aria-label="按股票分類篩選"></section><div class="classification-help"><button id="classificationHelpOpen" type="button" class="button" aria-haspopup="dialog">分類規則詳細說明 →</button></div>
 <nav class="tabs" role="tablist" aria-label="研究頁面"><button class="tab selected" data-tab="all" role="tab" aria-selected="true">全部股票</button><button class="tab" data-tab="watchlist" role="tab" aria-selected="false">我的自選股 <span id="watchCount">0</span></button><button class="tab" data-tab="rules" role="tab" aria-selected="false">估值規則</button><button class="tab" data-tab="terms" role="tab" aria-selected="false">名詞解釋</button><button class="tab" data-tab="sources" role="tab" aria-selected="false">資料說明</button></nav>
 <section id="dashboard">
@@ -56,4 +57,5 @@
 <dialog id="researchDialog" class="research-dialog" aria-labelledby="researchCompany"><header class="research-modal-header"><div><h2 id="researchCompany"></h2><p id="researchPageTitle" hidden></p></div><button type="button" id="researchClose" class="button" aria-label="關閉公司資料">✕ 關閉</button></header><nav id="researchPageTabs" class="research-modal-tabs" aria-label="公司資料切換"><span>查看項目</span><button id="researchPageSelect" popovertarget="researchPageMenu" popovertargetaction="toggle" type="button" class="select" aria-haspopup="listbox" aria-expanded="false"></button><div id="researchPageMenu" popover="auto" class="research-page-menu" role="listbox" aria-label="公司資料項目"></div></nav><div id="researchPageBody" class="research-modal-body"></div><footer class="research-modal-footer"><button type="button" id="researchPrev" class="button">← 上一項</button><span id="researchPagePosition"></span><button type="button" id="researchNext" class="button">下一項 →</button></footer></dialog>
 <button id="weeklyReturnReport" class="button weekly-return" type="button" hidden>← 回上一頁（AI分析）</button>
 <dialog id="weeklyInvestmentDialog" aria-labelledby="weeklyInvestmentTitle"><header class="weekly-modal-heading"><h2 id="weeklyInvestmentTitle">AI研究報告｜台股投資建議</h2><button id="weeklyInvestmentClose" class="button" type="button" aria-label="關閉AI產業分析">✕ 關閉</button></header><div id="weeklyInvestmentContent" aria-live="polite"></div></dialog>
+<dialog id="marginObservationDialog" class="research-dialog" aria-labelledby="marginObservationTitle"><header class="research-modal-header"><h2 id="marginObservationTitle">台股融資維持率（估算）</h2><button id="marginObservationClose" type="button" class="button" aria-label="關閉台股融資觀察">✕ 關閉</button></header><div id="marginObservationContent" class="research-modal-body"></div></dialog>
 </body></html>
