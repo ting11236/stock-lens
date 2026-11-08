@@ -41,6 +41,10 @@
     select(selected);
   }
   function wire(){
+    content.querySelectorAll('.margin-table-wrap td').forEach(cell=>{
+      const value=cell.textContent.match(/([\d,]+(?:\.\d+)?)%/);
+      cell.setAttribute('data-at-most-150',String(Boolean(value)&&Number(value[1].replace(/,/g,''))<=150));
+    });
     content.querySelectorAll('[data-margin-market]').forEach(b=>b.addEventListener('click',()=>{market=b.dataset.marginMarket;draw()}));
     content.querySelectorAll('[data-margin-period]').forEach(b=>b.addEventListener('click',()=>{period=b.dataset.marginPeriod;draw()}));
     draw();

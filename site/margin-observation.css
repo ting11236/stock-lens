@@ -12,3 +12,5 @@
 .margin-point-detail{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#edf6f0;border:1px solid #96bca6;border-radius:8px;padding:8px 10px;margin:10px 0;font-size:17px;font-weight:600;color:#205a44}.margin-point-detail button{min-width:44px;min-height:44px;background:white;border:1px solid #b8cfc1;border-radius:6px;color:#205a44;font-size:26px;cursor:pointer}.margin-point-detail button:disabled{opacity:.35}.margin-point-detail output{text-align:center}.margin-chart circle{cursor:pointer}.margin-chart circle[data-below-150=true]{fill:#b42318}.margin-chart circle[data-selected=true]{stroke:#172e24;stroke-width:2}.margin-chart circle:focus{outline:none;stroke:#b42318;stroke-width:4}
 
 .margin-point-legend{color:#b42318;font-size:14px;font-weight:400;margin:6px 0}
+
+.margin-table-wrap td[data-at-most-150=true]{color:#b42318;font-weight:400}

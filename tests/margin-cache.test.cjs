@@ -44,3 +44,9 @@ test('only ratios strictly below 150 percent are red, independent of selection',
  points[0].dispatchEvent(new s.window.Event('click',{bubbles:true}));
  assert.equal(points[0].getAttribute('data-selected'),'true');assert.equal(points[0].getAttribute('data-below-150'),'true');
 });
+
+test('daily values at or below 150 percent are marked red; missing values are unchanged',async()=>{
+ const table=html.replace('</section>','<div class="margin-table-wrap"><table><tbody><tr><td>≥ 149.9%</td><td>150.0%</td><td>150.1%</td><td>—</td></tr></tbody></table></div></section>');
+ const s=setup(async()=>({ok:true,text:async()=>table}));s.open();await flush();
+ assert.deepEqual([...s.document.querySelectorAll('.margin-table-wrap td')].map(c=>c.getAttribute('data-at-most-150')),['true','true','false','false']);
+});
