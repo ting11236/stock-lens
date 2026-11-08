@@ -54,8 +54,8 @@ test('daily values at or below 150 percent are marked red; missing values are un
 test('chart explains personal 130 percent and author market 150 percent with expandable liquidation help',async()=>{
  const chart=html.replace('>合計</template>','><svg><circle cx="64"><title>2026-11-06：≥ 149.9%</title></circle></svg></template>');
  const s=setup(async()=>({ok:true,text:async()=>chart}));s.open();await flush();
- const note=s.document.querySelector('.margin-threshold-note'),button=note.querySelector('button'),help=note.querySelector('#marginLiquidationHelp');
- assert.equal(note.querySelector('.margin-liquidation-term u').textContent,'融資斷頭');assert.equal(button.textContent,'?');assert.equal(button.getAttribute('aria-label'),'查看融資斷頭的解釋');assert.match(note.textContent,/低於 130% 會被通知追繳/);assert.match(note.textContent,/本站作者.*低於 150%/);assert.equal(help.hidden,true);
+ const note=s.document.querySelector('.margin-threshold-note'),button=note.querySelector('.margin-liquidation-help'),help=note.querySelector('#marginLiquidationHelp');
+ assert.equal(note.querySelector('.margin-liquidation-text').textContent,'融資斷頭');assert.equal(button.textContent,'?');assert.equal(button.getAttribute('aria-label'),'查看融資斷頭的解釋');assert.match(note.textContent,/低於 130% 會被通知追繳/);assert.match(note.textContent,/本站作者.*低於 150%/);assert.equal(help.hidden,true);
  button.click();assert.equal(help.hidden,false);assert.equal(button.getAttribute('aria-expanded'),'true');assert.match(help.textContent,/2 個營業日/);
- button.click();assert.equal(help.hidden,true);assert.equal(button.getAttribute('aria-expanded'),'false');
+ note.querySelector('.margin-liquidation-text').click();assert.equal(help.hidden,true);assert.equal(button.getAttribute('aria-expanded'),'false');note.querySelector('.margin-liquidation-text').click();assert.equal(help.hidden,false);assert.equal(button.getAttribute('aria-expanded'),'true');
 });
