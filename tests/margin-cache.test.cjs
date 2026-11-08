@@ -35,3 +35,12 @@ test('chart points show exact values and previous/next controls work without ano
  buttons[1].click();assert.equal(out.textContent,'2026-11-06：≥ 149.9%');
  s.dialog.close();s.open();assert.equal(calls,1);assert.equal(out.textContent,'2026-11-06：≥ 149.9%');
 });
+
+test('only ratios strictly below 150 percent are red, independent of selection',async()=>{
+ const chart=html.replace('>合計</template>','><svg><circle cx="64"><title>2026-11-04：≥ 149.9%</title></circle><circle cx="400"><title>2026-11-05：150.0%</title></circle><circle cx="794"><title>2026-11-06：150.1%</title></circle></svg></template>');
+ const s=setup(async()=>({ok:true,text:async()=>chart}));s.open();await flush();
+ const points=s.document.querySelectorAll('[data-margin-chart-host] circle');
+ assert.deepEqual([...points].map(p=>p.getAttribute('data-below-150')),['true','false','false']);
+ points[0].dispatchEvent(new s.window.Event('click',{bubbles:true}));
+ assert.equal(points[0].getAttribute('data-selected'),'true');assert.equal(points[0].getAttribute('data-below-150'),'true');
+});

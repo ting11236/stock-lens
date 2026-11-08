@@ -15,6 +15,7 @@
     const box=document.createElement('div');box.className='margin-point-detail';
     box.innerHTML='<button type="button" aria-label="前一個交易日">‹</button><output aria-live="polite"></output><button type="button" aria-label="後一個交易日">›</button>';
     svg.before(box);
+    const legend=document.createElement('p');legend.className='margin-point-legend';legend.textContent='● 紅點：估算維持率低於 150%';box.after(legend);
     const output=box.querySelector('output'),buttons=box.querySelectorAll('button');let selected=points.length-1;
     function select(i){
       selected=Math.max(0,Math.min(points.length-1,i));
@@ -23,6 +24,8 @@
       buttons[0].disabled=selected===0;buttons[1].disabled=selected===points.length-1;
     }
     points.forEach((p,i)=>{
+      const value=p.querySelector('title').textContent.match(/([\d,]+(?:\.\d+)?)%/);
+      p.setAttribute('data-below-150',String(Boolean(value)&&Number(value[1].replace(/,/g,''))<150));
       p.setAttribute('tabindex','0');p.setAttribute('role','button');p.setAttribute('aria-label',p.querySelector('title').textContent);
       p.addEventListener('click',()=>select(i));p.addEventListener('focus',()=>select(i));
       p.addEventListener('keydown',e=>{if(['Enter',' ','ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();const n=e.key==='ArrowLeft'?i-1:e.key==='ArrowRight'?i+1:i;select(n);points[selected].focus()}});
