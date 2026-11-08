@@ -55,7 +55,7 @@ test('chart explains personal 130 percent and author market 150 percent with exp
  const chart=html.replace('>合計</template>','><svg><circle cx="64"><title>2026-11-06：≥ 149.9%</title></circle></svg></template>');
  const s=setup(async()=>({ok:true,text:async()=>chart}));s.open();await flush();
  const note=s.document.querySelector('.margin-threshold-note'),button=note.querySelector('.margin-liquidation-help'),help=note.querySelector('#marginLiquidationHelp');
- assert.equal(note.querySelector('.margin-liquidation-text').textContent,'融資斷頭');assert.equal(button.textContent,'?');assert.equal(button.getAttribute('aria-label'),'查看融資斷頭的解釋');assert.match(note.textContent,/低於 130% 會被通知追繳/);assert.match(note.textContent,/本站作者.*低於 150%/);assert.equal(help.hidden,true);
+ assert.equal(note.querySelector('.margin-liquidation-text').textContent,'融資斷頭');assert.equal(button.textContent,'?');assert.equal(button.getAttribute('aria-label'),'查看融資斷頭的解釋');assert.match(note.textContent,/低於 130% 會被通知追繳/);assert.match(note.textContent,/本站作者.*低於 150%/);assert.match(note.textContent,/提醒可能接近股市低點，可考慮買進/);assert.equal(note.querySelectorAll('.margin-warning-list > li').length,2);assert.equal(help.hidden,true);
  button.click();assert.equal(help.hidden,false);assert.equal(button.getAttribute('aria-expanded'),'true');assert.match(help.textContent,/2 個營業日/);
  note.querySelector('.margin-liquidation-text').click();assert.equal(help.hidden,true);assert.equal(button.getAttribute('aria-expanded'),'false');note.querySelector('.margin-liquidation-text').click();assert.equal(help.hidden,false);assert.equal(button.getAttribute('aria-expanded'),'true');
 });
