@@ -15,6 +15,12 @@
     const box=document.createElement('div');box.className='margin-point-detail';
     box.innerHTML='<button type="button" aria-label="前一個交易日">‹</button><output aria-live="polite"></output><button type="button" aria-label="後一個交易日">›</button>';
     svg.before(box);
+    const explanation=document.createElement('aside');explanation.className='margin-threshold-note';
+    explanation.setAttribute('aria-label','融資警戒線說明');
+    explanation.innerHTML='<p class="margin-account-warning">個人帳戶維持率低於 130% 會被通知追繳；逾期未補足且仍低於門檻，才可能發生 <button type="button" class="margin-liquidation-help" aria-expanded="false" aria-controls="marginLiquidationHelp">融資斷頭？</button></p><div id="marginLiquidationHelp" class="margin-liquidation-detail" hidden><strong>融資斷頭，就是券商強制賣出擔保股票，用來償還借款。</strong><p>一般台股融資帳戶低於 130% 時，券商會通知補錢或補擔保品。通知送達後有 2 個營業日補繳；逾期未補足，且整戶維持率仍低於 130%，券商原則上自第 3 個營業日起處分擔保品。實際補繳金額與期限請看券商通知。</p><p>這裡看的是個人信用帳戶的整戶維持率，和上方的全市場估算值不同。</p><a href="https://twse-regulation.twse.com.tw/TW/law/DAT0203.aspx?FLCODE=FL007121&amp;keyword=%E6%93%94%E4%BF%9D%E5%93%81&amp;sHid=N" target="_blank" rel="noopener noreferrer">查看證交所融資融券規定 ↗</a></div><p class="margin-market-warning">本站作者將整體市場估算維持率低於 150% 設為警戒參考線，提醒留意融資賣壓；這不是個人帳戶的斷頭門檻。</p>';
+    svg.after(explanation);
+    const helpButton=explanation.querySelector('button'),help=explanation.querySelector('#marginLiquidationHelp');
+    helpButton.addEventListener('click',()=>{const expanded=helpButton.getAttribute('aria-expanded')!=='true';helpButton.setAttribute('aria-expanded',String(expanded));help.hidden=!expanded});
     const legend=document.createElement('p');legend.className='margin-point-legend';legend.textContent='● 紅點：估算維持率低於 150%';box.after(legend);
     const output=box.querySelector('output'),buttons=box.querySelectorAll('button');let selected=points.length-1;
     function select(i){
