@@ -35,6 +35,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: 安裝前端檢查套件
+        run: npm install --ignore-scripts --no-audit --no-fund
       - name: 檢查資料處理與前端邏輯
         run: |
           python -m unittest discover -s tests -v
@@ -70,7 +72,6 @@ jobs:
           fi
       - name: 事先產生公司閱讀頁面與首頁
         run: |
-          npm install --ignore-scripts --no-audit --no-fund
           node --test tests/static_site.test.cjs
           node build_static_site.cjs
       - uses: actions/upload-pages-artifact@v4
