@@ -1,6 +1,6 @@
 {
   "announcement_policy": "research-impact-v1",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "companies": {
     "1101.TW": {
       "next_conference": null,
@@ -155,7 +155,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1256.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-13",
+        "description": "受邀參加兆豐證券法人說明會，說明本公司營運概況。",
+        "end_date": "2026-11-13",
+        "kind": "法說會",
+        "location": "兆豐證券13樓會議室（台北市忠孝東路二段95號13樓）",
+        "name": "鮮活果汁-KY",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "1256.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -165,18 +176,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1303.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司受邀參加國票證券舉辦之法人說明會，說明本公司之營運概況。",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "國票證券法人部",
-        "name": "南亞",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1303.TW",
-        "time": "12:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -277,18 +277,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1337.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "公司簡介及營運概況等說明",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "臺灣證券交易所1樓資訊展示中心(台北市信義路5段7號101大樓1樓)",
-        "name": "再生-KY",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1337.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -976,7 +965,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1720.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-12",
+        "description": "2026年前三季營運概況說明",
+        "end_date": "2026-11-12",
+        "kind": "法說會",
+        "location": "臺灣證券交易所資訊展示中心(臺北市信義區信義路5段7號101大樓1樓)",
+        "name": "生達",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "1720.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1087,7 +1087,7 @@
         "name": "勝一",
         "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "1773.TW",
-        "time": "14:00"
+        "time": "14:20"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -1247,7 +1247,18 @@
     },
     "2012.TW": {
       "next_conference": null,
-      "next_shareholders": null,
+      "next_shareholders": {
+        "cancelled": false,
+        "date": "2026-12-24",
+        "description": "已公告股東會日期",
+        "end_date": "2026-12-24",
+        "kind": "股東臨時會",
+        "location": "",
+        "name": "春雨",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+        "symbol": "2012.TW",
+        "time": ""
+      },
       "summary_reviewed_at": "2026-10-03"
     },
     "2013.TW": {
@@ -1373,7 +1384,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2062.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-10",
+        "description": "(1)公司基本介紹 (2)公司成長策略",
+        "end_date": "2026-11-10",
+        "kind": "法說會",
+        "location": "台中市大雅區科雅路11號",
+        "name": "橋椿",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2062.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1587,15 +1609,15 @@
     "2308.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-11-18",
-        "description": "本公司受摩根史丹利證券邀請，將於上述時間地點，向法人投資者說明本公司115年第3季之財務報告相關資訊。",
-        "end_date": "2026-11-19",
+        "date": "2026-11-10",
+        "description": "本公司受永豐金證券邀請，將於上述時間地點，向法人投資者說明本公司115年第3季之財務報告相關資訊。",
+        "end_date": "2026-11-10",
         "kind": "法說會",
-        "location": "新加坡",
+        "location": "台北遠東香格里拉飯店",
         "name": "台達電",
         "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "2308.TW",
-        "time": "09:00"
+        "time": "16:00"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -1745,7 +1767,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2347.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-11",
+        "description": "說明公司業務狀況",
+        "end_date": "2026-11-11",
+        "kind": "法說會",
+        "location": "臺北市南港區市民大道八段205號23樓，同步視訊",
+        "name": "聯強",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2347.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1765,18 +1798,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2352.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司2026年第三季財務結果及業務摘要",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "佳世達",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2352.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1914,7 +1936,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2379.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-11",
+        "description": "公告本公司115 年11 月11 日參加SinoPac Securities CLST Branch - Taiwan Market Mover Access Day，以及115 年11 月23 日~11 月24 日參加Citi Taiwan Corporate Day，會中就公司營運及產業概況向投資機構做說明。",
+        "end_date": "2026-11-24",
+        "kind": "法說會",
+        "location": "11/11 Shangri-La Far Eastern，11/23 W Hotel Taipei",
+        "name": "瑞昱",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2379.TW",
+        "time": "10:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2083,12 +2116,34 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2419.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-12",
+        "description": "本公司受邀參加中國信託證券舉辦之線上法說會，說明本公司營運概況。",
+        "end_date": "2026-11-12",
+        "kind": "法說會",
+        "location": "線上法說會",
+        "name": "仲琦",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2419.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "2420.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-10",
+        "description": "本公司受邀參加凱基證券舉辦之線上法人說明會，說明本公司業務及營業概況。",
+        "end_date": "2026-11-10",
+        "kind": "法說會",
+        "location": "線上法說會",
+        "name": "新巨",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2420.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2235,7 +2290,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2454.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-10",
+        "description": "公告本公司115年11月10日受邀參加永豐金證券於台北舉辦之Taiwan Market Mover Access Day、115年11月16日受邀參加麥格里證券於台北舉辦之Macquarie Taiwan Conference、115年‎11月16日至11月17日受邀參加摩根大通證券於香港舉辦之APAC Technology, Innovation and Growth Conference、115年11‎月18日至11月19日受邀參加摩根史丹利證券於新加坡舉辦之Annual Asia Pacific Summit及115年11月23日受邀參加花旗證券於台北舉辦之Taiwan Corporate Day，簡報資料請參閱公開資訊觀測站。‎",
+        "end_date": "2026-11-23",
+        "kind": "法說會",
+        "location": "台北、香港、新加坡",
+        "name": "聯發科",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2454.TW",
+        "time": "09:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2374,7 +2440,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2480.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-10",
+        "description": "本公司受邀參加凱基證券115年11月10日14點00分線上法說會議，向投資人說明本公司115年第三季營運成果。",
+        "end_date": "2026-11-10",
+        "kind": "法說會",
+        "location": "採Webex線上會議方式",
+        "name": "敦陽科",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2480.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2431,7 +2508,18 @@
     },
     "2491.TW": {
       "next_conference": null,
-      "next_shareholders": null,
+      "next_shareholders": {
+        "cancelled": false,
+        "date": "2026-12-29",
+        "description": "已公告股東會日期",
+        "end_date": "2026-12-29",
+        "kind": "股東臨時會",
+        "location": "",
+        "name": "吉祥全",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+        "symbol": "2491.TW",
+        "time": ""
+      },
       "summary_reviewed_at": "2026-10-03"
     },
     "2492.TW": {
@@ -2844,7 +2932,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2801.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-25",
+        "description": "報告本行2026年第3季財務資訊及經營成果",
+        "end_date": "2026-11-25",
+        "kind": "法說會",
+        "location": "本次為中文線上法說會，連結網址請至本公司網頁或至公開資訊觀測站查詢。",
+        "name": "彰銀",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2801.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2920,7 +3019,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2855.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-11",
+        "description": "說明本公司115年Q3財務暨營運報告",
+        "end_date": "2026-11-11",
+        "kind": "法說會",
+        "location": "本次為中文線上法說會",
+        "name": "統一證",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2855.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2943,15 +3053,15 @@
     "2881.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-11-09",
-        "description": "討論富邦金控財務及業務相關資訊",
-        "end_date": "2026-11-09",
+        "date": "2026-12-02",
+        "description": "說明富邦金控115年第三季營運概況",
+        "end_date": "2026-12-02",
         "kind": "法說會",
-        "location": "香港",
+        "location": "網路直播",
         "name": "富邦金",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
         "symbol": "2881.TW",
-        "time": "09:00"
+        "time": "14:30"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -2959,15 +3069,15 @@
     "2882.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-11-27",
-        "description": "公佈115年度第三季營運概況。中文場14:00-15:00；英文場17:00-18:00。",
-        "end_date": "2026-11-27",
+        "date": "2026-11-10",
+        "description": "本公司受邀參加瑞銀證券舉辦之投資人會議，說明公司營運狀況。",
+        "end_date": "2026-11-10",
         "kind": "法說會",
-        "location": "中文場會議地點為國泰金融會議廳A廳(台北市松仁路9號1樓)；英文場採電話會議。",
+        "location": "香港",
         "name": "國泰金",
         "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "2882.TW",
-        "time": "14:00"
+        "time": "11:00"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -3134,7 +3244,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2913.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-10",
+        "description": "本公司受邀參加福邦證券舉辦線上法人說明會，就本公司已公開之財務業務資訊作說明。",
+        "end_date": "2026-11-10",
+        "kind": "法說會",
+        "location": "線上法說會(台灣)",
+        "name": "農林",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2913.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3231,7 +3352,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3014.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-16",
+        "description": "本公司受邀參加元大證券股份有限公司所舉辦之法人說明會",
+        "end_date": "2026-11-16",
+        "kind": "法說會",
+        "location": "元大證券股份有限公司(台北市中山區南京東路三段219號11樓)",
+        "name": "聯陽",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3014.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3592,7 +3724,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3231.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-12",
+        "description": "本公司受邀參加永豐金證券匯立分公司舉辦之法人說明會，說明本公司業務簡介及現況說明",
+        "end_date": "2026-11-12",
+        "kind": "法說會",
+        "location": "台北遠東香格里拉飯店",
+        "name": "緯創",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3231.TW",
+        "time": "09:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3672,7 +3815,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3416.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-10",
+        "description": "本公司受邀參加國票證券舉辦之線上法說會，說明本公司之營運概況、財務及業務相關資訊。",
+        "end_date": "2026-11-10",
+        "kind": "法說會",
+        "location": "線上法說會",
+        "name": "融程電",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3416.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3747,7 +3901,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3532.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-26",
+        "description": "本公司受邀參加由華南永昌證券舉辦之法人法說會，將於會中說明本公司近期營運概況。",
+        "end_date": "2026-11-26",
+        "kind": "法說會",
+        "location": "台北市松山區民生東路4段54號(4F大會議室)",
+        "name": "台勝科",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3532.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3824,7 +3989,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3591.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-12",
+        "description": "本公司受邀參加國泰證券所舉辦之法人說明會，說明本公司115年第三季營運成果及近期營運展望",
+        "end_date": "2026-11-12",
+        "kind": "法說會",
+        "location": "線上法人說明會",
+        "name": "艾笛森",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3591.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3957,18 +4133,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3703.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司將於11月9日召開線上法人說明會，會中報告2026年第三季經營成果。",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "線上法人說明會請造訪以下網址：https://www.zucast.com/webcast/DCaUZjLC",
-        "name": "欣陸",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "3703.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3993,7 +4158,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3711.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-11",
+        "description": "無。",
+        "end_date": "2026-11-11",
+        "kind": "法說會",
+        "location": "台北遠東香格里拉",
+        "name": "日月光投控",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3711.TW",
+        "time": "10:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4010,15 +4186,15 @@
     "3715.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司受邀參加永豐金證券舉辦之線上法人說明會。",
-        "end_date": "2026-11-09",
+        "date": "2026-11-11",
+        "description": "本公司受邀參加國泰證券舉辦之海外法人座談會，說明本公司營運狀況，參訪本公司泰國工廠。",
+        "end_date": "2026-11-11",
         "kind": "法說會",
-        "location": "Webex線上會議",
+        "location": "泰國 Dynamic Technology Manufacturing (Thailand) Co., Ltd.",
         "name": "定穎投控",
         "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "3715.TW",
-        "time": "14:30"
+        "time": "16:00"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -4130,28 +4306,39 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4438.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司受邀參加KGI凱基證券所舉辦之法人說明會，向投資人說明本公司之營運及財務概況。",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "凱基證券(股)公司 (台北市中山區明水路700號)",
-        "name": "廣越",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "4438.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "4439.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-18",
+        "description": "本公司受邀參加國票綜合證券舉辦之法人說明會，會中說明本公司115年第3季營運成果及營運展望。",
+        "end_date": "2026-11-18",
+        "kind": "法說會",
+        "location": "國票證券法人部(台北市松山區南京東路五段188號15樓會議室)",
+        "name": "冠星-KY",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "4439.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "4440.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-11",
+        "description": "本公司受邀參加福邦證券舉辦之法人說明會",
+        "end_date": "2026-11-11",
+        "kind": "法說會",
+        "location": "台北市忠孝西路一段6號7樓",
+        "name": "宜新實業",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "4440.TW",
+        "time": "15:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4197,18 +4384,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4551.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司受邀參加永豐金證券舉辦之法人說明會，說明本公司營運狀況。",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "永豐金證券-台開大樓22樓 大會議廳(台北市中正區重慶南路一段2號22樓）",
-        "name": "智伸科",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "4551.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4253,7 +4429,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4571.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-17",
+        "description": "本公司受邀參加永豐金證券及臺灣證券交易所舉辦115年「璞玉指數」主題式業績發表會，說明本公司營運狀況",
+        "end_date": "2026-11-17",
+        "kind": "法說會",
+        "location": "證交所資訊展示中心(臺北101大樓1樓)",
+        "name": "鈞興-KY",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "4571.TW",
+        "time": "15:10"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4355,18 +4542,7 @@
     },
     "4766.TW": {
       "next_conference": null,
-      "next_shareholders": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "已公告股東會日期",
-        "end_date": "2026-11-09",
-        "kind": "股東臨時會",
-        "location": "",
-        "name": "南寶",
-        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-        "symbol": "4766.TW",
-        "time": ""
-      },
+      "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "4770.TW": {
@@ -4498,7 +4674,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4958.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-18",
+        "description": "本公司受邀參加Morgan Stanley舉辦之25th Annual Asia Pacific論壇，說明PCB產業展望、公司營運績效相關資訊。",
+        "end_date": "2026-11-19",
+        "kind": "法說會",
+        "location": "新加坡文華東方酒店(地址:新加坡萊佛士道5號，濱海廣場)",
+        "name": "臻鼎-KY",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "4958.TW",
+        "time": "08:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4945,7 +5132,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6184.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-13",
+        "description": "115年前三季營運成果暨公司未來展望",
+        "end_date": "2026-11-13",
+        "kind": "法說會",
+        "location": "台北市大安區敦化南路二段333號18樓",
+        "name": "大豐電",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "6184.TW",
+        "time": "15:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5026,18 +5224,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6216.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "2026年前3季營運說明會",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "新竹縣湖口鄉鳳山村復興路26號",
-        "name": "居易",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "6216.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5132,7 +5319,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6409.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-11",
+        "description": "本公司受邀參加 CLST 所舉辦之『Taiwan Market Mover Access Day』，會中介紹公司之營運與財務狀況。",
+        "end_date": "2026-11-11",
+        "kind": "法說會",
+        "location": "臺北遠東香格里拉 106台北市大安區敦化南路二段201號",
+        "name": "旭隼",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "6409.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5230,18 +5428,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6456.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司將受邀參加福邦證券舉辦之法人說明會，會中將就2026年第三季財務數字等相關資訊做說明。",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "福邦證券(台北市忠孝西路一段6號7樓)",
-        "name": "GIS-KY",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "6456.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5464,7 +5651,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6669.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-17",
+        "description": "本公司受邀參加Macquarie舉辦之Macquarie Taiwan Conference",
+        "end_date": "2026-11-17",
+        "kind": "法說會",
+        "location": "台北W飯店",
+        "name": "緯穎",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "6669.TW",
+        "time": "09:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5496,18 +5694,7 @@
     },
     "6674.TW": {
       "next_conference": null,
-      "next_shareholders": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "已公告股東會日期",
-        "end_date": "2026-11-09",
-        "kind": "股東臨時會",
-        "location": "",
-        "name": "鋐寶科技",
-        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-        "symbol": "6674.TW",
-        "time": ""
-      },
+      "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "6689.TW": {
@@ -5606,7 +5793,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6782.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-18",
+        "description": "本公司受邀參加永豐金證券所舉辦之線上法人說明會，會中就本公司之財務數字、經營績效等相關資訊說明。",
+        "end_date": "2026-11-18",
+        "kind": "法說會",
+        "location": "線上法人說明會",
+        "name": "視陽",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "6782.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5636,18 +5834,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6799.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "(1)本公司受邀參加元大證券舉辦之線上法人說明會,說明本公司115年第3季營運與財務概況 (2)活動諮詢:元大證券投行部信箱underwriting.brk@yuanta.com",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "線上會議",
-        "name": "來頡",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "6799.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5657,7 +5844,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6807.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-13",
+        "description": "說明本公司財務暨營運概況",
+        "end_date": "2026-11-13",
+        "kind": "法說會",
+        "location": "台開大樓17樓1701會議室(台北市重慶南路一段2號)",
+        "name": "峰源-KY",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "6807.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5727,7 +5925,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6890.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-13",
+        "description": "本公司受邀參加Bofa舉辦之線上法人說明會，會中說明本公司115年第三季業績狀況及營運展望。",
+        "end_date": "2026-11-13",
+        "kind": "法說會",
+        "location": "線上法人說明會",
+        "name": "來億-KY",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "6890.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5763,7 +5972,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6909.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-17",
+        "description": "(1)本公司受邀參加永豐金證券舉辦之線上法人說明會，說明本公司115年第3季營運成果。 (2)活動諮詢：永豐金證券鄒小姐 ，電話：02-2382-8166，E-mail：ECM@sinopac.com",
+        "end_date": "2026-11-17",
+        "kind": "法說會",
+        "location": "https://reurl.cc/5Xn4o6 webex號碼：2516 806 0689 webex密碼：6909",
+        "name": "創控",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "6909.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5853,18 +6073,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6952.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司受邀參加中信證券舉辦之實體法說會，說明本公司營運現況及展望",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "中信證券(台北市忠孝西路一段6號4樓)",
-        "name": "大武山",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "6952.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6059,7 +6268,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "7786.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-16",
+        "description": "本公司受邀參加富邦證券舉辦之法人說明會，說明2026年第三季公司營運概況、財務及業務相關資訊。",
+        "end_date": "2026-11-16",
+        "kind": "法說會",
+        "location": "富邦金控大樓 (台北市大安區仁愛路四段169號15樓)",
+        "name": "東方風能",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "7786.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6356,18 +6576,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "8454.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-09",
-        "description": "本公司受邀參加富邦證券舉辦之法人說明會，說明本公司未來營運發展計劃及115年第三季法說會簡報與其他已公開發佈之財務數字、經營績效等相關資訊。",
-        "end_date": "2026-11-09",
-        "kind": "法說會",
-        "location": "線上會議",
-        "name": "富邦媒",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "8454.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6549,7 +6758,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "9914.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-17",
+        "description": "本公司受邀參加凱基證券舉辦投資人線上會議",
+        "end_date": "2026-11-17",
+        "kind": "法說會",
+        "location": "線上法說會",
+        "name": "美利達",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "9914.TW",
+        "time": "15:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6625,7 +6845,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "9933.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-16",
+        "description": "本次法⼈說明會採實體及線上同步舉⾏，線上直播請點選以下網址：https://teams.microsoft.com/meet/417887047726492? p=N7TPkOlAqmUjFTBzHk。會中將回顧本公司2026年迄今之營運概況，並說明未來業務展望。欲出席實體會議之法⼈投資機構或媒體，應於115年11⽉12⽇前聯絡柯⼩姐（annie.ko@ctci.com)辦理報名。",
+        "end_date": "2026-11-16",
+        "kind": "法說會",
+        "location": "中鼎總部201會議室(北市中山北路六段89號)及Teams線上同步進行",
+        "name": "中鼎",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "9933.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6713,18 +6944,6 @@
   },
   "errors": [],
   "events": [
-    {
-      "cancelled": false,
-      "date": "2026-05-13",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-13",
-      "kind": "股東常會",
-      "location": "",
-      "name": "亞德客-KY",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1590.TW",
-      "time": ""
-    },
     {
       "cancelled": false,
       "date": "2026-05-14",
@@ -26682,6 +26901,23 @@
     {
       "cancelled": false,
       "date": "2026-11-09",
+      "description": "公告本公司土城中山廠火災情形及因應措施",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "正崴",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "重大財務或營運異常",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2392.TW",
+      "time": "185834"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
       "description": "討論富邦金控財務及業務相關資訊",
       "end_date": "2026-11-09",
       "kind": "法說會",
@@ -26702,6 +26938,40 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "2884.TW",
       "time": "12:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司公告調整與玉山投信股份轉換案之股份轉換基準日",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "玉山金",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2884.TW",
+      "time": "181413"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "玉山金控代子公司玉山投信公告\r\n調整股份轉換案之股份轉換基準日",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "玉山金",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2884.TW",
+      "time": "183719"
     },
     {
       "cancelled": false,
@@ -26814,6 +27084,23 @@
     {
       "cancelled": false,
       "date": "2026-11-09",
+      "description": "公告本公司處分營業用機器設備予子公司南京泛銓電子科技有限公司",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "汎銓",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "6830.TW",
+      "time": "141457"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
       "description": "本公司受邀參加中信證券舉辦之實體法說會，說明本公司營運現況及展望",
       "end_date": "2026-11-09",
       "kind": "法說會",
@@ -26898,6 +27185,30 @@
     {
       "cancelled": false,
       "date": "2026-11-10",
+      "description": "(1)公司基本介紹 (2)公司成長策略",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "台中市大雅區科雅路11號",
+      "name": "橋椿",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2062.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
+      "description": "本公司受永豐金證券邀請，將於上述時間地點，向法人投資者說明本公司115年第3季之財務報告相關資訊。",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "台北遠東香格里拉飯店",
+      "name": "台達電",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2308.TW",
+      "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
       "description": "本公司於115/11/10受邀參加由永豐金證券匯立分公司舉辦之 \"CLST Taiwan Market Mover Access Day\"，就公司營運及產業概況向投資機構做說明。",
       "end_date": "2026-11-10",
       "kind": "法說會",
@@ -26922,6 +27233,42 @@
     {
       "cancelled": false,
       "date": "2026-11-10",
+      "description": "本公司受邀參加凱基證券舉辦之線上法人說明會，說明本公司業務及營業概況。",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "新巨",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2420.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
+      "description": "公告本公司115年11月10日受邀參加永豐金證券於台北舉辦之Taiwan Market Mover Access Day、115年11月16日受邀參加麥格里證券於台北舉辦之Macquarie Taiwan Conference、115年‎11月16日至11月17日受邀參加摩根大通證券於香港舉辦之APAC Technology, Innovation and Growth Conference、115年11‎月18日至11月19日受邀參加摩根史丹利證券於新加坡舉辦之Annual Asia Pacific Summit及115年11月23日受邀參加花旗證券於台北舉辦之Taiwan Corporate Day，簡報資料請參閱公開資訊觀測站。‎",
+      "end_date": "2026-11-23",
+      "kind": "法說會",
+      "location": "台北、香港、新加坡",
+      "name": "聯發科",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2454.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
+      "description": "本公司受邀參加凱基證券115年11月10日14點00分線上法說會議，向投資人說明本公司115年第三季營運成果。",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "採Webex線上會議方式",
+      "name": "敦陽科",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2480.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
       "description": "2026年第三季營運說明",
       "end_date": "2026-11-10",
       "kind": "法說會",
@@ -26934,6 +27281,18 @@
     {
       "cancelled": false,
       "date": "2026-11-10",
+      "description": "本公司受邀參加瑞銀證券舉辦之投資人會議，說明公司營運狀況。",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "香港",
+      "name": "國泰金",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2882.TW",
+      "time": "11:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
       "description": "公告本公司擬於民國115年11月10日(二)受邀參加美銀證券舉辦之BofA Taiwan Financial Tour。",
       "end_date": "2026-11-10",
       "kind": "法說會",
@@ -26942,6 +27301,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "2885.TW",
       "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
+      "description": "本公司受邀參加福邦證券舉辦線上法人說明會，就本公司已公開之財務業務資訊作說明。",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "線上法說會(台灣)",
+      "name": "農林",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2913.TW",
+      "time": "14:30"
     },
     {
       "cancelled": false,
@@ -26989,6 +27360,18 @@
       "name": "日電貿",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "3090.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
+      "description": "本公司受邀參加國票證券舉辦之線上法說會，說明本公司之營運概況、財務及業務相關資訊。",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "融程電",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3416.TW",
       "time": "14:30"
     },
     {
@@ -27066,6 +27449,30 @@
     {
       "cancelled": false,
       "date": "2026-11-11",
+      "description": "說明公司業務狀況",
+      "end_date": "2026-11-11",
+      "kind": "法說會",
+      "location": "臺北市南港區市民大道八段205號23樓，同步視訊",
+      "name": "聯強",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2347.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
+      "description": "公告本公司115 年11 月11 日參加SinoPac Securities CLST Branch - Taiwan Market Mover Access Day，以及115 年11 月23 日~11 月24 日參加Citi Taiwan Corporate Day，會中就公司營運及產業概況向投資機構做說明。",
+      "end_date": "2026-11-24",
+      "kind": "法說會",
+      "location": "11/11 Shangri-La Far Eastern，11/23 W Hotel Taipei",
+      "name": "瑞昱",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2379.TW",
+      "time": "10:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
       "description": "本公司受Macquarie證券邀請參加\"115年第三季營運成果線上電話說明會”",
       "end_date": "2026-11-11",
       "kind": "法說會",
@@ -27102,6 +27509,30 @@
     {
       "cancelled": false,
       "date": "2026-11-11",
+      "description": "說明本公司115年Q3財務暨營運報告",
+      "end_date": "2026-11-11",
+      "kind": "法說會",
+      "location": "本次為中文線上法說會",
+      "name": "統一證",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2855.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
+      "description": "本公司受邀參加BofA證券舉辦之投資人會議，說明公司營運狀況。",
+      "end_date": "2026-11-11",
+      "kind": "法說會",
+      "location": "台北",
+      "name": "國泰金",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2882.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
       "description": "2026年第2季財業務資訊",
       "end_date": "2026-11-11",
       "kind": "法說會",
@@ -27126,6 +27557,42 @@
     {
       "cancelled": false,
       "date": "2026-11-11",
+      "description": "無。",
+      "end_date": "2026-11-11",
+      "kind": "法說會",
+      "location": "台北遠東香格里拉",
+      "name": "日月光投控",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3711.TW",
+      "time": "10:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
+      "description": "本公司受邀參加國泰證券舉辦之海外法人座談會，說明本公司營運狀況，參訪本公司泰國工廠。",
+      "end_date": "2026-11-11",
+      "kind": "法說會",
+      "location": "泰國 Dynamic Technology Manufacturing (Thailand) Co., Ltd.",
+      "name": "定穎投控",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3715.TW",
+      "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
+      "description": "本公司受邀參加福邦證券舉辦之法人說明會",
+      "end_date": "2026-11-11",
+      "kind": "法說會",
+      "location": "台北市忠孝西路一段6號7樓",
+      "name": "宜新實業",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "4440.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
       "description": "本公司受邀參加由臺灣指數公司與寬量國際舉辦之線上法說會「璞玉藏金、優息引路：發掘台灣中堅企業的百業冠軍」，說明本公司之營運概況、財務及業務相關資訊。",
       "end_date": "2026-11-11",
       "kind": "法說會",
@@ -27134,6 +27601,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "4576.TW",
       "time": "16:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-11",
+      "description": "本公司受邀參加 CLST 所舉辦之『Taiwan Market Mover Access Day』，會中介紹公司之營運與財務狀況。",
+      "end_date": "2026-11-11",
+      "kind": "法說會",
+      "location": "臺北遠東香格里拉 106台北市大安區敦化南路二段201號",
+      "name": "旭隼",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "6409.TW",
+      "time": "14:00"
     },
     {
       "cancelled": false,
@@ -27234,6 +27713,18 @@
     {
       "cancelled": false,
       "date": "2026-11-12",
+      "description": "2026年前三季營運概況說明",
+      "end_date": "2026-11-12",
+      "kind": "法說會",
+      "location": "臺灣證券交易所資訊展示中心(臺北市信義區信義路5段7號101大樓1樓)",
+      "name": "生達",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "1720.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-12",
       "description": "本公司受邀參加國票綜合證券法人說明會-115年第三季營運狀況報告",
       "end_date": "2026-11-12",
       "kind": "法說會",
@@ -27282,6 +27773,18 @@
     {
       "cancelled": false,
       "date": "2026-11-12",
+      "description": "本公司受邀參加中國信託證券舉辦之線上法說會，說明本公司營運概況。",
+      "end_date": "2026-11-12",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "仲琦",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2419.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-12",
       "description": "(1)公告本公司召開115年第三季營運成果線上法人說明會 (2)參加方式:請參見 https://events.teams.microsoft.com/event/fa7be8ce-235d-4fe2-9611-42acc3469911@65a97312-0e38-4ac7-b923-4e3737fb402e?source=copyLinkLegacyShareLinkDialog",
       "end_date": "2026-11-12",
       "kind": "法說會",
@@ -27302,6 +27805,42 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "3045.TW",
       "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-12",
+      "description": "本公司受邀參加永豐金證券匯立分公司舉辦之法人說明會，說明本公司業務簡介及現況說明",
+      "end_date": "2026-11-12",
+      "kind": "法說會",
+      "location": "台北遠東香格里拉飯店",
+      "name": "緯創",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3231.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-12",
+      "description": "本公司受邀參加國泰證券所舉辦之法人說明會，說明本公司115年第三季營運成果及近期營運展望",
+      "end_date": "2026-11-12",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "艾笛森",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3591.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-12",
+      "description": "本公司受邀參加元大投顧舉辦之海外法人座談會，說明本公司營運狀況，參訪本公司泰國工廠。",
+      "end_date": "2026-11-12",
+      "kind": "法說會",
+      "location": "泰國 Dynamic Technology Manufacturing (Thailand) Co., Ltd.",
+      "name": "定穎投控",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3715.TW",
+      "time": "11:00"
     },
     {
       "cancelled": false,
@@ -27402,6 +27941,18 @@
     {
       "cancelled": false,
       "date": "2026-11-13",
+      "description": "受邀參加兆豐證券法人說明會，說明本公司營運概況。",
+      "end_date": "2026-11-13",
+      "kind": "法說會",
+      "location": "兆豐證券13樓會議室（台北市忠孝東路二段95號13樓）",
+      "name": "鮮活果汁-KY",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "1256.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
       "description": "本公司受邀參加元大證券舉辦之線上法人說明會，將就本公司115年第三季財務及營運狀況向投資法人說明。 連結如下：https://yuanta-cbd.webex.com/yuanta-cbd/j.php?MTID=m23a4882d1e6acf9867c8e6c143e32223",
       "end_date": "2026-11-13",
       "kind": "法說會",
@@ -27410,6 +27961,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "1795.TW",
       "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "本公司於115/11/13受邀參加由UBS舉辦之\"UBS Future Now 2026:Asia Technology and Innovation Conference\"，就公司營運及產業概況向投資機構做說明。",
+      "end_date": "2026-11-13",
+      "kind": "法說會",
+      "location": "UBS香港辦公室,香港中環金融街8號國際金融中心二期52樓",
+      "name": "國巨*",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2327.TW",
+      "time": "09:00"
     },
     {
       "cancelled": false,
@@ -27498,6 +28061,18 @@
     {
       "cancelled": false,
       "date": "2026-11-13",
+      "description": "115年前三季營運成果暨公司未來展望",
+      "end_date": "2026-11-13",
+      "kind": "法說會",
+      "location": "台北市大安區敦化南路二段333號18樓",
+      "name": "大豐電",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "6184.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
       "description": "本公司受邀參加UBS所舉辦之線上法說會，說明2026年第三季營運及業務狀況。 投資人或分析師可透過以下連結參加：https://openexc.zoom.us/webinar/register/WN_zMxmdn7VSfKz81OwI1eSQg#/registration",
       "end_date": "2026-11-13",
       "kind": "法說會",
@@ -27553,6 +28128,30 @@
       "name": "騰輝電子-KY",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "6672.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "說明本公司財務暨營運概況",
+      "end_date": "2026-11-13",
+      "kind": "法說會",
+      "location": "台開大樓17樓1701會議室(台北市重慶南路一段2號)",
+      "name": "峰源-KY",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "6807.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "本公司受邀參加Bofa舉辦之線上法人說明會，會中說明本公司115年第三季業績狀況及營運展望。",
+      "end_date": "2026-11-13",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "來億-KY",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "6890.TW",
       "time": "14:00"
     },
     {
@@ -27666,6 +28265,18 @@
     {
       "cancelled": false,
       "date": "2026-11-16",
+      "description": "本公司受邀參加元大證券股份有限公司所舉辦之法人說明會",
+      "end_date": "2026-11-16",
+      "kind": "法說會",
+      "location": "元大證券股份有限公司(台北市中山區南京東路三段219號11樓)",
+      "name": "聯陽",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3014.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-16",
       "description": "本公司受邀參加由臺灣證券交易所、臺灣指數公司與寬量國際舉辦之線上法說會「璞玉藏金、優息引路：發掘台灣中堅企業的百業冠軍」，說明本公司之營運成果與未來展望。",
       "end_date": "2026-11-16",
       "kind": "法說會",
@@ -27686,6 +28297,30 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "6446.TW",
       "time": "17:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-16",
+      "description": "本公司受邀參加富邦證券舉辦之法人說明會，說明2026年第三季公司營運概況、財務及業務相關資訊。",
+      "end_date": "2026-11-16",
+      "kind": "法說會",
+      "location": "富邦金控大樓 (台北市大安區仁愛路四段169號15樓)",
+      "name": "東方風能",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "7786.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-16",
+      "description": "本次法⼈說明會採實體及線上同步舉⾏，線上直播請點選以下網址：https://teams.microsoft.com/meet/417887047726492? p=N7TPkOlAqmUjFTBzHk。會中將回顧本公司2026年迄今之營運概況，並說明未來業務展望。欲出席實體會議之法⼈投資機構或媒體，應於115年11⽉12⽇前聯絡柯⼩姐（annie.ko@ctci.com)辦理報名。",
+      "end_date": "2026-11-16",
+      "kind": "法說會",
+      "location": "中鼎總部201會議室(北市中山北路六段89號)及Teams線上同步進行",
+      "name": "中鼎",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "9933.TW",
+      "time": "14:30"
     },
     {
       "cancelled": false,
@@ -27738,6 +28373,18 @@
     {
       "cancelled": false,
       "date": "2026-11-17",
+      "description": "公告本公司115 年11 月17 日~11 月18 日參加J.P. Morgan APAC Technology, Innovation and Growth Conference，115 年11 月18 日~11 月19 日參加Morgan Stanley Twenty-Fifth Annual Asia Pacific Summit，以及115 年11 月24 日參加 BofA Asia AI & Internet Conference，會中就公司營運及產業概況向投資機構 做說明。",
+      "end_date": "2026-11-24",
+      "kind": "法說會",
+      "location": "11/17 Grand Hyatt HK，11/18 Mandarin Oriental SG，11/24 Island Shangri-La HK。",
+      "name": "瑞昱",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2379.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-17",
       "description": "2026年第3季財業務資訊",
       "end_date": "2026-11-17",
       "kind": "法說會",
@@ -27746,6 +28393,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "2884.TW",
       "time": "15:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-17",
+      "description": "本公司受邀參加香港商麥格理資本證券台灣分公司舉辦之法人說明會，說明本公司業務簡介及現況說明",
+      "end_date": "2026-11-17",
+      "kind": "法說會",
+      "location": "台北W飯店",
+      "name": "緯創",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3231.TW",
+      "time": "09:00"
     },
     {
       "cancelled": false,
@@ -27774,6 +28433,18 @@
     {
       "cancelled": false,
       "date": "2026-11-17",
+      "description": "本公司受邀參加永豐金證券及臺灣證券交易所舉辦115年「璞玉指數」主題式業績發表會，說明本公司營運狀況",
+      "end_date": "2026-11-17",
+      "kind": "法說會",
+      "location": "證交所資訊展示中心(臺北101大樓1樓)",
+      "name": "鈞興-KY",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "4571.TW",
+      "time": "15:10"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-17",
       "description": "本公司受邀參加Jefferies舉辦之Jefferies London Healthcare Conference，會中將就本公司115年第三季財務及營運狀況向投資法人說明。",
       "end_date": "2026-11-18",
       "kind": "法說會",
@@ -27782,6 +28453,30 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "6472.TW",
       "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-17",
+      "description": "本公司受邀參加Macquarie舉辦之Macquarie Taiwan Conference",
+      "end_date": "2026-11-17",
+      "kind": "法說會",
+      "location": "台北W飯店",
+      "name": "緯穎",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "6669.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-17",
+      "description": "(1)本公司受邀參加永豐金證券舉辦之線上法人說明會，說明本公司115年第3季營運成果。 (2)活動諮詢：永豐金證券鄒小姐 ，電話：02-2382-8166，E-mail：ECM@sinopac.com",
+      "end_date": "2026-11-17",
+      "kind": "法說會",
+      "location": "https://reurl.cc/5Xn4o6 webex號碼：2516 806 0689 webex密碼：6909",
+      "name": "創控",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "6909.TW",
+      "time": "14:30"
     },
     {
       "cancelled": false,
@@ -27809,6 +28504,18 @@
     },
     {
       "cancelled": false,
+      "date": "2026-11-17",
+      "description": "本公司受邀參加凱基證券舉辦投資人線上會議",
+      "end_date": "2026-11-17",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "美利達",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "9914.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
       "date": "2026-11-18",
       "description": "Twenty-Fifth Annual Asia Pacific Summit",
       "end_date": "2026-11-19",
@@ -27830,6 +28537,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "2308.TW",
       "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-18",
+      "description": "本公司受邀參加摩根士丹利證券所舉辦之『Twenty-Fifth Annual Asia Pacific Summit』，會中就本公司10/15法說會已公開之財務數字、經營績效等相關資訊進行說明。",
+      "end_date": "2026-11-19",
+      "kind": "法說會",
+      "location": "MANDARIN ORIENTAL SINGAPORE",
+      "name": "台積電",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2330.TW",
+      "time": "08:30"
     },
     {
       "cancelled": false,
@@ -27890,6 +28609,42 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "2945.TW",
       "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-18",
+      "description": "本公司受邀參加國票綜合證券舉辦之法人說明會，會中說明本公司115年第3季營運成果及營運展望。",
+      "end_date": "2026-11-18",
+      "kind": "法說會",
+      "location": "國票證券法人部(台北市松山區南京東路五段188號15樓會議室)",
+      "name": "冠星-KY",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "4439.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-18",
+      "description": "本公司受邀參加Morgan Stanley舉辦之25th Annual Asia Pacific論壇，說明PCB產業展望、公司營運績效相關資訊。",
+      "end_date": "2026-11-19",
+      "kind": "法說會",
+      "location": "新加坡文華東方酒店(地址:新加坡萊佛士道5號，濱海廣場)",
+      "name": "臻鼎-KY",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "4958.TW",
+      "time": "08:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-18",
+      "description": "本公司受邀參加永豐金證券所舉辦之線上法人說明會，會中就本公司之財務數字、經營績效等相關資訊說明。",
+      "end_date": "2026-11-18",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "視陽",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "6782.TW",
+      "time": "14:00"
     },
     {
       "cancelled": false,
@@ -27961,7 +28716,7 @@
       "name": "勝一",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "1773.TW",
-      "time": "14:00"
+      "time": "14:20"
     },
     {
       "cancelled": false,
@@ -28086,6 +28841,18 @@
     {
       "cancelled": false,
       "date": "2026-11-24",
+      "description": "本公司受邀參加花旗環球證券舉辦之法人說明會，說明本公司業務簡介及現況說明",
+      "end_date": "2026-11-24",
+      "kind": "法說會",
+      "location": "台北W飯店",
+      "name": "緯創",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3231.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-24",
       "description": "本公司受邀參加花旗證券舉辦的論壇。",
       "end_date": "2026-11-24",
       "kind": "法說會",
@@ -28106,6 +28873,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
       "symbol": "2356.TW",
       "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-25",
+      "description": "報告本行2026年第3季財務資訊及經營成果",
+      "end_date": "2026-11-25",
+      "kind": "法說會",
+      "location": "本次為中文線上法說會，連結網址請至本公司網頁或至公開資訊觀測站查詢。",
+      "name": "彰銀",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2801.TW",
+      "time": "14:30"
     },
     {
       "cancelled": false,
@@ -28154,6 +28933,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "2880.TW",
       "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-26",
+      "description": "本公司受邀參加由華南永昌證券舉辦之法人法說會，將於會中說明本公司近期營運概況。",
+      "end_date": "2026-11-26",
+      "kind": "法說會",
+      "location": "台北市松山區民生東路4段54號(4F大會議室)",
+      "name": "台勝科",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3532.TW",
+      "time": "14:00"
     },
     {
       "cancelled": false,
@@ -28226,18 +29017,6 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
       "symbol": "2301.TW",
       "time": "10:15"
-    },
-    {
-      "cancelled": false,
-      "date": "2026-12-01",
-      "description": "本公司受元大證券邀請，將於上述時間地點，向法人投資者說明本公司115年第3季之財務報告相關資訊。",
-      "end_date": "2026-12-01",
-      "kind": "法說會",
-      "location": "台北晶華酒店",
-      "name": "台達電",
-      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
-      "symbol": "2308.TW",
-      "time": "09:30"
     },
     {
       "cancelled": false,
@@ -28334,6 +29113,18 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "3701.TW",
       "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-07",
+      "description": "本公司受元大證券邀請，將於上述時間地點，向法人投資者說明本公司115年第3季之財務報告相關資訊。",
+      "end_date": "2026-12-07",
+      "kind": "法說會",
+      "location": "元大證券辦公室",
+      "name": "台達電",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "2308.TW",
+      "time": "14:30"
     },
     {
       "cancelled": false,
@@ -28457,6 +29248,30 @@
     },
     {
       "cancelled": false,
+      "date": "2026-12-24",
+      "description": "已公告股東會日期",
+      "end_date": "2026-12-24",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "春雨",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "symbol": "2012.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-29",
+      "description": "已公告股東會日期",
+      "end_date": "2026-12-29",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "吉祥全",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "symbol": "2491.TW",
+      "time": ""
+    },
+    {
+      "cancelled": false,
       "date": "2026-12-29",
       "description": "已公告股東會日期",
       "end_date": "2026-12-29",
@@ -28571,8 +29386,8 @@
     },
     "1213.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -28721,8 +29536,8 @@
     },
     "1236.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -28881,8 +29696,8 @@
     },
     "1321.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -29031,8 +29846,8 @@
     },
     "1414.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -29161,8 +29976,8 @@
     },
     "1440.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -29421,8 +30236,8 @@
     },
     "1472.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -29581,8 +30396,8 @@
     },
     "1521.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -29611,8 +30426,8 @@
     },
     "1525.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -29937,8 +30752,8 @@
     },
     "1612.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -29947,8 +30762,8 @@
     },
     "1614.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30027,8 +30842,8 @@
     },
     "1707.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -30127,8 +30942,8 @@
     },
     "1720.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30177,8 +30992,8 @@
     },
     "1726.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -30277,8 +31092,8 @@
     },
     "1752.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30397,8 +31212,8 @@
     },
     "1808.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30667,8 +31482,8 @@
     },
     "2028.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30787,8 +31602,8 @@
     },
     "2072.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30837,8 +31652,8 @@
     },
     "2105.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -30867,8 +31682,8 @@
     },
     "2108.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30887,8 +31702,8 @@
     },
     "2114.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -30947,8 +31762,8 @@
     },
     "2208.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -31097,8 +31912,8 @@
     },
     "2258.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -31357,8 +32172,8 @@
     },
     "2347.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -31487,8 +32302,8 @@
     },
     "2363.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -31807,8 +32622,8 @@
     },
     "2412.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -32077,8 +32892,8 @@
     },
     "2449.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -32137,8 +32952,8 @@
     },
     "2457.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -32197,8 +33012,8 @@
     },
     "2464.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -32207,8 +33022,8 @@
     },
     "2465.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -32277,8 +33092,8 @@
     },
     "2476.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -32497,8 +33312,8 @@
     },
     "2506.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -32517,8 +33332,8 @@
     },
     "2511.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -32717,8 +33532,8 @@
     },
     "2547.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -32967,8 +33782,8 @@
     },
     "2645.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -33037,8 +33852,8 @@
     },
     "2707.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -33167,8 +33982,8 @@
     },
     "2820.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -33657,8 +34472,8 @@
     },
     "3015.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -33667,8 +34482,8 @@
     },
     "3016.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -34907,8 +35722,8 @@
     },
     "3711.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -35227,8 +36042,8 @@
     },
     "4551.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -35287,8 +36102,8 @@
     },
     "4564.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -35387,8 +36202,8 @@
     },
     "4588.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -35397,8 +36212,8 @@
     },
     "4590.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -35487,8 +36302,8 @@
     },
     "4764.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -35547,8 +36362,8 @@
     },
     "4906.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -35717,8 +36532,8 @@
     },
     "4961.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -35787,8 +36602,8 @@
     },
     "4999.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36177,8 +36992,8 @@
     },
     "5906.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36387,8 +37202,8 @@
     },
     "6166.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36477,8 +37292,8 @@
     },
     "6196.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36647,8 +37462,8 @@
     },
     "6243.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36767,8 +37582,8 @@
     },
     "6409.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36867,8 +37682,8 @@
     },
     "6446.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36953,8 +37768,8 @@
     },
     "6504.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -36983,8 +37798,8 @@
     },
     "6525.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -37003,8 +37818,8 @@
     },
     "6531.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -37243,8 +38058,8 @@
     },
     "6658.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -37303,8 +38118,8 @@
     },
     "6672.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -37353,8 +38168,8 @@
     },
     "6698.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -37743,8 +38558,8 @@
     },
     "6901.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -38229,8 +39044,8 @@
     },
     "7780.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -38485,8 +39300,8 @@
     },
     "8081.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -38645,8 +39460,8 @@
     },
     "8222.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -39031,8 +39846,8 @@
     },
     "9908.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -39141,8 +39956,8 @@
     },
     "9926.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-10",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-10-12",
@@ -39353,37 +40168,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "name": "2027-01 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=116&month=01"
     },
     {
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -54267,7 +55082,1027 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9924.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "公告本公司土城中山廠火災情形及因應措施",
+      "due_date": "2026-11-09",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "正崴",
+      "reason": "重大財務或營運異常：公告本公司土城中山廠火災情形及因應措施",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "重大財務或營運異常",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2392.TW",
+      "time": "185834"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司公告調整與玉山投信股份轉換案之股份轉換基準日",
+      "due_date": "2026-11-09",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "玉山金",
+      "reason": "控制權或主要資產變動：本公司公告調整與玉山投信股份轉換案之股份轉換基準日",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2884.TW",
+      "time": "181413"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "玉山金控代子公司玉山投信公告\r\n調整股份轉換案之股份轉換基準日",
+      "due_date": "2026-11-09",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "玉山金",
+      "reason": "控制權或主要資產變動：玉山金控代子公司玉山投信公告\r\n調整股份轉換案之股份轉換基準日",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2884.TW",
+      "time": "183719"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "公告本公司處分營業用機器設備予子公司南京泛銓電子科技有限公司",
+      "due_date": "2026-11-09",
+      "end_date": "2026-11-09",
+      "fact_date": "2026-11-09",
+      "kind": "重大訊息",
+      "name": "汎銓",
+      "reason": "控制權或主要資產變動：公告本公司處分營業用機器設備予子公司南京泛銓電子科技有限公司",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6830.TW",
+      "time": "141457"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "大飲",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1213.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "宏亞",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1236.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司受邀參加國票證券舉辦之法人說明會，說明本公司之營運概況。",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "國票證券法人部",
+      "name": "南亞",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1303.TW",
+      "time": "12:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "大洋",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1321.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "公司簡介及營運概況等說明",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "臺灣證券交易所1樓資訊展示中心(台北市信義路5段7號101大樓1樓)",
+      "name": "再生-KY",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1337.TW",
+      "time": "14:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "東和",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1414.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "南紡",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1440.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "三洋實業",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1472.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "大億",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1521.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "江申",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1525.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "宏泰",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1612.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "三洋電",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1614.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "葡萄王",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1707.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "生達",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1720.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "永記",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1726.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "南光",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1752.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "潤隆",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1808.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "威致",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2028.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "世紀能源",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": null,
+      "symbol": "2072.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "正新",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2105.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "南帝",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2108.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "鑫永銓",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2114.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "台船",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2208.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "鴻華先進-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2258.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "聯強",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2347.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司2026年第三季財務結果及業務摘要",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "佳世達",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2352.TW",
+      "time": "14:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "矽統",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2363.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "中華電",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2412.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "京元電子",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2449.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "飛宏",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2457.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "盟立",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2464.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "麗臺",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2465.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "鉅祥",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2476.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "太設",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2506.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "太子",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2511.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "日勝生",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2547.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "長榮航太",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2645.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "晶華",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2707.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "華票",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2820.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "討論富邦金控財務及業務相關資訊",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "香港",
+      "name": "富邦金",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2881.TW",
+      "time": "09:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "全漢",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3015.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "嘉晶",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3016.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司將於11月9日召開線上法人說明會，會中報告2026年第三季經營成果。",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "線上法人說明會請造訪以下網址：https://www.zucast.com/webcast/DCaUZjLC",
+      "name": "欣陸",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3703.TW",
+      "time": "14:30"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "日月光投控",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3711.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司受邀參加永豐金證券舉辦之線上法人說明會。",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "Webex線上會議",
+      "name": "定穎投控",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3715.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司受邀參加KGI凱基證券所舉辦之法人說明會，向投資人說明本公司之營運及財務概況。",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "凱基證券(股)公司 (台北市中山區明水路700號)",
+      "name": "廣越",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4438.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司受邀參加永豐金證券舉辦之法人說明會，說明本公司營運狀況。",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "永豐金證券-台開大樓22樓 大會議廳(台北市中正區重慶南路一段2號22樓）",
+      "name": "智伸科",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4551.TW",
+      "time": "14:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "智伸科",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4551.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "元翎",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4564.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "玖鼎電力",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4588.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "富田-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4590.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "雙鍵",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4764.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "已公告股東會日期",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "南寶",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4766.TW",
+      "time": ""
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "正文",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4906.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "天鈺",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4961.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "鑫禾",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4999.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "台南-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5906.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "凌華",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6166.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "帆宣",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6196.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "2026年前3季營運說明會",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "新竹縣湖口鄉鳳山村復興路26號",
+      "name": "居易",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6216.TW",
+      "time": "14:30"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "迅杰",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6243.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "旭隼",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6409.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "藥華藥",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6446.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司將受邀參加福邦證券舉辦之法人說明會，會中將就2026年第三季財務數字等相關資訊做說明。",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "福邦證券(台北市忠孝西路一段6號7樓)",
+      "name": "GIS-KY",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6456.TW",
+      "time": "14:30"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "南六",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6504.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "捷敏-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6525.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "愛普*",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6531.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "聯策",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6658.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "騰輝電子-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6672.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "已公告股東會日期",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "鋐寶科技",
+      "reason": "股東臨時會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6674.TW",
+      "time": ""
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "旭暉應材",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6698.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "(1)本公司受邀參加元大證券舉辦之線上法人說明會,說明本公司115年第3季營運與財務概況 (2)活動諮詢:元大證券投行部信箱underwriting.brk@yuanta.com",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "線上會議",
+      "name": "來頡",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6799.TW",
+      "time": "14:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "鑽石投資",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6901.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司受邀參加中信證券舉辦之實體法說會，說明本公司營運現況及展望",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "中信證券(台北市忠孝西路一段6號4樓)",
+      "name": "大武山",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6952.TW",
+      "time": "14:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "大研生醫*",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7780.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "致新",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8081.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "寶一",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8222.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-09",
+      "description": "本公司受邀參加富邦證券舉辦之法人說明會，說明本公司未來營運發展計劃及115年第三季法說會簡報與其他已公開發佈之財務數字、經營績效等相關資訊。",
+      "due_date": "2026-11-10",
+      "end_date": "2026-11-09",
+      "kind": "法說會",
+      "location": "線上會議",
+      "name": "富邦媒",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8454.TW",
+      "time": "14:00"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "大台北",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9908.TW"
+    },
+    {
+      "date": "2026-11-10",
+      "due_date": "2026-11-10",
+      "kind": "財報",
+      "name": "新海",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9926.TW"
     }
   ],
-  "updated_at": "2026-11-09T01:44:53+08:00"
+  "updated_at": "2026-11-10T15:13:59+08:00"
 }

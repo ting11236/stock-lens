@@ -1,7 +1,26 @@
 {
   "as_of": "2026-11-10",
   "events": [],
-  "margins": [],
+  "margins": [
+    {
+      "below": false,
+      "lower_bound": true,
+      "name": "上市",
+      "value": "≥ 162.4%"
+    },
+    {
+      "below": false,
+      "lower_bound": true,
+      "name": "上櫃",
+      "value": "≥ 155.0%"
+    },
+    {
+      "below": false,
+      "lower_bound": true,
+      "name": "上市＋上櫃",
+      "value": "≥ 160.6%"
+    }
+  ],
   "market": {
     "breadth": {
       "down": 229,
