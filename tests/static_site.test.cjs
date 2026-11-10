@@ -11,10 +11,11 @@ test('published HTML shows stocks before scripts run and startup makes no data r
  write('company-research',{schema_version:1,profiles:{'1101.TW':{name:stock.name,status:'pending',reviewed_at:null,sources:{},limitations:['尚未完成研究']}}});
  write('market-movers',{schema_version:1,basis:'收盤價',periods:{'5':{start:'2026-10-01',end:'2026-10-08',count:1,changes:{'1101.TW':0},gainers:[],losers:[]}}});
  write('company-calendar',{schema_version:1,as_of:'2026-10-09',events:[],update_queue:[],companies:{},errors:[]});
+ fs.writeFileSync(path.join(site,'market-summary.html'),'<h2 id="todayMarketSummaryTitle">今日市場摘要</h2><p>預先產生的市場摘要</p>');
  try{
   const result=buildStaticSite(site);assert.equal(result.companies,1);
   const html=fs.readFileSync(path.join(site,'index.html'),'utf8'),{document,window}=parseHTML(html);
-  assert.equal(document.querySelectorAll('#stockRows tr[data-symbol]').length,1);
+  assert.equal(document.querySelectorAll('#stockRows tr[data-symbol]').length,1);assert.match(document.getElementById('todayMarketSummary').textContent,/預先產生的市場摘要/);
   assert.match(document.getElementById('stockRows').textContent,/alert\(1\)/);
   const model=JSON.parse(document.getElementById('displayModel').textContent);assert.equal(model.stocks[0].price,20);
   assert.doesNotMatch(JSON.stringify(model),/private-audit|原始來源紀錄/);

@@ -57,13 +57,16 @@ jobs:
       - name: 更新法說會、股東會與公司摘要待辦
         continue-on-error: true
         run: python company_calendar.py
+      - name: 產生今日市場摘要
+        continue-on-error: true
+        run: python market_summary.py
       - name: 保留有變更的快照、CSV 與更新狀態
         run: |
-          if ! git diff --quiet -- site/data research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz || test -n "$(git ls-files --others --exclude-standard site/data research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz)"; then
+          if ! git diff --quiet -- site/data site/margin-panel.html site/market-summary.html research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz || test -n "$(git ls-files --others --exclude-standard site/data site/margin-panel.html site/market-summary.html research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz)"; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add site/data
-            for file in research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz; do
+            for file in site/margin-panel.html site/market-summary.html research/monitoring-tasks/announcement-monitor.json.gz research/monitoring-tasks/announcement-review.json.gz; do
               if test -f "$file"; then git add "$file"; fi
             done
             git commit -m 'data: 更新上市台股快照與來源狀態'

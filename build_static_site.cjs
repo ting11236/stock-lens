@@ -10,6 +10,9 @@ function buildStaticSite(site=path.resolve('site')){
  calendar.recent_summaries=recentPublishedMeetingSummaries(ledger.meetings,data.profiles,calendar.as_of);
  const {document,window}=parseHTML(fs.readFileSync(path.join(site,'index.html'),'utf8'));
  Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){const o=this.querySelector('option[selected]')||this.querySelector('option');return o?.getAttribute('value')??o?.textContent??'';},set(value){for(const o of this.querySelectorAll('option')){if((o.getAttribute('value')??o.textContent)===String(value))o.setAttribute('selected','');else o.removeAttribute('selected');}}});
+ const summaryPath=path.join(site,'market-summary.html');
+ const summaryHost=document.getElementById('todayMarketSummary');
+ if(summaryHost&&fs.existsSync(summaryPath))summaryHost.innerHTML=fs.readFileSync(summaryPath,'utf8');
  const storage={getItem:()=>null,setItem(){}};
  window.localStorage=storage;
  const ctx=vm.createContext({document,window,localStorage:storage,console,Date,URL,Blob,setTimeout,clearTimeout,requestAnimationFrame:()=>{}});
