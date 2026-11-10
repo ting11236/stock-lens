@@ -1,12 +1,14 @@
 {
-  "errors": {
-    "eps": "JSONDecodeError：來源未通過下載或格式檢查"
-  },
+  "errors": {},
   "latest_price_date": "2026-11-09",
   "quarterly_coverage": {
     "balance": {
       "received_companies": 294,
       "retained_statement_companies": 294
+    },
+    "eps": {
+      "received_companies": 296,
+      "retained_statement_companies": 296
     },
     "income": {
       "received_companies": 294,
@@ -17,6 +19,6 @@
       "retained_statement_companies": 294
     }
   },
-  "since": "2026-11-10T13:39:18+00:00",
-  "state": "partial"
+  "since": "2026-11-10T17:55:14+00:00",
+  "state": "ok"
 }
