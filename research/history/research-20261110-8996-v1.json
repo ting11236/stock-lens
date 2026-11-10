@@ -1,0 +1,183 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261110-8996-v1",
+    "ready": true,
+    "created_at": "2026-11-10T14:54:15.018964+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 1,
+    "updates_sha256": "sha256:9c0e26058dc470f7209cebdf6a38f9c9b3195341f0692addff292519cb39b725",
+    "work_type": "change_update",
+    "completion_unit": "11/3核能合資事件完整公告及公司夥伴原稿一次交付",
+    "full_company_completion": false,
+    "new_meeting": false,
+    "validation": {
+      "baseline_locked": true,
+      "full_event_delivered": true,
+      "partner_original_read": true
+    },
+    "limitations": [
+      "新合資登記及實際出資未確認",
+      "未揭露客戶、商用時程及財務貢獻",
+      "僅完成本事件，不代表整家公司研究完成"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261110-8996-v1-developments",
+      "task_id": "announcement-8996-20261103-164042",
+      "company_code": "8996",
+      "company_name": "高力",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:f3951aaadc518ad266c5156b606dd35352a6684c517ba3682dfbf513ee806e63",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "高力2026年11月3日董事會核准參與華新世紀核能系統，合資資本額新臺幣1億元，高力擬投資1,000萬元、持股10%；同日公司與夥伴宣布簽約。董事會授權籌設與出資作業，不能直接視為登記、付款及營運均已完成。[twse、kaori]\n本案屬新合資事業，產品方向是延伸熱交換、熱管理與製造技術，評估SMR相關模組。公司原稿仍稱市場研究、技術評估與合作階段，未揭露客戶訂單、認證完成、量產日、營收或獲利預估。[kaori]\n夥伴新聞提及旗下英國公司既有Rolls-Royce合作經驗，不能轉寫成高力或新合資公司取得該客戶訂單；初期推廣既有技術與未來SMR整合能力亦應分開。[walsin]\n研究判斷：新增能源應用選項，但現階段不據此提高短期獲利預估。後續確認出資與設立、核能認證、客戶驗證、正式訂單及認列收入後再更新。",
+        "period": "2026-11-03合資公告；來源查閱至2026-11-10",
+        "sources": [
+          "twse",
+          "kaori",
+          "walsin"
+        ],
+        "projects": [
+          {
+            "project_id": "8996-nuclear-jv-smr",
+            "name": "華新世紀核能合資與SMR熱管理評估",
+            "type": "新事業／合資",
+            "uses_and_customers": "核能熱交換及熱管理模組；合作夥伴華新麗華、世紀能源設備與泰豐貿易，客戶未揭露",
+            "status": "董事會核准投資、夥伴已簽約；技術及市場評估，登記與實際出資未確認",
+            "commercial_timing": "not_disclosed：未揭露商用或量產日期",
+            "revenue_contribution": "not_disclosed：未揭露營收或獲利；擬投資1000萬元不等於收入",
+            "sources": [
+              "twse",
+              "kaori",
+              "walsin"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "twse",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "高力董事會決議參與設立合資公司",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-10",
+          "source_evidence_file": "網站回報/高力最新完整基線_20261108.json",
+          "publisher": "高力／證交所"
+        },
+        {
+          "source_id": "kaori",
+          "url": "https://www.kaori.com.tw/tw/modules/news/article.php?storyid=256",
+          "title": "高力布局下一世代能源市場",
+          "publisher": "高力",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-08"
+        },
+        {
+          "source_id": "walsin",
+          "url": "https://www.walsin.com/華新麗華攜手產業夥伴強強聯手-共築台灣核能供/",
+          "title": "共築台灣核能供應鏈發展新局",
+          "publisher": "華新麗華",
+          "published_at": "2026-11-03",
+          "accessed_at": "2026-11-08"
+        }
+      ],
+      "research_completed_at": "2026-11-10T14:54:15.018964+08:00",
+      "research_completion": "event_complete_with_disclosed_gaps",
+      "completion_unit": "11/3核能合資事件完整公告及公司夥伴原稿一次交付",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "company_statements_and_labeled_research_inference",
+      "limitations": [
+        "新合資登記及實際出資未確認",
+        "未揭露客戶、商用時程及財務貢獻",
+        "僅完成本事件，不代表整家公司研究完成"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview_sha256": "sha256:f3951aaadc518ad266c5156b606dd35352a6684c517ba3682dfbf513ee806e63",
+  "adopted_official_record": {
+    "name": "高力",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "twse": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "高力董事會決議參與設立合資公司",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-10",
+        "source_evidence_file": "網站回報/高力最新完整基線_20261108.json",
+        "publisher": "高力／證交所"
+      },
+      "kaori": {
+        "url": "https://www.kaori.com.tw/tw/modules/news/article.php?storyid=256",
+        "title": "高力布局下一世代能源市場",
+        "publisher": "高力",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-08"
+      },
+      "walsin": {
+        "url": "https://www.walsin.com/華新麗華攜手產業夥伴強強聯手-共築台灣核能供/",
+        "title": "共築台灣核能供應鏈發展新局",
+        "publisher": "華新麗華",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-08"
+      }
+    },
+    "limitations": [
+      "新合資登記及實際出資未確認",
+      "未揭露客戶、商用時程及財務貢獻",
+      "僅完成本事件，不代表整家公司研究完成"
+    ],
+    "business": null,
+    "earnings": null,
+    "transition": null,
+    "developments": {
+      "text": "公司發展方向：把既有的熱交換與熱管理技術延伸至小型模組化核反應器（SMR）設備。目前進行市場研究、技術評估與產業合作。\n2026年11月3日董事會核准參與合資，夥伴同日簽約。合資資本總額為新臺幣1億元；高力規劃投入1,000萬元、持股10%，籌設登記與實際付款進度待後續公告。\n初期方向是推廣夥伴既有技術、開拓海外核能市場及支援國內既有設備需求，未來再逐步發展SMR設備與模組整合能力。客戶訂單、認證完成、量產時間、營收與獲利預估尚未揭露。\n華新旗下英國公司的Rolls-Royce合作經驗屬夥伴既有實績；本案尚未揭露高力或新合資公司取得該客戶新訂單。\n研究判斷：新增能源應用選項；先追蹤設立、出資、認證、客戶驗證與訂單，暫不據此提高短期獲利預估。",
+      "period": "2026-11-03合資公告；來源查閱至2026-11-10",
+      "sources": [
+        "twse",
+        "kaori",
+        "walsin"
+      ],
+      "projects": [
+        {
+          "project_id": "8996-nuclear-jv-smr",
+          "name": "華新世紀核能合資與SMR熱管理評估",
+          "type": "新事業／合資",
+          "uses_and_customers": "核能熱交換及熱管理模組；合作夥伴華新麗華、世紀能源設備與泰豐貿易，客戶未揭露",
+          "status": "董事會核准投資、夥伴已簽約；技術及市場評估，登記與實際出資未確認",
+          "commercial_timing": "not_disclosed：未揭露商用或量產日期",
+          "revenue_contribution": "not_disclosed：未揭露營收或獲利；擬投資1000萬元不等於收入",
+          "sources": [
+            "twse",
+            "kaori",
+            "walsin"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-11-10",
+      "update_id": "research-20261110-8996-v1-developments",
+      "research_completion": "event_complete_with_disclosed_gaps"
+    }
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "overview_unchanged": true,
+    "event_only": true,
+    "new_meeting": false,
+    "original_qa_verified": false,
+    "project_ids": [
+      "8996-nuclear-jv-smr"
+    ],
+    "public_prose_rewritten_for_readability": true
+  }
+}
