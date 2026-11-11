@@ -1,6 +1,9 @@
 {
   "basis": "各標的當日收盤價×融資張數×1000，除以同日市場融資金額；缺價時為下限，含ETF。",
-  "errors": [],
+  "errors": [
+    "2026-11-11 twse ValueError",
+    "2026-11-11 tpex ValueError"
+  ],
   "history": [
     {
       "combined": {
@@ -4398,5 +4401,5 @@
   ],
   "method_version": "same-day-collateral-v1",
   "schema_version": 1,
-  "updated_at": "2026-11-11T01:56:12+08:00"
+  "updated_at": "2026-11-11T15:12:49+08:00"
 }
