@@ -1,0 +1,226 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261112-2884-v1",
+    "ready": true,
+    "created_at": "2026-11-12T13:26:35.689615+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 1,
+    "updates_sha256": "sha256:fc8545c237add6bd2dcfb179cd436098a1edad4f0b3e05f877cf6468fd8aef6e",
+    "work_type": "change_update",
+    "completion_unit": "11/9投信股份轉換時程修正同事件兩則公告一次交付",
+    "full_company_completion": false,
+    "new_meeting": false,
+    "validation": {
+      "baseline_locked": true,
+      "full_event_delivered": true,
+      "duplicate_announcements_merged": true,
+      "old_event_preserved": true
+    },
+    "limitations": [
+      "舊保代交易保留原查閱時間，未以本次追查冒稱已交割",
+      "僅完成投信時程修正事件，非全公司完成",
+      "尚未到預訂基準日，不稱轉換完成"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261112-2884-v1-developments",
+      "task_id": "announcement-2884-20261109-share-swap-date",
+      "company_code": "2884",
+      "company_name": "玉山金",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:fd27b855e01a8a83128b75eb5f2118db95faff3d5be77a94813a27825212a753",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:887778698e86351fd5e4b2aa49eba26d91db126e8a25774dbdb7577d19ee4fbd",
+      "expected_old_section_version": "sha256:45511e116d893f6993914cfcb44794614df63442762e48e500c26c57eb1b2bb5",
+      "old_content": {
+        "text": "2026年10月5日玉山金公告取得三商美邦保險代理人100%股權，交割基準日訂為2026年11月6日；已取得金管會9月22日核准及公平會9月24日不禁止決議。10月5日為訂定交割日期，不能寫成已完成交割。標的是保險代理人公司，須與三商美邦人壽的股份轉換分開；本則未揭露交易金額或收入與獲利增量，不用人壽併購金額代填。",
+        "period": "2026-10-05公告／未來計畫另列",
+        "sources": [
+          "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15"
+        ],
+        "reviewed_at": "2026-10-07"
+      },
+      "new_content": {
+        "text": "2026年10月5日玉山金公告取得三商美邦保險代理人100%股權，交割基準日訂為2026年11月6日；已取得金管會9月22日核准及公平會9月24日不禁止決議。10月5日為訂定交割日期，不能寫成已完成交割。標的是保險代理人公司，須與三商美邦人壽的股份轉換分開；本則未揭露交易金額或收入與獲利增量，不用人壽併購金額代填。\n\n2026年11月9日玉山金及代子公司玉山投信的兩則公告，係同一股份轉換案時程修正。依9月1日董事會決議及股份轉換契約第5.2條，雙方董事長將基準日由2027年1月4日改為2026年12月20日；公告理由為股東權益、產業競爭與集團整合需求。這是未來基準日調整，不等於轉換已完成。[esun-181413、esun-183719]\n本次標的是玉山投信，與前段三商美邦保險代理人股權交易，以及三商美邦人壽股份轉換分開。公司就此時程變更表示財務業務影響為無，兩則沒有新增揭露對價、換股比例或收益增量；不據此調高獲利預估，也不把相同公告重複列為兩件交易。研究後續觀察實際轉換完成及整合效益，屬研究追蹤條件。[esun-181413、esun-183719；research_inference]",
+        "period": "原2026-10-05保代事件保留；新增2026-11-09投信時程修正",
+        "sources": [
+          "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15",
+          "esun-181413",
+          "esun-183719"
+        ],
+        "projects": [
+          {
+            "project_id": "2884-esun-sitc-share-swap",
+            "name": "玉山投信股份轉換時程調整",
+            "type": "既有併購／組織整合",
+            "uses_and_customers": "投信事業集團整合；本次公告未新增客戶資訊",
+            "status": "基準日調整，未確認轉換完成",
+            "commercial_timing": "預訂2026-12-20股份轉換基準日，原2027-01-04；非產品商用日",
+            "revenue_contribution": "時程變更公告稱財務業務影響無；未新增收益預估",
+            "sources": [
+              "esun-181413",
+              "esun-183719"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "esun-181413",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "本公司公告調整與玉山投信股份轉換案之股份轉換基準日",
+          "publisher": "玉山金／證交所",
+          "published_at": "2026-11-09",
+          "accessed_at": "2026-11-11",
+          "statement": "1.事實發生日:115/11/09\n2.原公告申報日期:115/09/01\n3.簡述原公告申報內容:\n玉山金控與玉山投信進行股份轉換（以下簡稱「本股份轉換案」）一案，\n原暫訂股份轉換基準日為民國116年1月4日。\n4.變動緣由及主要內容:\n考量股東權益及衡酌產業競爭與集團整合需求，依據115年9月1日\n董事會決議暨「股份轉換契約」第5.2條，經雙方董事長同意將股份轉換基準日\n從原116年1月4日調整為115年12月20日。\n5.變動後對公司財務業務之影響:無。\n6.其他應敘明事項:無。",
+          "source_evidence_file": "研究進度/來源留存/2026-11-11-官方監看/new-material-announcements.json.gz"
+        },
+        {
+          "source_id": "esun-183719",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "玉山金控代子公司玉山投信公告\r\n調整股份轉換案之股份轉換基準日",
+          "publisher": "玉山金／證交所",
+          "published_at": "2026-11-09",
+          "accessed_at": "2026-11-11",
+          "statement": "1.事實發生日:115/11/09\n2.原公告申報日期:115/09/01\n3.簡述原公告申報內容:\n玉山金控與玉山投信進行股份轉換（以下簡稱「本股份轉換案」）一案，\n原暫訂股份轉換基準日為民國116年1月4日。\n4.變動緣由及主要內容:\n考量股東權益及衡酌產業競爭與集團整合需求，依據115年9月1日\n董事會決議暨「股份轉換契約」第5.2條，經雙方董事長同意將股份\n轉換基準日從原116年1月4日調整為115年12月20日。\n5.變動後對公司財務業務之影響:無。\n6.其他應敘明事項:無。",
+          "source_evidence_file": "研究進度/來源留存/2026-11-11-官方監看/new-material-announcements.json.gz"
+        }
+      ],
+      "research_completed_at": "2026-11-12T13:26:35.689615+08:00",
+      "research_completion": "event_complete_with_disclosed_gaps",
+      "completion_unit": "11/9投信股份轉換時程修正同事件兩則公告一次交付",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_and_labeled_research_inference",
+      "limitations": [
+        "舊保代交易保留原查閱時間，未以本次追查冒稱已交割",
+        "僅完成投信時程修正事件，非全公司完成",
+        "尚未到預訂基準日，不稱轉換完成"
+      ]
+    }
+  ],
+  "before_official_record": {
+    "name": "玉山金",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "公告本公司取得三商美邦保險代理人股份有限公司100%股權案之股份買賣交割基準日",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-07",
+        "supports": "公司公告正文，官方10/6出表快照；本輪重新閱讀網站交接保存正文",
+        "publisher": "證交所／2884"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "本次只查核受影響章節，不代表整家公司查核完成。"
+    ],
+    "developments": {
+      "text": "2026年10月5日玉山金公告取得三商美邦保險代理人100%股權，交割基準日訂為2026年11月6日；已取得金管會9月22日核准及公平會9月24日不禁止決議。10月5日為訂定交割日期，不能寫成已完成交割。標的是保險代理人公司，須與三商美邦人壽的股份轉換分開；本則未揭露交易金額或收入與獲利增量，不用人壽併購金額代填。",
+      "period": "2026-10-05公告／未來計畫另列",
+      "sources": [
+        "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15"
+      ],
+      "reviewed_at": "2026-10-07"
+    }
+  },
+  "before_overview_sha256": "sha256:887778698e86351fd5e4b2aa49eba26d91db126e8a25774dbdb7577d19ee4fbd",
+  "adopted_official_record": {
+    "name": "玉山金",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "公告本公司取得三商美邦保險代理人股份有限公司100%股權案之股份買賣交割基準日",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-07",
+        "supports": "公司公告正文，官方10/6出表快照；本輪重新閱讀網站交接保存正文",
+        "publisher": "證交所／2884"
+      },
+      "esun-181413": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "本公司公告調整與玉山投信股份轉換案之股份轉換基準日",
+        "publisher": "玉山金／證交所",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-11",
+        "statement": "1.事實發生日:115/11/09\n2.原公告申報日期:115/09/01\n3.簡述原公告申報內容:\n玉山金控與玉山投信進行股份轉換（以下簡稱「本股份轉換案」）一案，\n原暫訂股份轉換基準日為民國116年1月4日。\n4.變動緣由及主要內容:\n考量股東權益及衡酌產業競爭與集團整合需求，依據115年9月1日\n董事會決議暨「股份轉換契約」第5.2條，經雙方董事長同意將股份轉換基準日\n從原116年1月4日調整為115年12月20日。\n5.變動後對公司財務業務之影響:無。\n6.其他應敘明事項:無。",
+        "source_evidence_file": "研究進度/來源留存/2026-11-11-官方監看/new-material-announcements.json.gz"
+      },
+      "esun-183719": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "玉山金控代子公司玉山投信公告\r\n調整股份轉換案之股份轉換基準日",
+        "publisher": "玉山金／證交所",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-11",
+        "statement": "1.事實發生日:115/11/09\n2.原公告申報日期:115/09/01\n3.簡述原公告申報內容:\n玉山金控與玉山投信進行股份轉換（以下簡稱「本股份轉換案」）一案，\n原暫訂股份轉換基準日為民國116年1月4日。\n4.變動緣由及主要內容:\n考量股東權益及衡酌產業競爭與集團整合需求，依據115年9月1日\n董事會決議暨「股份轉換契約」第5.2條，經雙方董事長同意將股份\n轉換基準日從原116年1月4日調整為115年12月20日。\n5.變動後對公司財務業務之影響:無。\n6.其他應敘明事項:無。",
+        "source_evidence_file": "研究進度/來源留存/2026-11-11-官方監看/new-material-announcements.json.gz"
+      }
+    },
+    "limitations": [
+      "僅部分章節已查核；完整公司研究尚未完成。",
+      "本次只查核受影響章節，不代表整家公司查核完成。"
+    ],
+    "developments": {
+      "text": "2026年10月5日玉山金公告取得三商美邦保險代理人100%股權，交割基準日訂為2026年11月6日；已取得金管會9月22日核准及公平會9月24日不禁止決議。10月5日為訂定交割日期，不能寫成已完成交割。標的是保險代理人公司，須與三商美邦人壽的股份轉換分開；本則未揭露交易金額或收入與獲利增量，不用人壽併購金額代填。\n（以上保代資料查閱於2026年10月7日；本次未追查交割結果。）\n\n公司發展方向：推進玉山投信的集團整合。2026年11月9日，玉山金與代子公司發布兩則公告，說明同一件股份轉換案的日期調整。\n預訂股份轉換基準日由2027年1月4日提前至2026年12月20日，尚未確認轉換完成。公司說明，調整是考量股東權益、產業競爭及集團整合需求。\n這次標的是玉山投信，與前段保險代理人交易及三商美邦人壽股份轉換分開記錄。公司表示這項時程變更對財務業務沒有影響；這兩則公告沒有新增對價、換股比例或收益預估。\n後續觀察：確認股份轉換是否按期完成，再追蹤整合成效。這是研究追蹤方向。",
+      "period": "原2026-10-05保代事件保留；新增2026-11-09投信時程修正",
+      "sources": [
+        "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15",
+        "esun-181413",
+        "esun-183719"
+      ],
+      "projects": [
+        {
+          "project_id": "2884-esun-sitc-share-swap",
+          "name": "玉山投信股份轉換時程調整",
+          "type": "既有併購／組織整合",
+          "uses_and_customers": "投信事業集團整合；本次公告未新增客戶資訊",
+          "status": "基準日調整，未確認轉換完成",
+          "commercial_timing": "預訂2026-12-20股份轉換基準日，原2027-01-04；非產品商用日",
+          "revenue_contribution": "時程變更公告稱財務業務影響無；未新增收益預估",
+          "sources": [
+            "esun-181413",
+            "esun-183719"
+          ],
+          "reviewed_at": "2026-11-12",
+          "event_date": "2026-11-09",
+          "research_completion": "event_complete_with_disclosed_gaps"
+        }
+      ],
+      "reviewed_at": "2026-11-12",
+      "update_id": "research-20261112-2884-v1-developments",
+      "research_completion": "event_complete_with_disclosed_gaps",
+      "retained_events": [
+        {
+          "event": "三商美邦保險代理人股權交割日期公告",
+          "reviewed_at": "2026-10-07",
+          "content": {
+            "text": "2026年10月5日玉山金公告取得三商美邦保險代理人100%股權，交割基準日訂為2026年11月6日；已取得金管會9月22日核准及公平會9月24日不禁止決議。10月5日為訂定交割日期，不能寫成已完成交割。標的是保險代理人公司，須與三商美邦人壽的股份轉換分開；本則未揭露交易金額或收入與獲利增量，不用人壽併購金額代填。",
+            "period": "2026-10-05公告／未來計畫另列",
+            "sources": [
+              "announcement-c9207837b71e93cade4c34f18a1c13b9218a9aaa5bad06dde809fa39db739a15"
+            ],
+            "reviewed_at": "2026-10-07"
+          }
+        }
+      ]
+    }
+  },
+  "adopted_record_sha256": "sha256:461e7157ce46879d945bd76d5602e4595ee8db9912c75115f537b9cd8947875f",
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "old_insurance_agency_source_and_review_time_preserved": true,
+    "two_announcements_one_project": true,
+    "new_meeting": false,
+    "event_only": true,
+    "public_prose_rewritten_for_readability": true,
+    "existing_project_conflict": false
+  }
+}
