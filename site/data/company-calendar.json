@@ -1,6 +1,6 @@
 {
   "announcement_policy": "research-impact-v1",
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "companies": {
     "1101.TW": {
       "next_conference": {
@@ -5182,7 +5182,18 @@
     },
     "6214.TW": {
       "next_conference": null,
-      "next_shareholders": null,
+      "next_shareholders": {
+        "cancelled": false,
+        "date": "2026-12-31",
+        "description": "已公告股東會日期",
+        "end_date": "2026-12-31",
+        "kind": "股東臨時會",
+        "location": "",
+        "name": "精誠",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+        "symbol": "6214.TW",
+        "time": ""
+      },
       "summary_reviewed_at": "2026-10-03"
     },
     "6215.TW": {
@@ -6933,30 +6944,6 @@
   },
   "errors": [],
   "events": [
-    {
-      "cancelled": false,
-      "date": "2026-05-18",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-18",
-      "kind": "股東常會",
-      "location": "",
-      "name": "宅配通",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2642.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-18",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-18",
-      "kind": "股東常會",
-      "location": "",
-      "name": "信義",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "9940.TW",
-      "time": ""
-    },
     {
       "cancelled": false,
       "date": "2026-05-19",
@@ -26028,7 +26015,7 @@
       "description": "公司營運近況暨未來展望",
       "end_date": "2026-11-02",
       "kind": "法說會",
-      "location": "台北市中山區明水路700號12樓（凱基證券會議室）",
+      "location": "台北市信義路四段236號7樓(宏遠證券股份有限公司)",
       "name": "晶豪科",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "3006.TW",
@@ -27191,18 +27178,6 @@
     {
       "cancelled": false,
       "date": "2026-11-10",
-      "description": "本公司受邀參加富邦證券法人說明會(中文場)，說明115年第三季營運結果與未來展望。",
-      "end_date": "2026-11-10",
-      "kind": "法說會",
-      "location": "富邦國際會議中心 台北市敦化南路一段108號B2",
-      "name": "奇鋐",
-      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-      "symbol": "3017.TW",
-      "time": "14:00"
-    },
-    {
-      "cancelled": false,
-      "date": "2026-11-10",
       "description": "本公司受邀參加富邦證券法人說明會(英文場)，說明115年第三季營運結果與未來展望。",
       "end_date": "2026-11-10",
       "kind": "法說會",
@@ -27211,6 +27186,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "3017.TW",
       "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
+      "description": "本公司受邀參加富邦證券法人說明會(中文場)，說明115年第三季營運結果與未來展望。",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "富邦國際會議中心 台北市敦化南路一段108號B2",
+      "name": "奇鋐",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3017.TW",
+      "time": "14:00"
     },
     {
       "cancelled": false,
@@ -28159,6 +28146,57 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "2636.TW",
       "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "公告本公司及子公司持有三商美邦人壽股份轉換為玉山金控\r\n股份之損益及保留盈餘影響說明",
+      "end_date": "2026-11-13",
+      "fact_date": "2026-11-13",
+      "kind": "重大訊息",
+      "name": "三商",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2905.TW",
+      "time": "164812"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "代子公司三商行(股)公司公告持有三商美邦人壽股份轉換為\r\n玉山金控股份之損益及保留盈餘影響說明",
+      "end_date": "2026-11-13",
+      "fact_date": "2026-11-13",
+      "kind": "重大訊息",
+      "name": "三商",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2905.TW",
+      "time": "164845"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "代子公司三商食品(股)公司公告持有三商美邦人壽股份轉換\r\n為玉山金控股份之損益及保留盈餘影響說明",
+      "end_date": "2026-11-13",
+      "fact_date": "2026-11-13",
+      "kind": "重大訊息",
+      "name": "三商",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2905.TW",
+      "time": "165000"
     },
     {
       "cancelled": false,
@@ -30487,6 +30525,18 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "1449.TW",
       "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-31",
+      "description": "已公告股東會日期",
+      "end_date": "2026-12-31",
+      "kind": "股東臨時會",
+      "location": "",
+      "name": "精誠",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "symbol": "6214.TW",
+      "time": ""
     }
   ],
   "financial_seen": {
@@ -30532,8 +30582,8 @@
     },
     "1108.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30552,8 +30602,8 @@
     },
     "1110.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30582,8 +30632,8 @@
     },
     "1210.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30632,8 +30682,8 @@
     },
     "1218.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30642,8 +30692,8 @@
     },
     "1219.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30662,8 +30712,8 @@
     },
     "1225.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30672,8 +30722,8 @@
     },
     "1227.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30692,8 +30742,8 @@
     },
     "1231.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30732,8 +30782,8 @@
     },
     "1235.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30782,8 +30832,8 @@
     },
     "1304.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30842,8 +30892,8 @@
     },
     "1312.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30862,8 +30912,8 @@
     },
     "1314.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30872,8 +30922,8 @@
     },
     "1315.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30922,8 +30972,8 @@
     },
     "1324.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30932,8 +30982,8 @@
     },
     "1325.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -30972,8 +31022,8 @@
     },
     "1339.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31082,8 +31132,8 @@
     },
     "1418.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31162,8 +31212,8 @@
     },
     "1438.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31202,8 +31252,8 @@
     },
     "1442.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31222,8 +31272,8 @@
     },
     "1444.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31232,8 +31282,8 @@
     },
     "1445.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31252,8 +31302,8 @@
     },
     "1447.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31262,8 +31312,8 @@
     },
     "1449.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31372,8 +31422,8 @@
     },
     "1464.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31402,8 +31452,8 @@
     },
     "1467.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31472,8 +31522,8 @@
     },
     "1475.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31532,8 +31582,8 @@
     },
     "1512.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31702,8 +31752,8 @@
     },
     "1532.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31752,8 +31802,8 @@
     },
     "1538.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31772,8 +31822,8 @@
     },
     "1540.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31842,8 +31892,8 @@
     },
     "1583.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31868,8 +31918,8 @@
     },
     "1590.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31888,8 +31938,8 @@
     },
     "1598.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31938,8 +31988,8 @@
     },
     "1609.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -31998,8 +32048,8 @@
     },
     "1617.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32018,8 +32068,8 @@
     },
     "1623.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32068,8 +32118,8 @@
     },
     "1709.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32078,8 +32128,8 @@
     },
     "1710.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32088,8 +32138,8 @@
     },
     "1711.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32188,8 +32238,8 @@
     },
     "1725.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32258,8 +32308,8 @@
     },
     "1734.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32318,8 +32368,8 @@
     },
     "1762.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32338,8 +32388,8 @@
     },
     "1776.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32378,8 +32428,8 @@
     },
     "1795.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32408,8 +32458,8 @@
     },
     "1806.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32478,8 +32528,8 @@
     },
     "1905.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32508,8 +32558,8 @@
     },
     "1909.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32538,8 +32588,8 @@
     },
     "2007.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32618,8 +32668,8 @@
     },
     "2017.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32628,8 +32678,8 @@
     },
     "2020.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32638,8 +32688,8 @@
     },
     "2022.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32658,8 +32708,8 @@
     },
     "2024.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32668,8 +32718,8 @@
     },
     "2025.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32678,8 +32728,8 @@
     },
     "2027.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32758,8 +32808,8 @@
     },
     "2038.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32828,8 +32878,8 @@
     },
     "2102.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32868,8 +32918,8 @@
     },
     "2106.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32928,8 +32978,8 @@
     },
     "2201.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32938,8 +32988,8 @@
     },
     "2204.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -32978,8 +33028,8 @@
     },
     "2211.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33018,8 +33068,8 @@
     },
     "2233.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33028,8 +33078,8 @@
     },
     "2236.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33038,8 +33088,8 @@
     },
     "2237.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33138,8 +33188,8 @@
     },
     "2302.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33178,8 +33228,8 @@
     },
     "2312.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33218,8 +33268,8 @@
     },
     "2317.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33268,8 +33318,8 @@
     },
     "2328.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33288,8 +33338,8 @@
     },
     "2330.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33348,8 +33398,8 @@
     },
     "2342.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33388,8 +33438,8 @@
     },
     "2348.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33398,8 +33448,8 @@
     },
     "2349.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33478,8 +33528,8 @@
     },
     "2359.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33518,8 +33568,8 @@
     },
     "2364.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33568,8 +33618,8 @@
     },
     "2371.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33578,8 +33628,8 @@
     },
     "2373.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33608,8 +33658,8 @@
     },
     "2376.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33638,8 +33688,8 @@
     },
     "2380.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33698,8 +33748,8 @@
     },
     "2390.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33748,8 +33798,8 @@
     },
     "2399.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33768,8 +33818,8 @@
     },
     "2402.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33868,8 +33918,8 @@
     },
     "2417.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -33928,8 +33978,8 @@
     },
     "2425.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34008,8 +34058,8 @@
     },
     "2433.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34038,8 +34088,8 @@
     },
     "2438.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34088,8 +34138,8 @@
     },
     "2444.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34138,8 +34188,8 @@
     },
     "2454.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34198,8 +34248,8 @@
     },
     "2461.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34238,8 +34288,8 @@
     },
     "2466.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34258,8 +34308,8 @@
     },
     "2468.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34418,8 +34468,8 @@
     },
     "2491.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34488,8 +34538,8 @@
     },
     "2501.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34508,8 +34558,8 @@
     },
     "2505.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34548,8 +34598,8 @@
     },
     "2514.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34558,8 +34608,8 @@
     },
     "2515.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34598,8 +34648,8 @@
     },
     "2527.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34628,8 +34678,8 @@
     },
     "2534.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34638,8 +34688,8 @@
     },
     "2535.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34678,8 +34728,8 @@
     },
     "2539.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34688,8 +34738,8 @@
     },
     "2540.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34708,8 +34758,8 @@
     },
     "2543.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34768,8 +34818,8 @@
     },
     "2601.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34788,8 +34838,8 @@
     },
     "2605.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34808,8 +34858,8 @@
     },
     "2607.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34858,8 +34908,8 @@
     },
     "2612.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34868,8 +34918,8 @@
     },
     "2613.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34888,8 +34938,8 @@
     },
     "2615.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34908,8 +34958,8 @@
     },
     "2617.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34968,8 +35018,8 @@
     },
     "2637.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -34998,8 +35048,8 @@
     },
     "2646.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35088,8 +35138,8 @@
     },
     "2723.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35108,8 +35158,8 @@
     },
     "2731.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35138,8 +35188,8 @@
     },
     "2753.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35148,8 +35198,8 @@
     },
     "2762.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35158,8 +35208,8 @@
     },
     "2801.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35178,8 +35228,8 @@
     },
     "2816.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       }
     },
     "2820.TW": {
@@ -35240,8 +35290,8 @@
     },
     "2849.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35250,8 +35300,8 @@
     },
     "2850.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       }
     },
     "2851.TW": {
@@ -35352,6 +35402,10 @@
       "eps": {
         "detected_at": null,
         "period": "2026-Q2"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2892.TW": {
@@ -35382,8 +35436,8 @@
     },
     "2903.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35402,8 +35456,8 @@
     },
     "2905.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35422,8 +35476,8 @@
     },
     "2908.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35442,8 +35496,8 @@
     },
     "2911.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35482,8 +35536,8 @@
     },
     "2923.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35512,8 +35566,8 @@
     },
     "2945.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35532,8 +35586,8 @@
     },
     "3003.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35552,8 +35606,8 @@
     },
     "3005.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35582,8 +35636,8 @@
     },
     "3010.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35592,8 +35646,8 @@
     },
     "3011.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35732,8 +35786,8 @@
     },
     "3027.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35782,8 +35836,8 @@
     },
     "3032.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35842,8 +35896,8 @@
     },
     "3038.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35852,8 +35906,8 @@
     },
     "3040.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35942,8 +35996,8 @@
     },
     "3049.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35962,8 +36016,8 @@
     },
     "3051.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36012,8 +36066,8 @@
     },
     "3057.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36022,8 +36076,8 @@
     },
     "3058.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36112,8 +36166,8 @@
     },
     "3138.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36122,8 +36176,8 @@
     },
     "3149.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36182,8 +36236,8 @@
     },
     "3209.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36232,8 +36286,8 @@
     },
     "3296.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36252,8 +36306,8 @@
     },
     "3308.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36302,8 +36356,8 @@
     },
     "3346.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36392,8 +36446,8 @@
     },
     "3437.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36412,8 +36466,8 @@
     },
     "3447.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36432,8 +36486,8 @@
     },
     "3481.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36542,8 +36596,8 @@
     },
     "3543.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36642,8 +36696,8 @@
     },
     "3593.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36692,8 +36746,8 @@
     },
     "3622.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36762,8 +36816,8 @@
     },
     "3673.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36792,8 +36846,8 @@
     },
     "3694.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36842,8 +36896,8 @@
     },
     "3705.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36852,8 +36906,8 @@
     },
     "3706.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -36912,8 +36966,8 @@
     },
     "3716.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37002,8 +37056,8 @@
     },
     "4148.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37012,8 +37066,8 @@
     },
     "4155.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37042,8 +37096,8 @@
     },
     "4178.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37052,8 +37106,8 @@
     },
     "4190.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37072,8 +37126,8 @@
     },
     "4306.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37142,8 +37196,8 @@
     },
     "4526.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37162,8 +37216,8 @@
     },
     "4536.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37202,8 +37256,8 @@
     },
     "4552.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37242,8 +37296,8 @@
     },
     "4562.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37272,8 +37326,8 @@
     },
     "4569.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37282,8 +37336,8 @@
     },
     "4571.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37392,8 +37446,8 @@
     },
     "4736.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37442,8 +37496,8 @@
     },
     "4763.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37462,8 +37516,8 @@
     },
     "4766.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37492,8 +37546,8 @@
     },
     "4807.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37572,8 +37626,8 @@
     },
     "4930.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37592,8 +37646,8 @@
     },
     "4935.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37622,8 +37676,8 @@
     },
     "4943.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37632,8 +37686,8 @@
     },
     "4949.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37782,8 +37836,8 @@
     },
     "5215.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37832,8 +37886,8 @@
     },
     "5243.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37852,8 +37906,8 @@
     },
     "5258.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37872,8 +37926,8 @@
     },
     "5283.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37922,8 +37976,8 @@
     },
     "5306.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37982,8 +38036,8 @@
     },
     "5515.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38012,8 +38066,8 @@
     },
     "5522.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38032,8 +38086,8 @@
     },
     "5531.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38112,8 +38166,8 @@
     },
     "5871.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38148,8 +38202,8 @@
     },
     "5907.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38238,8 +38292,8 @@
     },
     "6128.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38248,8 +38302,8 @@
     },
     "6133.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38408,8 +38462,8 @@
     },
     "6189.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38488,8 +38542,8 @@
     },
     "6206.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38498,8 +38552,8 @@
     },
     "6209.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38528,8 +38582,8 @@
     },
     "6215.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38558,8 +38612,8 @@
     },
     "6225.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38568,8 +38622,8 @@
     },
     "6226.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38658,8 +38712,8 @@
     },
     "6277.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38768,8 +38822,8 @@
     },
     "6416.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38788,8 +38842,8 @@
     },
     "6431.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38808,8 +38862,8 @@
     },
     "6442.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38838,8 +38892,8 @@
     },
     "6449.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38878,8 +38932,8 @@
     },
     "6467.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -38888,8 +38942,8 @@
     },
     "6472.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38978,8 +39032,8 @@
     },
     "6533.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38988,8 +39042,8 @@
     },
     "6534.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39008,8 +39062,8 @@
     },
     "6550.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39038,8 +39092,8 @@
     },
     "6573.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39098,8 +39152,8 @@
     },
     "6591.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39128,8 +39182,8 @@
     },
     "6605.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39138,8 +39192,8 @@
     },
     "6606.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39148,8 +39202,8 @@
     },
     "6614.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39218,8 +39272,8 @@
     },
     "6666.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39258,8 +39312,8 @@
     },
     "6671.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39328,8 +39382,8 @@
     },
     "6706.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39368,8 +39422,8 @@
     },
     "6742.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39378,8 +39432,8 @@
     },
     "6743.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39408,8 +39462,8 @@
     },
     "6756.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39518,8 +39572,8 @@
     },
     "6794.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39568,8 +39622,8 @@
     },
     "6830.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39578,8 +39632,8 @@
     },
     "6831.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39648,8 +39702,8 @@
     },
     "6863.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39748,8 +39802,8 @@
     },
     "6909.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39758,8 +39812,8 @@
     },
     "6914.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39768,8 +39822,8 @@
     },
     "6916.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39798,8 +39852,8 @@
     },
     "6921.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39868,8 +39922,8 @@
     },
     "6936.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39888,8 +39942,8 @@
     },
     "6944.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39948,8 +40002,8 @@
     },
     "6957.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39978,8 +40032,8 @@
     },
     "6965.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -39998,8 +40052,8 @@
     },
     "6988.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40008,8 +40062,8 @@
     },
     "6994.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40018,8 +40072,8 @@
     },
     "7610.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40028,8 +40082,8 @@
     },
     "7631.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40038,8 +40092,8 @@
     },
     "7689.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40048,8 +40102,8 @@
     },
     "7705.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40088,8 +40142,8 @@
     },
     "7722.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40108,8 +40162,8 @@
     },
     "7732.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40128,8 +40182,8 @@
     },
     "7740.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40328,8 +40382,8 @@
     },
     "7835.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40338,8 +40392,8 @@
     },
     "7855.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40388,8 +40442,8 @@
     },
     "8028.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40468,8 +40522,8 @@
     },
     "8101.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40688,8 +40742,8 @@
     },
     "8404.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40798,8 +40852,8 @@
     },
     "8466.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40818,8 +40872,8 @@
     },
     "8473.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40858,8 +40912,8 @@
     },
     "8482.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40878,8 +40932,8 @@
     },
     "8488.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40928,8 +40982,8 @@
     },
     "8996.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -40964,8 +41018,8 @@
     },
     "9904.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -41064,8 +41118,8 @@
     },
     "9918.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -41074,8 +41128,8 @@
     },
     "9919.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -41134,8 +41188,8 @@
     },
     "9928.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -41144,8 +41198,8 @@
     },
     "9929.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -41274,8 +41328,8 @@
     },
     "9944.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-15",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -41326,37 +41380,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-15",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-15",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-15",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-15",
       "name": "2027-01 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=116&month=01"
     },
     {
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-15",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-11-14",
+      "checked_at": "2026-11-15",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -43563,7 +43617,7 @@
       "due_date": "2026-11-03",
       "end_date": "2026-11-02",
       "kind": "法說會",
-      "location": "台北市中山區明水路700號12樓（凱基證券會議室）",
+      "location": "台北市信義路四段236號7樓(宏遠證券股份有限公司)",
       "name": "晶豪科",
       "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
@@ -48449,21 +48503,6 @@
     {
       "cancelled": false,
       "date": "2026-11-10",
-      "description": "本公司受邀參加富邦證券法人說明會(中文場)，說明115年第三季營運結果與未來展望。",
-      "due_date": "2026-11-11",
-      "end_date": "2026-11-10",
-      "kind": "法說會",
-      "location": "富邦國際會議中心 台北市敦化南路一段108號B2",
-      "name": "奇鋐",
-      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
-      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-      "summary_reviewed_at": "2026-10-03",
-      "symbol": "3017.TW",
-      "time": "14:00"
-    },
-    {
-      "cancelled": false,
-      "date": "2026-11-10",
       "description": "本公司受邀參加富邦證券法人說明會(英文場)，說明115年第三季營運結果與未來展望。",
       "due_date": "2026-11-11",
       "end_date": "2026-11-10",
@@ -48475,6 +48514,21 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "3017.TW",
       "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-10",
+      "description": "本公司受邀參加富邦證券法人說明會(中文場)，說明115年第三季營運結果與未來展望。",
+      "due_date": "2026-11-11",
+      "end_date": "2026-11-10",
+      "kind": "法說會",
+      "location": "富邦國際會議中心 台北市敦化南路一段108號B2",
+      "name": "奇鋐",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3017.TW",
+      "time": "14:00"
     },
     {
       "date": "2026-11-11",
@@ -56857,6 +56911,66 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "summary_reviewed_at": "2026-10-03",
       "symbol": "2904.TW"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "公告本公司及子公司持有三商美邦人壽股份轉換為玉山金控\r\n股份之損益及保留盈餘影響說明",
+      "due_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "fact_date": "2026-11-13",
+      "kind": "重大訊息",
+      "name": "三商",
+      "reason": "控制權或主要資產變動：公告本公司及子公司持有三商美邦人壽股份轉換為玉山金控\r\n股份之損益及保留盈餘影響說明",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2905.TW",
+      "time": "164812"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "代子公司三商行(股)公司公告持有三商美邦人壽股份轉換為\r\n玉山金控股份之損益及保留盈餘影響說明",
+      "due_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "fact_date": "2026-11-13",
+      "kind": "重大訊息",
+      "name": "三商",
+      "reason": "控制權或主要資產變動：代子公司三商行(股)公司公告持有三商美邦人壽股份轉換為\r\n玉山金控股份之損益及保留盈餘影響說明",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2905.TW",
+      "time": "164845"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-13",
+      "description": "代子公司三商食品(股)公司公告持有三商美邦人壽股份轉換\r\n為玉山金控股份之損益及保留盈餘影響說明",
+      "due_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "fact_date": "2026-11-13",
+      "kind": "重大訊息",
+      "name": "三商",
+      "reason": "控制權或主要資產變動：代子公司三商食品(股)公司公告持有三商美邦人壽股份轉換\r\n為玉山金控股份之損益及保留盈餘影響說明",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2905.TW",
+      "time": "165000"
     },
     {
       "date": "2026-11-13",
@@ -66416,7 +66530,2724 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "8996.TW",
       "time": "16:10"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "幸福",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1108.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "東泥",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1110.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大成",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1210.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "泰山",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1218.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "福壽",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1219.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "福懋油",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1225.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "佳格",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1227.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "聯華食",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1231.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "興泰",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1235.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "台聚",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1304.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "國喬",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1312.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中石化",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1314.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "達新",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1315.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "地球",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1324.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "恆大",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1325.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "昭輝",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1339.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "東華",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1418.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "三地開發",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1438.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "名軒",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1442.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "力麗",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1444.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大宇",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1445.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "力鵬",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1447.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "佳和",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1449.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "得力",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1464.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "南緯",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1467.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "業旺",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1475.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "瑞利",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1512.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "勤美",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1532.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "正峰",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1538.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "喬福",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1540.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "程泰",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1583.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "亞德客-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1590.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "岱宇",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1598.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大亞",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1609.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "榮星",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1617.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大東電",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1623.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "和益",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1709.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "東聯",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1710.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "永光",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1711.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "元禎",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1725.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "杏輝",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1734.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中化生",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1762.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "展宇",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1776.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "美時",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1795.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "冠軍",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1806.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "華紙",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1905.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "榮成",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1909.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "燁興",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2007.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "官田鋼",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2017.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "美亞",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2020.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "聚亨",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2022.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "志聯",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2024.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "千興",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2025.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大成鋼",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2027.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "海光",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2038.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "泰豐",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2102.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "建大",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2106.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "裕隆",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2201.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中華",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2204.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "長榮鋼",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2211.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "宇隆",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2233.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "百達-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2236.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "華德動能-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2237.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "麗正",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2302.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "金寶",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2312.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "鴻海",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2317.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "廣宇",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2328.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "台積電",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2330.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "茂矽",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2342.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "海悅",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2348.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "錸德",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2349.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "所羅門",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2359.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "倫飛",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2364.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大同",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2371.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "震旦行",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2373.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "技嘉",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2376.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "虹光",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2380.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "云辰",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2390.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "映泰",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2399.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "毅嘉",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2402.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "圓剛",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2417.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "承啟",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2425.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "互盛電",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2433.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "翔耀",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2438.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "兆勁",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2444.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "聯發科",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2454.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "光群雷",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2461.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "冠西電",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2466.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "華經",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2468.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "吉祥全",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2491.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "國建",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2501.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "國揚",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2505.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "龍邦",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2514.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中工",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2515.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "宏璟",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2527.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "宏盛",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2534.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "達欣工",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2535.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "櫻花建",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2539.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "愛山林",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2540.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "皇昌",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2543.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "益航",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2601.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "新興",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2605.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "榮運",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2607.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中航",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2612.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中櫃",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2613.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "萬海",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2615.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "台航",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2617.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "慧洋-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2637.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "星宇航空",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2646.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "美食-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2723.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "雄獅",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2731.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "八方雲集",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2753.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "世界健身-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2762.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "彰銀",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2801.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "旺旺保",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2816.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "安泰銀",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2849.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "新產",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2850.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "遠百",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2903.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "三商",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2905.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "特力",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2908.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "麗嬰房",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2911.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "鼎固-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2923.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "三商家購",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2945.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "健和興",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3003.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "神基",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3005.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "華立",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3010.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "今皓",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3011.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "盛達",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3027.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "偉訓",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3032.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "全台",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3038.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "遠見",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3040.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "精金",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3049.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "力特",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3051.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "喬鼎",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3057.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "立德",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3058.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "耀登",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3138.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "正達",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3149.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "全科",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3209.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "勝德",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3296.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "聯德",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3308.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "麗清",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3346.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "榮創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3437.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "展達",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3447.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "群創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3481.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "州巧",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3543.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "力銘",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3593.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "洋華",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3622.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "TPK-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3673.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "海華",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3694.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "永信",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3705.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "神達",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3706.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中化控股",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3716.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "全宇生技-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4148.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "訊映",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4155.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "永笙-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4178.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "佐登-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4190.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "炎洲",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4306.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "東台",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4526.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "拓凱",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4536.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "力達-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4552.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "穎漢",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4562.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "六方科-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4569.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "鈞興-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4571.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "泰博",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4736.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "材料*-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4763.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "南寶",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4766.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "日成-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4807.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "燦星網",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4930.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "茂林-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4935.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "康控-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4943.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "有成精密",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4949.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "科嘉-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5215.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "乙盛-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5243.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "虹堡",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5258.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "禾聯碩",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5283.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "桂盟",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5306.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "建國",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5515.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "遠雄",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5522.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "鄉林",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5531.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中租-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5871.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大洋-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5907.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "上福",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6128.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "金橋",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6133.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "豐藝",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6189.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "飛捷",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6206.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "今國光",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6209.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "和椿",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6215.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "天瀚",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6225.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "光鼎",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6226.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "宏正",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6277.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "瑞祺電通",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6416.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "光麗-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6431.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "光聖",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6442.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "鈺邦",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6449.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "泰合",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": null,
+      "symbol": "6467.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "保瑞",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6472.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "晶心科",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6533.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "正瀚-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6534.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "北極星藥業-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6550.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "虹揚-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6573.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "動力-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6591.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "帝寶",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6605.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "建德工業",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6606.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "資拓宏宇",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6614.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "羅麗芬-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6666.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "三能-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6671.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "惠特",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6706.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "澤米",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6742.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "安普新",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6743.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "威鋒電子",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6756.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "向榮生技",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6794.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "汎銓",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6830.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "邁科",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6831.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "永道-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6863.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "創控",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6909.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "阜爾運通",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6914.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "華凌",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6916.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "嘉雨思-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6921.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "永鴻生技",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6936.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "兆聯實業",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6944.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "裕慶-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6957.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中傑-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6965.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "威力暘-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6988.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "富威電力",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6994.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "聯友金屬-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7610.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "聚賢研發-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7631.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "大鵬科CLMX",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7689.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "三商餐飲",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7705.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "LINEPAY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7722.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "金興精密",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7732.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "熙特爾-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7740.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "永悅健康-創",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7835.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "和運租車",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7855.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "昇陽半導體",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8028.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "華冠",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8101.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "百和興業-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8404.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "美吉吉-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8466.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "山林水",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8473.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "商億-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8482.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "吉源-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8488.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "高力",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "8996.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "寶成",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9904.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "欣天然",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9918.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "康那香",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9919.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "中視",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9928.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "秋雨",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9929.TW"
+    },
+    {
+      "date": "2026-11-15",
+      "due_date": "2026-11-15",
+      "kind": "財報",
+      "name": "新麗",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9944.TW"
     }
   ],
-  "updated_at": "2026-11-14T01:49:38+08:00"
+  "updated_at": "2026-11-15T00:39:02+08:00"
 }
