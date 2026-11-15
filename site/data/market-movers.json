@@ -1368,7 +1368,7 @@
         },
         {
           "change": 7.888349514563098,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "旺旺保",
           "price": 44.45,
           "symbol": "2816.TW"
@@ -3172,7 +3172,7 @@
         },
         {
           "change": 8.414872798434448,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "兆豐金",
           "price": 55.4,
           "symbol": "2886.TW"
@@ -3207,7 +3207,7 @@
         },
         {
           "change": 6.888068880688825,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "第一金",
           "price": 43.45,
           "symbol": "2892.TW"
@@ -3235,7 +3235,7 @@
         },
         {
           "change": 6.134969325153383,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "華南金",
           "price": 51.9,
           "symbol": "2880.TW"
@@ -3298,7 +3298,7 @@
         },
         {
           "change": 5.156537753222845,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "合庫金",
           "price": 28.55,
           "symbol": "5880.TW"
@@ -10423,7 +10423,7 @@
         },
         {
           "change": 12.38938053097347,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "旺旺保",
           "price": 44.45,
           "symbol": "2816.TW"
@@ -11081,7 +11081,7 @@
         },
         {
           "change": 8.66965620328848,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "元大金",
           "price": 72.7,
           "symbol": "2885.TW"
@@ -11627,7 +11627,7 @@
         },
         {
           "change": 6.1050061050061055,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "第一金",
           "price": 43.45,
           "symbol": "2892.TW"
@@ -11655,7 +11655,7 @@
         },
         {
           "change": 6.026557711950953,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "華南金",
           "price": 51.9,
           "symbol": "2880.TW"
@@ -11704,7 +11704,7 @@
         },
         {
           "change": 5.851755526657998,
-          "industry": "金融保險",
+          "industry": "金融保險業",
           "name": "台新新光金",
           "price": 40.7,
           "symbol": "2887.TW"
@@ -12361,5 +12361,5 @@
   },
   "schema_version": 1,
   "source": "https://www.twse.com.tw/exchangeReport/MI_INDEX",
-  "updated_at": "2026-11-14T16:38:04+00:00"
+  "updated_at": "2026-11-15T17:14:18+00:00"
 }

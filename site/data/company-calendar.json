@@ -1,6 +1,6 @@
 {
   "announcement_policy": "research-impact-v1",
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "companies": {
     "1101.TW": {
       "next_conference": {
@@ -6944,30 +6944,6 @@
   },
   "errors": [],
   "events": [
-    {
-      "cancelled": false,
-      "date": "2026-05-19",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-19",
-      "kind": "股東常會",
-      "location": "",
-      "name": "東聯",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1710.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-19",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-19",
-      "kind": "股東常會",
-      "location": "",
-      "name": "嘉威",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3557.TW",
-      "time": ""
-    },
     {
       "cancelled": false,
       "date": "2026-05-20",
@@ -33118,8 +33094,8 @@
     },
     "2243.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-16",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -35230,6 +35206,10 @@
       "eps": {
         "detected_at": "2026-11-15",
         "period": "2026-Q3"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2820.TW": {
@@ -35246,6 +35226,10 @@
       "eps": {
         "detected_at": "2026-11-13",
         "period": "2026-Q3"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2834.TW": {
@@ -35334,6 +35318,10 @@
       "eps": {
         "detected_at": null,
         "period": "2026-Q2"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2881.TW": {
@@ -35364,18 +35352,30 @@
       "eps": {
         "detected_at": null,
         "period": "2026-Q2"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2886.TW": {
       "eps": {
         "detected_at": null,
         "period": "2026-Q2"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2887.TW": {
       "eps": {
         "detected_at": null,
         "period": "2026-Q2"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2889.TW": {
@@ -35412,6 +35412,10 @@
       "eps": {
         "detected_at": null,
         "period": "2026-Q2"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "2897.TW": {
@@ -35446,8 +35450,8 @@
     },
     "2904.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-16",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -37576,8 +37580,8 @@
     },
     "4912.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-16",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -38188,6 +38192,10 @@
       "eps": {
         "detected_at": null,
         "period": "2026-Q2"
+      },
+      "revenue_growth": {
+        "detected_at": null,
+        "period": "2026-10"
       }
     },
     "5906.TW": {
@@ -41380,37 +41388,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "name": "2027-01 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=116&month=01"
     },
     {
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -69247,7 +69255,40 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9944.TW"
+    },
+    {
+      "date": "2026-11-16",
+      "due_date": "2026-11-16",
+      "kind": "財報",
+      "name": "宏旭-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2243.TW"
+    },
+    {
+      "date": "2026-11-16",
+      "due_date": "2026-11-16",
+      "kind": "財報",
+      "name": "匯僑",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2904.TW"
+    },
+    {
+      "date": "2026-11-16",
+      "due_date": "2026-11-16",
+      "kind": "財報",
+      "name": "聯德控股-KY",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4912.TW"
     }
   ],
-  "updated_at": "2026-11-15T00:39:02+08:00"
+  "updated_at": "2026-11-16T01:15:02+08:00"
 }
