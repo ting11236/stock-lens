@@ -4623,9 +4623,78 @@
         "ratio": 170.67373007175053,
         "total_lots": 9021098.0
       }
+    },
+    {
+      "combined": {
+        "collateral_twd": 1090475345680.0,
+        "covered_lots": 11104860.0,
+        "financed_symbols": 2059,
+        "financing_twd": 692231043000.0,
+        "lot_coverage_pct": 99.92840698523219,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上市:00662",
+          "上市:00682U",
+          "上市:1589",
+          "上市:1808",
+          "上市:6641",
+          "上櫃:2064",
+          "上櫃:3226",
+          "上櫃:4305",
+          "上櫃:5601",
+          "上櫃:8424",
+          "上櫃:8923",
+          "上櫃:9960"
+        ],
+        "ratio": 157.5305465865968,
+        "total_lots": 11112816.0
+      },
+      "date": "2026-11-16",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/11/16&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/11/16&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261116&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261116&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 259018626840.0,
+        "covered_lots": 2116989.0,
+        "financed_symbols": 819,
+        "financing_twd": 167733050000.0,
+        "lot_coverage_pct": 99.90462527312283,
+        "lower_bound": true,
+        "missing_symbols": [
+          "2064",
+          "3226",
+          "4305",
+          "5601",
+          "8424",
+          "8923",
+          "9960"
+        ],
+        "ratio": 154.42313058756162,
+        "total_lots": 2119010.0
+      },
+      "twse": {
+        "collateral_twd": 831456718840.0,
+        "covered_lots": 8987871.0,
+        "financed_symbols": 1240,
+        "financing_twd": 524497993000.0,
+        "lot_coverage_pct": 99.93401013986737,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00662",
+          "00682U",
+          "1589",
+          "1808",
+          "6641"
+        ],
+        "ratio": 158.52428988036183,
+        "total_lots": 8993806.0
+      }
     }
   ],
   "method_version": "same-day-collateral-v1",
   "schema_version": 1,
-  "updated_at": "2026-11-16T01:14:53+08:00"
+  "updated_at": "2026-11-17T04:32:35+08:00"
 }
