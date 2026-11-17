@@ -152,18 +152,32 @@ def validate(name, rows):
     return rows
 
 
+PRICE_URL='https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999'
+def source_url(name):
+    return PRICE_URL if name=='prices' else BASE+SOURCES[name]
+
+def daily_prices(payload):
+    if not isinstance(payload,dict) or payload.get('stat')!='OK' or not day(payload.get('date')):
+        raise ValueError('每日行情狀態或日期無效')
+    table=next((t for t in payload.get('tables',[]) if '證券代號' in t.get('fields',[]) and '收盤價' in t.get('fields',[])),None)
+    if not table:raise ValueError('每日行情欄位結構變更')
+    fields=table['fields'];ci=fields.index('證券代號');pi=fields.index('收盤價')
+    rows=[{'Code':str(r[ci]).strip(),'Date':payload['date'],'ClosingPrice':r[pi]} for r in table.get('data',[])]
+    return rows
+
+
 def fetch_source(name):
     try:
         # A temporary HTML/truncated response must not fail the entire day's feed.
         for attempt in range(3):
             try:
-                decoded = json.loads(get(BASE + SOURCES[name]).decode('utf-8-sig'))
+                decoded = json.loads(get(source_url(name)).decode('utf-8-sig'))
                 break
             except (json.JSONDecodeError, UnicodeDecodeError):
                 if attempt == 2:
                     raise
                 time.sleep(2 ** attempt)
-        rows = validate(name, decoded)
+        rows = validate(name, daily_prices(decoded) if name=='prices' else decoded)
         return name, rows, None
     except Exception as error:
         # Do not include URLs or secret query strings in logs/status.
@@ -224,12 +238,12 @@ def build_rows(feeds, history, now):
                  source='臺灣證券交易所／政府開放資料',field_meta={})
         def field(key, value, source, date, basis, reason=None):
             s[key] = number(value)
-            s['field_meta'][key] = {'source':BASE+SOURCES[source], 'date':date, 'basis':basis,
+            s['field_meta'][key] = {'source':source_url(source), 'date':date, 'basis':basis,
                 'downloaded_at':now, 'reason':reason if reason else (None if number(value) is not None else '官方未提供／不適用')}
         s.update(issued_shares=number(company.get('已發行普通股數或TDR原股發行股數')),shares_date=day(company.get('出表日期')),shares_source=BASE+SOURCES['companies'])
         price = maps.get('prices',{}).get(code,{})
         ratios = maps.get('ratios',{}).get(code,{})
-        field('price',price.get('ClosingPrice'),'prices',day(price.get('Date')),'官方收盤參考價；無成交可能缺值')
+        field('price',price.get('ClosingPrice'),'prices',day(price.get('Date')),'證交所每日收盤行情；無成交時保留原價及原交易日期')
         s['price_date'] = day(price.get('Date'))
         s['ratio_date'] = day(ratios.get('Date'))
         for key, raw in [('pe','PEratio'),('pb','PBratio'),('dividend_yield','DividendYield')]:
@@ -298,10 +312,10 @@ def preserve_fields(rows, previous, failed, now):
         for key, meta in s['field_meta'].items():
             prior = prev.get('field_meta',{}).get(key)
             dependencies = {'roe':{'income','balance'},'ps':{'income','companies','prices'},'peg':{'income','prices'}}
-            source_failed = bool(dependencies.get(key,set()) & set(failed)) or any(meta['source'] == BASE+SOURCES[n] for n in failed)
+            source_failed = bool(dependencies.get(key,set()) & set(failed)) or any(meta['source'] == source_url(n) for n in failed)
             if key == 'price' and prior and s[key] is None and prev.get(key) is not None:
                 s[key], s['field_meta'][key] = prev[key], dict(prior,stale_reason='本次未提供有效收盤價，保留最近可取得的價格及原交易日期')
-            elif prior and meta['source'] in {BASE+SOURCES[n] for n in QUARTERLY} and not meta.get('date') and not source_failed:
+            elif prior and meta['source'] in {source_url(n) for n in QUARTERLY} and not meta.get('date') and not source_failed:
                 s[key], s['field_meta'][key] = prev.get(key), dict(prior,stale_reason='本次未提供該公司新財報，保留原資料與期間')
             elif prior and (source_failed or (prior.get('date') and meta.get('date') and prior['date'] > meta['date'])):
                 s[key], s['field_meta'][key] = prev.get(key), dict(prior,stale_reason='本次來源失敗或日期倒退，沿用前次有效值')
@@ -390,7 +404,7 @@ def run(data_dir=DATA, loader=fetch_source, now=None):
                 for s in rows:
                     old = old_by_symbol.get(s['symbol'],{})
                     for key,meta in old.get('field_meta',{}).items():
-                        if key in NUMERIC and meta.get('source') not in {BASE+p for p in SOURCES.values()}:
+                        if key in NUMERIC and meta.get('source') not in {source_url(n) for n in SOURCES} | {BASE+SOURCES['prices']}:
                             s[key] = old.get(key)
                             s['field_meta'][key] = dict(meta,stale_reason='授權來源失敗，沿用前次有效值')
         # Preserve per-row fetch timestamps for identical content, including licensed fields.
@@ -417,6 +431,7 @@ def run(data_dir=DATA, loader=fetch_source, now=None):
     status = {'state':'failed' if not core_ok else ('partial' if errors else 'ok'),'errors':errors,
               'latest_price_date':read_json(data_dir/'stocks.json',{}).get('latest_price_date')}
     status['quarterly_coverage'] = quarterly_coverage
+    status['price_source']={'url':PRICE_URL,'received_date':max((day(r.get('Date')) for r in feeds.get('prices',[]) if day(r.get('Date'))),default=None),'note':'更新成功表示來源與格式檢查通過；行情日期以latest_price_date為準。'}
     prior_status = read_json(data_dir/'status.json',{})
     status['since'] = prior_status.get('since',now) if all(prior_status.get(k)==v for k,v in status.items()) else now
     write_changed(data_dir/'status.json',dump(status))
