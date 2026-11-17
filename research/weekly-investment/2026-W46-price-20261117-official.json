@@ -1,0 +1,560 @@
+{
+  "update_id": "2026-W46-price-20261117",
+  "asOf": "2026-11-17",
+  "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+  "market_database_asOf": "2026-11-17",
+  "companies": {
+    "2330": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 61610981.0,
+        "open": 2195.0,
+        "high": 2270.0,
+        "low": 2155.0,
+        "close": 2170.0,
+        "note": ""
+      },
+      "previous_close": 2215.0,
+      "change_pct": -2.03,
+      "ma": {
+        "5": 2294.0,
+        "10": 2262.5,
+        "20": 2324.5,
+        "60": 2408.58
+      },
+      "prior20_average_volume": 39780969,
+      "volume_ratio": 1.549,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤2170，較前一交易日變動-2.03%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-2330-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "台積電11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=2330",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "2308": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 24440343.0,
+        "open": 1030.0,
+        "high": 1105.0,
+        "low": 1025.0,
+        "close": 1055.0,
+        "note": ""
+      },
+      "previous_close": 1120.0,
+      "change_pct": -5.8,
+      "ma": {
+        "5": 1190.0,
+        "10": 1179.0,
+        "20": 1336.0,
+        "60": 1646.58
+      },
+      "prior20_average_volume": 16960524,
+      "volume_ratio": 1.441,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤1055，較前一交易日變動-5.8%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-2308-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "台達電11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=2308",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "2345": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 5714765.0,
+        "open": 1335.0,
+        "high": 1365.0,
+        "low": 1290.0,
+        "close": 1330.0,
+        "note": ""
+      },
+      "previous_close": 1380.0,
+      "change_pct": -3.62,
+      "ma": {
+        "5": 1466.0,
+        "10": 1442.0,
+        "20": 1602.0,
+        "60": 1862.08
+      },
+      "prior20_average_volume": 4452248,
+      "volume_ratio": 1.284,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤1330，較前一交易日變動-3.62%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-2345-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "智邦11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=2345",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "2382": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 15316660.0,
+        "open": 263.0,
+        "high": 269.0,
+        "low": 255.0,
+        "close": 262.5,
+        "note": ""
+      },
+      "previous_close": 264.5,
+      "change_pct": -0.76,
+      "ma": {
+        "5": 276.0,
+        "10": 286.8,
+        "20": 303.82,
+        "60": 323.71
+      },
+      "prior20_average_volume": 15138655,
+      "volume_ratio": 1.012,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤262.5，較前一交易日變動-0.76%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-2382-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "廣達11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=2382",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "6669": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 4335953.0,
+        "open": 1450.0,
+        "high": 1500.0,
+        "low": 1425.0,
+        "close": 1450.0,
+        "note": ""
+      },
+      "previous_close": 1515.0,
+      "change_pct": -4.29,
+      "ma": {
+        "5": 1570.0,
+        "10": 1616.5,
+        "20": 1744.0,
+        "60": 2814.67
+      },
+      "prior20_average_volume": 5173833,
+      "volume_ratio": 0.838,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤1450，較前一交易日變動-4.29%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-6669-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "incomplete_no_trade"
+      },
+      "source": {
+        "title": "緯穎11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=6669",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "3711": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 29248538.0,
+        "open": 506.0,
+        "high": 548.0,
+        "low": 506.0,
+        "close": 520.0,
+        "note": ""
+      },
+      "previous_close": 550.0,
+      "change_pct": -5.45,
+      "ma": {
+        "5": 574.2,
+        "10": 576.3,
+        "20": 620.9,
+        "60": 641.13
+      },
+      "prior20_average_volume": 23853373,
+      "volume_ratio": 1.226,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤520，較前一交易日變動-5.45%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-3711-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "日月光投控11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=3711",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "2383": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 5854500.0,
+        "open": 3420.0,
+        "high": 3715.0,
+        "low": 3420.0,
+        "close": 3540.0,
+        "note": ""
+      },
+      "previous_close": 3795.0,
+      "change_pct": -6.72,
+      "ma": {
+        "5": 4031.0,
+        "10": 4106.5,
+        "20": 4487.75,
+        "60": 5092.5
+      },
+      "prior20_average_volume": 3983930,
+      "volume_ratio": 1.47,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤3540，較前一交易日變動-6.72%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-2383-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "台光電11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=2383",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "3017": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 4855719.0,
+        "open": 2510.0,
+        "high": 2680.0,
+        "low": 2470.0,
+        "close": 2470.0,
+        "note": ""
+      },
+      "previous_close": 2740.0,
+      "change_pct": -9.85,
+      "ma": {
+        "5": 2813.0,
+        "10": 2709.0,
+        "20": 2932.75,
+        "60": 3194.25
+      },
+      "prior20_average_volume": 3201878,
+      "volume_ratio": 1.517,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤2470，較前一交易日變動-9.85%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-3017-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "奇鋐11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=3017",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "1590": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 1449519.0,
+        "open": 1015.0,
+        "high": 1065.0,
+        "low": 1000.0,
+        "close": 1045.0,
+        "note": ""
+      },
+      "previous_close": 1055.0,
+      "change_pct": -0.95,
+      "ma": {
+        "5": 1060.0,
+        "10": 1053.0,
+        "20": 1083.5,
+        "60": 1225.92
+      },
+      "prior20_average_volume": 1134426,
+      "volume_ratio": 1.278,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤1045，較前一交易日變動-0.95%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-1590-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "亞德客-KY11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=1590",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "1256": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 47880.0,
+        "open": 159.5,
+        "high": 165.5,
+        "low": 159.5,
+        "close": 163.5,
+        "note": ""
+      },
+      "previous_close": 161.0,
+      "change_pct": 1.55,
+      "ma": {
+        "5": 165.1,
+        "10": 164.1,
+        "20": 165.07,
+        "60": 170.26
+      },
+      "prior20_average_volume": 47024,
+      "volume_ratio": 1.018,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤163.5，較前一交易日變動1.55%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-1256-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "鮮活果汁-KY11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=1256",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "2108": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 1036881.0,
+        "open": 25.9,
+        "high": 26.0,
+        "low": 25.3,
+        "close": 25.35,
+        "note": ""
+      },
+      "previous_close": 25.95,
+      "change_pct": -2.31,
+      "ma": {
+        "5": 26.28,
+        "10": 26.78,
+        "20": 27.71,
+        "60": 28.8
+      },
+      "prior20_average_volume": 547930,
+      "volume_ratio": 1.892,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤25.35，較前一交易日變動-2.31%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-2108-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "no_holdings_no_trade"
+      },
+      "source": {
+        "title": "南帝11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=2108",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    },
+    "2408": {
+      "bar": {
+        "date": "2026-11-17",
+        "volume": 51756070.0,
+        "open": 318.0,
+        "high": 344.5,
+        "low": 316.0,
+        "close": 329.0,
+        "note": ""
+      },
+      "previous_close": 340.0,
+      "change_pct": -3.24,
+      "ma": {
+        "5": 363.9,
+        "10": 367.55,
+        "20": 405.05,
+        "60": 473.27
+      },
+      "prior20_average_volume": 48336070,
+      "volume_ratio": 1.071,
+      "review": {
+        "asOf": "2026-11-17",
+        "checkedAt": "2026-11-17T21:30:06.808194+08:00",
+        "status": "no_active_plan",
+        "technical_confirmation": false,
+        "fundamental_confirmation": false,
+        "reference_prices_unchanged": true,
+        "reason": "11/17收盤329，較前一交易日變動-3.24%；原研究三種買價均未建立、無有效批次，先不買進。原支撐與突破條件已撤回，不復活或回填買訊。",
+        "signal_id": "2026-W46-price-20261117-2408-review",
+        "report_update_id": "2026-W46-v1",
+        "report_published_at": "2026-11-11T07:14:28Z",
+        "risk_action": "保持停止加碼；沒有指定減碼批次，不建立賣出訊號",
+        "corporate_action_status": "incomplete_no_trade"
+      },
+      "source": {
+        "title": "南亞科11/17官方每日成交",
+        "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=2408",
+        "published_at": null,
+        "published_at_reason": "官方動態日資料不提供單一發布時間，不以查閱時間冒充。",
+        "accessed_at": "2026-11-17T21:30:06.808194+08:00",
+        "data_period": "2026-11-17",
+        "claim_type": "fact",
+        "note": "核OHLC、成交股數及此前20日均量；股價沿用未還原／既有調整口徑，不等於含股息報酬。"
+      }
+    }
+  },
+  "events": [
+    {
+      "code": "3017",
+      "asOf": "2026-11-17",
+      "type": "large_price_move",
+      "change_pct": -9.85,
+      "price": 2470.0,
+      "reason": "重大價格波動；原因及新營運／財測未經確認，不直接當成基本面已失效或新買訊。",
+      "source_url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261117&stockNo=3017"
+    }
+  ],
+  "new_trades": 0
+}

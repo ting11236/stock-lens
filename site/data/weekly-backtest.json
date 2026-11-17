@@ -311,14 +311,24 @@
       "elapsed_days": 32,
       "date": "2026-11-13",
       "stock_market_value": 0.0
+    },
+    {
+      "equity": 10000.0,
+      "cash": 10000.0,
+      "total_return_pct": 0.0,
+      "realized_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "elapsed_days": 36,
+      "date": "2026-11-17",
+      "stock_market_value": 0.0
     }
   ],
-  "last_asOf": "2026-11-13",
+  "last_asOf": "2026-11-17",
   "equity": 10000.0,
   "total_return_pct": 0.0,
   "realized_pnl": 0.0,
   "unrealized_pnl": 0.0,
-  "elapsed_days": 32,
+  "elapsed_days": 36,
   "costs": {
     "fee_rate": 0.001425,
     "minimum_fee": 1.0,
