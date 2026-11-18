@@ -102,3 +102,13 @@ test('historical forecasts remain labeled by date and do not become current outl
  assert.doesNotMatch(a.run("companyOutlookHtml({symbol:'2603.TW'},p)"),/999/);
  assert.match(a.run("outlookConclusion(p.overview.outlooks[0],p.overview)"),/歷史研究機構預估（2026-10-01）/);
 });
+
+test('new structured developments replace old company-specific outlook prose and keep every project stage',()=>{
+ const a=load(),profile=JSON.parse(fs.readFileSync(path.join(__dirname,'../research/companies.json'),'utf8'))['1101.TW'];
+ a.run('newCompanyProfile='+JSON.stringify(profile));
+ const html=a.run("companyOutlookHtml({symbol:'1101.TW'},newCompanyProfile)");
+ for(const p of profile.developments.projects){assert.ok(html.includes('data-development-project="'+p.project_id+'"'));assert.ok(html.includes(p.name));}
+ assert.equal((html.match(/data-development-project=/g)||[]).length,15);
+ assert.match(html,/CIH/);assert.match(html,/10\/13/);assert.match(html,/未確認核准掛牌/);assert.match(html,/Cimpor Global Holding/);
+ assert.doesNotMatch(html,/2026 上半年資料顯示，水泥仍是主要營收來源/);
+});

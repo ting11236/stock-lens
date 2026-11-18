@@ -326,6 +326,12 @@ function outlookConclusion(x,o){
 function plainDirectionText(text){
  return plainResearchText(text).replace(/先進封裝/g,'先進封裝（把晶片整合在一起，提高效能）').replace(/海外製造布局/g,'增加海外工廠').replace(/產能/g,'工廠生產能力').replace(/光充儲一體充電站/g,'結合太陽能發電、儲電與充電的站點').replace(/EnergyArk 儲能櫃/g,'EnergyArk 儲能櫃（把電存起來、需要時再供電）').replace(/設備智慧監測/g,'用電腦監測設備狀況').replace(/混凝土強度預測與配比模型/g,'預測混凝土強度、找出合適材料比例的電腦模型').replace(/量產/g,'大量生產').replace(/試產/g,'少量試做').replace(/送樣/g,'送產品樣品給客戶測試').replace(/產能利用率/g,'工廠實際開工的比例').replace(/商用/g,'正式供客戶使用').replace(/布局/g,'發展');
 }
+function developmentProjectsHtml(profile){
+ const clean=text=>plainDirectionText(text).replace(/\[[^\]]*\]/g,'');
+ const projects=profile.developments?.projects||[];
+ const transition=profile.transition?fusedResearchNarrative(profile,[{...profile.transition,text:clean(profile.transition.text)}],false):'';
+ return transition+'<h3>各項發展進度</h3>'+projects.map(project=>'<article class="overview-block" data-development-project="'+esc(project.project_id)+'"><h4>'+esc(project.name)+'</h4><ul class="overview-points">'+[['type','項目類型'],['uses_and_customers','用途與客戶'],['status','目前進度'],['commercial_timing','時間與目標'],['revenue_contribution','營收貢獻']].map(([key,label])=>'<li><b>'+label+'：</b>'+esc(clean(project[key]||'未揭露'))+'</li>').join('')+'</ul></article>').join('');
+}
 function companyOutlookHtml(stock,p){
  const o=p.overview||{},valid=(o.outlooks||[]).filter(x=>!x.is_historical&&Number.isFinite(x.low));
  let direction=stock.symbol==='1101.TW'?'發展碳排放較低的水泥與建材，增加儲能、充電與電池相關業務，並整合海外水泥事業。':plainDirectionText(o.direction||p.transition?.text?.split('。')[0]||'目前資料尚未提供具體發展方向。');
@@ -337,7 +343,7 @@ function companyOutlookHtml(stock,p){
  if(o.direction)for(const url of o.urls||[])if(safeResearchUrl(url)&&!sourceMap.has(url))sourceMap.set(url,{url,title:'公司概況來源',accessed_at:o.source_reviewed_at});
  const refs=[...sourceMap.values()].map(r=>'<li><a href="'+esc(safeResearchUrl(r.url))+'" target="_blank" rel="noopener noreferrer">'+esc(r.title)+' ↗</a><small> · '+(r.published_at?'發布 '+esc(r.published_at)+' · ':'')+'查閱 '+esc(r.accessed_at||'日期未提供')+'</small></li>').join('');
  const entries=[p.transition,p.developments].filter(Boolean).map(x=>({...x,text:plainDirectionText(x.text).replace(/此分類是依年報整理的研究判讀。?/g,'').replace(/本摘要尚未查核其後實際進度，目前進度：公司規劃中/g,'這是年報發布時的計畫，後續進度仍待更新')}));
- const details=stock.symbol==='1101.TW'?'<ul class="overview-points"><li><b>水泥與建材：</b>持續經營水泥業務，同時發展碳排放較低的建材、整合海外水泥事業。2026 上半年資料顯示，水泥仍是主要營收來源。</li><li><b>儲電與充電：</b>發展儲能櫃，把電存起來、需要時再供電；也提供結合太陽能發電、儲電與充電的站點，以及綠電交易服務。</li><li><b>讓工廠更容易管理：</b>英德廠從 2024 年 12 月開始使用 AI 智能礦山系統；官網列出的花蓮和平廠仍在規劃。Cimpor 已用電腦監測設備，也在研發預測混凝土強度、找出合適材料比例的模型。</li></ul>':entries.length?fusedResearchNarrative(p,entries,false):'<p>'+esc(direction)+'</p>';
+ const details=p.developments?.projects?.length?developmentProjectsHtml(p):stock.symbol==='1101.TW'?'<ul class="overview-points"><li><b>水泥與建材：</b>持續經營水泥業務，同時發展碳排放較低的建材、整合海外水泥事業。2026 上半年資料顯示，水泥仍是主要營收來源。</li><li><b>儲電與充電：</b>發展儲能櫃，把電存起來、需要時再供電；也提供結合太陽能發電、儲電與充電的站點，以及綠電交易服務。</li><li><b>讓工廠更容易管理：</b>英德廠從 2024 年 12 月開始使用 AI 智能礦山系統；官網列出的花蓮和平廠仍在規劃。Cimpor 已用電腦監測設備，也在研發預測混凝土強度、找出合適材料比例的模型。</li></ul>':entries.length?fusedResearchNarrative(p,entries,false):'<p>'+esc(direction)+'</p>';
  const assumptions=valid.map(x=>'<article><h4>'+esc(x.type)+' · '+esc(x.period)+'</h4><p>'+esc(plainDirectionText(x.limitations))+'</p></article>').join('');
  return '<section class="outlook-summary"><p><b class="outlook-summary-label">公司發展方向：</b><span class="key-sentence">'+esc(direction)+'</span></p>'+(valid.length?valid.map(conclusion).join(''):'<p>目前資料沒有提供可核對的營收目標金額。</p>')+'</section>'+(refs?'<details class="outlook-sources"><summary>查看來源與日期</summary><ul>'+refs+'</ul></details>':'')+'<h3>接下來有哪些具體工作？</h3>'+details+(assumptions?'<details><summary>查看目標的條件與補充資料</summary>'+assumptions+'</details>':'');
 }
