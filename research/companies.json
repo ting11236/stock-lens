@@ -970,48 +970,344 @@
         "accessed_at": "2026-10-03"
       },
       "ai": {
-        "title": "AI 轉型／各廠導入階段",
         "url": "https://www.tccgroupholdings.com/ai-transformation",
-        "publisher": "台泥企業團",
+        "title": "AI轉型",
+        "publisher": "台泥",
         "published_at": null,
-        "accessed_at": "2026-10-03"
+        "published_at_reason": "網頁未標更新日期",
+        "accessed_at": "2026-11-13"
+      },
+      "annual": {
+        "url": "https://media.taiwancement.com/web_tcc/comm/pdf/Annual_Report/114年度年報及年報附冊.pdf",
+        "title": "2025年度年報及附冊",
+        "publisher": "台泥",
+        "published_at": null,
+        "published_at_reason": "官網列表僅列年度，未確認精確發布日；年報包含2026年刊印日前資訊",
+        "accessed_at": "2026-11-18",
+        "source_evidence_file": "研究進度/來源留存/2026-11-18-1101/2025-annual.pdf",
+        "pages_read": [
+          3,
+          4,
+          5,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          79,
+          80,
+          82,
+          92,
+          93,
+          94,
+          95
+        ]
+      },
+      "q3": {
+        "url": "https://media.taiwancement.com/web_tcc/comm/pdf/report/2026/TCC%20115%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf",
+        "title": "2026第三季合併財務報告",
+        "publisher": "台泥",
+        "published_at": "2026-11-12",
+        "published_at_basis": "財報董事會通過日；上網時分未確認",
+        "accessed_at": "2026-11-18",
+        "source_evidence_file": "研究進度/來源留存/2026-11-13-1101/2026Q3-consolidated.pdf",
+        "pages_read": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          32,
+          41,
+          42,
+          98,
+          99,
+          100,
+          103,
+          104,
+          105
+        ]
+      },
+      "moli": {
+        "url": "https://www.molicel.com/about/",
+        "title": "Molicel官方沿革與產品階段",
+        "publisher": "Molicel",
+        "published_at": null,
+        "published_at_reason": "網頁含歷年里程碑，未標整頁更新日期",
+        "accessed_at": "2026-11-18"
       }
     },
     "business": {
-      "text": "業務以水泥為核心，並布局再生能源、儲能、電池及充電服務。2026 上半年水泥占合併營收 82%，能源占 6%、和平電廠占 10%；土耳其及葡萄牙占營收 44%。這些是營收結構，不能視為各事業的獲利占比。",
-      "period": "2026 上半年／官網查閱日",
+      "text": "公司概述與產業鏈：台泥以水泥、熟料與預拌混凝土為核心，向上結合石灰石、替代原燃料與電力，向下服務營造、工程與預拌市場；海外主要含土耳其、葡萄牙及非洲水泥事業。其他事業包含和平燃煤電廠、再生能源、儲能系統與充電服務、Molicel高功率圓柱鋰電池及運輸。不能把整家公司視為純AI電池或純綠能公司。[annual、q3]\n產品與用途：卜特蘭石灰石水泥用於一般建築工程，透過降低熟料用量減碳；其他型別用於特殊工程，預拌混凝土直接供應工地。UHPC延伸至構件、修繕、列印材料及儲能櫃體。Molicel提供電芯而非整個資料中心供電系統；儲能業務涵蓋系統設計、整合、建置及能源管理，電池模組可向外採購，不能把每座NHOA案場都當Molicel電池銷售。[annual]\n客戶與市場：2025年台電為唯一揭露銷售占比超過10%的客戶，銷售168.24516億元、約11%；其他客戶合計89%，不推測未公開名單。水泥面向營建工程，和平電力依購售電契約供台電；儲能客戶包括工商場域、充電站與電力系統，年報列錸寶及福斯／太古合作案例。客戶種類、系統整合夥伴與最終電芯買方分開。[annual]\n2026年前三季收入：水泥部門901.41774億元、電力及能源82.10754億元、社會轉型能源116.30319億元、其他25.40028億元，合計1125.22875億元。產品口徑的水泥600.19028億元、混凝土286.29380億元、儲能與充電樁37.11040億元、電池40.31228億元、再生能源4.78323億元；部門分類與產品分類不能相加重複計算。這些均為營收，並非獲利占比。[q3,103–104頁]\n相似同業：1102亞泥適合比較水泥／預拌與兩岸需求、價格及成本；1103嘉泥可作建材業務的局部比較，但事業及投資組合不同。這是研究端依業務選擇的比較組，不代表能源、電池或地區組合一致，亦不直接拿水泥業平均PE評價全部新能源資產。[research_inference]",
+      "period": "2025全年及2026前三季；項目進度各自標示原期間",
       "sources": [
-        "q2",
-        "energy"
-      ]
+        "annual",
+        "q3",
+        "ai",
+        "moli"
+      ],
+      "reviewed_at": "2026-11-18",
+      "update_id": "research-20261118-1101-v1-business",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
     },
     "earnings": {
-      "text": "2026 上半年營收 712.9 億元、營業淨利 51.7 億元，分別年增 1.4%、51.4%；歸母淨利 32.8 億元、EPS 0.38 元。另有營業外淨收益 14.64 億元。出售 FVOCI 股票的 59.34 億元利益直接轉入保留盈餘，未計入上述淨利與 EPS。",
-      "period": "2025–2026 上半年比較",
+      "text": "2025全年合併營收1498.04135億元、營業利益100.77592億元、歸母淨損116.17608億元、基本EPS -1.60元；營業現金流331.91582億元。2026年前三季合併營收1125.22875億元、營業利益95.71599億元、業外淨收益18.95749億元、稅前淨利114.67348億元、歸母淨利50.89876億元、基本EPS 0.63元。前者全年、後者九個月累計，不直接視為同比；2026Q3單季歸母淨利18.10096億元、EPS 0.24元。[annual、q3]\n獲利來源：2026年前三季水泥部門損益72.18104億元；電力及能源虧損31.27690億元；和平電力所在社會轉型能源部門損益50.08095億元；其他5.25372億元。部門損益尚未分攤管理成本及業外，不能當各部門歸母淨利。能源布局仍在虧損，不因電池與儲能題材就認定已是主要獲利引擎。[q3]\n異常與獲利品質：2025三元廠火災年底重估淨損155.72023億元；保險理賠22.65億元已於2025年12月收足並認列，保額219億元不是可再領219億元。2026前三季處分竹東等投資性不動產利益20.04679億元，非水泥毛利；NHOA與Stellantis等9/30和解後認列相關信用減損3.18467億元於管理費用。火災相關工程訴訟仍審理，益鼎反訴保固金2.115億元及利息，未當作勝訴追回資產。[q3,42、98–105頁]\n資產負債：2026/9/30合併資產6020.31626億元、總負債2978.24935億元、權益3042.06691億元，歸母權益2403.17636億元；現金及約當現金918.99997億元，現金未含金融資產。借款／短票／公司債合計2128.48616億元，包含一年內到期長債488.71224億元；租賃負債70.08447億元另列，總負債不等於借款。[q3,5、10、41頁]\n現金流：2026前9月CFO172.34670億元，取得PPE支付200.20804億元、無形資產9.63601億元。CFO減PPE現金支出約-27.86億元為研究試算，非公司正式自由現金流指標；非核心資產處分及融資仍影響資金需求。投資活動淨流出57.74639億元包含金融資產處分103.30711億元等回收，不把它當營業收入。[q3,8–10頁]\n會計限制：Q3為保留結論核閱，原因是部分非重要子公司未經核閱，其資產占合併約14%、負債約5%；不能寫成無保留查核意見。土耳其高度通膨及匯率、煤電價格、中國產能吸收與能源虧損均影響可比性。未取得最新可核對的整體營收／EPS金額財測及可靠具名法人共識，不自行補值。[q3、annual]",
+      "period": "2025全年及2026前三季；項目進度各自標示原期間",
       "sources": [
-        "q2"
-      ]
+        "annual",
+        "q3",
+        "ai",
+        "moli"
+      ],
+      "reviewed_at": "2026-11-18",
+      "update_id": "research-20261118-1101-v1-earnings",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
     },
     "transition": {
-      "text": "從水泥業務延伸到低碳建材與新能源整合，官網列出 EnergyArk 儲能櫃、光充儲一體充電站及綠電交易服務。依半年報仍以水泥營收為主，本摘要將其判讀為擴展既有業務與能源布局；尚不能據此認定能源已成為主要獲利來源。",
-      "period": "2026 上半年／官網查閱日",
+      "text": "轉型方向是以水泥現金流與製程資源支援低碳材料、資源處理與能源服務，而非已完成從水泥轉成AI公司。低碳水泥是既有主業產品升級，替代燃料及AI礦山屬製程效率投資；電芯BBU／eVTOL是新產品應用；儲能與充儲微電網是新服務及既有能源業務擴張，海外水泥上市屬資本與組織安排。[annual、q3；research_inference]\n海外整合：Q3財報附註確認10/13股東臨時會通過子公司CIH海外IPO申請案；不等於交易所核准或掛牌，也不能認列未實現上市利益。另Cimpor Global Holding 60%股權交易約6500萬歐元，財報稱2026/10已交割，與CIH上市不是同一交易。[q3,32、99頁]\n1–3年觀察重點：低碳水泥替代率及售價能否補償設備投入、歐洲土耳其水泥整合與地區需求、中國低效率產能退出能否改善固定成本，以及能源事業能否縮虧。AI BBU需觀察指定型號驗證、訂單與實際收入；充電網路需觀察利用率及單站經濟，不能以建置點數直接推估收益。[annual；research_inference]\n失效及風險條件：若水泥價格與毛利持續承壓、海外整合耗資卻未改善現金回收、能源虧損擴大、重大安全事故再發、或新產品認證／客戶導入延後，應調整轉型判斷。現階段能源仍虧損，沒有足夠資料把電池、儲能各項目給予精確獲利估值。[q3；research_inference]\n進度口徑：年報雖含2026年計畫，仍代表刊印時點，不因預定日期已過就改成完成；個別容量、場站及認證在不同章節有統計範圍或階段差異，保留限制，不硬湊合計。未找影片，未取得可核對的原始文字Q&A；本輪是整家公司公開資料查找附缺漏，不是11/25會後摘要。",
+      "period": "2025全年及2026前三季；項目進度各自標示原期間",
       "sources": [
-        "energy",
-        "q2"
-      ]
+        "annual",
+        "q3",
+        "ai",
+        "moli"
+      ],
+      "reviewed_at": "2026-11-18",
+      "update_id": "research-20261118-1101-v1-transition",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
     },
     "developments": {
-      "text": "AI 智能礦山方面，英德廠已於 2024 年 12 月導入並運行，花蓮和平廠在官網仍列為規劃。CIMPOR 已導入設備智慧監測，另研發混凝土強度預測與配比模型。已運行、規劃及研發的階段分開記錄，未取得各項目的獨立財務貢獻。",
-      "period": "2024-12 起／官網截至查閱日的階段說明",
+      "text": "新發展依固定項目分列：低碳產品升級、既有產能改善、能源新產品／服務與評估中案場不混為一類。以下進度採年報、最新Q3及公司原頁；原定日期已過仍未取得完成證據者，保留計畫而不改寫為達成。各項目未披露的客戶、金額或商用日明列。[annual、q3、ai、moli]\n\n1101-lowcarbon-materials｜IL水泥、ULCC及UHPC低碳材料（既有業務新產品）\n用途與客戶：建築、公共工程與構件；未逐案揭露客戶。\n進度：IL已有銷售；2025低碳混凝土銷量逾300萬立方米。ULCC完成工程驗證，但年報申請中及已取得碳標籤文字並存，認證狀態不取單一說法。\n時間：袋裝自平泥原定2026Q2推出，未取得其後正式完成證據。\n營收貢獻：未揭露各新產品收入及毛利；銷售體積不換算收入。\n\n1101-cement-process-capex｜和平石粉磨、富氧與海外低碳製程（既有業務擴產／效率改善）\n用途與客戶：提高IL能力、替代燃料及降低煤電成本，自用。\n進度：年報：和平石粉磨施工，富氧建照申請；葡萄牙Alhandra系統試車、Souselas煅燒黏土線動工。\n時間：石粉磨原定2026/6；富氧2027/5；Alhandra2026Q2；Souselas2026年底。均為年報計畫，未確認後續全部完成。\n營收貢獻：投資／研發預算及TSR目標不是營收；未揭露增量收益。\n\n1101-waste-recycling｜水泥窯及營建廢棄物資源化（既有業務延伸／新服務）\n用途與客戶：花蓮一般廢棄物及工業廢棄物、建築拆除料；政府及工業客戶。\n進度：和平資源中心2023年底正式營運，2025處理一般廢棄物42117噸；花蓮營建廢棄物廠2025/5取得許可正式運轉。\n時間：已有處理服務；未把既有運轉當本月新投產。\n營收貢獻：9m廢棄物處理產品收入5.14912億元，非單一新廠收入。\n\n1101-energyark1000｜EnergyArk1000工商儲能（既有能源新產品）\n用途與客戶：工商削峰填谷及電力交易；錸寶、義大利A.ROMA飯店等披露案例。\n進度：年報列台灣及歐洲已建置與示範運轉案例。\n時間：產品已應用；各案例不代表所有國家已全面商用。\n營收貢獻：未揭露此型號獨立營收及案場回收期。\n\n1101-energyark400｜EnergyArk400充儲一體（既有能源新產品）\n用途與客戶：充電站及工商用電；福斯／太古、Volvo與Atlante合作。\n進度：太古合約2025/2、首站已建成；首個Volvo站年報稱2026Q1完成。\n時間：已有案例；歐洲超過65套為2026年目標，未確認全部達成。\n營收貢獻：未揭露單套收入、租賃或電能服務分潤。\n\n1101-energyark418｜EnergyArk418與EdgeAI（新產品）\n用途與客戶：整合PCS、EMS及邊緣調度；歐洲充儲及工商場域。\n進度：年報規劃一體化儲能產品，Q2及下半年部署時間在不同章節並存。\n時間：2026年推出／下半年起部署為計畫，未取得全案商用確認。\n營收貢獻：未揭露已認列收入，不將AI調度等同獨立AI軟體收入。\n\n1101-virtual-power｜聚合調度、綠電及虛擬電廠（新服務／既有業務擴張）\n用途與客戶：電力交易及民間企業綠電需求；台電平台、工商用戶。\n進度：台灣已進行多類輔助服務聚合；年報列2026/2歐洲20站完成、14站施工中。\n時間：法國電力交易原定2026Q3，未取得後續完成證據；跨國微電網2028年底為目標。\n營收貢獻：服務收益與容量／場站數分開；未揭露單站或各市場獲利。\n\n1101-nhoa-platform｜NHOA儲能系統與PCS研發（既有業務新產品）\n用途與客戶：電網與公用事業儲能；案場電池可向第三方採購。\n進度：電源島、C-BESS8000-M、K-WIZE、鈉離子整合與MMC為年報研發計畫。\n時間：前四類原定2026/12、MMC2027/12，非已取得訂單或投產日期。\n營收貢獻：9m儲能與充電樁合計收入37.1104億元，未拆分個別研發產品貢獻。\n\n1101-molicel-bbu｜Molicel BBU安全型電芯（既有產品新應用）\n用途與客戶：AI資料中心備援；P22S、P30S、P50S，具名CSP客戶未披露。\n進度：年報列工程／量產驗證階段；Molicel沿革2025欄列P22S量產、P30S/P50S design-in，產品驗證與客戶導入不視同全面量產。\n時間：研發原定2026/12；沒有可核對的全客戶商用日。\n營收貢獻：9m電池收入40.31228億元含多類應用，不等於BBU收入；未有獨立BBU預估。\n\n1101-molicel-oem｜電芯製造移轉與海外OEM（既有產能調度／授權模式）\n用途與客戶：超跑、工具、航太及eVTOL客戶；未揭露逐案名稱與合約。\n進度：火災後調度台南產能、推進馬來西亞OEM；高雄廠年報仍停工修復評估。\n時間：不填未公開復工日；OEM及授權商用階段依個別合約未確認。\n營收貢獻：未揭露權利金率、分潤、保證收入及重建收益。\n\n1101-hongye-geothermal｜紅葉地熱（新案場）\n用途與客戶：非間歇再生能源供電；未披露本案終端買方。\n進度：年報稱2025部分機組併網正式供電，剩餘機組與系統調試續行。\n時間：原定2026完成其餘調試，未確認全部達成。\n營收貢獻：未揭露單場收入及穩定利用率，1MW等級不是收入。\n\n1101-renewables-expansion｜義竹光電與石門風電（既有綠電業務擴建）\n用途與客戶：企業綠電需求；案場買方未逐案揭露。\n進度：義竹二期土地容許核准、申請施工要件；石門進環評小組程序。\n時間：義竹原定2026全區併網，未確認達成；石門商用日未披露。\n營收貢獻：投資金額與裝置容量不是全年營收。\n\n1101-heping-microhydro-otec｜和平小水力與海洋溫差（新技術／新案場評估）\n用途與客戶：利用冷卻排水位能及海洋溫差；無已披露商用客戶。\n進度：576kWp小水力計畫；海洋溫差環評與可行性評估，不能稱2MW已商轉。\n時間：小水力原定2027Q3；海洋溫差無可確認商用日。\n營收貢獻：預估年發390萬度屬小水力公司計畫，非實際售電或OTEC收入。\n\n1101-cimpor-capital｜CIH海外上市與海外組織整合（資本／組織安排）\n用途與客戶：土葡非水泥事業籌資；非新客戶訂單。\n進度：10/13股東會已通過海外IPO申請；未確認核准掛牌。Cimpor Global Holding60%另案10月交割。\n時間：海外上市時間未確定。\n營收貢獻：不把申請上市當處分收益或新增營收。\n\n1101-ai-operations｜AI礦山、設備監測及混凝土模型（既有製程數位化）\n用途與客戶：自用生產、品質與維修；FIZIX等為合作方非台泥產品買方。\n進度：官網列英德2024/12礦山導入運行、和平規劃；CIMPOR設備監測已導入，混凝土預測模型研發。\n時間：依廠別分階段，未披露全廠完成時點。\n營收貢獻：未揭露節省金額或外售收入，不能認列AI服務營收。",
+      "period": "2025全年及2026前三季；項目進度各自標示原期間",
       "sources": [
-        "ai"
-      ]
+        "annual",
+        "q3",
+        "ai",
+        "moli"
+      ],
+      "projects": [
+        {
+          "project_id": "1101-lowcarbon-materials",
+          "name": "IL水泥、ULCC及UHPC低碳材料",
+          "type": "既有業務新產品",
+          "uses_and_customers": "建築、公共工程與構件；未逐案揭露客戶",
+          "status": "IL已有銷售；2025低碳混凝土銷量逾300萬立方米。ULCC完成工程驗證，但年報申請中及已取得碳標籤文字並存，認證狀態不取單一說法",
+          "commercial_timing": "袋裝自平泥原定2026Q2推出，未取得其後正式完成證據",
+          "revenue_contribution": "未揭露各新產品收入及毛利；銷售體積不換算收入",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-cement-process-capex",
+          "name": "和平石粉磨、富氧與海外低碳製程",
+          "type": "既有業務擴產／效率改善",
+          "uses_and_customers": "提高IL能力、替代燃料及降低煤電成本，自用",
+          "status": "年報：和平石粉磨施工，富氧建照申請；葡萄牙Alhandra系統試車、Souselas煅燒黏土線動工",
+          "commercial_timing": "石粉磨原定2026/6；富氧2027/5；Alhandra2026Q2；Souselas2026年底。均為年報計畫，未確認後續全部完成",
+          "revenue_contribution": "投資／研發預算及TSR目標不是營收；未揭露增量收益",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-waste-recycling",
+          "name": "水泥窯及營建廢棄物資源化",
+          "type": "既有業務延伸／新服務",
+          "uses_and_customers": "花蓮一般廢棄物及工業廢棄物、建築拆除料；政府及工業客戶",
+          "status": "和平資源中心2023年底正式營運，2025處理一般廢棄物42117噸；花蓮營建廢棄物廠2025/5取得許可正式運轉",
+          "commercial_timing": "已有處理服務；未把既有運轉當本月新投產",
+          "revenue_contribution": "9m廢棄物處理產品收入5.14912億元，非單一新廠收入",
+          "sources": [
+            "annual",
+            "q3"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-energyark1000",
+          "name": "EnergyArk1000工商儲能",
+          "type": "既有能源新產品",
+          "uses_and_customers": "工商削峰填谷及電力交易；錸寶、義大利A.ROMA飯店等披露案例",
+          "status": "年報列台灣及歐洲已建置與示範運轉案例",
+          "commercial_timing": "產品已應用；各案例不代表所有國家已全面商用",
+          "revenue_contribution": "未揭露此型號獨立營收及案場回收期",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-energyark400",
+          "name": "EnergyArk400充儲一體",
+          "type": "既有能源新產品",
+          "uses_and_customers": "充電站及工商用電；福斯／太古、Volvo與Atlante合作",
+          "status": "太古合約2025/2、首站已建成；首個Volvo站年報稱2026Q1完成",
+          "commercial_timing": "已有案例；歐洲超過65套為2026年目標，未確認全部達成",
+          "revenue_contribution": "未揭露單套收入、租賃或電能服務分潤",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-energyark418",
+          "name": "EnergyArk418與EdgeAI",
+          "type": "新產品",
+          "uses_and_customers": "整合PCS、EMS及邊緣調度；歐洲充儲及工商場域",
+          "status": "年報規劃一體化儲能產品，Q2及下半年部署時間在不同章節並存",
+          "commercial_timing": "2026年推出／下半年起部署為計畫，未取得全案商用確認",
+          "revenue_contribution": "未揭露已認列收入，不將AI調度等同獨立AI軟體收入",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-virtual-power",
+          "name": "聚合調度、綠電及虛擬電廠",
+          "type": "新服務／既有業務擴張",
+          "uses_and_customers": "電力交易及民間企業綠電需求；台電平台、工商用戶",
+          "status": "台灣已進行多類輔助服務聚合；年報列2026/2歐洲20站完成、14站施工中",
+          "commercial_timing": "法國電力交易原定2026Q3，未取得後續完成證據；跨國微電網2028年底為目標",
+          "revenue_contribution": "服務收益與容量／場站數分開；未揭露單站或各市場獲利",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-nhoa-platform",
+          "name": "NHOA儲能系統與PCS研發",
+          "type": "既有業務新產品",
+          "uses_and_customers": "電網與公用事業儲能；案場電池可向第三方採購",
+          "status": "電源島、C-BESS8000-M、K-WIZE、鈉離子整合與MMC為年報研發計畫",
+          "commercial_timing": "前四類原定2026/12、MMC2027/12，非已取得訂單或投產日期",
+          "revenue_contribution": "9m儲能與充電樁合計收入37.1104億元，未拆分個別研發產品貢獻",
+          "sources": [
+            "annual",
+            "q3"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-molicel-bbu",
+          "name": "Molicel BBU安全型電芯",
+          "type": "既有產品新應用",
+          "uses_and_customers": "AI資料中心備援；P22S、P30S、P50S，具名CSP客戶未披露",
+          "status": "年報列工程／量產驗證階段；Molicel沿革2025欄列P22S量產、P30S/P50S design-in，產品驗證與客戶導入不視同全面量產",
+          "commercial_timing": "研發原定2026/12；沒有可核對的全客戶商用日",
+          "revenue_contribution": "9m電池收入40.31228億元含多類應用，不等於BBU收入；未有獨立BBU預估",
+          "sources": [
+            "annual",
+            "q3",
+            "moli"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-molicel-oem",
+          "name": "電芯製造移轉與海外OEM",
+          "type": "既有產能調度／授權模式",
+          "uses_and_customers": "超跑、工具、航太及eVTOL客戶；未揭露逐案名稱與合約",
+          "status": "火災後調度台南產能、推進馬來西亞OEM；高雄廠年報仍停工修復評估",
+          "commercial_timing": "不填未公開復工日；OEM及授權商用階段依個別合約未確認",
+          "revenue_contribution": "未揭露權利金率、分潤、保證收入及重建收益",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-hongye-geothermal",
+          "name": "紅葉地熱",
+          "type": "新案場",
+          "uses_and_customers": "非間歇再生能源供電；未披露本案終端買方",
+          "status": "年報稱2025部分機組併網正式供電，剩餘機組與系統調試續行",
+          "commercial_timing": "原定2026完成其餘調試，未確認全部達成",
+          "revenue_contribution": "未揭露單場收入及穩定利用率，1MW等級不是收入",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-renewables-expansion",
+          "name": "義竹光電與石門風電",
+          "type": "既有綠電業務擴建",
+          "uses_and_customers": "企業綠電需求；案場買方未逐案揭露",
+          "status": "義竹二期土地容許核准、申請施工要件；石門進環評小組程序",
+          "commercial_timing": "義竹原定2026全區併網，未確認達成；石門商用日未披露",
+          "revenue_contribution": "投資金額與裝置容量不是全年營收",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-heping-microhydro-otec",
+          "name": "和平小水力與海洋溫差",
+          "type": "新技術／新案場評估",
+          "uses_and_customers": "利用冷卻排水位能及海洋溫差；無已披露商用客戶",
+          "status": "576kWp小水力計畫；海洋溫差環評與可行性評估，不能稱2MW已商轉",
+          "commercial_timing": "小水力原定2027Q3；海洋溫差無可確認商用日",
+          "revenue_contribution": "預估年發390萬度屬小水力公司計畫，非實際售電或OTEC收入",
+          "sources": [
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-cimpor-capital",
+          "name": "CIH海外上市與海外組織整合",
+          "type": "資本／組織安排",
+          "uses_and_customers": "土葡非水泥事業籌資；非新客戶訂單",
+          "status": "10/13股東會已通過海外IPO申請；未確認核准掛牌。Cimpor Global Holding60%另案10月交割",
+          "commercial_timing": "海外上市時間未確定",
+          "revenue_contribution": "不把申請上市當處分收益或新增營收",
+          "sources": [
+            "q3"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        },
+        {
+          "project_id": "1101-ai-operations",
+          "name": "AI礦山、設備監測及混凝土模型",
+          "type": "既有製程數位化",
+          "uses_and_customers": "自用生產、品質與維修；FIZIX等為合作方非台泥產品買方",
+          "status": "官網列英德2024/12礦山導入運行、和平規劃；CIMPOR設備監測已導入，混凝土預測模型研發",
+          "commercial_timing": "依廠別分階段，未披露全廠完成時點",
+          "revenue_contribution": "未揭露節省金額或外售收入，不能認列AI服務營收",
+          "sources": [
+            "ai",
+            "annual"
+          ],
+          "claim_type": "company_disclosures_with_explicit_gaps"
+        }
+      ],
+      "reviewed_at": "2026-11-18",
+      "update_id": "research-20261118-1101-v1-developments",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
     },
     "limitations": [
-      "未補齊 2023–2025 全年分部獲利與完整近三年比較。",
-      "官網能源及 AI 頁未提供發布日，個別項目的投產時間與效益仍待補查。",
-      "簡報補充的調整後 EPS 1.18 元不是 IFRS 正式財務衡量指標，不採為法定 EPS。"
-    ]
+      "年報精確上網日未確認，計畫維持刊印口徑；2026已過預定日期未必完成",
+      "Q3保留結論核閱已揭露，非全子公司均經核閱",
+      "未取得原始文字Q&A，未找影片；11/25會議尚未舉行",
+      "客戶名稱、型號營收及個案獲利未揭露者如實留缺",
+      "年報ULCC認證及容量統計存在內部階段／口徑差異，未硬合併",
+      "P30S/P50S工程驗證與客戶design-in非相同商用階段",
+      "未取得最新可靠具名法人EPS共識及整體金額財測",
+      "當期數字供網站依共同來源核對，不另建立行情或估值計算"
+    ],
+    "research_completion": "completed_lookup_with_disclosed_gaps",
+    "lookup_completed_at": "2026-11-18T15:03:07.644533+08:00",
+    "lookup_completion_unit": "整家公司公開資料查找完成附缺漏"
   },
   "1201.TW": {
     "name": "味全",
