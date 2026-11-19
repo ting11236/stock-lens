@@ -8001,5 +8001,501 @@
       "update_id": "research-20261110-8996-v1-developments",
       "research_completion": "event_complete_with_disclosed_gaps"
     }
+  },
+  "2707.TW": {
+    "name": "晶華",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "lookup_completed_at": "2026-11-19T20:17:17.540702+08:00",
+    "lookup_completion_unit": "整家公司公開資料查找完成附缺漏",
+    "sources": {
+      "annual": {
+        "url": "https://digital.silkshotelgroup.com/Downloads/GroupWeb/Investment/Shareholders_Annual_Report_114.pdf",
+        "title": "2025年度年報（2026/4/18刊印）",
+        "publisher": "晶華國際酒店／公開資訊觀測站",
+        "published_at": "2026-04-18",
+        "published_at_reason": null,
+        "accessed_at": "2026-11-19",
+        "source_evidence_file": "研究進度/來源留存/2026-11-19-2707/annual.pdf",
+        "pages_read": [
+          5,
+          6,
+          54,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      "h1": {
+        "url": "https://digital.silkshotelgroup.com/Downloads/GroupWeb/Investment/Q2_2026_Consolidated_Financial_Report.pdf",
+        "title": "2026H1合併財報",
+        "publisher": "晶華國際酒店／公開資訊觀測站",
+        "published_at": null,
+        "published_at_reason": "未確認精確上網日期",
+        "accessed_at": "2026-11-19",
+        "source_evidence_file": "研究進度/來源留存/2026-11-19-2707/h1.pdf",
+        "pages_read": [
+          6,
+          7,
+          8,
+          10,
+          11,
+          17,
+          18,
+          20,
+          30,
+          31,
+          39,
+          40,
+          41,
+          51
+        ]
+      },
+      "agm": {
+        "url": "https://digital.silkshotelgroup.com/Downloads/GroupWeb/Investment/Shareholders_Annual_Meeting_Minutes_115.pdf",
+        "title": "2026/6/16股東常會議事錄及財務附表",
+        "publisher": "晶華國際酒店／公開資訊觀測站",
+        "published_at": "2026-06-16",
+        "published_at_reason": null,
+        "accessed_at": "2026-11-19",
+        "source_evidence_file": "研究進度/來源留存/2026-11-19-2707/agm.pdf",
+        "pages_read": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          11,
+          12,
+          13
+        ]
+      },
+      "meeting": {
+        "url": "https://mopsov.twse.com.tw/nas/STR/270720261014M001.pdf",
+        "title": "2026/10/14法人說明會官方簡報",
+        "publisher": "晶華國際酒店／公開資訊觀測站",
+        "published_at": "2026-10-14",
+        "published_at_reason": null,
+        "accessed_at": "2026-11-19",
+        "source_evidence_file": "研究進度/來源留存/2026-11-19-2707/meeting.pdf",
+        "pages_read": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
+      },
+      "events": {
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "title": "2026/11/9–10晶華公告原文快照",
+        "publisher": "晶華國際酒店／公開資訊觀測站",
+        "published_at": "2026-11-10",
+        "published_at_reason": null,
+        "accessed_at": "2026-11-19",
+        "source_evidence_file": "研究進度/來源留存/2026-11-19-2707/announcements.json",
+        "pages_read": []
+      },
+      "q3": {
+        "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2707&year=115&seamon=3&mtype=A&dtype=AI1",
+        "title": "2026Q3合併財報（官方11/10上傳版本）",
+        "publisher": "晶華國際酒店／公開資訊觀測站",
+        "published_at": "2026-11-10",
+        "published_at_reason": null,
+        "accessed_at": "2026-11-19",
+        "source_evidence_file": "研究進度/來源留存/2026-11-19-2707/202603_2707_AI1.pdf",
+        "pages_read": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          22,
+          29,
+          30,
+          31,
+          38,
+          39,
+          40,
+          41,
+          42,
+          51
+        ],
+        "board_approval_date": "2026-11-09",
+        "official_query_endpoint": "https://doc.twse.com.tw/server-java/t57sb01",
+        "download_parameters": {
+          "step": "9",
+          "kind": "A",
+          "co_id": "2707",
+          "filename": "202603_2707_AI1.pdf"
+        },
+        "sha256": "sha256:d85f6674b9ab0e05a4d401fe19b6f31c597e7bbf6152f8275866788574184f82",
+        "retrieved_pdf_url": "https://doc.twse.com.tw/pdf/202603_2707_AI1_20261119_201328.pdf",
+        "url_note": "官網查詢入口保留原始檔名及下載步驟；實際PDF臨時URL另存retrieved_pdf_url。"
+      }
+    },
+    "limitations": [
+      "10/14簡報已讀全39頁並逐頁視覺核對圖表；未取得官方原始文字Q&A，無法以簡報最後Q&A標題冒稱問答已取得；未找影片。6/16股東會三項問答有議事錄原文。",
+      "年報營業報告、業務比重與合併財報部門收入存在不同範圍／分類，保留期間口徑、不相加；北投簡報100間含年報94客房及6湯屋的不同表達，不硬稱100間住宿客房。",
+      "開發中飯店日期為公司計畫，不保證如期；各單案管理費率、個案營收獲利與客戶未揭露者留缺。",
+      "未取得可核對的整體營收／EPS金額財測或最新具名法人共識，不自行估算。",
+      "Q3為保留結論核閱（部分非重要子公司及權益法投資未核閱），不是無保留年度查核。",
+      "美國旅館原11/9授權上限10.16億，11/10更正為9.95億；台灣子公司投資10.16億是另一口徑，不混為第二筆收購或宣稱已交割。",
+      "第三方鏡像Q3第42頁仍載10.16億；本批以官方11/10上傳版本第42頁及11/10更正公告9.95億為準，鏡像不作發布依據。"
+    ],
+    "business": {
+      "text": "公司概述與產業鏈：晶華經營飯店住宿、餐飲宴會、精品商場租賃、品牌授權與營運管理及公寓物業服務。位於旅宿服務中游，向上採購食品、用品並使用自有或承租空間，向下透過官網、線上訂房平台、旅行社及企業團體服務商務、休閒與會展客。旅館業主、品牌管理方、通路與消費者不是同一種客戶。[annual]\n主要產品與市場：台北晶華定位國際高端商務／城市度假，晶英強調地方文化，晶泉丰旅服務溫泉休閒客，捷絲旅服務交通便利及設計型旅宿需求；故宮晶華提供餐飲，麗晶精品主要是商場租賃相關收入。委託管理案的客戶是旅館業主，營收主要為服務費，不把全部品牌飯店客房收入併入晶華。[annual,h1]\n10/14簡報列營運網絡16家、2,494間房，包含受託據點，並非16家全部自有。台北晶華538間；北投以100間列示，年報則列94間客房與6間湯屋，保留範圍差異。海外Regent品牌由RHW與IHG合作發展，2026/9/30集團持股36%，採權益法；Regent全球據點與開發案不能全當晶華直接合併展店。[meeting,q3]\n客源：10/14簡報的台北晶華2026Q2客源表，台灣27.9%、日本23.4%、北美18.0%；這是本館客源結構，不是集團營收地區占比。另有品牌精品活動、企業會展與館外餐飲案例，未把個別合作活動視為長期大額訂單。[meeting]\n2026年1–9月合併部門外部收入（新台幣仟元）：餐飲2,592,462、客房1,943,002、技術服務及經營管理166,349、租賃600,461，合計5,302,274；收入最大部門不等於獲利最大。[q3,51頁]\n相似同業（研究端依業務推論）：2739寒舍可比較台北高端旅館與餐飲宴會；2748雲品可比較度假旅館及委託經營管理；2704國賓可比較高端飯店與餐飲，但各自資產、租賃及開發模式不同。這些都是上市同業，比較前仍由網站取得同日財務資料，不能直接以單一產業本益比套全部資產。",
+      "period": "2025全年、2026H1及2026年1–9月；會議與公告各自標原日期",
+      "sources": [
+        "annual",
+        "h1",
+        "agm",
+        "meeting",
+        "events",
+        "q3"
+      ],
+      "reviewed_at": "2026-11-19",
+      "update_id": "research-20261119-2707-v1-business",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    },
+    "earnings": {
+      "text": "營收與獲利來源：2026年1–9月合併營業收入5,302,274仟元、營業利益1,381,793仟元、營業外淨收益411,162仟元、稅前淨利1,792,955仟元、本期淨利1,435,045仟元、歸母淨利1,413,957仟元、基本EPS11.10元。7–9月單季收入1,691,756仟元、營業利益396,993仟元、歸母淨利315,115仟元、EPS2.47元，不能把11.10當Q3單季。[q3,8頁;events]\n部門營業淨損益（2026年1–9月，新台幣仟元）：餐飲434,782、客房483,863、技術服務及經營管理80,526、租賃382,623、投資部門負1，合計1,381,793。餐飲收入最高，客房部門營業淨利較高；租賃亦有重要貢獻，不能只用住房率解釋整體獲利。[q3,51頁]\n舊底稿「H1業外增幅原因待核」已核出主因：IHG於2026/3依股東協議行使買權，集團分兩階段轉讓RHW共25%股權，第一階段13%已轉讓並收款，價款美金20,020仟元（帳載新台幣633,233仟元），處分利益美金10,366仟元（327,890仟元）。H1業外淨收益399,776仟元，1–9月411,162仟元均包含這項利益；不把它當客房或餐飲的可重複成長。第二階段公司預計2027/1/31前完成，截至Q3財報仍是預定，不能提前入帳。[h1,q3,20、31、41頁]\n2026/9/30合併資產9,837,006仟元、負債5,421,927仟元、歸母權益4,214,564仟元。現金及約當現金214,296仟元，短期借款86,714仟元；租賃負債分流動271,611及非流動2,835,943仟元，總負債不能全當銀行借款。另有按攤銷後成本金融資產與受限制禮券／質押存款，不能全數加成自由現金。[q3,6–7、17–18頁]\n1–9月營業活動淨流入1,843,540仟元、取得不動產廠房設備支出110,423仟元、處分權益法投資收款633,233仟元、租賃本金償還267,059仟元、現金股利1,369,534仟元。營業現金流含金融資產變動，出售股權收款列投資活動，不能把處分利益與售價重複當現金獲利。[q3,10–11頁]\n圖表口徑查核：10/14簡報雖將財務圖題稱「各季」，2026Q2收入3,611佰萬元及EPS8.62元實際對應1–6月累計。簡報稅後淨利1,109,142仟元是合併本期淨利，非歸母1,098,842仟元；不得混用。年報2025年「營業及營業外收入」6,990,365仟元也不是營業收入6,832,914仟元。[meeting,h1,agm]\nQ3核閱為保留結論，原因為部分非重要子公司及權益法投資財報未核閱；原始數字與財報限制同時保留。[q3,4–5頁]",
+      "period": "2025全年、2026H1及2026年1–9月；會議與公告各自標原日期",
+      "sources": [
+        "annual",
+        "h1",
+        "agm",
+        "meeting",
+        "events",
+        "q3"
+      ],
+      "reviewed_at": "2026-11-19",
+      "update_id": "research-20261119-2707-v1-earnings",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    },
+    "transition": {
+      "text": "展望與商業模式：公司透過本館客房／宴會空間升級、房價與桌價管理、餐飲快閃與館外外燴、管理輸出及新館成長提高服務產值。這是公司策略而非保證收益；低資本支出品牌管理與直接租賃／持有旅館仍有不同投資及租賃風險。[annual,meeting]\n2026/6/16股東會原始文字問答已核對：股東詢問海內外展店、林口合作模式及台北晶華BOT續約。主席稱林口兩館預計2027年開幕，採受託管理，提供品牌及營運服務；台北地上權期滿享優先議約權並爭取續約，沒有宣稱已續約。海外Regent展店為品牌布局，須搭配RHW持股及處分進度判讀。[agm,3頁]\n10/14官方簡報39頁及所有圖表已核讀。開發中5館合計445間：林口晶英178間、林口捷絲旅63間、大阪心齋橋二館55間，公司標示2027；頭城晶泉丰旅67間與墾丁白沙灣捷絲旅82間標示2028。管理合約附註列籌備期間按進度收取服務費，未揭露費率及各案營收預估。簡報未提供原始文字問答，Q&A只出現在大綱，不能宣稱現場問答已查核。[meeting,h1]\n11/9–10新增重大投資：擬透過台灣子公司與美國孫公司取得舊金山Mark Hopkins旅館土地建物；11/10更正的收購價款授權上限為新台幣9.95億元，與設立台灣子公司投資10.16億元分開。董事會授權洽約／付款／交割不是已成交，未確認實際持有完成、營運納入時間或個案獲利。[events]\n西門館11/9通過續租協商原則，使用權資產上限4.2億元，實際租賃條款仍待雙方合意；此為既有143房據點營運延續，不算新增一家旅館，也不是一次支付4.2億現金。11/9第三季盈餘暫不分配不等於全年停止股利。[events]\n風險與缺漏：高端旅館新供給、商務及休閒需求、人力與食品成本、匯率、地震對花蓮交通需求及租賃續約均可能影響獲利。年報天祥晶華2025年仍有虧損、並稱受403地震後東台灣觀光影響；不能因重新營業就視為完全復原。美國新投資資產風險及RHW權益法收益變化須持續監看。未取得整體營收或EPS正式金額財測、單案收益預估與具名法人共識，保留未揭露／未找到，不推算。\n原始財報版本核對：官方11/10上傳Q3第42頁已改列9.95億，與更正公告一致；第三方鏡像仍載10.16億。本批採官方留存，避免重用舊鏡像。[q3,events]",
+      "period": "2025全年、2026H1及2026年1–9月；會議與公告各自標原日期",
+      "sources": [
+        "annual",
+        "h1",
+        "agm",
+        "meeting",
+        "events",
+        "q3"
+      ],
+      "reviewed_at": "2026-11-19",
+      "update_id": "research-20261119-2707-v1-transition",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    },
+    "developments": {
+      "text": "新發展按固定項目追蹤，區分已營運、籌備計畫、股權處分與營運權續約。5個開發中新館合計445間屬品牌版圖，不可全作合併營收增量。美國收購與西門續租為11月實質變動，其餘多屬歷史補齊，不能都列近期重大公告。各項用途、客戶、進度、商用時間及貢獻見固定項目；未披露金額留缺。",
+      "period": "2025全年、2026H1及2026年1–9月；會議與公告各自標原日期",
+      "sources": [
+        "annual",
+        "h1",
+        "agm",
+        "meeting",
+        "events",
+        "q3"
+      ],
+      "projects": [
+        {
+          "project_id": "2707-regent-upgrade",
+          "name": "台北晶華客房、宴會與收益管理升級",
+          "type": "既有業務升級",
+          "uses_and_customers": "商務、會展及高端休閒旅客；宴會餐飲客戶",
+          "status": "年報稱客房／商務樓層裝修及5G宴飲空間升級陸續完成，推動房價桌價；AI與收益管理持續",
+          "commercial_timing": "2026年策略；非全新酒店",
+          "revenue_contribution": "未單列升級增量收入或回收期",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-beitou-wellspring",
+          "name": "北投晶泉丰旅營運爬坡",
+          "type": "既有業務擴張",
+          "uses_and_customers": "溫泉休閒客，94客房及6湯屋；簡報以100間表達",
+          "status": "2024/9開始營運、2025/4正式開幕，10月簡報列營運據點",
+          "commercial_timing": "已營運，非2026新開案",
+          "revenue_contribution": "年報稱有營收獲利貢獻，未單列；不以冬季住房率當全年",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-zhongshan-js",
+          "name": "捷絲旅台北中山館",
+          "type": "新據點",
+          "uses_and_customers": "台北中山條通商圈旅客，50房",
+          "status": "年報原計畫2026/6；10/14簡報已列目前營運據點",
+          "commercial_timing": "2026已營運，日級開幕依飯店官方另核",
+          "revenue_contribution": "未揭露獨立財報；不使用媒體首月獲利當長期財測",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-linkou-silks",
+          "name": "林口晶英",
+          "type": "品牌管理擴張",
+          "uses_and_customers": "178房；旅宿客及委託業主東森國際酒店",
+          "status": "10/14簡報列開發中，合約附註列籌備服務；不是自有旅館全部營收",
+          "commercial_timing": "2027為公司計畫，未確認實際開幕",
+          "revenue_contribution": "籌備期按進度服務收入，營運期服務費率／個案營收預估未揭露",
+          "sources": [
+            "meeting",
+            "agm",
+            "h1"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-linkou-js",
+          "name": "捷絲旅新北林口館",
+          "type": "品牌管理擴張",
+          "uses_and_customers": "63房；旅宿客及委託業主東森國際酒店",
+          "status": "10/14簡報列開發中，合約附註列籌備服務；不是自有旅館全部營收",
+          "commercial_timing": "2027為公司計畫，未確認實際開幕",
+          "revenue_contribution": "籌備期按進度服務收入，營運期服務費率／個案營收預估未揭露",
+          "sources": [
+            "meeting",
+            "agm",
+            "h1"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-osaka-js2",
+          "name": "捷絲旅大阪心齋橋二館",
+          "type": "品牌管理擴張",
+          "uses_and_customers": "55房；旅宿客及委託業主MINATO CREATE",
+          "status": "10/14簡報列開發中，合約附註列籌備服務；不是自有旅館全部營收",
+          "commercial_timing": "2027為公司計畫，未確認實際開幕",
+          "revenue_contribution": "籌備期按進度服務收入，營運期服務費率／個案營收預估未揭露",
+          "sources": [
+            "meeting",
+            "h1"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-toucheng-wellspring",
+          "name": "頭城晶泉丰旅",
+          "type": "品牌管理擴張",
+          "uses_and_customers": "67房；旅宿客及委託業主東森海洋溫泉酒店",
+          "status": "10/14簡報列開發中，合約附註列籌備服務；不是自有旅館全部營收",
+          "commercial_timing": "2028為公司計畫，未確認實際開幕",
+          "revenue_contribution": "籌備期按進度服務收入，營運期服務費率／個案營收預估未揭露",
+          "sources": [
+            "meeting",
+            "h1"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-kenting-js",
+          "name": "捷絲旅墾丁白沙灣館",
+          "type": "品牌管理擴張",
+          "uses_and_customers": "82房；旅宿客及委託業主宏茂國際開發",
+          "status": "10/14簡報列開發中，合約附註列籌備服務；不是自有旅館全部營收",
+          "commercial_timing": "2028為公司計畫，未確認實際開幕",
+          "revenue_contribution": "籌備期按進度服務收入，營運期服務費率／個案營收預估未揭露",
+          "sources": [
+            "meeting",
+            "h1"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-jasper-management",
+          "name": "信義傑仕堡物業服務",
+          "type": "管理服務",
+          "uses_and_customers": "酒店式公寓住戶及物業委託方",
+          "status": "2024回歸管理，10/14簡報確認與新光人壽合作服務",
+          "commercial_timing": "已提供服務，非買入住宅資產",
+          "revenue_contribution": "未單列個案收入；公寓管理業務不可等同住戶租金全額",
+          "sources": [
+            "meeting"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-taimao-management",
+          "name": "台茂商場經營管理顧問投資",
+          "type": "策略投資",
+          "uses_and_customers": "商場經營管理，委託業主與商場客群",
+          "status": "子公司晶華公寓於2026Q1取得49%，股權移轉已完成；採權益法",
+          "commercial_timing": "2026Q1完成投資",
+          "revenue_contribution": "取得成本3,920仟元，非營業收入；個案後續營收預估未揭露",
+          "sources": [
+            "q3"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-rhw-share-sale",
+          "name": "RHW股權分階段轉讓IHG",
+          "type": "股權處分",
+          "uses_and_customers": "Regent海外品牌商標及授權業務；交易對手IHG",
+          "status": "原49%；已轉讓13%後持36%，計畫共轉25%，第二階段尚未確認完成",
+          "commercial_timing": "第一階段2026/3；第二階段預計2027/1/31前",
+          "revenue_contribution": "已認列處分利益327,890仟元與收款633,233仟元；非可重複旅館收入，第二階段利益未估",
+          "sources": [
+            "h1",
+            "q3"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-mark-hopkins",
+          "name": "舊金山Mark Hopkins旅館投資",
+          "type": "海外資產布局",
+          "uses_and_customers": "擬取得旅館土地建物，由台灣子公司再投資美國孫公司；賣方Leadwell Global Property LLC",
+          "status": "11/9董事會授權，11/10收購上限由誤植10.16億更正為9.95億；台灣子公司投資仍10.16億",
+          "commercial_timing": "條件洽定與交割未確認，營運納入日期未披露",
+          "revenue_contribution": "授權上限不是已付現金；估價美金4,600萬非成交價；收益與融資明細未揭露",
+          "sources": [
+            "events"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-ximen-renewal",
+          "name": "捷絲旅台北西門館續租",
+          "type": "既有營運延續",
+          "uses_and_customers": "西門町143房旅宿；出租人萬華企業",
+          "status": "11/9董事會授權續談，使用權資產上限4.2億元；最終條款未定",
+          "commercial_timing": "舊合約至2027/4/19；續租條件待協商",
+          "revenue_contribution": "不是新增旅館或4.2億營收；實際租賃金額、期間及後續影響未確定",
+          "sources": [
+            "events",
+            "h1"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-regent-land-right",
+          "name": "台北晶華地上權續約",
+          "type": "營運權延續",
+          "uses_and_customers": "台北晶華既有飯店營運與台北市政府契約",
+          "status": "6/16主席說明期滿享優先議約權，積極爭取續約，未披露已簽新約；Q3附註載1984年設定登記起25年、可延25年且合計不超過50年，期滿房屋固定設備無條件歸台北市政府。",
+          "commercial_timing": "未確認新續約生效時間",
+          "revenue_contribution": "未揭露新增權利金或營收影響；優先議約不是保證續約",
+          "sources": [
+            "agm",
+            "q3"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        },
+        {
+          "project_id": "2707-culinary-platform",
+          "name": "館外餐飲、甜點零售與跨館交流",
+          "type": "產品及通路延伸",
+          "uses_and_customers": "企業品牌活動外燴、一般餐飲與冷凍宅配消費者",
+          "status": "10/14簡報列香奈兒／Hermes活動、BLANCA快閃與冷凍配送、名廚合作及Regent餐飲交流；照片活動不是長期保證訂單",
+          "commercial_timing": "2026已推出活動與商品；11月交流為簡報當時計畫，未逐項確認當日完成",
+          "revenue_contribution": "未揭露各商品或活動營收，無法估算整體貢獻",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": "未揭露個案金額者不估算；計畫時間不等於實際完成。"
+        }
+      ],
+      "reviewed_at": "2026-11-19",
+      "update_id": "research-20261119-2707-v1-developments",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    },
+    "reviewed_material_events": [
+      {
+        "event_date": "2026-11-10",
+        "event": "Mark Hopkins投資與金額更正",
+        "affected_sections": [
+          "transition",
+          "developments"
+        ],
+        "reason": "海外資產布局及資金使用實質變動",
+        "project_id": "2707-mark-hopkins"
+      },
+      {
+        "event_date": "2026-11-09",
+        "event": "西門館續租協商",
+        "affected_sections": [
+          "transition",
+          "developments"
+        ],
+        "reason": "既有據點營運延續與租賃承諾",
+        "project_id": "2707-ximen-renewal"
+      }
+    ]
   }
 }
