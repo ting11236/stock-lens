@@ -1,6 +1,6 @@
 {
   "announcement_policy": "research-impact-v1",
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "companies": {
     "1101.TW": {
       "next_conference": {
@@ -181,18 +181,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1304.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加群益金鼎證券舉辦之法人說明會： (1)115年第3季主要產品市場回顧及展望 (2)115年第3季公司財務資訊",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "實體暨線上法說會：台北市民生東路三段156號15F會議室",
-        "name": "台聚",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1304.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -218,34 +207,12 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1308.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加群益金鼎證券舉辦之法人說明會。 法說會內容:(1)公司簡介及產品介紹 (2)115年第3季營運概況及展望 (3)115年第3季財務資訊",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "實體暨線上法說會:台北市民生東路三段156號15樓會議室",
-        "name": "亞聚",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1308.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "1309.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加群益金鼎證券舉辦之法人說明會： (1)115年第3季主要產品市場回顧及展望 (2)115年第3季公司財務資訊",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北市民生東路三段156號15樓會議室",
-        "name": "台達化",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1309.TW",
-        "time": "15:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -260,18 +227,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1313.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加凱基證券舉辦之法人說明會，說明公司營運概況及展望。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "Webex 線上會議",
-        "name": "聯成",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1313.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -377,18 +333,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1413.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加福邦證券舉辦之法人說明會",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "福邦證券股份有限公司會議室(台北市忠孝西路一段6號14樓)",
-        "name": "宏洲",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1413.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -552,18 +497,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1452.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀康和綜合證券舉辦之法人說明會",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北市大同區塔城街66號6樓",
-        "name": "宏益",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1452.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -588,18 +522,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1457.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加福邦證券舉辦之法人說明會",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "福邦證券股份有限公司會議室(台北市忠孝西路一段6號14樓)",
-        "name": "宜進",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1457.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -659,18 +582,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1473.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "報告公司簡介及115年第三季營運狀況",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法人說明會",
-        "name": "台南",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1473.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -742,18 +654,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1514.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加元大證券舉辦之線上法說會，報告本公司營運狀況。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法人說明會",
-        "name": "亞力",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1514.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -932,15 +833,15 @@
     "1590.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加華南永昌綜合證券舉辦之法人說明會「產業趨勢暨企業論壇」，說明本公司2026年第3季營運狀況。",
-        "end_date": "2026-11-20",
+        "date": "2026-11-24",
+        "description": "本公司受邀參加花旗環球證券舉辦之法人說明會「Citi’s 2026 Taiwan Corporate Day」，說明本公司2026年第3季營運狀況。",
+        "end_date": "2026-11-24",
         "kind": "法說會",
-        "location": "台北晶華酒店",
+        "location": "台北W飯店",
         "name": "亞德客-KY",
         "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "1590.TW",
-        "time": "15:20"
+        "time": "09:00"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -1182,18 +1083,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1773.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加華南永昌綜合證券舉辦之法人說明會「產業趨勢暨企業論壇」，說明本公司2026年第3季營運狀況。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北晶華酒店4F",
-        "name": "勝一",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "1773.TW",
-        "time": "14:20"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1308,18 +1198,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2009.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "公開說明115年第三季營運狀況",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "高雄市小港區沿海一路479號(本公司臨海工廠2樓會議室)",
-        "name": "第一銅",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2009.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1530,18 +1409,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2207.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "說明本公司2026年Q3營運成果及未來展望",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北市中山區建國北路一段 96 號 B1",
-        "name": "和泰車",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2207.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -1880,18 +1748,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2354.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加華南永昌證券2026年冬季產業趨勢暨企業論壇，說明本公司營運概況。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "晶華國際酒店(臺北市中山北路二段39巷3號4樓)",
-        "name": "鴻準",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2354.TW",
-        "time": "13:20"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2769,18 +2626,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2606.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加華南永昌證券2027冬季產業趨勢暨企業論壇",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北晶華國際酒店4樓(台北市中山北路二段39巷3號4樓)",
-        "name": "裕民",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2606.TW",
-        "time": "13:20"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2815,18 +2661,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2613.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加富邦證券舉辦之線上法人說明會，說明115年第三季營運概況",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法人說明會",
-        "name": "中櫃",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2613.TW",
-        "time": "15:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2841,18 +2676,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2616.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "受邀參加福邦證券舉辦法人說明會，就本公司已公開之財務業務資訊作說明。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北市忠孝西路一段6號7樓(福邦證券股份有限公司)",
-        "name": "山隆",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2616.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2980,18 +2804,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2723.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加富邦證券舉辦之法人說明會",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北市仁愛路四段169號",
-        "name": "美食-KY",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2723.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3226,18 +3039,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2884.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-18",
-        "description": "2026年第3季財業務資訊",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "新加坡",
-        "name": "玉山金",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "2884.TW",
-        "time": "16:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3763,18 +3565,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3054.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "受元大證券邀請參加產業座談會",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "立萬利",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "3054.TW",
-        "time": "15:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3880,7 +3671,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3189.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-24",
+        "description": "向法人說明產業狀況與本公司經營績效",
+        "end_date": "2026-11-24",
+        "kind": "法說會",
+        "location": "台北市 W-Hotel",
+        "name": "景碩",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3189.TW",
+        "time": "09:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4197,18 +3999,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3596.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加由華南永昌證券所舉辦之「2026第四季投資論壇」，說明本公司營運及財務概況。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北晶華酒店(台北市中山區中山北路二段39巷3號)",
-        "name": "智易",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "3596.TW",
-        "time": "14:20"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4701,18 +4492,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4766.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加由凱基證券舉辦之線上法說會，說明本公司115年第3季之營運成果與展望。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "南寶",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "4766.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4722,7 +4502,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4771.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-23",
+        "description": "本公司受邀參加凱基證券舉辦之法人說明會，說明公司營運概況。",
+        "end_date": "2026-11-23",
+        "kind": "法說會",
+        "location": "凱基證券大直大樓(台北市中山區明水路700號)",
+        "name": "望隼",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "4771.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5057,18 +4848,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "5533.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "公司簡介與營運狀況說明",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "新北市汐止區大同路一段一五二號一樓（富信大飯店）",
-        "name": "皇鼎",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "5533.TW",
-        "time": "13:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5108,18 +4888,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "5876.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加華南永昌證券舉辦之線上法人說明會，說明2026年第三季營運概況。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "上海商銀",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "5876.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5139,18 +4908,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6005.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司115年第三季財務業務相關資訊說明",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法人說明會",
-        "name": "群益證",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "6005.TW",
-        "time": "14:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -5320,33 +5078,22 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6209.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加中國信託證券舉辦之法人說明會，說明本公司之營運及財務、業務概況。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "中信金融園區B棟1302會議室(北市南港區經貿二路188號13樓 )",
-        "name": "今國光",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "6209.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
     "6213.TW": {
       "next_conference": {
         "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司將於2026/11/20參加永豐金舉辦之\"線上座談會\"，就本公司已公布之經營績效等相關資訊做說明。",
-        "end_date": "2026-11-20",
+        "date": "2026-11-23",
+        "description": "本公司將於2026/11/23參加花旗舉辦之\"台灣企業日\"，就本公司已公布之經營績效等相關資訊做說明。",
+        "end_date": "2026-11-23",
         "kind": "法說會",
-        "location": "線上座談",
+        "location": "台北W Hotel(台北市信義區忠孝東路五段10號)",
         "name": "聯茂",
         "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
         "symbol": "6213.TW",
-        "time": "11:00"
+        "time": "13:00"
       },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
@@ -6197,18 +5944,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "6937.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加華南永昌綜合證券舉辦「產業趨勢暨企業論壇」之法人說明會。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北晶華酒店:台北市中山北路二段39巷3號4樓",
-        "name": "天虹",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "6937.TW",
-        "time": "15:20"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6437,18 +6173,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "7799.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "本公司受邀參加永豐金證券舉辦之法人說明會，會中就公司業務狀況等說明。",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "台北市重慶南路一段2號(台開大樓22樓會議中心)",
-        "name": "禾榮科",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "7799.TW",
-        "time": "14:30"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6922,18 +6647,7 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "9904.TW": {
-      "next_conference": {
-        "cancelled": false,
-        "date": "2026-11-20",
-        "description": "應邀參加元大證券舉辦之法人說明會，介紹本公司及說明115年第三季營運績效",
-        "end_date": "2026-11-20",
-        "kind": "法說會",
-        "location": "線上法說會",
-        "name": "寶成",
-        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
-        "symbol": "9904.TW",
-        "time": "16:00"
-      },
+      "next_conference": null,
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -29672,6 +29386,18 @@
     {
       "cancelled": false,
       "date": "2026-11-23",
+      "description": "本公司受邀參加凱基證券舉辦之法人說明會，說明公司營運概況。",
+      "end_date": "2026-11-23",
+      "kind": "法說會",
+      "location": "凱基證券大直大樓(台北市中山區明水路700號)",
+      "name": "望隼",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "4771.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-23",
       "description": "本公司受邀參加花旗證券舉辦之「Citi's 2026 Taiwan Corporate Day」，說明PCB產業展望、公司營運績效相關資訊。",
       "end_date": "2026-11-24",
       "kind": "法說會",
@@ -29932,6 +29658,30 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "3037.TW",
       "time": "10:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-24",
+      "description": "向法人說明產業狀況與本公司經營績效",
+      "end_date": "2026-11-24",
+      "kind": "法說會",
+      "location": "台北市 W-Hotel",
+      "name": "景碩",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3189.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-24",
+      "description": "向法人說明產業狀況與本公司經營績效",
+      "end_date": "2026-11-24",
+      "kind": "法說會",
+      "location": "台北市 喜來登飯店",
+      "name": "景碩",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3189.TW",
+      "time": "15:30"
     },
     {
       "cancelled": false,
@@ -42013,37 +41763,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-21",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-21",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-21",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-21",
       "name": "2027-01 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=116&month=01"
     },
     {
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-21",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-21",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -72641,7 +72391,457 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9941.TW",
       "time": "13:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加群益金鼎證券舉辦之法人說明會： (1)115年第3季主要產品市場回顧及展望 (2)115年第3季公司財務資訊",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "實體暨線上法說會：台北市民生東路三段156號15F會議室",
+      "name": "台聚",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1304.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加群益金鼎證券舉辦之法人說明會。 法說會內容:(1)公司簡介及產品介紹 (2)115年第3季營運概況及展望 (3)115年第3季財務資訊",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "實體暨線上法說會:台北市民生東路三段156號15樓會議室",
+      "name": "亞聚",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1308.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加群益金鼎證券舉辦之法人說明會： (1)115年第3季主要產品市場回顧及展望 (2)115年第3季公司財務資訊",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北市民生東路三段156號15樓會議室",
+      "name": "台達化",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1309.TW",
+      "time": "15:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加凱基證券舉辦之法人說明會，說明公司營運概況及展望。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "Webex 線上會議",
+      "name": "聯成",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1313.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加福邦證券舉辦之法人說明會",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "福邦證券股份有限公司會議室(台北市忠孝西路一段6號14樓)",
+      "name": "宏洲",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1413.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀康和綜合證券舉辦之法人說明會",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北市大同區塔城街66號6樓",
+      "name": "宏益",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1452.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加福邦證券舉辦之法人說明會",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "福邦證券股份有限公司會議室(台北市忠孝西路一段6號14樓)",
+      "name": "宜進",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1457.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "報告公司簡介及115年第三季營運狀況",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "台南",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1473.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加元大證券舉辦之線上法說會，報告本公司營運狀況。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "亞力",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1514.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加華南永昌綜合證券舉辦之法人說明會「產業趨勢暨企業論壇」，說明本公司2026年第3季營運狀況。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北晶華酒店",
+      "name": "亞德客-KY",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1590.TW",
+      "time": "15:20"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加華南永昌綜合證券舉辦之法人說明會「產業趨勢暨企業論壇」，說明本公司2026年第3季營運狀況。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北晶華酒店4F",
+      "name": "勝一",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "1773.TW",
+      "time": "14:20"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "公開說明115年第三季營運狀況",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "高雄市小港區沿海一路479號(本公司臨海工廠2樓會議室)",
+      "name": "第一銅",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2009.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "說明本公司2026年Q3營運成果及未來展望",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北市中山區建國北路一段 96 號 B1",
+      "name": "和泰車",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2207.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加華南永昌證券2026年冬季產業趨勢暨企業論壇，說明本公司營運概況。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "晶華國際酒店(臺北市中山北路二段39巷3號4樓)",
+      "name": "鴻準",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2354.TW",
+      "time": "13:20"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加華南永昌證券2027冬季產業趨勢暨企業論壇",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北晶華國際酒店4樓(台北市中山北路二段39巷3號4樓)",
+      "name": "裕民",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2606.TW",
+      "time": "13:20"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加富邦證券舉辦之線上法人說明會，說明115年第三季營運概況",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "中櫃",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2613.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "受邀參加福邦證券舉辦法人說明會，就本公司已公開之財務業務資訊作說明。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北市忠孝西路一段6號7樓(福邦證券股份有限公司)",
+      "name": "山隆",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2616.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加富邦證券舉辦之法人說明會",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北市仁愛路四段169號",
+      "name": "美食-KY",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2723.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-18",
+      "description": "2026年第3季財業務資訊",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "新加坡",
+      "name": "玉山金",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2884.TW",
+      "time": "16:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "受元大證券邀請參加產業座談會",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "立萬利",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3054.TW",
+      "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加由華南永昌證券所舉辦之「2026第四季投資論壇」，說明本公司營運及財務概況。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北晶華酒店(台北市中山區中山北路二段39巷3號)",
+      "name": "智易",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "3596.TW",
+      "time": "14:20"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加由凱基證券舉辦之線上法說會，說明本公司115年第3季之營運成果與展望。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "南寶",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "4766.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "公司簡介與營運狀況說明",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "新北市汐止區大同路一段一五二號一樓（富信大飯店）",
+      "name": "皇鼎",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5533.TW",
+      "time": "13:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加華南永昌證券舉辦之線上法人說明會，說明2026年第三季營運概況。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "上海商銀",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "5876.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司115年第三季財務業務相關資訊說明",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法人說明會",
+      "name": "群益證",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6005.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加中國信託證券舉辦之法人說明會，說明本公司之營運及財務、業務概況。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "中信金融園區B棟1302會議室(北市南港區經貿二路188號13樓 )",
+      "name": "今國光",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6209.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司將於2026/11/20參加永豐金舉辦之\"線上座談會\"，就本公司已公布之經營績效等相關資訊做說明。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上座談",
+      "name": "聯茂",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6213.TW",
+      "time": "11:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加華南永昌綜合證券舉辦「產業趨勢暨企業論壇」之法人說明會。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北晶華酒店:台北市中山北路二段39巷3號4樓",
+      "name": "天虹",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6937.TW",
+      "time": "15:20"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "本公司受邀參加永豐金證券舉辦之法人說明會，會中就公司業務狀況等說明。",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "台北市重慶南路一段2號(台開大樓22樓會議中心)",
+      "name": "禾榮科",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "7799.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-20",
+      "description": "應邀參加元大證券舉辦之法人說明會，介紹本公司及說明115年第三季營運績效",
+      "due_date": "2026-11-21",
+      "end_date": "2026-11-20",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "寶成",
+      "reason": "法說會結束後，補讀簡報／議事資料並更新摘要",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "9904.TW",
+      "time": "16:00"
     }
   ],
-  "updated_at": "2026-11-20T18:18:17+08:00"
+  "updated_at": "2026-11-21T02:39:11+08:00"
 }
