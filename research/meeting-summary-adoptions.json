@@ -195,6 +195,25 @@
       "publication_commit": "ad8f82a0365826c6c2b819f0c75e69b2bb7cbd64",
       "workflow_run_id": 41623439348,
       "verified_at": "2026-11-03T18:59:05.441105+08:00"
+    },
+    {
+      "symbol": "2451.TW",
+      "name": "創見",
+      "kind": "法說會",
+      "meeting_date": "2026-11-06",
+      "summary_updated_at": "2026-11-20",
+      "batch_id": "research-20261120-2451-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "533b540a43b3274b1e9807a680b5e92c59bcbded",
+      "workflow_run_id": 44715037633,
+      "verified_at": "2026-11-20T10:00:27.055Z",
+      "original_qa_verified": false,
+      "limitations": [
+        "法說簡報25頁含圖表已讀；Q&A僅標題，未取得官方文字回答。"
+      ]
     }
   ]
 }
