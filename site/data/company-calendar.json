@@ -1,6 +1,6 @@
 {
   "announcement_policy": "research-impact-v1",
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "companies": {
     "1101.TW": {
       "next_conference": {
@@ -6840,594 +6840,6 @@
   },
   "errors": [],
   "events": [
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "台苯",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1310.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "中興電",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1513.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "伸興",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1558.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "岱宇",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1598.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "合機",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1618.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "寶齡富錦",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "1760.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "新光鋼",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2031.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "宏旭-KY",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2243.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "金寶",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2312.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "友訊",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2332.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "凱美",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2375.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "建準",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2421.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "光群雷",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2461.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "一詮",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2486.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "根基",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2546.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "雄獅",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2731.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "世界健身-KY",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2762.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "中再保",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "2851.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "神基",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3005.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "威強電",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3022.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "禾伸堂",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3026.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "智原",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3035.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "勝德",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3296.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "晶相光",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3530.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "牧德",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3563.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "洋華",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "3622.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "國精化",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "4722.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "康普",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "4739.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "望隼",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "4771.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "正文",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "4906.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "嘉彰",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "4942.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "有成精密",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "4949.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "順天",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "5525.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "盛群",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6202.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "同欣電",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6271.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "宏正",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6277.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "全國電",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6281.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "緯穎",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6669.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "台新藥",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6838.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "宏碁遊戲-創",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6908.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "中台",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "6923.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "皇家可口",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "7791.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "台通",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "8011.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "矽創",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "8016.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "菱光",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "8249.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "羅昇",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "8374.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "秋雨",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "9929.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "中鼎",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "9933.TW",
-      "time": ""
-    },
-    {
-      "cancelled": false,
-      "date": "2026-05-25",
-      "description": "已公告股東會日期",
-      "end_date": "2026-05-25",
-      "kind": "股東常會",
-      "location": "",
-      "name": "世紀鋼",
-      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
-      "symbol": "9958.TW",
-      "time": ""
-    },
     {
       "cancelled": false,
       "date": "2026-05-26",
@@ -35725,8 +35137,8 @@
     },
     "2885.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-22",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -35775,8 +35187,8 @@
     },
     "2891.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-22",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -41763,37 +41175,37 @@
   "schema_version": 1,
   "sources": [
     {
-      "checked_at": "2026-11-21",
+      "checked_at": "2026-11-22",
       "name": "2026-10 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=10"
     },
     {
-      "checked_at": "2026-11-21",
+      "checked_at": "2026-11-22",
       "name": "2026-11 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11"
     },
     {
-      "checked_at": "2026-11-21",
+      "checked_at": "2026-11-22",
       "name": "2026-12 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12"
     },
     {
-      "checked_at": "2026-11-21",
+      "checked_at": "2026-11-22",
       "name": "2027-01 法說會",
       "status": "ok",
       "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=116&month=01"
     },
     {
-      "checked_at": "2026-11-21",
+      "checked_at": "2026-11-22",
       "name": "股東會",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L"
     },
     {
-      "checked_at": "2026-11-21",
+      "checked_at": "2026-11-22",
       "name": "重大訊息",
       "status": "ok",
       "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
@@ -72841,7 +72253,29 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "9904.TW",
       "time": "16:00"
+    },
+    {
+      "date": "2026-11-22",
+      "due_date": "2026-11-22",
+      "kind": "財報",
+      "name": "元大金",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2885.TW"
+    },
+    {
+      "date": "2026-11-22",
+      "due_date": "2026-11-22",
+      "kind": "財報",
+      "name": "中信金",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2891.TW"
     }
   ],
-  "updated_at": "2026-11-21T02:39:11+08:00"
+  "updated_at": "2026-11-22T01:37:02+08:00"
 }

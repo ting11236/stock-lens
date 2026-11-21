@@ -12,8 +12,8 @@
       "retained_statement_companies": 1053
     },
     "eps": {
-      "received_companies": 1076,
-      "retained_statement_companies": 1076
+      "received_companies": 1078,
+      "retained_statement_companies": 1078
     },
     "income": {
       "received_companies": 1053,
@@ -24,6 +24,6 @@
       "retained_statement_companies": 1058
     }
   },
-  "since": "2026-11-20T09:57:25+00:00",
+  "since": "2026-11-21T17:36:23+00:00",
   "state": "ok"
 }
