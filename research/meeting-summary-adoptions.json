@@ -214,6 +214,23 @@
       "limitations": [
         "法說簡報25頁含圖表已讀；Q&A僅標題，未取得官方文字回答。"
       ]
+    },
+    {
+      "symbol": "5306.TW",
+      "name": "桂盟",
+      "kind": "股東會",
+      "meeting_name": "股東臨時會：策略私募及原始問答",
+      "meeting_date": "2026-11-05",
+      "summary_updated_at": "2026-11-23",
+      "batch_id": "research-20261123-5306-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "a823567c60a79a4773f2762a64cc54acd0193ece",
+      "workflow_run_id": 45170877223,
+      "verified_at": "2026-11-23T12:09:54.044Z",
+      "original_qa_verified": true
     }
   ]
 }
