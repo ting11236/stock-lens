@@ -1,0 +1,1262 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261123-5306-v1",
+    "ready": true,
+    "created_at": "2026-11-23T20:00:53.534229+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:1f1189491f061f78f77af3ae234abdccb07b7fe887149ae977ac9e931a02005b",
+    "work_type": "backfill",
+    "origin_date": "2026-11-23",
+    "completion_unit": "整家公司公開資料查找完成附缺漏",
+    "new_meeting": true,
+    "historical_meeting_dates": [
+      "2026-05-29",
+      "2026-09-10",
+      "2026-11-05"
+    ],
+    "meeting_QA_verified": false,
+    "AGM_original_QA_read": true,
+    "EGM_original_QA_read": true,
+    "meeting_publication_rules": {
+      "recent_summary_event_date": "2026-11-05",
+      "meeting_name": "股東臨時會：策略私募及原始問答",
+      "older_meetings_not_relabelled_recent": true,
+      "meeting_QA_not_available_disclosed": true
+    },
+    "material_events": [
+      {
+        "event_id": "5306-20261117-shimano-placement",
+        "company_code": "5306",
+        "work_type": "change_update",
+        "event_date": "2026-11-17",
+        "project_id": "5306-shimano-placement",
+        "affected_sections": [
+          "earnings",
+          "transition",
+          "developments"
+        ],
+        "reason": "策略投資人引進與募資條件為可查實質變動",
+        "source": "placement",
+        "status": "researched_not_funded_as_of_cutoff",
+        "delivery_batch_id": "research-20261123-5306-v1",
+        "counts_as_additional_company": false
+      }
+    ],
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "financial_periods_labeled": true,
+      "old_project_ids_preserved": true,
+      "official_meeting_index_verified": true
+    },
+    "limitations": [
+      "具名終端客戶、單案訂單金額及產品毛利未揭露；不因Shimano入股推定全部訂單、獨家供應或控制權移轉。",
+      "私募11/17定價；截至11/23固定截止尚未進入11/25–12/1繳款期，12/2為預定增資基準日，非已收款或完成發股。",
+      "5/29及11/5議事錄是公司整理的原始問答要領，非逐字稿；法說影音不查找，未取得可核對之完整官方文字問答稿。",
+      "Q3財報彙總為單一營運部門；產品營收占比不能冒充產品獲利占比。財務取得與比率計算交網站處理。",
+      "未取得單案資本支出、量產產能、完整驗收日、新產品獨立營收與當期具名法人預估者標示未揭露，不由總營收推算。",
+      "9/10論壇日期與簡報檔名8/17不同：官方9月列表明確連到530620260817M001.pdf，29頁全文及所有主要圖表已核讀，未把沿用簡報另算兩場新研究。",
+      "集團基地／據點、現金簡表及淨利橋均限公司簡報口徑；Q3正式財報期間較新，且合併總淨利與歸母分開。"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-5306-v1-business",
+      "task_id": "daily-backfill-20261123-5306",
+      "company_code": "5306",
+      "company_name": "桂盟",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "business",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d760c06b234615d46d6b487013ea19d093e6ecbaf0ee15b6b0ed5d7228b55e16",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "公司概述與產業鏈：桂盟國際以KMC鏈條品牌及精密金屬加工為核心，供自行車／電助力車傳動、機車鏈條與鏈輪、汽車引擎正時系統及車庫門開門機傳動零件；上游為鋼帶、鋼線、扁絲與羅拉等，中游涵蓋沖壓、熱處理、鍍膜及組立，下游為整車廠、零組件系統廠及補修通路。不是單純自行車整車廠。[annual,PDF64–76]\n產品與客戶：自行車鏈條對應公路、登山、BMX、通勤及e-bike，高負載電助力用途需耐磨及系統相容；機車鏈條／鏈輪供動力與引擎正時，汽車業務主要服務中國車廠，車庫門零件主要面向北美與歐洲。年報未列可辨識的十大銷貨客戶名稱與金額，不把股東或合作對象直接補成已確認大客戶。[annual;agm,PDF5–6]\n市場與收入：2025產品收入組合為自行車傳動72.5%、機車4.6%、汽車正時13.4%、車庫門8.2%、其他1.25%；為原表四捨五入數值。地區收入亞洲47.78%、歐洲27.47%、美洲24.75%，不得套作2026最新比重。公司自述自行車組車鏈條全球第一、汽車正時中國前三等屬公司定位，未取得一致定義的獨立全球市占驗證。[annual,PDF68,75]\n相似同業（研究推論）：9914美利達、9921巨大同屬自行車及零配件產業，可比較歐美需求、電助力車與通路去庫存週期；兩者整車及品牌業務比重與桂盟鏈條／補修及非自行車業務不同，不能直接套同一毛利率，也未由此確認兩者是桂盟具名客戶。[peer9914,peer9921]\n較新簡報口徑：9/10論壇沿用8/17上傳的2Q26簡報，列集團11座生產基地、13個服務據點（年報較早為10與7），口徑／時點不同，不當作已確認新增產能。1H26自行車74.9%、機車4.2%、汽車正時11.7%、車庫門7.4%、其他1.8%；屬半年度收入組合。自行車零件業務圖的補修占26.3%、歐美占39.5%、非自行車鏈占3.8%均限該頁自行車零件口徑，不套全公司。[meeting,PDF8,19,22]",
+        "period": "2025全年、2026上半年／前三季；5/29、9/10、11/5會議及11/17私募各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "egm",
+          "placement",
+          "meeting-index",
+          "meeting",
+          "peer9914",
+          "peer9921"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.kmc-international.com/userfiles/2025_5306_20260529.pdf",
+          "title": "2025年度年報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/annual.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            5,
+            6,
+            7,
+            8,
+            68,
+            69,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            90,
+            91,
+            92
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=5306&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/10核閱報告",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/q3.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            27,
+            30,
+            31,
+            32,
+            47,
+            48,
+            49
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20260529F05.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/agm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "source_id": "egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20261105F05.pdf",
+          "title": "2026/11/5股東臨時會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/egm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source_id": "placement",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "11/17私募普通股定價公告，原文留存",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": "2026-11-17",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/placement.json"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=5306",
+          "title": "9/10凱基論壇官方列表，沿用8/17簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting-index.html",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日"
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/530620260817M001.pdf",
+          "title": "9/10論壇沿用2026年第二季法說簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "visual_pages_checked": [
+            8,
+            10,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "source_id": "peer9914",
+          "url": "https://www.twse.com.tw/pdf/ch/9914_ch.pdf",
+          "title": "美利達公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9914-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer9921",
+          "url": "https://www.twse.com.tw/pdf/ch/9921_ch.pdf",
+          "title": "巨大公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9921-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-23T20:00:53.534229+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "具名終端客戶、單案訂單金額及產品毛利未揭露；不因Shimano入股推定全部訂單、獨家供應或控制權移轉。",
+        "私募11/17定價；截至11/23固定截止尚未進入11/25–12/1繳款期，12/2為預定增資基準日，非已收款或完成發股。",
+        "5/29及11/5議事錄是公司整理的原始問答要領，非逐字稿；法說影音不查找，未取得可核對之完整官方文字問答稿。",
+        "Q3財報彙總為單一營運部門；產品營收占比不能冒充產品獲利占比。財務取得與比率計算交網站處理。",
+        "未取得單案資本支出、量產產能、完整驗收日、新產品獨立營收與當期具名法人預估者標示未揭露，不由總營收推算。",
+        "9/10論壇日期與簡報檔名8/17不同：官方9月列表明確連到530620260817M001.pdf，29頁全文及所有主要圖表已核讀，未把沿用簡報另算兩場新研究。",
+        "集團基地／據點、現金簡表及淨利橋均限公司簡報口徑；Q3正式財報期間較新，且合併總淨利與歸母分開。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-5306-v1-earnings",
+      "task_id": "daily-backfill-20261123-5306",
+      "company_code": "5306",
+      "company_name": "桂盟",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "earnings",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d760c06b234615d46d6b487013ea19d093e6ecbaf0ee15b6b0ed5d7228b55e16",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "獲利來源：主要來自傳動零件銷售，差異化材料、精密製程、品牌與自有海外銷售體系為公司維持毛利的說明；售後市場及高階產品組合是經營方向，不等於單案保證獲利。Q3財報採單一營運部門，無各產品獲利拆分。[annual;agm;q3,PDF31,48–49]\n最新財報口徑：2026年前三季合併收入4,116,230仟元、營業淨利891,868仟元、歸母淨利705,804仟元、基本EPS5.60元；第三季單季分別1,339,163仟元、260,519仟元、208,741仟元及1.66元。5.60元為累計，不能寫成單季EPS。第三季預期信用減損29,821仟元，相較去年同期402仟元，須注意收款品質；未揭露特定客戶原因，不自行歸因。[q3,PDF6–7]\n同期差異：前三季收入與營業淨利高於去年同期，但歸母淨利低於789,701仟元。去年同期業外含處分投資性不動產利益237,901仟元，今年該項為零，非本業營收或穩定年金；匯兌及其他收益也影響可比性。附註22搬遷說明與附註28分類文字有不一致，損益分類依正式損益表／附註28／現金流表交叉核對為業外投資性不動產處分利益。[q3,PDF9,27,32]\n資金與風險：9月底現金及約當現金1,930,489仟元；按攤銷後成本金融資產流動1,882,801仟元、非流動2,041,640仟元分列，不把三者全部叫現金。短借1,499,948仟元、長借600,000仟元、流動公司債998,144仟元，各自列示，不拿總負債充當有息債務。前三季營業淨現金流入673,659仟元，去年905,681仟元；應收帳款、存貨及預付款占用資金，資產負債表餘額與現金流變動口徑不可直接混算。購置廠房設備現金支出146,074仟元不是已驗收新產能。[q3,PDF5,9–10]\n太倉補償：南側義務完成且2025已認列處分利益；北側人民幣70,000仟元預收款在2026/9月底列其他流動負債332,360仟元，須合約義務履行後才認列利益。流動重分類或匯率折算不等於新增營收／已認列收益。[q3,PDF27,32]\n法說圖表核對：9/10沿用簡報的上半年營收橋由2,529,199至2,777,067仟元，自行車增加257,892、新事業22,483、機車17,464、車庫門426、汽車正時減少50,396仟元，僅為上半年同比。淨利橋572,506至497,030仟元是合併總淨利，非歸母；拆遷補償影響-178,427為橋圖淨利層級，不能和財報稅前處分利益237,901直接等同。圖中營業利益+62,442、匯損減少+38,296及其他+2,213也是公司橋圖呈現，不當成最新Q3歸母數。第25頁將定存納入現金類簡表，非正式財報現金及約當現金定義；以正式Q3分類為準。第28頁毛利率折線為合併毛利率，非各事業部獲利率；1H26不是全年，不年化EPS3.94。[meeting,PDF20–28]",
+        "period": "2025全年、2026上半年／前三季；5/29、9/10、11/5會議及11/17私募各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "egm",
+          "placement",
+          "meeting-index",
+          "meeting",
+          "peer9914",
+          "peer9921"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.kmc-international.com/userfiles/2025_5306_20260529.pdf",
+          "title": "2025年度年報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/annual.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            5,
+            6,
+            7,
+            8,
+            68,
+            69,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            90,
+            91,
+            92
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=5306&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/10核閱報告",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/q3.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            27,
+            30,
+            31,
+            32,
+            47,
+            48,
+            49
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20260529F05.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/agm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "source_id": "egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20261105F05.pdf",
+          "title": "2026/11/5股東臨時會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/egm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source_id": "placement",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "11/17私募普通股定價公告，原文留存",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": "2026-11-17",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/placement.json"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=5306",
+          "title": "9/10凱基論壇官方列表，沿用8/17簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting-index.html",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日"
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/530620260817M001.pdf",
+          "title": "9/10論壇沿用2026年第二季法說簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "visual_pages_checked": [
+            8,
+            10,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "source_id": "peer9914",
+          "url": "https://www.twse.com.tw/pdf/ch/9914_ch.pdf",
+          "title": "美利達公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9914-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer9921",
+          "url": "https://www.twse.com.tw/pdf/ch/9921_ch.pdf",
+          "title": "巨大公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9921-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-23T20:00:53.534229+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "具名終端客戶、單案訂單金額及產品毛利未揭露；不因Shimano入股推定全部訂單、獨家供應或控制權移轉。",
+        "私募11/17定價；截至11/23固定截止尚未進入11/25–12/1繳款期，12/2為預定增資基準日，非已收款或完成發股。",
+        "5/29及11/5議事錄是公司整理的原始問答要領，非逐字稿；法說影音不查找，未取得可核對之完整官方文字問答稿。",
+        "Q3財報彙總為單一營運部門；產品營收占比不能冒充產品獲利占比。財務取得與比率計算交網站處理。",
+        "未取得單案資本支出、量產產能、完整驗收日、新產品獨立營收與當期具名法人預估者標示未揭露，不由總營收推算。",
+        "9/10論壇日期與簡報檔名8/17不同：官方9月列表明確連到530620260817M001.pdf，29頁全文及所有主要圖表已核讀，未把沿用簡報另算兩場新研究。",
+        "集團基地／據點、現金簡表及淨利橋均限公司簡報口徑；Q3正式財報期間較新，且合併總淨利與歸母分開。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-5306-v1-transition",
+      "task_id": "daily-backfill-20261123-5306",
+      "company_code": "5306",
+      "company_name": "桂盟",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d760c06b234615d46d6b487013ea19d093e6ecbaf0ee15b6b0ed5d7228b55e16",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "發展主軸：由鏈條延伸齒盤、飛輪與整體傳動套件，並擴展鋸鏈、特殊鏈、機車補修、汽車補修／新能源車零件與車庫門模組；屬既有技術及產品線深化，不包裝為每項全新事業。年報2025已推出TT Racing Chain、XFlat及預浸蠟技術；5/29問答表示鋸鏈／特殊鏈2025已正式量產，2026開始成長並推動越南布局，未揭露獨立營收及投產日期。[annual;agm]\n重大實質事件：11/5臨時股東會通過一次私募不超過450萬股，11/17董事會定每股100元、總額450,000仟元，認購人台灣禧瑪諾。用途為充實營運資金；具體合作受保密協議限制，合作備忘錄及公司所期待技術、品牌、通路整合效益不是確定收入。11/25–12/1繳款、12/2增資基準日皆為公告安排，截至11/23未完成。不從私募推論控制權改變或已獲某特定車款訂單。[egm;placement]\n展望按日期：5/29公司對中國、歐洲售後及北美輕型電助力車的回穩判斷為當時管理層看法。11/5問答預期2026Q4平穩並較去年同期成長、2027持續復甦及產品多元化／平均單價提升，屬未量化公司展望，非已實現，也沒有具名法人EPS共識。[agm,PDF5–6;egm,PDF4]\n追蹤條件：私募實收與新股交付、合作具體項目與訂單、補修／傳動套件銷售、北側搬遷義務及收益認列、信用減損與收款、原料／關稅／匯率及燃油車正時系統面臨新能源轉型風險。未具體揭露之客戶、產能及商用日如實標缺。[annual;q3;egm]",
+        "period": "2025全年、2026上半年／前三季；5/29、9/10、11/5會議及11/17私募各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "egm",
+          "placement",
+          "meeting-index",
+          "meeting",
+          "peer9914",
+          "peer9921"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.kmc-international.com/userfiles/2025_5306_20260529.pdf",
+          "title": "2025年度年報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/annual.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            5,
+            6,
+            7,
+            8,
+            68,
+            69,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            90,
+            91,
+            92
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=5306&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/10核閱報告",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/q3.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            27,
+            30,
+            31,
+            32,
+            47,
+            48,
+            49
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20260529F05.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/agm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "source_id": "egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20261105F05.pdf",
+          "title": "2026/11/5股東臨時會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/egm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source_id": "placement",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "11/17私募普通股定價公告，原文留存",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": "2026-11-17",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/placement.json"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=5306",
+          "title": "9/10凱基論壇官方列表，沿用8/17簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting-index.html",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日"
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/530620260817M001.pdf",
+          "title": "9/10論壇沿用2026年第二季法說簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "visual_pages_checked": [
+            8,
+            10,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "source_id": "peer9914",
+          "url": "https://www.twse.com.tw/pdf/ch/9914_ch.pdf",
+          "title": "美利達公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9914-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer9921",
+          "url": "https://www.twse.com.tw/pdf/ch/9921_ch.pdf",
+          "title": "巨大公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9921-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-23T20:00:53.534229+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "具名終端客戶、單案訂單金額及產品毛利未揭露；不因Shimano入股推定全部訂單、獨家供應或控制權移轉。",
+        "私募11/17定價；截至11/23固定截止尚未進入11/25–12/1繳款期，12/2為預定增資基準日，非已收款或完成發股。",
+        "5/29及11/5議事錄是公司整理的原始問答要領，非逐字稿；法說影音不查找，未取得可核對之完整官方文字問答稿。",
+        "Q3財報彙總為單一營運部門；產品營收占比不能冒充產品獲利占比。財務取得與比率計算交網站處理。",
+        "未取得單案資本支出、量產產能、完整驗收日、新產品獨立營收與當期具名法人預估者標示未揭露，不由總營收推算。",
+        "9/10論壇日期與簡報檔名8/17不同：官方9月列表明確連到530620260817M001.pdf，29頁全文及所有主要圖表已核讀，未把沿用簡報另算兩場新研究。",
+        "集團基地／據點、現金簡表及淨利橋均限公司簡報口徑；Q3正式財報期間較新，且合併總淨利與歸母分開。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-5306-v1-developments",
+      "task_id": "daily-backfill-20261123-5306",
+      "company_code": "5306",
+      "company_name": "桂盟",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d760c06b234615d46d6b487013ea19d093e6ecbaf0ee15b6b0ed5d7228b55e16",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "發展項目逐項記錄如下；歷史產品補齊與11/17私募重大變動分開辨識。產品出貨、量產、預定計畫與已認列收益不混用。",
+        "period": "2025全年、2026上半年／前三季；5/29、9/10、11/5會議及11/17私募各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "egm",
+          "placement",
+          "meeting-index",
+          "meeting",
+          "peer9914",
+          "peer9921"
+        ],
+        "projects": [
+          {
+            "project_id": "5306-ebike-chain",
+            "name": "電助力車鏈條",
+            "type": "既有產品升級",
+            "uses_and_customers": "供高負載e-bike及中驅系統；具名終端客戶未揭露",
+            "status": "年報已有商品項目並持續提升相容與耐磨技術",
+            "commercial_timing": "已有產品；新一代個別上市時點未揭露",
+            "revenue_contribution": "未獨立揭露，不能以自行車事業收入全數代替",
+            "sources": [
+              "annual",
+              "agm"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-drivetrain-kit",
+            "name": "齒盤飛輪與傳動套件",
+            "type": "產品延伸",
+            "uses_and_customers": "鏈條、齒盤及飛輪整合供整車與補修市場",
+            "status": "KMC DRIVETRAIN EXPERT持續深化；非確認全新工廠",
+            "commercial_timing": "既有產品延伸，各套件上市／驗收日未揭露",
+            "revenue_contribution": "未獨立揭露",
+            "sources": [
+              "annual",
+              "agm"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-tt-racing",
+            "name": "TT Racing競賽鏈條",
+            "type": "新產品",
+            "uses_and_customers": "計時賽與三鐵競速騎乘；具名客戶未揭露",
+            "status": "年報記載2025推出，鍛造及熱處理改善效率耐用",
+            "commercial_timing": "2025已推出，非2026才量產",
+            "revenue_contribution": "未獨立揭露",
+            "sources": [
+              "annual"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-xflat",
+            "name": "XFlat及輕量化鏈條",
+            "type": "新產品",
+            "uses_and_customers": "12／13速傳動；高階與競賽騎乘",
+            "status": "年報記載已推出並有輕量化版本",
+            "commercial_timing": "已推出；各型號商用年月未揭露",
+            "revenue_contribution": "未獨立揭露",
+            "sources": [
+              "annual"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-chain-wax",
+            "name": "GO CHAIN WAX／預浸蠟",
+            "type": "新產品與製程",
+            "uses_and_customers": "鏈條潤滑與耐磨，供騎乘與補修使用",
+            "status": "年報已開發，出廠預浸蠟處理；效能為公司說明",
+            "commercial_timing": "已有技術／產品；獨立上市月未揭露",
+            "revenue_contribution": "未獨立揭露",
+            "sources": [
+              "annual"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-saw-special-chain",
+            "name": "鋸鏈與特殊鏈及越南布局",
+            "type": "新事業產品／生產布局",
+            "uses_and_customers": "鋸切及特殊傳動用途，具名客戶未揭露",
+            "status": "5/29問答：2025正式量產、2026成長並推動越南布局",
+            "commercial_timing": "產品2025量產；越南新配置實際投產／驗收日未揭露",
+            "revenue_contribution": "公司表示成長，無獨立金額",
+            "sources": [
+              "agm",
+              "annual"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-motorcycle-aftermarket",
+            "name": "機車鏈條鏈輪補修",
+            "type": "既有業務拓展",
+            "uses_and_customers": "東協、南亞機車傳動及補修經銷市場",
+            "status": "5/29公司表示取得國際大廠訂單；未具名及未披露金額",
+            "commercial_timing": "既有商用業務；新訂單時程未披露",
+            "revenue_contribution": "2025機車事業收入215,716仟元，非新訂單金額",
+            "sources": [
+              "annual",
+              "agm"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-auto-timing-nev",
+            "name": "汽車正時補修與新能源零件",
+            "type": "既有業務轉型",
+            "uses_and_customers": "中國車廠正時系統、全球補修及新能源車相關零件",
+            "status": "年報／股東會計畫深化補修並以核心技術跨領域，未揭露新能源零件型號／客戶",
+            "commercial_timing": "正時系統既有商用；新能源新案未揭露",
+            "revenue_contribution": "2025汽車正時628,751仟元，不代表新能源收入",
+            "sources": [
+              "annual",
+              "agm"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-garage-door",
+            "name": "車庫門模組與整機代工",
+            "type": "既有產品延伸",
+            "uses_and_customers": "北美歐洲開門機傳動零件及一站式供應",
+            "status": "由零件朝模組整機方向，未查得新整機合約及驗收證據",
+            "commercial_timing": "零件既有商用；新模組整機時點未揭露",
+            "revenue_contribution": "2025車庫門383,794仟元，非新模組單案貢獻",
+            "sources": [
+              "annual"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-taicang-relocation",
+            "name": "太倉搬遷補償",
+            "type": "既有資產處分／搬遷",
+            "uses_and_customers": "配合太倉政府規劃，非商品客戶收入",
+            "status": "2025南側履約並認列；北側2026/9月底預收人民幣7000萬元，待履約認列",
+            "commercial_timing": "北側完成日期未確認",
+            "revenue_contribution": "北側尚未確認利益；2025南側237,901仟元為一次性業外利益",
+            "sources": [
+              "q3",
+              "agm"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          },
+          {
+            "project_id": "5306-shimano-placement",
+            "name": "禧瑪諾策略私募與合作",
+            "type": "策略投資／資金",
+            "uses_and_customers": "台灣禧瑪諾擬認購450萬股；合作產品受保密約束",
+            "status": "11/5股東會通過、11/17定價100元；截至11/23尚未繳款期",
+            "commercial_timing": "11/25–12/1預定繳款、12/2增資基準；非已完成",
+            "revenue_contribution": "450,000仟元為募集資金非營收；未揭露合作收入",
+            "sources": [
+              "egm",
+              "placement"
+            ],
+            "limitations": [
+              "未揭露之客戶名稱、單案收入或產能不推定；上述進度限各來源日期。"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.kmc-international.com/userfiles/2025_5306_20260529.pdf",
+          "title": "2025年度年報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/annual.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            5,
+            6,
+            7,
+            8,
+            68,
+            69,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            90,
+            91,
+            92
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=5306&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/10核閱報告",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/q3.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            27,
+            30,
+            31,
+            32,
+            47,
+            48,
+            49
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20260529F05.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/agm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "source_id": "egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20261105F05.pdf",
+          "title": "2026/11/5股東臨時會議事錄，含原始問答摘要",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/egm.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source_id": "placement",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "11/17私募普通股定價公告，原文留存",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": "2026-11-17",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/placement.json"
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=5306",
+          "title": "9/10凱基論壇官方列表，沿用8/17簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting-index.html",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日"
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/530620260817M001.pdf",
+          "title": "9/10論壇沿用2026年第二季法說簡報",
+          "publisher": "桂盟國際／公開資訊觀測站",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/meeting.pdf",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "visual_pages_checked": [
+            8,
+            10,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "source_id": "peer9914",
+          "url": "https://www.twse.com.tw/pdf/ch/9914_ch.pdf",
+          "title": "美利達公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9914-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer9921",
+          "url": "https://www.twse.com.tw/pdf/ch/9921_ch.pdf",
+          "title": "巨大公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-5306/peer9921-source.json",
+          "published_at_reason": "未取得原始上傳時間；文件／會議日期另列，不以查閱日冒充發布日",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-23T20:00:53.534229+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "具名終端客戶、單案訂單金額及產品毛利未揭露；不因Shimano入股推定全部訂單、獨家供應或控制權移轉。",
+        "私募11/17定價；截至11/23固定截止尚未進入11/25–12/1繳款期，12/2為預定增資基準日，非已收款或完成發股。",
+        "5/29及11/5議事錄是公司整理的原始問答要領，非逐字稿；法說影音不查找，未取得可核對之完整官方文字問答稿。",
+        "Q3財報彙總為單一營運部門；產品營收占比不能冒充產品獲利占比。財務取得與比率計算交網站處理。",
+        "未取得單案資本支出、量產產能、完整驗收日、新產品獨立營收與當期具名法人預估者標示未揭露，不由總營收推算。",
+        "9/10論壇日期與簡報檔名8/17不同：官方9月列表明確連到530620260817M001.pdf，29頁全文及所有主要圖表已核讀，未把沿用簡報另算兩場新研究。",
+        "集團基地／據點、現金簡表及淨利橋均限公司簡報口徑；Q3正式財報期間較新，且合併總淨利與歸母分開。"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview_sha256": "sha256:d760c06b234615d46d6b487013ea19d093e6ecbaf0ee15b6b0ed5d7228b55e16",
+  "adopted_record_sha256": "sha256:93b0773cc4a8ba3da9efeb3fa250949690ae8ba6aaea7a59b1ec0d63fb9932ff",
+  "financial_verification": {
+    "common_Q3_income": "matched",
+    "matched_income_twd_thousand_except_eps": {
+      "營業收入": 4116230,
+      "營業利益（損失）": 891868,
+      "淨利（淨損）歸屬於母公司業主": 705804,
+      "基本每股盈餘（元）": 5.6
+    },
+    "single_quarter_EPS": 1.66,
+    "Q3_CFO_thousand": 673659,
+    "Q3_cash_and_equivalents_thousand": 1930489,
+    "formal_cash_excludes_amortized_cost_financial_assets": true,
+    "relocation_north_advance_not_recognized_gain": true,
+    "common_numeric_files_modified": false,
+    "detailed_financial_tables_preserved": true,
+    "source_evidence_sha256": {
+      "annual": "sha256:051fd2378089ebec3b6df6dd5d2b4aa0407c1d3d46370ac2b88a2b8c6d101ef0",
+      "q3": "sha256:a4247a404c1082d5bee5d7f797f0685fa0bf325ff10ebe729eb1e80c3e185138",
+      "agm": "sha256:32e676a765cc0ecf342a01d70538e3c45d0ee111d998801dee2319ed47bf8866",
+      "egm": "sha256:ef40a3a8e24d7db61a48ec58949fd23fccc09bb40007501f344fbffab48aa85f",
+      "placement": "sha256:f27bfca1ba6ee85fbe1d44063acf2563c6fce7aff2688475fdaea42cb2b9b61b",
+      "meeting-index": "sha256:1bdfedf7b46ee400575dbf6581e0714e31606bf9d32c056eeb548be414215ab0",
+      "meeting": "sha256:b204eeef5ff843c62a32da74ceb2c2500253e1b350784ad267f0b2847621a344",
+      "peer9914": "sha256:92f7f3c234aa404d7d9162be730f213bbf4a09c704b6f15024ba4103cce659cc",
+      "peer9921": "sha256:1f5bc0098bcc2afdd33c587b7a274508f2e3bd593268b9abcc920a6e0da76cab"
+    }
+  },
+  "overview_event_adoption": {
+    "event": {
+      "event_id": "5306-20261117-shimano-placement",
+      "type": "禧瑪諾策略私募",
+      "period": "2026-11-17定價；截至2026-11-23",
+      "status": "已通過私募與定價，尚未進入繳款期。",
+      "text": "台灣禧瑪諾擬以每股100元認購450萬股，預計募集4.5億元充實營運資金。公告安排11/25至12/1繳款、12/2為增資基準日；截至11/23尚未完成繳款。合作細節受保密約束，尚未揭露可量化訂單或合作營收。",
+      "urls": [
+        "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+        "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5306&filename=2026_5306_20261105F05.pdf"
+      ],
+      "event_date": "2026-11-17",
+      "reviewed_at": "2026-11-23",
+      "batch_id": "research-20261123-5306-v1"
+    },
+    "original_events_preserved": true,
+    "financial_tables_modified": false
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved_as_null": true,
+    "lookup_completion_recorded_separately": true,
+    "new_meeting": true,
+    "recent_meeting_date": "2026-11-05",
+    "recent_meeting_kind": "股東會",
+    "EGM_original_QA_read": true,
+    "older_meetings_not_relabelled_recent": true,
+    "meeting_QA_verified": false,
+    "project_ids": [
+      "5306-ebike-chain",
+      "5306-drivetrain-kit",
+      "5306-tt-racing",
+      "5306-xflat",
+      "5306-chain-wax",
+      "5306-saw-special-chain",
+      "5306-motorcycle-aftermarket",
+      "5306-auto-timing-nev",
+      "5306-garage-door",
+      "5306-taicang-relocation",
+      "5306-shimano-placement"
+    ],
+    "new_today_company_count": 1,
+    "material_event_not_additional_company": true,
+    "old_deficit_completed_today": 0,
+    "old_deficit_remaining": 26,
+    "day_overall_status": "partial",
+    "monitoring_cutoff_not_advanced": true
+  }
+}
