@@ -231,6 +231,26 @@
       "workflow_run_id": 45170877223,
       "verified_at": "2026-11-23T12:09:54.044Z",
       "original_qa_verified": true
+    },
+    {
+      "symbol": "1712.TW",
+      "name": "興農",
+      "kind": "法說會",
+      "meeting_date": "2026-11-12",
+      "summary_updated_at": "2026-11-24",
+      "batch_id": "research-20261124-1712-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "7271f8111f0d567c43d891f7c7f85404ac799762",
+      "workflow_run_id": 45409669473,
+      "verified_at": "2026-11-24T14:06:40.569Z",
+      "original_qa_verified": false,
+      "limitations": [
+        "11/12簡報已讀，當場原始文字問答未取得；歷史36題不替代本場。",
+        "11/25未來場次不列為已完成。"
+      ]
     }
   ]
 }
