@@ -1,0 +1,1298 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261123-3356-v1",
+    "ready": true,
+    "created_at": "2026-11-23T21:41:21.194663+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:1026a71a25397df4eaf2c5ae34dda9b63e3626e0902a6728aaf24a694d459af8",
+    "work_type": "backfill",
+    "origin_date": "2026-10-22",
+    "completion_unit": "整家公司公開資料查找完成附缺漏",
+    "new_meeting": false,
+    "historical_meeting_dates": [
+      "2026-05-29",
+      "2026-09-01"
+    ],
+    "AGM_original_QA_read": true,
+    "meeting_QA_verified": false,
+    "material_events": [],
+    "existing_published_event_preserved": "3356-20261123-derivative-loss-limit",
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "financial_periods_labeled": true,
+      "old_project_ids_preserved": true,
+      "existing_event_text_preserved": true,
+      "official_qualified_review_disclosed": true
+    },
+    "limitations": [
+      "本次整家公司公開資料合理查找完成，未揭露客戶、單案收入、訂單／新案產能及明確上市驗收時點者標缺，不推定零或已完成。",
+      "已核讀9/1簡報17頁及主要圖表、5/29議事錄9頁原始問答；法說第17頁只有問答時間字樣，不是問答原文。官方索引未提供可核對文字稿，依使用者指示不找影片。",
+      "2026Q3為保留核閱結論：部分非重要子公司與權益法投資報表未經核閱；不寫成無保留查核或否定意見。",
+      "財報股本、現金減資與員工限制股影響加權平均股數；前三季EPS9.83與Q3單季1.85分列，不把單季EPS相加成累計或直接推TTM。",
+      "9/1產品與占比限上半年資料，不冒充最新Q3產品占比；公司展望、年報開發計畫與已商用／實際收入分開。",
+      "官網財報索引較舊不代表未申報，Q3改取MOPS官方原始檔；市場規模預測不當公司營收或獲利預估。",
+      "各新產品與雲端服務未揭露單案營收、毛利、付費用戶、經常性收入及具名法人EPS預估；不得由「AI」字樣推估訂單。"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-3356-v1-business",
+      "task_id": "missed-quota-20261022-min1",
+      "company_code": "3356",
+      "company_name": "奇偶",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "business",
+      "expected_old_version": "sha256:426a22265374d8cc206525735953786ec9b89fee57b31f3f783b2a29efeb4440",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:a89044434708290530e21a3d3a36cb6a2bfefb36c61bb6d7a1d04072fe1459f7",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "公司概述與產業鏈：奇偶以GeoVision自有品牌經營遠端數位安全監控系統研發、銷售及售後服務，提供IP攝影機、錄影及影像管理軟體、主機、門禁、車牌辨識、PoE設備與雲端平台。上游為光學／機構／IC／PCB及影像編解碼，SMT/DIP主板加工委外，下游為經銷商、安防系統整合商與終端場域。軟體化方向不表示已停止攝影機銷售，也不是AI晶片製造商。[annual,PDF62–74;q3,PDF12]\n用途與客戶：產品供商辦、住宅、廠房、金融、醫療、校園與公共設施影像儲存、事件告警、門禁和搜尋；這些是應用場域，非已取得各類具名客戶合約。2025銷貨甲客戶50,674仟元占5%，名稱未揭；最大進貨甲廠商占37%，亦不自行揭匿名。自有海外公司是通路／服務據點，不能等同終端客戶。[annual,PDF70,74]\n收入結構：2025收入1,018,695仟元，IP攝影機52%、主機13%、影像管理軟體6%、門禁7%、車牌2%、數位廣告機2%、周邊外購7%、其他11%。1H26簡報較新口徑IP攝影機59%、監控主機10%、門禁6%、車牌1%、影像軟體／AI／雲端合組6%、周邊外購7%、非成品及其他5%、系統安裝6%；不能把合組6%全稱雲端訂閱收入，亦與年報產品分類不同。[annual,PDF63;meeting,PDF13]\n市場位置：2025外銷95%、美洲66%，均為年報當時口徑；1H26北美64%、歐洲15%、中東亞洲11%、台灣6%、中南美3%、大洋洲非洲1%，來自9/1簡報各色柱對位。高北美曝險使關稅、匯率與當地通路執行重要，年報規劃加拿大倉與美國庫存不等於所有布局已驗收。[annual,PDF6,70;meeting,PDF12]\n相似上市同業（研究推論）：5484慧友具攝影機／影像處理器業務，可比安控產品、技術與通路；8072陞泰具監視防盜系統製裝銷售，可比監控需求，但另有半導體零件代理，毛利結構不同。兩者不因類似產品就被認定奇偶客戶；同日財務估值由網站處理。[peer5484,peer8072]",
+        "period": "2025全年、2026上半年及前三季；5/29與9/1歷史會議，11/23既有事件各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "meeting",
+          "meeting-index",
+          "ir-index",
+          "peer5484",
+          "peer8072",
+          "3356-official-204"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/GeoVision_3356-2025AR.pdf",
+          "title": "2025年度年報，2026/4/10刊印",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/annual.pdf",
+          "pages_read": [
+            5,
+            6,
+            7,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            80,
+            81,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=3356&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/11董事會通過及核閱報告",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/q3.pdf",
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            28,
+            29,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            48,
+            49,
+            51
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/Meeting_Minutes-2026.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/agm.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/335620260901M001.pdf",
+          "title": "2026/9/1法說17頁簡報與主要圖表",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meeting.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=3356",
+          "title": "官方9月法說會索引",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meetings.html"
+        },
+        {
+          "source_id": "ir-index",
+          "url": "https://www.geovision.com.tw/tw/aboutReports.php",
+          "title": "官網財報法說索引，2026區當時僅Q1，較新報告改取MOPS",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/reports.html"
+        },
+        {
+          "source_id": "peer5484",
+          "url": "https://www.twse.com.tw/pdf/ch/5484_ch.pdf",
+          "title": "慧友公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer5484.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer8072",
+          "url": "https://www.twse.com.tw/pdf/ch/8072_ch.pdf",
+          "title": "陞泰公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer8072.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "3356-official-204",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "本公司從事衍生性商品交易達所訂個別契約損失上限",
+          "publisher": "奇偶／公開資訊觀測站",
+          "published_at": "2026-11-23",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "研究進度/來源留存/2026-11-23-官方監看/歷史公告與正文_截至194920.json",
+          "json_pointer": "/new_history_events/204",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 3356 奇偶 公司提供 序號 1 發言日期 115/11/23 發言時間 17:59:04 發言人 李建邦 發言人職稱 總經理兼財務長 發言人電話 02-8797-8377 主旨 本公司從事衍生性商品交易達所訂個別契約損失上限 符合條款 第 20 款 事實發生日 115/11/23 說明 1.契約種類: 混合 2.事實發生日:115/11/23 3.契約金額: NTD147,780,000元 以上共六筆個別契約 4.支付保證金或權利金金額: 無 5.處理程序所訂之全部或個別契約損失上限金額: 根據公司從事衍生性商品交易處理程序第十條規定， 全部契約損失上限為不超過契約總金額之百分之二十； 個別契約損失上限為個別契約金額之百分之十。 若有逾越應呈報總經理及董事長，採取必要之因應措施並 向董事會報告。 6.從事衍生性商品交易原因: 以交易為目的 7.被避險項目: 無 8.被避險項目部位之金額: 無 9.被避險項目之損益狀況: 無 10.依公平價值評估(含已實現及未實現)之損失金額: 個別契約未實現損失金額: (NTD17,667,275元) 以上共六筆個別契約未實現損失金額 11.損失發生原因及對公司之影響: 此次交易中全部契約損失金額(NTD29,404,614元)未超過契約總金額之20%； 個別契約損失金額(NTD17,667,275元)，其金額超過個別契約金額之10%， 依辦法已呈報總經理及董事長，並已向近期董事會報告； 交易符合公司辦法規定，故對我司無重大影響。 12.契約期間: 個別契約期間115年9月10日至116年3月11日 13.限制條款: 無 14.其他重要約定事項: 無 15.其他敘明事項: 無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "175904",
+            "spoke_date": "20261123",
+            "co_id": "3356",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-23T21:41:21.194663+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "本次整家公司公開資料合理查找完成，未揭露客戶、單案收入、訂單／新案產能及明確上市驗收時點者標缺，不推定零或已完成。",
+        "已核讀9/1簡報17頁及主要圖表、5/29議事錄9頁原始問答；法說第17頁只有問答時間字樣，不是問答原文。官方索引未提供可核對文字稿，依使用者指示不找影片。",
+        "2026Q3為保留核閱結論：部分非重要子公司與權益法投資報表未經核閱；不寫成無保留查核或否定意見。",
+        "財報股本、現金減資與員工限制股影響加權平均股數；前三季EPS9.83與Q3單季1.85分列，不把單季EPS相加成累計或直接推TTM。",
+        "9/1產品與占比限上半年資料，不冒充最新Q3產品占比；公司展望、年報開發計畫與已商用／實際收入分開。",
+        "官網財報索引較舊不代表未申報，Q3改取MOPS官方原始檔；市場規模預測不當公司營收或獲利預估。",
+        "各新產品與雲端服務未揭露單案營收、毛利、付費用戶、經常性收入及具名法人EPS預估；不得由「AI」字樣推估訂單。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-3356-v1-earnings",
+      "task_id": "missed-quota-20261022-min1",
+      "company_code": "3356",
+      "company_name": "奇偶",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "earnings",
+      "expected_old_version": "sha256:426a22265374d8cc206525735953786ec9b89fee57b31f3f783b2a29efeb4440",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:a89044434708290530e21a3d3a36cb6a2bfefb36c61bb6d7a1d04072fe1459f7",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "本業與業外分開：2026前三季營收879,552仟元、營業利益57,603仟元、歸母淨利754,017仟元、基本EPS9.83元；Q3單季營收318,231仟元、營業利益41,117仟元、歸母淨利130,587仟元、EPS1.85元。累計本業改善，但稅前796,643仟元中的業外合計739,040仟元，獲利不能全部歸因AI監控成長。[q3,PDF8]\n業外原因：前三季透過損益金融資產利益658,163仟元，包括權益工具649,385仟元、混合工具FCN8,778仟元；金融資產利息、存款利息與股利另列，不重複加總。同一類Q3金融資產利益64,889仟元低於去年212,151仟元，故單季本業增加仍伴歸母下降。利益含評價因素，沒有實現／未實現完整拆分，不能當可持續現金流或新產品毛利。[q3,PDF24,32–33]\n資產與資金：9月底現金512,134仟元、流動FVTPL金融資產2,207,878仟元分開；其中權益工具1,787,314仟元、FCN420,564仟元，不是全額現金。持有台積電股票650,000股、帳面1,612,000仟元為金融投資，不是台積電客戶訂單。短借408,000仟元，股票帳面620,000仟元作借款質押、質押存款11,654仟元作選擇權保證金，市場價格與擔保品風險需追蹤，不以資產總額當淨現金。[q3,PDF6–7,23,38,51]\n現金流與庫存：前三季營業淨流入85,991仟元，低於去年110,771仟元；存貨占用264,913仟元，期末淨額582,183仟元、備抵133,746仟元。備抵餘額不是當期新增全額減損，當期存貨評價損失246仟元另列。投資淨流出147,690仟元、籌資淨流出30,746仟元，含短借增加、股利與現金減資等；存貨上升尚未取得足以歸因的具體訂單證據。[q3,PDF10–11,25]\n會計範圍與股數：11/11資誠核閱報告因部分非重要子公司及權益法投資未核閱而保留結論，未核閱資產338,347仟元占9.08%，不說成無保留審計。Q3現金減資每股1.49元、14.89%、金額119,913仟元，7/20基準、7/31變更登記完成；不同於5/29原案每股1.5元及15%。另有限制股60萬股，期末股本685,504仟元。單季／累計加權股數不同，EPS不可直接相加。[q3,PDF4–5,29,35;agm,PDF3]\n部門不可誤讀：財報依台灣、美國及捷克等法人報導，部門損益是稅前基礎，含業外且內部收入須銷除；台灣部門高損益不能直接當台灣終端市場或軟體產品營業利潤。[q3,PDF48–49]",
+        "period": "2025全年、2026上半年及前三季；5/29與9/1歷史會議，11/23既有事件各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "meeting",
+          "meeting-index",
+          "ir-index",
+          "peer5484",
+          "peer8072",
+          "3356-official-204"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/GeoVision_3356-2025AR.pdf",
+          "title": "2025年度年報，2026/4/10刊印",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/annual.pdf",
+          "pages_read": [
+            5,
+            6,
+            7,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            80,
+            81,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=3356&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/11董事會通過及核閱報告",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/q3.pdf",
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            28,
+            29,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            48,
+            49,
+            51
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/Meeting_Minutes-2026.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/agm.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/335620260901M001.pdf",
+          "title": "2026/9/1法說17頁簡報與主要圖表",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meeting.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=3356",
+          "title": "官方9月法說會索引",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meetings.html"
+        },
+        {
+          "source_id": "ir-index",
+          "url": "https://www.geovision.com.tw/tw/aboutReports.php",
+          "title": "官網財報法說索引，2026區當時僅Q1，較新報告改取MOPS",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/reports.html"
+        },
+        {
+          "source_id": "peer5484",
+          "url": "https://www.twse.com.tw/pdf/ch/5484_ch.pdf",
+          "title": "慧友公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer5484.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer8072",
+          "url": "https://www.twse.com.tw/pdf/ch/8072_ch.pdf",
+          "title": "陞泰公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer8072.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "3356-official-204",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "本公司從事衍生性商品交易達所訂個別契約損失上限",
+          "publisher": "奇偶／公開資訊觀測站",
+          "published_at": "2026-11-23",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "研究進度/來源留存/2026-11-23-官方監看/歷史公告與正文_截至194920.json",
+          "json_pointer": "/new_history_events/204",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 3356 奇偶 公司提供 序號 1 發言日期 115/11/23 發言時間 17:59:04 發言人 李建邦 發言人職稱 總經理兼財務長 發言人電話 02-8797-8377 主旨 本公司從事衍生性商品交易達所訂個別契約損失上限 符合條款 第 20 款 事實發生日 115/11/23 說明 1.契約種類: 混合 2.事實發生日:115/11/23 3.契約金額: NTD147,780,000元 以上共六筆個別契約 4.支付保證金或權利金金額: 無 5.處理程序所訂之全部或個別契約損失上限金額: 根據公司從事衍生性商品交易處理程序第十條規定， 全部契約損失上限為不超過契約總金額之百分之二十； 個別契約損失上限為個別契約金額之百分之十。 若有逾越應呈報總經理及董事長，採取必要之因應措施並 向董事會報告。 6.從事衍生性商品交易原因: 以交易為目的 7.被避險項目: 無 8.被避險項目部位之金額: 無 9.被避險項目之損益狀況: 無 10.依公平價值評估(含已實現及未實現)之損失金額: 個別契約未實現損失金額: (NTD17,667,275元) 以上共六筆個別契約未實現損失金額 11.損失發生原因及對公司之影響: 此次交易中全部契約損失金額(NTD29,404,614元)未超過契約總金額之20%； 個別契約損失金額(NTD17,667,275元)，其金額超過個別契約金額之10%， 依辦法已呈報總經理及董事長，並已向近期董事會報告； 交易符合公司辦法規定，故對我司無重大影響。 12.契約期間: 個別契約期間115年9月10日至116年3月11日 13.限制條款: 無 14.其他重要約定事項: 無 15.其他敘明事項: 無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "175904",
+            "spoke_date": "20261123",
+            "co_id": "3356",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-23T21:41:21.194663+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "本次整家公司公開資料合理查找完成，未揭露客戶、單案收入、訂單／新案產能及明確上市驗收時點者標缺，不推定零或已完成。",
+        "已核讀9/1簡報17頁及主要圖表、5/29議事錄9頁原始問答；法說第17頁只有問答時間字樣，不是問答原文。官方索引未提供可核對文字稿，依使用者指示不找影片。",
+        "2026Q3為保留核閱結論：部分非重要子公司與權益法投資報表未經核閱；不寫成無保留查核或否定意見。",
+        "財報股本、現金減資與員工限制股影響加權平均股數；前三季EPS9.83與Q3單季1.85分列，不把單季EPS相加成累計或直接推TTM。",
+        "9/1產品與占比限上半年資料，不冒充最新Q3產品占比；公司展望、年報開發計畫與已商用／實際收入分開。",
+        "官網財報索引較舊不代表未申報，Q3改取MOPS官方原始檔；市場規模預測不當公司營收或獲利預估。",
+        "各新產品與雲端服務未揭露單案營收、毛利、付費用戶、經常性收入及具名法人EPS預估；不得由「AI」字樣推估訂單。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-3356-v1-transition",
+      "task_id": "missed-quota-20261022-min1",
+      "company_code": "3356",
+      "company_name": "奇偶",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:426a22265374d8cc206525735953786ec9b89fee57b31f3f783b2a29efeb4440",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:a89044434708290530e21a3d3a36cb6a2bfefb36c61bb6d7a1d04072fe1459f7",
+      "expected_old_section_version": "sha256:4ab074675e8c12562f1c526e4c85cfa01f21b009ea27104ec6200de7a0c0cf82",
+      "old_content": {
+        "text": "交易性衍生商品達個別損失上限：11/23公告：混合契約、以交易為目的，無被避險項目；共六筆個別契約金額NTD147,780,000元，個別契約未實現損失合計NTD17,667,275元。公告另列全部契約損失NTD29,404,614元，未超過全部契約金額20%；六筆個別契約已超過各自10%上限並呈報主管及近期董事會。兩個損失金額範圍重疊，不相加成另一筆損失，NTD147,780,000也不是損失額。契約期間2026/9/10–2027/3/11；未實現損失不是未來到期已確定淨損。公司稱依辦法處理、無重大影響，須標為公司說法；交易非避險仍需在非本業損益與風險追蹤揭露。未取得最新完整整體曝險、稅後／歸母影響與平倉結果，不由此推估EPS。",
+        "period": "事件／公告原日期逐項列示，截至2026-11-23固定cutoff",
+        "sources": [
+          "3356-official-204"
+        ],
+        "reviewed_at": "2026-11-23",
+        "update_id": "research-20261123-material-events-v1-3356",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "new_content": {
+        "text": "交易性衍生商品達個別損失上限：11/23公告：混合契約、以交易為目的，無被避險項目；共六筆個別契約金額NTD147,780,000元，個別契約未實現損失合計NTD17,667,275元。公告另列全部契約損失NTD29,404,614元，未超過全部契約金額20%；六筆個別契約已超過各自10%上限並呈報主管及近期董事會。兩個損失金額範圍重疊，不相加成另一筆損失，NTD147,780,000也不是損失額。契約期間2026/9/10–2027/3/11；未實現損失不是未來到期已確定淨損。公司稱依辦法處理、無重大影響，須標為公司說法；交易非避險仍需在非本業損益與風險追蹤揭露。未取得最新完整整體曝險、稅後／歸母影響與平倉結果，不由此推估EPS。\n整體轉型與可核進度：5/29原始問答表示透過AI降低夜間誤報、提升監看效率並推半自動化中控服務，但相關營收比例尚不高、規模仍小。9/1策略圖提出保全異業合作、半哨系統、語音影像整合、LLM訓練影像分析及AI巡邏機器人整合；是方向／架構，不是已交付大量機器人或確定營收。[agm,PDF8–9;meeting,PDF15–16]\n產品商用與展望：年報明列2025已開發成功項目及2026Q1已發佈Cloud VMS1.6／Cloud Access1.5；較新9/1列核心產品包含VMS20.1、AI雲端攝影機、Cloud Bridge Plus與AI AGX Server。列為核心產品不等於所有版本已完成上市或具名客戶驗收；雲端付費用戶、ARPU、機器人合作夥伴與新案營收未揭露。年報預期2026營收獲利成長及200萬件銷售量是當時公司計畫，非已實現／法人一致預估。[annual,PDF5–7,68–69,81;meeting,PDF4,15–16]\n圖表核對：9/1簡報財務限1H26，EPS7.8元非Q3最新值；第7頁2Q25營業虧損轉2Q26獲利，不把負基期括號446%當營運衰退比率。第13頁軟體／AI／雲端是合組收入，第12頁各色柱的地區比例不可錯配季別；第9頁業外占營收161%不是本業毛利率。[meeting,PDF6–13]\n後續追蹤：本業毛利及費用率、雲端實際付費與經常性收入、庫存及跌價、北美關稅與通路、金融投資及質押集中、11/23交易合約後續評價與平倉。11/23公告發生在Q3報告11/11之後，不回溯塞入9月底損益；財報一般匯率避險政策不能用來把公告交易性FCN改稱避險。[q3;3356-official-204]",
+        "period": "2025全年、2026上半年及前三季；5/29與9/1歷史會議，11/23既有事件各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "meeting",
+          "meeting-index",
+          "ir-index",
+          "peer5484",
+          "peer8072",
+          "3356-official-204"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/GeoVision_3356-2025AR.pdf",
+          "title": "2025年度年報，2026/4/10刊印",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/annual.pdf",
+          "pages_read": [
+            5,
+            6,
+            7,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            80,
+            81,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=3356&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/11董事會通過及核閱報告",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/q3.pdf",
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            28,
+            29,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            48,
+            49,
+            51
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/Meeting_Minutes-2026.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/agm.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/335620260901M001.pdf",
+          "title": "2026/9/1法說17頁簡報與主要圖表",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meeting.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=3356",
+          "title": "官方9月法說會索引",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meetings.html"
+        },
+        {
+          "source_id": "ir-index",
+          "url": "https://www.geovision.com.tw/tw/aboutReports.php",
+          "title": "官網財報法說索引，2026區當時僅Q1，較新報告改取MOPS",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/reports.html"
+        },
+        {
+          "source_id": "peer5484",
+          "url": "https://www.twse.com.tw/pdf/ch/5484_ch.pdf",
+          "title": "慧友公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer5484.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer8072",
+          "url": "https://www.twse.com.tw/pdf/ch/8072_ch.pdf",
+          "title": "陞泰公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer8072.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "3356-official-204",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "本公司從事衍生性商品交易達所訂個別契約損失上限",
+          "publisher": "奇偶／公開資訊觀測站",
+          "published_at": "2026-11-23",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "研究進度/來源留存/2026-11-23-官方監看/歷史公告與正文_截至194920.json",
+          "json_pointer": "/new_history_events/204",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 3356 奇偶 公司提供 序號 1 發言日期 115/11/23 發言時間 17:59:04 發言人 李建邦 發言人職稱 總經理兼財務長 發言人電話 02-8797-8377 主旨 本公司從事衍生性商品交易達所訂個別契約損失上限 符合條款 第 20 款 事實發生日 115/11/23 說明 1.契約種類: 混合 2.事實發生日:115/11/23 3.契約金額: NTD147,780,000元 以上共六筆個別契約 4.支付保證金或權利金金額: 無 5.處理程序所訂之全部或個別契約損失上限金額: 根據公司從事衍生性商品交易處理程序第十條規定， 全部契約損失上限為不超過契約總金額之百分之二十； 個別契約損失上限為個別契約金額之百分之十。 若有逾越應呈報總經理及董事長，採取必要之因應措施並 向董事會報告。 6.從事衍生性商品交易原因: 以交易為目的 7.被避險項目: 無 8.被避險項目部位之金額: 無 9.被避險項目之損益狀況: 無 10.依公平價值評估(含已實現及未實現)之損失金額: 個別契約未實現損失金額: (NTD17,667,275元) 以上共六筆個別契約未實現損失金額 11.損失發生原因及對公司之影響: 此次交易中全部契約損失金額(NTD29,404,614元)未超過契約總金額之20%； 個別契約損失金額(NTD17,667,275元)，其金額超過個別契約金額之10%， 依辦法已呈報總經理及董事長，並已向近期董事會報告； 交易符合公司辦法規定，故對我司無重大影響。 12.契約期間: 個別契約期間115年9月10日至116年3月11日 13.限制條款: 無 14.其他重要約定事項: 無 15.其他敘明事項: 無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "175904",
+            "spoke_date": "20261123",
+            "co_id": "3356",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-23T21:41:21.194663+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "本次整家公司公開資料合理查找完成，未揭露客戶、單案收入、訂單／新案產能及明確上市驗收時點者標缺，不推定零或已完成。",
+        "已核讀9/1簡報17頁及主要圖表、5/29議事錄9頁原始問答；法說第17頁只有問答時間字樣，不是問答原文。官方索引未提供可核對文字稿，依使用者指示不找影片。",
+        "2026Q3為保留核閱結論：部分非重要子公司與權益法投資報表未經核閱；不寫成無保留查核或否定意見。",
+        "財報股本、現金減資與員工限制股影響加權平均股數；前三季EPS9.83與Q3單季1.85分列，不把單季EPS相加成累計或直接推TTM。",
+        "9/1產品與占比限上半年資料，不冒充最新Q3產品占比；公司展望、年報開發計畫與已商用／實際收入分開。",
+        "官網財報索引較舊不代表未申報，Q3改取MOPS官方原始檔；市場規模預測不當公司營收或獲利預估。",
+        "各新產品與雲端服務未揭露單案營收、毛利、付費用戶、經常性收入及具名法人EPS預估；不得由「AI」字樣推估訂單。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261123-3356-v1-developments",
+      "task_id": "missed-quota-20261022-min1",
+      "company_code": "3356",
+      "company_name": "奇偶",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "developments",
+      "expected_old_version": "sha256:426a22265374d8cc206525735953786ec9b89fee57b31f3f783b2a29efeb4440",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:a89044434708290530e21a3d3a36cb6a2bfefb36c61bb6d7a1d04072fe1459f7",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "以下固定項目按已發佈、核心產品列示、開發計畫及應用構想分開；不將金融投資收益當新產品貢獻，不將硬體／軟體組合營收重複分配給每個項目。",
+        "period": "2025全年、2026上半年及前三季；5/29與9/1歷史會議，11/23既有事件各按原日期",
+        "sources": [
+          "annual",
+          "q3",
+          "agm",
+          "meeting",
+          "meeting-index",
+          "ir-index",
+          "peer5484",
+          "peer8072",
+          "3356-official-204"
+        ],
+        "projects": [
+          {
+            "project_id": "3356-cloud-vms",
+            "name": "雲端影像管理GV-Cloud VMS",
+            "type": "既有軟體升級",
+            "uses_and_customers": "供多據點影像管理與人車流統計；企業及系統整合商",
+            "status": "年報2026Q1已發佈1.6，1.7–1.8列開發計畫；9/1列核心產品",
+            "commercial_timing": "1.6已發佈；後續版完整商用日期未查得",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-cloud-video-watch",
+            "name": "Cloud Video Watch保全中心",
+            "type": "軟體／服務延伸",
+            "uses_and_customers": "保全業與夜間半自動中控監看，降低誤報",
+            "status": "5/29稱已有小規模中控公司／服務；9/1呈現平台架構與保全合作方向",
+            "commercial_timing": "規模仍小；平台逐版上市及合約驗收日期未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "agm",
+              "meeting",
+              "annual"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-ai-agx-server",
+            "name": "AI AGX影像分析伺服器",
+            "type": "新產品",
+            "uses_and_customers": "大型監控之跌倒／異常行為與危險品事件分析",
+            "status": "年報列開發計畫、Jetson AGX與自研模型；9/1列核心產品",
+            "commercial_timing": "已列核心產品，量產出貨／驗收日未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-ai-isp-camera",
+            "name": "AI ISP及G系列雲端攝影機",
+            "type": "既有硬體升級",
+            "uses_and_customers": "高解析及低照度影像、雲端連結，供監控場域",
+            "status": "年報2026計畫、9/1列G系列8MP與AI ISP核心產品",
+            "commercial_timing": "部分舊款已開發；新系列各型號上市日期未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-dual-lens-panorama",
+            "name": "雙鏡頭全景攝影機",
+            "type": "新產品延伸",
+            "uses_and_customers": "180度監控範圍，供公共與商業場域",
+            "status": "年報列GBLP8900／GEBP8900計畫，9/1列雙鏡頭全景核心產品",
+            "commercial_timing": "新型號實際商用年月未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-lpr-camera",
+            "name": "車牌辨識及LPR4913",
+            "type": "既有產品升級",
+            "uses_and_customers": "停車與出入口車牌辨識，非確認已得政府標案",
+            "status": "2025已有LPR2812-DL；年報規劃4913-DL，9/1列LPR4913",
+            "commercial_timing": "前代已有產品；4913完整出貨時點未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-vms-enterprise",
+            "name": "VMS20.1／企業中控軟體",
+            "type": "既有軟體升級",
+            "uses_and_customers": "多路影像、權限、事件告警及多據點管理",
+            "status": "9/1列VMS20.1、ERM2.3.2、Control Center4.3.1與Enterprise1.2／1.3",
+            "commercial_timing": "已列核心產品；各版付費採用規模未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-cloud-access",
+            "name": "雲端門禁與電子門房",
+            "type": "既有產品／服務延伸",
+            "uses_and_customers": "遠端門禁、語音對講及身份管理，住宅與企業",
+            "status": "年報Q1已發佈Cloud Access1.5；1.6列開發方向，9/1列核心產品",
+            "commercial_timing": "1.5已發佈；新一代單案商用未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-cloud-bridge",
+            "name": "Cloud Bridge升級設備",
+            "type": "既有產品延伸",
+            "uses_and_customers": "將既有及第三方ONVIF攝影機連雲端",
+            "status": "年報列Pro X計畫；9/1列Cloud Bridge Plus核心產品，命名按來源保留不當完全同型號",
+            "commercial_timing": "設備既有產品線；新型號驗收日未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-cloud-poe",
+            "name": "雲端PoE設備管理",
+            "type": "軟硬體服務延伸",
+            "uses_and_customers": "遠端供電／網路管理供安控系統商",
+            "status": "2025已有PoE交換器，2026規劃雲端管理服務；9/1列核心雲端功能",
+            "commercial_timing": "實體交換器既有商用；雲端付費方案時點未披露",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-cloud-nvr",
+            "name": "雲端單機錄影及解碼設備",
+            "type": "既有產品升級",
+            "uses_and_customers": "多路儲存、AI分析、人臉搜尋及電視牆",
+            "status": "年報規劃8路GNVRC0810-P及32路Decoder X；9/1核心雲端單機設備標NVRC0810-P",
+            "commercial_timing": "沿來源名稱列示；不自行視為所有型號同一驗收版本",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "annual",
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          },
+          {
+            "project_id": "3356-llm-patrol-integration",
+            "name": "LLM分析與AI巡邏整合",
+            "type": "前瞻應用方向",
+            "uses_and_customers": "擴大影像判讀、保全半哨、機器人與物聯網整合",
+            "status": "9/1策略／架構圖提出，無量化訂單或量產成果證據",
+            "commercial_timing": "未揭商用時點，不稱已大規模部署",
+            "revenue_contribution": "未獨立揭露實際或預估收入／毛利，不以產品合組占比代替單案貢獻",
+            "sources": [
+              "meeting"
+            ],
+            "limitations": [
+              "具名客戶、訂單、收費戶數及單案驗收／營收未披露；進度限來源時點。"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "annual",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/GeoVision_3356-2025AR.pdf",
+          "title": "2025年度年報，2026/4/10刊印",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/annual.pdf",
+          "pages_read": [
+            5,
+            6,
+            7,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            80,
+            81,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "source_id": "q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=3356&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "2026年前三季合併財報，11/11董事會通過及核閱報告",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/q3.pdf",
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            22,
+            23,
+            24,
+            25,
+            28,
+            29,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            48,
+            49,
+            51
+          ]
+        },
+        {
+          "source_id": "agm",
+          "url": "https://www.geovision.com.tw/_upload/files/investor_servicedata/Meeting_Minutes-2026.pdf",
+          "title": "2026/5/29股東常會議事錄，含原始問答摘要",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/agm.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "source_id": "meeting",
+          "url": "https://mopsov.twse.com.tw/nas/STR/335620260901M001.pdf",
+          "title": "2026/9/1法說17頁簡報與主要圖表",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meeting.pdf",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "source_id": "meeting-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=09&co_id=3356",
+          "title": "官方9月法說會索引",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/meetings.html"
+        },
+        {
+          "source_id": "ir-index",
+          "url": "https://www.geovision.com.tw/tw/aboutReports.php",
+          "title": "官網財報法說索引，2026區當時僅Q1，較新報告改取MOPS",
+          "publisher": "奇偶科技／公開資訊觀測站",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/reports.html"
+        },
+        {
+          "source_id": "peer5484",
+          "url": "https://www.twse.com.tw/pdf/ch/5484_ch.pdf",
+          "title": "慧友公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer5484.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "peer8072",
+          "url": "https://www.twse.com.tw/pdf/ch/8072_ch.pdf",
+          "title": "陞泰公司基本資料",
+          "publisher": "臺灣證券交易所",
+          "published_at": null,
+          "published_at_reason": "未查得精確原始發布時間；文件、會議日期另列，不以查閱日充當發布日",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-23-3356/peer8072.json",
+          "pages_read": [
+            1
+          ]
+        },
+        {
+          "source_id": "3356-official-204",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "本公司從事衍生性商品交易達所訂個別契約損失上限",
+          "publisher": "奇偶／公開資訊觀測站",
+          "published_at": "2026-11-23",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "研究進度/來源留存/2026-11-23-官方監看/歷史公告與正文_截至194920.json",
+          "json_pointer": "/new_history_events/204",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 3356 奇偶 公司提供 序號 1 發言日期 115/11/23 發言時間 17:59:04 發言人 李建邦 發言人職稱 總經理兼財務長 發言人電話 02-8797-8377 主旨 本公司從事衍生性商品交易達所訂個別契約損失上限 符合條款 第 20 款 事實發生日 115/11/23 說明 1.契約種類: 混合 2.事實發生日:115/11/23 3.契約金額: NTD147,780,000元 以上共六筆個別契約 4.支付保證金或權利金金額: 無 5.處理程序所訂之全部或個別契約損失上限金額: 根據公司從事衍生性商品交易處理程序第十條規定， 全部契約損失上限為不超過契約總金額之百分之二十； 個別契約損失上限為個別契約金額之百分之十。 若有逾越應呈報總經理及董事長，採取必要之因應措施並 向董事會報告。 6.從事衍生性商品交易原因: 以交易為目的 7.被避險項目: 無 8.被避險項目部位之金額: 無 9.被避險項目之損益狀況: 無 10.依公平價值評估(含已實現及未實現)之損失金額: 個別契約未實現損失金額: (NTD17,667,275元) 以上共六筆個別契約未實現損失金額 11.損失發生原因及對公司之影響: 此次交易中全部契約損失金額(NTD29,404,614元)未超過契約總金額之20%； 個別契約損失金額(NTD17,667,275元)，其金額超過個別契約金額之10%， 依辦法已呈報總經理及董事長，並已向近期董事會報告； 交易符合公司辦法規定，故對我司無重大影響。 12.契約期間: 個別契約期間115年9月10日至116年3月11日 13.限制條款: 無 14.其他重要約定事項: 無 15.其他敘明事項: 無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "175904",
+            "spoke_date": "20261123",
+            "co_id": "3356",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-23T21:41:21.194663+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "本次整家公司公開資料合理查找完成，未揭露客戶、單案收入、訂單／新案產能及明確上市驗收時點者標缺，不推定零或已完成。",
+        "已核讀9/1簡報17頁及主要圖表、5/29議事錄9頁原始問答；法說第17頁只有問答時間字樣，不是問答原文。官方索引未提供可核對文字稿，依使用者指示不找影片。",
+        "2026Q3為保留核閱結論：部分非重要子公司與權益法投資報表未經核閱；不寫成無保留查核或否定意見。",
+        "財報股本、現金減資與員工限制股影響加權平均股數；前三季EPS9.83與Q3單季1.85分列，不把單季EPS相加成累計或直接推TTM。",
+        "9/1產品與占比限上半年資料，不冒充最新Q3產品占比；公司展望、年報開發計畫與已商用／實際收入分開。",
+        "官網財報索引較舊不代表未申報，Q3改取MOPS官方原始檔；市場規模預測不當公司營收或獲利預估。",
+        "各新產品與雲端服務未揭露單案營收、毛利、付費用戶、經常性收入及具名法人EPS預估；不得由「AI」字樣推估訂單。"
+      ]
+    }
+  ],
+  "before_official_record": {
+    "name": "奇偶",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "event_lookup_completion": "event_lookup_complete_with_disclosed_gaps",
+    "event_lookup_completed_at": "2026-11-23T20:06:01.203283+08:00",
+    "event_completion_unit": "完整實質事件更新，非整家公司補齊",
+    "sources": {
+      "3356-official-204": {
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+        "title": "本公司從事衍生性商品交易達所訂個別契約損失上限",
+        "publisher": "奇偶／公開資訊觀測站",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23",
+        "source_evidence_file": "研究進度/來源留存/2026-11-23-官方監看/歷史公告與正文_截至194920.json",
+        "json_pointer": "/new_history_events/204",
+        "official_statement": "公開資訊觀測站 本資料由 (上市公司) 3356 奇偶 公司提供 序號 1 發言日期 115/11/23 發言時間 17:59:04 發言人 李建邦 發言人職稱 總經理兼財務長 發言人電話 02-8797-8377 主旨 本公司從事衍生性商品交易達所訂個別契約損失上限 符合條款 第 20 款 事實發生日 115/11/23 說明 1.契約種類: 混合 2.事實發生日:115/11/23 3.契約金額: NTD147,780,000元 以上共六筆個別契約 4.支付保證金或權利金金額: 無 5.處理程序所訂之全部或個別契約損失上限金額: 根據公司從事衍生性商品交易處理程序第十條規定， 全部契約損失上限為不超過契約總金額之百分之二十； 個別契約損失上限為個別契約金額之百分之十。 若有逾越應呈報總經理及董事長，採取必要之因應措施並 向董事會報告。 6.從事衍生性商品交易原因: 以交易為目的 7.被避險項目: 無 8.被避險項目部位之金額: 無 9.被避險項目之損益狀況: 無 10.依公平價值評估(含已實現及未實現)之損失金額: 個別契約未實現損失金額: (NTD17,667,275元) 以上共六筆個別契約未實現損失金額 11.損失發生原因及對公司之影響: 此次交易中全部契約損失金額(NTD29,404,614元)未超過契約總金額之20%； 個別契約損失金額(NTD17,667,275元)，其金額超過個別契約金額之10%， 依辦法已呈報總經理及董事長，並已向近期董事會報告； 交易符合公司辦法規定，故對我司無重大影響。 12.契約期間: 個別契約期間115年9月10日至116年3月11日 13.限制條款: 無 14.其他重要約定事項: 無 15.其他敘明事項: 無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+        "official_request_parameters": {
+          "seq_no": "1",
+          "spoke_time": "175904",
+          "spoke_date": "20261123",
+          "co_id": "3356",
+          "TYPEK": "sii"
+        }
+      }
+    },
+    "limitations": [
+      "本次只完成上述實質事件的原始公告核對，不代表整家公司完整補齊，不抵銷任何每日公司配額。",
+      "進度限原公告時點，未披露或待主管機關核准事項已明示；後續補充不得無證據自動標完成。"
+    ],
+    "material_events": [
+      {
+        "event_id": "3356-20261123-derivative-loss-limit",
+        "company_code": "3356",
+        "event_date": "2026-11-23",
+        "announcement_dates": [
+          "2026-11-23"
+        ],
+        "work_type": "change_update",
+        "reason": "交易性衍生商品達個別損失上限",
+        "affected_sections": [
+          "transition"
+        ],
+        "status": "researched_with_disclosed_gaps",
+        "counts_as_additional_company": false
+      }
+    ],
+    "transition": {
+      "text": "交易性衍生商品達個別損失上限：11/23公告：混合契約、以交易為目的，無被避險項目；共六筆個別契約金額NTD147,780,000元，個別契約未實現損失合計NTD17,667,275元。公告另列全部契約損失NTD29,404,614元，未超過全部契約金額20%；六筆個別契約已超過各自10%上限並呈報主管及近期董事會。兩個損失金額範圍重疊，不相加成另一筆損失，NTD147,780,000也不是損失額。契約期間2026/9/10–2027/3/11；未實現損失不是未來到期已確定淨損。公司稱依辦法處理、無重大影響，須標為公司說法；交易非避險仍需在非本業損益與風險追蹤揭露。未取得最新完整整體曝險、稅後／歸母影響與平倉結果，不由此推估EPS。",
+      "period": "事件／公告原日期逐項列示，截至2026-11-23固定cutoff",
+      "sources": [
+        "3356-official-204"
+      ],
+      "reviewed_at": "2026-11-23",
+      "update_id": "research-20261123-material-events-v1-3356",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps"
+    }
+  },
+  "before_overview_sha256": "sha256:a89044434708290530e21a3d3a36cb6a2bfefb36c61bb6d7a1d04072fe1459f7",
+  "adopted_record_sha256": "sha256:4eb7a51945feade0ec496d83d47b347710c8fc0296f18313fbf2ad31ca892c6e",
+  "financial_verification": {
+    "common_Q3_income": "matched",
+    "matched_income_twd_thousand_except_eps": {
+      "營業收入": 879552,
+      "營業利益（損失）": 57603,
+      "稅前淨利（淨損）": 796643,
+      "淨利（淨損）歸屬於母公司業主": 754017,
+      "基本每股盈餘（元）": 9.83
+    },
+    "Q3_single_quarter_EPS": 1.85,
+    "financial_asset_gains_thousand": {
+      "equity": 649385,
+      "FCN": 8778,
+      "total": 658163
+    },
+    "Q3_cash_thousand": 512134,
+    "Q3_FVTPL_financial_assets_thousand": 2207878,
+    "pledged_equities_thousand": 620000,
+    "cash_reduction_actual_pct": 14.89,
+    "cash_reduction_per_share": 1.49,
+    "qualified_review_disclosed": true,
+    "common_numeric_files_modified": false,
+    "detailed_financial_tables_preserved": true,
+    "source_evidence_sha256": {
+      "annual": "sha256:417aa7f29f3df7c5501c23873a83c9790ae97ecc1b72863f07c0ab4fd6bb67d9",
+      "q3": "sha256:bf4d92f1bf85cd7f9bbd81c4950c6b759848e9f482df705850865acf7fbe3e45",
+      "agm": "sha256:a7a2c75ad70beddcf8c4f7f9e5b5ab0b0db91b2174291326cd1ca4ea18cb49f4",
+      "meeting": "sha256:0718c769970211eb4fcea4d4ab7643f81efafbf49b823e34b5d98189e8c21510",
+      "meeting-index": "sha256:275026358c6347d0a777bd42717de09533b11f8ae8f3fdea5ad85d6be3850415",
+      "ir-index": "sha256:e6af441429360b69db9c8adc9a985466910ba3effff2d7a9b1f921f5f441dbd0",
+      "peer5484": "sha256:0115a973bf6396159ad34f5307d65ad44c517f0aa69db6e5efc223924dfa55fc",
+      "peer8072": "sha256:5961a0e23fb049628cd6c0415158071e3552cd9e934a6d0320bff5dd2598d829",
+      "3356-official-204": "sha256:90b42c9d4f7349761ade6ae77c22fe1eb4d09afe01f1b270755574d533f1453f"
+    }
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved_as_null": true,
+    "lookup_completion_recorded_separately": true,
+    "existing_event_id": "3356-20261123-derivative-loss-limit",
+    "existing_event_text_and_source_preserved": true,
+    "overview_and_its_event_unchanged": true,
+    "project_ids": [
+      "3356-cloud-vms",
+      "3356-cloud-video-watch",
+      "3356-ai-agx-server",
+      "3356-ai-isp-camera",
+      "3356-dual-lens-panorama",
+      "3356-lpr-camera",
+      "3356-vms-enterprise",
+      "3356-cloud-access",
+      "3356-cloud-bridge",
+      "3356-cloud-poe",
+      "3356-cloud-nvr",
+      "3356-llm-patrol-integration"
+    ],
+    "new_meeting": false,
+    "historical_meetings_not_added_to_recent": true,
+    "new_today_company_count": 0,
+    "quota_origin": "missed-quota-20261022-min1",
+    "old_deficit_completed_this_batch": 1,
+    "old_deficit_remaining": 25,
+    "today_5306_quota_unchanged": true,
+    "monitoring_cutoff_not_advanced": true
+  }
+}
