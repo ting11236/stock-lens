@@ -3236,7 +3236,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2906.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-30",
+        "description": "公司業務及營運概況說明",
+        "end_date": "2026-11-30",
+        "kind": "法說會",
+        "location": "線上法說會",
+        "name": "高林",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2906.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -27376,6 +27387,18 @@
       "name": "菱生",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "2369.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-30",
+      "description": "公司業務及營運概況說明",
+      "end_date": "2026-11-30",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "高林",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2906.TW",
       "time": "14:00"
     },
     {
@@ -71366,5 +71389,5 @@
       "time": "10:00"
     }
   ],
-  "updated_at": "2026-11-25T15:15:10+08:00"
+  "updated_at": "2026-11-25T15:27:53+08:00"
 }
