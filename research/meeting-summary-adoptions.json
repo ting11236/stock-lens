@@ -251,6 +251,24 @@
         "11/12簡報已讀，當場原始文字問答未取得；歷史36題不替代本場。",
         "11/25未來場次不列為已完成。"
       ]
+    },
+    {
+      "symbol": "1527.TW",
+      "name": "鑽全",
+      "kind": "股東會",
+      "meeting_name": "股東臨時會：策略私募與四組現場問答",
+      "meeting_date": "2026-11-19",
+      "summary_updated_at": "2026-11-25",
+      "batch_id": "research-20261125-1527-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "f590c5dec363a955fb9aa50233ad7d14b3b7a3d4",
+      "deployment_commit": "0922580e2853528a55b973ff99c3f12b25d1fc4e",
+      "workflow_run_id": 45567908175,
+      "verified_at": "2026-11-25T07:30:16.250Z",
+      "original_qa_verified": true
     }
   ]
 }
