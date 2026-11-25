@@ -108,7 +108,7 @@ test('new structured developments replace old company-specific outlook prose and
  a.run('newCompanyProfile='+JSON.stringify(profile));
  const html=a.run("companyOutlookHtml({symbol:'1101.TW'},newCompanyProfile)");
  for(const p of profile.developments.projects){assert.ok(html.includes('data-development-project="'+p.project_id+'"'));assert.ok(html.includes(p.name));}
- assert.equal((html.match(/data-development-project=/g)||[]).length,15);
+ assert.equal((html.match(/data-development-project=/g)||[]).length,profile.developments.projects.length);
  assert.match(html,/CIH/);assert.match(html,/10\/13/);assert.match(html,/未確認核准掛牌/);assert.match(html,/Cimpor Global Holding/);
  assert.doesNotMatch(html,/2026 上半年資料顯示，水泥仍是主要營收來源/);
 });
