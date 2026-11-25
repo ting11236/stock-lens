@@ -11873,5 +11873,401 @@
       "update_id": "research-20261124-material-events-v1-2025",
       "research_completion": "event_lookup_complete_with_disclosed_gaps"
     }
+  },
+  "1535.TW": {
+    "name": "中宇",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "lookup_completion": "completed_lookup_with_disclosed_gaps",
+    "lookup_completed_at": "2026-11-25T15:03:10.553731+08:00",
+    "lookup_completion_unit": "整家公司公開資料查找完成附缺漏",
+    "lookup_origin_date": "2026-10-23",
+    "lookup_task_id": "missed-quota-20261023-min1",
+    "sources": {
+      "annual": {
+        "url": "https://www.ecotek.com.tw/upload/FFILE/FIN04_00667.pdf",
+        "title": "2025年報",
+        "publisher": "中宇／官方來源",
+        "published_at": null,
+        "published_at_reason": "未查得原始上傳時間，文件日期另列",
+        "accessed_at": "2026-11-25",
+        "source_evidence_file": "研究進度/來源留存/2026-11-25-1535/annual.pdf",
+        "total_pages": 141,
+        "pages_read": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          130,
+          131,
+          132
+        ]
+      },
+      "q3": {
+        "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1535&year=115&seamon=3&mtype=A&dtype=AI1",
+        "title": "2026前三季合併核閱財報11/2",
+        "publisher": "中宇／官方來源",
+        "published_at": null,
+        "published_at_reason": "未查得原始上傳時間，文件日期另列",
+        "accessed_at": "2026-11-25",
+        "source_evidence_file": "研究進度/來源留存/2026-11-25-1535/q3.pdf",
+        "total_pages": 60,
+        "pages_read": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          17,
+          23,
+          27,
+          28,
+          34,
+          35,
+          36,
+          37,
+          48,
+          49,
+          54,
+          55
+        ]
+      },
+      "meeting": {
+        "url": "https://www.ecotek.com.tw/upload/FFILE/FIN05_00661.pdf",
+        "title": "4/24法說24頁",
+        "publisher": "中宇／官方來源",
+        "published_at": null,
+        "published_at_reason": "未查得原始上傳時間，文件日期另列",
+        "accessed_at": "2026-11-25",
+        "source_evidence_file": "研究進度/來源留存/2026-11-25-1535/meeting.pdf",
+        "total_pages": 24,
+        "pages_read": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "agm": {
+        "url": "https://www.ecotek.com.tw/upload/FFILE/FIN04_00682.pdf",
+        "title": "5/28議事錄與無提問記載",
+        "publisher": "中宇／官方來源",
+        "published_at": null,
+        "published_at_reason": "未查得原始上傳時間，文件日期另列",
+        "accessed_at": "2026-11-25",
+        "source_evidence_file": "研究進度/來源留存/2026-11-25-1535/agm.pdf",
+        "total_pages": 32,
+        "pages_read": [
+          1,
+          2,
+          3,
+          4,
+          32
+        ]
+      },
+      "qa-index": {
+        "url": "https://www.ecotek.com.tw/?prog=shold_qa",
+        "title": "股務FAQ非場次問答",
+        "publisher": "中宇／官方來源",
+        "published_at": null,
+        "published_at_reason": "未查得原始上傳時間，文件日期另列",
+        "accessed_at": "2026-11-25",
+        "source_evidence_file": "研究進度/來源留存/2026-11-25-1535/qa-index.html"
+      },
+      "peer": {
+        "url": "https://www.ctci.com/www/ctci2022/page.aspx?C=0401&L=CH",
+        "title": "中鼎官方集團與TWSE9933簡介",
+        "publisher": "中宇／官方來源",
+        "published_at": null,
+        "published_at_reason": "未查得原始上傳時間，文件日期另列",
+        "accessed_at": "2026-11-25"
+      }
+    },
+    "limitations": [
+      "整家公司公開資料合理查找完成附缺漏；在手合約、工程名單及先導廠不是當期收入。",
+      "4/24簡報24頁全文及圖表已讀；5/28議事錄主議程與末頁核對，明載無股東提問。官網Q&A為股務FAQ，未查得4/24原始文字問答，不找影片。",
+      "年報機電含耐火及生技；法說拆六類；Q3部門按法人區分，不混用分類。",
+      "單案訂單、驗收日、收入毛利與商用時間未揭露者標缺；未取得具名法人預估，不推估全年EPS。"
+    ],
+    "historical_meeting_research": {
+      "event_dates": [
+        "2026-04-24",
+        "2026-05-28"
+      ],
+      "reviewed_at": "2026-11-25",
+      "AGM_has_no_questions": true,
+      "meeting_QA_verified": false,
+      "FAQ_not_meeting_QA": true,
+      "batch_id": "research-20261125-1535-v1"
+    },
+    "business": {
+      "text": "公司概述：中宇為中鋼集團工程服務公司，整合可行性研究、設計、採購製裝、施工試車、驗收保固與操作維護，介於業主與機械、電氣儀控、土木及管線協力商之間。包括環保與水資源、機電、耐火、生技製藥建廠、發電與太陽光電、資源回收場及水場代營運、材料設備銷售，不是只有廢棄物清運。\n產品用途與客戶：中鋼、中龍鋼廠設備及煉焦爐／熱風爐更新、集塵脫硫脫硝及再生水；公共工程有琉球電廠油槽消防、C-GIS、港口岸電、中油烏材林廢水、澄清湖與金門太湖水場。生技工程具名國邑、智新、萬能及TBMC竹北設計，這是4/24列2026Q1主要工程，不等於各案新得標、已驗收或中宇持有藥廠。\n營收及市場：2025年報機電53.04%、環保17.09%、資源回收代營運及機電維護28.48%、其他1.39%。4/24法說另拆機電41%、運維28%、環保17%、耐火12%、生技1%、其他1%，因分類不同不可說機電下滑12個百分點。台灣98.52%、越南1.48%。2025中鋼收入6,277,381千元占55.23%、中龍3,647,430占32.09%、其他12.68%；單一供應商未達進貨10%不代表業主分散。\n同業（研究推論）：9933中鼎官方確認為統包工程集團，可比較履約成本、在手合約及收款，但其跨國與產業分布更廣，中宇集中中鋼及有耐火／運維特性，不能直接套用整家公司估值或認定互為客戶。數字及估值由網站處理。",
+      "period": "2025全年、2026前三季；4/24簡報2026Q1工程名單與5/28歷史會議",
+      "sources": [
+        "annual",
+        "q3",
+        "meeting",
+        "agm",
+        "qa-index",
+        "peer"
+      ],
+      "reviewed_at": "2026-11-25",
+      "update_id": "research-20261125-1535-v1-business",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    },
+    "earnings": {
+      "text": "獲利來源：工程受履約進度、成本估計及組合影響，運維提供較持續服務，銷售與利息／權益法等另分。2026前三季合併收入6,268,614千元，工程5,828,708、技術服務381,347、銷貨58,559；這與舊產品組合、按中宇／越南／其他法人報導部門不同。\n實績：前三季毛利719,416千元，調未實現／已實現關聯交易利益後毛利淨額722,364；營業利益300,485（去年311,130）、業外78,561（去年110,000）、稅前379,046、總及歸母淨利301,939、EPS2.44（去年2.79）。單Q3收入2,081,480、營業利益95,810、歸母98,592、EPS0.80，不能把累計2.44當單季或全年預估。\n變動原因：工程收入由去年8,233,091降至5,828,708千元，但毛利淨額746,266降至722,364、費用435,136降至421,879，收入與獲利變動幅度不同。業外含子公司清算損失16,498、金融資產利益6,113（去年18,570）、權益法利益29,049（去年33,103）、利息54,780。這是報表橋接，未揭單案虧損或收入時點原因不杜撰。\n在手合約：9月底尚未履約交易價格9,869,779千元，年底8,331,858、去年同期9,260,921，公司預計至2029年底隨完工逐步認列，不是全數今年收入或保證利潤。\n現金流與資金：前三季營業淨流出17,202千元，去年流入310,907；避險金融資產變動流出141,220、應付減少159,855、其他應付減少128,847，關係人應收回收99,430、合約負債增加34,255等互有影響，另付稅105,067。9月底現金1,082,262，定存／受限存款另列；總負債3,185,396內含工程預收，不能全稱銀行借款。投資性不動產減205,266為重分類至廠房設備，不是出售利得；股利支付371,228亦影響現金。11/2為核閱而非年度查核，結論未發現重大不符。",
+      "period": "2025全年、2026前三季；4/24簡報2026Q1工程名單與5/28歷史會議",
+      "sources": [
+        "annual",
+        "q3",
+        "meeting",
+        "agm",
+        "qa-index",
+        "peer"
+      ],
+      "reviewed_at": "2026-11-25",
+      "update_id": "research-20261125-1535-v1-earnings",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    },
+    "transition": {
+      "text": "展望：依鋼廠更新與駐場維護基礎，拓展再生水、岸電、太陽能儲能、生技建廠與設備材料。人力老化、協力商及材料成本增加、鋼鐵業投資時點是限制。2025研發9,448千元、2026前三季10,187千元。商機和工程名單不可當新增得標或驗收。\n技術進度：與中鋼合作煙道氣碳捕捉先導廠已運轉，能力每年500噸，仍研究二氧化碳用途，不當量產售碳收入。脫硫＋PM2.5模場120小時測試達公司目標SO2逾95%、PM2.5逾90%，後續評估實場；中低溫觸媒已有燒結一號小量應用，模擬效率不是全線替換已完成。\n會議：4/24簡報24頁與圖表已讀，屬2025財務及2026Q1工程名單的歷史場次；5/28議事錄主議程及末頁核對，明載無股東提問。官網股東Q&A只是寄件、紀念品等FAQ，未找到該場原始文字問答就留缺，不找影片。本批為backfill，不加近期會議或刷新全公司日期。例行代理發言人及法人代表異動不作重大事件。未披露單案金額、收入、毛利、驗收及法人預估不補猜；後續以合約認列、集團外客群與收款追蹤。",
+      "period": "2025全年、2026前三季；4/24簡報2026Q1工程名單與5/28歷史會議",
+      "sources": [
+        "annual",
+        "q3",
+        "meeting",
+        "agm",
+        "qa-index",
+        "peer"
+      ],
+      "reviewed_at": "2026-11-25",
+      "update_id": "research-20261125-1535-v1-transition",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    },
+    "developments": {
+      "text": "固定發展項目區分既有運維、已列工程、先導／模場與尚在爭取之商機；不依計畫年自動推定驗收。",
+      "period": "2025全年、2026前三季；4/24簡報2026Q1工程名單與5/28歷史會議",
+      "sources": [
+        "annual",
+        "q3",
+        "meeting",
+        "agm",
+        "qa-index",
+        "peer"
+      ],
+      "projects": [
+        {
+          "project_id": "1535-csc-electromechanical",
+          "name": "鋼廠機電與煉焦爐更新",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "中鋼、中龍設備",
+          "status": "2026Q1列PLCM、煉焦爐、CDQ冷卻水、條鋼精整線",
+          "commercial_timing": "依個案履約，未揭共同完工日",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-liuqiu-power",
+          "name": "琉球電廠油槽消防及C-GIS",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "電力安全與配電",
+          "status": "列2026Q1主要工程",
+          "commercial_timing": "未查得各案驗收更新",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "meeting"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-water-reuse",
+          "name": "再生水與廢水統包",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "中龍福田、中油烏材林",
+          "status": "2025及2026Q1主要工程",
+          "commercial_timing": "未完整披露個案驗收",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-water-om",
+          "name": "水場與資源回收運維",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "中鋼、中龍、澄清湖、金門",
+          "status": "既有代操作及維護，聯合承攬須按合約比例",
+          "commercial_timing": "既有營運中，續約條件各異",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "meeting",
+            "q3"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-carbon-capture-pilot",
+          "name": "碳捕捉先導廠",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "中鋼研發合作",
+          "status": "已運轉、年捕捉500噸能力，研究後續用途",
+          "commercial_timing": "無商業化／售碳收入日期",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "agm"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-sox-pm25",
+          "name": "脫硫與PM2.5複合處理",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "鋼廠燒結煙氣",
+          "status": "120小時模場達SO2>95%、PM2.5>90%目標，評估實場",
+          "commercial_timing": "實場擴用日未揭",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "agm"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-lowtemp-catalyst",
+          "name": "中低溫脫硝觸媒",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "中鋼燒結設備",
+          "status": "燒結一號小量應用，持續觀察及模擬",
+          "commercial_timing": "未稱全線替換",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "agm"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-biopharma-epc",
+          "name": "生技製藥建廠及確效",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "國邑、智新、萬能、TBMC",
+          "status": "2026Q1列充填廠房／建廠及設計案",
+          "commercial_timing": "客戶量產與中宇工程收入分開",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "meeting"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-refractory-upgrade",
+          "name": "耐火工程工料合一",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "中鋼、中龍爐襯／熱風爐",
+          "status": "既有工程，規劃研發實驗室及工廠團隊",
+          "commercial_timing": "個案設備進度未完整揭",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-renewables-shorepower",
+          "name": "太陽能、儲能及岸電",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "鋼鐵集團、唐榮與港口",
+          "status": "已列光電／港口岸電，儲能微電網含爭取商機",
+          "commercial_timing": "已列工程不等於全部驗收",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "meeting"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        },
+        {
+          "project_id": "1535-materials-sales",
+          "name": "藥劑及生醫環保設備",
+          "type": "既有業務拓展／技術升級",
+          "uses_and_customers": "水處理及生醫客戶",
+          "status": "除氟藥劑、活性碳、防蝕、LED及生醫設備代理",
+          "commercial_timing": "既有銷售與新計畫分列",
+          "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+          "sources": [
+            "annual",
+            "meeting"
+          ],
+          "limitations": [
+            "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+          ]
+        }
+      ],
+      "reviewed_at": "2026-11-25",
+      "update_id": "research-20261125-1535-v1-developments",
+      "research_completion": "completed_lookup_with_disclosed_gaps"
+    }
   }
 }
