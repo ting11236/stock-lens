@@ -1,0 +1,1134 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261125-1527-v1",
+    "ready": true,
+    "created_at": "2026-11-25T15:09:32.849152+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:048c18bd1da17b71d8c8c3eeaeb5ec97125b861cdfe8516e9fa56e10da221377",
+    "work_type": "backfill",
+    "origin_date": "2026-11-25",
+    "completion_unit": "整家公司公開資料查找完成附缺漏",
+    "new_meeting": true,
+    "historical_meeting_dates": [
+      "2026-06-15",
+      "2025-07-18"
+    ],
+    "meeting_QA_verified": true,
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "financial_periods_labeled": true,
+      "old_project_ids_preserved": true
+    },
+    "limitations": [
+      "2026Q3採MOPS完整30頁個別財報AI2；官網四頁掃描件標合併，不以其標籤混用報表範圍。",
+      "已讀11/19股臨會正式議事錄全14頁及四組現場問答；6/15常會全20頁無股東問答。2025法說簡報全24頁與圖片讀完，沒有逐字QA紀錄；不虛構法說回答。",
+      "未揭露具名ODM客戶、各新產品訂單／量產營收及液冷商用時程；規劃與合作意向不視為已接單。",
+      "11/19私募已決價，繳款至12/3；截止日未證實收足款或完成新股發行。整家公司公開查找附缺漏，不刷新全公司reviewed_at。"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261125-1527-v1-business",
+      "task_id": "daily-backfill-20261125-1527",
+      "company_code": "1527",
+      "company_name": "鑽全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "business",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:ebd56baa3ccbfe446faabdeb168ea33a4ff20aec9f014a601348c1cf205afe7d",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "鑽全是氣動、電動專業工具與精密零件製造商。主力氣動打釘機用於木構住宅、裝修、家具、棧板及包裝；衝擊扳手、棘輪等車用工具用於汽修維護，另有瓦斯釘槍、磨砂／研磨工具、封箱機及自行車／汽車零件。壓鑄鋁鎂、精密加工、模具、塗裝、熱處理、塑膠射出及組裝測試構成垂直製造能力，並非單純品牌代理。\n產業鏈從鋁鎂錠、鋼材、塑膠原料，經鑄造與加工，到ODM客戶、進口商、五金建材連鎖及專業使用者。主要研發生產基地在台中。2025年度產品分類為氣動工具67.47%、電動工具7.67%、其他24.86%；其他包括零組件等，不等於全部新事業。地區銷售美洲41.88%、歐洲36.17%、亞洲及其他21.95%，受海外建築／修繕與工具通路需求影響。2024法說的釘槍47%、車用22%、自行車13%、其他18%是不同年度及分類，不能與2025氣動／電動混加。\nODM客戶名稱未揭露；年報列MAX、MAKITA等是競爭對手，不能當客戶名單。BEX為自有專業工具品牌，與ODM並行，品牌建設及全球通路仍需核對實際銷售貢獻。",
+        "period": "2025年度／2026前三季個別財報及11/19股臨會；查閱截至11/25 13:43:14+08:00",
+        "sources": [
+          "1527-annual",
+          "1527-q3",
+          "1527-egm",
+          "1527-agm",
+          "1527-call",
+          "1515-peer",
+          "1515-code"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1527-annual",
+          "url": "https://www.basso.com.tw/files/01_114年度股東會年報.pdf",
+          "title": "2025年度年報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-annual.pdf",
+          "total_pages": 100,
+          "pages_read": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1527-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&seamon=3&mtype=A&dtype=AI2",
+          "title": "2026第三季個別財報30頁；11/12上傳",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-q3.pdf",
+          "total_pages": 30,
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            22,
+            23,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "source_id": "1527-egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&mtype=F&dtype=F05",
+          "title": "2026/11/19股臨會正式議事錄；11/24上傳；四組現場QA",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-egm.pdf",
+          "total_pages": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "source_id": "1527-agm",
+          "url": "https://www.basso.com.tw/files/08_115年度股東會議事錄.pdf",
+          "title": "2026/6/15股東常會議事錄",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-agm.pdf",
+          "total_pages": 20,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "source_id": "1527-call",
+          "url": "https://www.basso.com.tw/files/2025年_法說會簡報樣式_202500708.pdf",
+          "title": "2025/7/18法說歷史簡報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-call.pdf",
+          "total_pages": 24,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "source_id": "1515-peer",
+          "url": "https://www.rexon.net/product.php?act=list&cid=1",
+          "title": "力山官方工具產品",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25"
+        },
+        {
+          "source_id": "1515-code",
+          "url": "https://www.rexon.net/data/report/1776157732OQM2M.pdf",
+          "title": "力山2026股東會手冊封面股票代號1515",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-25T15:09:32.849152+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "2026Q3採MOPS完整30頁個別財報AI2；官網四頁掃描件標合併，不以其標籤混用報表範圍。",
+        "已讀11/19股臨會正式議事錄全14頁及四組現場問答；6/15常會全20頁無股東問答。2025法說簡報全24頁與圖片讀完，沒有逐字QA紀錄；不虛構法說回答。",
+        "未揭露具名ODM客戶、各新產品訂單／量產營收及液冷商用時程；規劃與合作意向不視為已接單。",
+        "11/19私募已決價，繳款至12/3；截止日未證實收足款或完成新股發行。整家公司公開查找附缺漏，不刷新全公司reviewed_at。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261125-1527-v1-earnings",
+      "task_id": "daily-backfill-20261125-1527",
+      "company_code": "1527",
+      "company_name": "鑽全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "earnings",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:ebd56baa3ccbfe446faabdeb168ea33a4ff20aec9f014a601348c1cf205afe7d",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "獲利以工具與零件銷售毛利減研發、銷管費用為本業基礎；公司未按單案提供完整產品利潤，不把營收比重當獲利占比。2025全年營收2,896,539千元、營業利益175,037千元、稅後211,060千元、EPS1.52元；毛利率20.93%較2024的26.77%下降，本業承壓，研發支出218,128千元仍持續投入。\n2026前三季個別財報營收2,118,314千元、毛利360,711千元、營業利益53,632千元，較去年同期2,302,441／502,670／170,962千元減少；稅前179,747、稅後144,386千元及EPS1.04元則接近去年稅後144,739及EPS1.04。兩者落差來自業外126,115千元，其中匯兌利益31,637、公允價值金融資產利益42,521及利息35,765千元等，不能說新業務填補了本業。單季Q3營收785,655、營業利益32,909、稅後29,585千元、EPS0.21；單季金融評價損失32,546千元，不能用累計評價利益描述當季。\n前三季營業現金流97,332千元較213,464千元下降；應收與存貨增加是資金占用觀察點。9月底現金300,806千元，流動／非流動透過損益按公允價值金融資產1,344,648／293,590千元須與現金區分。期末應收682,077、存貨805,299千元；五名客戶占應收35%是信用集中，不能因年報未列單一銷售10%客戶就稱無集中風險。期內現金增加含投資資產調度，非全部本業創現。私募繳款尚未截止，不把預定募集款算入9月底現金。\n相似同業1515力山：官方產品為木工電動工具等、供專業品牌市場，與鑽全有海外工具ODM／製造及通路需求可比性；力山亦有健身器材、工具組合不同，不宜直接套用其毛利率或估值。此為產業比較推論，非公司認定直接同業。",
+        "period": "2025年度／2026前三季個別財報及11/19股臨會；查閱截至11/25 13:43:14+08:00",
+        "sources": [
+          "1527-annual",
+          "1527-q3",
+          "1527-egm",
+          "1527-agm",
+          "1527-call",
+          "1515-peer",
+          "1515-code"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1527-annual",
+          "url": "https://www.basso.com.tw/files/01_114年度股東會年報.pdf",
+          "title": "2025年度年報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-annual.pdf",
+          "total_pages": 100,
+          "pages_read": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1527-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&seamon=3&mtype=A&dtype=AI2",
+          "title": "2026第三季個別財報30頁；11/12上傳",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-q3.pdf",
+          "total_pages": 30,
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            22,
+            23,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "source_id": "1527-egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&mtype=F&dtype=F05",
+          "title": "2026/11/19股臨會正式議事錄；11/24上傳；四組現場QA",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-egm.pdf",
+          "total_pages": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "source_id": "1527-agm",
+          "url": "https://www.basso.com.tw/files/08_115年度股東會議事錄.pdf",
+          "title": "2026/6/15股東常會議事錄",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-agm.pdf",
+          "total_pages": 20,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "source_id": "1527-call",
+          "url": "https://www.basso.com.tw/files/2025年_法說會簡報樣式_202500708.pdf",
+          "title": "2025/7/18法說歷史簡報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-call.pdf",
+          "total_pages": 24,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "source_id": "1515-peer",
+          "url": "https://www.rexon.net/product.php?act=list&cid=1",
+          "title": "力山官方工具產品",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25"
+        },
+        {
+          "source_id": "1515-code",
+          "url": "https://www.rexon.net/data/report/1776157732OQM2M.pdf",
+          "title": "力山2026股東會手冊封面股票代號1515",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-25T15:09:32.849152+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "2026Q3採MOPS完整30頁個別財報AI2；官網四頁掃描件標合併，不以其標籤混用報表範圍。",
+        "已讀11/19股臨會正式議事錄全14頁及四組現場問答；6/15常會全20頁無股東問答。2025法說簡報全24頁與圖片讀完，沒有逐字QA紀錄；不虛構法說回答。",
+        "未揭露具名ODM客戶、各新產品訂單／量產營收及液冷商用時程；規劃與合作意向不視為已接單。",
+        "11/19私募已決價，繳款至12/3；截止日未證實收足款或完成新股發行。整家公司公開查找附缺漏，不刷新全公司reviewed_at。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261125-1527-v1-developments",
+      "task_id": "daily-backfill-20261125-1527",
+      "company_code": "1527",
+      "company_name": "鑽全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "developments",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:ebd56baa3ccbfe446faabdeb168ea33a4ff20aec9f014a601348c1cf205afe7d",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "發展主軸是原有氣動工具精進、無線化、自有品牌與精密零件應用拓展，再以11月私募引入策略資源。2025年報稱成功開發16款氣動打釘機、4款氣動車用工具、3項電池／充電器、11款電動打釘機及11款電動車用工具；完成開發不等於每款均已量產或有可核對收入。\n年報對無人機、半導體周邊、醫療輔具、低軌衛星、軍用通訊及電動自行車等列精密壓鑄零件目標應用。用途目標與具名客戶、訂單、認證、商用收入之間仍有缺口，不以熱門應用當既成轉型。\n11/19股臨會及私募揭露亞崴工具機與德昌營造的策略合作方向，涉及自動化／精密製造資源、未來廠房規劃與液冷新業務設施、工程使用回饋及BEX品牌推廣。液冷為規劃拓展；未揭具名AI伺服器終端客戶、量產時程或營收，不寫成AI訂單已挹注。各固定項目保留狀態與未揭露欄位。",
+        "period": "2025年度／2026前三季個別財報及11/19股臨會；查閱截至11/25 13:43:14+08:00",
+        "sources": [
+          "1527-annual",
+          "1527-q3",
+          "1527-egm",
+          "1527-agm",
+          "1527-call",
+          "1515-peer",
+          "1515-code"
+        ],
+        "projects": [
+          {
+            "project_id": "1527-pneumatic-nailers",
+            "name": "氣動打釘機升級",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "木構／裝修、家具與棧板包裝；客戶未具名",
+            "status": "既有商用業務，2025開發16款",
+            "commercial_timing": "個款量產時間未披露",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-air-automotive",
+            "name": "氣動車用工具",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "汽車維修的扳手／棘輪等；客戶未具名",
+            "status": "既有商用，2025開發4款",
+            "commercial_timing": "新款量產時點未披露",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-cordless-nailers",
+            "name": "無線電動打釘機",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "建築施工減少空壓管線限制",
+            "status": "2025開發11款；電動工具整組營收已揭，單款未拆",
+            "commercial_timing": "個款出貨／商用時間未披露",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-cordless-automotive",
+            "name": "電動車用工具",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "車用維修的電動工具",
+            "status": "2025開發11款",
+            "commercial_timing": "未披露個款商用時程",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-battery-platform",
+            "name": "電池與充電器平台",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "配合無線工具續航及平台整合",
+            "status": "2025開發3項",
+            "commercial_timing": "未披露個案量產時程",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-precision-diecasting",
+            "name": "高精度鋁鎂壓鑄應用",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "既有自行車／車件；拓展無人機、半導體周邊、醫輔、低軌及通訊等目標",
+            "status": "既有零件營業與新領域開發並存，未證實所有新領域接單",
+            "commercial_timing": "各新領域認證與收入時程未披露",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-industrial-automation",
+            "name": "工業釘槍與自動化",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "棧板／包裝與高精度加工，自動化策略合作",
+            "status": "年報研發方向；亞崴合作資源，不是已量產新機床",
+            "commercial_timing": "未揭具體商用排程",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-bex-brand",
+            "name": "BEX自有品牌通路",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "專業工具用戶；台灣及海外通路，德昌工程使用回饋／推廣",
+            "status": "既有品牌與通路深化計畫",
+            "commercial_timing": "新通路銷售時程／收入未單獨揭露",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-liquid-cooling-development",
+            "name": "液冷新業務與設施規劃",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "液冷及新業務基礎設施合作；未揭終端客戶",
+            "status": "11/19策略說明的拓展規劃，不視為已獲AI訂單",
+            "commercial_timing": "未揭量產／商用時程",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1527-strategic-private-placement",
+            "name": "亞崴與德昌私募策略合作",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "營運資金、製造／設施及長期成長資源",
+            "status": "11/19股東會通過並定價，2,700萬股25.34元；尚在繳款期",
+            "commercial_timing": "預訂12/3繳款截止及增資基準，非已完成",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1527-annual",
+              "1527-q3",
+              "1527-egm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1527-annual",
+          "url": "https://www.basso.com.tw/files/01_114年度股東會年報.pdf",
+          "title": "2025年度年報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-annual.pdf",
+          "total_pages": 100,
+          "pages_read": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1527-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&seamon=3&mtype=A&dtype=AI2",
+          "title": "2026第三季個別財報30頁；11/12上傳",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-q3.pdf",
+          "total_pages": 30,
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            22,
+            23,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "source_id": "1527-egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&mtype=F&dtype=F05",
+          "title": "2026/11/19股臨會正式議事錄；11/24上傳；四組現場QA",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-egm.pdf",
+          "total_pages": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "source_id": "1527-agm",
+          "url": "https://www.basso.com.tw/files/08_115年度股東會議事錄.pdf",
+          "title": "2026/6/15股東常會議事錄",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-agm.pdf",
+          "total_pages": 20,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "source_id": "1527-call",
+          "url": "https://www.basso.com.tw/files/2025年_法說會簡報樣式_202500708.pdf",
+          "title": "2025/7/18法說歷史簡報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-call.pdf",
+          "total_pages": 24,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "source_id": "1515-peer",
+          "url": "https://www.rexon.net/product.php?act=list&cid=1",
+          "title": "力山官方工具產品",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25"
+        },
+        {
+          "source_id": "1515-code",
+          "url": "https://www.rexon.net/data/report/1776157732OQM2M.pdf",
+          "title": "力山2026股東會手冊封面股票代號1515",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-25T15:09:32.849152+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "2026Q3採MOPS完整30頁個別財報AI2；官網四頁掃描件標合併，不以其標籤混用報表範圍。",
+        "已讀11/19股臨會正式議事錄全14頁及四組現場問答；6/15常會全20頁無股東問答。2025法說簡報全24頁與圖片讀完，沒有逐字QA紀錄；不虛構法說回答。",
+        "未揭露具名ODM客戶、各新產品訂單／量產營收及液冷商用時程；規劃與合作意向不視為已接單。",
+        "11/19私募已決價，繳款至12/3；截止日未證實收足款或完成新股發行。整家公司公開查找附缺漏，不刷新全公司reviewed_at。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261125-1527-v1-transition",
+      "task_id": "daily-backfill-20261125-1527",
+      "company_code": "1527",
+      "company_name": "鑽全",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:ebd56baa3ccbfe446faabdeb168ea33a4ff20aec9f014a601348c1cf205afe7d",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "11/19股臨會通過私募普通股上限2,700萬股；同日董事會定價每股25.34元，參考價31.29元，對象亞崴1,500萬股、德昌1,200萬股。公告繳款11/20至12/3，增資基準日12/3，具三年轉讓限制。截止11/25仍為定價／繳款期間，不能稱已募足、新股全部發行或已取得客戶營收。用途為營運資金及長期成長策略；董事賴伯彥利益迴避，不自行推論違法。\n正式股臨會紀錄有股東129298四組問答：一、現金與金融資產足夠為何此時募資？公司答覆以長期新業務、海外布局與不確定市場下的資金彈性說明，非公告即時流動性危機。二、稀釋與效益？公司承認增資短期可能影響每股數字，期待策略資源帶來長期競爭力，未保證EPS立即增加。三、新領域是否已有實質進度？公司說明現有推進與合作方向，但未給可核對的新業務訂單金額、量產營收或投資報酬，保留缺漏。四、為何選工具機亞崴及營造德昌？前者連結製造技術與設備／自動化，後者連結廠房設施、液冷規劃、工程端工具回饋及品牌推廣；策略互補不等於客戶已下單。\n展望以工具無線化、製造整合與品牌通路為持續方向；液冷、特殊精密件與跨業合作須用後續商用和收入驗證。風險包括海外需求、關稅與匯率、工具毛利下降、研發費用、新領域執行、客戶應收集中及私募稀釋。6/15常會無現場問題記錄；2025法說為歷史基礎，不當2026近期事件。只將11月私募／新策略的實質變化列為事件，例行會議公告及舊簡報不湊重大訊息。",
+        "period": "2025年度／2026前三季個別財報及11/19股臨會；查閱截至11/25 13:43:14+08:00",
+        "sources": [
+          "1527-annual",
+          "1527-q3",
+          "1527-egm",
+          "1527-agm",
+          "1527-call",
+          "1515-peer",
+          "1515-code"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1527-annual",
+          "url": "https://www.basso.com.tw/files/01_114年度股東會年報.pdf",
+          "title": "2025年度年報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-annual.pdf",
+          "total_pages": 100,
+          "pages_read": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1527-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&seamon=3&mtype=A&dtype=AI2",
+          "title": "2026第三季個別財報30頁；11/12上傳",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-q3.pdf",
+          "total_pages": 30,
+          "pages_read": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            22,
+            23,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "source_id": "1527-egm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&mtype=F&dtype=F05",
+          "title": "2026/11/19股臨會正式議事錄；11/24上傳；四組現場QA",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-egm.pdf",
+          "total_pages": 14,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "source_id": "1527-agm",
+          "url": "https://www.basso.com.tw/files/08_115年度股東會議事錄.pdf",
+          "title": "2026/6/15股東常會議事錄",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-agm.pdf",
+          "total_pages": 20,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "source_id": "1527-call",
+          "url": "https://www.basso.com.tw/files/2025年_法說會簡報樣式_202500708.pdf",
+          "title": "2025/7/18法說歷史簡報",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-25-1527/1527-call.pdf",
+          "total_pages": 24,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "source_id": "1515-peer",
+          "url": "https://www.rexon.net/product.php?act=list&cid=1",
+          "title": "力山官方工具產品",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25"
+        },
+        {
+          "source_id": "1515-code",
+          "url": "https://www.rexon.net/data/report/1776157732OQM2M.pdf",
+          "title": "力山2026股東會手冊封面股票代號1515",
+          "publisher": "鑽全／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-25",
+          "pages_read": [
+            1
+          ]
+        }
+      ],
+      "research_completed_at": "2026-11-25T15:09:32.849152+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "2026Q3採MOPS完整30頁個別財報AI2；官網四頁掃描件標合併，不以其標籤混用報表範圍。",
+        "已讀11/19股臨會正式議事錄全14頁及四組現場問答；6/15常會全20頁無股東問答。2025法說簡報全24頁與圖片讀完，沒有逐字QA紀錄；不虛構法說回答。",
+        "未揭露具名ODM客戶、各新產品訂單／量產營收及液冷商用時程；規劃與合作意向不視為已接單。",
+        "11/19私募已決價，繳款至12/3；截止日未證實收足款或完成新股發行。整家公司公開查找附缺漏，不刷新全公司reviewed_at。"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview_sha256": "sha256:ebd56baa3ccbfe446faabdeb168ea33a4ff20aec9f014a601348c1cf205afe7d",
+  "adopted_record_sha256": "sha256:24bfbcd838769c18b74eaaa833375454c25fec6a3029fcf83f27cf5e1649663e",
+  "financial_verification": {
+    "common_Q3_income": "matched",
+    "basis": "IFRSs個別財報AI2",
+    "matched_income_twd_thousand_except_eps": {
+      "營業收入": 2118314,
+      "營業毛利（毛損）": 360711,
+      "營業利益（損失）": 53632,
+      "營業外收入及支出": 126115,
+      "稅前淨利（淨損）": 179747,
+      "本期淨利（淨損）": 144386,
+      "基本每股盈餘（元）": 1.04
+    },
+    "absent_parent_profit_preserved": true,
+    "Q3_single_quarter_EPS": 0.21,
+    "Q3_CFO_thousand": 97332,
+    "Q3_cash_thousand": 300806,
+    "common_numeric_files_modified": false,
+    "detailed_financial_tables_preserved": true,
+    "source_evidence_sha256": {
+      "1527-annual": "sha256:2b791cfcfdc29c4734012c06c083f9e454dfc6b929841cc3fc82b93f4753088d",
+      "1527-q3": "sha256:e21bb691aad0f8475e9f448d4cd49e5aaf84043f61219693b6a2e96f37cb7973",
+      "1527-egm": "sha256:c7cecc19e474d4cfc55be565727e5f842bf50cbad19058f2835d305cec0afc5a",
+      "1527-agm": "sha256:419aa8de02670d02908d43e5e0481ac7d6dd46156c132f04fa6195b5a8b13aff",
+      "1527-call": "sha256:d6b194d484503b71b0755e8207965b6eace785312a9825523efda8c2b63b3051"
+    }
+  },
+  "overview_event_adoption": {
+    "event": {
+      "event_id": "1527-20261119-strategic-placement",
+      "type": "亞崴與德昌私募策略合作",
+      "period": "2026-11-19決議與定價；截至2026-11-25",
+      "status": "定價與繳款期間，未確認收足款或完成發股。",
+      "text": "11/19股臨會通過私募普通股上限2,700萬股；同日董事會定價每股25.34元，參考價31.29元，對象亞崴1,500萬股、德昌1,200萬股。公告繳款11/20至12/3，增資基準日12/3，具三年轉讓限制。截止11/25仍為定價／繳款期間，不能稱已募足、新股全部發行或已取得客戶營收。用途為營運資金及長期成長策略；董事賴伯彥利益迴避，不自行推論違法。\n正式股臨會紀錄有股東129298四組問答：一、現金與金融資產足夠為何此時募資？公司答覆以長期新業務、海外布局與不確定市場下的資金彈性說明，非公告即時流動性危機。二、稀釋與效益？公司承認增資短期可能影響每股數字，期待策略資源帶來長期競爭力，未保證EPS立即增加。三、新領域是否已有實質進度？公司說明現有推進與合作方向，但未給可核對的新業務訂單金額、量產營收或投資報酬，保留缺漏。四、為何選工具機亞崴及營造德昌？前者連結製造技術與設備／自動化，後者連結廠房設施、液冷規劃、工程端工具回饋及品牌推廣；策略互補不等於客戶已下單。\n展望以工具無線化、製造整合與品牌通路為持續方向；液冷、特殊精密件與跨業合作須用後續商用和收入驗證。風險包括海外需求、關稅與匯率、工具毛利下降、研發費用、新領域執行、客戶應收集中及私募稀釋。6/15常會無現場問題記錄；2025法說為歷史基礎，不當2026近期事件。只將11月私募／新策略的實質變化列為事件，例行會議公告及舊簡報不湊重大訊息。",
+      "urls": [
+        "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1527&year=115&mtype=F&dtype=F05"
+      ],
+      "event_date": "2026-11-19",
+      "reviewed_at": "2026-11-25",
+      "batch_id": "research-20261125-1527-v1"
+    },
+    "source": "accepted transition and formal EGM",
+    "same_company_no_additional_quota": true,
+    "original_events_preserved": true
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved_as_null": true,
+    "lookup_completion_recorded_separately": true,
+    "project_ids": [
+      "1527-pneumatic-nailers",
+      "1527-air-automotive",
+      "1527-cordless-nailers",
+      "1527-cordless-automotive",
+      "1527-battery-platform",
+      "1527-precision-diecasting",
+      "1527-industrial-automation",
+      "1527-bex-brand",
+      "1527-liquid-cooling-development",
+      "1527-strategic-private-placement"
+    ],
+    "new_meeting": true,
+    "recent_meeting_date": "2026-11-19",
+    "original_EGM_QA_verified": true,
+    "historical_2025_call_not_added_as_new": true,
+    "new_today_company_count": 1,
+    "old_deficit_completed_this_batch": 0,
+    "old_deficit_remaining": 24,
+    "monitoring_cutoff_not_advanced": true
+  }
+}
