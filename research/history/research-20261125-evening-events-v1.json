@@ -1,0 +1,791 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261125-evening-events-v1",
+    "ready": true,
+    "created_at": "2026-11-25T21:37:30.283436+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 3,
+    "updates_sha256": "sha256:a26b04d3ffb952b2301324445171626181333fa3eb674e514d57819b4cfd6d9d",
+    "work_type": "change_update",
+    "material_events_completed": 2,
+    "whole_company_count": 0,
+    "validation": {
+      "original_official_text_read": true,
+      "full_event_units": true,
+      "old_text_preserved": true,
+      "baseline_locked": true,
+      "financial_tables_not_modified": true
+    },
+    "limitations": [
+      "兩個事件不計公司補齊配額；華邦電未做全公司研究，亞泥未核對全公司最新財報及所有舊項目。"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261125-evening-events-v1-2344-transition",
+      "task_id": "change-update-2344-20261124-cb-funding-received",
+      "company_code": "2344",
+      "company_name": "華邦電",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:d6639b65a706260e80ba8642d126bbc38eedc7c485c84930aafd3901d6876167",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2026/11/24融資執行進度：華邦電公告國內第五次無擔保轉換公司債至公告日，債款代收銀行已收足所有應募款項新臺幣4,027,830,930元，並匯撥至存儲專戶銀行。這是已收款的融資里程碑，與僅董事會通過、定價或申報生效不同；款項屬債券籌資，不是銷貨收入或本業獲利。\n研究影響：資金到位與後續債務／潛在稀釋追蹤須從計畫改為已收足債款；本則未揭已轉換股份、實際資金支用進度或下一期報表現金與負債餘額，不將40.2783093億元直接加進既有財報、算淨負債或宣稱已完成特定擴廠。公告未重述票息、轉換價、完整用途及所有條款，本單元不補猜、不用本案取代完整債務條款研究。整家公司財報／新業務仍未完成查核；只更新本項已確認收款事件。",
+        "sources": [
+          "2344-official-20261124-194124"
+        ],
+        "period": "；2026/11/24公告事件",
+        "event_id": "2344-20261124-cb-funding-received"
+      },
+      "sources": [
+        {
+          "source_id": "2344-official-20261124-194124",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司國內第五次無擔保轉換公司債收足債款",
+          "publisher": "華邦電／公開資訊觀測站",
+          "published_at": "2026-11-24T19:41:24+08:00",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/82",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 2344 華邦電 公司提供 序號 1 發言日期 115/11/24 發言時間 19:41:24 發言人 范祥雲 發言人職稱 執行副總經理 發言人電話 (03)5678168 主旨 公告本公司國內第五次無擔保轉換公司債收足債款 符合條款 第 51 款 事實發生日 115/11/24 說明 1.事實發生日:115/11/24 2.公司名稱:華邦電子股份有限公司 3.與公司關係(請輸入本公司或子公司):本公司 4.相互持股比例:不適用 5.發生緣由:依據「發行人募集與發行有價證券處理準則」第9條第1項第2款規定辦理 6.因應措施:無 7.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時 符合證券交易法施行細則第7條第9款所定對股東權益或證券價格有重大影響之事項): 本公司發行國內第五次無擔保轉換公司債至公告日止，債款代收銀行業已收足所有 應募款項共計新台幣4,027,830,930元整，並匯撥至存儲專戶銀行，特此公告。 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "194124",
+            "spoke_date": "20261124",
+            "co_id": "2344",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-25T21:37:30.283436+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整公告事件及受影響章節，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "僅本公告實質階段與必要基線核對；未稱全公司查核或重算網站財報。",
+        "計畫、契約條件、實際收款／付款及商用收入分開；沒有披露就保留缺漏。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261125-evening-events-v1-1102-transition",
+      "task_id": "change-update-1102-20261124-capacity-rights-transfer",
+      "company_code": "1102",
+      "company_name": "亞泥",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:ec15d36b4d1d279ea36d392d579ae55d91c201499f4030879f0e32d24bf2f9d2",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:098e0f8ef87b7691cecd2f92b1e62398f2f004ad0ffd0cc16e4c6b4f3a17f0d6",
+      "expected_old_section_version": "sha256:8c117d1906dd38997e43409c3e878feb4644e05adc2338a3322dbbe6de3fe72e",
+      "old_content": {
+        "text": "公司將水泥產能置換、製程改善與節能設備投資並行，提高替代原料及替代燃料使用，並於廠區配置綠電。研究判讀為既有水泥業務的低碳與效率升級，搭配電力及多元投資；金融資產評價與權益法收益仍需分開觀察，不能當成水泥產品毛利改善。",
+        "period": "2026-08 法說策略",
+        "sources": [
+          "ir"
+        ]
+      },
+      "new_content": {
+        "text": "公司將水泥產能置換、製程改善與節能設備投資並行，提高替代原料及替代燃料使用，並於廠區配置綠電。研究判讀為既有水泥業務的低碳與效率升級，搭配電力及多元投資；金融資產評價與權益法收益仍需分開觀察，不能當成水泥產品毛利改善。\n\n2026/11/24中國水泥產能權置換進度：亞泥公告子公司湖北亞東水泥移出、黃岡亞東水泥移入252萬噸產能權，屬依大陸《水泥玻璃行業產能置換實施辦法》辦理的無形資產取得與處分。公告單價人民幣51元／噸、總額約人民幣1.29億元；兩方均屬亞泥子公司，合併報表不產生利益或損失。這是既有置換方向的具體內部資產配置，不是集團新增淨產能252萬噸或對外出售產能賺得1.29億元。\n契約條件載黃岡亞東於11/25一次支付約人民幣1.29億元、資金來源貸款；本次證據為11/24公告條件，不能因11/25日期已到就認定已完成付款或貸款已全數動用。供生產使用，公告稱不涉及營運模式變更。未揭對應產線完工、試車、投產、熟料銷售及收入時點，不把產能權移轉當實體生產線已開出。\n研究影響：將原來泛稱的產能置換，補為湖北至黃岡的明確項目及融資條件；仍保留既有製程改善、節能與綠電方向，並把合併無損益、付款條件與商用缺漏寫清。",
+        "period": "2026-08 法說策略；2026/11/24公告事件",
+        "sources": [
+          "ir",
+          "1102-official-20261124-165741"
+        ],
+        "event_id": "1102-20261124-capacity-rights-transfer"
+      },
+      "sources": [
+        {
+          "source_id": "1102-official-20261124-165741",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "代子公司湖北亞東水泥有限公司與黃岡亞東水泥有限公司公告產能置換",
+          "publisher": "亞泥／公開資訊觀測站",
+          "published_at": "2026-11-24T16:57:41+08:00",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/51",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 1102 亞泥 公司提供 序號 1 發言日期 115/11/24 發言時間 16:57:41 發言人 王照宇 發言人職稱 協理 發言人電話 02-2733-8000分機8342 主旨 代子公司湖北亞東水泥有限公司與黃岡亞東水泥有限公司公告產能置換 符合條款 第 20 款 事實發生日 115/11/24 說明 1.標的物之名稱及性質（屬特別股者，並應標明特別股約定發行條件，如股息率等）: 依據大陸「水泥玻璃行業產能置換實施辦法」辦理產能置換之取得與處分無形資產 2.事實發生日:115/11/24~115/11/24 3.董事會通過日期: 民國115年11月24日 4.其他核決日期: 不適用 5.交易數量、每單位價格及交易總金額: 交易單位數量：252萬噸 每單位價格：51元/噸 交易總金額：約人民幣1.29億元 6.交易相對人及其與公司之關係（交易相對人如屬自然人，且非公司之 關係人者，得免揭露其姓名）: 產能移出方：湖北亞東水泥有限公司 產能移入方：黃岡亞東水泥有限公司 與公司之關係：兩家均為本公司之子公司 7.交易相對人為關係人者，並應公告選定關係人為交易對象之原因及前次移 轉之所有人、前次移轉之所有人與公司及交易相對人間相互之關係、前次 移轉日期及移轉金額: 選定關係人為交易對象之原因：整體營運規劃考量 前次移轉之所有人、前次移轉之所有人與公司及交易相對人間相互之關係、 前次移轉日期及移轉金額：不適用 8.交易標的最近五年內所有權人曾為公司之關係人者，尚應公告關係人之取 得及處分日期、價格及交易當時與公司之關係: 不適用 9.本次係處分債權之相關事項（含處分之債權附隨擔保品種類、處分債權 如有屬對關係人債權者尚需公告關係人名稱及本次處分該關係人之債權 帳面金額: 不適用 10.處分利益（或損失）（取得有價證券者不適用）（原遞延者應列表說明 認列情形）: 湖北亞東水泥有限公司與黃岡亞東水泥有限公司均為本公司之子公司， 本次產能置換係依據大陸《水泥玻璃行業產能置換實施辦法》辦理， 合併報表下並未產生利益或損失。 11.交付或付款條件（含付款期間及金額）、契約限制條款及其他重要約定 事項: 產能移入方黃岡亞東水泥有限公司於民國115年11月25日一次性支付約人民幣1.29億元 12.本次交易之決定方式、價格決定之參考依據及決策單位: 本次交易之決定方式、價格決定之參考：市場行情、估價報告 決策單位：董事會 13.取得或處分有價證券標的公司每股淨值: 不適用 14.迄目前為止，累積持有本交易證券（含本次交易）之數量、金額、持股 比例及權利受限情形（如質押情形）: 不適用 15.迄目前為止，依「公開發行公司取得或處分資產處理準則」第三條所列 之有價證券投資（含本次交易）占公司最近期財務報表中總資產及歸屬 於母公司業主之權益之比例暨最近期財務報表中營運資金數額（註二）: 不適用 16.經紀人及經紀費用: 不適用 17.取得或處分之具體目的或用途: 供生產使用 18.本次交易表示異議董事之意見: 無 19.本次交易為關係人交易:是 20.監察人承認或審計委員會同意日期: 不適用 21.本次交易會計師出具非合理性意見:否 22.會計師事務所名稱: 九江潯誠會計師事務所 23.會計師姓名: 王三毛 24.會計師開業證書字號: 360300010032 25.是否涉及營運模式變更:否 26.營運模式變更說明: 不適用 27.過去一年及預計未來一年內與交易相對人交易情形: 無 28.資金來源: 貸款 29.前已就同一件事件發布重大訊息日期: 不適用 30.其他敘明事項: 無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "165741",
+            "spoke_date": "20261124",
+            "co_id": "1102",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-25T21:37:30.283436+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整公告事件及受影響章節，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "僅本公告實質階段與必要基線核對；未稱全公司查核或重算網站財報。",
+        "計畫、契約條件、實際收款／付款及商用收入分開；沒有披露就保留缺漏。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261125-evening-events-v1-1102-developments",
+      "task_id": "change-update-1102-20261124-capacity-rights-transfer",
+      "company_code": "1102",
+      "company_name": "亞泥",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "developments",
+      "operation": "replace",
+      "expected_old_version": "sha256:ec15d36b4d1d279ea36d392d579ae55d91c201499f4030879f0e32d24bf2f9d2",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:098e0f8ef87b7691cecd2f92b1e62398f2f004ad0ffd0cc16e4c6b4f3a17f0d6",
+      "expected_old_section_version": "sha256:e79d77b2b9d148ba1232804d609d3419b4fc32304810e2ed3591a8015ac313fc",
+      "old_content": {
+        "text": "2026 上半年合併資本支出約 23.42 億元，簡報列新增水泥產能、熟料線置換、製程去瓶頸及綠電配置等投資方向。已發生支出為投入階段，不代表各項設備均完工投產；本輪未取得逐案投產日期及新增收入，不能把整體資本支出寫成已實現的產能或獲利。",
+        "period": "2026 上半年支出／後續投資方向",
+        "sources": [
+          "ir"
+        ]
+      },
+      "new_content": {
+        "text": "2026 上半年合併資本支出約 23.42 億元，簡報列新增水泥產能、熟料線置換、製程去瓶頸及綠電配置等投資方向。已發生支出為投入階段，不代表各項設備均完工投產；本輪未取得逐案投產日期及新增收入，不能把整體資本支出寫成已實現的產能或獲利。\n\n2026/11/24中國水泥產能權置換進度：亞泥公告子公司湖北亞東水泥移出、黃岡亞東水泥移入252萬噸產能權，屬依大陸《水泥玻璃行業產能置換實施辦法》辦理的無形資產取得與處分。公告單價人民幣51元／噸、總額約人民幣1.29億元；兩方均屬亞泥子公司，合併報表不產生利益或損失。這是既有置換方向的具體內部資產配置，不是集團新增淨產能252萬噸或對外出售產能賺得1.29億元。\n契約條件載黃岡亞東於11/25一次支付約人民幣1.29億元、資金來源貸款；本次證據為11/24公告條件，不能因11/25日期已到就認定已完成付款或貸款已全數動用。供生產使用，公告稱不涉及營運模式變更。未揭對應產線完工、試車、投產、熟料銷售及收入時點，不把產能權移轉當實體生產線已開出。\n研究影響：將原來泛稱的產能置換，補為湖北至黃岡的明確項目及融資條件；仍保留既有製程改善、節能與綠電方向，並把合併無損益、付款條件與商用缺漏寫清。",
+        "period": "2026 上半年支出／後續投資方向；2026/11/24公告事件",
+        "sources": [
+          "ir",
+          "1102-official-20261124-165741"
+        ],
+        "event_id": "1102-20261124-capacity-rights-transfer",
+        "projects": [
+          {
+            "project_id": "1102-hubei-huanggang-capacity-rights",
+            "name": "湖北亞東至黃岡亞東252萬噸產能權置換",
+            "type": "既有水泥業務產能權配置",
+            "uses_and_customers": "供生產使用，兩家均為集團子公司，非對外新增客戶收入",
+            "status": "11/24董事會通過內部產能權置換；非已投產",
+            "commercial_timing": "未披露對應產線投產／商用日期；11/25為公告契約支付條件，非收付確認",
+            "revenue_contribution": "合併無處分利益或損失，未揭新增收入；不把1.29億元交易價當營收",
+            "sources": [
+              "1102-official-20261124-165741"
+            ],
+            "limitations": [
+              "既有基線無結構化project_id，本次新增固定編號，原文字保留。",
+              "未確認付款、貸款動用或新線完工。"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1102-official-20261124-165741",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "代子公司湖北亞東水泥有限公司與黃岡亞東水泥有限公司公告產能置換",
+          "publisher": "亞泥／公開資訊觀測站",
+          "published_at": "2026-11-24T16:57:41+08:00",
+          "accessed_at": "2026-11-25",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/51",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 1102 亞泥 公司提供 序號 1 發言日期 115/11/24 發言時間 16:57:41 發言人 王照宇 發言人職稱 協理 發言人電話 02-2733-8000分機8342 主旨 代子公司湖北亞東水泥有限公司與黃岡亞東水泥有限公司公告產能置換 符合條款 第 20 款 事實發生日 115/11/24 說明 1.標的物之名稱及性質（屬特別股者，並應標明特別股約定發行條件，如股息率等）: 依據大陸「水泥玻璃行業產能置換實施辦法」辦理產能置換之取得與處分無形資產 2.事實發生日:115/11/24~115/11/24 3.董事會通過日期: 民國115年11月24日 4.其他核決日期: 不適用 5.交易數量、每單位價格及交易總金額: 交易單位數量：252萬噸 每單位價格：51元/噸 交易總金額：約人民幣1.29億元 6.交易相對人及其與公司之關係（交易相對人如屬自然人，且非公司之 關係人者，得免揭露其姓名）: 產能移出方：湖北亞東水泥有限公司 產能移入方：黃岡亞東水泥有限公司 與公司之關係：兩家均為本公司之子公司 7.交易相對人為關係人者，並應公告選定關係人為交易對象之原因及前次移 轉之所有人、前次移轉之所有人與公司及交易相對人間相互之關係、前次 移轉日期及移轉金額: 選定關係人為交易對象之原因：整體營運規劃考量 前次移轉之所有人、前次移轉之所有人與公司及交易相對人間相互之關係、 前次移轉日期及移轉金額：不適用 8.交易標的最近五年內所有權人曾為公司之關係人者，尚應公告關係人之取 得及處分日期、價格及交易當時與公司之關係: 不適用 9.本次係處分債權之相關事項（含處分之債權附隨擔保品種類、處分債權 如有屬對關係人債權者尚需公告關係人名稱及本次處分該關係人之債權 帳面金額: 不適用 10.處分利益（或損失）（取得有價證券者不適用）（原遞延者應列表說明 認列情形）: 湖北亞東水泥有限公司與黃岡亞東水泥有限公司均為本公司之子公司， 本次產能置換係依據大陸《水泥玻璃行業產能置換實施辦法》辦理， 合併報表下並未產生利益或損失。 11.交付或付款條件（含付款期間及金額）、契約限制條款及其他重要約定 事項: 產能移入方黃岡亞東水泥有限公司於民國115年11月25日一次性支付約人民幣1.29億元 12.本次交易之決定方式、價格決定之參考依據及決策單位: 本次交易之決定方式、價格決定之參考：市場行情、估價報告 決策單位：董事會 13.取得或處分有價證券標的公司每股淨值: 不適用 14.迄目前為止，累積持有本交易證券（含本次交易）之數量、金額、持股 比例及權利受限情形（如質押情形）: 不適用 15.迄目前為止，依「公開發行公司取得或處分資產處理準則」第三條所列 之有價證券投資（含本次交易）占公司最近期財務報表中總資產及歸屬 於母公司業主之權益之比例暨最近期財務報表中營運資金數額（註二）: 不適用 16.經紀人及經紀費用: 不適用 17.取得或處分之具體目的或用途: 供生產使用 18.本次交易表示異議董事之意見: 無 19.本次交易為關係人交易:是 20.監察人承認或審計委員會同意日期: 不適用 21.本次交易會計師出具非合理性意見:否 22.會計師事務所名稱: 九江潯誠會計師事務所 23.會計師姓名: 王三毛 24.會計師開業證書字號: 360300010032 25.是否涉及營運模式變更:否 26.營運模式變更說明: 不適用 27.過去一年及預計未來一年內與交易相對人交易情形: 無 28.資金來源: 貸款 29.前已就同一件事件發布重大訊息日期: 不適用 30.其他敘明事項: 無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "165741",
+            "spoke_date": "20261124",
+            "co_id": "1102",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-25T21:37:30.283436+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整公告事件及受影響章節，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "僅本公告實質階段與必要基線核對；未稱全公司查核或重算網站財報。",
+        "計畫、契約條件、實際收款／付款及商用收入分開；沒有披露就保留缺漏。"
+      ]
+    }
+  ],
+  "before_official_records": {
+    "2344.TW": null,
+    "1102.TW": {
+      "name": "亞泥",
+      "reviewed_at": "2026-10-03",
+      "sources": {
+        "ir": {
+          "title": "2026 上半年營運簡報（PDF 第 5、7、12、27 頁）",
+          "url": "https://www.acc.com.tw/download/2016-07-14%2006-44-32/2026/2026%2008%2017%20_%20Asia%20Cement%201102%20TW%20_%202026H1%20Results.pdf",
+          "publisher": "亞泥",
+          "published_at": "2026-08-17",
+          "accessed_at": "2026-10-03"
+        }
+      },
+      "business": {
+        "text": "亞泥以台灣及中國水泥為核心，合併業務另含電力、不鏽鋼等，並以權益法認列遠東新、裕民及山水投資損益。2026 上半年台灣水泥營業利益 19.14 億元、電力 8.85 億元，中國水泥則虧損 3.86 億元；分部營業利益與投資收益不能混為淨利占比。",
+        "period": "2026 上半年",
+        "sources": [
+          "ir"
+        ]
+      },
+      "earnings": {
+        "text": "2023–2025 年營收約 801.83、762.97、710.39 億元，歸母淨利 108.83、128.90、100.30 億元。2026 上半年營收 326.60 億元、營業利益 28.95 億元均下降，歸母淨利卻增至 71.14 億元；業外 47.69 億元含金融評價利益 30.40 億元。",
+        "period": "2023–2025 年／2026 上半年",
+        "sources": [
+          "ir"
+        ]
+      },
+      "transition": {
+        "text": "公司將水泥產能置換、製程改善與節能設備投資並行，提高替代原料及替代燃料使用，並於廠區配置綠電。研究判讀為既有水泥業務的低碳與效率升級，搭配電力及多元投資；金融資產評價與權益法收益仍需分開觀察，不能當成水泥產品毛利改善。",
+        "period": "2026-08 法說策略",
+        "sources": [
+          "ir"
+        ]
+      },
+      "developments": {
+        "text": "2026 上半年合併資本支出約 23.42 億元，簡報列新增水泥產能、熟料線置換、製程去瓶頸及綠電配置等投資方向。已發生支出為投入階段，不代表各項設備均完工投產；本輪未取得逐案投產日期及新增收入，不能把整體資本支出寫成已實現的產能或獲利。",
+        "period": "2026 上半年支出／後續投資方向",
+        "sources": [
+          "ir"
+        ]
+      },
+      "limitations": [
+        "尚未逐案核對新增產線、綠電設施的完工與投產狀態。",
+        "分部營業利益及權益法投資收益，不等於歸母淨利的完整分配。"
+      ]
+    }
+  },
+  "before_overviews": {
+    "2344.TW": {
+      "name": "華邦電",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "臺灣50業務",
+      "source_row": 38,
+      "business": "特殊型DRAM、NOR／NAND及新唐等子公司",
+      "direction": "邊緣AI記憶體；新製程／產能細節待核對",
+      "profit_mechanism": "記憶體售價與製造成本差額，並含新唐合併損益",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "H1業外增幅篩選",
+      "urls": [
+        "https://www.winbond.com/hq/about-winbond/news-and-events/news/?__locale=en",
+        "https://winbond.com/hq/support/online-learning/video-item/Whats-Next-for-Memory-Why-AI-Demand-Is-Changing-the-Industry?__locale=en",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 816.09768,
+        "fy2025": 894.06171,
+        "q32025": 217.70523,
+        "q42025": 266.25074,
+        "q12026": 382.53064,
+        "q22026": 598.43265,
+        "ttm": 1464.91926,
+        "h1_operating_profit": 415.2983,
+        "h1_nonoperating": 11.77,
+        "h1_pretax": 427.06829999999997,
+        "h1_parent_profit": 344.31342,
+        "h1_operating_margin": 0.423357636553352,
+        "h1_nonoperating_share": 0.0275599945020504,
+        "fy2025_parent_profit": 39.61929,
+        "q22026_parent_profit": 243.17032,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 980.96329,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 816.09768,
+            "net_income": 6.01001,
+            "eps": 0.14,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 410.10573999999997,
+            "net_income": -24.03575,
+            "eps": -0.53,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 627.81097,
+            "net_income": 5.39575,
+            "eps": 0.12000000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 894.06171,
+            "net_income": 39.61929,
+            "eps": 0.8800000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 382.53064,
+            "net_income": 101.1431,
+            "eps": 2.25,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 980.96329,
+            "net_income": 344.31342,
+            "eps": 7.65,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 0.33,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 3.42,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 3.25,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": -0.29,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 217.70523000000003,
+              "eps": 0.65,
+              "net_income": 29.4315
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 266.25073999999995,
+              "eps": 0.7600000000000001,
+              "net_income": 34.22354
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 382.53064,
+              "eps": 2.25,
+              "net_income": 101.1431
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 598.43265,
+              "eps": 5.4,
+              "net_income": 243.17032
+            }
+          ],
+          "ttms": 1464.9192600000001,
+          "ttm_eps": 9.06,
+          "ttm_parent_profit": 407.96846,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 1,464.92 億元；每股盈餘 9.06 元；歸母淨利 407.97 億元。營收未扣成本與費用，不等於獲利。獲利機制：記憶體售價與製造成本差額，並含新唐合併損益。",
+      "events": [
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-7.04億元變為11.77億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "法人共識（媒體轉載FactSet）",
+          "period": "2026全年",
+          "scope": "合併營收",
+          "unit": "新台幣億元",
+          "low": 2681.45,
+          "high": null,
+          "published_at": "2026-09-08",
+          "limitations": "营收中位數2681.45億元、最低2590.6609、最高2988.1798；非公司財測，後續修正待核。來源歷史EPS欄誤列淨利，未採用該欄。",
+          "urls": [
+            "https://news.cnyes.com/news/id/6600446"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2344",
+            "name": "華邦電",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 2930.34319,
+            "liabilities": 1194.9180199999998,
+            "equity": 1735.42517,
+            "parent_equity": 1650.09628,
+            "cash": 430.14862,
+            "current_assets": 1471.6478499999998,
+            "current_liabilities": 921.04416,
+            "listed_borrowings": 255.55345,
+            "listed_leases": 18.85179,
+            "operating_cashflow": 356.72051999999996,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=3231&companyId=2301&companyId=2344&companyId=2412&companyId=3665",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=3231&companyId=2301&companyId=2344&companyId=2412&companyId=3665",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2344",
+            "name": "華邦電",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 1921.92067,
+            "liabilities": 780.61936,
+            "equity": 1141.3013099999998,
+            "parent_equity": 1079.3596699999998,
+            "cash": 157.33774,
+            "current_assets": 731.91129,
+            "current_liabilities": 466.15224,
+            "listed_borrowings": 291.38382,
+            "listed_leases": 21.06542,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=3231&companyId=2301&companyId=2344&companyId=2412&companyId=3665",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=3231&companyId=2301&companyId=2344&companyId=2412&companyId=3665",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "1102.TW": {
+      "name": "亞泥",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 7,
+      "business": "水泥、預拌混凝土及相關建材",
+      "direction": "低碳建材與智慧施工整合；不是已確認新增營收金額",
+      "profit_mechanism": "水泥／混凝土價差與產能利用；轉投資貢獻",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "H1業外占稅前利益≥50%；H1業外增幅篩選",
+      "urls": [
+        "https://www.acc.com.tw/about-us/company-profile-history",
+        "https://www.acc.com.tw/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 762.97459,
+        "fy2025": 710.3852899999999,
+        "q32025": 178.88571,
+        "q42025": 178.89514,
+        "q12026": 148.29491,
+        "q22026": 178.30519,
+        "ttm": 684.38095,
+        "h1_operating_profit": 28.954810000000002,
+        "h1_nonoperating": 47.68972,
+        "h1_pretax": 76.64453,
+        "h1_parent_profit": 71.13707000000001,
+        "h1_operating_margin": 0.0886552392359953,
+        "h1_nonoperating_share": 0.6222194852000531,
+        "fy2025_parent_profit": 100.29823,
+        "q22026_parent_profit": 52.266850000000005,
+        "screening": "H1業外占稅前利益≥50%；H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 326.6001,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 762.97459,
+            "net_income": 128.89728,
+            "eps": 3.86,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 352.60444,
+            "net_income": 42.940310000000004,
+            "eps": 1.28,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 531.49015,
+            "net_income": 80.85148000000001,
+            "eps": 2.42,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 710.3852899999999,
+            "net_income": 100.29823,
+            "eps": 3,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 148.29491,
+            "net_income": 18.87022,
+            "eps": 0.56,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 326.6001,
+            "net_income": 71.13707000000001,
+            "eps": 2.13,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 4.7,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 4.7,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 3.63,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 3.28,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 178.88570999999996,
+              "eps": 1.14,
+              "net_income": 37.911170000000006
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 178.89513999999997,
+              "eps": 0.5800000000000001,
+              "net_income": 19.446749999999994
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 148.29491,
+              "eps": 0.56,
+              "net_income": 18.87022
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 178.30519,
+              "eps": 1.5699999999999998,
+              "net_income": 52.266850000000005
+            }
+          ],
+          "ttms": 684.3809499999998,
+          "ttm_eps": 3.8499999999999996,
+          "ttm_parent_profit": 128.49499,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 684.38 億元；每股盈餘 3.85 元；歸母淨利 128.49 億元。營收未扣成本與費用，不等於獲利。獲利機制：水泥／混凝土價差與產能利用；轉投資貢獻。",
+      "events": [
+        {
+          "period": "2026H1",
+          "type": "業外占比高",
+          "status": "數值篩選；原因待核對",
+          "text": "業外淨額47.69億元，占稅前利益62.2%；並不代表全為一次性利益。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由14.97億元變為47.69億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.acc.com.tw/about-us/company-profile-history",
+            "https://www.acc.com.tw/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "1102",
+            "name": "亞泥",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 3372.6804399999996,
+            "liabilities": 1289.0475999999999,
+            "equity": 2083.6328399999998,
+            "parent_equity": 1844.2432,
+            "cash": 162.16993,
+            "current_assets": 1023.12109,
+            "current_liabilities": 695.83764,
+            "listed_borrowings": 851.74864,
+            "listed_leases": 15.03088,
+            "operating_cashflow": 30.28658,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1101&companyId=1102&companyId=1103&companyId=1104&companyId=1108",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1101&companyId=1102&companyId=1103&companyId=1104&companyId=1108",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "1102",
+            "name": "亞泥",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 3240.4045899999996,
+            "liabilities": 1206.18599,
+            "equity": 2034.2186,
+            "parent_equity": 1802.7729299999999,
+            "cash": 129.81458,
+            "current_assets": 952.33368,
+            "current_liabilities": 594.1848699999999,
+            "listed_borrowings": 884.78712,
+            "listed_leases": 13.81999,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1101&companyId=1102&companyId=1103&companyId=1104&companyId=1108",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1101&companyId=1102&companyId=1103&companyId=1104&companyId=1108",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "adopted_record_sha256": {
+    "2344.TW": "sha256:93997ac0f1a6857f2bfeb9cc7427be59491c0626a27941935c40e3fdfb7b52e3",
+    "1102.TW": "sha256:db5c6f93915468736644b7760f56e14ed822a8b2e13fa58834284566250a920e"
+  },
+  "official_source_verification": [
+    {
+      "source_id": "2344-official-20261124-194124",
+      "pointer": "/events/82",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:f3fc53359c1eb73aa77481eb5cd9769d20c874e5e469fd39178aab614933f675"
+    },
+    {
+      "source_id": "1102-official-20261124-165741",
+      "pointer": "/events/51",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:436af731432df965a724cd82526bade2b5a441ce29c87baa12decf704e39c93c"
+    },
+    {
+      "source_id": "1102-official-20261124-165741",
+      "pointer": "/events/51",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:436af731432df965a724cd82526bade2b5a441ce29c87baa12decf704e39c93c"
+    }
+  ],
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "new_2344_profile_partial_with_null_company_date": true,
+    "old_business_earnings_and_prose_preserved": true,
+    "financial_tables_not_modified": true,
+    "only_overview_events_appended": true,
+    "new_company_quota": 0,
+    "material_events": 2,
+    "new_meeting": false,
+    "cutoff_not_advanced": true,
+    "4736_6438_not_published": true,
+    "new_project_id": "1102-hubei-huanggang-capacity-rights",
+    "source_timestamp_preserved_date_field_normalized": true
+  }
+}
