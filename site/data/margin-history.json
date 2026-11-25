@@ -1,9 +1,6 @@
 {
   "basis": "各標的當日收盤價×融資張數×1000，除以同日市場融資金額；缺價時為下限，含ETF。",
-  "errors": [
-    "2026-11-25 twse ValueError",
-    "2026-11-25 tpex ValueError"
-  ],
+  "errors": [],
   "history": [
     {
       "combined": {
@@ -5062,9 +5059,79 @@
         "ratio": 162.07105228102878,
         "total_lots": 9964974.0
       }
+    },
+    {
+      "combined": {
+        "collateral_twd": 839349652660.0,
+        "covered_lots": 11233668.0,
+        "financed_symbols": 2072,
+        "financing_twd": 562015656000.0,
+        "lot_coverage_pct": 99.93726380516551,
+        "lower_bound": true,
+        "missing_symbols": [
+          "上櫃:00734B",
+          "上櫃:2235",
+          "上櫃:3521",
+          "上櫃:4413",
+          "上櫃:4530",
+          "上櫃:4550",
+          "上櫃:6212",
+          "上櫃:6615",
+          "上櫃:6649",
+          "上櫃:7794",
+          "上櫃:8905",
+          "上櫃:8917",
+          "上櫃:9960"
+        ],
+        "ratio": 149.3463115660963,
+        "total_lots": 11240720.0
+      },
+      "date": "2026-11-25",
+      "sources": {
+        "tpex_margin": "https://www.tpex.org.tw/www/zh-tw/margin/balance?date=2026/11/25&response=json",
+        "tpex_prices": "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes?date=2026/11/25&response=json",
+        "twse_margin": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261125&selectType=ALL",
+        "twse_prices": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&date=20261125&type=ALLBUT0999"
+      },
+      "tpex": {
+        "collateral_twd": 181141265190.0,
+        "covered_lots": 1850177.0,
+        "financed_symbols": 826,
+        "financing_twd": 127877669000.0,
+        "lot_coverage_pct": 99.62029453556886,
+        "lower_bound": true,
+        "missing_symbols": [
+          "00734B",
+          "2235",
+          "3521",
+          "4413",
+          "4530",
+          "4550",
+          "6212",
+          "6615",
+          "6649",
+          "7794",
+          "8905",
+          "8917",
+          "9960"
+        ],
+        "ratio": 141.6519917875575,
+        "total_lots": 1857229.0
+      },
+      "twse": {
+        "collateral_twd": 658208387470.0,
+        "covered_lots": 9383491.0,
+        "financed_symbols": 1246,
+        "financing_twd": 434137987000.0,
+        "lot_coverage_pct": 100.0,
+        "lower_bound": false,
+        "missing_symbols": [],
+        "ratio": 151.61271466207816,
+        "total_lots": 9383491.0
+      }
     }
   ],
   "method_version": "same-day-collateral-v1",
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:37:46+08:00"
+  "updated_at": "2026-11-25T21:34:08+08:00"
 }
