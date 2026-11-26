@@ -1,0 +1,975 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261126-1537-v1",
+    "ready": true,
+    "created_at": "2026-11-26T13:39:10.746543+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:18a45b6f0add6f32ede067cc92af8a0433dd4c4c9653cba6a8292543b527f0a9",
+    "work_type": "backfill",
+    "origin_date": "2026-10-24",
+    "completion_unit": "整家公司公開資料查找完成附缺漏",
+    "new_meeting": false,
+    "historical_meeting_dates": [
+      "2026-06-17",
+      "2026-07-24"
+    ],
+    "meeting_QA_verified": false,
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "financial_periods_labeled": true,
+      "old_project_ids_preserved": true
+    },
+    "limitations": [
+      "最新法說原件31頁全讀及圖表核對；無獨立會後QA文件，不能把6/17股東會兩組問答當7/24法說QA。",
+      "6/17議事錄35頁中的會議與問答1–6頁、營業報告7–11頁核讀；初段文字編碼錯亂以原圖核對，不以錯字填資料。",
+      "Q3核閱保留結論係部分非重要子公司未核閱，不等同已查出舞弊；財報數字仍保留適用範圍。",
+      "具名客戶除VNPT供貨外多匿名；AI客戶、各新產品訂單金額／單案收入／量產日未披露，不當全部UPS均為AI收入。",
+      "官方2026各月與公司索引核對所見最新已開法說為7/24；歷史補齊不列近期新事件，未宣稱全歷史來源絕無缺漏。"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-1537-v1-business",
+      "task_id": "missed-quota-20261024-min1",
+      "company_code": "1537",
+      "company_name": "廣隆",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "business",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:82867dbfbdcd607dbc525ad48cc8899adfbcdabdecbb7ec1da9ad8b949838d9f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "廣隆製造鉛酸蓄電池及極板，產品涵蓋電子密閉式、汽機車啟動、機車起停及電動代步車用電池，並拓展電信／儲能鋰電池模組。UPS為停電時的短時間備援電源，資料中心只是用途之一；安防、通訊、醫療輔具、老人代步車、電動輪椅、叉車等均有應用，不能把公司視為純AI伺服器電池廠或把鉛酸備援當鋰電芯事業。\n產業鏈為鉛錠、硫酸、隔離板與槽體等原料，經極板鑄造／沖壓、塗板、熟成、化成、組裝、加酸充電及測試，供UPS／設備廠、經銷與汽機車OEM及替換市場。台灣廣隆、利隆與越南濱瀝、德和為生產布局；LONG面向全球，GLOBE深耕越南。7/24簡報標2026 Q2銷售品牌比重OEM56%、自有品牌44%，是銷售口徑而非獲利占比。\n2025年報按產品技術分類：電子密閉式電池83.08%、機車12.76%、汽車3.83%、其他0.33%；法說另按用途將UPS及通用63%、電動代步車17%、機車13%、汽車4%、其他3%，二分類不可相加。簡報標2026 Q2用途UPS及通用61%、代步車19%、機車12%、汽車5%、其他3%；不把該表當Q3實績。2025地區美洲19%、歐洲26%、亞洲（不含台灣，含越南）46%、台灣5%、其他4%；法說把越南另拆28%，不可重複計。\n年報匿名甲客戶為全球前幾大UPS廠，2025占6.81%（2024為10.63%），不推測是誰。48V100Ah電信鋰模組已通過VNPT承認並開始供貨VNPT HCM，是可核對具名客戶；不能延伸為全部電信／AI龍頭訂單。原料雖有多家來源，但2025 D、B供應商各占20.60%、14.98%，不能照抄概述就說完全無集中風險。",
+        "period": "2025全年、2026前三季合併財報及7/24法說；查閱截至11/26固定截止",
+        "sources": [
+          "1537-annual",
+          "1537-q3",
+          "1537-call",
+          "1537-agm",
+          "6121-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1537-annual",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1079/",
+          "title": "廣隆2025年度年報",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-annual.pdf",
+          "total_pages": 104,
+          "pages_read": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            81,
+            82,
+            92,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1537-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1537&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "廣隆2026第三季合併財報52頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-11-10T16:12:09+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-q3.pdf",
+          "total_pages": 52,
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            28,
+            29,
+            30,
+            36,
+            46,
+            47
+          ]
+        },
+        {
+          "source_id": "1537-call",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1098/",
+          "title": "廣隆2026/7/24法說簡報31頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-call.pdf",
+          "total_pages": 31,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        },
+        {
+          "source_id": "1537-agm",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1101/",
+          "title": "廣隆2026/6/17股東會議事錄及原始QA",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-06-24T10:05:24+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-agm.pdf",
+          "total_pages": 35,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "source_id": "6121-peer",
+          "url": "https://www.simplo.com.tw/article_d.php?cid=84&id=696&lang=tw&tb=2",
+          "title": "新普官方產品應用",
+          "publisher": "新普科技",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T13:39:10.746543+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "最新法說原件31頁全讀及圖表核對；無獨立會後QA文件，不能把6/17股東會兩組問答當7/24法說QA。",
+        "6/17議事錄35頁中的會議與問答1–6頁、營業報告7–11頁核讀；初段文字編碼錯亂以原圖核對，不以錯字填資料。",
+        "Q3核閱保留結論係部分非重要子公司未核閱，不等同已查出舞弊；財報數字仍保留適用範圍。",
+        "具名客戶除VNPT供貨外多匿名；AI客戶、各新產品訂單金額／單案收入／量產日未披露，不當全部UPS均為AI收入。",
+        "官方2026各月與公司索引核對所見最新已開法說為7/24；歷史補齊不列近期新事件，未宣稱全歷史來源絕無缺漏。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-1537-v1-earnings",
+      "task_id": "missed-quota-20261024-min1",
+      "company_code": "1537",
+      "company_name": "廣隆",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "earnings",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:82867dbfbdcd607dbc525ad48cc8899adfbcdabdecbb7ec1da9ad8b949838d9f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "本業來自鉛酸／相關電池銷售及產品組合，受鉛價、售價連動、加工效率、用工與匯率影響；公司未披露各用途完整利潤，營收比重不能當獲利比重。2025合併收入6,632,168千元、營業利益800,633、稅後652,801、EPS7.95元，較2024收入8,137,839、稅後963,328下降。公司把客戶因關稅不確定而延後／減單、匯兌利益由133,981降至46,923千元列為原因。年報另列年度預算與達成率，預算EPS12元不是實際EPS。\n2026前三季合併收入5,271,742千元較5,017,791增加，但營業利益624,910低於640,403；稅後／歸母521,240高於472,755、EPS6.35高於5.76。業外合計69,955較9,821增加，其中匯兌由損失8,078轉利益40,426、利息收入21,943；淨利改善不可全歸因AI電池新品。單季Q3收入1,834,178、營業利益238,759、歸母192,306千元及EPS2.34，去年同期169,344及2.06；單季與累計分開。\n現金流與負債：前三季營業現金淨流出57,412千元，去年淨流入1,051,109；應收增加耗用157,660、存貨增加耗用325,033、付稅398,010千元是主要觀察項。另發現金股利590,852與購置廠房設備136,434千元，9月底現金降至1,360,552（2025年底2,009,094）；短借20,000與總負債1,283,793不同概念。存貨2,016,835千元較1,691,802增加，收入成長仍要搭配週轉及回收評估；已簽未發生廠房設備資本支出95,545千元不是已付款或已投產。\n核閱限制：11/9報告為保留結論，部分非重要子公司未核閱，資產686,747千元占12.06%、負債25,795占2.01%；不能寫成無保留核閱或據此認定財報失真。台灣與越南部門稅前損益及內部交易需消除，不能直接將部門合計當合併獲利。\n相似同業6121新普（上櫃，僅作同業比較）：官方產品含備援、資料中心BBU、電動搬運與儲能等電池模組，可比較應用及客戶驗證／系統整合需求；新普主力鋰電模組與廣隆鉛酸製造、原料曝險不同，不能直接套同一毛利、容量單價或估值。這是研究選擇的局部可比，非同化學體系競品認定。",
+        "period": "2025全年、2026前三季合併財報及7/24法說；查閱截至11/26固定截止",
+        "sources": [
+          "1537-annual",
+          "1537-q3",
+          "1537-call",
+          "1537-agm",
+          "6121-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1537-annual",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1079/",
+          "title": "廣隆2025年度年報",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-annual.pdf",
+          "total_pages": 104,
+          "pages_read": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            81,
+            82,
+            92,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1537-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1537&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "廣隆2026第三季合併財報52頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-11-10T16:12:09+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-q3.pdf",
+          "total_pages": 52,
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            28,
+            29,
+            30,
+            36,
+            46,
+            47
+          ]
+        },
+        {
+          "source_id": "1537-call",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1098/",
+          "title": "廣隆2026/7/24法說簡報31頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-call.pdf",
+          "total_pages": 31,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        },
+        {
+          "source_id": "1537-agm",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1101/",
+          "title": "廣隆2026/6/17股東會議事錄及原始QA",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-06-24T10:05:24+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-agm.pdf",
+          "total_pages": 35,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "source_id": "6121-peer",
+          "url": "https://www.simplo.com.tw/article_d.php?cid=84&id=696&lang=tw&tb=2",
+          "title": "新普官方產品應用",
+          "publisher": "新普科技",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T13:39:10.746543+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "最新法說原件31頁全讀及圖表核對；無獨立會後QA文件，不能把6/17股東會兩組問答當7/24法說QA。",
+        "6/17議事錄35頁中的會議與問答1–6頁、營業報告7–11頁核讀；初段文字編碼錯亂以原圖核對，不以錯字填資料。",
+        "Q3核閱保留結論係部分非重要子公司未核閱，不等同已查出舞弊；財報數字仍保留適用範圍。",
+        "具名客戶除VNPT供貨外多匿名；AI客戶、各新產品訂單金額／單案收入／量產日未披露，不當全部UPS均為AI收入。",
+        "官方2026各月與公司索引核對所見最新已開法說為7/24；歷史補齊不列近期新事件，未宣稱全歷史來源絕無缺漏。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-1537-v1-developments",
+      "task_id": "missed-quota-20261024-min1",
+      "company_code": "1537",
+      "company_name": "廣隆",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "developments",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:82867dbfbdcd607dbc525ad48cc8899adfbcdabdecbb7ec1da9ad8b949838d9f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "既有鉛酸核心持續往大型、高功率、長壽命及純鉛／鉛碳方向升級，鋰模組作新業務；自動化、在地品牌與通路同步推進。年報已完成的2–5分鐘1000W/cell以上高功率電池，與2026計畫15分鐘1000W/cell及2000Ah目標不同，後者不能寫成已達規格或已量產。\n具名商用進度是48V100Ah電信模組開始供VNPT HCM；其他計畫多未揭單項營收與量產日。7/24簡報稱德和基地350,000平方米、已開發200,000平方米是土地／開發面積，不是新增年產量或全部立即可用產能。2026年報預期銷售3,636櫃屬公司當時計畫，並非截至11月已達成。\n產品認證、可回收性與安全性是公司競爭論點；對其他電池技術安全性的概括說法不當研究確證。各固定項目詳列開發、供貨、設備投入與缺漏，不因資料中心／綠能用途標籤就列近期重大事件。",
+        "period": "2025全年、2026前三季合併財報及7/24法說；查閱截至11/26固定截止",
+        "sources": [
+          "1537-annual",
+          "1537-q3",
+          "1537-call",
+          "1537-agm",
+          "6121-peer"
+        ],
+        "projects": [
+          {
+            "project_id": "1537-ultra-high-power-ups",
+            "name": "資料中心超高功率UPS電池",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "UPS設備及資料中心；客戶未具名",
+            "status": "2–5分鐘1000W/cell以上產品已開發；WXL/HTP既有系列",
+            "commercial_timing": "單型量產／收入未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-ups-2000ah-target",
+            "name": "2000Ah及15分鐘備援研發",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "資料中心及關鍵設施備援",
+            "status": "2026計畫最大2000Ah、15分鐘1000W/cell目標，非達成確證",
+            "commercial_timing": "未揭完成與商用日",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-telecom-lithium-vnpt",
+            "name": "48V100Ah電信鋰模組",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "越南電信基地台VNPT HCM",
+            "status": "開發完成、通過VNPT承認並開始供貨",
+            "commercial_timing": "已開始供貨；起始日及個案收入未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-start-stop-atv",
+            "name": "機車起停與ATV電池",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "機車節能啟停及ATV設備",
+            "status": "既有起停電池開發並通過美國ATV中心廠承認；未具名",
+            "commercial_timing": "各規格商用日未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-cold-atv",
+            "name": "低溫ATV電池研發",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "零下25°C ATV啟動",
+            "status": "2026研發目標；不得與既有ATV認證合併稱完成",
+            "commercial_timing": "未揭完成／商用日",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-lev-deep-cycle",
+            "name": "長循環輕型電動車電池",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "電動機車、腳踏車、代步及輔具",
+            "status": "已開發100%DOD超500次／50%DOD超1000次規格；車用營收整組不能當單款收入",
+            "commercial_timing": "單款量產時間未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-carbon-purelead-storage",
+            "name": "鉛碳／純鉛儲能產品",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "綠能、離網、深循環及UPS長壽命",
+            "status": "既有研發與純鉛／大型膠體規格推廣並行",
+            "commercial_timing": "各案完成及貢獻未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-lithium-line-integration",
+            "name": "鋰鐵產線及系統整合",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "電信、工業UPS、家用儲能",
+            "status": "規劃產線、檢測及與客戶共開發；VNPT個案另列",
+            "commercial_timing": "完整產線產能及其餘商用日未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-vietnam-automation",
+            "name": "越南製程自動化與擴產",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "改善鉛酸極板及電池製造效率",
+            "status": "德和極板沖壓、機械手臂及COS/CF等持續導入；非全新面積皆投產",
+            "commercial_timing": "逐案新增產能及投產日未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-taiwan-capacity",
+            "name": "台灣投資及產能布局",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "分散供應鏈與多元客戶需求",
+            "status": "6/17QA稱未來擴大在台投資，屬計畫",
+            "commercial_timing": "未揭新線完工、產能及收入",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "1537-long-globe-channels",
+            "name": "LONG／GLOBE品牌及新市場",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "全球及越南汽機車替換、東協通路",
+            "status": "既有品牌商用與經銷擴展，2026Q2自有44%為銷售組合",
+            "commercial_timing": "新增通路個案時程未揭",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "1537-annual",
+              "1537-call",
+              "1537-agm"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1537-annual",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1079/",
+          "title": "廣隆2025年度年報",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-annual.pdf",
+          "total_pages": 104,
+          "pages_read": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            81,
+            82,
+            92,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1537-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1537&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "廣隆2026第三季合併財報52頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-11-10T16:12:09+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-q3.pdf",
+          "total_pages": 52,
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            28,
+            29,
+            30,
+            36,
+            46,
+            47
+          ]
+        },
+        {
+          "source_id": "1537-call",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1098/",
+          "title": "廣隆2026/7/24法說簡報31頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-call.pdf",
+          "total_pages": 31,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        },
+        {
+          "source_id": "1537-agm",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1101/",
+          "title": "廣隆2026/6/17股東會議事錄及原始QA",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-06-24T10:05:24+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-agm.pdf",
+          "total_pages": 35,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "source_id": "6121-peer",
+          "url": "https://www.simplo.com.tw/article_d.php?cid=84&id=696&lang=tw&tb=2",
+          "title": "新普官方產品應用",
+          "publisher": "新普科技",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T13:39:10.746543+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "最新法說原件31頁全讀及圖表核對；無獨立會後QA文件，不能把6/17股東會兩組問答當7/24法說QA。",
+        "6/17議事錄35頁中的會議與問答1–6頁、營業報告7–11頁核讀；初段文字編碼錯亂以原圖核對，不以錯字填資料。",
+        "Q3核閱保留結論係部分非重要子公司未核閱，不等同已查出舞弊；財報數字仍保留適用範圍。",
+        "具名客戶除VNPT供貨外多匿名；AI客戶、各新產品訂單金額／單案收入／量產日未披露，不當全部UPS均為AI收入。",
+        "官方2026各月與公司索引核對所見最新已開法說為7/24；歷史補齊不列近期新事件，未宣稱全歷史來源絕無缺漏。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-1537-v1-transition",
+      "task_id": "missed-quota-20261024-min1",
+      "company_code": "1537",
+      "company_name": "廣隆",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:82867dbfbdcd607dbc525ad48cc8899adfbcdabdecbb7ec1da9ad8b949838d9f",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "轉型路徑是鉛酸高端化、鋰模組多元化及越南製造效率提升，仍以既有電池生意為核心。公司稱客戶認證周期與品質穩定構成進入門檻，鉛價連動定價與自有品牌用於降低原料、通路壓力；未給2026全年獲利保證。2025需求／匯率衝擊與2026累計本業、業外、現金流各自變化應分開，不把單季改善推為所有新品已商用。\n6/17股東會原始QA兩組：股東69266問能否9點改9點半，公司答將綜合交通與報到流程評估，未承諾已改時；問今年成長規劃，公司答接單較去年穩定，越南缺工短期以薪資福利獎金留才、長期加速自動化，並將擴大在台投資產能。這是股東會當日說明，不是7/24法說逐字QA，也不等於台灣新廠已完工。未找到獨立7/24QA原件，保留資料缺漏，未觀看影音。\n風險為鉛及能源價格、美元／越南盾／臺幣匯率、海外關稅與需求、越南用工、客戶及供應商集中、鋰電替代競爭、新規格認證與產能執行，以及營運資金占用。公司尚未給各新事業獲利分拆，需追蹤實際出貨、應收回收及現金而非只看計畫櫃數或廠地面積。",
+        "period": "2025全年、2026前三季合併財報及7/24法說；查閱截至11/26固定截止",
+        "sources": [
+          "1537-annual",
+          "1537-q3",
+          "1537-call",
+          "1537-agm",
+          "6121-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1537-annual",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1079/",
+          "title": "廣隆2025年度年報",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-annual.pdf",
+          "total_pages": 104,
+          "pages_read": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            66,
+            67,
+            68,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            81,
+            82,
+            92,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        {
+          "source_id": "1537-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1537&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "廣隆2026第三季合併財報52頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-11-10T16:12:09+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-q3.pdf",
+          "total_pages": 52,
+          "pages_read": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            28,
+            29,
+            30,
+            36,
+            46,
+            47
+          ]
+        },
+        {
+          "source_id": "1537-call",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1098/",
+          "title": "廣隆2026/7/24法說簡報31頁",
+          "publisher": "廣隆／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-call.pdf",
+          "total_pages": 31,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        },
+        {
+          "source_id": "1537-agm",
+          "url": "https://www.klb.com.tw/investor_template-detail/13/1101/",
+          "title": "廣隆2026/6/17股東會議事錄及原始QA",
+          "publisher": "廣隆／官方來源",
+          "published_at": "2026-06-24T10:05:24+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-1537/1537-agm.pdf",
+          "total_pages": 35,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "source_id": "6121-peer",
+          "url": "https://www.simplo.com.tw/article_d.php?cid=84&id=696&lang=tw&tb=2",
+          "title": "新普官方產品應用",
+          "publisher": "新普科技",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T13:39:10.746543+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "最新法說原件31頁全讀及圖表核對；無獨立會後QA文件，不能把6/17股東會兩組問答當7/24法說QA。",
+        "6/17議事錄35頁中的會議與問答1–6頁、營業報告7–11頁核讀；初段文字編碼錯亂以原圖核對，不以錯字填資料。",
+        "Q3核閱保留結論係部分非重要子公司未核閱，不等同已查出舞弊；財報數字仍保留適用範圍。",
+        "具名客戶除VNPT供貨外多匿名；AI客戶、各新產品訂單金額／單案收入／量產日未披露，不當全部UPS均為AI收入。",
+        "官方2026各月與公司索引核對所見最新已開法說為7/24；歷史補齊不列近期新事件，未宣稱全歷史來源絕無缺漏。"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview_sha256": "sha256:82867dbfbdcd607dbc525ad48cc8899adfbcdabdecbb7ec1da9ad8b949838d9f",
+  "adopted_record_sha256": "sha256:51e588ebb80de22adfc02bbd59d670aa2e37124a7411cab977b3e8acbbe55596",
+  "source_evidence_sha256": {
+    "1537-annual": "sha256:9ba8620c459e28cdad88de97b176d00f8c7d6a007e08a2b0463b78f178913ab3",
+    "1537-q3": "sha256:f70bbbd9766d98950a5d0de5ef656b6bc79fef52b7eddc6c2ed3804566941115",
+    "1537-call": "sha256:c4e620d20170a767270d29065884ce63ca4db72f38f8b5190b7b70e8b44bd4ce",
+    "1537-agm": "sha256:09430c29efe3e2cd5c87b444db2779ffe947c6e8408ef9adee50cdc3e5d1f359"
+  },
+  "financial_verification": {
+    "basis": "IFRSs合併財報AI1",
+    "common_official_rows_matched": {
+      "營業收入": 5271742,
+      "營業利益（損失）": 624910,
+      "營業外收入及支出": 69955,
+      "基本每股盈餘（元）": 6.35
+    },
+    "cash_flow_outflow_thousand": 57412,
+    "review_conclusion": "保留結論",
+    "source_numeric_files_modified": false,
+    "overview_financial_tables_modified": false
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved_null": true,
+    "full_lookup_status_separate_from_legacy_schema": true,
+    "historical_call_not_recent_meeting": true,
+    "new_company_quota": 0,
+    "backlog_completed": 1,
+    "backlog_origin": "2026-10-24",
+    "backlog_remaining": 23,
+    "today_2727_target_not_offset": true,
+    "cutoff_not_advanced": true,
+    "project_ids": [
+      "1537-ultra-high-power-ups",
+      "1537-ups-2000ah-target",
+      "1537-telecom-lithium-vnpt",
+      "1537-start-stop-atv",
+      "1537-cold-atv",
+      "1537-lev-deep-cycle",
+      "1537-carbon-purelead-storage",
+      "1537-lithium-line-integration",
+      "1537-vietnam-automation",
+      "1537-taiwan-capacity",
+      "1537-long-globe-channels"
+    ]
+  }
+}
