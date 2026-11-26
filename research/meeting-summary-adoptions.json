@@ -308,6 +308,26 @@
         "24頁簡報與主要圖表已讀；本場獨立原始文字QA未在索引見，未觀看影片。",
         "法定EPS0.63與公司非IFRS調整EPS1.42分開。"
       ]
+    },
+    {
+      "symbol": "2009.TW",
+      "name": "第一銅",
+      "kind": "法說會",
+      "meeting_date": "2026-11-20",
+      "summary_updated_at": "2026-11-26",
+      "batch_id": "research-20261126-2009-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "9de9ca1c0a49f5f8407fd9c111ea178760e02130",
+      "workflow_run_id": 45833010143,
+      "verified_at": "2026-11-26T13:56:11.782Z",
+      "original_qa_verified": false,
+      "limitations": [
+        "14頁簡報及圖表已讀；本場獨立原始文字QA未找到，未觀看影片。",
+        "6/24股東會原件明載無股東提問，與11/20法說分開。"
+      ]
     }
   ]
 }
