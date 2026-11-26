@@ -269,6 +269,25 @@
       "workflow_run_id": 45567908175,
       "verified_at": "2026-11-25T07:30:16.250Z",
       "original_qa_verified": true
+    },
+    {
+      "symbol": "2727.TW",
+      "name": "王品",
+      "kind": "法說會",
+      "meeting_date": "2026-11-25",
+      "summary_updated_at": "2026-11-26",
+      "batch_id": "research-20261126-2727-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "06745913e6e89bbf960051bde1387da3142f62b6",
+      "workflow_run_id": 45766820785,
+      "verified_at": "2026-11-26T06:19:49.657Z",
+      "original_qa_verified": true,
+      "limitations": [
+        "371與372家店數來源差異保留；美國仍籌備中。"
+      ]
     }
   ]
 }
