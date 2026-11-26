@@ -1,0 +1,1251 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261126-material-events-v1",
+    "ready": true,
+    "created_at": "2026-11-26T13:41:46.295810+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 3,
+    "updates_sha256": "sha256:1f15508d8cb1cefdad35dd26afa8ff90413ebf05419aa2cc257851a0bb980677",
+    "work_type": "change_update",
+    "material_events_completed": 3,
+    "whole_company_count": 0,
+    "validation": {
+      "original_official_text_read": true,
+      "baseline_locked": true,
+      "old_text_preserved": true,
+      "full_event_unit": true,
+      "financial_tables_not_modified": true
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-material-events-v1-6994",
+      "task_id": "change-update-6994-20261125-independent-director-vacancy",
+      "company_code": "6994",
+      "company_name": "富威電力",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:25c234188b64e6995530cd180cd4fa0437e6f4c235278bba871a834356af6808",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:e648b1627f6b3f3561cee7dc1bd3e30860dc952038094c1bc38fffa419ab8708",
+      "expected_old_section_version": "sha256:7c2b8c59696afda742165edef1d647133a756859b138cfa5a458d276cf406ec6",
+      "old_content": {
+        "text": "股利調降與資金調度：富威電力11/24董事會將2025年度現金股利由總額221,485,713元、每股3元，改為總額44,994,128元、每股0.6067元。公告所述原因是原母公司森崴能源下市連帶影響公司銀行額度與資金調度，考量營運資金與財務穩健，已無法按原擬計畫支付原額度。這是公司明示的流動性約束，不能只當例行除息公告，也不等於已證實富威違約或倒閉。\n同日資本與治理配套：董事會另提資本公積74,162,070元轉增資7,416,207股、每仟股無償配發99.999999股，待股東會通過及主管機關核准後另訂發行基準日；屬權益內轉列，不能當對外新募現金或解除銀行調度困難。因在任獨立董事僅1人、審計委員會無法召開，上述股利調整、資本公積增資及盈餘分配表修正由全體董事三分之二以上同意通過，獨立董事江誠榮對三案表示保留意見。公告未說明保留的具體理由，不推定其反對原因或有違法結論。\n時程與狀態：同日公告列12/11除息、12/19基準日及2027/3/17發放日，均為未來排程，並非本日已付款；另訂2027/1/13股臨會承認修正盈餘分配表、討論資本公積轉增資及增補選5席董事。董事會、後續股臨會承認與主管機關核准各階段分開，是否再變更須依後續公告。此事件影響股利預期、流動性與治理追蹤；銀行實際授信額度變動、可用現金、替代融資及後續核准／付款未由這組公告完整披露，不補猜數字。",
+        "period": "2026/11/24實質事件；相關前案保留原公告日期",
+        "sources": [
+          "6994-official-20261124-201722",
+          "6994-official-20261124-201833",
+          "6994-official-20261124-202359",
+          "6994-official-20261124-202506",
+          "6994-official-20261124-203218",
+          "6994-official-20261124-203302"
+        ],
+        "event_id": "6994-20261124-dividend-liquidity-governance",
+        "reviewed_at": "2026-11-24",
+        "update_id": "research-20261124-material-events-v1-6994",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "new_content": {
+        "text": "股利調降與資金調度：富威電力11/24董事會將2025年度現金股利由總額221,485,713元、每股3元，改為總額44,994,128元、每股0.6067元。公告所述原因是原母公司森崴能源下市連帶影響公司銀行額度與資金調度，考量營運資金與財務穩健，已無法按原擬計畫支付原額度。這是公司明示的流動性約束，不能只當例行除息公告，也不等於已證實富威違約或倒閉。\n同日資本與治理配套：董事會另提資本公積74,162,070元轉增資7,416,207股、每仟股無償配發99.999999股，待股東會通過及主管機關核准後另訂發行基準日；屬權益內轉列，不能當對外新募現金或解除銀行調度困難。因在任獨立董事僅1人、審計委員會無法召開，上述股利調整、資本公積增資及盈餘分配表修正由全體董事三分之二以上同意通過，獨立董事江誠榮對三案表示保留意見。公告未說明保留的具體理由，不推定其反對原因或有違法結論。\n時程與狀態：同日公告列12/11除息、12/19基準日及2027/3/17發放日，均為未來排程，並非本日已付款；另訂2027/1/13股臨會承認修正盈餘分配表、討論資本公積轉增資及增補選5席董事。董事會、後續股臨會承認與主管機關核准各階段分開，是否再變更須依後續公告。此事件影響股利預期、流動性與治理追蹤；銀行實際授信額度變動、可用現金、替代融資及後續核准／付款未由這組公告完整披露，不補猜數字。\n\n2026/11/25治理進度：11/24仍在任並對減配等三案表達保留意見的獨董江誠榮，11/25公告辭任獨立董事，並同時辭去審計、薪酬及永續發展委員會職務，無新任人員；公告同任期董事變動4/7、獨董變動3/3。相對11/24僅餘1名在任獨董的狀態，這是監督機制缺額進一步擴大的實質變化，不能當一般例行人事略過；但公司僅記載辭職，不得推定因不滿減配而辭職、已有舞弊或發生違法。\n同日記者會重述銀行額度／資金調度受原母公司森崴下市影響，稱減配是保留流動性與抗風險的預防措施，並稱綠電交易、節能服務、專案進度、合約及客戶服務正常。這是公司當日說法，不代表銀行額度已恢復或研究端已逐案確認所有營運。原每股0.6067元現金與擬資本公積配股每股面額約0.999999元不是兩筆現金股利；記者會所稱合計約1.6067元不能當每股現金發放，轉增資仍待股東會等程序。\n保留原11/24股利、流動性與後續股臨會時程，不重複當第二次減配。後續應追蹤獨董／委員會補足、股臨會決議、銀行授信與資金來源、實際股利發放；尚未揭辭任的其他理由、替代監督安排及授信恢復數字，不臆測。",
+        "period": "2026/11/24實質事件；相關前案保留原公告日期；2026/11/25實質事件",
+        "sources": [
+          "6994-official-20261124-201722",
+          "6994-official-20261124-201833",
+          "6994-official-20261124-202359",
+          "6994-official-20261124-202506",
+          "6994-official-20261124-203218",
+          "6994-official-20261124-203302",
+          "6994-official-20261125-161852",
+          "6994-official-20261125-161941",
+          "6994-official-20261125-173124"
+        ],
+        "event_id": "6994-20261125-independent-director-vacancy",
+        "reviewed_at": "2026-11-24",
+        "update_id": "research-20261124-material-events-v1-6994",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "6994-official-20261125-161852",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司獨立董事異動",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-25T16:18:52+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/46",
+          "official_statement": "1.發生變動日期:115/11/25\n2.選任或變動人員別（請輸入法人董事、法人監察人、獨立董事、自然人董事\n  或自然人監察人）:獨立董事\n3.舊任者職稱及姓名:江誠榮\n4.舊任者簡歷:富威電力股份有限公司 獨立董事\n5.新任者職稱及姓名:不適用\n6.新任者簡歷:不適用\n7.異動情形（請輸入「辭職」、「解任」、「任期屆滿」、「逝世」或「新任」）:辭職\n8.異動原因:辭職\n9.新任者選任時持股數:不適用\n10.原任期（例xx/xx/xx ~ xx/xx/xx）:115/05/22~118/05/21\n11.新任生效日期:不適用\n12.同任期董事變動比率:4/7\n13.同任期獨立董事變動比率:3/3\n14.同任期監察人變動比率:不適用\n15.屬三分之一以上董事發生變動（請輸入是或否）:是\n16.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n   符合證券交易法施行細則第7條第6款所定對股東權益或證券價格有重大影響之事項):無。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "161852",
+            "spoke_date": "20261125",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          }
+        },
+        {
+          "source_id": "6994-official-20261125-161941",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司獨立董事辭任功能性委員會職務",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-25T16:19:41+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/48",
+          "official_statement": "1.發生變動日期:115/11/25\n2.功能性委員會名稱:薪資報酬委員會、永續發展委員會及審計委員會\n3.舊任者姓名:江誠榮\n4.舊任者簡歷:富威電力股份有限公司 獨立董事\n5.新任者姓名:不適用\n6.新任者簡歷:不適用\n7.異動情形（請輸入「辭職」、「解任」、「任期屆滿」、「逝世」或「新任」）:辭職\n8.異動原因:辭職\n9.原任期（例xx/xx/xx ~ xx/xx/xx）:115/05/22~118/05/21\n10.新任生效日期:不適用\n11.其他應敘明事項:無。",
+          "official_request_parameters": {
+            "seq_no": "2",
+            "spoke_time": "161941",
+            "spoke_date": "20261125",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          }
+        },
+        {
+          "source_id": "6994-official-20261125-173124",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司召開重大訊息記者會新聞稿內容",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-25T17:31:24+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/85",
+          "official_statement": "1.事實發生日:115/11/25\n2.公司名稱:富威電力股份有限公司\n3.與公司關係(請輸入本公司或子公司):本公司\n4.相互持股比例:不適用\n5.傳播媒體名稱:不適用\n6.報導內容:\n富威電力股份有限公司（以下簡稱「富威電力(6994.TW)」）於\n民國115年11月24日召開董事會，評估當前整體金融環境與\n公司資金調度需求，決議調整原定發放之現金股利，原為\n新台幣221,485,713元，每股配發現金股利新台幣3元，\n調整後之現金股利為新台幣44,994,128元。\n每股新台幣0.6067元。本次董事會亦通過資本公積-普通股\n溢價發行轉增資發行新股案，待臨時股東會通過後，每股\n預計配發0.999999元，故每股股利共計約新台幣1.6067元。\n富威電力董事長張寶源表示，本次調整主要係因原母公司\n森崴能源股份有限公司下市，連帶影響本公司銀行額度與\n資金調度。考量目前現有營運資金流及為維持公司日常營\n運及財務穩健。故董事會決議採取保留彈性現金流，以確\n保具備高度的流動性與抗風險能力。\n張董事長進一步強調，此次資金調度屬於外部金融環境變\n動所引發的預防性措施，富威電力自身的營運基本面一切\n正常。目前公司在綠電交易及節能服務等核心業務上，\n所有專案進度、合約履行及客戶服務皆持續穩健推進，\n並未受到任何影響。\n7.發生緣由:富威電力股份有限公司董事會通過變更114年度\n盈餘分配數。\n8.因應措施:無。\n9.其他應敘明事項:無。",
+          "official_request_parameters": {
+            "seq_no": "4",
+            "spoke_time": "173124",
+            "spoke_date": "20261125",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          }
+        }
+      ],
+      "research_completed_at": "2026-11-26T13:41:46.295810+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整實質事件，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本則與必要前案核對，不稱全公司完成；事件不抵今日或承接公司配額。",
+        "公司估計、公司主張、已完成法律程序及未來資金／會計影響分開。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-material-events-v1-2371",
+      "task_id": "change-update-2371-20261125-execution-suspension-settlement",
+      "company_code": "2371",
+      "company_name": "大同",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:6a1be20758403efb2e0edabf35c21422ba7c683a8b7883ffa5bea7a94fd82fbe",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2026/11/25華映科技業績補償爭議執行進度：大同公告受任律師收到福建省福州市中級人民法院中止對大同執行之裁定，案號(2026)閩01執281號。原中國最高人民法院2025年底判決大同與華映百慕達、華映負連帶清償責任，爭議約人民幣30.29億元、公司公告折約新臺幣135億元。11/2董事會通過以人民幣7.68億元條件簽和解文件，當時仍待對方股東會與正式簽署；最新11/25公告確認雙方11/19已正式簽署和解協議，並進展至執行中止。\n研究影響：和解簽署與法院中止是已發生法律程序里程碑，應更新法律／資金風險；中止不是所有執行永久終結、全部債務消滅或已證實和解款付清。2025Q4已一次認列全部損失是公司公告的會計前案，不能把原判決金額減和解金自行當本期回沖利益、加進EPS或稱135億元全部回沖。\n公司明示實際回沖金額、認列時點及EPS影響，將依會計準則與會計師確認；截至固定截止未取得確認金額。和解完整履行、付款條件的實際執行、會計認列與終結裁定續追蹤。本次限法律事件，未完成大同整家公司研究。",
+        "sources": [
+          "2371-official-20261125-180930",
+          "2371-official-20261102-193601"
+        ],
+        "period": "；2026/11/25實質事件",
+        "event_id": "2371-20261125-execution-suspension-settlement"
+      },
+      "sources": [
+        {
+          "source_id": "2371-official-20261125-180930",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告華映科技(集團)股份有限公司對本公司就業績補償爭議 之執行程序中止",
+          "publisher": "大同／公開資訊觀測站",
+          "published_at": "2026-11-25T18:09:30+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/95",
+          "official_statement": "1.法律事件之當事人:\n被執行人：大同股份有限公司\n執行人：華映科技(集團)股份有限公司\n2.法律事件之法院名稱或處分機關:福建省福州市中級人民法院\n3.法律事件之相關文書案號:(2026)閩01執281號\n4.事實發生日:115/11/25\n5.發生原委(含爭訟標的):\n中國最高人民法院於114年底判決大同公司須與旗下華映百慕達及華映就與\n中國華映科技(集團)股份有限公司之業績補償款爭議負連帶清償責任，\n金額約人民幣30.29億元（約新台幣135億元）。\n雙方於115年11月19日正式簽署和解協議。\n6.處理過程:\n本公司於115年11月25日經受任律師告知收受福建省福州市中級人民法院中止對\n本公司之執行的裁定。\n7.對公司財務業務影響及預估影響金額:\n基於嚴謹的會計原則，本公司已在114年第4季全數一次性的認列損失。\n而實際回沖金額、認列時點及對每股盈餘之影響，將依相關會計準則及\n會計師確認結果辦理。\n8.因應措施及改善情形:無。\n9.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n  符合證券交易法施行細則第7條第2款所定對股東權益或證券價格有重大影響之事項):\n無",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "180930",
+            "spoke_date": "20261125",
+            "co_id": "2371",
+            "TYPEK": "sii"
+          }
+        },
+        {
+          "source_id": "2371-official-20261102-193601",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "公告本公司與華映科技（集團）股份有限公司間業績補償款\r\n訴訟案之協商和解事宜",
+          "publisher": "大同／公開資訊觀測站",
+          "published_at": "2026-11-02T19:36:01+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261126_2371.json",
+          "json_pointer": "/official_announcements_full_text/4",
+          "official_statement": "1.法律事件之當事人:\n被執行人：大同股份有限公司\n執行人：華映科技(集團)股份有限公司\n2.法律事件之法院名稱或處分機關:福建省福州市中級人民法院\n3.法律事件之相關文書案號:(2026)閩01執281號\n4.事實發生日:115/11/02\n5.發生原委(含爭訟標的):\n中國最高人民法院於114年底判決大同公司須與旗下華映百慕達及華映就與\n中國華映科技(集團)股份有限公司之業績補償款爭議負連帶清償責任，\n金額約人民幣30.29億元（約新台幣135億元）。\n6.處理過程:\n本公司與中國華映科技雙方歷經協商，在115年11月2日各自召集董事會，\n決議通過以人民幣7.68億元之和解金條件簽署和解相關文件。\n之後，本公司將依主管機關及相關法律之規定進行後續程序，\n而中國華映科技將提報其股東會，並待其股東會通過後，雙方將正式簽署和解協議。\n7.對公司財務業務影響及預估影響金額:\n基於嚴謹的會計原則，本公司已在去年第四季全數一次性的認列損失，\n如和解條件確定，將可以進行提列金額的迴轉。而實際回沖金額、認列時點及\n對每股盈餘之影響，將依相關會計準則及會計師確認結果辦理。\n8.因應措施及改善情形:無\n9.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n  符合證券交易法施行細則第7條第2款所定對股東權益或證券價格有重大影響之事項):\n無",
+          "official_request_parameters": null
+        }
+      ],
+      "research_completed_at": "2026-11-26T13:41:46.295810+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整實質事件，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本則與必要前案核對，不稱全公司完成；事件不抵今日或承接公司配額。",
+        "公司估計、公司主張、已完成法律程序及未來資金／會計影響分開。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-material-events-v1-5434",
+      "task_id": "change-update-5434-20261125-capital-raise-suspension",
+      "company_code": "5434",
+      "company_name": "崇越",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "section": "transition",
+      "operation": "replace",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:8f789725687e69b009d7cdf7663cdd44580115c5915f578fc5f891e66cde3412",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2026/11/25現增暫停：崇越公告暫停2026年現金增資發行普通股2,500,000股相關作業；原案10/30申報生效，11/2及11/11公告認股與價格事項，公司稱近期國際經濟變化及國內市場劇烈波動，為維護股東權益及確保募資完成，待市場穩定後另擇發行時點、重新公告作業。\n原11/11條件每股400元，資金用途償還銀行借款及充實營運資金；原股東及員工繳款11/30–12/4、特定人12/5–12/9。這些是被暫停案的舊排程，不能繼續當確定繳款日。按面額25,000千元是股本面額總額，不是已募得款；研究端不另計募資額或替網站回填。\n研究影響是募資與償債／營運資金到位時間改變；申報生效及決定發行不等於已收款，暫停不是已宣布永久取消，也無公告證實現金短缺、已退款或債務違約。重新啟動日期、最終價格、實際收款及資金用途執行未確認，保留待追。",
+        "sources": [
+          "5434-official-20261125-142929",
+          "5434-official-20261111-140438"
+        ],
+        "period": "；2026/11/25實質事件",
+        "event_id": "5434-20261125-capital-raise-suspension"
+      },
+      "sources": [
+        {
+          "source_id": "5434-official-20261125-142929",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司決議暫停115年現金增資 發行普通股相關作業",
+          "publisher": "崇越／公開資訊觀測站",
+          "published_at": "2026-11-25T14:29:29+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/17",
+          "official_statement": "1.事實發生日:115/11/25\n2.公司名稱:崇越科技股份有限公司\n3.與公司關係(請輸入本公司或子公司):本公司\n4.相互持股比例:不適用\n5.發生緣由:(1) 本公司115年現金增資發行普通股2,500,000股乙案，業經金融監督管理\n委員會115年10月30日金管證發字第1150358331號函申報生效，並於115年11月2日及11月\n11日公告本次現金增資認股基準日及增資價格等相關事宜。(2)鑒於近期國際經濟環境\n變化，致國內證券市場波動劇烈，為維護股東權益及確保募資完成，故暫停本次現金增\n資發行普通股相關作業，待國內資本市場趨於穩定，再行擇定合適之發行時點，以維護\n本公司利益及股東權益。待本公司重新訂定相關作業事宜將予以公告。\n6.因應措施:無。\n7.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n  符合證券交易法施行細則第7條第9款所定對股東權益或證券價格有重大影響之事項):無。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "142929",
+            "spoke_date": "20261125",
+            "co_id": "5434",
+            "TYPEK": "sii"
+          }
+        },
+        {
+          "source_id": "5434-official-20261111-140438",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "補充公告115年現金增資每股發行價格、委託代收及存儲\r\n專戶機構資訊",
+          "publisher": "崇越／公開資訊觀測站",
+          "published_at": "2026-11-11T14:04:38+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261126_5434.json",
+          "json_pointer": "/official_announcements_full_text/3",
+          "official_statement": "1.董事會決議或公司決定增資基準日期:115/11/02\n2.是否採總括申報發行新股(是，請併敘明預定發行期間/否):否\n3.主管機關申報生效日期:115/10/30\n4.董事會決議(追補)發行日期:115/09/21\n5.發行總金額及股數:總金額:按面額計新台幣25,000仟元。\n股數:普通股2,500仟股。\n6.採總括申報發行新股案件，本次發行金額及股數:不適用。\n7.採總括申報發行新股案件，本次發行後，剩餘之金額及股數餘額:不適用。\n8.每股面額:新台幣10元整。\n9.發行價格:每股新台幣400元。\n10.員工認股股數:依公司法第267條保留15%，計375仟股由本公司員工認購。\n11.原股東認購比率:本次發行新股股數之75%，計1,875仟股由原股東按認股基準日股東\n名冊記載之持股比例認購。\n12.公開銷售方式及股數:依證券交易法第28條之1規定，提撥發行新股股數之10%，\n計250仟股辦理公開承銷。\n13.畸零股及逾期未認購股份之處理方式:原股東認購不足一股之畸零股，股東得於停止\n過戶日起五日內，逕向本公司股務代理機構辦理拼湊整股認購，原股東及員工放棄認\n購或認購不足及逾期未拼湊之部份，擬授權董事長洽特定人認購。\n14.本次發行新股之權利義務:與原發行之普通股股份相同。\n15.本次增資資金用途:償還銀行借款及充實營運資金。\n16.現金增資認股基準日:115/11/24\n17.最後過戶日:115/11/19\n18.停止過戶起始日期:115/11/20\n19.停止過戶截止日期:115/11/24\n20.股款繳納期間:原股東及員工認股繳款期間:自115年11月30日至115年12月4日\n特定人認股繳款期間:自115年12月5日至115年12月9日。\n21.與代收及專戶存儲價款行庫訂約日期:115年11月11日。\n22.委託代收存款機構:第一商業銀行敦化分行。\n23.委託存儲款項機構:玉山銀行成功分行。\n24.其他應敘明事項:本公司辦理115年現金增資發行普通股2,500仟股乙案，業經金融監\n督管理委員會115年10月30日金管證發字第1150358331號函申報生效在案。",
+          "official_request_parameters": null
+        }
+      ],
+      "research_completed_at": "2026-11-26T13:41:46.295810+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整實質事件，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "本則與必要前案核對，不稱全公司完成；事件不抵今日或承接公司配額。",
+        "公司估計、公司主張、已完成法律程序及未來資金／會計影響分開。"
+      ]
+    }
+  ],
+  "before_official_records": {
+    "6994.TW": {
+      "name": "富威電力",
+      "reviewed_at": null,
+      "research_completion": "partial",
+      "event_lookup_completion": "event_lookup_complete_with_disclosed_gaps",
+      "event_lookup_completed_at": "2026-11-24T22:03:00.472561+08:00",
+      "sources": {
+        "6994-official-20261124-201722": {
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司股利分派經董事會決議變動",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-24",
+          "source_evidence_file": "研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/85",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 6994 富威電力 公司提供 序號 16 發言日期 115/11/24 發言時間 20:17:22 發言人 許冠華 發言人職稱 主任 發言人電話 (02)2269-9888 主旨 公告本公司股利分派經董事會決議變動 符合條款 第 14 款 事實發生日 115/11/24 說明 1.董事會或股東會決議日期:115/11/24 2.原發放股利種類及金額: 現金股利新台幣 221,485,713元(每股現金股利3元) 3.變更後發放股利種類及金額: 現金股利新台幣 44,994,128元(每股現金股利0.6067元) 4.變更原因:茲因原母公司森崴能源股份有限公司下市， 連帶影響本公司銀行額度與資金調度。考量目前現有營運 資金流及為維持公司日常營運及財務穩健，已無法按原擬 定計畫支付原額度之現金股利，爰擬調整本次盈餘分配數。 5.其他應敘明事項:無。 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "16",
+            "spoke_time": "201722",
+            "spoke_date": "20261124",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          },
+          "published_timestamp": "2026-11-24T20:17:22+08:00"
+        },
+        "6994-official-20261124-201833": {
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司114年度普通股現金股利配發基準日",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-24",
+          "source_evidence_file": "研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/86",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 6994 富威電力 公司提供 序號 3 發言日期 115/11/24 發言時間 20:18:33 發言人 許冠華 發言人職稱 主任 發言人電話 (02)2269-9888 主旨 公告本公司114年度普通股現金股利配發基準日 符合條款 第 14 款 事實發生日 115/11/24 說明 1.董事會、股東會決議或公司決定日期:115/11/24 2.除權、息類別（請填入「除權」、「除息」或「除權息」）:除息 3.普通股發放股利種類及金額: 現金股利每股配發0.6067元，合計分配新台幣44,994,128元。 4.除權（息）交易日:115/12/11 5.最後過戶日:115/12/14 6.停止過戶起始日期:115/12/15 7.停止過戶截止日期:115/12/19 8.除權（息）基準日:115/12/19 9.債券最後申請轉換日期:不適用 10.債券停止轉換起始日期:不適用 11.債券停止轉換截止日期:不適用 12.普通股現金股利發放日期:116/03/17 13.現金股利之一部或全部是否以外幣發放(請填入「是」或「否」):否 14.外幣現金股利發放幣別:不適用 15.外幣現金股利發放對象:不適用 16.外幣現金股利匯率決定方式:不適用 17.其他應敘明事項:無 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "3",
+            "spoke_time": "201833",
+            "spoke_date": "20261124",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          },
+          "published_timestamp": "2026-11-24T20:18:33+08:00"
+        },
+        "6994-official-20261124-202359": {
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "董事會決議召開116年第一次股東臨時會",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-24",
+          "source_evidence_file": "研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/87",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 6994 富威電力 公司提供 序號 5 發言日期 115/11/24 發言時間 20:23:59 發言人 許冠華 發言人職稱 主任 發言人電話 (02)2269-9888 主旨 董事會決議召開116年第一次股東臨時會 符合條款 第 17 款 事實發生日 115/11/24 說明 1.董事會決議日期：115/11/24 2.股東臨時會召開日期：116/01/13 3.股東臨時會召開地點：新北市土城區中央路四段49號2樓(正崴集團頂埔大樓會議室) 4.股東臨時會召開方式(實體股東會/視訊輔助股東會/視訊股東會)：實體股東會 5.召集事由一：報告事項 (1)：變更本公司114年度盈餘分配數報告。 6.召集事由二：承認事項 (1)：修正本公司114年度盈餘分配表。 7.召集事由三：討論事項 (1)：辦理資本公積轉增資發行新股案。 8.召集事由四：選舉事項 (1)：增補選董事(含獨立董事)五席案。 9.召集事由五：其他事項 (1)：解除新任董事及其法人代表人競業禁止之限制案。 10.臨時動議： 11.停止過戶起始日期：115/12/15 12.停止過戶截止日期：116/01/13 13.其他應敘明事項：本次股東臨時會股東得以電子方式行使表決權，行使期間為:自115年12月29日起至116年1 月10止，股東得於前述行使期間逕登入台灣集中保管結算所股份有限公司 「股票e票通」 股東會電子投票平台，並依相關說明操作之 (網址: https://www.stockvote.com.tw)。 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "5",
+            "spoke_time": "202359",
+            "spoke_date": "20261124",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          },
+          "published_timestamp": "2026-11-24T20:23:59+08:00"
+        },
+        "6994-official-20261124-202506": {
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "本公司董事會決議資本公積轉增資發行新股",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-24",
+          "source_evidence_file": "研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/88",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 6994 富威電力 公司提供 序號 6 發言日期 115/11/24 發言時間 20:25:06 發言人 許冠華 發言人職稱 主任 發言人電話 (02)2269-9888 主旨 本公司董事會決議資本公積轉增資發行新股 符合條款 第 11 款 事實發生日 115/11/24 說明 1.董事會決議日期:115/11/24 2.增資資金來源:資本公積 3.是否採總括申報發行新股(是，請併敘明預定發行期間/否):否 4.全案發行總金額及股數(如屬盈餘或公積轉增資，發行股數則不含配發給員工部分): 發行總金額74,162,070元、發行股數7,416,207股 5.採總括申報發行新股案件，本次發行金額及股數:不適用 6.採總括申報發行新股案件，本次發行後，剩餘之金額及股數餘額:不適用 7.每股面額:新台幣10元 8.發行價格:不適用 9.員工認購股數或配發金額:不適用 10.公開銷售股數:不適用 11.原股東認購或無償配發比例:每仟股無償配發99.999999股 (以超過票面金額發行普通股溢價之資本公積提撥) 12.畸零股及逾期未認購股份之處理方式:配發不足一股之畸零股， 股東得自除權時股票停止過戶之日起5日內，向本公司股務代理 機構辦理併湊整股之登記，未拼湊或拼湊後仍不足一股者，依 公司法第240條規定，按面額折付現金，計算至元為止 （元以下捨去），並授權董事長洽特定人按面額承購之。 13.本次發行新股之權利義務:與原已發行股份相同。 14.本次增資資金用途:提升本公司資本規模及強化財務結構 15.現金減資後再行募資之合理性及必要性 (募資當年度及前一年度有辦理現金減資者適用):不適用 16.其他應敘明事項: (1)股利分派如嗣後因本公司股本發生變動，影響流通在外 股份數量，致配股率因此發生變動者，擬請股東會授權董事長 依公司法或其相關法令規定全權處理之。 (2)本案俟股東會通過並呈奉主管機關核准後，授權董事會另訂 發行新股基準日、發放日及其他相關事宜。 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "6",
+            "spoke_time": "202506",
+            "spoke_date": "20261124",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          },
+          "published_timestamp": "2026-11-24T20:25:06+08:00"
+        },
+        "6994-official-20261124-203218": {
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司董事會之議決事項，未經審計委員會通過， 而經全體董事三分之二以上同意通過者",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-24",
+          "source_evidence_file": "研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/89",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 6994 富威電力 公司提供 序號 14 發言日期 115/11/24 發言時間 20:32:18 發言人 許冠華 發言人職稱 主任 發言人電話 (02)2269-9888 主旨 公告本公司董事會之議決事項，未經審計委員會通過， 而經全體董事三分之二以上同意通過者 符合條款 第 44 款 事實發生日 115/11/24 說明 1.董事會日期:115/11/24 2.審計委員會日期:NA 3.未經審計委員會通過，而經全體董事三分之二以上同意通過之議決事項內容: (1)變更本公司114年度盈餘分配數並訂定除息基準日及現金股利發放日案。 (2)辦理資本公積轉增資發行新股案。 (3)修正本公司114年度盈餘分配表案。 4.其他應敘明事項: (1)因本公司在任獨立董事僅1名，致審計委員會無法召開。 (2)上述議案已提交115年11月24日召開之董事會討論，並經該次董事會全體董事 2/3以上同意通過。 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "14",
+            "spoke_time": "203218",
+            "spoke_date": "20261124",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          },
+          "published_timestamp": "2026-11-24T20:32:18+08:00"
+        },
+        "6994-official-20261124-203302": {
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司獨立董事對董事會討論事項表示保留意見",
+          "publisher": "富威電力／公開資訊觀測站",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-24",
+          "source_evidence_file": "研究進度/來源留存/2026-11-24-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/90",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 6994 富威電力 公司提供 序號 12 發言日期 115/11/24 發言時間 20:33:02 發言人 許冠華 發言人職稱 主任 發言人電話 (02)2269-9888 主旨 公告本公司獨立董事對董事會討論事項表示保留意見 符合條款 第 44 款 事實發生日 115/11/24 說明 1.董事會、審計委員會或薪酬委員會之日期:115/11/24 2.董事會、審計委員會或薪酬委員會之議決事項(請輸入〝董事會〞或 〝審計委員會〞或〝薪酬委員會〞):董事會 3.表示反對或保留意見之獨立董事或審計委員會、薪酬委員會成員姓名及簡歷: 江誠榮先生/富威電力股份有限公司獨立董事 4.表示反對或保留意見之議案: 討論事項第三案:變更本公司114年度盈餘分配數 並訂定除息基準日及現金股利發放日案。 討論事項第四案:辦理資本公積轉增資發行新股案。 討論事項第五案:修正本公司114年度盈餘分配表案。 5.前揭獨立董事或審計委員會、薪酬委員會成員表示反對或保留之意見: 保留意見。 6.因應措施:依規定發布重大訊息。 7.其他應敘明事項:無。 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "12",
+            "spoke_time": "203302",
+            "spoke_date": "20261124",
+            "co_id": "6994",
+            "TYPEK": "sii"
+          },
+          "published_timestamp": "2026-11-24T20:33:02+08:00"
+        }
+      },
+      "limitations": [
+        "限本事件及必要前案查核，不稱整家公司研究完成，不抵銷今日或承接公司配額。",
+        "公司估計、董事會決議、未來排程、主管機關核准及已執行分開；未披露的最終財務影響與時程不補猜。"
+      ],
+      "material_events": [
+        {
+          "company_code": "6994",
+          "event_id": "6994-20261124-dividend-liquidity-governance",
+          "date": "2026-11-24",
+          "importance_reason": "銀行額度及資金調度約束導致減配，附資本／治理決議"
+        }
+      ],
+      "transition": {
+        "text": "股利調降與資金調度：富威電力11/24董事會將2025年度現金股利由總額221,485,713元、每股3元，改為總額44,994,128元、每股0.6067元。公告所述原因是原母公司森崴能源下市連帶影響公司銀行額度與資金調度，考量營運資金與財務穩健，已無法按原擬計畫支付原額度。這是公司明示的流動性約束，不能只當例行除息公告，也不等於已證實富威違約或倒閉。\n同日資本與治理配套：董事會另提資本公積74,162,070元轉增資7,416,207股、每仟股無償配發99.999999股，待股東會通過及主管機關核准後另訂發行基準日；屬權益內轉列，不能當對外新募現金或解除銀行調度困難。因在任獨立董事僅1人、審計委員會無法召開，上述股利調整、資本公積增資及盈餘分配表修正由全體董事三分之二以上同意通過，獨立董事江誠榮對三案表示保留意見。公告未說明保留的具體理由，不推定其反對原因或有違法結論。\n時程與狀態：同日公告列12/11除息、12/19基準日及2027/3/17發放日，均為未來排程，並非本日已付款；另訂2027/1/13股臨會承認修正盈餘分配表、討論資本公積轉增資及增補選5席董事。董事會、後續股臨會承認與主管機關核准各階段分開，是否再變更須依後續公告。此事件影響股利預期、流動性與治理追蹤；銀行實際授信額度變動、可用現金、替代融資及後續核准／付款未由這組公告完整披露，不補猜數字。",
+        "period": "2026/11/24實質事件；相關前案保留原公告日期",
+        "sources": [
+          "6994-official-20261124-201722",
+          "6994-official-20261124-201833",
+          "6994-official-20261124-202359",
+          "6994-official-20261124-202506",
+          "6994-official-20261124-203218",
+          "6994-official-20261124-203302"
+        ],
+        "event_id": "6994-20261124-dividend-liquidity-governance",
+        "reviewed_at": "2026-11-24",
+        "update_id": "research-20261124-material-events-v1-6994",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      }
+    },
+    "2371.TW": null,
+    "5434.TW": null
+  },
+  "before_overviews": {
+    "6994.TW": {
+      "name": "富威電力",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 915,
+      "business": "綠電交易、儲能工程、節能及能源資訊服務",
+      "direction": "AI能源管理、微電網及能源永續整合延伸；新案貢獻另核",
+      "profit_mechanism": "售電、工程及服務收益；轉供電量、調度、施工與融資成本影響",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "2026H1母公司淨損；2026Q2母公司淨損",
+      "urls": [
+        "https://www.fwp.com.tw/Services",
+        "https://www.fwp.com.tw/Services/ITService",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 18.865850000000002,
+        "fy2025": 49.900580000000005,
+        "q32025": 6.74901,
+        "q42025": 34.6008,
+        "q12026": 8.416,
+        "q22026": 5.78811,
+        "ttm": 55.553920000000005,
+        "h1_operating_profit": 0.65275,
+        "h1_nonoperating": -0.52514,
+        "h1_pretax": 0.12761,
+        "h1_parent_profit": -0.06359,
+        "h1_operating_margin": 0.0459550087967497,
+        "h1_nonoperating_share": -4.11519473395502,
+        "fy2025_parent_profit": 4.49893,
+        "q22026_parent_profit": -0.4081,
+        "screening": "2026H1母公司淨損；2026Q2母公司淨損",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 14.20411,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 18.865850000000002,
+            "net_income": 0.8492900000000001,
+            "eps": 1.42,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 8.55077,
+            "net_income": 0.48539000000000004,
+            "eps": 0.7000000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 15.29978,
+            "net_income": 0.7973500000000001,
+            "eps": 1.13,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 49.900580000000005,
+            "net_income": 4.49893,
+            "eps": 6.34,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 8.416,
+            "net_income": 0.34451000000000004,
+            "eps": 0.48000000000000004,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 14.20411,
+            "net_income": -0.06359,
+            "eps": -0.09,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2022-Q4": {
+            "eps": 0.64,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 0.94,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 6.74901,
+              "eps": 0.4299999999999998,
+              "net_income": 0.31196000000000007
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 34.60080000000001,
+              "eps": 5.21,
+              "net_income": 3.7015799999999994
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 8.416,
+              "eps": 0.48000000000000004,
+              "net_income": 0.34451000000000004
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 5.78811,
+              "eps": -0.5700000000000001,
+              "net_income": -0.4081
+            }
+          ],
+          "ttms": 55.553920000000005,
+          "ttm_eps": 5.55,
+          "ttm_parent_profit": 3.94995,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 55.55 億元；每股盈餘 5.55 元；歸母淨利 3.95 億元。營收未扣成本與費用，不等於獲利。獲利機制：售電、工程及服務收益；轉供電量、調度、施工與融資成本影響。",
+      "events": [
+        {
+          "period": "2026H1",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-0.06億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026Q2",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.41億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "event_id": "6994-20261124-dividend-liquidity-governance",
+          "type": "銀行額度及資金調度約束導致減配，附資本／治理決議",
+          "period": "2026-11-24；前案按原公告日期",
+          "status": "原始公告已核讀；未決、預估及未來時程另列。",
+          "text": "股利調降與資金調度：富威電力11/24董事會將2025年度現金股利由總額221,485,713元、每股3元，改為總額44,994,128元、每股0.6067元。公告所述原因是原母公司森崴能源下市連帶影響公司銀行額度與資金調度，考量營運資金與財務穩健，已無法按原擬計畫支付原額度。這是公司明示的流動性約束，不能只當例行除息公告，也不等於已證實富威違約或倒閉。\n同日資本與治理配套：董事會另提資本公積74,162,070元轉增資7,416,207股、每仟股無償配發99.999999股，待股東會通過及主管機關核准後另訂發行基準日；屬權益內轉列，不能當對外新募現金或解除銀行調度困難。因在任獨立董事僅1人、審計委員會無法召開，上述股利調整、資本公積增資及盈餘分配表修正由全體董事三分之二以上同意通過，獨立董事江誠榮對三案表示保留意見。公告未說明保留的具體理由，不推定其反對原因或有違法結論。\n時程與狀態：同日公告列12/11除息、12/19基準日及2027/3/17發放日，均為未來排程，並非本日已付款；另訂2027/1/13股臨會承認修正盈餘分配表、討論資本公積轉增資及增補選5席董事。董事會、後續股臨會承認與主管機關核准各階段分開，是否再變更須依後續公告。此事件影響股利預期、流動性與治理追蹤；銀行實際授信額度變動、可用現金、替代融資及後續核准／付款未由這組公告完整披露，不補猜數字。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t05st01"
+          ],
+          "event_date": "2026-11-24",
+          "reviewed_at": "2026-11-24",
+          "batch_id": "research-20261124-material-events-v1"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.fwp.com.tw/Services",
+            "https://www.fwp.com.tw/Services/ITService"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "6994",
+            "name": "富威電力",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 71.83896,
+            "liabilities": 45.08845,
+            "equity": 26.750510000000002,
+            "parent_equity": 23.24307,
+            "cash": 2.69457,
+            "current_assets": 31.66237,
+            "current_liabilities": 26.6067,
+            "listed_borrowings": 18.28695,
+            "listed_leases": 3.9087,
+            "operating_cashflow": 0.80993,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=6962&companyId=6965&companyId=6969&companyId=6988&companyId=6994",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=6962&companyId=6965&companyId=6969&companyId=6988&companyId=6994",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "6994",
+            "name": "富威電力",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 73.86467,
+            "liabilities": 44.83259,
+            "equity": 29.03208,
+            "parent_equity": 25.4394,
+            "cash": 5.73909,
+            "current_assets": 35.583130000000004,
+            "current_liabilities": 25.89101,
+            "listed_borrowings": 23.179190000000002,
+            "listed_leases": 3.30554,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=6962&companyId=6965&companyId=6969&companyId=6988&companyId=6994",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=6962&companyId=6965&companyId=6969&companyId=6988&companyId=6994",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "2371.TW": {
+      "name": "大同",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 300,
+      "business": "重電、馬達電纜、家電、系統整合及能源事業",
+      "direction": "表後儲能、微電網及T-NEX高效變壓器合作；土地／投資收益另核",
+      "profit_mechanism": "電力設備、工程及家電毛利，資產與轉投資損益需分開",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "2025全年母公司淨損；2025Q4母公司淨損；2026Q1母公司淨損；H1業外增幅篩選；策略合作備忘錄",
+      "urls": [
+        "https://www.tatung.com/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 474.77031999999997,
+        "fy2025": 503.82867999999996,
+        "q32025": 134.88482,
+        "q42025": 133.42512,
+        "q12026": 114.87899,
+        "q22026": 130.13803,
+        "ttm": 513.32696,
+        "h1_operating_profit": 11.16981,
+        "h1_nonoperating": 10.98592,
+        "h1_pretax": 22.155730000000002,
+        "h1_parent_profit": 19.162300000000002,
+        "h1_operating_margin": 0.0455878942613864,
+        "h1_nonoperating_share": 0.49585005775029806,
+        "fy2025_parent_profit": -110.99352,
+        "q22026_parent_profit": 20.14764,
+        "screening": "2025全年母公司淨損；2025Q4母公司淨損；2026Q1母公司淨損；H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 245.01702,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 474.77031999999997,
+            "net_income": 144.77366,
+            "eps": 6.46,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 235.51874,
+            "net_income": 7.74024,
+            "eps": 0.36000000000000004,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 370.40355999999997,
+            "net_income": 13.845600000000001,
+            "eps": 0.65,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 503.82867999999996,
+            "net_income": -110.99352,
+            "eps": -5.2,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 114.87899,
+            "net_income": -0.9853400000000001,
+            "eps": -0.049999999999999996,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 245.01702,
+            "net_income": 19.162300000000002,
+            "eps": 0.91,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": -0.46,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 1.57,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 4.02,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 1.13,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 134.88481999999996,
+              "eps": 0.29,
+              "net_income": 6.105360000000001
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 133.42512,
+              "eps": -5.8500000000000005,
+              "net_income": -124.83912000000001
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 114.87899,
+              "eps": -0.049999999999999996,
+              "net_income": -0.9853400000000001
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 130.13803000000001,
+              "eps": 0.9600000000000001,
+              "net_income": 20.147640000000003
+            }
+          ],
+          "ttms": 513.32696,
+          "ttm_eps": -4.65,
+          "ttm_parent_profit": -99.57146,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 513.33 億元；每股盈餘 -4.65 元；歸母淨利 -99.57 億元。營收未扣成本與費用，不等於獲利。獲利機制：電力設備、工程及家電毛利，資產與轉投資損益需分開。",
+      "events": [
+        {
+          "period": "2026-04-17",
+          "type": "策略合作備忘錄",
+          "status": "公司新聞標題確認；訂單待核",
+          "text": "與南亞簽T-NEX高效節能變壓器合作備忘錄；備忘錄本身不等於具約束力營收或已取得訂單。",
+          "urls": [
+            "https://www.tatung.com/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-110.99億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q4",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-124.84億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026Q1",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.99億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-1.97億元變為10.99億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.tatung.com/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2371",
+            "name": "大同",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 1429.08918,
+            "liabilities": 867.30462,
+            "equity": 561.7845599999999,
+            "parent_equity": 482.17604,
+            "cash": 190.76781,
+            "current_assets": 704.1187,
+            "current_liabilities": 360.29053999999996,
+            "listed_borrowings": 377.22908,
+            "listed_leases": 8.33004,
+            "operating_cashflow": -16.24661,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2364&companyId=2365&companyId=2367&companyId=2369&companyId=2371",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2364&companyId=2365&companyId=2367&companyId=2369&companyId=2371",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2371",
+            "name": "大同",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 1458.4276,
+            "liabilities": 916.9379,
+            "equity": 541.4897,
+            "parent_equity": 462.69427,
+            "cash": 243.99966,
+            "current_assets": 732.23464,
+            "current_liabilities": 326.44265,
+            "listed_borrowings": 414.06327,
+            "listed_leases": 8.16648,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2364&companyId=2365&companyId=2367&companyId=2369&companyId=2371",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2364&companyId=2365&companyId=2367&companyId=2369&companyId=2371",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "5434.TW": {
+      "name": "崇越",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 713,
+      "business": "半導體材料通路及環保工程",
+      "direction": "高階材料及環保工程延伸；最新官網無法讀取，新增專案待核",
+      "profit_mechanism": "材料銷售、工程及服務毛利；半導體需求、工程成本及匯率影響",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "H1業外增幅篩選",
+      "urls": [
+        "https://www.topco-global.com/wp-content/uploads/2024/08/ANNUAL-112CHN-V2.pdf",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 569.97113,
+        "fy2025": 675.8353099999999,
+        "q32025": 175.38579,
+        "q42025": 172.98641,
+        "q12026": 185.36692,
+        "q22026": 208.25411,
+        "ttm": 741.99323,
+        "h1_operating_profit": 29.14115,
+        "h1_nonoperating": 8.48221,
+        "h1_pretax": 37.62336,
+        "h1_parent_profit": 28.580450000000003,
+        "h1_operating_margin": 0.0740335189916047,
+        "h1_nonoperating_share": 0.225450624292992,
+        "fy2025_parent_profit": 41.80447,
+        "q22026_parent_profit": 15.35124,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 393.62103,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 569.97113,
+            "net_income": 36.55935,
+            "eps": 19.29,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 327.46311,
+            "net_income": 18.53866,
+            "eps": 9.69,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 502.8489,
+            "net_income": 29.57278,
+            "eps": 15.450000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 675.8353099999999,
+            "net_income": 41.80447,
+            "eps": 21.810000000000002,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 185.36692,
+            "net_income": 13.22921,
+            "eps": 6.86,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 393.62103,
+            "net_income": 28.580450000000003,
+            "eps": 14.790000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 11.38,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 12.63,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 16.61,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 15.36,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 175.38579000000004,
+              "eps": 5.760000000000002,
+              "net_income": 11.034120000000001
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 172.98640999999992,
+              "eps": 6.360000000000001,
+              "net_income": 12.23169
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 185.36692,
+              "eps": 6.86,
+              "net_income": 13.22921
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 208.25411000000003,
+              "eps": 7.930000000000001,
+              "net_income": 15.351240000000002
+            }
+          ],
+          "ttms": 741.99323,
+          "ttm_eps": 26.910000000000004,
+          "ttm_parent_profit": 51.84626000000001,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 741.99 億元；每股盈餘 26.91 元；歸母淨利 51.85 億元。營收未扣成本與費用，不等於獲利。獲利機制：材料銷售、工程及服務毛利；半導體需求、工程成本及匯率影響。",
+      "events": [
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由3.48億元變為8.48億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.topco-global.com/wp-content/uploads/2024/08/ANNUAL-112CHN-V2.pdf"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "5434",
+            "name": "崇越",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 482.03493,
+            "liabilities": 259.64074,
+            "equity": 222.39419,
+            "parent_equity": 219.75278,
+            "cash": 71.07668,
+            "current_assets": 294.36399,
+            "current_liabilities": 220.13975,
+            "listed_borrowings": 34.01355,
+            "listed_leases": 7.15369,
+            "operating_cashflow": 8.87401,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=5306&companyId=5388&companyId=5434&companyId=5469&companyId=5471",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=5306&companyId=5388&companyId=5434&companyId=5469&companyId=5471",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "5434",
+            "name": "崇越",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 418.70770999999996,
+            "liabilities": 216.55055,
+            "equity": 202.15716,
+            "parent_equity": 199.99752999999998,
+            "cash": 68.28704,
+            "current_assets": 247.27185,
+            "current_liabilities": 175.89401999999998,
+            "listed_borrowings": 32.46176,
+            "listed_leases": 6.37217,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=5306&companyId=5388&companyId=5434&companyId=5469&companyId=5471",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=5306&companyId=5388&companyId=5434&companyId=5469&companyId=5471",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "adopted_record_sha256": {
+    "6994.TW": "sha256:f349a7471c264635c5a5963c432b8e8103e71498c25785f80057072621c16a5d",
+    "2371.TW": "sha256:fd5eb02ae42200559715ffa084968ed0c685796a472ea6b071319dba768ac270",
+    "5434.TW": "sha256:441c46364003baf5a14d265110edb538fdde857204d68e44cfdab7b8e1bffda3"
+  },
+  "official_source_verification": [
+    {
+      "source_id": "6994-official-20261125-161852",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+      "pointer": "/events/46",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:06d3a3858619bd75677ca752a5bccf2b37bc725a2b8a3760fcbcb83f59bbc80d"
+    },
+    {
+      "source_id": "6994-official-20261125-161941",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+      "pointer": "/events/48",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:c870b595d8fa741611d36ebe9be72f4f0bc63344a3baabf156a772a8ef020820"
+    },
+    {
+      "source_id": "6994-official-20261125-173124",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+      "pointer": "/events/85",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:e0537ee078ed6ff8e2c69d333308823a793415c8726e56e77256ac36bfa69a62"
+    },
+    {
+      "source_id": "2371-official-20261125-180930",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+      "pointer": "/events/95",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:7c67ac214726f08ca2991a31cc30783e8ce74732e66450ef15c3973f8d614685"
+    },
+    {
+      "source_id": "2371-official-20261102-193601",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261126_2371.json",
+      "pointer": "/official_announcements_full_text/4",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:cf3eec578d17a16f48e2aae94e371fcf8f77282be881d7134c20b8f62ee68ab8"
+    },
+    {
+      "source_id": "5434-official-20261125-142929",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+      "pointer": "/events/17",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:9ad836534b619f530c7eaa6bf2d8b97996a2ff5a2a73e550a70b9268234e7721"
+    },
+    {
+      "source_id": "5434-official-20261111-140438",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261126_5434.json",
+      "pointer": "/official_announcements_full_text/3",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:265a06fdb1882a46aeac8d3df566b99250803d5867ea03293a7d43db62930fc5"
+    }
+  ],
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "new_profiles_partial_with_null_company_date": true,
+    "6994_old_dividend_liquidity_text_and_event_preserved": true,
+    "financial_tables_not_modified": true,
+    "only_overview_events_appended": true,
+    "new_company_quota": 0,
+    "material_events": 3,
+    "new_meeting": false,
+    "cutoff_not_advanced": true,
+    "no_2371_gain_or_EPS_calculated": true,
+    "5434_old_payment_schedule_not_confirmed": true
+  }
+}
