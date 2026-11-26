@@ -1101,7 +1101,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1752.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-12-03",
+        "description": "本公司受邀參加富邦證券舉辦之法人說明會",
+        "end_date": "2026-12-03",
+        "kind": "法說會",
+        "location": "台北市大安區仁愛路四段169號2樓 (富邦金融大樓)",
+        "name": "南光",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+        "symbol": "1752.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2927,7 +2938,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2851.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-27",
+        "description": "說明公司營運狀況",
+        "end_date": "2026-11-27",
+        "kind": "法說會",
+        "location": "證券交易所101大樓一樓資訊展示中心(台北市信義路五段7號)",
+        "name": "中再保",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2851.TW",
+        "time": "16:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -4513,7 +4535,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "4935.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-12-02",
+        "description": "115年第三季法⼈說明會",
+        "end_date": "2026-12-02",
+        "kind": "法說會",
+        "location": "臺灣證券交易所1樓資訊展⽰中⼼(台北市信義路五段7號)",
+        "name": "茂林-KY",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+        "symbol": "4935.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -6586,7 +6619,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "9905.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-27",
+        "description": "公司營運現況及未來展望說明",
+        "end_date": "2026-11-27",
+        "kind": "法說會",
+        "location": "本次中文法人說明會採網路直播方式進行。",
+        "name": "大華",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "9905.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -24810,6 +24854,23 @@
     {
       "cancelled": false,
       "date": "2026-11-25",
+      "description": "公告本公司處分設備予子公司Vietnam Accton Technology Company Limited",
+      "end_date": "2026-11-25",
+      "fact_date": "2026-11-25",
+      "kind": "重大訊息",
+      "name": "智邦",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2345.TW",
+      "time": "173349"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-25",
       "description": "本公司受邀參加台新證券舉辦之投資人說明會",
       "end_date": "2026-11-25",
       "kind": "法說會",
@@ -25650,6 +25711,18 @@
     {
       "cancelled": false,
       "date": "2026-11-27",
+      "description": "說明公司營運狀況",
+      "end_date": "2026-11-27",
+      "kind": "法說會",
+      "location": "證券交易所101大樓一樓資訊展示中心(台北市信義路五段7號)",
+      "name": "中再保",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2851.TW",
+      "time": "16:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-27",
       "description": "公佈115年度第三季營運概況。中文場14:00-15:00；英文場17:00-18:00。",
       "end_date": "2026-11-27",
       "kind": "法說會",
@@ -25802,6 +25875,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "8996.TW",
       "time": "15:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-27",
+      "description": "公司營運現況及未來展望說明",
+      "end_date": "2026-11-27",
+      "kind": "法說會",
+      "location": "本次中文法人說明會採網路直播方式進行。",
+      "name": "大華",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "9905.TW",
+      "time": "14:00"
     },
     {
       "cancelled": false,
@@ -26154,6 +26239,18 @@
     {
       "cancelled": false,
       "date": "2026-12-02",
+      "description": "115年第三季法⼈說明會",
+      "end_date": "2026-12-02",
+      "kind": "法說會",
+      "location": "臺灣證券交易所1樓資訊展⽰中⼼(台北市信義路五段7號)",
+      "name": "茂林-KY",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "4935.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-02",
       "description": "本公司受邀參加元大證券舉辦之「第四季投資論壇」",
       "end_date": "2026-12-02",
       "kind": "法說會",
@@ -26198,6 +26295,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
       "symbol": "1504.TW",
       "time": "09:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-03",
+      "description": "本公司受邀參加富邦證券舉辦之法人說明會",
+      "end_date": "2026-12-03",
+      "kind": "法說會",
+      "location": "台北市大安區仁愛路四段169號2樓 (富邦金融大樓)",
+      "name": "南光",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "1752.TW",
+      "time": "14:30"
     },
     {
       "cancelled": false,
@@ -31539,8 +31648,8 @@
     },
     "2889.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-26",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": "2026-11-13",
@@ -69135,6 +69244,26 @@
     },
     {
       "cancelled": false,
+      "date": "2026-11-25",
+      "description": "公告本公司處分設備予子公司Vietnam Accton Technology Company Limited",
+      "due_date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "fact_date": "2026-11-25",
+      "kind": "重大訊息",
+      "name": "智邦",
+      "reason": "控制權或主要資產變動：公告本公司處分設備予子公司Vietnam Accton Technology Company Limited",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2345.TW",
+      "time": "173349"
+    },
+    {
+      "cancelled": false,
       "date": "2026-11-24",
       "description": "本公司受邀參加國票綜合證券舉辦之線上法說會，說明本公司營運概況。",
       "due_date": "2026-11-25",
@@ -70127,6 +70256,17 @@
       "time": "14:30"
     },
     {
+      "date": "2026-11-26",
+      "due_date": "2026-11-26",
+      "kind": "財報",
+      "name": "國票金",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2889.TW"
+    },
+    {
       "cancelled": false,
       "date": "2026-11-25",
       "description": "本公司受邀參加台新證券舉辦之台新2026年第四季全球投資論壇 ，會中就本公司已公開發布之 財務數字、經營績效等相關資訊作說明。",
@@ -70232,5 +70372,5 @@
       "time": "14:30"
     }
   ],
-  "updated_at": "2026-11-26T03:59:08+08:00"
+  "updated_at": "2026-11-26T13:46:11+08:00"
 }
