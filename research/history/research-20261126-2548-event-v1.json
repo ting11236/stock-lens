@@ -1,0 +1,329 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261126-2548-event-v1",
+    "ready": true,
+    "created_at": "2026-11-26T21:33:58.641203+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 1,
+    "updates_sha256": "sha256:d536501b1106b3cf415d1362dbe5e54b0a8ceff6cf46f5ee9bd823df45cef76e",
+    "work_type": "change_update",
+    "material_events_completed": 1,
+    "whole_company_count": 0,
+    "validation": {
+      "original_official_body_read": true,
+      "baseline_locked": true,
+      "full_event_unit": true,
+      "company_and_whole_building_consideration_separated": true
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-2548-event-v1-transition",
+      "task_id": "change-update-2548-20261125-times-landmark-sale",
+      "company_code": "2548",
+      "company_name": "華固",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:e003142051c6e0628bd1b6bd2a2ed8c9da1ff85a56a851961fb1263be87fb013",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2026/11/25華固董事會通過，出售台北市中山區金泰段7-4地號「華固時代置地」全部房屋及車位予非關係人全聯實業。標的房屋27戶、6,662.3坪、車位148個，公告每坪約115萬元，華固部分交易金額新台幣6,632,550仟元。部分土地為地主合建分售，全棟交易81億元含地主部分，不能把81億元全部當華固營收或以房屋坪數直接反算總價。\n公司預估處分利潤率約17%–18%，屬公司預估，並非已查核的稅後利益率、已認列本期利得或保證EPS。公告目的為獲取營業利益，研究上需要更新商辦建案銷售與未來交付／收款進度，不能把全部售價當一次性純利益，也不能直接斷定本期已收款或認列營收。\n付款條件依約定，未揭具體交屋／過戶日、分期收款時點及會計認列期間。公司表示為爭取交易時效尚未取得鑑價報告；價格依鄰近交易行情議價，並非已有外部鑑價支持的價格結論。後續應續查交付、收款、鑑價及實際認列，未完成不能稱全案結清。\n本次為完整建案出售事件查核，非華固整家公司資料補齊；其他在建案、整體營運及客戶組合未在此重新查核。不計入今日新增公司或承接公司配額。",
+        "period": "2026/11/25建案出售公告",
+        "sources": [
+          "2548-official-20261125-170949"
+        ],
+        "event_id": "2548-20261125-times-landmark-sale"
+      },
+      "sources": [
+        {
+          "source_id": "2548-official-20261125-170949",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司出售華固時代置地全部房屋及車位",
+          "publisher": "華固／公開資訊觀測站",
+          "published_at": "2026-11-25T17:09:49+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/86",
+          "official_statement": "1.標的物之名稱及性質（如坐落台中市北區ＸＸ段ＸＸ小段土地）:\r\n(1)標的物名稱：華固時代置地\n(2)土地座落：台北市中山區金泰段7-4地號\n(3)房屋座落：上述基地內所興建之華固時代置地全部房屋及車位\r\n2.事實發生日:115/11/25~115/11/25\r\n3.董事會通過日期: 民國115年11月25日\r\n4.其他核決日期: 不適用\r\n5.交易單位數量（如ＸＸ平方公尺，折合ＸＸ坪）、每單位價格及交易總金額:\r\n(1)交易單位數量：房屋27戶，合計6,662.3坪、車位148個\n(2)每單位價格：每坪約新台幣115萬元\n(3)交易總金額：新台幣6,632,550仟元\r\n6.交易相對人及其與公司之關係（交易相對人如屬自然人，且非公司之關\r\n係人者，得免揭露其姓名）:\r\n(1)交易相對人：全聯實業股份有限公司\n(2)與公司之關係：非關係人\r\n7.交易相對人為關係人者，並應公告選定關係人為交易對象之原因及前次移轉之\r\n所有人、前次移轉之所有人與公司及交易相對人間相互之關係、前次移轉日期\r\n及移轉金額:\r\n不適用\r\n8.交易標的最近五年內所有權人曾為公司之關係人者，尚應公告關係\r\n人之取得及處分日期、價格及交易當時與公司之關係:\r\n不適用\r\n9.預計處分利益（或損失）（取得資產者不適用）（遞延者應列表說明\r\n認列情形）:\r\n預計處分利潤率約17%-18%\r\n10.交付或付款條件（含付款期間及金額）、契約限制條款及其他重要約定\r\n事項:\r\n(1)交付或付款條件：依約定付款\n(2)契約限制條款：無\n(3)其它重要約定事項：無\r\n11.本次交易之決定方式（如招標、比價或議價）、價格決定之參考依據及\r\n決策單位:\r\n(1)本次交易之決定方式：議價\n(2)價格決定之參考依據：參考鄰近房屋及土地交易行情\n(3)決策單位：本公司董事會\r\n12.專業估價者事務所或公司名稱及其估價金額:\r\n為爭取交易時效，故無法即時取得鑑價報告\r\n13.專業估價師姓名:\r\n為爭取交易時效，故無法即時取得鑑價報告\r\n14.專業估價師開業證書字號:\r\n為爭取交易時效，故無法即時取得鑑價報告\r\n15.估價報告是否為限定價格、特定價格或特殊價格:否或不適用\r\n16.是否尚未取得估價報告:是\r\n17.尚未取得估價報告之原因:\r\n為爭取交易時效，故無法即時取得鑑價報告\r\n18.估價結果有重大差異時，其差異原因及會計師意見:\r\n不適用\r\n19.會計師事務所名稱:\r\n不適用\r\n20.會計師姓名:\r\n不適用\r\n21.會計師開業證書字號:\r\n不適用\r\n22.經紀人及經紀費用:\r\n無\r\n23.取得或處分之具體目的或用途:\r\n獲取營業利益\r\n24.本次交易表示異議之董事之意見:\r\n無\r\n25.本次交易為關係人交易:否\r\n26.監察人承認或審計委員會同意日期:\r\n民國115年11月25日\r\n27.本次交易係向關係人取得不動產或其使用權資產:否\r\n28.依「公開發行公司取得或處分資產處理準則」第十六條規定\r\n評估之價格:不適用\r\n29.依前項評估之價格較交易價格為低者，依同準則第十七條規\r\n定評估之價格:不適用\r\n30.前已就同一件事件發布重大訊息日期: 不適用\r\n31.其他敘明事項:\r\n本案部份土地為與地主合建分售,全棟交易金額為81億,上揭交易金額為華固部份。"
+        }
+      ],
+      "research_completed_at": "2026-11-26T21:33:58.641203+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整商辦出售事件，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "全棟81億元與華固部分66.3255億元分開，17–18%為公司預估利潤率非已認稅後利得。",
+        "交屋、收款及鑑價尚待後續證據。"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview": {
+    "name": "華固",
+    "source_reviewed_at": "2026-10-03",
+    "imported_at": "2026-10-04",
+    "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+    "source_sheet": "其他上市業務",
+    "source_row": 411,
+    "business": "住宅、商辦與廠辦開發",
+    "direction": "智富／創富中心等商辦及廠辦；投資台灣數位工程之日期與合併範圍待核",
+    "profit_mechanism": "建案交屋毛利，受土地與施工成本、去化及認列時點影響",
+    "status": "業務概述已整理；新案細節待補核",
+    "screening": "本次財務篩選未觸發；非無風險認定",
+    "urls": [
+      "https://www.huaku.com.tw/about",
+      "https://www.huaku.com.tw/",
+      "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+    ],
+    "financial": {
+      "basis": "合併營業收入",
+      "fy2024": 72.12415,
+      "fy2025": 182.38702,
+      "q32025": 28.35266,
+      "q42025": 133.75432,
+      "q12026": 42.06418,
+      "q22026": 15.01063,
+      "ttm": 219.18179,
+      "h1_operating_profit": 11.50271,
+      "h1_nonoperating": 0.42891,
+      "h1_pretax": 11.93162,
+      "h1_parent_profit": 9.43338,
+      "h1_operating_margin": 0.201537420799123,
+      "h1_nonoperating_share": 0.0359473399253412,
+      "fy2025_parent_profit": 32.4166,
+      "q22026_parent_profit": 2.15974,
+      "screening": "未觸發本次篩選",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+      "h1_revenue": 57.07481,
+      "cumulative": {
+        "2024-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 72.12415,
+          "net_income": 13.92271,
+          "eps": 4.58,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 20.28004,
+          "net_income": 2.31788,
+          "eps": 0.7300000000000001,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q3": {
+          "basis": "合併營業收入",
+          "revenue": 48.6327,
+          "net_income": 5.82011,
+          "eps": 1.82,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2025-Q4": {
+          "basis": "合併營業收入",
+          "revenue": 182.38702,
+          "net_income": 32.4166,
+          "eps": 10.15,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q1": {
+          "basis": "合併營業收入",
+          "revenue": 42.06418,
+          "net_income": 7.27364,
+          "eps": 2.28,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2026-Q2": {
+          "basis": "合併營業收入",
+          "revenue": 57.07481,
+          "net_income": 9.43338,
+          "eps": 2.81,
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+          "source_reviewed_at": "2026-10-03"
+        },
+        "2020-Q4": {
+          "eps": 10.05,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2021-Q4": {
+          "eps": 10.56,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2022-Q4": {
+          "eps": 10.69,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        },
+        "2023-Q4": {
+          "eps": 12.95,
+          "basis": "合併營業收入",
+          "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+          "source_reviewed_at": "2026-10-04",
+          "eps_only": true
+        }
+      },
+      "rolling": {
+        "period": "2026-Q2",
+        "start_period": "2025-Q3",
+        "basis": "合併營業收入",
+        "quarters": [
+          {
+            "period": "2025-Q3",
+            "revenue": 28.35266,
+            "eps": 1.0899999999999999,
+            "net_income": 3.5022299999999995
+          },
+          {
+            "period": "2025-Q4",
+            "revenue": 133.75432,
+            "eps": 8.33,
+            "net_income": 26.596490000000003
+          },
+          {
+            "period": "2026-Q1",
+            "revenue": 42.06418,
+            "eps": 2.28,
+            "net_income": 7.27364
+          },
+          {
+            "period": "2026-Q2",
+            "revenue": 15.010629999999999,
+            "eps": 0.5300000000000002,
+            "net_income": 2.1597399999999993
+          }
+        ],
+        "ttms": 219.18179000000003,
+        "ttm_eps": 12.23,
+        "ttm_parent_profit": 39.5321,
+        "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+      }
+    },
+    "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 219.18 億元；每股盈餘 12.23 元；歸母淨利 39.53 億元。營收未扣成本與費用，不等於獲利。獲利機制：建案交屋毛利，受土地與施工成本、去化及認列時點影響。",
+    "events": [],
+    "outlooks": [
+      {
+        "type": "待補查／無可用金額",
+        "period": "未確認",
+        "scope": "整體營收",
+        "unit": null,
+        "low": null,
+        "high": null,
+        "published_at": null,
+        "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+        "urls": [
+          "https://www.huaku.com.tw/about",
+          "https://www.huaku.com.tw/"
+        ],
+        "source_reviewed_at": "2026-10-03"
+      }
+    ],
+    "balance_sheet": {
+      "statements": [
+        {
+          "symbol": "2548",
+          "name": "華固",
+          "date": "2026-06-30",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 538.74564,
+          "liabilities": 330.63415,
+          "equity": 208.11149,
+          "parent_equity": 208.03483,
+          "cash": 50.47431,
+          "current_assets": 515.62335,
+          "current_liabilities": 231.29405,
+          "listed_borrowings": 214.98704999999998,
+          "listed_leases": 0.27933,
+          "operating_cashflow": -33.93089,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2548&companyId=2597&companyId=2601&companyId=2605&companyId=2606",
+          "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2548&companyId=2597&companyId=2601&companyId=2605&companyId=2606",
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": "2026 上半年累計"
+        },
+        {
+          "symbol": "2548",
+          "name": "華固",
+          "date": "2025-12-31",
+          "type": "ci",
+          "basis": "合併",
+          "assets": 542.5708099999999,
+          "liabilities": 318.34496,
+          "equity": 224.22585,
+          "parent_equity": 224.15272,
+          "cash": 76.6897,
+          "current_assets": 517.5938199999999,
+          "current_liabilities": 233.97185,
+          "listed_borrowings": 190.52376999999998,
+          "listed_leases": 0.14801,
+          "operating_cashflow": null,
+          "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2548&companyId=2597&companyId=2601&companyId=2605&companyId=2606",
+          "cashflow_source_url": null,
+          "reviewed_at": "2026-10-04",
+          "unit": "億元",
+          "cashflow_period": null
+        }
+      ],
+      "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+      "basis": "合併",
+      "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2548&companyId=2597&companyId=2601&companyId=2605&companyId=2606",
+      "regulatory": {
+        "capital_adequacy": null,
+        "npl_ratio": null,
+        "coverage_ratio": null,
+        "capital_type": "未取得／不適用"
+      }
+    }
+  },
+  "adopted_record_sha256": "sha256:f66a25b236d502e6cc84458c8a8256651285d7d52fd637154be1f12b9f80ec67",
+  "official_source_verification": [
+    {
+      "source_id": "2548-official-20261125-170949",
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+      "json_pointer": "/events/70",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:bed31e2a7ea4c13ded9a9faa2bd66a914ffe3ef50ebf6ce1a3efb2aa06cd7f4f",
+      "archive_file_sha256": "sha256:89c3a47f98aa1087203bdc179c4de94a70e22269358902802d6be4bf15ba8780"
+    }
+  ],
+  "source_pointer_corrections": [
+    {
+      "source_id": "2548-official-20261125-170949",
+      "as_delivered_pointer": "/events/86",
+      "resolved_pointer": "/events/70",
+      "reason": "delivered pointer identifies a different company; exact official statement and company match uniquely at corrected pointer",
+      "statement_changed": false
+    }
+  ],
+  "adoption_rules": {
+    "company_reviewed_at_preserved_null": true,
+    "event_only_partial_company": true,
+    "financial_tables_not_modified": true,
+    "company_66_3255_and_whole_building_81_separated": true,
+    "17_18_percent_is_company_estimate": true,
+    "receipt_and_recognition_not_assumed": true,
+    "appraisal_not_yet_obtained": true,
+    "company_quota_added": 0,
+    "material_events": 1,
+    "cutoff_not_advanced": true,
+    "original_delivery_immutable": true
+  }
+}
