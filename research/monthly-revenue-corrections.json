@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "unit": "TWD thousand",
+  "corrections": [
+    {
+      "company_code": "6472",
+      "feed_period": "11509",
+      "before": {"營業收入-當月營收": 2325228, "累計營業收入-當月累計營收": 16304016},
+      "after": {"營業收入-當月營收": 2369613, "累計營業收入-當月累計營收": 16348401},
+      "source": {"url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01", "company_code": "6472", "published_at": "2026-11-25T17:29:06+08:00", "sequence": "2", "title": "配合Q3會計師調整，更正9月及10月營收", "verified_at": "2026-11-26", "event_id": "6472-20261125-monthly-revenue-correction"}
+    },
+    {
+      "company_code": "6472",
+      "feed_period": "11510",
+      "before": {"營業收入-當月營收": 1989583, "營業收入-上月營收": 2325228, "累計營業收入-當月累計營收": 18293599},
+      "after": {"營業收入-當月營收": 1975135, "營業收入-上月營收": 2369613, "累計營業收入-當月累計營收": 18323536},
+      "source": {"url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01", "company_code": "6472", "published_at": "2026-11-25T17:29:06+08:00", "sequence": "2", "title": "配合Q3會計師調整，更正9月及10月營收", "verified_at": "2026-11-26", "event_id": "6472-20261125-monthly-revenue-correction"}
+    }
+  ]
+}

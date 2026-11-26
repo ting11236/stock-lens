@@ -1,0 +1,385 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261126-3018-event-v1",
+    "ready": true,
+    "created_at": "2026-11-26T14:10:19.431255+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 1,
+    "updates_sha256": "sha256:2f3ac6944c870ea4ce3f58a3ee65c9298546a6a02180c3b67ad5964bb232831d",
+    "work_type": "change_update",
+    "material_events_completed": 1,
+    "whole_company_count": 0,
+    "validation": {
+      "original_official_body_read": true,
+      "baseline_locked": true,
+      "full_event_unit": true,
+      "individual_and_corporate_liabilities_separated": true
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-3018-event-v1-transition",
+      "task_id": "change-update-3018-20261125-director-loan-liquidity",
+      "company_code": "3018",
+      "company_name": "隆銘綠能",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:6a5537d5839efffa2da835f14b95c1450620739ab233af0c2f9a2448cdcb1e11",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "2026/11/25公告、事實發生日11/24之董事民事案及公司資金鏈：公司說明，2025/6/27退票導致當時銀行帳戶凍結，時任董事長、現董事許鑒隆2025/7/10以個人私募普通股10,000張設質，向靜雲投資借款5,000萬元，再同額轉貸公司作營運資金。最新公告明載公司尚無法償還該筆借款予董事，董事因而未能向靜雲給付，個人債權債務爭議金額6,210萬元，包含本金5,000萬元及利息1,210萬元。\n法律當事人是債權人靜雲投資與債務人許鑒隆；臺北地院執行命令（115司執丙字第132730號等）主要禁止董事個人持有的上市現股2,065,500股及私募普通股17,157,020股、合計19,222,520股移轉或其他處分。這不是公告查封公司全部資產或法院已拍賣／移轉控制權，也不能把董事個人利息爭議1,210萬元直接列為公司已認列費用。\n研究影響：雖公告「對公司財務業務影響」欄填無，正文所述公司尚無法清償轉貸與尋求私募還款，是需要追蹤的營運資金／再融資風險，不能僅按「個人訴訟」當例行訊息排除；同時不以此推定法院宣告破產或所有銀行帳戶至今仍凍結。公司稱董事將仲裁調解，公司正尋投資人辦理私募普通股以償還借款，均為後續措施，未證實已募足、已清償或禁處分已解除。\n未由本則披露公司全部到期債務、可用現金、此轉貸利率／最終結清額、私募對象與完成條件，以及仲裁調解和法院後續結果。保留待查，不給虛構償債日期，也不把私募計畫當收入。本次為完整資金與法律事件更新，非整家公司研究完成。",
+        "period": "2026/11/25公告；歷史借款起點2025/7/10",
+        "sources": [
+          "3018-official-20261125-173338"
+        ],
+        "event_id": "3018-20261125-director-loan-liquidity"
+      },
+      "sources": [
+        {
+          "source_id": "3018-official-20261125-173338",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司董事之個人民事訴訟案件",
+          "publisher": "隆銘綠能／公開資訊觀測站",
+          "published_at": "2026-11-25T17:33:38+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+          "json_pointer": "/events/86",
+          "official_statement": "1.法律事件之當事人:\n 債權人 靜雲投資股份有限公司\n 債務人 許鑒隆董事\n2.法律事件之法院名稱或處分機關:臺灣臺北地方法院\n3.法律事件之相關文書案號:\n 執行命令：115年10月27日等日北院信115司執丙字第132730號\n4.事實發生日:115/11/24\n5.發生原委(含爭訟標的):\n 因本公司於114年6月27日發生退票事件造成銀行凍結帳戶使用，許鑒隆董事當時身\n 為董事長緊急於114年7月10日以個人持有之私募普通股10,000張設質擔保向靜雲投\n 資股份有限公司借款新臺幣5,000萬元，再同額匯款5,000萬元借款予本公司作為營\n 運資金使用。\n 本公司尚無法償還借款予許鑒隆董事再給付靜雲投資股份有限公司，以致許鑒隆董\n 事發生民事債權債務爭議計6,210萬元(借款本金5,000萬元及加計利息1,210萬元)。\n6.處理過程:\n 靜雲投資股份有限公司向臺灣臺北地方法院聲請強制執行及核發執行命令，主要對\n 許鑒隆董事個人持有本公司於集中市場交易現股2,065,500股及私募普通股\n 17,157,020股，合計19,222,520股禁止為移轉或其他處分\n7.對公司財務業務影響及預估影響金額:無\n8.因應措施及改善情形:\n 許鑒隆董事個人將與靜雲投資股份有限公司於中華民國仲裁協會進行仲裁調解，\n 本公司現正尋求投資人辦理私募普通股案以償還借款，\n 並密切注意後續發展情形，於必要時補充公告說明之。\n9.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本則重大訊息同時\n  符合證券交易法施行細則第7條第2款所定對股東權益或證券價格有重大影響之事項):\n 無"
+        }
+      ],
+      "research_completed_at": "2026-11-26T14:10:19.431255+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "completion_unit": "完整流動性與法律事件，非整家公司補齊",
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "原始公告法律當事人、董事個人債務及公司轉貸分開；不重算公司財務或推定破產。",
+        "未披露仲裁、私募及清償完成證據，保留後續。"
+      ]
+    }
+  ],
+  "before_official_records": {
+    "3018.TW": null
+  },
+  "before_overviews": {
+    "3018.TW": {
+      "name": "隆銘綠能",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 493,
+      "business": "無塵室、機電土建工程及能源相關工程",
+      "direction": "太陽能與風電相關布局；官網舊案不可直接列為2026新訂單",
+      "profit_mechanism": "工程承攬毛利，受施工成本、進度及完工估計影響",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "2024全年母公司淨損；2025全年母公司淨損；2026H1母公司淨損；2025Q3母公司淨損；2026Q1母公司淨損；2026Q2母公司淨損",
+      "urls": [
+        "https://www.lmgte.com.tw/",
+        "https://www.lmgte.com.tw/edcontent_d.php?id=388&lang=tw&tb=2",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 8.51422,
+        "fy2025": 4.62654,
+        "q32025": 1.26454,
+        "q42025": 0.67939,
+        "q12026": 0.81164,
+        "q22026": 0.74736,
+        "ttm": 3.50293,
+        "h1_operating_profit": -1.01885,
+        "h1_nonoperating": -0.61312,
+        "h1_pretax": -1.63197,
+        "h1_parent_profit": -1.63435,
+        "h1_operating_margin": -0.6535279025016041,
+        "h1_nonoperating_share": "",
+        "fy2025_parent_profit": -1.60321,
+        "q22026_parent_profit": -1.12743,
+        "screening": "2024全年母公司淨損；2025全年母公司淨損；2026H1母公司淨損；2025Q3母公司淨損；2026Q1母公司淨損；2026Q2母公司淨損",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 1.559,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 8.51422,
+            "net_income": -0.9336300000000001,
+            "eps": -1.46,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 2.68261,
+            "net_income": -0.55528,
+            "eps": -0.76,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 3.94715,
+            "net_income": -1.73549,
+            "eps": -2.36,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 4.62654,
+            "net_income": -1.60321,
+            "eps": -2.16,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 0.81164,
+            "net_income": -0.50692,
+            "eps": -0.67,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1.559,
+            "net_income": -1.63435,
+            "eps": -2.17,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": -0.8,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": -4.18,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": -2.73,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": -1.72,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 1.2645400000000002,
+              "eps": -1.5999999999999999,
+              "net_income": -1.18021
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 0.6793900000000002,
+              "eps": 0.19999999999999973,
+              "net_income": 0.13227999999999995
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 0.81164,
+              "eps": -0.67,
+              "net_income": -0.50692
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 0.7473599999999999,
+              "eps": -1.5,
+              "net_income": -1.12743
+            }
+          ],
+          "ttms": 3.5029300000000005,
+          "ttm_eps": -3.5700000000000003,
+          "ttm_parent_profit": -2.6822800000000004,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 3.50 億元；每股盈餘 -3.57 元；歸母淨利 -2.68 億元。營收未扣成本與費用，不等於獲利。獲利機制：工程承攬毛利，受施工成本、進度及完工估計影響。",
+      "events": [
+        {
+          "period": "2024全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-0.93億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-1.60億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-1.63億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q3",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-1.18億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026Q1",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.51億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026Q2",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-1.13億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.lmgte.com.tw/",
+            "https://www.lmgte.com.tw/edcontent_d.php?id=388&lang=tw&tb=2"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "3018",
+            "name": "隆銘綠能",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 11.64655,
+            "liabilities": 7.66327,
+            "equity": 3.98328,
+            "parent_equity": 3.98328,
+            "cash": 0.33566,
+            "current_assets": 9.27731,
+            "current_liabilities": 7.60146,
+            "listed_borrowings": 0.7367400000000001,
+            "listed_leases": 0.11874000000000001,
+            "operating_cashflow": -0.8045800000000001,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=3015&companyId=3016&companyId=3018&companyId=3019&companyId=3021",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=3015&companyId=3016&companyId=3018&companyId=3019&companyId=3021",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "3018",
+            "name": "隆銘綠能",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 12.506730000000001,
+            "liabilities": 6.88473,
+            "equity": 5.622,
+            "parent_equity": 5.622,
+            "cash": 1.22331,
+            "current_assets": 9.87133,
+            "current_liabilities": 6.77678,
+            "listed_borrowings": 0.7275100000000001,
+            "listed_leases": 0.15465,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=3015&companyId=3016&companyId=3018&companyId=3019&companyId=3021",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=3015&companyId=3016&companyId=3018&companyId=3019&companyId=3021",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "adopted_record_sha256": {
+    "3018.TW": "sha256:e486b9ea61febc9770dad25aaabfc51e81ec0d81d972ce63f72029cc8cf78d54"
+  },
+  "official_source_verification": [
+    {
+      "source_id": "3018-official-20261125-173338",
+      "evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-官方監看/區間公告及正文.json",
+      "pointer": "/events/86",
+      "official_body_verified": true,
+      "statement_sha256": "sha256:d5bb10f7c71e93b773e3ae93284c1c97041b4d509c0f51514f303ae5267b7e55"
+    }
+  ],
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "new_profiles_partial_with_null_company_date": true,
+    "financial_tables_not_modified": true,
+    "only_overview_events_appended": true,
+    "new_company_quota": 0,
+    "material_events": 1,
+    "new_meeting": false,
+    "cutoff_not_advanced": true,
+    "corporate_and_individual_liabilities_separated": true,
+    "historical_freeze_not_asserted_current": true
+  }
+}

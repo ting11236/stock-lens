@@ -1,0 +1,1109 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261126-2727-v1",
+    "ready": true,
+    "created_at": "2026-11-26T14:07:23.718917+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:6df3f99b27926df5d94be576bb60f86865597ea1148e09e637115aee35e88ca9",
+    "work_type": "backfill",
+    "origin_date": "2026-11-26",
+    "completion_unit": "整家公司公開資料查找完成附缺漏",
+    "new_meeting": true,
+    "historical_meeting_dates": [
+      "2026-06-17"
+    ],
+    "meeting_QA_verified": true,
+    "validation": {
+      "baseline_locked": true,
+      "full_unit_delivered": true,
+      "charts_checked": true,
+      "financial_periods_labeled": true,
+      "old_project_ids_preserved": true
+    },
+    "limitations": [
+      "11/25法說42頁文字及主要圖表、獨立原始QA全2頁已讀；6/17正式股東會議事錄原圖確認無股東提問，不用一般網站FAQ代替當場QA。",
+      "年報採MOPS官方英文版2025_2727_20260617FE4.pdf；引用年度與Q3不同範圍各自標示。",
+      "官網投資人頁標10/31台灣直營372，11/25簡報同標10/31為371，差1家未解；採簡報數據描述其範圍，保留衝突，不把479與478當同一確認總數。",
+      "各品牌獲利、單店投資回收、零售單品收入與新品牌名稱／量產日多未單列；公司預期展店及獲利方向不視為保證。",
+      "美國事業群在簡報為籌備中，未披露開幕、菜單或盈利日；不以設公司及資本額當已有餐廳營收。"
+    ]
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-2727-v1-business",
+      "task_id": "daily-backfill-20261126-2727",
+      "company_code": "2727",
+      "company_name": "王品",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "business",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0e048a6df97c066fa617f33b5e583e3fcc92c235d74203b0bfd364fd2dde4668",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "王品是多品牌餐飲集團，以台灣門店為主，另經營中國餐飲與萬鮮食品零售，並籌備美國事業。餐飲服務從王品、西堤牛排、陶板屋和風洋食，到夏慕尼／阪前鐵板燒、原燒／肉次方燒肉、聚／青花驕／和牛涮火鍋、石二鍋與12MINI快食尚、享鴨及莆田等，服務聚餐、家庭、個人與不同價位客群；不能只按「王品牛排」單品牌理解全公司。\n產業鏈上游為肉品、海鮮蔬果、食材及耗材，中游是採購、食安檢驗、加工物流、品牌研發與門店營運，下游是一般消費者及企業聚餐。年報說沒有單一銷售客戶逾10%；採購表內A/B是集團子公司集中採購，不能當對外供應商壟斷。供應鏈與門店多品牌共享、會員跨品牌導流，是管理協同而非每個品牌獨立重複計營收。\n2025年報餐飲收入22,205,072千元占94.68%，零售1,247,436占5.32%；地區台灣19,233,174占82.01%、中國4,219,334占17.99%。2026前三季客戶合約收入分類為餐飲18,706,846、商品818,127千元；部門／業務分類中的貿易零售750,426又是另一口徑，不能與商品銷售相加。\n11/25簡報截至10/31台灣371家、中國107家，台灣包含本體244、王莆4與群品123；官網同標10/31直營372家，差異未解，不自行增減或宣稱唯一精確集團總店數。美國仍籌備中，Q3美國部門收入為零。萬鮮產品透過全家、7-ELEVEN、好市多、自營電商等通路銷售，通路合作與終端用餐客戶分開。",
+        "period": "2025全年／2026前三季合併財報；2026/11/25法說與原始QA，店數標10/31",
+        "sources": [
+          "2727-annual",
+          "2727-q3",
+          "2727-call",
+          "2727-qa",
+          "2727-agm",
+          "2727-webcount",
+          "2753-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "2727-annual",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=FE4",
+          "title": "王品2025年報官方英文版134頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-annual.pdf",
+          "total_pages": 134,
+          "pages_read": [
+            7,
+            8,
+            9,
+            106,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "source_id": "2727-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "王品2026Q3合併財報58頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-11-05T17:26:38+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-q3.pdf",
+          "total_pages": 58,
+          "pages_read": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            17,
+            26,
+            27,
+            33,
+            34,
+            35,
+            50,
+            51
+          ]
+        },
+        {
+          "source_id": "2727-call",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/STR/&fileName=272720261124M001.pdf&functionName=t100sb02_1",
+          "title": "王品2026/11/25完整42頁官方法說",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-call.pdf",
+          "total_pages": 42,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "source_id": "2727-qa",
+          "url": "https://www.wowprime.com/index.php?option=com_cwattachments&task=download&id=819f46e52c25763a55cc642422644317&sid=f534a99d399da493160bc1bad16a0b5f",
+          "title": "王品2026/11/25法說原始QA兩頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-qa.pdf",
+          "total_pages": 2,
+          "pages_read": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_id": "2727-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=F05",
+          "title": "王品2026/6/17股東會議事錄39頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-07-03T09:33:02+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-agm.pdf",
+          "total_pages": 39,
+          "pages_read": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_id": "2727-webcount",
+          "url": "https://www.wowprime.com/zh-tw/investor",
+          "title": "王品投資人頁10/31店數（與簡報差異保留）",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        },
+        {
+          "source_id": "2753-peer",
+          "url": "https://www.twse.com.tw/pdf/ch/2753_ch.pdf",
+          "title": "TWSE八方雲集2753基本業務",
+          "publisher": "臺灣證券交易所／八方雲集",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T14:07:23.718917+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "11/25法說42頁文字及主要圖表、獨立原始QA全2頁已讀；6/17正式股東會議事錄原圖確認無股東提問，不用一般網站FAQ代替當場QA。",
+        "年報採MOPS官方英文版2025_2727_20260617FE4.pdf；引用年度與Q3不同範圍各自標示。",
+        "官網投資人頁標10/31台灣直營372，11/25簡報同標10/31為371，差1家未解；採簡報數據描述其範圍，保留衝突，不把479與478當同一確認總數。",
+        "各品牌獲利、單店投資回收、零售單品收入與新品牌名稱／量產日多未單列；公司預期展店及獲利方向不視為保證。",
+        "美國事業群在簡報為籌備中，未披露開幕、菜單或盈利日；不以設公司及資本額當已有餐廳營收。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-2727-v1-earnings",
+      "task_id": "daily-backfill-20261126-2727",
+      "company_code": "2727",
+      "company_name": "王品",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "earnings",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0e048a6df97c066fa617f33b5e583e3fcc92c235d74203b0bfd364fd2dde4668",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "本業獲利是餐飲售價、客流與翻桌、同店／新店組合，扣食材、人力、租金、折舊、供應鏈、點數與行銷費用；多品牌展店的前期費用與閉店損失會影響短期利潤。2025合併收入23,452,508千元、本期淨利1,357,747千元、EPS16.02；本期淨利與歸母不是同一欄位，不直接由總淨利反推EPS。\n2026前三季收入19,524,973、營業利益1,509,928、本期淨利1,203,277、歸母1,185,837千元、EPS14.32，去年同期收入17,323,177、營業利益1,378,346、歸母995,166及EPS12.01。單季Q3收入6,607,316、營業利益471,288、歸母368,919、EPS4.46，與累計分開。台灣部門前三季收入15,757,983、部門損益1,392,319，中國3,766,990與117,869；中國收入增長但部門損益低於去年142,513。部門損益有總部、財務及稅項等排除，不能當歸母分配。\n11/25QA說台灣前三季同店成長5.3%，中國同店持平，客單價承壓；中國單季Q3營益率3.6%，去年Q3約7%多，公司解釋競爭下價格帶難提高、新店前期投入與成本上升。對中國前景公司保守，不能以台灣成長推論中國毛利同步改善。公司希望透過菜單、加價購、營收與供應鏈改善營益率，沒有保證2027營益率必不低於今年。\n資金：前三季營業現金流3,160,251千元，去年2,131,694；含折舊加回1,920,596與合約負債增加292,672，不能直接視為自由現金流。期內存貨增加耗用518,326、購置廠房設備887,504、付租賃本金1,087,136、現金股利1,433,017千元，9月底現金2,499,704低於年底3,225,808；另有攤銷後成本金融資產，不全當即用現金。\n9月底總負債13,452,538千元含流動／非流動租賃1,306,851／3,835,254、餐飲禮券與點數等合約負債3,371,170，與銀行借款不同。禮券預收3,214,203不是當期已賺收入；忠誠計畫155,779仍有履約義務。存貨2,319,375含在途255,570；備貨能緩和匯率食材波動但占用資金且有食安、保存風險。閉店／遷點造成處分損失16,187及非金融減損15,781千元，不把全部裝潢設備投入當永久成長。\n比較同業2753八方雲集：官方分類為餐飲銷售與連鎖加盟，可比連鎖展店、食材供應鏈、人工與租金成本；八方客單價、加盟結構與王品較多直營的多品牌正餐不同，不能直接用店數、同店指標或毛利率互套。這是研究選擇的局部比較。",
+        "period": "2025全年／2026前三季合併財報；2026/11/25法說與原始QA，店數標10/31",
+        "sources": [
+          "2727-annual",
+          "2727-q3",
+          "2727-call",
+          "2727-qa",
+          "2727-agm",
+          "2727-webcount",
+          "2753-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "2727-annual",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=FE4",
+          "title": "王品2025年報官方英文版134頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-annual.pdf",
+          "total_pages": 134,
+          "pages_read": [
+            7,
+            8,
+            9,
+            106,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "source_id": "2727-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "王品2026Q3合併財報58頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-11-05T17:26:38+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-q3.pdf",
+          "total_pages": 58,
+          "pages_read": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            17,
+            26,
+            27,
+            33,
+            34,
+            35,
+            50,
+            51
+          ]
+        },
+        {
+          "source_id": "2727-call",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/STR/&fileName=272720261124M001.pdf&functionName=t100sb02_1",
+          "title": "王品2026/11/25完整42頁官方法說",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-call.pdf",
+          "total_pages": 42,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "source_id": "2727-qa",
+          "url": "https://www.wowprime.com/index.php?option=com_cwattachments&task=download&id=819f46e52c25763a55cc642422644317&sid=f534a99d399da493160bc1bad16a0b5f",
+          "title": "王品2026/11/25法說原始QA兩頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-qa.pdf",
+          "total_pages": 2,
+          "pages_read": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_id": "2727-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=F05",
+          "title": "王品2026/6/17股東會議事錄39頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-07-03T09:33:02+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-agm.pdf",
+          "total_pages": 39,
+          "pages_read": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_id": "2727-webcount",
+          "url": "https://www.wowprime.com/zh-tw/investor",
+          "title": "王品投資人頁10/31店數（與簡報差異保留）",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        },
+        {
+          "source_id": "2753-peer",
+          "url": "https://www.twse.com.tw/pdf/ch/2753_ch.pdf",
+          "title": "TWSE八方雲集2753基本業務",
+          "publisher": "臺灣證券交易所／八方雲集",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T14:07:23.718917+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "11/25法說42頁文字及主要圖表、獨立原始QA全2頁已讀；6/17正式股東會議事錄原圖確認無股東提問，不用一般網站FAQ代替當場QA。",
+        "年報採MOPS官方英文版2025_2727_20260617FE4.pdf；引用年度與Q3不同範圍各自標示。",
+        "官網投資人頁標10/31台灣直營372，11/25簡報同標10/31為371，差1家未解；採簡報數據描述其範圍，保留衝突，不把479與478當同一確認總數。",
+        "各品牌獲利、單店投資回收、零售單品收入與新品牌名稱／量產日多未單列；公司預期展店及獲利方向不視為保證。",
+        "美國事業群在簡報為籌備中，未披露開幕、菜單或盈利日；不以設公司及資本額當已有餐廳營收。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-2727-v1-developments",
+      "task_id": "daily-backfill-20261126-2727",
+      "company_code": "2727",
+      "company_name": "王品",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "developments",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0e048a6df97c066fa617f33b5e583e3fcc92c235d74203b0bfd364fd2dde4668",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "發展以成功品牌持續展店、既有品牌改菜單／店型、會員與供應鏈協同、萬鮮零售為主，另有未具名新品牌及美國籌備。11/25簡報稱2026月營收破億元品牌由6個增為8個，新增青花驕、肉次方；這是公司品牌營收門檻，不是新增各1億元淨利。第二梯隊原燒、享鴨、王品牛排以月營收6,000萬元以上培育，未給晉升保證。\n最新QA公司說每年以30–40家規模展店，重心仍台灣成功品牌、火鍋與燒肉；王品牛排約1–2家、享鴨籌備中山北路旗艦、原燒自助吧改造後列下一年展店品牌，夏慕尼規劃宜蘭新月／頭份尚順／竹北。中國Q4仍擬開5家，但策略維持獲利、審慎觀察；計畫店不算已開。\n會員截至10/31為617萬，是累計會員而非月活躍或付費人數；3%點數鼓勵回購會帶來成本。萬鮮2026新品包含常溫速食麵、冷藏／常溫飲品及冷凍有料鍋底，通路聯名全家青花驕、7-ELEVEN石二鍋，好市多專賣也有列示；沒有單品／新通路收入分拆，不把全商品收入歸給今年新品。年報列新品牌1、2各預計研發費10,000千元及2026–2027完成期，仍在規劃，不能自行命名或視為已開店。",
+        "period": "2025全年／2026前三季合併財報；2026/11/25法說與原始QA，店數標10/31",
+        "sources": [
+          "2727-annual",
+          "2727-q3",
+          "2727-call",
+          "2727-qa",
+          "2727-agm",
+          "2727-webcount",
+          "2753-peer"
+        ],
+        "projects": [
+          {
+            "project_id": "2727-hotpot-expansion",
+            "name": "火鍋主力品牌展店",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "石二鍋、聚、和牛涮、青花驕；一般用餐客戶",
+            "status": "持續商用展店，成功品牌是2027重心",
+            "commercial_timing": "未揭逐店開幕及新增收入",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-meat-bbq-expansion",
+            "name": "肉次方及燒肉品牌展店",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "燒肉聚餐／吃到飽市場",
+            "status": "肉次方列新增月營收破億品牌，非單店或淨利門檻",
+            "commercial_timing": "新店逐案時程未披露",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-chamonix-expansion",
+            "name": "夏慕尼新據點",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "法式鐵板燒聚餐",
+            "status": "台中台灣大道店公司稱營收獲利良好；規劃宜蘭新月／頭份尚順／竹北",
+            "commercial_timing": "規劃店尚未確認開幕日",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-yakiyan-format",
+            "name": "原燒自助吧店型改造",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "燒肉主餐加自助吧客群",
+            "status": "既有品牌轉型，QA列下一年度展店主力之一",
+            "commercial_timing": "逐店改造／收入貢獻未單列",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-xiangduck-flagship",
+            "name": "享鴨旗艦店",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "烤鴨與中式聚餐",
+            "status": "籌備台北中山北路旗艦店",
+            "commercial_timing": "未揭正式開幕日",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-wangsteak-upgrade",
+            "name": "王品牛排升級與少量展店",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "高價牛排與體驗型餐飲",
+            "status": "QA稱客單與客量改善，計畫展店約1–2家",
+            "commercial_timing": "未揭逐店時程／單店貢獻",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-china-defensive-growth",
+            "name": "中國品牌展店及獲利防守",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "王品、西堤、AMIGO、THE WANG、云彩坡",
+            "status": "10/31簡報107家；QA稱Q4另擬開5家，維持獲利優先",
+            "commercial_timing": "計畫5家不得當已全部開幕",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-membership-digital",
+            "name": "瘋美食會員及點數導流",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "一般用戶跨品牌訂位、付款、回購",
+            "status": "10/31會員617萬；3%點數鼓勵回購並有費用",
+            "commercial_timing": "既有商用，非新增付費會員數",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-wowfresh-retail",
+            "name": "萬鮮新品及聯名通路",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "便利店、量販及自營電商消費者；全家、7-ELEVEN、好市多",
+            "status": "新品與聯名已展示，個別收入未拆",
+            "commercial_timing": "既有商用與新品上架各自時程未完整披露",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-us-business-preparation",
+            "name": "美國事業籌備",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "擬海外餐飲布局，終端客戶未定",
+            "status": "11/25簡報籌備中，Q3美國部門無收入",
+            "commercial_timing": "未揭首店開幕／獲利日",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-new-brand-1",
+            "name": "未具名新品牌1",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "餐飲客群未具體揭露",
+            "status": "年報規劃，預計研發費10,000千元，非已投入確證",
+            "commercial_timing": "公司預期2026–2027，未揭確定商用日",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-new-brand-2",
+            "name": "未具名新品牌2",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "餐飲客群未具體揭露",
+            "status": "年報規劃，預計研發費10,000千元，未對應已開品牌",
+            "commercial_timing": "公司預期2026–2027，未揭確定商用日",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          },
+          {
+            "project_id": "2727-supplychain-efficiency",
+            "name": "供應鏈整合與食品安全效率",
+            "type": "既有業務拓展／技術升級",
+            "uses_and_customers": "服務集團門店及商品業務",
+            "status": "採購／物流／檢驗與提前備貨，費用與資本投入持續",
+            "commercial_timing": "設備投入及庫存增加不等於已產生預估回報",
+            "revenue_contribution": "未單獨披露實際／預估營收與毛利，不以整組收入或合約額當單案貢獻",
+            "sources": [
+              "2727-call",
+              "2727-qa",
+              "2727-annual",
+              "2727-q3"
+            ],
+            "limitations": [
+              "未揭個案客戶／訂單／產能／完工驗收及單案收入者保留缺漏。"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "2727-annual",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=FE4",
+          "title": "王品2025年報官方英文版134頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-annual.pdf",
+          "total_pages": 134,
+          "pages_read": [
+            7,
+            8,
+            9,
+            106,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "source_id": "2727-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "王品2026Q3合併財報58頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-11-05T17:26:38+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-q3.pdf",
+          "total_pages": 58,
+          "pages_read": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            17,
+            26,
+            27,
+            33,
+            34,
+            35,
+            50,
+            51
+          ]
+        },
+        {
+          "source_id": "2727-call",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/STR/&fileName=272720261124M001.pdf&functionName=t100sb02_1",
+          "title": "王品2026/11/25完整42頁官方法說",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-call.pdf",
+          "total_pages": 42,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "source_id": "2727-qa",
+          "url": "https://www.wowprime.com/index.php?option=com_cwattachments&task=download&id=819f46e52c25763a55cc642422644317&sid=f534a99d399da493160bc1bad16a0b5f",
+          "title": "王品2026/11/25法說原始QA兩頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-qa.pdf",
+          "total_pages": 2,
+          "pages_read": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_id": "2727-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=F05",
+          "title": "王品2026/6/17股東會議事錄39頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-07-03T09:33:02+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-agm.pdf",
+          "total_pages": 39,
+          "pages_read": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_id": "2727-webcount",
+          "url": "https://www.wowprime.com/zh-tw/investor",
+          "title": "王品投資人頁10/31店數（與簡報差異保留）",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        },
+        {
+          "source_id": "2753-peer",
+          "url": "https://www.twse.com.tw/pdf/ch/2753_ch.pdf",
+          "title": "TWSE八方雲集2753基本業務",
+          "publisher": "臺灣證券交易所／八方雲集",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T14:07:23.718917+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "11/25法說42頁文字及主要圖表、獨立原始QA全2頁已讀；6/17正式股東會議事錄原圖確認無股東提問，不用一般網站FAQ代替當場QA。",
+        "年報採MOPS官方英文版2025_2727_20260617FE4.pdf；引用年度與Q3不同範圍各自標示。",
+        "官網投資人頁標10/31台灣直營372，11/25簡報同標10/31為371，差1家未解；採簡報數據描述其範圍，保留衝突，不把479與478當同一確認總數。",
+        "各品牌獲利、單店投資回收、零售單品收入與新品牌名稱／量產日多未單列；公司預期展店及獲利方向不視為保證。",
+        "美國事業群在簡報為籌備中，未披露開幕、菜單或盈利日；不以設公司及資本額當已有餐廳營收。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261126-2727-v1-transition",
+      "task_id": "daily-backfill-20261126-2727",
+      "company_code": "2727",
+      "company_name": "王品",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:0e048a6df97c066fa617f33b5e583e3fcc92c235d74203b0bfd364fd2dde4668",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "最新11/25法說與完整兩頁官方QA已核讀，與6/17股東會議事錄原圖「無股東提問」分開。投資人問調價、台灣展店／同店及2027營益率，公司回答西堤、陶板屋調價30元，其他透過菜色與加價購；展店／規模及供應鏈希望推升獲利，未承諾最低營益率。台灣SSS5.3%指前三季，不能寫Q3單季。\n問中國Q3未恢復、來客與未來展望，公司指出低迷競爭、客單價及新店成本，未見明確反轉訊號，中國能見度不如台灣；展店優先保盈。問食材／匯率，公司說進口牛肉成本會受臺幣走弱影響，以提前備貨與規模採購應對，未給可固定套用的整體匯率敏感度。問料工費，公司稱原料增加約1%、薪資約0.3–0.5%，Q3薪資比約22%，並提醒各品牌結構不同；上述是公司QA口徑，不自行轉成全公司固定費率或未來毛利預測。\n問費用增加，公司列會員點數、供應鏈與廣告投資，目標隨收入維持一定比率；對股利只說現金足夠、維持過往政策，不是董事會已宣告下一年度配息。供應鏈／數位投資可形成規模效益，但要用單店盈利與資金回收驗證。風險為缺工薪資、食品安全、牛肉及匯率、租約與新店前置成本、品牌互食、消費競爭及中國需求，美國籌備投入也未有商用保證。",
+        "period": "2025全年／2026前三季合併財報；2026/11/25法說與原始QA，店數標10/31",
+        "sources": [
+          "2727-annual",
+          "2727-q3",
+          "2727-call",
+          "2727-qa",
+          "2727-agm",
+          "2727-webcount",
+          "2753-peer"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "2727-annual",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=FE4",
+          "title": "王品2025年報官方英文版134頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-annual.pdf",
+          "total_pages": 134,
+          "pages_read": [
+            7,
+            8,
+            9,
+            106,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "source_id": "2727-q3",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&seamon=3&mtype=A&dtype=AI1",
+          "title": "王品2026Q3合併財報58頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-11-05T17:26:38+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-q3.pdf",
+          "total_pages": 58,
+          "pages_read": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            17,
+            26,
+            27,
+            33,
+            34,
+            35,
+            50,
+            51
+          ]
+        },
+        {
+          "source_id": "2727-call",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/STR/&fileName=272720261124M001.pdf&functionName=t100sb02_1",
+          "title": "王品2026/11/25完整42頁官方法說",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-call.pdf",
+          "total_pages": 42,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "source_id": "2727-qa",
+          "url": "https://www.wowprime.com/index.php?option=com_cwattachments&task=download&id=819f46e52c25763a55cc642422644317&sid=f534a99d399da493160bc1bad16a0b5f",
+          "title": "王品2026/11/25法說原始QA兩頁",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-qa.pdf",
+          "total_pages": 2,
+          "pages_read": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_id": "2727-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2727&year=115&mtype=F&dtype=F05",
+          "title": "王品2026/6/17股東會議事錄39頁",
+          "publisher": "王品／官方來源",
+          "published_at": "2026-07-03T09:33:02+08:00",
+          "accessed_at": "2026-11-26",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-26-2727/2727-agm.pdf",
+          "total_pages": 39,
+          "pages_read": [
+            1,
+            5
+          ]
+        },
+        {
+          "source_id": "2727-webcount",
+          "url": "https://www.wowprime.com/zh-tw/investor",
+          "title": "王品投資人頁10/31店數（與簡報差異保留）",
+          "publisher": "王品／官方來源",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        },
+        {
+          "source_id": "2753-peer",
+          "url": "https://www.twse.com.tw/pdf/ch/2753_ch.pdf",
+          "title": "TWSE八方雲集2753基本業務",
+          "publisher": "臺灣證券交易所／八方雲集",
+          "published_at": null,
+          "published_at_reason": "未查得原始上傳時間，文件日期另列",
+          "accessed_at": "2026-11-26"
+        }
+      ],
+      "research_completed_at": "2026-11-26T14:07:23.718917+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "completion_unit": "整家公司公開資料查找完成附缺漏",
+      "do_not_refresh_company_reviewed_at": true,
+      "claim_type": "official_facts_company_plans_and_labeled_research_inference",
+      "limitations": [
+        "11/25法說42頁文字及主要圖表、獨立原始QA全2頁已讀；6/17正式股東會議事錄原圖確認無股東提問，不用一般網站FAQ代替當場QA。",
+        "年報採MOPS官方英文版2025_2727_20260617FE4.pdf；引用年度與Q3不同範圍各自標示。",
+        "官網投資人頁標10/31台灣直營372，11/25簡報同標10/31為371，差1家未解；採簡報數據描述其範圍，保留衝突，不把479與478當同一確認總數。",
+        "各品牌獲利、單店投資回收、零售單品收入與新品牌名稱／量產日多未單列；公司預期展店及獲利方向不視為保證。",
+        "美國事業群在簡報為籌備中，未披露開幕、菜單或盈利日；不以設公司及資本額當已有餐廳營收。"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview_sha256": "sha256:0e048a6df97c066fa617f33b5e583e3fcc92c235d74203b0bfd364fd2dde4668",
+  "adopted_record_sha256": "sha256:16d5ebcc687076646eeaa4b699e978e5feb16e39904e804a3853337d9b8acb0e",
+  "source_evidence_sha256": {
+    "2727-annual": "sha256:50e6a3191a3e96297d9d56210c921ea2a993480f36637666c010b681253795c4",
+    "2727-q3": "sha256:cca6449f498f419bad64a1e348ce7324a85ac95cfc133a1419a7683712322f03",
+    "2727-call": "sha256:cd2d6e262f562272640031749d25ef41f2cfc4272bf9a064d2ecbb7044b15ad9",
+    "2727-qa": "sha256:44854b78466d3a5c189ec632e206afa9e221eaef85e2e268b361ebac162cc237",
+    "2727-agm": "sha256:85dea8c1d843198ef329e86eaac4a8650ed4260006ec64f55b0821fc71a73787"
+  },
+  "financial_verification": {
+    "basis": "IFRSs合併財報AI1",
+    "common_official_rows_matched": {
+      "營業收入": 19524973,
+      "營業利益（損失）": 1509928,
+      "基本每股盈餘（元）": 14.32
+    },
+    "operating_cash_inflow_thousand": 3160251,
+    "Q3_single_quarter_EPS": 4.46,
+    "store_count_difference_preserved": [
+      371,
+      372
+    ],
+    "source_numeric_files_modified": false,
+    "overview_financial_tables_modified": false
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved_null": true,
+    "full_lookup_status_separate_from_legacy_schema": true,
+    "recent_meeting_date": "2026-11-25",
+    "original_call_QA_verified": true,
+    "new_company_quota": 1,
+    "backlog_completed_this_batch": 0,
+    "backlog_remaining": 23,
+    "SSS_5_3_is_YTD": true,
+    "China_3_6_is_Q3": true,
+    "USA_no_revenue": true,
+    "cutoff_not_advanced": true,
+    "project_ids": [
+      "2727-hotpot-expansion",
+      "2727-meat-bbq-expansion",
+      "2727-chamonix-expansion",
+      "2727-yakiyan-format",
+      "2727-xiangduck-flagship",
+      "2727-wangsteak-upgrade",
+      "2727-china-defensive-growth",
+      "2727-membership-digital",
+      "2727-wowfresh-retail",
+      "2727-us-business-preparation",
+      "2727-new-brand-1",
+      "2727-new-brand-2",
+      "2727-supplychain-efficiency"
+    ]
+  }
+}

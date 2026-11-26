@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse
+from revenue_corrections import corrected_revenue
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'site/data'
@@ -248,10 +249,15 @@ def build_rows(feeds, history, now):
         s['ratio_date'] = day(ratios.get('Date'))
         for key, raw in [('pe','PEratio'),('pb','PBratio'),('dividend_yield','DividendYield')]:
             field(key,ratios.get(raw),'ratios',s['ratio_date'],'官方公告值；此日期為估值日期，非財報期間')
-        revenue = maps.get('revenue',{}).get(code,{})
+        revenue = corrected_revenue(maps.get('revenue',{}).get(code,{}))
         if revenue.get('產業別'):
             s['industry'] = revenue['產業別']
         field('revenue_growth',revenue.get('營業收入-去年同月增減(%)'),'revenue',month(revenue.get('資料年月')),'單月營收年增率（百分點）')
+        if revenue.get('_official_correction'):
+            correction = revenue['_official_correction']
+            s['field_meta']['revenue_growth'].update(source=correction['url'],
+                basis='依官方更正公告之當月營收／去年同月營收計算年增率（百分點）',
+                correction=correction, feed_source=source_url('revenue'))
         eps = maps.get('eps',{}).get(code,{})
         period = quarter(eps)
         field('eps',eps.get('基本每股盈餘(元)'),'eps',period,'年初至本季累計基本 EPS（元），非單季／TTM')
