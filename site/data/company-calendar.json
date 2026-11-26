@@ -3303,7 +3303,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3014.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-12-03",
+        "description": "本公司受邀參加國泰綜合證券股份有限公司所舉辦之2026第四季產業論壇",
+        "end_date": "2026-12-03",
+        "kind": "法說會",
+        "location": "台北君悅酒店三樓會議廳(台北市信義區松壽路2號)",
+        "name": "聯陽",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+        "symbol": "3014.TW",
+        "time": "10:40"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -26412,6 +26423,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
       "symbol": "2883.TW",
       "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-03",
+      "description": "本公司受邀參加國泰綜合證券股份有限公司所舉辦之2026第四季產業論壇",
+      "end_date": "2026-12-03",
+      "kind": "法說會",
+      "location": "台北君悅酒店三樓會議廳(台北市信義區松壽路2號)",
+      "name": "聯陽",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "3014.TW",
+      "time": "10:40"
     },
     {
       "cancelled": false,
@@ -70441,5 +70464,5 @@
       "time": "14:30"
     }
   ],
-  "updated_at": "2026-11-26T14:17:34+08:00"
+  "updated_at": "2026-11-26T14:44:47+08:00"
 }
