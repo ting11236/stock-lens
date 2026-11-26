@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26T06:06:11+00:00",
+  "fetched_at": "2026-11-26T06:14:46+00:00",
   "latest_price_date": "2026-11-26",
   "license": "https://data.gov.tw/license",
   "schema_version": 2,
@@ -105076,11 +105076,21 @@
           "source": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci"
         },
         "revenue_growth": {
-          "basis": "單月營收年增率（百分點）",
+          "basis": "依官方更正公告之當月營收／去年同月營收計算年增率（百分點）",
+          "correction": {
+            "company_code": "6472",
+            "event_id": "6472-20261125-monthly-revenue-correction",
+            "published_at": "2026-11-25T17:29:06+08:00",
+            "sequence": "2",
+            "title": "配合Q3會計師調整，更正9月及10月營收",
+            "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+            "verified_at": "2026-11-26"
+          },
           "date": "2026-10",
-          "downloaded_at": "2026-11-12T18:22:26+00:00",
+          "downloaded_at": "2026-11-26T06:14:46+00:00",
+          "feed_source": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
           "reason": null,
-          "source": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+          "source": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01"
         },
         "roe": {
           "balance_source": "https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci",
@@ -105112,11 +105122,11 @@
       "price_date": "2026-11-26",
       "ps": null,
       "ratio_date": "2026-11-25",
-      "revenue_growth": 15.912195877904312,
+      "revenue_growth": 15.070462004000106,
       "roe": null,
       "shares_date": "2026-11-25",
       "shares_source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
-      "snapshot_at": "2026-11-26T06:06:11+00:00",
+      "snapshot_at": "2026-11-26T06:14:46+00:00",
       "source": "臺灣證券交易所／政府開放資料",
       "symbol": "6472.TW",
       "trailing_eps": null

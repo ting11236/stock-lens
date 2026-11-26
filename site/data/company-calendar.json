@@ -1729,7 +1729,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2328.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-12-02",
+        "description": "本公司受邀參加統一證券所舉辦之2026 Q4冬季投資論壇，說明本公司營運概況。",
+        "end_date": "2026-12-02",
+        "kind": "法說會",
+        "location": "台北君悅酒店(台北市信義區松壽路2號)",
+        "name": "廣宇",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+        "symbol": "2328.TW",
+        "time": "15:15"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -26185,6 +26196,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
       "symbol": "2308.TW",
       "time": "08:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-02",
+      "description": "本公司受邀參加統一證券所舉辦之2026 Q4冬季投資論壇，說明本公司營運概況。",
+      "end_date": "2026-12-02",
+      "kind": "法說會",
+      "location": "台北君悅酒店(台北市信義區松壽路2號)",
+      "name": "廣宇",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "2328.TW",
+      "time": "15:15"
     },
     {
       "cancelled": false,
@@ -70418,5 +70441,5 @@
       "time": "14:30"
     }
   ],
-  "updated_at": "2026-11-26T14:09:20+08:00"
+  "updated_at": "2026-11-26T14:17:34+08:00"
 }
