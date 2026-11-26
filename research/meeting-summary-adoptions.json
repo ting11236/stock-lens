@@ -288,6 +288,26 @@
       "limitations": [
         "371與372家店數來源差異保留；美國仍籌備中。"
       ]
+    },
+    {
+      "symbol": "1101.TW",
+      "name": "台泥",
+      "kind": "法說會",
+      "meeting_date": "2026-11-25",
+      "summary_updated_at": "2026-11-26",
+      "batch_id": "research-20261126-1101-meeting-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "b199a6abca173345e560adca292dbc2a13a93efe",
+      "workflow_run_id": 45831912943,
+      "verified_at": "2026-11-26T13:49:40.910Z",
+      "original_qa_verified": false,
+      "limitations": [
+        "24頁簡報與主要圖表已讀；本場獨立原始文字QA未在索引見，未觀看影片。",
+        "法定EPS0.63與公司非IFRS調整EPS1.42分開。"
+      ]
     }
   ]
 }
