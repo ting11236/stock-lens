@@ -1,0 +1,282 @@
+{
+  "update_id": "2026-W46-price-20261126",
+  "asOf": "2026-11-26",
+  "checkedAt": "2026-11-26T21:28:51.885776+08:00",
+  "mode": "existing_database_price_only",
+  "technical_recalculated": false,
+  "companies": {
+    "2330": {
+      "price": 2145.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 2150.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": -0.23,
+      "source": {
+        "title": "台積電官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "2308": {
+      "price": 1120.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 1055.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 6.16,
+      "source": {
+        "title": "台達電官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "2345": {
+      "price": 1620.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 1475.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 9.83,
+      "source": {
+        "title": "智邦官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "2382": {
+      "price": 281.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 261.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 7.66,
+      "source": {
+        "title": "廣達官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "6669": {
+      "price": 1570.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 1430.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 9.79,
+      "source": {
+        "title": "緯穎官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "3711": {
+      "price": 511.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 488.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 4.71,
+      "source": {
+        "title": "日月光投控官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "2383": {
+      "price": 3660.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 3355.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 9.09,
+      "source": {
+        "title": "台光電官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "3017": {
+      "price": 2795.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 2545.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 9.82,
+      "source": {
+        "title": "奇鋐官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "1590": {
+      "price": 981.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 969.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 1.24,
+      "source": {
+        "title": "亞德客-KY官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "1256": {
+      "price": 158.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 155.0,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 1.94,
+      "source": {
+        "title": "鮮活果汁-KY官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "2108": {
+      "price": 24.4,
+      "asOf": "2026-11-26",
+      "previous_report_price": 23.9,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 2.09,
+      "source": {
+        "title": "南帝官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    },
+    "2408": {
+      "price": 306.0,
+      "asOf": "2026-11-26",
+      "previous_report_price": 278.5,
+      "previous_report_priceAsOf": "2026-11-25",
+      "change_pct": 9.87,
+      "source": {
+        "title": "南亞科官方收盤（沿用網站日行情）",
+        "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999",
+        "published_at": null,
+        "published_at_reason": "每日動態介面未列單一發布時間。",
+        "accessed_at": "2026-11-26T21:28:51.885776+08:00",
+        "data_period": "2026-11-26",
+        "claim_type": "fact",
+        "database_downloaded_at": "2026-11-26T06:06:11+00:00",
+        "note": "沿用網站官方行情，未另抓財務或重算技術資料。"
+      }
+    }
+  },
+  "events": [
+    {
+      "code": "2345",
+      "asOf": "2026-11-26",
+      "type": "large_price_move",
+      "price": 1620.0,
+      "change_pct": 9.83,
+      "reason": "官方收盤價格波動；未推論基本面改善或成立新買訊。",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999"
+    },
+    {
+      "code": "2382",
+      "asOf": "2026-11-26",
+      "type": "large_price_move",
+      "price": 281.0,
+      "change_pct": 7.66,
+      "reason": "官方收盤價格波動；未推論基本面改善或成立新買訊。",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999"
+    },
+    {
+      "code": "6669",
+      "asOf": "2026-11-26",
+      "type": "large_price_move",
+      "price": 1570.0,
+      "change_pct": 9.79,
+      "reason": "官方收盤價格波動；未推論基本面改善或成立新買訊。",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999"
+    },
+    {
+      "code": "2383",
+      "asOf": "2026-11-26",
+      "type": "large_price_move",
+      "price": 3660.0,
+      "change_pct": 9.09,
+      "reason": "官方收盤價格波動；未推論基本面改善或成立新買訊。",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999"
+    },
+    {
+      "code": "3017",
+      "asOf": "2026-11-26",
+      "type": "large_price_move",
+      "price": 2795.0,
+      "change_pct": 9.82,
+      "reason": "官方收盤價格波動；未推論基本面改善或成立新買訊。",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999"
+    },
+    {
+      "code": "2408",
+      "asOf": "2026-11-26",
+      "type": "large_price_move",
+      "price": 306.0,
+      "change_pct": 9.87,
+      "reason": "官方收盤價格波動；未推論基本面改善或成立新買訊。",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999"
+    }
+  ],
+  "new_trades": 0
+}
