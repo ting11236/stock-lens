@@ -334,7 +334,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "1409.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-27",
+        "description": "2026年前三季營運狀況及未來展望說明會",
+        "end_date": "2026-11-27",
+        "kind": "法說會",
+        "location": "證交所101辦公大樓1樓資訊展示中心(14時15分~14時30分報到、14時30分~15時30分說明會)",
+        "name": "新纖",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "1409.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -3364,7 +3375,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "3025.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-27",
+        "description": "本公司受邀參加元大證券舉辦之線上法說會，報告本公司營運狀況",
+        "end_date": "2026-11-27",
+        "kind": "法說會",
+        "location": "線上法說會",
+        "name": "星通",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "3025.TW",
+        "time": "14:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -25615,6 +25637,18 @@
     {
       "cancelled": false,
       "date": "2026-11-27",
+      "description": "2026年前三季營運狀況及未來展望說明會",
+      "end_date": "2026-11-27",
+      "kind": "法說會",
+      "location": "證交所101辦公大樓1樓資訊展示中心(14時15分~14時30分報到、14時30分~15時30分說明會)",
+      "name": "新纖",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "1409.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-27",
       "description": "公司營運概況。",
       "end_date": "2026-11-27",
       "kind": "法說會",
@@ -25766,6 +25800,18 @@
       "name": "豐達科",
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "3004.TW",
+      "time": "14:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-27",
+      "description": "本公司受邀參加元大證券舉辦之線上法說會，報告本公司營運狀況",
+      "end_date": "2026-11-27",
+      "kind": "法說會",
+      "location": "線上法說會",
+      "name": "星通",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "3025.TW",
       "time": "14:00"
     },
     {
@@ -70372,5 +70418,5 @@
       "time": "14:30"
     }
   ],
-  "updated_at": "2026-11-26T13:46:11+08:00"
+  "updated_at": "2026-11-26T14:09:20+08:00"
 }

@@ -1,9 +1,9 @@
 {
   "errors": {},
-  "latest_price_date": "2026-11-25",
+  "latest_price_date": "2026-11-26",
   "price_source": {
     "note": "更新成功表示來源與格式檢查通過；行情日期以latest_price_date為準。",
-    "received_date": "2026-11-25",
+    "received_date": "2026-11-26",
     "url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?response=json&type=ALLBUT0999"
   },
   "quarterly_coverage": {
@@ -24,6 +24,6 @@
       "retained_statement_companies": 1058
     }
   },
-  "since": "2026-11-26T05:42:22+00:00",
+  "since": "2026-11-26T06:06:11+00:00",
   "state": "ok"
 }
