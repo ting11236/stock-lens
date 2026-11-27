@@ -1,0 +1,1305 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261127-material-events-v1",
+    "ready": true,
+    "created_at": "2026-11-27T13:48:46.534260+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:66224276b7430975a0bc4facdb8552c517a866673e0c7668a9e44873259d4f34",
+    "work_type": "change_update",
+    "whole_company_count": 0,
+    "validation": {
+      "official_full_bodies_read": true,
+      "baseline_verified": true,
+      "only_substantive_events": true,
+      "expected_old_1727_pending_approval_replaced": true,
+      "no_full_company_completion": true
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-material-events-v1-2007",
+      "task_id": "change-2007-20261126-160440",
+      "company_code": "2007",
+      "company_name": "燁興",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_overview_version": "sha256:6852b63cf8228cbc96a00684682d1dc024936158bd39a10c8ad82c8664ea9e9e",
+      "old_content": null,
+      "new_content": {
+        "text": "岡山產線停產與轉單屏南：11/26公告因廠區資源整合與效率規劃，預計2027/1/1起停止岡山廠產線，訂單移至屏南廠生產；部分不願轉調人員預計2027/1/31起分批資遣，已依法向主管機關提交大量解僱計畫書。這是生產布局與人力配置的實質變動，不是全公司停業，也不是11/27已完成停產或資遣。公司評估整體財務業務無重大影響，屬公司當時評估，不等於沒有資遣或搬遷成本。公告未揭受影響人數、產能、轉單完成率、成本／減損及淨產能變化，需追蹤正式執行及財報；不推定破產、訂單取消或全部產能消失。",
+        "period": "11/26–11/27實質事件；各事實與預計執行日分列",
+        "sources": [
+          "2007-official-20261127-41"
+        ],
+        "reviewed_at": "2026-11-27",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "2007-official-20261127-41",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "body_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "公告本公司岡山廠產線停產及部份員工資遣相關事宜。",
+          "publisher": "公開資訊觀測站／證交所官方開放資料",
+          "published_at": "2026-11-26",
+          "published_time": "160440",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-官方監看/區間公告及正文.json",
+          "file_sha256": "b2ebb7e772a1a268996dd95ee56306ca4defc20e5ff42927748c43cd8dc5c7e9",
+          "event_index": 41,
+          "detail_parameters": {
+            "seq_no": "1",
+            "spoke_time": "160440",
+            "spoke_date": "20261126",
+            "co_id": "2007",
+            "TYPEK": "sii"
+          },
+          "read_scope": "公告完整原文"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:48:46.534260+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "substantive_event": true,
+      "frontpage_eligible": true,
+      "scope_limit": "只完成本事件及對應章節查核，非全公司補齊完成。"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-material-events-v1-6902",
+      "task_id": "change-6902-20261126-143943",
+      "company_code": "6902",
+      "company_name": "走著瞧",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_overview_version": "sha256:c7b61a7342da79340bba76643fba07862cecec22e4996296aeabee58a8a16795",
+      "old_content": null,
+      "new_content": {
+        "text": "袋鼠金融Roo.Cash資安事件：11/26公告，事實發生日11/25，子公司袋鼠金融科技平台遭攻擊，部分使用者個人資料外洩；已暫停受影響的兌換及查詢功能，執行修補、權限控管並調查攻擊及影響範圍。已依程序通報，使用者通知及防詐提醒另依公告辦理。公司初估對母公司財務業務無重大影響，不代表沒有外洩、所有服務均恢復或損失已確定為零；保險理賠金額仍評估。未披露外洩人數、完整資料類別、最終損失或全面恢復時間，不自行填入。實質更新為已確認個資外洩及服務限制，後續追蹤通知、修復、監理及理賠結果。",
+        "period": "11/26–11/27實質事件；各事實與預計執行日分列",
+        "sources": [
+          "6902-official-20261127-16"
+        ],
+        "reviewed_at": "2026-11-27",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "6902-official-20261127-16",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "body_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "代子公司袋鼠金融科技股份有限公司公告資通安全事件",
+          "publisher": "公開資訊觀測站／證交所官方開放資料",
+          "published_at": "2026-11-26",
+          "published_time": "143943",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-官方監看/區間公告及正文.json",
+          "file_sha256": "b2ebb7e772a1a268996dd95ee56306ca4defc20e5ff42927748c43cd8dc5c7e9",
+          "event_index": 16,
+          "detail_parameters": {
+            "seq_no": "1",
+            "spoke_time": "143943",
+            "spoke_date": "20261126",
+            "co_id": "6902",
+            "TYPEK": "sii"
+          },
+          "read_scope": "公告完整原文"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:48:46.534260+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "substantive_event": true,
+      "frontpage_eligible": true,
+      "scope_limit": "只完成本事件及對應章節查核，非全公司補齊完成。"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-material-events-v1-2423",
+      "task_id": "change-2423-20261127-133016",
+      "company_code": "2423",
+      "company_name": "固緯",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_overview_version": "sha256:a9ece79dc8f7f10c8300b9f386531835068e1b2725cef38238e2783a5a4a81be",
+      "old_content": null,
+      "new_content": {
+        "text": "ATS-8000公平交易訴訟一審結果：11/27 13:30:16公告（在本日固定cutoff內），智慧財產及商業法院114年度民公訴字第11號，就致茂為原告、固緯為被告的ATS-8000交換式電源供應器自動測試系統名稱／軟體介面爭議，本訴原告之訴駁回；固緯所提反訴亦駁回。本訴費用由原告、反訴費用由反訴原告負擔。這是雙方請求均遭駁回的一審結果，不稱固緯取得反訴賠償或全案確定勝訴。公司委由律師評估後續程序，稱正常營運無重大影響；未揭最終確定日或賠償收入。追蹤是否上訴與確定結果，保留2025/9/10原爭議沿革。",
+        "period": "11/26–11/27實質事件；各事實與預計執行日分列",
+        "sources": [
+          "2423-official-20261127-98"
+        ],
+        "reviewed_at": "2026-11-27",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "2423-official-20261127-98",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "body_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告致茂電子股份有限公司對本公司提起之公平交易法 訴訟，經智慧財產及商業法院第一審判決駁回",
+          "publisher": "公開資訊觀測站／證交所官方開放資料",
+          "published_at": "2026-11-27",
+          "published_time": "133016",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-官方監看/區間公告及正文.json",
+          "file_sha256": "b2ebb7e772a1a268996dd95ee56306ca4defc20e5ff42927748c43cd8dc5c7e9",
+          "event_index": 98,
+          "detail_parameters": {
+            "seq_no": "1",
+            "spoke_time": "133016",
+            "spoke_date": "20261127",
+            "co_id": "2423",
+            "TYPEK": "sii"
+          },
+          "read_scope": "公告完整原文"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:48:46.534260+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "substantive_event": true,
+      "frontpage_eligible": true,
+      "scope_limit": "只完成本事件及對應章節查核，非全公司補齊完成。"
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-material-events-v1-1727",
+      "task_id": "change-1727-20261126-175503",
+      "company_code": "1727",
+      "company_name": "中華化",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:0107e65444a678e35049b8ca102f16d246b418f49f207d0600f94833a3bbbce0",
+      "expected_old_version_scope": "current_official_record",
+      "expected_old_section_version": "sha256:dd5a9f992c6cae7832c455520887addfcaef190ade543558cf783132e125a9b9",
+      "expected_overview_version": "sha256:cd03d1b1e38f7de8df525d3268dc746022d742544e4a8d44374195755275c23d",
+      "old_content": {
+        "text": "現增暫停及展延申請：11/23決議暫停115年度現增新股相關作業，擬向主管機關申請展延募集期3個月；原案普通股13,800仟股，9/17申報生效。原因為公司所述市場波動及股價變化，不自行判定為倒閉或已無現金。已繳款員工及原股東擬加計利息退還，退款日暫訂12/15，若異動另公告；利率按11/11台銀一年期定存利率，公告公式所列日數限實際繳款至實際退款。展延尚待核准函，未核准前不能寫「已延長3個月」；退款也非已完成。實質變動為募資時程與已收股款退款安排，後續募集價格、重新發行時間、核准及實際退還待查，不拿股數或面額當實收資金。",
+        "period": "事件／公告原日期逐項列示，截至2026-11-23固定cutoff",
+        "sources": [
+          "1727-official-159"
+        ],
+        "reviewed_at": "2026-11-23",
+        "update_id": "research-20261123-material-events-v1-1727",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "new_content": {
+        "text": "現增展延已核准及退款待執行：延續11/23暫停115年度現增新股相關作業，原普通股13,800仟股、9/17申報生效。公司先前因市場波動及股價變化申請展延募集期3個月，11/26取得核准，募集期限延至2027/3/16；不能再維持「展延待核准」，也不等於已募足或全案永久取消。已繳款員工與原股東款項擬加計利息退還，暫訂2026/12/15，異動另公告；利率按11/11台銀一年以上未滿二年定期儲蓄存款固定利率1.725%，期間為實際繳款日至實際退款日、按365天計。此處只保留公司公式，不自行計算退款。11/23董事長承諾及公司退款安排延續，截止本輪未取得實際退還證據。實質變動為核准募集展延與停辦、退款進度，非推定倒閉；新募集條件、重新啟動、實退金額及完成日期待查。",
+        "period": "11/26–11/27實質事件；各事實與預計執行日分列",
+        "sources": [
+          "1727-official-20261127-79"
+        ],
+        "reviewed_at": "2026-11-27",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "1727-official-20261127-79",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "body_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "公告本公司申請延長現金增資之募集期間業經金管會核准",
+          "publisher": "公開資訊觀測站／證交所官方開放資料",
+          "published_at": "2026-11-26",
+          "published_time": "175503",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-官方監看/區間公告及正文.json",
+          "file_sha256": "b2ebb7e772a1a268996dd95ee56306ca4defc20e5ff42927748c43cd8dc5c7e9",
+          "event_index": 79,
+          "detail_parameters": {
+            "seq_no": "1",
+            "spoke_time": "175503",
+            "spoke_date": "20261126",
+            "co_id": "1727",
+            "TYPEK": "sii"
+          },
+          "read_scope": "公告完整原文"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:48:46.534260+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "substantive_event": true,
+      "frontpage_eligible": true,
+      "scope_limit": "只完成本事件及對應章節查核，非全公司補齊完成。"
+    }
+  ],
+  "before_official_records": {
+    "2007.TW": null,
+    "6902.TW": null,
+    "2423.TW": null,
+    "1727.TW": {
+      "name": "中華化",
+      "reviewed_at": null,
+      "research_completion": "partial",
+      "event_lookup_completion": "event_lookup_complete_with_disclosed_gaps",
+      "event_lookup_completed_at": "2026-11-23T20:06:01.203283+08:00",
+      "event_completion_unit": "完整實質事件更新，非整家公司補齊",
+      "sources": {
+        "1727-official-159": {
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "公告本公司決議暫停115年度現金增資相關作業暨申請延長 現金增資募集期間等相關事宜",
+          "publisher": "中華化／公開資訊觀測站",
+          "published_at": "2026-11-23",
+          "accessed_at": "2026-11-23",
+          "source_evidence_file": "研究進度/來源留存/2026-11-23-官方監看/歷史公告與正文_截至194920.json",
+          "json_pointer": "/new_history_events/159",
+          "official_statement": "公開資訊觀測站 本資料由 (上市公司) 1727 中華化 公司提供 序號 1 發言日期 115/11/23 發言時間 16:04:37 發言人 干凱恩 發言人職稱 總經理 發言人電話 03-4761266-12350 主旨 公告本公司決議暫停115年度現金增資相關作業暨申請延長 現金增資募集期間等相關事宜 符合條款 第 51 款 事實發生日 115/11/23 說明 1.事實發生日:115/11/23 2.公司名稱:臺灣中華化學工業股份有公司 3.與公司關係(請輸入本公司或子公司):本公司 4.相互持股比例:不適用 5.發生緣由: (1)本公司115年現金增資發行普通股13,800仟股乙案，業經金融監督管理委員會 115年9月17日金管證發字1150354913號函申報生效，並於115年9月23日、115年 10月5日及115年11月11日公告本次現金增資認股基準日等相關事宜。 (2)鑒於近期國際經濟環境前景變化，致國內證券市場波動劇烈，考量市場客觀 環境變化及參酌最近本公司普通股價格波動，為維護股東權益及確保募資完成， 擬暫停本次現金增資發行新股相關作業，並擬向金融監督管理委員會申請展延 資金募集期間三個月，待國內資本市場趨於穩定，再行擇定適當的發行時點， 以維護本公司最大利益及股東權益。 6.因應措施: 為確保原股東及員工之權益，故擬定補償方案如下。 一、適用對象：已繳款之員工及原股東 二、應退還股款之退還日期及方式 對於本補償方案公告日前已繳款之原股東及員工，本公司將加計利息退還其所繳納 之股款，計算公式如下： 認購股款×【1＋(實際繳款日至實際退款日之天數(註1))×利率(註2)/365】 註1：預計退款日暫訂為115年12月15日；應付款項將以郵寄支票方式或匯款方式支付。 退款日若有異動，將另行公告。 註2：臺灣銀行一年期定存利率，以115年11月11日之定存利率計算之 (仍以115年11月11日公告日之利率計算)。 7.其他應敘明事項(若事件發生或決議之主體係屬公開發行以上公司，本��重大訊息同時 符合證券交易法施行細則第7條第9款所定對股東權益或證券價格有重大影響之事項): (1)本案待取得主管機關延長核准函後另行公告之。 (2)待主管機關核准本次現金增資發行新股延長募集期間後，本公司將視客觀環境 重新訂定現金增資相關事宜並重新公告之。 (3)本公司辦理115年度現金增資發行新股案申請暫停相關作業並展延資金募集期間 三個月，承諾就員工、原股東可能主張其權利受損部分願負損害賠償之責。 以上資料均由各公司依發言當時所屬市場別之規定申報後，由本系統對外公佈，資料如有虛偽不實，均由該公司負責。",
+          "official_request_parameters": {
+            "seq_no": "1",
+            "spoke_time": "160437",
+            "spoke_date": "20261123",
+            "co_id": "1727",
+            "TYPEK": "sii"
+          }
+        }
+      },
+      "limitations": [
+        "本次只完成上述實質事件的原始公告核對，不代表整家公司完整補齊，不抵銷任何每日公司配額。",
+        "進度限原公告時點，未披露或待主管機關核准事項已明示；後續補充不得無證據自動標完成。"
+      ],
+      "material_events": [
+        {
+          "event_id": "1727-20261123-capital-raise-suspension",
+          "company_code": "1727",
+          "event_date": "2026-11-23",
+          "announcement_dates": [
+            "2026-11-23"
+          ],
+          "work_type": "change_update",
+          "reason": "現增暫停及展延申請",
+          "affected_sections": [
+            "transition"
+          ],
+          "status": "researched_with_disclosed_gaps",
+          "counts_as_additional_company": false
+        }
+      ],
+      "transition": {
+        "text": "現增暫停及展延申請：11/23決議暫停115年度現增新股相關作業，擬向主管機關申請展延募集期3個月；原案普通股13,800仟股，9/17申報生效。原因為公司所述市場波動及股價變化，不自行判定為倒閉或已無現金。已繳款員工及原股東擬加計利息退還，退款日暫訂12/15，若異動另公告；利率按11/11台銀一年期定存利率，公告公式所列日數限實際繳款至實際退款。展延尚待核准函，未核准前不能寫「已延長3個月」；退款也非已完成。實質變動為募資時程與已收股款退款安排，後續募集價格、重新發行時間、核准及實際退還待查，不拿股數或面額當實收資金。",
+        "period": "事件／公告原日期逐項列示，截至2026-11-23固定cutoff",
+        "sources": [
+          "1727-official-159"
+        ],
+        "reviewed_at": "2026-11-23",
+        "update_id": "research-20261123-material-events-v1-1727",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      }
+    }
+  },
+  "before_overviews": {
+    "2007.TW": {
+      "name": "燁興",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 209,
+      "business": "不銹鋼、碳鋼、合金鋼及快削鋼線材盤元",
+      "direction": "官網未讀取；依集團產品介紹核對既有線材，新案待補查",
+      "profit_mechanism": "線材製造毛利，受原料價差及產品組合影響",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+      "urls": [
+        "https://www.e-united.com.tw/static/edm.pdf",
+        "https://www.yheco.com.tw",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 68.99957,
+        "fy2025": 52.832280000000004,
+        "q32025": 12.26065,
+        "q42025": 9.71182,
+        "q12026": 10.50591,
+        "q22026": 12.13376,
+        "ttm": 44.612140000000004,
+        "h1_operating_profit": -2.44332,
+        "h1_nonoperating": -1.6356,
+        "h1_pretax": -4.07892,
+        "h1_parent_profit": null,
+        "h1_operating_margin": -0.10792206776865601,
+        "h1_nonoperating_share": "",
+        "fy2025_parent_profit": null,
+        "q22026_parent_profit": null,
+        "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨損（另列口徑）",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 22.639670000000002,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 68.99957,
+            "net_income": null,
+            "eps": -2.04,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 30.85981,
+            "net_income": null,
+            "eps": -0.9700000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 43.12046,
+            "net_income": null,
+            "eps": -1.54,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 52.832280000000004,
+            "net_income": null,
+            "eps": -2.24,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 10.50591,
+            "net_income": null,
+            "eps": -0.45,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 22.639670000000002,
+            "net_income": null,
+            "eps": -0.8200000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": -0.89,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 0.02,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": -1.31,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": -1.85,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 12.260650000000002,
+              "eps": -0.57,
+              "net_income": null
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 9.711820000000003,
+              "eps": -0.7000000000000002,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 10.50591,
+              "eps": -0.45,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 12.133760000000002,
+              "eps": -0.37000000000000005,
+              "net_income": null
+            }
+          ],
+          "ttms": 44.61214000000001,
+          "ttm_eps": -2.0900000000000003,
+          "ttm_parent_profit": null,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 44.61 億元；每股盈餘 -2.09 元；歸母淨利 未取得 億元。營收未扣成本與費用，不等於獲利。獲利機制：線材製造毛利，受原料價差及產品組合影響。",
+      "events": [
+        {
+          "period": "2026H1",
+          "type": "本期淨損／歸屬欄未單列",
+          "status": "MOPS本期淨利口徑；未替代母公司欄",
+          "text": "本期淨利（淨損）-4.36264億元；來源母公司歸屬欄為空，另列本期數，未混填母公司淨利。逐季虧損仍待同口徑補核。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.e-united.com.tw/static/edm.pdf",
+            "https://www.yheco.com.tw"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2007",
+            "name": "燁興",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 120.33549,
+            "liabilities": 81.09316,
+            "equity": 39.24233,
+            "parent_equity": 39.24233,
+            "cash": 1.01996,
+            "current_assets": 17.29117,
+            "current_liabilities": 45.6798,
+            "listed_borrowings": 61.12885,
+            "listed_leases": 0.0,
+            "operating_cashflow": 0.1597,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1909&companyId=2002&companyId=2006&companyId=2007&companyId=2008",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1909&companyId=2002&companyId=2006&companyId=2007&companyId=2008",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2007",
+            "name": "燁興",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 123.48662,
+            "liabilities": 81.23114,
+            "equity": 42.25548,
+            "parent_equity": 42.25548,
+            "cash": 1.4253,
+            "current_assets": 18.76532,
+            "current_liabilities": 45.80634,
+            "listed_borrowings": 65.51626,
+            "listed_leases": 0.0,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1909&companyId=2002&companyId=2006&companyId=2007&companyId=2008",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "個別",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1909&companyId=2002&companyId=2006&companyId=2007&companyId=2008",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "6902.TW": {
+      "name": "GOGOLOOK",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 886,
+      "business": "Whoscall防詐、企業信任科技及金融媒合服務",
+      "direction": "AI防詐、ScamAdviser、Roo.Cash及SpotOne人力平台延伸；產品貢獻另核",
+      "profit_mechanism": "訂閱、企業服務及媒合相關收益；用戶、企業客戶、行銷及研發影響",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "2024全年母公司淨損",
+      "urls": [
+        "https://www.gogolook.com/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 8.6685,
+        "fy2025": 10.48183,
+        "q32025": 2.66935,
+        "q42025": 3.00619,
+        "q12026": 3.0310799999999998,
+        "q22026": 3.09716,
+        "ttm": 11.80378,
+        "h1_operating_profit": 1.18597,
+        "h1_nonoperating": 0.02703,
+        "h1_pretax": 1.213,
+        "h1_parent_profit": 1.17627,
+        "h1_operating_margin": 0.193525384123337,
+        "h1_nonoperating_share": 0.0222835943940643,
+        "fy2025_parent_profit": 0.53846,
+        "q22026_parent_profit": 0.59606,
+        "screening": "2024全年母公司淨損",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 6.12824,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 8.6685,
+            "net_income": -0.39658000000000004,
+            "eps": -1.24,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 4.80629,
+            "net_income": 0.00657,
+            "eps": 0.02,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 7.47564,
+            "net_income": 0.07685,
+            "eps": 0.23,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 10.48183,
+            "net_income": 0.53846,
+            "eps": 1.58,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 3.0310799999999998,
+            "net_income": 0.58021,
+            "eps": 1.64,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 6.12824,
+            "net_income": 1.17627,
+            "eps": 3.33,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2021-Q4": {
+            "eps": -2.04,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": -1.9,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 0.16,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 2.6693500000000006,
+              "eps": 0.21000000000000002,
+              "net_income": 0.07028
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 3.00619,
+              "eps": 1.35,
+              "net_income": 0.4616100000000001
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 3.0310799999999998,
+              "eps": 1.64,
+              "net_income": 0.58021
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 3.09716,
+              "eps": 1.6900000000000002,
+              "net_income": 0.5960599999999999
+            }
+          ],
+          "ttms": 11.80378,
+          "ttm_eps": 4.890000000000001,
+          "ttm_parent_profit": 1.70816,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 11.80 億元；每股盈餘 4.89 元；歸母淨利 1.71 億元。營收未扣成本與費用，不等於獲利。獲利機制：訂閱、企業服務及媒合相關收益；用戶、企業客戶、行銷及研發影響。",
+      "events": [
+        {
+          "period": "2024全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-0.40億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.gogolook.com/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "6902",
+            "name": "GOGOLOOK",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 14.296560000000001,
+            "liabilities": 6.15059,
+            "equity": 8.14597,
+            "parent_equity": 8.14597,
+            "cash": 4.01781,
+            "current_assets": 11.82332,
+            "current_liabilities": 5.11689,
+            "listed_borrowings": 3.46257,
+            "listed_leases": 0.33563000000000004,
+            "operating_cashflow": 0.38966,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=6902&companyId=6906&companyId=6908&companyId=6909&companyId=6914",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=6902&companyId=6906&companyId=6908&companyId=6909&companyId=6914",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "6902",
+            "name": "GOGOLOOK",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 12.89405,
+            "liabilities": 5.89731,
+            "equity": 6.99674,
+            "parent_equity": 6.99674,
+            "cash": 3.09992,
+            "current_assets": 10.323360000000001,
+            "current_liabilities": 4.73997,
+            "listed_borrowings": 2.75925,
+            "listed_leases": 0.39704,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=6902&companyId=6906&companyId=6908&companyId=6909&companyId=6914",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=6902&companyId=6906&companyId=6908&companyId=6909&companyId=6914",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "2423.TW": {
+      "name": "固緯",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 329,
+      "business": "電子量測儀器、電源與測試設備",
+      "direction": "雙向可程式直流電源、電池／電動車測試；推出年月及貢獻待核",
+      "profit_mechanism": "儀器製銷毛利，受研發、產品組合與通路影響",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "本次財務篩選未觸發；非無風險認定",
+      "urls": [
+        "https://www.gwinstek.com/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 27.88781,
+        "fy2025": 29.43203,
+        "q32025": 7.0898,
+        "q42025": 8.60907,
+        "q12026": 8.208,
+        "q22026": 8.87777,
+        "ttm": 32.78464,
+        "h1_operating_profit": 4.25325,
+        "h1_nonoperating": 0.43796,
+        "h1_pretax": 4.69121,
+        "h1_parent_profit": 3.61883,
+        "h1_operating_margin": 0.248935225043999,
+        "h1_nonoperating_share": 0.0933575772561876,
+        "fy2025_parent_profit": 4.24091,
+        "q22026_parent_profit": 1.73575,
+        "screening": "未觸發本次篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 17.08577,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 27.88781,
+            "net_income": 3.51131,
+            "eps": 2.42,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 13.73316,
+            "net_income": 1.74404,
+            "eps": 1.2,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 20.822960000000002,
+            "net_income": 2.89446,
+            "eps": 2.0,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 29.43203,
+            "net_income": 4.24091,
+            "eps": 2.92,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 8.208,
+            "net_income": 1.88308,
+            "eps": 1.3,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 17.08577,
+            "net_income": 3.61883,
+            "eps": 2.49,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 1.37,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 2.0,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 2.78,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 2.95,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 7.089800000000002,
+              "eps": 0.8,
+              "net_income": 1.15042
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 8.60907,
+              "eps": 0.9199999999999999,
+              "net_income": 1.3464500000000004
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 8.208,
+              "eps": 1.3,
+              "net_income": 1.88308
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 8.87777,
+              "eps": 1.1900000000000002,
+              "net_income": 1.73575
+            }
+          ],
+          "ttms": 32.78464,
+          "ttm_eps": 4.21,
+          "ttm_parent_profit": 6.1157,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 32.78 億元；每股盈餘 4.21 元；歸母淨利 6.12 億元。營收未扣成本與費用，不等於獲利。獲利機制：儀器製銷毛利，受研發、產品組合與通路影響。",
+      "events": [],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.gwinstek.com/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2423",
+            "name": "固緯",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 43.29873,
+            "liabilities": 13.39908,
+            "equity": 29.89965,
+            "parent_equity": 29.89965,
+            "cash": 8.15627,
+            "current_assets": 30.117720000000002,
+            "current_liabilities": 12.009120000000001,
+            "listed_borrowings": 0.01943,
+            "listed_leases": 0.29443,
+            "operating_cashflow": 3.47513,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2419&companyId=2420&companyId=2421&companyId=2423&companyId=2424",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2419&companyId=2420&companyId=2421&companyId=2423&companyId=2424",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2423",
+            "name": "固緯",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 37.38017,
+            "liabilities": 7.74301,
+            "equity": 29.63716,
+            "parent_equity": 29.63716,
+            "cash": 4.98606,
+            "current_assets": 24.2219,
+            "current_liabilities": 6.53183,
+            "listed_borrowings": 0.35964,
+            "listed_leases": 0.25176000000000004,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2419&companyId=2420&companyId=2421&companyId=2423&companyId=2424",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2419&companyId=2420&companyId=2421&companyId=2423&companyId=2424",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "1727.TW": {
+      "name": "中華化",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 176,
+      "business": "基礎酸鹼、特用化學及電子化學品",
+      "direction": "電子級硫酸、顯影、蝕刻與去光阻材料；最新量產／新增貢獻待補核",
+      "profit_mechanism": "基礎化學與高純電子材料製造毛利",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨利另列事件欄",
+      "urls": [
+        "https://www.chciworld.com.tw/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 20.830830000000002,
+        "fy2025": 19.69278,
+        "q32025": 5.14866,
+        "q42025": 4.84033,
+        "q12026": 5.19337,
+        "q22026": 6.38172,
+        "ttm": 21.56408,
+        "h1_operating_profit": 1.03458,
+        "h1_nonoperating": -0.01447,
+        "h1_pretax": 1.02011,
+        "h1_parent_profit": null,
+        "h1_operating_margin": 0.08937986659283,
+        "h1_nonoperating_share": -0.0141847447824254,
+        "fy2025_parent_profit": null,
+        "q22026_parent_profit": null,
+        "screening": "母公司淨利欄未取得／未單列；不以本期淨利替代；H1本期淨利另列事件欄",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 11.575090000000001,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 20.830830000000002,
+            "net_income": 0.63129,
+            "eps": 0.51,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 9.70379,
+            "net_income": null,
+            "eps": 0.01,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 14.852450000000001,
+            "net_income": null,
+            "eps": 0.03,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 19.69278,
+            "net_income": null,
+            "eps": 0.04,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 5.19337,
+            "net_income": null,
+            "eps": 0.28,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 11.575090000000001,
+            "net_income": null,
+            "eps": 0.66,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": -1.26,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 1.86,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 1.11,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 0.39,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 5.148660000000001,
+              "eps": 0.019999999999999997,
+              "net_income": null
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 4.840329999999998,
+              "eps": 0.010000000000000002,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 5.19337,
+              "eps": 0.28,
+              "net_income": null
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 6.381720000000001,
+              "eps": 0.38,
+              "net_income": null
+            }
+          ],
+          "ttms": 21.564080000000004,
+          "ttm_eps": 0.6900000000000001,
+          "ttm_parent_profit": null,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 21.56 億元；每股盈餘 0.69 元；歸母淨利 未取得 億元。營收未扣成本與費用，不等於獲利。獲利機制：基礎化學與高純電子材料製造毛利。",
+      "events": [
+        {
+          "period": "2026H1",
+          "type": "本期淨利／歸屬欄未單列",
+          "status": "MOPS本期淨利口徑；未替代母公司欄",
+          "text": "本期淨利（淨損）0.84711億元；來源母公司歸屬欄為空，另列本期數，未混填母公司淨利。逐季虧損仍待同口徑補核。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "event_id": "1727-20261123-capital-raise-suspension",
+          "type": "現增暫停及展延申請",
+          "period": "事件 2026-11-23；公告 2026-11-23",
+          "status": "原始公告已核讀；進度與未確定事項依公告日期列示。",
+          "text": "現增暫停及展延申請：11/23決議暫停115年度現增新股相關作業，擬向主管機關申請展延募集期3個月；原案普通股13,800仟股，9/17申報生效。原因為公司所述市場波動及股價變化，不自行判定為倒閉或已無現金。已繳款員工及原股東擬加計利息退還，退款日暫訂12/15，若異動另公告；利率按11/11台銀一年期定存利率，公告公式所列日數限實際繳款至實際退款。展延尚待核准函，未核准前不能寫「已延長3個月」；退款也非已完成。實質變動為募資時程與已收股款退款安排，後續募集價格、重新發行時間、核准及實際退還待查，不拿股數或面額當實收資金。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t05st01"
+          ],
+          "event_date": "2026-11-23",
+          "announcement_dates": [
+            "2026-11-23"
+          ],
+          "reviewed_at": "2026-11-23",
+          "batch_id": "research-20261123-material-events-v1"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.chciworld.com.tw/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "1727",
+            "name": "中華化",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 38.022420000000004,
+            "liabilities": 16.42711,
+            "equity": 21.59531,
+            "parent_equity": 21.59531,
+            "cash": 1.70335,
+            "current_assets": 12.991200000000001,
+            "current_liabilities": 12.65198,
+            "listed_borrowings": 11.227400000000001,
+            "listed_leases": 0.14239000000000002,
+            "operating_cashflow": 0.37786000000000003,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1727&companyId=1730&companyId=1731&companyId=1732&companyId=1733",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1727&companyId=1730&companyId=1731&companyId=1732&companyId=1733",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "1727",
+            "name": "中華化",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "個別",
+            "assets": 35.12963,
+            "liabilities": 14.189400000000001,
+            "equity": 20.94023,
+            "parent_equity": 20.94023,
+            "cash": 1.26374,
+            "current_assets": 10.4029,
+            "current_liabilities": 9.71021,
+            "listed_borrowings": 9.33409,
+            "listed_leases": 0.13544,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1727&companyId=1730&companyId=1731&companyId=1732&companyId=1733",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "個別",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1727&companyId=1730&companyId=1731&companyId=1732&companyId=1733",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "adopted_record_sha256": {
+    "2007.TW": "sha256:c76bf65b2d675c4984e9d65e8d07a3b6b4210d44881340f5d6b8a1cc8cb76cc5",
+    "6902.TW": "sha256:05ef3bbeea295aa33f0956875fb2da29991265a8708dae375c688c8f9bb02956",
+    "2423.TW": "sha256:aef563567c14a8a3f27cbb5bb7fcaa4a0fd9c5de9630233fb523fbea1198c7fc",
+    "1727.TW": "sha256:f6a0b958ffc526397831cac73e85ec148fda739ccf0c8f7724e71782c4aaa3dc"
+  },
+  "official_source_verification": [
+    {
+      "source_id": "2007-official-20261127-41",
+      "file_sha256_matched": true,
+      "identity_matched": true,
+      "statement_sha256": "sha256:e87d75685a6c6e1df2fa617449e3b5058d2fc8c30458b7d34082c5f5e52a3f5c"
+    },
+    {
+      "source_id": "6902-official-20261127-16",
+      "file_sha256_matched": true,
+      "identity_matched": true,
+      "statement_sha256": "sha256:b2be4b92296b4f8b452fbbb8c35a0de8cc10f03c55ab8a1674d2a4665beb88ec"
+    },
+    {
+      "source_id": "2423-official-20261127-98",
+      "file_sha256_matched": true,
+      "identity_matched": true,
+      "statement_sha256": "sha256:defda7a7d0e3e137f5c231471b3e6b7784e9d6c25a8cc8b741cae53a173bf9e3"
+    },
+    {
+      "source_id": "1727-official-20261127-79",
+      "file_sha256_matched": true,
+      "identity_matched": true,
+      "statement_sha256": "sha256:0ae3785c3e2c141febf9af207d08a81cd9c39aaa28a827781889b28443b8b9ae"
+    }
+  ],
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "financial_tables_not_modified": true,
+    "whole_company_quota": 0,
+    "material_events": 4,
+    "1727_existing_event_updated_not_duplicated": true,
+    "1727_old_sources_preserved": true,
+    "cutoff_not_advanced": true
+  }
+}
