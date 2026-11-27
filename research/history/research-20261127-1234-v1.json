@@ -1,0 +1,811 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261127-1234-v1",
+    "ready": true,
+    "created_at": "2026-11-27T13:47:40.777224+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:8d0be0577cca1061330c3c217943c9bff77199f41e35d7d5eb5bb8f56cb56185",
+    "work_type": "backfill",
+    "whole_company_count": 1,
+    "origin_date": "2026-10-27",
+    "carryover_completed_this_batch": 1,
+    "today_quota_completed_this_batch": 0,
+    "baseline_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/黑松最新完整基線_20261127_截止133445.json",
+    "validation": {
+      "official_sources_read": true,
+      "stable_project_count": 13,
+      "individual_gross_mix_not_consolidated": true,
+      "rental_and_equity_method_separated": true,
+      "qualified_review_disclosed": true,
+      "AGM_no_questions": true
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-1234-v1-business",
+      "task_id": "missed-quota-20261027-min1",
+      "origin_date": "2026-10-27",
+      "company_code": "1234",
+      "company_name": "黑松",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "business",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:dc5b45fa1b532696ba59f9c6e2766a75aa87797893e6567978860f6e67f36262",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "公司與產業鏈：1234黑松以自有品牌飲料製造、銷售及飲料／酒類代理為主，另有保健食飲與不動產出租。生產基地含中壢、斗六，飲料品牌涵蓋黑松沙士、汽水、FIN、韋恩、茶花、C&C等，並有立頓合作產品；酒類主要為代理銷售，不能把代理品牌全部當黑松自製酒廠。[annual、call]\n產品用途與通路：碳酸、茶、咖啡、水與機能飲品面向一般飲用市場；H+人蔘精等為保健食品，合作研究或公司技術說明不等於疾病治療證據。50度以上金門高粱酒的台灣地區代理契約（不含金門）至2027/12/31；另代理CHOYA、清酒及葡萄酒等。下游客戶透過便利商店、量販超市等KA、傳統GT、特殊通路SC、自販機VM與EC接觸消費者。年報自販機約6800台是當時存量，不把每年更新逾千台當淨新增千台。[annual；q3 PDF26；call]\n營收來源口徑：2025個體產品表飲料4,375,439仟元／54.3%、酒3,862,447／47.9%、保健33,699／0.4%，合計102.6%是銷貨退回折讓前；扣207,539／2.6%後淨營收8,064,046。不是合併營收占比，不能為湊100%自行正規化。2025合併營收約95.1億元，與個體80.64億元不同。公司年報以自有飲料約37億元對飲料業683億元估5.5%市占，是公司估計與特定分母，不是含所有代理酒品的全市場占比。[annual PDF122–136]\n供應及集中風險：金門酒廠占2025個體採購56.86%，反映代理供貨集中；個體客集銷售28.02%不能當集團外部大客戶占比，Q3揭客集為100%合併子公司，集團內交易需沖銷。糖、果糖、金屬罐、瓶蓋、PET及紙箱分由台糖／芳源、台榮、大華、宏全、遠東、正隆等供應，並非全是終端客戶名單。[annual；q3]\n同業比較：1216統一可比國內飲料品牌、製造與通路競爭，年報亦列其為競爭業者；但統一跨食品、零售版圖較廣，黑松酒代理與出租資產權重特殊，不能直接視為完全同質公司。相似性是業務面研究判斷，不是投資估值結論。",
+        "period": "2025個體產品表／2026前三季合併；各發展時點分列",
+        "sources": [
+          "1234-annual",
+          "1234-q3",
+          "1234-call",
+          "1234-agm",
+          "1234-news-20260120",
+          "1234-news-20260114",
+          "1234-news-20251001",
+          "1234-news-20251203"
+        ],
+        "research_completion": "completed_lookup_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "1234-annual",
+          "url": "https://www.heysong.com.tw?wpdmdl=26179&ind=1779434103263",
+          "title": "2025年度年報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-05-22",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/annual.pdf",
+          "file_sha256": "a46d5ca64b62ca23ecd8a17a290da863e7f131dc867d20bc8141364cf3dc262a",
+          "read_scope": "PDF5–6、122–136、149–151業務、客戶、設備與風險；149原圖核對，未宣稱全159頁逐字讀完"
+        },
+        {
+          "source_id": "1234-q3",
+          "url": "https://www.heysong.com.tw/download/115%e5%b9%b4%e5%ba%a6%e7%ac%ac%e4%b8%89%e5%ad%a3%e5%90%88%e4%bd%b5%e8%b2%a1%e5%8b%99%e5%a0%b1%e5%91%8a%e6%9b%b8/?wpdmdl=26796",
+          "title": "2026前三季合併財報暨保留結論核閱報告",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/q3.pdf",
+          "file_sha256": "bff494b790c7d66acb38c1017cff0a827ce0e267b3ad28ff9e0d113f93f8ccec",
+          "read_scope": "PDF3–9、18–20、25–26、31–33、43–46、49–51；5、6、50原圖複核"
+        },
+        {
+          "source_id": "1234-call",
+          "url": "https://www.heysong.com.tw/download/2026%e7%ac%ac1%e6%ac%a1%e6%b3%95%e4%ba%ba%e8%aa%aa%e6%98%8e%e6%9c%83/?wpdmdl=26302",
+          "title": "2026/6/11法說會簡報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-11",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/call.pdf",
+          "file_sha256": "eb67d1692a2930028d6d3ea8afa3cca9166eb8a744b903e00b6a7db6112b71c5",
+          "read_scope": "全20頁文字，8–16頁原圖；最後Q&A為頁面標題，沒有逐題問答"
+        },
+        {
+          "source_id": "1234-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1234&year=115&mtype=F&dtype=F05",
+          "title": "2026/6/9股東會議事錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/agm.pdf",
+          "file_sha256": "79777d02980bf39b0327239a73b833a2ea2b02a604550c4e5b3f0376e1151b11",
+          "read_scope": "原始前2頁決議與無股東提問記載；未宣稱附件全46頁重讀"
+        },
+        {
+          "source_id": "1234-news-20260120",
+          "url": "https://www.heysong.com.tw/20260120news/",
+          "title": "智慧化食品創新平台",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-20",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260120.html",
+          "file_sha256": "362dfc78676980af7eae14cb320cb9b920f1f656d0b2e8f7b8f1e59a34a74a18",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20260114",
+          "url": "https://www.heysong.com.tw/20260114news/",
+          "title": "101週年三大布局",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-14",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260114.html",
+          "file_sha256": "06668e6aa8d111ffe4c74dac388d55c07edadf847aa6a6b99307ec586dc25838",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251001",
+          "url": "https://www.heysong.com.tw/20251001news/",
+          "title": "食養方合作備忘錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-10-01",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251001.html",
+          "file_sha256": "bb92bb19867e948ab28aa162a92fe87fa308925678cb9f15edb922fe52075356",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251203",
+          "url": "https://www.heysong.com.tw/20251203news/",
+          "title": "酒覓首店開幕",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-12-03",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251203.html",
+          "file_sha256": "2097885b789ee29a042bc23f961a011fce0b1651488c1e32d98306af41cc13cf",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:47:40.777224+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "whole_company_count": 1,
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "最新門市總數未核實；首店與展店目標分列。",
+        "最新法說未找到逐題原始文字QA，未看影片；股東會明載無提問。",
+        "個體產品銷售分母含折讓、合併銷貨與部門租金分母不同。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-1234-v1-earnings",
+      "task_id": "missed-quota-20261027-min1",
+      "origin_date": "2026-10-27",
+      "company_code": "1234",
+      "company_name": "黑松",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "earnings",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:dc5b45fa1b532696ba59f9c6e2766a75aa87797893e6567978860f6e67f36262",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "本業獲利來自飲料製造與商品代理毛利，受產品組合、促銷、原料、供貨條件與通路費影響；出租不動產是重要獲利來源，在合併損益表列其他收入，與銷貨營收及飲料本業營業利益分開。[q3]\n2026前三季合併營收7,129,959仟元（去年7,308,375），毛利2,070,541（2,114,241），營業利益305,610（296,773），業外淨額295,249（490,443），稅前600,859（787,216），淨利及母公司淨利452,542（631,629），EPS1.13元（1.57）。Q3單季營收2,693,342、營業利益195,568、淨利211,709、EPS0.53；均直接讀單季欄，不以累計自行代網站算。最新為核閱保留結論，非無保留年度查核。[q3 PDF3–9]\n淨利下降原因：本業營業利益小幅增加，但其他收益結構不同。前三季租金收入452,837仟元（去年438,023）、租賃成本103,662（103,127）；處分不動產利益2,077（去年164,484）及權益法關聯企業損失75,658（去年15,253），為業外較弱的明確組成。不能把整體淨利下滑全歸飲料銷售，亦不把去年處分一次性收益當持續毛利。[q3 PDF18–20、43–46]\n分部與分母：前三季飲料部門收入4,451,177、酒2,678,782、出租不動產452,837仟元；部門收入總額7,582,796包含租金，與損益表銷貨7,129,959不同。分部損益尚需調節未分攤費用等，不能稱為各產品最終淨利。未披露各新品、酒覓、健康合作獨立收入或毛利。[q3 PDF49–51]\n資金與庫存：9/30現金1,066,708仟元，短期銀行借款2,750,000、去年底1,950,000；存貨6,898,587，其中金門高粱酒6,040,058，占用大量營運資金，不能全當飲料原料或立即可變現現金。前三季CFO52,837（去年-57,800），存貨、應收及預付增加均占用現金；購置PPE現金115,780、預付設備4,454、股利現金663,087。PPE未認承諾35,082與未用設備信用狀14,460是不同欄位，不重複加算投資或營收。[q3]\n不動產帳面7,496,228仟元、約資產三成。微風廣場為關聯企業，出租收益與權益法損失分開；租約至2035/10/25，依契約2026/10/26起至2029/10/25年增1%，這是既有租約條件，非今日新簽大單。2025年底公允價值估計不等於已實現處分收益或保證現售價格。[q3 PDF18–20]\n核閱範圍限制：部分非重要子公司報表未經核閱，相關資產6.97%、負債14.25%，權益法關聯企業帳面654,898與損失75,658亦以未經核閱報表認列。這是保留結論理由，不自行定性舞弊；追蹤正式查核與後續公告。",
+        "period": "2025個體產品表／2026前三季合併；各發展時點分列",
+        "sources": [
+          "1234-annual",
+          "1234-q3",
+          "1234-call",
+          "1234-agm",
+          "1234-news-20260120",
+          "1234-news-20260114",
+          "1234-news-20251001",
+          "1234-news-20251203"
+        ],
+        "research_completion": "completed_lookup_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "1234-annual",
+          "url": "https://www.heysong.com.tw?wpdmdl=26179&ind=1779434103263",
+          "title": "2025年度年報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-05-22",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/annual.pdf",
+          "file_sha256": "a46d5ca64b62ca23ecd8a17a290da863e7f131dc867d20bc8141364cf3dc262a",
+          "read_scope": "PDF5–6、122–136、149–151業務、客戶、設備與風險；149原圖核對，未宣稱全159頁逐字讀完"
+        },
+        {
+          "source_id": "1234-q3",
+          "url": "https://www.heysong.com.tw/download/115%e5%b9%b4%e5%ba%a6%e7%ac%ac%e4%b8%89%e5%ad%a3%e5%90%88%e4%bd%b5%e8%b2%a1%e5%8b%99%e5%a0%b1%e5%91%8a%e6%9b%b8/?wpdmdl=26796",
+          "title": "2026前三季合併財報暨保留結論核閱報告",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/q3.pdf",
+          "file_sha256": "bff494b790c7d66acb38c1017cff0a827ce0e267b3ad28ff9e0d113f93f8ccec",
+          "read_scope": "PDF3–9、18–20、25–26、31–33、43–46、49–51；5、6、50原圖複核"
+        },
+        {
+          "source_id": "1234-call",
+          "url": "https://www.heysong.com.tw/download/2026%e7%ac%ac1%e6%ac%a1%e6%b3%95%e4%ba%ba%e8%aa%aa%e6%98%8e%e6%9c%83/?wpdmdl=26302",
+          "title": "2026/6/11法說會簡報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-11",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/call.pdf",
+          "file_sha256": "eb67d1692a2930028d6d3ea8afa3cca9166eb8a744b903e00b6a7db6112b71c5",
+          "read_scope": "全20頁文字，8–16頁原圖；最後Q&A為頁面標題，沒有逐題問答"
+        },
+        {
+          "source_id": "1234-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1234&year=115&mtype=F&dtype=F05",
+          "title": "2026/6/9股東會議事錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/agm.pdf",
+          "file_sha256": "79777d02980bf39b0327239a73b833a2ea2b02a604550c4e5b3f0376e1151b11",
+          "read_scope": "原始前2頁決議與無股東提問記載；未宣稱附件全46頁重讀"
+        },
+        {
+          "source_id": "1234-news-20260120",
+          "url": "https://www.heysong.com.tw/20260120news/",
+          "title": "智慧化食品創新平台",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-20",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260120.html",
+          "file_sha256": "362dfc78676980af7eae14cb320cb9b920f1f656d0b2e8f7b8f1e59a34a74a18",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20260114",
+          "url": "https://www.heysong.com.tw/20260114news/",
+          "title": "101週年三大布局",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-14",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260114.html",
+          "file_sha256": "06668e6aa8d111ffe4c74dac388d55c07edadf847aa6a6b99307ec586dc25838",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251001",
+          "url": "https://www.heysong.com.tw/20251001news/",
+          "title": "食養方合作備忘錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-10-01",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251001.html",
+          "file_sha256": "bb92bb19867e948ab28aa162a92fe87fa308925678cb9f15edb922fe52075356",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251203",
+          "url": "https://www.heysong.com.tw/20251203news/",
+          "title": "酒覓首店開幕",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-12-03",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251203.html",
+          "file_sha256": "2097885b789ee29a042bc23f961a011fce0b1651488c1e32d98306af41cc13cf",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:47:40.777224+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "最新門市總數未核實；首店與展店目標分列。",
+        "最新法說未找到逐題原始文字QA，未看影片；股東會明載無提問。",
+        "個體產品銷售分母含折讓、合併銷貨與部門租金分母不同。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-1234-v1-developments",
+      "task_id": "missed-quota-20261027-min1",
+      "origin_date": "2026-10-27",
+      "company_code": "1234",
+      "company_name": "黑松",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "developments",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:dc5b45fa1b532696ba59f9c6e2766a75aa87797893e6567978860f6e67f36262",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "發展項目固定編號；設備總預算、實際現金支出與新品收入分開，合作研究／擴店計畫不當成已達產。\n\n1234-b17-equipment｜B#17設備更新\n用途與客戶：飲料產線自用，提高效率與節能\n進度：年報全案381516仟元，2026規劃46975；法說提2022充填、2025吹瓶與空壓更新\n商用時間：年報目標2026，未取得全案驗收證據\n貢獻與缺漏：預算非營收；未揭獨立產能／節省效益\n\n1234-b11-b16-equipment｜B#11及B#16設備維護更新\n用途與客戶：飲料產線自用\n進度：年報分列B#11總26560仟元、B#16總11784，目標均2024；屬既有投資紀錄\n商用時間：歷史設備計畫；不當2026新產線，原無菌線商用亦不同本次更新\n貢獻與缺漏：未揭各線獨立營收，不與其他總預算重算\n\n1234-vending-network｜自動販賣機更新與通路\n用途與客戶：自販機消費者、多元支付與機台管理\n進度：年報計畫144220仟元，2026規劃79128；約6800台存量，年度換新含汰換\n商用時間：持續商用與更新；未揭當年度淨新增台數\n貢獻與缺漏：投資不等營收，未披露機台回收期或本案淨利\n\n1234-vending-invoice｜自販機發票模組\n用途與客戶：自販機交易及發票服務\n進度：年報25164仟元，2026規劃11500\n商用時間：年報目標2026；未揭所有機台改造完成率\n貢獻與缺漏：合規／效率投入，未披露增量收入\n\n1234-food-herbal-mou｜臺大順天堂食養方合作\n用途與客戶：健康食飲與漢方食材應用，非藥品療效認證\n進度：2025/10/1三方MOU，官方公告未揭最終產品驗收與銷售合約\n商用時間：未揭具體上市日；MOU不等量產完成\n貢獻與缺漏：未揭研究分攤、產品收入或保證訂單\n\n1234-smart-food-platform｜智慧化食品創新平台\n用途與客戶：無添加糖碳酸、中高齡友善飲品\n進度：2026/1/20與食品所導入數位感官品評及資料分析，做配方優化與驗證\n商用時間：合作研發進行，未揭所有新配方商用日\n貢獻與缺漏：公司期待縮短研發及降成本，未量化實際貢獻\n\n1234-jiumu-retail｜黑松酒覓實體酒類通路\n用途與客戶：酒類選購、輕酒吧與品飲、會員服務\n進度：2025/12/3首店開幕確認；1/14稱擬下半年雙北展店，當時來客／客單優於預期是公司說法\n商用時間：首店已商用；本輪未取得完整最新門市索引，不把展店目標當全部完成\n貢獻與缺漏：酒代理收入不等酒覓收入；未揭新店投資、營收與損益兩平\n\n1234-lipton-tea-2026｜立頓茶飲與氣泡新品\n用途與客戶：無糖／檸檬紅茶、果味氣泡茶等一般飲用\n進度：6/11簡報列4月無糖琥珀／檸檬紅茶、5月檸檬氣泡、6月水果氣泡產品節點\n商用時間：依6/11產品布局，不推斷全規格已放量\n貢獻與缺漏：未揭各SKU收入及獲利\n\n1234-kinmen-premium-products｜金高限定與桶陳酒款\n用途與客戶：高粱酒消費與典藏市場，未揭終端大客戶\n進度：6/11列2026年初白金龍袖珍、馬年、千日醇與魂酒等產品\n商用時間：既有代理商用產品系列，不是新建自營蒸餾廠\n貢獻與缺漏：限量瓶數不是保證售罄或營收；無各款收入\n\n1234-choya-familymart｜CHOYA通路合作\n用途與客戶：全家通路的梅酒調飲／冰品合作\n進度：6/11簡報列5月合作產品\n商用時間：已列產品推廣；非新增取得全家股權\n貢獻與缺漏：未揭合約額與淨利，不當重大資本事件\n\n1234-hplus-ginseng｜H+人蔘精與保健食飲\n用途與客戶：健康飲食消費者；不是醫療治療\n進度：簡報以萃取、發酵技術推產品；技術宣傳不等臨床療效證明\n商用時間：既有產品商用；未揭新適應症或藥證\n貢獻與缺漏：2025保健個體銷售33699仟元為全類別，不當單一人蔘精收入\n\n1234-green-packaging｜輕量化包裝與減碳\n用途與客戶：飲料瓶、瓶標及綠色生產自用\n進度：1/14預計2026包裝變更；6/11列3S等綠色設計與碳標籤推動\n商用時間：按各文件時點追蹤；2030碳排強度104.08kgCO2e/噸為目標\n貢獻與缺漏：未揭每項實際成本節省及毛利；不同時點碳標籤數不可當同日矛盾\n\n1234-rental-lease｜既有不動產出租與租約調整\n用途與客戶：微風等承租戶，非飲料製造客戶\n進度：Q3列租金與成本，既有微風租約分期調升\n商用時間：租期2035/10/25，2026/10/26起依既約年增1%至2029/10/25\n貢獻與缺漏：租金列業外其他收入，不把資產估值當本期營收",
+        "period": "2025個體產品表／2026前三季合併；各發展時點分列",
+        "sources": [
+          "1234-annual",
+          "1234-q3",
+          "1234-call",
+          "1234-agm",
+          "1234-news-20260120",
+          "1234-news-20260114",
+          "1234-news-20251001",
+          "1234-news-20251203"
+        ],
+        "research_completion": "completed_lookup_with_disclosed_gaps",
+        "projects": [
+          {
+            "project_id": "1234-b17-equipment",
+            "name": "B#17設備更新",
+            "type": "既有業務設備投資",
+            "uses_and_customers": "飲料產線自用，提高效率與節能",
+            "status": "年報全案381516仟元，2026規劃46975；法說提2022充填、2025吹瓶與空壓更新",
+            "commercial_timing": "年報目標2026，未取得全案驗收證據",
+            "revenue_contribution": "預算非營收；未揭獨立產能／節省效益",
+            "sources": [
+              "1234-annual",
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-b11-b16-equipment",
+            "name": "B#11及B#16設備維護更新",
+            "type": "既有設備計畫",
+            "uses_and_customers": "飲料產線自用",
+            "status": "年報分列B#11總26560仟元、B#16總11784，目標均2024；屬既有投資紀錄",
+            "commercial_timing": "歷史設備計畫；不當2026新產線，原無菌線商用亦不同本次更新",
+            "revenue_contribution": "未揭各線獨立營收，不與其他總預算重算",
+            "sources": [
+              "1234-annual"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-vending-network",
+            "name": "自動販賣機更新與通路",
+            "type": "既有通路擴充",
+            "uses_and_customers": "自販機消費者、多元支付與機台管理",
+            "status": "年報計畫144220仟元，2026規劃79128；約6800台存量，年度換新含汰換",
+            "commercial_timing": "持續商用與更新；未揭當年度淨新增台數",
+            "revenue_contribution": "投資不等營收，未披露機台回收期或本案淨利",
+            "sources": [
+              "1234-annual",
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-vending-invoice",
+            "name": "自販機發票模組",
+            "type": "既有通路設備改造",
+            "uses_and_customers": "自販機交易及發票服務",
+            "status": "年報25164仟元，2026規劃11500",
+            "commercial_timing": "年報目標2026；未揭所有機台改造完成率",
+            "revenue_contribution": "合規／效率投入，未披露增量收入",
+            "sources": [
+              "1234-annual"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-food-herbal-mou",
+            "name": "臺大順天堂食養方合作",
+            "type": "新產品研發",
+            "uses_and_customers": "健康食飲與漢方食材應用，非藥品療效認證",
+            "status": "2025/10/1三方MOU，官方公告未揭最終產品驗收與銷售合約",
+            "commercial_timing": "未揭具體上市日；MOU不等量產完成",
+            "revenue_contribution": "未揭研究分攤、產品收入或保證訂單",
+            "sources": [
+              "1234-news-20251001",
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-smart-food-platform",
+            "name": "智慧化食品創新平台",
+            "type": "新產品研發",
+            "uses_and_customers": "無添加糖碳酸、中高齡友善飲品",
+            "status": "2026/1/20與食品所導入數位感官品評及資料分析，做配方優化與驗證",
+            "commercial_timing": "合作研發進行，未揭所有新配方商用日",
+            "revenue_contribution": "公司期待縮短研發及降成本，未量化實際貢獻",
+            "sources": [
+              "1234-news-20260120",
+              "1234-news-20260114"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-jiumu-retail",
+            "name": "黑松酒覓實體酒類通路",
+            "type": "新事業／通路",
+            "uses_and_customers": "酒類選購、輕酒吧與品飲、會員服務",
+            "status": "2025/12/3首店開幕確認；1/14稱擬下半年雙北展店，當時來客／客單優於預期是公司說法",
+            "commercial_timing": "首店已商用；本輪未取得完整最新門市索引，不把展店目標當全部完成",
+            "revenue_contribution": "酒代理收入不等酒覓收入；未揭新店投資、營收與損益兩平",
+            "sources": [
+              "1234-news-20251203",
+              "1234-news-20260114",
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-lipton-tea-2026",
+            "name": "立頓茶飲與氣泡新品",
+            "type": "既有代理產品擴充",
+            "uses_and_customers": "無糖／檸檬紅茶、果味氣泡茶等一般飲用",
+            "status": "6/11簡報列4月無糖琥珀／檸檬紅茶、5月檸檬氣泡、6月水果氣泡產品節點",
+            "commercial_timing": "依6/11產品布局，不推斷全規格已放量",
+            "revenue_contribution": "未揭各SKU收入及獲利",
+            "sources": [
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-kinmen-premium-products",
+            "name": "金高限定與桶陳酒款",
+            "type": "既有代理產品升級",
+            "uses_and_customers": "高粱酒消費與典藏市場，未揭終端大客戶",
+            "status": "6/11列2026年初白金龍袖珍、馬年、千日醇與魂酒等產品",
+            "commercial_timing": "既有代理商用產品系列，不是新建自營蒸餾廠",
+            "revenue_contribution": "限量瓶數不是保證售罄或營收；無各款收入",
+            "sources": [
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-choya-familymart",
+            "name": "CHOYA通路合作",
+            "type": "既有代理通路產品",
+            "uses_and_customers": "全家通路的梅酒調飲／冰品合作",
+            "status": "6/11簡報列5月合作產品",
+            "commercial_timing": "已列產品推廣；非新增取得全家股權",
+            "revenue_contribution": "未揭合約額與淨利，不當重大資本事件",
+            "sources": [
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-hplus-ginseng",
+            "name": "H+人蔘精與保健食飲",
+            "type": "既有新事業產品",
+            "uses_and_customers": "健康飲食消費者；不是醫療治療",
+            "status": "簡報以萃取、發酵技術推產品；技術宣傳不等臨床療效證明",
+            "commercial_timing": "既有產品商用；未揭新適應症或藥證",
+            "revenue_contribution": "2025保健個體銷售33699仟元為全類別，不當單一人蔘精收入",
+            "sources": [
+              "1234-annual",
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-green-packaging",
+            "name": "輕量化包裝與減碳",
+            "type": "既有製程改善",
+            "uses_and_customers": "飲料瓶、瓶標及綠色生產自用",
+            "status": "1/14預計2026包裝變更；6/11列3S等綠色設計與碳標籤推動",
+            "commercial_timing": "按各文件時點追蹤；2030碳排強度104.08kgCO2e/噸為目標",
+            "revenue_contribution": "未揭每項實際成本節省及毛利；不同時點碳標籤數不可當同日矛盾",
+            "sources": [
+              "1234-news-20260114",
+              "1234-call"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          },
+          {
+            "project_id": "1234-rental-lease",
+            "name": "既有不動產出租與租約調整",
+            "type": "既有資產營運",
+            "uses_and_customers": "微風等承租戶，非飲料製造客戶",
+            "status": "Q3列租金與成本，既有微風租約分期調升",
+            "commercial_timing": "租期2035/10/25，2026/10/26起依既約年增1%至2029/10/25",
+            "revenue_contribution": "租金列業外其他收入，不把資產估值當本期營收",
+            "sources": [
+              "1234-q3"
+            ],
+            "claim_type": "company_disclosure_with_explicit_gaps"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "1234-annual",
+          "url": "https://www.heysong.com.tw?wpdmdl=26179&ind=1779434103263",
+          "title": "2025年度年報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-05-22",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/annual.pdf",
+          "file_sha256": "a46d5ca64b62ca23ecd8a17a290da863e7f131dc867d20bc8141364cf3dc262a",
+          "read_scope": "PDF5–6、122–136、149–151業務、客戶、設備與風險；149原圖核對，未宣稱全159頁逐字讀完"
+        },
+        {
+          "source_id": "1234-q3",
+          "url": "https://www.heysong.com.tw/download/115%e5%b9%b4%e5%ba%a6%e7%ac%ac%e4%b8%89%e5%ad%a3%e5%90%88%e4%bd%b5%e8%b2%a1%e5%8b%99%e5%a0%b1%e5%91%8a%e6%9b%b8/?wpdmdl=26796",
+          "title": "2026前三季合併財報暨保留結論核閱報��",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/q3.pdf",
+          "file_sha256": "bff494b790c7d66acb38c1017cff0a827ce0e267b3ad28ff9e0d113f93f8ccec",
+          "read_scope": "PDF3–9、18–20、25–26、31–33、43–46、49–51；5、6、50原圖複核"
+        },
+        {
+          "source_id": "1234-call",
+          "url": "https://www.heysong.com.tw/download/2026%e7%ac%ac1%e6%ac%a1%e6%b3%95%e4%ba%ba%e8%aa%aa%e6%98%8e%e6%9c%83/?wpdmdl=26302",
+          "title": "2026/6/11法說會簡報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-11",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/call.pdf",
+          "file_sha256": "eb67d1692a2930028d6d3ea8afa3cca9166eb8a744b903e00b6a7db6112b71c5",
+          "read_scope": "全20頁文字，8–16頁原圖；最後Q&A為頁面標題，沒有逐題問答"
+        },
+        {
+          "source_id": "1234-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1234&year=115&mtype=F&dtype=F05",
+          "title": "2026/6/9股東會議事錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/agm.pdf",
+          "file_sha256": "79777d02980bf39b0327239a73b833a2ea2b02a604550c4e5b3f0376e1151b11",
+          "read_scope": "原始前2頁決議與無股東提問記載；未宣稱附件全46頁重讀"
+        },
+        {
+          "source_id": "1234-news-20260120",
+          "url": "https://www.heysong.com.tw/20260120news/",
+          "title": "智慧化食品創新平台",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-20",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260120.html",
+          "file_sha256": "362dfc78676980af7eae14cb320cb9b920f1f656d0b2e8f7b8f1e59a34a74a18",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20260114",
+          "url": "https://www.heysong.com.tw/20260114news/",
+          "title": "101週年三大布局",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-14",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260114.html",
+          "file_sha256": "06668e6aa8d111ffe4c74dac388d55c07edadf847aa6a6b99307ec586dc25838",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251001",
+          "url": "https://www.heysong.com.tw/20251001news/",
+          "title": "食養方合作備忘錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-10-01",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251001.html",
+          "file_sha256": "bb92bb19867e948ab28aa162a92fe87fa308925678cb9f15edb922fe52075356",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251203",
+          "url": "https://www.heysong.com.tw/20251203news/",
+          "title": "酒覓首店開幕",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-12-03",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251203.html",
+          "file_sha256": "2097885b789ee29a042bc23f961a011fce0b1651488c1e32d98306af41cc13cf",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:47:40.777224+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "最新門市總數未核實；首店與展店目標分列。",
+        "最新法說未找到逐題原始文字QA，未看影片；股東會明載無提問。",
+        "個體產品銷售分母含折讓、合併銷貨與部門租金分母不同。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-1234-v1-transition",
+      "task_id": "missed-quota-20261027-min1",
+      "origin_date": "2026-10-27",
+      "company_code": "1234",
+      "company_name": "黑松",
+      "market": "TWSE",
+      "work_type": "backfill",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:dc5b45fa1b532696ba59f9c6e2766a75aa87797893e6567978860f6e67f36262",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "轉型方向：從傳統碳酸飲料延伸無糖、機能及中高齡適飲，結合代理酒的產品升級、自有實體酒類通路與數位販賣機；這些是不同成熟度的產品／通路計畫，不代表已取代原有飲料與代理主力。食品所平台與臺大順天堂MOU仍需產品、上市與收益驗證，不將合作機構研究領域當黑松已有全部成果。[annual、call、官方公告]\n展望及風險：消費保守、天候季節、原物料及包裝成本、酒類供貨集中、庫存資金與代理續約皆影響本業。租金提供收益但微風投資損益與資產價格另有風險；2026前三季本業改善但去年處分利益降低、關聯企業虧損擴大，整體淨利下降，未得各原因完整量化橋接，不做獲利預測。公司未揭全部新項目收入目標、確切商用客戶與量產日期，合理查找後列缺漏，不自行填法人預估。[q3；research_inference]\n會議及查找：6/9原始議事錄前2頁通過財報及每股1.65元現金股利，明載本次無股東提問；不是問答漏讀。6/11法說全20頁已讀與主要圖表原圖複核，末頁僅Q&A標題，成功取得索引未見逐題文字問答，未觀看影片。2025年報相關業務、研發、設備、風險及最新Q3主要表與相關附註已查找，未宣稱全部159頁逐字查核。\n本次是歷史資料補齊，不把2025/12首店開幕、2026/1合作或6月會議列為11/27近期重大事件；一般產品活動不因官方公告就放重大訊息區。全公司reviewed_at不自動刷新，數字取得與計算仍由網站負責。",
+        "period": "2025個體產品表／2026前三季合併；各發展時點分列",
+        "sources": [
+          "1234-annual",
+          "1234-q3",
+          "1234-call",
+          "1234-agm",
+          "1234-news-20260120",
+          "1234-news-20260114",
+          "1234-news-20251001",
+          "1234-news-20251203"
+        ],
+        "research_completion": "completed_lookup_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "1234-annual",
+          "url": "https://www.heysong.com.tw?wpdmdl=26179&ind=1779434103263",
+          "title": "2025年度年報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-05-22",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/annual.pdf",
+          "file_sha256": "a46d5ca64b62ca23ecd8a17a290da863e7f131dc867d20bc8141364cf3dc262a",
+          "read_scope": "PDF5–6、122–136、149–151業務、客戶、設備與風險；149原圖核對，未宣稱全159頁逐字讀完"
+        },
+        {
+          "source_id": "1234-q3",
+          "url": "https://www.heysong.com.tw/download/115%e5%b9%b4%e5%ba%a6%e7%ac%ac%e4%b8%89%e5%ad%a3%e5%90%88%e4%bd%b5%e8%b2%a1%e5%8b%99%e5%a0%b1%e5%91%8a%e6%9b%b8/?wpdmdl=26796",
+          "title": "2026前三季合併財報暨保留結論核閱報告",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/q3.pdf",
+          "file_sha256": "bff494b790c7d66acb38c1017cff0a827ce0e267b3ad28ff9e0d113f93f8ccec",
+          "read_scope": "PDF3–9、18–20、25–26、31–33、43–46、49–51；5、6、50原圖複核"
+        },
+        {
+          "source_id": "1234-call",
+          "url": "https://www.heysong.com.tw/download/2026%e7%ac%ac1%e6%ac%a1%e6%b3%95%e4%ba%ba%e8%aa%aa%e6%98%8e%e6%9c%83/?wpdmdl=26302",
+          "title": "2026/6/11法說會簡報",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-11",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/call.pdf",
+          "file_sha256": "eb67d1692a2930028d6d3ea8afa3cca9166eb8a744b903e00b6a7db6112b71c5",
+          "read_scope": "全20頁文字，8–16頁原圖；最後Q&A為頁面標題，沒有逐題問答"
+        },
+        {
+          "source_id": "1234-agm",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1234&year=115&mtype=F&dtype=F05",
+          "title": "2026/6/9股東會議事錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-06-09",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/agm.pdf",
+          "file_sha256": "79777d02980bf39b0327239a73b833a2ea2b02a604550c4e5b3f0376e1151b11",
+          "read_scope": "原始前2頁決議與無股東提問記載；未宣稱附件全46頁重讀"
+        },
+        {
+          "source_id": "1234-news-20260120",
+          "url": "https://www.heysong.com.tw/20260120news/",
+          "title": "智慧化食品創新平台",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-20",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260120.html",
+          "file_sha256": "362dfc78676980af7eae14cb320cb9b920f1f656d0b2e8f7b8f1e59a34a74a18",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20260114",
+          "url": "https://www.heysong.com.tw/20260114news/",
+          "title": "101週年三大布局",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2026-01-14",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260114.html",
+          "file_sha256": "06668e6aa8d111ffe4c74dac388d55c07edadf847aa6a6b99307ec586dc25838",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251001",
+          "url": "https://www.heysong.com.tw/20251001news/",
+          "title": "食養方合作備忘錄",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-10-01",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251001.html",
+          "file_sha256": "bb92bb19867e948ab28aa162a92fe87fa308925678cb9f15edb922fe52075356",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        },
+        {
+          "source_id": "1234-news-20251203",
+          "url": "https://www.heysong.com.tw/20251203news/",
+          "title": "酒覓首店開幕",
+          "publisher": "黑松／公開資訊觀測站",
+          "published_at": "2025-12-03",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251203.html",
+          "file_sha256": "2097885b789ee29a042bc23f961a011fce0b1651488c1e32d98306af41cc13cf",
+          "read_scope": "官方公告正文，不將宣傳療效轉作醫療證實"
+        }
+      ],
+      "research_completed_at": "2026-11-27T13:47:40.777224+08:00",
+      "research_completion": "completed_lookup_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "limitations": [
+        "最新門市總數未核實；首店與展店目標分列。",
+        "最新法說未找到逐題原始文字QA，未看影片；股東會明載無提問。",
+        "個體產品銷售分母含折讓、合併銷貨與部門租金分母不同。"
+      ]
+    }
+  ],
+  "before_official_record": null,
+  "before_overview_sha256": "sha256:dc5b45fa1b532696ba59f9c6e2766a75aa87797893e6567978860f6e67f36262",
+  "adopted_record_sha256": "sha256:ad232b07832686747711e18a72306ca9c4539b79c75fe95d3c3672adaeea9d52",
+  "source_evidence_verification": {
+    "1234-annual": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/annual.pdf",
+      "sha256": "sha256:a46d5ca64b62ca23ecd8a17a290da863e7f131dc867d20bc8141364cf3dc262a",
+      "expected_hash_matched": true
+    },
+    "1234-q3": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/q3.pdf",
+      "sha256": "sha256:bff494b790c7d66acb38c1017cff0a827ce0e267b3ad28ff9e0d113f93f8ccec",
+      "expected_hash_matched": true
+    },
+    "1234-call": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/call.pdf",
+      "sha256": "sha256:eb67d1692a2930028d6d3ea8afa3cca9166eb8a744b903e00b6a7db6112b71c5",
+      "expected_hash_matched": true
+    },
+    "1234-agm": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/agm.pdf",
+      "sha256": "sha256:79777d02980bf39b0327239a73b833a2ea2b02a604550c4e5b3f0376e1151b11",
+      "expected_hash_matched": true
+    },
+    "1234-news-20260120": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260120.html",
+      "sha256": "sha256:362dfc78676980af7eae14cb320cb9b920f1f656d0b2e8f7b8f1e59a34a74a18",
+      "expected_hash_matched": true
+    },
+    "1234-news-20260114": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20260114.html",
+      "sha256": "sha256:06668e6aa8d111ffe4c74dac388d55c07edadf847aa6a6b99307ec586dc25838",
+      "expected_hash_matched": true
+    },
+    "1234-news-20251001": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251001.html",
+      "sha256": "sha256:bb92bb19867e948ab28aa162a92fe87fa308925678cb9f15edb922fe52075356",
+      "expected_hash_matched": true
+    },
+    "1234-news-20251203": {
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-1234/20251203.html",
+      "sha256": "sha256:2097885b789ee29a042bc23f961a011fce0b1651488c1e32d98306af41cc13cf",
+      "expected_hash_matched": true
+    }
+  },
+  "financial_verification": {
+    "financial_tables_not_modified": true,
+    "individual_gross_mix_not_consolidated": true,
+    "rental_and_equity_method_separated": true,
+    "qualified_review_disclosed": true
+  },
+  "adoption_rules": {
+    "company_reviewed_at_preserved_null": true,
+    "lookup_completion_separate_from_legacy_schema": true,
+    "project_ids": [
+      "1234-b17-equipment",
+      "1234-b11-b16-equipment",
+      "1234-vending-network",
+      "1234-vending-invoice",
+      "1234-food-herbal-mou",
+      "1234-smart-food-platform",
+      "1234-jiumu-retail",
+      "1234-lipton-tea-2026",
+      "1234-kinmen-premium-products",
+      "1234-choya-familymart",
+      "1234-hplus-ginseng",
+      "1234-green-packaging",
+      "1234-rental-lease"
+    ],
+    "individual_product_mix_gross_sales_102_6_percent_not_consolidated_mix": true,
+    "consolidated_rental_and_equity_method_separated": true,
+    "new_company_quota_added": 0,
+    "carryover_completed_this_batch": 1,
+    "carryover_origin": "2026-10-27",
+    "carryover_remaining": 21,
+    "today_new_company_1708_not_counted": true,
+    "latest_meeting_date": "2026-06-11",
+    "historical_meeting_not_added_to_recent": true,
+    "original_QA_not_found_disclosed": true,
+    "cutoff_not_advanced": true
+  }
+}
