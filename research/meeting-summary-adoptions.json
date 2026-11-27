@@ -328,6 +328,24 @@
         "14頁簡報及圖表已讀；本場獨立原始文字QA未找到，未觀看影片。",
         "6/24股東會原件明載無股東提問，與11/20法說分開。"
       ]
+    },
+    {
+      "symbol": "1305.TW",
+      "name": "華夏",
+      "kind": "法說會",
+      "meeting_date": "2026-11-25",
+      "summary_updated_at": "2026-11-27",
+      "batch_id": "research-20261127-1305-meeting-v1",
+      "summary_verified": true,
+      "website_adopted": true,
+      "published": true,
+      "live_verified": true,
+      "publication_commit": "9c3547e1c97e7c7c5e90da0f0953a24c5b2daa6d",
+      "workflow_run_id": 46013247706,
+      "verified_at": "2026-11-27T14:13:49Z",
+      "limitations": [
+        "本場逐題文字QA未見；官網Q6–Q10為8/26，未看影片。"
+      ]
     }
   ]
 }
