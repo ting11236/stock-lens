@@ -1,0 +1,796 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261127-evening-events-v2",
+    "ready": true,
+    "created_at": "2026-11-27T21:44:06.339125+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 2,
+    "updates_sha256": "sha256:e620b52ab8992fd422118ae1e83055740d1c5cb826539017b0fb7527010e0684",
+    "work_type": "change_update",
+    "whole_company_count": 0,
+    "validation": {
+      "original_announcements_read": true,
+      "followup_through_fixed_cutoff_checked": true,
+      "existing_transition_preserved": true,
+      "Hampton_control_verified": true,
+      "internal_financing_not_external_debt": true,
+      "privacy_cases_separated": true,
+      "whole_company_reviewed_at_preserved": true
+    },
+    "supersedes_batch_id": "research-20261127-evening-events-v1",
+    "correction": "來源索引及多公告匯出檔無單一發布日，補未知原因與快照日，研究內容與原task_id不變"
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-evening-events-v2-1707",
+      "task_id": "monitor-review-1707.TW|2026-11-24|155906|1",
+      "origin_date": "2026-11-24",
+      "company_code": "1707",
+      "company_name": "葡萄王",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:5e85dd8d9e97a5731de753fd0f04014bd4a78a1e207553704d7f00769318f7f3",
+      "expected_old_version_scope": "current_official_record",
+      "expected_old_section_version": "sha256:c3003696973c781e09e907186a5a4e85e2896337d7c29ff4ab9ee2bd77ce2369",
+      "expected_overview_version": "sha256:aee641411b185a00123e7b633421ebf0a38d3a918cf5b18e7164cd32d1dc6250",
+      "old_content": {
+        "text": "公司以發酵素材、九大劑型代工服務擴展亞歐美客戶，葡眾推動 UVACO 品牌升級及海外直銷。台灣代工營收由 2023 年 4.07 億元增至 2025 年 7.13 億元；研究判讀為核心技術與通路延伸，不能據此認定新藥或海外市場已成為主要獲利來源。",
+        "period": "2023–2026-09",
+        "sources": [
+          "ir"
+        ]
+      },
+      "new_content": {
+        "text": "公司以發酵素材、九大劑型代工服務擴展亞歐美客戶，葡眾推動 UVACO 品牌升級及海外直銷。台灣代工營收由 2023 年 4.07 億元增至 2025 年 7.13 億元；研究判讀為核心技術與通路延伸，不能據此認定新藥或海外市場已成為主要獲利來源。\n\n葡眾委外會員資料異常存取：2026/11/24公告，重要子公司葡眾接獲委外商統一資訊通知，加密會員資料發現未經授權異常存取；當時仍無法釐清資料是否受影響及範圍。已啟動資安應變、要求委外商調查原因與影響、進行檢視強化，並規劃電子平台及簡訊防詐提醒。加密不等於已證實資料安全，異常存取也不能直接寫成已確認全部個資外洩。公司評估財務、業務與營運無重大影響，是當時評估，不等於零損失或事件已結案；保險理賠列不適用，未披露人數、受影響欄位、解密狀況、賠償或最終調查結果。\n須與11/4公告分開：11/4母公司「購健康」平台事件的委外商是順立智慧Cyberbiz，事實發生日11/2；11/24葡眾案是統一資訊、會員資料，主體與供應商不同，不能重複當同一事件的已完成處置，也不移植另一事件的求償安排。兩案都尚未在本次取得資料中確認最終影響範圍。\n為何影響研究：葡眾是母公司持股60%的合併子公司及重要會員銷售通路；Q3附註顯示前三季收入4,980,679仟元及淨利974,677仟元是該子公司公司間交易銷除前彙總數，不能當集團外部新增收入或全額母公司淨利。這些是事件前期間實績，只說明通路重要性，不用來估算資安損失或將先前營收下滑歸因11月事件。實質新增風險是委外資料安全、會員信任與防詐、後續調查／可能責任，不以法定重大訊息標籤本身作理由。\n已查原始公告與指定公司11/24至固定cutoff 11/27 13:34:45.191歷史列表，未見本案後續新增官方公告；這只限指定區間，不宣稱全市場／全歷史無缺漏。未來追蹤調查、受影響範圍、會員通知完成與有無具體財務影響；本輪僅完成本事件查核，未重做全公司研究。",
+        "period": "2023–2026-09；2026/11/24事件；背景財報截至9/30；查核截至11/27固定cutoff",
+        "sources": [
+          "ir",
+          "1707-event-20261124",
+          "1707-q3-scope",
+          "1707-followup-index",
+          "1707-official-history"
+        ],
+        "reviewed_at": "2026-11-27",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "1707-event-20261124",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "代本公司重要子公司葡眾企業股份有限公司說明資安事件",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/1707.html",
+          "file_sha256": "8b3b466dcc3e7c689fe3c9ea812065b3c3e8e95326c9352309787fffc98fe573",
+          "read_scope": "指定原始公告全文，seq_no=1，發言時間155906"
+        },
+        {
+          "source_id": "1707-q3-scope",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=1707&year=115&mtype=A&dtype=AI1",
+          "title": "2026Q3合併財報相關合併範圍與背景",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": "2026-11-06",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/1707-q3.pdf",
+          "file_sha256": "35a82e3c8ae4c663a21ae279f7a5d45db64b4c82dfabdf77f84423fb0b3314dc",
+          "read_scope": "2908 PDF5、21–23、47、58–59、61及21–22原圖；1707 PDF18–20及18、20原圖。只限事件相關範圍，不宣稱全報告重讀。"
+        },
+        {
+          "source_id": "1707-followup-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "指定公司11/24–11/27官方歷史列表",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": null,
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/1707-list-20261124-27.html",
+          "file_sha256": "3c151fb7c7fde895e4a9aa96f313b4675d5b572769facfa4abccdb09a032e0c4",
+          "read_scope": "逐筆日期、標題、發言時間與固定cutoff核對，未見本案後續公告",
+          "published_at_reason": "動態歷史查詢列表未提供獨立發布日；各公告日期另列，查閱日為2026-11-27。"
+        },
+        {
+          "source_id": "1707-official-history",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "兩公司留存官方公告，葡萄王11/4及11/24分案",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": null,
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/兩公司官方公告全文.json",
+          "file_sha256": "53fbd8489d5527e1c0a25a15a7f5a902427375f2f5469b37b96a6a51a9588dae",
+          "read_scope": "葡萄王11/4及11/24正文核對；特力本次11/24原案，未宣稱其他9案全部核讀",
+          "published_at_reason": "留存檔為多筆歷史官方公告匯出，無單一發布日；個別事件仍按11/4與11/24原發布日。",
+          "snapshot_date": "2026-11-27"
+        }
+      ],
+      "research_completed_at": "2026-11-27T21:44:06.339125+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "substantive_event": true,
+      "frontpage_eligible": true,
+      "event_date": "2026-11-24",
+      "importance_reason": "重要會員銷售通路委外資料安全風險新增，非已確認全面外洩",
+      "limitations": [
+        "本事件未揭範圍與後續執行仍續監；來源未知不填零。",
+        "僅事件範圍完成，不計公司補齊與全公司reviewed_at。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261127-evening-events-v2-2908",
+      "task_id": "monitor-review-2908.TW|2026-11-24|152644|1",
+      "origin_date": "2026-11-24",
+      "company_code": "2908",
+      "company_name": "特力",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_overview_version": "sha256:a2f7eca6996b5b3b0fcda47128be477e16ead13fc8aa67cc0f9d9d0473342784",
+      "old_content": null,
+      "new_content": {
+        "text": "Hampton集團內資金融通：2026/11/24公告，子公司Test-Rite Products Corp.對Hampton Products International Corporation新增資金貸與690,795仟元，原餘額0、公告後餘額690,795，個別限額693,647仟元，已接近該項限額。屬授權對同一對象分次撥貸／循環動用，公告未另列實際動支欄，不能把申報餘額直接當已全數匯出、已貸足或立即到期。資金來源為貸出子公司本身，目的為業務短期融通，無擔保品；依資金成本機動計息、按季付息、借款日起三年內到期一次還本。\n合併範圍與控制：2026Q3附註21–23頁確認Hampton於2025/11董事改選取得控制席次後已納入合併，2026/9/30集團合計持股37.37%；未達50%不代表沒有控制，也不是本次貸款才買下控制權。受款公司從事五金與鎖類進口、製造、批發，與集團既有貿易業務相關。此筆為合併個體間資金配置，合併時內部往來需沖銷，不能直接當集團新增對外應收款、銀行借款或營收；但沖銷不會消除實際現金配置、少數股東及受款公司還款能力的經濟風險。\n風險口徑：公告列資金貸與總餘額4,154,879仟元及占母公司最近期淨值55.84%，不是本筆占比、母公司對外負債率或淨負債，也不能與背書保證重複加總。受款公司資本65仟元及累積盈虧247,533仟元並非完整資產負債表，不用極小面額股本直接判定資不抵債。9月底合併現金2,326,863仟元、負債30,793,329、母公司權益7,440,636是不同日期的背景，不以其自行計算11月實際資金缺口；Q3資金貸與表另分期末餘額與實際動支，亦不能用9月底數據取代11/24後動支。\n需要更新的是近限額的集團內新增資金融通及揭露缺漏，不宣稱已違約、超限或爆發流動性危機。限額尚未超過不等於未來零風險；未披露精確利率、逐筆撥款／到期日、11月實際動支與資金用途明細，列待後續揭露。指定公司11/24至固定cutoff 11/27 13:34:45.191歷史列表未見後續新增官方公告，僅完成此事件與合併範圍查核，非特力全公司補齊。",
+        "period": "2026/11/24事件；背景財報截至9/30；查核截至11/27固定cutoff",
+        "sources": [
+          "2908-event-20261124",
+          "2908-q3-scope",
+          "2908-followup-index",
+          "2908-official-history"
+        ],
+        "reviewed_at": "2026-11-27",
+        "research_completion": "event_lookup_complete_with_disclosed_gaps"
+      },
+      "sources": [
+        {
+          "source_id": "2908-event-20261124",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "代子公司Test-Rite Products Corp.依「公開發行公司資金 貸與及背書保證處理準則」第二十二條第一項第三款公告",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": "2026-11-24",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/2908.html",
+          "file_sha256": "89a8dd9a6b7aa972e708990dbaaa2afbe443a62983ccce2a25c7c5616bb0b5ca",
+          "read_scope": "指定原始公告全文，seq_no=1，發言時間152644"
+        },
+        {
+          "source_id": "2908-q3-scope",
+          "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&co_id=2908&year=115&mtype=A&dtype=AI1",
+          "title": "2026Q3合併財報相關合併範圍與背景",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": "2026-11-12",
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/2908-q3.pdf",
+          "file_sha256": "d6eabff4fce85553e4fe921a30ab575d6bafa6edece9ced5d322f267b869e7cc",
+          "read_scope": "2908 PDF5、21–23、47、58–59、61及21–22原圖；1707 PDF18–20及18、20原圖。只限事件相關範圍，不宣稱全報告重讀。"
+        },
+        {
+          "source_id": "2908-followup-index",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "title": "指定公司11/24–11/27官方歷史列表",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": null,
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/2908-list-20261124-27.html",
+          "file_sha256": "51144c15dce6b256c2b3a1a070d7723febc5e7d9062d4df4afbe905c57c14a91",
+          "read_scope": "逐筆日期、標題、發言時間與固定cutoff核對，未見本案後續公告",
+          "published_at_reason": "動態歷史查詢列表未提供獨立發布日；各公告日期另列，查閱日為2026-11-27。"
+        },
+        {
+          "source_id": "2908-official-history",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "title": "兩公司留存官方公告，葡萄王11/4及11/24分案",
+          "publisher": "公開資訊觀測站／公司正式申報",
+          "published_at": null,
+          "accessed_at": "2026-11-27",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/兩公司官方公告全文.json",
+          "file_sha256": "53fbd8489d5527e1c0a25a15a7f5a902427375f2f5469b37b96a6a51a9588dae",
+          "read_scope": "葡萄王11/4及11/24正文核對；特力本次11/24原案，未宣稱其他9案全部核讀",
+          "published_at_reason": "留存檔為多筆歷史官方公告匯出，無單一發布日；個別事件仍按11/4與11/24原發布日。",
+          "snapshot_date": "2026-11-27"
+        }
+      ],
+      "research_completed_at": "2026-11-27T21:44:06.339125+08:00",
+      "research_completion": "event_lookup_complete_with_disclosed_gaps",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "substantive_event": true,
+      "frontpage_eligible": true,
+      "event_date": "2026-11-24",
+      "importance_reason": "近個別限額之集團內新增資金融通，需補合併範圍與實動支缺漏，非例行餘額轉貼",
+      "limitations": [
+        "本事件未揭範圍與後續執行仍續監；來源未知不填零。",
+        "僅事件範圍完成，不計公司補齊與全公司reviewed_at。"
+      ]
+    }
+  ],
+  "before_official_records": {
+    "1707.TW": {
+      "name": "葡萄王",
+      "reviewed_at": "2026-10-03",
+      "sources": {
+        "ir": {
+          "title": "2026-09-17 法說簡報（第 2、7–15、20、23、27 頁）",
+          "url": "https://www.grapeking.com.tw/investor/conference/download/file1/xV0DbaMeb3KR/2026.pdf",
+          "publisher": "葡萄王",
+          "published_at": "2026-09-17",
+          "accessed_at": "2026-10-03"
+        }
+      },
+      "business": {
+        "text": "業務由台灣葡萄王自有保健品牌及 ODM／OEM、葡眾直銷、上海葡萄王組成。上海亦經營飲料食品經銷與自販機。2026 上半年葡眾占合併營收約 73%，台灣母公司與上海約 15%、12%；這是營收結構，並非各業務的獲利占比。",
+        "period": "2026 上半年",
+        "sources": [
+          "ir"
+        ]
+      },
+      "earnings": {
+        "text": "2023–2025 年合併營收約 106.35、111.60、102.52 億元，歸母淨利約 14.53、14.48、12.18 億元。2026 上半年營收 46.92 億元、營業利益 7.48 億元、歸母淨利 4.07 億元，較去年同期下滑；母公司代工成長仍未抵銷葡眾營收減少。",
+        "period": "2023–2025 年／2026 上半年",
+        "sources": [
+          "ir"
+        ]
+      },
+      "transition": {
+        "text": "公司以發酵素材、九大劑型代工服務擴展亞歐美客戶，葡眾推動 UVACO 品牌升級及海外直銷。台灣代工營收由 2023 年 4.07 億元增至 2025 年 7.13 億元；研究判讀為核心技術與通路延伸，不能據此認定新藥或海外市場已成為主要獲利來源。",
+        "period": "2023–2026-09",
+        "sources": [
+          "ir"
+        ]
+      },
+      "developments": {
+        "text": "UVACO 馬來西亞營運中心已於 2026-08-17 開幕，首波推出六項商品。樟芝植物新藥 GKAC 已獲 FDA 核准進行二期人體臨床試驗，簡報預計 2026 Q4 開始收案、三年完成；屬臨床開發階段，並非上市許可，未核實 Q3 樣品及醫院合約完成情形。",
+        "period": "2026-09-17 已公布進度及計畫",
+        "sources": [
+          "ir"
+        ]
+      },
+      "limitations": [
+        "未取得各業務可比的獨立獲利占比；營收結構不等於獲利結構。",
+        "新廠投產與 GKAC 臨床收案的後續實際進度仍待補查。"
+      ]
+    },
+    "2908.TW": null
+  },
+  "before_overviews": {
+    "1707.TW": {
+      "name": "葡萄王",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 160,
+      "business": "保健食品、益生菌與菌菇發酵產品及代工",
+      "direction": "菌種與發酵研發、保健品及OEM／ODM布局；最新新案貢獻待補核",
+      "profit_mechanism": "保健品品牌／通路及代工毛利；子公司貢獻另核",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "本次財務篩選未觸發；非無風險認定",
+      "urls": [
+        "https://www.grapeking.com.tw/product",
+        "https://www.grapeking.com.tw/uploads/files/shares/689af0cb14ba1.pdf",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 111.60005,
+        "fy2025": 102.51607,
+        "q32025": 24.2789,
+        "q42025": 30.02414,
+        "q12026": 22.77961,
+        "q22026": 24.13664,
+        "ttm": 101.21929,
+        "h1_operating_profit": 7.48588,
+        "h1_nonoperating": 0.6057600000000001,
+        "h1_pretax": 8.09164,
+        "h1_parent_profit": 4.06976,
+        "h1_operating_margin": 0.159558361974796,
+        "h1_nonoperating_share": 0.0748624506280556,
+        "fy2025_parent_profit": 12.18305,
+        "q22026_parent_profit": 2.32252,
+        "screening": "未觸發本次篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 46.91625,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 111.60005,
+            "net_income": 14.482990000000001,
+            "eps": 9.78,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 48.21303,
+            "net_income": 4.77384,
+            "eps": 3.22,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 72.49193,
+            "net_income": 7.73483,
+            "eps": 5.22,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 102.51607,
+            "net_income": 12.18305,
+            "eps": 8.22,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 22.77961,
+            "net_income": 1.74724,
+            "eps": 1.18,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 46.91625,
+            "net_income": 4.06976,
+            "eps": 2.75,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 9.34,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 8.81,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 9.84,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 9.81,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 24.278899999999993,
+              "eps": 1.9999999999999996,
+              "net_income": 2.96099
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 30.024140000000003,
+              "eps": 3.000000000000001,
+              "net_income": 4.44822
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 22.77961,
+              "eps": 1.18,
+              "net_income": 1.74724
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 24.136639999999996,
+              "eps": 1.57,
+              "net_income": 2.32252
+            }
+          ],
+          "ttms": 101.21929,
+          "ttm_eps": 7.75,
+          "ttm_parent_profit": 11.47897,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 101.22 億元；每股盈餘 7.75 元；歸母淨利 11.48 億元。營收未扣成本與費用，不等於獲利。獲利機制：保健品品牌／通路及代工毛利；子公司貢獻另核。",
+      "events": [],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.grapeking.com.tw/product",
+            "https://www.grapeking.com.tw/uploads/files/shares/689af0cb14ba1.pdf"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "1707",
+            "name": "葡萄王",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 150.02187,
+            "liabilities": 33.98386,
+            "equity": 116.03801,
+            "parent_equity": 102.38044,
+            "cash": 35.39231,
+            "current_assets": 50.340720000000005,
+            "current_liabilities": 31.701980000000002,
+            "listed_borrowings": 0.0,
+            "listed_leases": 1.86694,
+            "operating_cashflow": 6.58769,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1618&companyId=1623&companyId=1626&companyId=1702&companyId=1707",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=1618&companyId=1623&companyId=1626&companyId=1702&companyId=1707",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "1707",
+            "name": "葡萄王",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 157.38289,
+            "liabilities": 36.71904,
+            "equity": 120.66385,
+            "parent_equity": 103.41829,
+            "cash": 41.64558,
+            "current_assets": 56.60778,
+            "current_liabilities": 34.21232,
+            "listed_borrowings": 0.0,
+            "listed_leases": 2.15027,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=1618&companyId=1623&companyId=1626&companyId=1702&companyId=1707",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=1618&companyId=1623&companyId=1626&companyId=1702&companyId=1707",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "2908.TW": {
+      "name": "特力",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 472,
+      "business": "居家用品國際貿易、零售及居家服務",
+      "direction": "供應鏈品保、售後與多元居家服務；既有服務升級，不把數位管理當新產品營收",
+      "profit_mechanism": "貿易商品价差、零售和居家服務毛利，受采购、人力与租金成本影響",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "H1業外增幅篩選",
+      "urls": [
+        "https://www.testritegroup.com/",
+        "https://tpp.testritegroup.com/SRM/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 368.32049,
+        "fy2025": 336.21801,
+        "q32025": 84.16731,
+        "q42025": 82.18049,
+        "q12026": 94.02236,
+        "q22026": 84.73312,
+        "ttm": 345.10328,
+        "h1_operating_profit": 5.03048,
+        "h1_nonoperating": 1.96884,
+        "h1_pretax": 6.99932,
+        "h1_parent_profit": 5.17831,
+        "h1_operating_margin": 0.028141682705335798,
+        "h1_nonoperating_share": 0.28129018247486903,
+        "fy2025_parent_profit": 1.15201,
+        "q22026_parent_profit": 3.56977,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 178.75548,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 368.32049,
+            "net_income": 3.31711,
+            "eps": 0.66,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 169.87021,
+            "net_income": 0.03357,
+            "eps": 0.01,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 254.03752,
+            "net_income": 0.34308000000000005,
+            "eps": 0.06999999999999999,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 336.21801,
+            "net_income": 1.15201,
+            "eps": 0.23,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 94.02236,
+            "net_income": 1.60854,
+            "eps": 0.32,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 178.75548,
+            "net_income": 5.17831,
+            "eps": 1.02,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 1.6,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 1.58,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 0.86,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 0.52,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 84.16731000000001,
+              "eps": 0.05999999999999999,
+              "net_income": 0.30951000000000006
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 82.18048999999999,
+              "eps": 0.16000000000000003,
+              "net_income": 0.8089299999999999
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 94.02236,
+              "eps": 0.32,
+              "net_income": 1.60854
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 84.73312,
+              "eps": 0.7,
+              "net_income": 3.5697699999999997
+            }
+          ],
+          "ttms": 345.10328,
+          "ttm_eps": 1.24,
+          "ttm_parent_profit": 6.296749999999999,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 345.10 億元；每股盈餘 1.24 元；歸母淨利 6.30 億元。營收未扣成本與費用，不等於獲利。獲利機制：貿易商品价差、零售和居家服務毛利，受采购、人力与租金成本影響。",
+      "events": [
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-1.36億元變為1.97億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.testritegroup.com/",
+            "https://tpp.testritegroup.com/SRM/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2908",
+            "name": "特力",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 395.55735,
+            "liabilities": 305.19433,
+            "equity": 90.36302,
+            "parent_equity": 72.51267,
+            "cash": 24.16189,
+            "current_assets": 196.66568999999998,
+            "current_liabilities": 145.51639,
+            "listed_borrowings": 127.79167,
+            "listed_leases": 77.5998,
+            "operating_cashflow": 11.05096,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2906&companyId=2908&companyId=2910&companyId=2911&companyId=2912",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2906&companyId=2908&companyId=2910&companyId=2911&companyId=2912",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2908",
+            "name": "特力",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 384.14243,
+            "liabilities": 296.42437,
+            "equity": 87.71806000000001,
+            "parent_equity": 69.86487,
+            "cash": 18.8196,
+            "current_assets": 179.51609,
+            "current_liabilities": 145.16718,
+            "listed_borrowings": 120.14495,
+            "listed_leases": 81.03124,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2906&companyId=2908&companyId=2910&companyId=2911&companyId=2912",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2906&companyId=2908&companyId=2910&companyId=2911&companyId=2912",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "adopted_record_sha256": {
+    "1707.TW": "sha256:3546886f2232c9ffd31b58a533ea1d0ec14b33a85a6452277e7eb23a6e48e352",
+    "2908.TW": "sha256:e8d118445b02f2d62c681189f4124ac74bc066da7f496cabbf99f41555f844f3"
+  },
+  "official_source_verification": [
+    {
+      "source_id": "1707-event-20261124",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/1707.html",
+      "read_scope": "指定原始公告全文，seq_no=1，發言時間155906"
+    },
+    {
+      "source_id": "1707-q3-scope",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/1707-q3.pdf",
+      "read_scope": "2908 PDF5、21–23、47、58–59、61及21–22原圖；1707 PDF18–20及18、20原圖。只限事件相關範圍，不宣稱全報告重讀。"
+    },
+    {
+      "source_id": "1707-followup-index",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/1707-list-20261124-27.html",
+      "read_scope": "逐筆日期、標題、發言時間與固定cutoff核對，未見本案後續公告"
+    },
+    {
+      "source_id": "1707-official-history",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/兩公司官方公告全文.json",
+      "read_scope": "葡萄王11/4及11/24正文核對；特力本次11/24原案，未宣稱其他9案全部核讀"
+    },
+    {
+      "source_id": "2908-event-20261124",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/2908.html",
+      "read_scope": "指定原始公告全文，seq_no=1，發言時間152644"
+    },
+    {
+      "source_id": "2908-q3-scope",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間事件/2908-q3.pdf",
+      "read_scope": "2908 PDF5、21–23、47、58–59、61及21–22原圖；1707 PDF18–20及18、20原圖。只限事件相關範圍，不宣稱全報告重讀。"
+    },
+    {
+      "source_id": "2908-followup-index",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/2908-list-20261124-27.html",
+      "read_scope": "逐筆日期、標題、發言時間與固定cutoff核對，未見本案後續公告"
+    },
+    {
+      "source_id": "2908-official-history",
+      "file_sha256_matched": true,
+      "file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-27-晚間兩公司官方公告/兩公司官方公告全文.json",
+      "read_scope": "葡萄王11/4及11/24正文核對；特力本次11/24原案，未宣稱其他9案全部核讀"
+    }
+  ],
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "financial_tables_not_modified": true,
+    "whole_company_quota": 0,
+    "material_events": 2,
+    "1707_original_transition_preserved": true,
+    "two_privacy_cases_separate": true,
+    "Hampton_intragroup_not_external_debt": true,
+    "superseded_v1_not_adopted": true,
+    "cutoff_not_advanced": true
+  }
+}
