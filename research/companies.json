@@ -15422,5 +15422,190 @@
       "research_completion": "event_lookup_complete_with_disclosed_gaps",
       "update_id": "research-20261127-evening-events-v2-2908"
     }
+  },
+  "1305.TW": {
+    "name": "華夏",
+    "reviewed_at": null,
+    "research_completion": "partial",
+    "sources": {
+      "1305-call1125": {
+        "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad",
+        "title": "2026/11/25法說會原始簡報，130520261125M001.pdf",
+        "publisher": "華夏海灣塑膠／公開資訊觀測站",
+        "published_at": "2026-11-25",
+        "accessed_at": "2026-11-27",
+        "source_evidence_file": "研究進度/來源留存/2026-11-27-1305-會議比較/130520261125M001.pdf",
+        "file_sha256": "9757f2cfb1977f1bff79af89b3486f37a6831ef7861c270d5c826076caf7ca42",
+        "read_scope": "25頁全部文字，7、15–18、20–22頁原始圖表核對；8–9價格走勢未獨立對原始Platts數據，未採為獨立市場預測"
+      },
+      "1305-call0826": {
+        "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad",
+        "title": "2026/8/26前次法說會簡報，130520260826M001.pdf",
+        "publisher": "華夏海灣塑膠／公開資訊觀測站",
+        "published_at": "2026-08-26",
+        "accessed_at": "2026-11-27",
+        "source_evidence_file": "研究進度/來源留存/2026-11-27-1305-會議比較/130520260826M001.pdf",
+        "file_sha256": "1a4162366cb5db7567658feb084510ac4e42636b9aae0776a43fd220563069cd",
+        "read_scope": "22頁全部文字；13–15、17原圖，既有品項及目標比對，非只比較雜湊"
+      },
+      "1305-officialqa": {
+        "url": "https://www.cgpc.com.tw/zh-tw/dirServices/frmServices12.aspx",
+        "title": "公司原始投資人問答，分場日期列示",
+        "publisher": "華夏海灣塑膠／公開資訊觀測站",
+        "published_at": null,
+        "accessed_at": "2026-11-27",
+        "source_evidence_file": "研究進度/來源留存/2026-11-27-1305-會議比較/company-qa.html",
+        "file_sha256": "8e49dc040466726b5a68c6c7db583587cc734125972481ae040b3f04374de1d1",
+        "read_scope": "成功取得頁面Q1–Q10全文；Q6–Q10為8/26，不移植為11/25。未見11/25本場原始文字QA",
+        "published_at_reason": "動態頁無單一發布日，各題原日期為3/18、5/19、8/26。"
+      }
+    },
+    "limitations": [
+      "僅完成2026/11/25法說與前次內容比較，非整家公司補齊。",
+      "本場逐題文字QA未見，未看影片，不冒稱已核讀本場問答。",
+      "未量化各新品收入及完整成本節省，圖片與測試非已得標證據。"
+    ],
+    "meeting_research": {
+      "event_date": "2026-11-25",
+      "kind": "法說會",
+      "status": "meeting_complete_with_disclosed_gaps",
+      "reviewed_at": "2026-11-27",
+      "batch_id": "research-20261127-1305-meeting-v1",
+      "original_qa_verified": false,
+      "limitations": [
+        "最新簡報25頁、前次22頁與重要圖表核讀；官網Q6–Q10為8/26，未見11/25逐題QA，未觀看影片。"
+      ]
+    },
+    "earnings": {
+      "text": "11/25法說更新2026前三季合併累計數，單位新台幣百萬元：營收7393（去年同期7385）、毛利303（去年-362）、營業損失351（-1071）、業外淨支出34、稅前損失385、總淨損318、母公司淨損281、EPS-0.48元。8/26舊簡報上半年母公司淨利12百萬元、EPS0.02是不同累計期間，不能沿用為前三季或在此自行轉算單季。虧損縮小不等扭虧，原圖的負基期增減率不當正成長率推薦。[1125 PDF21；0826 PDF18]\n本業與成因：毛利較去年同期轉正、費用下降，仍不足覆蓋銷管研費654百萬元，故營業仍虧損。公司回顧上游原料成本高、PVC需求弱及保守採購，銷售量下降，產品售價與組合影響名目營收；未揭精確量價毛利橋接，不將全部改善歸高質新品，也不直接歸因單一地緣事件。[1125 PDF4–7、21]\n前三季銷售量合計265仟噸、去年294；其中VCM/PVC203（228）、PVC製品20（23）、鹼氯以100%濃度口徑42（43）。產品收入圖PVC/VCM5061百萬元／69%、PVC製品1644／22%、鹼氯688／9%，這是營收不是各產品毛利／淨利比。[1125 PDF7、20原圖]\n財務比率為簡報合併口徑：負債占資產58%、流動比130%、速動比70%、平均收現31日、售貨74日；不等於現金餘額、借款到期表或已違約。本次不以簡報幾項比率冒稱完整資產負債／現金流查核，數字取得及衍生運算由網站負責。[1125 PDF22]",
+      "period": "2026/11/25法說及前三季合併累計；8/26前版另標",
+      "sources": [
+        "1305-call1125",
+        "1305-call0826",
+        "1305-officialqa"
+      ],
+      "reviewed_at": "2026-11-27",
+      "research_completion": "meeting_lookup_complete_with_disclosed_gaps",
+      "update_id": "research-20261127-1305-meeting-v1-earnings"
+    },
+    "developments": {
+      "text": "固定編號兼保留前版已揭項目，前三季產品大類收入不能分派為各新品收入。\n\n1305-cooling-pvc｜PVC降溫皮\n用途：共享單車／機車、品牌機車、農機、高爾夫球車、戶外船艇及電動車內裝；未具名整車廠採購合約\n進度：8/26為雙北高雄裝車試點、預計Q4中台灣試點；11/25明載雙北與高雄測試完成，拓展通路及加速電動車內裝對接\n商用：測試完成不等所有車種量產；未確認中台灣試點完成\n貢獻與缺漏：未揭單項營收、訂單額與汽車量產時間\n\n1305-waterborne-pvc-tpo｜水性親膚PVC/TPO膠皮\n用途：汽車內裝、高階傢俱、嬰兒座椅、長照床椅與室內親膚用品\n進度：8/26已有水性無溶劑與低VOC方向；11/25補低氣味、耐抓柔及PFAS-Free等公司規範說明\n商用：已有產品方向，未揭各客戶導入日期及量產合約\n貢獻與缺漏：公司稱空污費及耗材更新費降低NT2672萬元/年，未揭估計假設與已實現對帳；不是新增營收或已保證稅後節省\n\n1305-inkjet-leather｜噴墨布紋皮及WeMo坐墊廣告\n用途：歐美高階商用／家用座椅，及WeMo共享機車廣告坐墊套\n進���：11/25新增AI圖案掃描轉檔、數位接版噴印打樣、壓紋；WeMo配合檔期探索移動廣告收益分潤\n商用：布紋打樣／推廣及分潤模式敘述，未揭所有通路全面商轉日\n貢獻與缺漏：未披露合約金額、分潤比例、營收及損益；AI美工應用不是AI晶片新事業\n\n1305-low-smoke-transport｜低煙耐燃公共運輸座椅皮\n用途：火車、捷運、高鐵商務艙扶手、公共巴士，圖片不等具名採購客戶\n進度：11/25稱北美耐燃、發煙量、煙毒性測試全通過；台灣火車綠色椅皮仍物化驗證，推進捷運與高鐵組件\n商用：區分北美測試通過與台灣驗證；不稱已取得高鐵或所有車廂訂單\n貢獻與缺漏：未揭驗證機構證書原件、採購額及收入；認證／測試僅以公司揭露陳述\n\n1305-recycled-pvc-film｜低碳再生PVC膠布\n用途：20%–30%製程前再生PVC薄膜等低碳材料\n進度：8/26列ISO14021及RoHS公司說明；11/25未再列該頁\n商用：未再列頁面不是撤案或新增完工證據\n貢獻與缺漏：沒有新收入及新增商轉日，不列為11/25新增事件\n\n1305-recycled-pvc-pipe｜再生PVC低碳管材\n用途：排水管／電力導管，8/26列>95%消費後再生料與CNS1298、1302\n進度：8/26既有產品，11/25未更新；保留沿革不從新版漏頁推斷停售\n商用：未揭新導入工程／商用日\n貢獻與缺漏：未揭本案收入，合併PVC製品營收不能當此項全部收入\n\n1305-tpo-tape｜TPO免刀膠布與絕緣膠帶\n用途：易撕、耐化學及電氣絕緣應用\n進度：8/26既有項目，11/25未再詳列；公司環保／PPWR敘述不當獨立法規合規認證查核\n商用：未見本輪新時點與認證完成證據，不稱撤回或新達產\n貢獻與缺漏：未揭獨立貢獻，未納入本輪新事件數",
+      "period": "2026/11/25法說及前三季合併累計；8/26前版另標",
+      "sources": [
+        "1305-call1125",
+        "1305-call0826",
+        "1305-officialqa"
+      ],
+      "reviewed_at": "2026-11-27",
+      "research_completion": "meeting_lookup_complete_with_disclosed_gaps",
+      "projects": [
+        {
+          "project_id": "1305-cooling-pvc",
+          "name": "PVC降溫皮",
+          "type": "既有新產品進度",
+          "uses_and_customers": "共享單車／機車、品牌機車、農機、高爾夫球車、戶外船艇及電動車內裝；未具名整車廠採購合約",
+          "status": "8/26為雙北高雄裝車試點、預計Q4中台灣試點；11/25明載雙北與高雄測試完成，拓展通路及加速電動車內裝對接",
+          "commercial_timing": "測試完成不等所有車種量產；未確認中台灣試點完成",
+          "revenue_contribution": "未揭單項營收、訂單額與汽車量產時間",
+          "sources": [
+            "1305-call0826",
+            "1305-call1125"
+          ],
+          "claim_type": "company_disclosure_with_explicit_gaps"
+        },
+        {
+          "project_id": "1305-waterborne-pvc-tpo",
+          "name": "水性親膚PVC/TPO膠皮",
+          "type": "既有產品改善",
+          "uses_and_customers": "汽車內裝、高階傢俱、嬰兒座椅、長照床椅與室內親膚用品",
+          "status": "8/26已有水性無溶劑與低VOC方向；11/25補低氣味、耐抓柔及PFAS-Free等公司規範說明",
+          "commercial_timing": "已有產品方向，未揭各客戶導入日期及量產合約",
+          "revenue_contribution": "公司稱空污費及耗材更新費降低NT2672萬元/年，未揭估計假設與已實現對帳；不是新增營收或已保證稅後節省",
+          "sources": [
+            "1305-call0826",
+            "1305-call1125"
+          ],
+          "claim_type": "company_disclosure_with_explicit_gaps"
+        },
+        {
+          "project_id": "1305-inkjet-leather",
+          "name": "噴墨布紋皮及WeMo坐墊廣告",
+          "type": "新披露應用",
+          "uses_and_customers": "歐美高階商用／家用座椅，及WeMo共享機車廣告坐墊套",
+          "status": "11/25新增AI圖案掃描轉檔、數位接版噴印打樣、壓紋；WeMo配合檔期探索移動廣告收益分潤",
+          "commercial_timing": "布紋打樣／推廣及分潤模式敘述，未揭所有通路全面商轉日",
+          "revenue_contribution": "未披露合約金額、分潤比例、營收及損益；AI美工應用不是AI晶片新事業",
+          "sources": [
+            "1305-call1125"
+          ],
+          "claim_type": "company_disclosure_with_explicit_gaps"
+        },
+        {
+          "project_id": "1305-low-smoke-transport",
+          "name": "低煙耐燃公共運輸座椅皮",
+          "type": "新披露產品驗證",
+          "uses_and_customers": "火車、捷運、高鐵商務艙扶手、公共巴士，圖片不等具名採購客戶",
+          "status": "11/25稱北美耐燃、發煙量、煙毒性測試全通過；台灣火車綠色椅皮仍物化驗證，推進捷運與高鐵組件",
+          "commercial_timing": "區分北美測試通過與台灣驗證；不稱已取得高鐵或所有車廂訂單",
+          "revenue_contribution": "未揭驗證機構證書原件、採購額及收入；認證／測試僅以公司揭露陳述",
+          "sources": [
+            "1305-call1125"
+          ],
+          "claim_type": "company_disclosure_with_explicit_gaps"
+        },
+        {
+          "project_id": "1305-recycled-pvc-film",
+          "name": "低碳再生PVC膠布",
+          "type": "既有歷史項目保留",
+          "uses_and_customers": "20%–30%製程前再生PVC薄膜等低碳材料",
+          "status": "8/26列ISO14021及RoHS公司說明；11/25未再列該頁",
+          "commercial_timing": "未再列頁面不是撤案或新增完工證據",
+          "revenue_contribution": "沒有新收入及新增商轉日，不列為11/25新增事件",
+          "sources": [
+            "1305-call0826"
+          ],
+          "claim_type": "company_disclosure_with_explicit_gaps"
+        },
+        {
+          "project_id": "1305-recycled-pvc-pipe",
+          "name": "再生PVC低碳管材",
+          "type": "既有歷史項目保留",
+          "uses_and_customers": "排水管／電力導管，8/26列>95%消費後再生料與CNS1298、1302",
+          "status": "8/26既有產品，11/25未更新；保留沿革不從新版漏頁推斷停售",
+          "commercial_timing": "未揭新導入工程／商用日",
+          "revenue_contribution": "未揭本案收入，合併PVC製品營收不能當此項全部收入",
+          "sources": [
+            "1305-call0826"
+          ],
+          "claim_type": "company_disclosure_with_explicit_gaps"
+        },
+        {
+          "project_id": "1305-tpo-tape",
+          "name": "TPO免刀膠布與絕緣膠帶",
+          "type": "既有歷史項目保留",
+          "uses_and_customers": "易撕、耐化學及電氣絕緣應用",
+          "status": "8/26既有項目，11/25未再詳列；公司環保／PPWR敘述不當獨立法規合規認證查核",
+          "commercial_timing": "未見本輪新時點與認證完成證據，不稱撤回或新達產",
+          "revenue_contribution": "未揭獨立貢獻，未納入本輪新事件數",
+          "sources": [
+            "1305-call0826"
+          ],
+          "claim_type": "company_disclosure_with_explicit_gaps"
+        }
+      ],
+      "update_id": "research-20261127-1305-meeting-v1-developments"
+    },
+    "transition": {
+      "text": "11/25較8/26有實質內容，並非只改日期：市況從Q2回顧／Q3展望改為Q3回顧／Q4展望；財務更新由上半年到前三季；降溫皮從裝車試點推進到雙北高雄測試完成；新增噴墨布紋與WeMo廣告坐墊、低煙耐燃運輸座椅皮的應用及驗證狀態。前版再生PVC及TPO膠帶仍保留歷史項目，不能因新版未列就當終止。\n展望為公司看法：公司預期亞洲業者降產、原料供給偏緊及印孟雨季後需求有助Q4供需改善，但仍認為下游需求疲弱、低價中國電石粉及美國出口競爭構成壓力。這是11/25公司產業展望，不是保證華夏Q4獲利、已接訂單或獨立核實的全球市場結論；未取得Platts原始逐點資料與公司引用政策原件，故不把其中精確報價／貿易政策數字轉作獨立市場預測。\n問答：官網成功取得投資人QA全文，Q6–Q10原日期8/26，當時稱Q3約60%稼動、歲修與減量保價、目標獲利接近Q2；這是舊時點目標，不當11/25新回答或當已達成。11/25簡報第25頁僅Q&A標題，官網未見本場逐題文字，影片未觀看，保留not_found並待後續原始公開資料。不以其他場問題或一般FAQ替代。\n完成範圍僅11/25會議內容與8/26對照、相關產品進度及財務解讀，非整家公司業務／年報／股東會全範圍補齊，不計公司配額與全公司reviewed_at。會議日期保持11/25，不冒稱11/27新召開。",
+      "period": "2026/11/25法說及前三季合併累計；8/26前版另標",
+      "sources": [
+        "1305-call1125",
+        "1305-call0826",
+        "1305-officialqa"
+      ],
+      "reviewed_at": "2026-11-27",
+      "research_completion": "meeting_lookup_complete_with_disclosed_gaps",
+      "update_id": "research-20261127-1305-meeting-v1-transition"
+    }
   }
 }
