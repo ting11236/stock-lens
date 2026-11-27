@@ -2211,7 +2211,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2442.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-11-30",
+        "description": "本公司受邀參加富邦證券舉辦之法人說明會，說明本公司之營運概況。",
+        "end_date": "2026-11-30",
+        "kind": "法說會",
+        "location": "富邦南京大樓5樓會議室(台北市南京東路二段111號5樓)",
+        "name": "新美齊",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+        "symbol": "2442.TW",
+        "time": "14:30"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -2962,7 +2973,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "2884.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-12-01",
+        "description": "2026年第3季財業務資訊",
+        "end_date": "2026-12-01",
+        "kind": "法說會",
+        "location": "線上",
+        "name": "玉山金",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+        "symbol": "2884.TW",
+        "time": "11:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -25955,6 +25977,18 @@
     {
       "cancelled": false,
       "date": "2026-11-30",
+      "description": "本公司受邀參加富邦證券舉辦之法人說明會，說明本公司之營運概況。",
+      "end_date": "2026-11-30",
+      "kind": "法說會",
+      "location": "富邦南京大樓5樓會議室(台北市南京東路二段111號5樓)",
+      "name": "新美齊",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
+      "symbol": "2442.TW",
+      "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-30",
       "description": "公布115年度第三季營運概況",
       "end_date": "2026-11-30",
       "kind": "法說會",
@@ -26083,6 +26117,18 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
       "symbol": "2327.TW",
       "time": "15:00"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-01",
+      "description": "2026年第3季財業務資訊",
+      "end_date": "2026-12-01",
+      "kind": "法說會",
+      "location": "線上",
+      "name": "玉山金",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "2884.TW",
+      "time": "11:00"
     },
     {
       "cancelled": false,
@@ -71267,5 +71313,5 @@
       "time": "15:00"
     }
   ],
-  "updated_at": "2026-11-27T14:01:18+08:00"
+  "updated_at": "2026-11-27T14:21:39+08:00"
 }
