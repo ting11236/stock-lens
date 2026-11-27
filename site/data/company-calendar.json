@@ -6211,7 +6211,18 @@
       "summary_reviewed_at": "2026-10-03"
     },
     "8210.TW": {
-      "next_conference": null,
+      "next_conference": {
+        "cancelled": false,
+        "date": "2026-12-03",
+        "description": "本公司受邀參加富邦證券、Jefferies及臺灣證券交易所共同於新加坡舉辦之「Taiwan Corporate Day 2026」",
+        "end_date": "2026-12-03",
+        "kind": "法說會",
+        "location": "新加坡The Fullerton Hotel",
+        "name": "勤誠",
+        "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+        "symbol": "8210.TW",
+        "time": "09:00"
+      },
       "next_shareholders": null,
       "summary_reviewed_at": "2026-10-03"
     },
@@ -26531,6 +26542,18 @@
     },
     {
       "cancelled": false,
+      "date": "2026-12-03",
+      "description": "本公司受邀參加富邦證券、Jefferies及臺灣證券交易所共同於新加坡舉辦之「Taiwan Corporate Day 2026」",
+      "end_date": "2026-12-03",
+      "kind": "法說會",
+      "location": "新加坡The Fullerton Hotel",
+      "name": "勤誠",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "8210.TW",
+      "time": "09:00"
+    },
+    {
+      "cancelled": false,
       "date": "2026-12-04",
       "description": "向法人說明產業狀況與本公司經營績效",
       "end_date": "2026-12-04",
@@ -26552,6 +26575,18 @@
       "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
       "symbol": "3701.TW",
       "time": ""
+    },
+    {
+      "cancelled": false,
+      "date": "2026-12-07",
+      "description": "本公司受邀參加野村證券舉辦之「Nomura Taiwan Corporate Day 2026 in Singapore and Hong Kong」，說明本公司第三季業務與財務概況。",
+      "end_date": "2026-12-07",
+      "kind": "法說會",
+      "location": "Nomura Singapore Limited(10 Marina Boulevard, MBFC Tower 2, Singapore)",
+      "name": "中砂",
+      "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=12",
+      "symbol": "1560.TW",
+      "time": "09:00"
     },
     {
       "cancelled": false,
@@ -39479,6 +39514,28 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "6202.TW",
       "time": "14:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-10-30",
+      "description": "本公司日本授權夥伴Miyarisan就TAH4411化療止吐口\r\n溶膜用於兒童新適應症向日本主管機關提出新藥上市申請",
+      "due_date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "evidence_origin": "adopted_company_research_source",
+      "fact_date": null,
+      "kind": "重大訊息",
+      "name": "泰合",
+      "reason": "產品審查或重要訴訟：本公司日本授權夥伴Miyarisan就TAH4411化療止吐口\r\n溶膜用於兒童新適應症向日本主管機關提出新藥上市申請",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "產品審查或重要訴訟",
+        "status": "material"
+      },
+      "research_source_id": "twse",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": null,
+      "symbol": "6467.TW",
+      "time": ""
     },
     {
       "cancelled": false,
@@ -71210,5 +71267,5 @@
       "time": "15:00"
     }
   ],
-  "updated_at": "2026-11-27T13:58:21+08:00"
+  "updated_at": "2026-11-27T14:01:18+08:00"
 }
