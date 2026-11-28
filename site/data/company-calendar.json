@@ -25316,6 +25316,23 @@
     {
       "cancelled": false,
       "date": "2026-11-27",
+      "description": "公告本公司與世紀樺欣風能股份有限公司股份轉換案之股份\r\n轉換基準日",
+      "end_date": "2026-11-27",
+      "fact_date": "2026-11-27",
+      "kind": "重大訊息",
+      "name": "世紀能源",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "2072.TW",
+      "time": "165949"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-27",
       "description": "本公司受邀參加2026年第四季富邦企業日說明公司營運概況與產業趨勢",
       "end_date": "2026-11-27",
       "kind": "法說會",
@@ -25576,6 +25593,23 @@
       "source": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb02_1?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&month=11",
       "symbol": "6658.TW",
       "time": "13:30"
+    },
+    {
+      "cancelled": false,
+      "date": "2026-11-27",
+      "description": "本公司因股份轉換案依據企業併購法第33條規定公告相關事項",
+      "end_date": "2026-11-27",
+      "fact_date": "2026-11-27",
+      "kind": "重大訊息",
+      "name": "鋐寶科技",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "symbol": "6674.TW",
+      "time": "153221"
     },
     {
       "cancelled": false,
@@ -31777,8 +31811,8 @@
     },
     "2884.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-28",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -31847,8 +31881,8 @@
     },
     "2892.TW": {
       "eps": {
-        "detected_at": null,
-        "period": "2026-Q2"
+        "detected_at": "2026-11-28",
+        "period": "2026-Q3"
       },
       "revenue_growth": {
         "detected_at": null,
@@ -70677,6 +70711,26 @@
     },
     {
       "cancelled": false,
+      "date": "2026-11-27",
+      "description": "公告本公司與世紀樺欣風能股份有限公司股份轉換案之股份\r\n轉換基準日",
+      "due_date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "fact_date": "2026-11-27",
+      "kind": "重大訊息",
+      "name": "世紀能源",
+      "reason": "控制權或主要資產變動：公告本公司與世紀樺欣風能股份有限公司股份轉換案之股份\r\n轉換基準日",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": null,
+      "symbol": "2072.TW",
+      "time": "165949"
+    },
+    {
+      "cancelled": false,
       "date": "2026-11-26",
       "description": "本公司受邀參加統一綜合證券所舉辦之線上法說會，說明本公司營運狀況",
       "due_date": "2026-11-27",
@@ -71123,6 +71177,26 @@
     },
     {
       "cancelled": false,
+      "date": "2026-11-27",
+      "description": "本公司因股份轉換案依據企業併購法第33條規定公告相關事項",
+      "due_date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "fact_date": "2026-11-27",
+      "kind": "重大訊息",
+      "name": "鋐寶科技",
+      "reason": "控制權或主要資產變動：本公司因股份轉換案依據企業併購法第33條規定公告相關事項",
+      "research_impact": {
+        "policy": "research-impact-v1",
+        "reason": "控制權或主要資產變動",
+        "status": "material"
+      },
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "6674.TW",
+      "time": "153221"
+    },
+    {
+      "cancelled": false,
       "date": "2026-11-26",
       "description": "本公司受邀參加群益金鼎證券舉辦之法人說明會，向投資人說明本公司營運相關資訊。",
       "due_date": "2026-11-27",
@@ -71542,6 +71616,17 @@
       "time": "14:00"
     },
     {
+      "date": "2026-11-28",
+      "due_date": "2026-11-28",
+      "kind": "財報",
+      "name": "玉山金",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2884.TW"
+    },
+    {
       "cancelled": false,
       "date": "2026-11-27",
       "description": "公告本公司將於115年11月27日召開115年第三季法人說明會",
@@ -71570,6 +71655,17 @@
       "summary_reviewed_at": "2026-10-03",
       "symbol": "2892.TW",
       "time": "15:00"
+    },
+    {
+      "date": "2026-11-28",
+      "due_date": "2026-11-28",
+      "kind": "財報",
+      "name": "第一金",
+      "period": "2026-Q3",
+      "reason": "財報數字更新至 2026-Q3，摘要待同步",
+      "source": "https://openapi.twse.com.tw/v1/opendata/t187ap38_L",
+      "summary_reviewed_at": "2026-10-03",
+      "symbol": "2892.TW"
     },
     {
       "cancelled": false,
@@ -71842,5 +71938,5 @@
       "time": "15:00"
     }
   ],
-  "updated_at": "2026-11-28T03:31:22+08:00"
+  "updated_at": "2026-11-28T13:41:40+08:00"
 }
