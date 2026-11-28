@@ -1,0 +1,1422 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "batch_id": "research-20261128-material-events-v1",
+    "ready": true,
+    "created_at": "2026-11-28T13:37:48.701261+08:00",
+    "updates_file": "updates.json",
+    "updates_count": 4,
+    "updates_sha256": "sha256:9838854daa98fb8fbe65bfa1ca8975c6217ce44c247369c0ed2e32e5543b327b",
+    "work_type": "change_update",
+    "whole_company_count": 0,
+    "company_event_count": 4,
+    "distinct_underlying_events": 3,
+    "validation": {
+      "baselines_verified": true,
+      "official_bodies_read": true,
+      "AUO_SPIL_same_transaction": true,
+      "estimates_not_realized_profit": true,
+      "old_capital_schedules_superseded": true
+    }
+  },
+  "updates": [
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261128-material-events-v1-4562",
+      "task_id": "change-4562.TW|2026-11-27|143621|1",
+      "project_id": "4562-capital-raise-2026",
+      "company_code": "4562",
+      "company_name": "穎漢",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:7ebcad3fc8bcb7a63805964bd95ce1ecd719d43589a8fba70c8429dc81f53349",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "11/27公司決議暫停115年現金增資發行普通股1,305萬股相關作業。先前11/5規劃用途為償還銀行借款，11/13公告發行價每股23元、原股東及員工繳款12/4–12/10、特定人12/11–12/14；上述為暫停前時程，不能繼續展示為確定執行。公司理由為國際經濟環境變化與證券市場波動，待市場穩定再擇發行時點並另公告。暫停不等撤銷核准、已完成募資或銀行違約，也未揭新發行日與替代資金來源。這是償債募資時程變更，需追蹤重新公告；本次僅查此事件，不代表11/25法說研究完成。",
+        "period": "2026-11-27／28事件；既有段落期間保留",
+        "scope": "material_event_only",
+        "sources": [
+          "4562-event-20261128"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "4562-event-20261128",
+          "publisher": "公司／公開資訊觀測站",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "published_at": "2026-11-27",
+          "accessed_at": "2026-11-28",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-28-官方監看/區間公告及正文.json",
+          "file_sha256": "5e2ced965070c855478510463c4d94a4a8f381afcc34927bd44616b668d5fd56",
+          "json_pointer": "/events/12",
+          "event_key": "4562.TW|2026-11-27|143621|1",
+          "read_scope": "該則完整正文；4562與8104另核基線匯出所附先前增資原公告"
+        }
+      ],
+      "baseline_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261128_4562.json",
+      "research_completed_at": "2026-11-28T13:37:48.701261+08:00",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "event_key": "4562.TW|2026-11-27|143621|1",
+      "materiality_reason": "實質資金、資產或募資進度變更，非單純法定公告分類",
+      "limitations": [
+        "僅完成本事件，不代表全公司或會議內容查核完成。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261128-material-events-v1-2409",
+      "task_id": "change-2409.TW|2026-11-27|160010|3",
+      "project_id": "2409-huaya-disposal-20261127",
+      "company_code": "2409",
+      "company_name": "友達",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "earnings",
+      "expected_old_version": "sha256:cbde10a895ae34e687b130f9e5776b81b91c12e30eeaaf6fc1192da63fdce7b8",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:9749fc79cbfc3532624ecdbcd9ea4597a7294d86074adc474a18ad6780cc188e",
+      "expected_old_section_version": "sha256:9156b8aee5d1c84be632b14a57e4c23714e4aa6f4a341d21fa8a6a356d5d1d0b",
+      "old_content": {
+        "text": "2025 年營業虧損約 10.6 億元，較 2024 年 84.7 億元縮小；業外淨收益約 95.0 億元，涉及不動產處分及投資衡量變動等。年度轉盈不能全視為面板本業獲利。",
+        "period": "2024–2025 年；印刷頁 105",
+        "sources": [
+          "annual"
+        ]
+      },
+      "new_content": {
+        "text": "2025 年營業虧損約 10.6 億元，較 2024 年 84.7 億元縮小；業外淨收益約 95.0 億元，涉及不動產處分及投資衡量變動等。年度轉盈不能全視為面板本業獲利。\n\n11/27董事會決議將桃園龜山華亞廠土地、建物與相關廠務附屬設施出售予非關係人矽品，交易總金額197億元未稅，按契約分期支付。公司預計處分利益約104億元，已扣相關交易費用及預估稅費；這是公司預估，公告沒有證明已全額收款或當期已認列，不能直接增加本季實際淨利或當作面板本業毛利。目的為聚焦輕資產、活化資產及優化財務結構。買方3711子公司同日同標的公告是同一交易另一方，並非友達第二筆處分。後續追蹤交割、會計認列期間與資金用途；本案不證明其他Micro LED等技術已量產。",
+        "period": "2026-11-27／28事件；既有段落期間保留",
+        "sources": [
+          "annual",
+          "2409-event-20261128"
+        ],
+        "scope": "material_event_only"
+      },
+      "sources": [
+        {
+          "source_id": "2409-event-20261128",
+          "publisher": "公司／公開資訊觀測站",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "published_at": "2026-11-27",
+          "accessed_at": "2026-11-28",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-28-官方監看/區間公告及正文.json",
+          "file_sha256": "5e2ced965070c855478510463c4d94a4a8f381afcc34927bd44616b668d5fd56",
+          "json_pointer": "/events/44",
+          "event_key": "2409.TW|2026-11-27|160010|3",
+          "read_scope": "該則完整正文；4562與8104另核基線匯出所附先前增資原公告"
+        }
+      ],
+      "baseline_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261128_2409.json",
+      "research_completed_at": "2026-11-28T13:37:48.701261+08:00",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "event_key": "2409.TW|2026-11-27|160010|3",
+      "materiality_reason": "實質資金、資產或募資進度變更，非單純法定公告分類",
+      "limitations": [
+        "僅完成本事件，不代表全公司或會議內容查核完成。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261128-material-events-v1-3711",
+      "task_id": "change-3711.TW|2026-11-27|160653|2",
+      "project_id": "3711-spil-huaya-property-20261127",
+      "company_code": "3711",
+      "company_name": "日月光投控",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "developments",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:b5ab34a955d4d258ad4aa57c4e1d2b4dc2f1d0a50fcb78609d5cd8a923e71ef8",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "11/27子公司矽品董事會決議向非關係人友達取得桃園龜山華亞段139及264-1等土地、2-1等8筆建物，總金額197億元未稅，依雙方約定時間分期電匯，目的為因應營運需求。這與2409出售華亞廠是同一雙邊交易，不能在3711當兩筆投資。公告未揭特定封裝製程、客戶、設備搬入／量產日、產能或新增收入；不自行宣稱CoWoS量產、已交割達產或197億元可直接轉成營收。資產取得與同日其他設備採購為不同標的，各案另查，不將本次局部事件算全公司完成。",
+        "period": "2026-11-27／28事件；既有段落期間保留",
+        "scope": "material_event_only",
+        "sources": [
+          "3711-event-20261128"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "3711-event-20261128",
+          "publisher": "公司／公開資訊觀測站",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+          "published_at": "2026-11-27",
+          "accessed_at": "2026-11-28",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-28-官方監看/區間公告及正文.json",
+          "file_sha256": "5e2ced965070c855478510463c4d94a4a8f381afcc34927bd44616b668d5fd56",
+          "json_pointer": "/events/49",
+          "event_key": "3711.TW|2026-11-27|160653|2",
+          "read_scope": "該則完整正文；4562與8104另核基線匯出所附先前增資原公告"
+        }
+      ],
+      "baseline_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261128_3711.json",
+      "research_completed_at": "2026-11-28T13:37:48.701261+08:00",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "event_key": "3711.TW|2026-11-27|160653|2",
+      "materiality_reason": "實質資金、資產或募資進度變更，非單純法定公告分類",
+      "limitations": [
+        "僅完成本事件，不代表全公司或會議內容查核完成。"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "update_id": "research-20261128-material-events-v1-8104",
+      "task_id": "change-8104.TW|2026-11-28|105617|1",
+      "project_id": "8104-hantai-preferred-capital-2026",
+      "company_code": "8104",
+      "company_name": "錸寶",
+      "market": "TWSE",
+      "work_type": "change_update",
+      "operation": "replace",
+      "section": "transition",
+      "expected_old_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "expected_old_version_scope": "current_official_record",
+      "expected_overview_version": "sha256:6f05a02faa368de5d7545e1cc33798c07d4fe59f0d7f6ae28b833ff92ae81ed3",
+      "expected_old_section_version": "sha256:74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "old_content": null,
+      "new_content": {
+        "text": "11/28重要子公司瀚泰能源更正11/2現金增資案：原增資額7億元，變更為預計3億元。原案為現金增資甲種可轉換特別股、用途償還銀行借款，原訂繳款11/23–11/27及基準日11/30；原特別股股息率3.2%、累積型、無到期日、發行滿一年次日起可1:1轉普通股，均為11/2版本條件。此次短篇更正僅明確改金額，未重列最新實際發行股數、完成繳款額、認購人及全部條件，不自行以3億元推算完成股數或稱募資已到位。公司稱對財務業務影響無；研究仍保留募資規模縮減及償債資金執行追蹤，不把少募4億元直接當虧損或已違約。",
+        "period": "2026-11-27／28事件；既有段落期間保留",
+        "scope": "material_event_only",
+        "sources": [
+          "8104-event-20261128"
+        ]
+      },
+      "sources": [
+        {
+          "source_id": "8104-event-20261128",
+          "publisher": "公司／公開資訊觀測站",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+          "published_at": "2026-11-28",
+          "accessed_at": "2026-11-28",
+          "source_evidence_file": "/Users/ting/Documents/Codex/台股研究交接/研究進度/來源留存/2026-11-28-官方監看/區間公告及正文.json",
+          "file_sha256": "5e2ced965070c855478510463c4d94a4a8f381afcc34927bd44616b668d5fd56",
+          "json_pointer": "/events/102",
+          "event_key": "8104.TW|2026-11-28|105617|1",
+          "read_scope": "該則完整正文；4562與8104另核基線匯出所附先前增資原公告"
+        }
+      ],
+      "baseline_file": "/Users/ting/Documents/Codex/台股研究交接/網站回報/事件更新完整基線_20261128_8104.json",
+      "research_completed_at": "2026-11-28T13:37:48.701261+08:00",
+      "whole_company_count": 0,
+      "do_not_refresh_company_reviewed_at": true,
+      "event_key": "8104.TW|2026-11-28|105617|1",
+      "materiality_reason": "實質資金、資產或募資進度變更，非單純法定公告分類",
+      "limitations": [
+        "僅完成本事件，不代表全公司或會議內容查核完成。"
+      ]
+    }
+  ],
+  "before_official_records": {
+    "4562.TW": null,
+    "2409.TW": {
+      "name": "友達",
+      "reviewed_at": "2026-10-02",
+      "sources": {
+        "annual": {
+          "title": "2025 年報：股東報告及財務分析",
+          "url": "https://www.auo.com/upload/media/ir/2025_AUO_Annual_Report_EN.pdf",
+          "publisher": "友達光電",
+          "published_at": null,
+          "accessed_at": "2026-10-02"
+        },
+        "expo": {
+          "title": "SEMICON Taiwan 2026 光通訊與玻璃核心基板展示公告",
+          "url": "https://www.auo.com/en-global/New_Archive/detail/News_Archive_Product_20260831",
+          "publisher": "友達光電",
+          "published_at": "2026-08-31",
+          "accessed_at": "2026-10-02"
+        }
+      },
+      "business": {
+        "text": "以顯示技術為基礎，業務分成顯示、智慧移動及垂直場域解決方案，應用包含車用、醫療及零售。",
+        "period": "2025 年報",
+        "sources": [
+          "annual"
+        ]
+      },
+      "earnings": {
+        "text": "2025 年營業虧損約 10.6 億元，較 2024 年 84.7 億元縮小；業外淨收益約 95.0 億元，涉及不動產處分及投資衡量變動等。年度轉盈不能全視為面板本業獲利。",
+        "period": "2024–2025 年；印刷頁 105",
+        "sources": [
+          "annual"
+        ]
+      },
+      "transition": {
+        "text": "透過 BHTC 與凌華等布局，從面板供應延伸為車用及場域方案供應商；組織與投資已調整，綜效仍需用後續營業利益驗證。",
+        "period": "2025 年報",
+        "sources": [
+          "annual"
+        ]
+      },
+      "developments": {
+        "text": "2026-08 公告將展示 Micro LED 光通訊與玻璃核心基板技術，面向 AI 資料中心及先進封裝。這是展示／開發階段資訊，非已量產營收證明。",
+        "period": "2026-08-31 公告",
+        "sources": [
+          "expo"
+        ]
+      },
+      "limitations": [
+        "尚缺 2026 最新季報及三大事業的完整獲利分拆。",
+        "展前公告不能證明其後實際量產；相關訂單與財務貢獻待查。"
+      ]
+    },
+    "3711.TW": null,
+    "8104.TW": null
+  },
+  "before_overviews": {
+    "4562.TW": {
+      "name": "穎漢",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 645,
+      "business": "彎管、切管及金屬加工設備",
+      "direction": "六軸機器人、AMR及自動化彎管工作站；個別貢獻未量化",
+      "profit_mechanism": "設備及服務毛利；專案驗收、零件和研發影響",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "2024全年母公司淨損；2025全年母公司淨損；2026H1母公司淨損；2025Q3母公司淨損；2025Q4母公司淨損；2026Q2母公司淨損",
+      "urls": [
+        "https://www.ylm.com.tw/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 7.76841,
+        "fy2025": 7.16411,
+        "q32025": 1.96171,
+        "q42025": 1.37169,
+        "q12026": 1.76927,
+        "q22026": 1.49152,
+        "ttm": 6.59419,
+        "h1_operating_profit": -0.23275,
+        "h1_nonoperating": 0.21691000000000002,
+        "h1_pretax": -0.01584,
+        "h1_parent_profit": -0.03089,
+        "h1_operating_margin": -0.0713784082998292,
+        "h1_nonoperating_share": "",
+        "fy2025_parent_profit": -1.12134,
+        "q22026_parent_profit": -0.12634,
+        "screening": "2024全年母公司淨損；2025全年母公司淨損；2026H1母公司淨損；2025Q3母公司淨損；2025Q4母公司淨損；2026Q2母公司淨損",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 3.26079,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 7.76841,
+            "net_income": -0.39367,
+            "eps": -0.45,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 3.83071,
+            "net_income": -0.53163,
+            "eps": -0.6100000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 5.79242,
+            "net_income": -0.66461,
+            "eps": -0.76,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 7.16411,
+            "net_income": -1.12134,
+            "eps": -1.28,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 1.76927,
+            "net_income": 0.09545,
+            "eps": 0.11000000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 3.26079,
+            "net_income": -0.03089,
+            "eps": -0.04,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": -2.23,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": -2.01,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": -0.14,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": -0.92,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 1.96171,
+              "eps": -0.1499999999999999,
+              "net_income": -0.13298
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 1.37169,
+              "eps": -0.52,
+              "net_income": -0.45672999999999997
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 1.76927,
+              "eps": 0.11000000000000001,
+              "net_income": 0.09545
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 1.4915200000000002,
+              "eps": -0.15000000000000002,
+              "net_income": -0.12634
+            }
+          ],
+          "ttms": 6.594190000000001,
+          "ttm_eps": -0.71,
+          "ttm_parent_profit": -0.6206,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 6.59 億元；每股盈餘 -0.71 元；歸母淨利 -0.62 億元。營收未扣成本與費用，不等於獲利。獲利機制：設備及服務毛利；專案驗收、零件和研發影響。",
+      "events": [
+        {
+          "period": "2024全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-0.39億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-1.12億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-0.03億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q3",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.13億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q4",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.46億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026Q2",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.13億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.ylm.com.tw/"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "4562",
+            "name": "穎漢",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 22.41846,
+            "liabilities": 13.23621,
+            "equity": 9.18225,
+            "parent_equity": 9.09115,
+            "cash": 2.24448,
+            "current_assets": 13.187570000000001,
+            "current_liabilities": 10.53046,
+            "listed_borrowings": 9.12547,
+            "listed_leases": 0.67888,
+            "operating_cashflow": -0.28603,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=4552&companyId=4555&companyId=4557&companyId=4560&companyId=4562",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=4552&companyId=4555&companyId=4557&companyId=4560&companyId=4562",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "4562",
+            "name": "穎漢",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 21.48291,
+            "liabilities": 12.27656,
+            "equity": 9.20635,
+            "parent_equity": 9.04811,
+            "cash": 1.69142,
+            "current_assets": 12.03677,
+            "current_liabilities": 9.59192,
+            "listed_borrowings": 7.75459,
+            "listed_leases": 0.6883300000000001,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=4552&companyId=4555&companyId=4557&companyId=4560&companyId=4562",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=4552&companyId=4555&companyId=4557&companyId=4560&companyId=4562",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "2409.TW": {
+      "name": "友達",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 321,
+      "business": "顯示面板及車用、系統與智慧場域解決方案",
+      "direction": "車用系統整合、工業智慧與能源產品；2024規畫移動方案2026營運，最新落地另核",
+      "profit_mechanism": "面板與解決方案毛利；面板價格、稼動、系統產品組合及併購整合影響",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "2024全年母公司淨損；2025Q3母公司淨損；2026Q1母公司淨損；H1業外占稅前利益≥50%；出售廠房／預計處分利益；出售廠房／預計處分利益",
+      "urls": [
+        "https://auo.com/en-global",
+        "https://www.auo.com/upload/media/ir/2024_AUO_Annual_Report_EN.pdf",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 2802.45421,
+        "fy2025": 2813.87743,
+        "q32025": 699.07556,
+        "q42025": 701.41567,
+        "q12026": 690.31355,
+        "q22026": 708.91194,
+        "ttm": 2799.71672,
+        "h1_operating_profit": -4.17279,
+        "h1_nonoperating": 26.66872,
+        "h1_pretax": 22.49593,
+        "h1_parent_profit": 1.99555,
+        "h1_operating_margin": -0.00298221411046478,
+        "h1_nonoperating_share": 1.1854908865737,
+        "fy2025_parent_profit": 68.43361,
+        "q22026_parent_profit": 13.43092,
+        "screening": "2024全年母公司淨損；2025Q3母公司淨損；2026Q1母公司淨損；H1業外占稅前利益≥50%",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 1399.2254899999998,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 2802.45421,
+            "net_income": -30.64167,
+            "eps": -0.4,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1413.3862,
+            "net_income": 52.41612,
+            "eps": 0.6900000000000001,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 2112.4617599999997,
+            "net_income": 39.61338,
+            "eps": 0.52,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 2813.87743,
+            "net_income": 68.43361,
+            "eps": 0.9,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 690.31355,
+            "net_income": -11.43537,
+            "eps": -0.15000000000000002,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 1399.2254899999998,
+            "net_income": 1.99555,
+            "eps": 0.03,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 0.36,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 6.44,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": -2.39,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": -2.37,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 699.0755599999998,
+              "eps": -0.17000000000000004,
+              "net_income": -12.80274
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 701.4156700000003,
+              "eps": 0.38,
+              "net_income": 28.820230000000002
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 690.31355,
+              "eps": -0.15000000000000002,
+              "net_income": -11.43537
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 708.9119399999998,
+              "eps": 0.18000000000000002,
+              "net_income": 13.43092
+            }
+          ],
+          "ttms": 2799.7167199999994,
+          "ttm_eps": 0.24,
+          "ttm_parent_profit": 18.013039999999997,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 2,799.72 億元；每股盈餘 0.24 元；歸母淨利 18.01 億元。營收未扣成本與費用，不等於獲利。獲利機制：面板與解決方案毛利；面板價格、稼動、系統產品組合及併購整合影響。",
+      "events": [
+        {
+          "period": "2026-07-28",
+          "type": "出售廠房／預計處分利益",
+          "status": "MOPS公告轉載確認；最終認列待核",
+          "text": "華亞廠不動產及附屬設施售予廣達，價款197億元未稅，預計處分利益133.9億元已扣費用與估計稅費；价款不是獲利，亦不是面板營收。分期付款，實際交割與損益認列時點待核。",
+          "urls": [
+            "https://www.ttv.com.tw/finance/view/07202628202595E1D16E22AB4B38972CEC0270210CCD1A35/587"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026-07-30",
+          "type": "出售廠房／預計處分利益",
+          "status": "公司重大訊息轉載；實際認列待核",
+          "text": "高雄C5E廠房與附屬設施售予日月光半導體，交易63億元未稅；預計處分利益42.8億元已扣交易費用與預估稅費。63億元不是面板營收，42.8億元尚為預計利益，交割及認列時點待核。",
+          "urls": [
+            "https://pchome.megatime.com.tw/news/cat1/20260730/9700002409202607304.html"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2024全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-30.64億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q3",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-12.80億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026Q1",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-11.44億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1",
+          "type": "業外占比高",
+          "status": "數值篩選；原因待核對",
+          "text": "業外淨額26.67億元，占稅前利益118.5%；並不代表全為一次性利益。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://auo.com/en-global",
+            "https://www.auo.com/upload/media/ir/2024_AUO_Annual_Report_EN.pdf"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "2409",
+            "name": "友達",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 3776.7639,
+            "liabilities": 2107.7420199999997,
+            "equity": 1669.02188,
+            "parent_equity": 1543.9733899999999,
+            "cash": 537.91751,
+            "current_assets": 1442.3608199999999,
+            "current_liabilities": 1234.17456,
+            "listed_borrowings": 822.0098399999999,
+            "listed_leases": 71.46411,
+            "operating_cashflow": 68.77414,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2409&companyId=2413&companyId=2414&companyId=2415&companyId=2417",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2409&companyId=2413&companyId=2414&companyId=2415&companyId=2417",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "2409",
+            "name": "友達",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 3820.23047,
+            "liabilities": 2181.8249699999997,
+            "equity": 1638.4054999999998,
+            "parent_equity": 1519.99444,
+            "cash": 556.16637,
+            "current_assets": 1381.28946,
+            "current_liabilities": 1235.27758,
+            "listed_borrowings": 859.53805,
+            "listed_leases": 83.84762,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2409&companyId=2413&companyId=2414&companyId=2415&companyId=2417",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2409&companyId=2413&companyId=2414&companyId=2415&companyId=2417",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "3711.TW": {
+      "name": "日月光投控",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "臺灣50業務",
+      "source_row": 10,
+      "business": "半導體封裝測試與電子製造服務",
+      "direction": "AI先進封裝、面板級封裝及高雄新設施",
+      "profit_mechanism": "封測及電子製造毛利；兩類業務利潤率不同",
+      "status": "業務概述已整理；分部獲利未逐項量化",
+      "screening": "H1業外增幅篩選；取得廠房／擴充先進封裝",
+      "urls": [
+        "https://ir.aseglobal.com/",
+        "https://ase.aseglobal.com/press-room/ase-and-wus-announce-strategic-expansion/",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 5954.09585,
+        "fy2025": 6453.8771,
+        "q32025": 1685.68888,
+        "q42025": 1779.1523699999998,
+        "q12026": 1736.62152,
+        "q22026": 1910.63522,
+        "ttm": 7112.097989999999,
+        "h1_operating_profit": 386.26544,
+        "h1_nonoperating": 52.34698,
+        "h1_pretax": 438.61242,
+        "h1_parent_profit": 351.99640999999997,
+        "h1_operating_margin": 0.10590574438146101,
+        "h1_nonoperating_share": 0.119346780011382,
+        "fy2025_parent_profit": 406.58196,
+        "q22026_parent_profit": 210.52104,
+        "screening": "H1業外增幅篩選",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 3647.25674,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 5954.09585,
+            "net_income": 324.82479,
+            "eps": 7.52,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 2989.0358499999998,
+            "net_income": 150.74918,
+            "eps": 3.48,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 4674.72473,
+            "net_income": 259.4468,
+            "eps": 5.99,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 6453.8771,
+            "net_income": 406.58196,
+            "eps": 9.37,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 1736.62152,
+            "net_income": 141.47537,
+            "eps": 3.24,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 3647.25674,
+            "net_income": 351.99640999999997,
+            "eps": 8.04,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 6.47,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 14.84,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 14.53,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": 7.39,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 1685.6888800000002,
+              "eps": 2.5100000000000002,
+              "net_income": 108.69762
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 1779.1523699999998,
+              "eps": 3.379999999999999,
+              "net_income": 147.13515999999998
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 1736.62152,
+              "eps": 3.24,
+              "net_income": 141.47537
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 1910.63522,
+              "eps": 4.799999999999999,
+              "net_income": 210.52103999999997
+            }
+          ],
+          "ttms": 7112.097989999998,
+          "ttm_eps": 13.929999999999996,
+          "ttm_parent_profit": 607.8291899999999,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 7,112.10 億元；每股盈餘 13.93 元；歸母淨利 607.83 億元。營收未扣成本與費用，不等於獲利。獲利機制：封測及電子製造毛利；兩類業務利潤率不同。",
+      "events": [
+        {
+          "period": "2026-07-30",
+          "type": "取得廠房／擴充先進封裝",
+          "status": "公司重大訊息轉載確認",
+          "text": "子公司日月光半導體以63億元取得友達高雄路竹廠房及附屬設施，用於先進封裝擴產；另預估補償移除成本約5億元未稅。取得價款為投資支出，不是日月光營收或友達處分利益。",
+          "urls": [
+            "https://stock.pchome.com.tw/news/cat2/20260730/9700003711202607301.html"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1 vs 2025H1",
+          "type": "業外增加",
+          "status": "數值篩選；原因待核對",
+          "text": "業外由-8.00億元變為52.35億元；增額≥1億元且超過去年絕對值。未確認全屬非經常性。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "法人共識（媒體轉載FactSet）",
+          "period": "2026全年",
+          "scope": "合併營收",
+          "unit": "新台幣億元",
+          "low": 8369.55,
+          "high": null,
+          "published_at": "2026-09-14",
+          "limitations": "中位數8369.55億元，最低8026.87、最高8668.1013；非公司財測。來源發布後修正未逐日核對，較早來源不能稱10月最新共識。",
+          "urls": [
+            "https://news.cnyes.com/news/print/6605358"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "3711",
+            "name": "日月光投控",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 10713.34427,
+            "liabilities": 6521.36648,
+            "equity": 4191.97779,
+            "parent_equity": 3892.05323,
+            "cash": 912.9232099999999,
+            "current_assets": 3603.9921099999997,
+            "current_liabilities": 3367.98821,
+            "listed_borrowings": 2742.13568,
+            "listed_leases": 97.9144,
+            "operating_cashflow": 834.01251,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "3711",
+            "name": "日月光投控",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 8893.33354,
+            "liabilities": 5159.657209999999,
+            "equity": 3733.67633,
+            "parent_equity": 3468.9990799999996,
+            "cash": 924.68851,
+            "current_assets": 3137.9509199999998,
+            "current_liabilities": 2443.48583,
+            "listed_borrowings": 2481.2655,
+            "listed_leases": 88.48107,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=2330&companyId=2454&companyId=2308&companyId=2317&companyId=3711",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    },
+    "8104.TW": {
+      "name": "錸寶",
+      "source_reviewed_at": "2026-10-03",
+      "imported_at": "2026-10-04",
+      "source_filename": "臺灣上市公司營運研究_202610033.numbers",
+      "source_sheet": "其他上市業務",
+      "source_row": 959,
+      "business": "顯示器及集團電池模組相關業務",
+      "direction": "UPS／BESS高功率與工業醫療低功率電池、MicroLED延伸；各子公司合併另核",
+      "profit_mechanism": "顯示與電池產品毛利；組合、材料、稼動與研發影響",
+      "status": "業務概述已整理；新案細節待補核",
+      "screening": "2025全年母公司淨損；2026H1母公司淨損；2025Q4母公司淨損；2026Q1母公司淨損",
+      "urls": [
+        "https://www.ritdisplay.com/en-us/index",
+        "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+      ],
+      "financial": {
+        "basis": "合併營業收入",
+        "fy2024": 22.985120000000002,
+        "fy2025": 35.591120000000004,
+        "q32025": 9.69866,
+        "q42025": 5.3444,
+        "q12026": 4.61998,
+        "q22026": 8.03869,
+        "ttm": 27.70173,
+        "h1_operating_profit": 0.08075,
+        "h1_nonoperating": -0.36966000000000004,
+        "h1_pretax": -0.28891,
+        "h1_parent_profit": -0.22310000000000002,
+        "h1_operating_margin": 0.006379027180580581,
+        "h1_nonoperating_share": "",
+        "fy2025_parent_profit": -0.5223800000000001,
+        "q22026_parent_profit": 0.17984000000000003,
+        "screening": "2025全年母公司淨損；2026H1母公司淨損；2025Q4母公司淨損；2026Q1母公司淨損",
+        "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+        "h1_revenue": 12.65867,
+        "cumulative": {
+          "2024-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 22.985120000000002,
+            "net_income": 0.13701000000000002,
+            "eps": 0.16,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=113&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 20.54806,
+            "net_income": 0.06369999999999999,
+            "eps": 0.06999999999999999,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q3": {
+            "basis": "合併營業收入",
+            "revenue": 30.24672,
+            "net_income": 0.12689,
+            "eps": 0.14,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=03",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2025-Q4": {
+            "basis": "合併營業收入",
+            "revenue": 35.591120000000004,
+            "net_income": -0.5223800000000001,
+            "eps": -0.55,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q1": {
+            "basis": "合併營業收入",
+            "revenue": 4.61998,
+            "net_income": -0.40294,
+            "eps": -0.39,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2026-Q2": {
+            "basis": "合併營業收入",
+            "revenue": 12.65867,
+            "net_income": -0.22310000000000002,
+            "eps": -0.21000000000000002,
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02",
+            "source_reviewed_at": "2026-10-03"
+          },
+          "2020-Q4": {
+            "eps": 3.06,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=109&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2021-Q4": {
+            "eps": 2.86,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=110&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2022-Q4": {
+            "eps": 0.41,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=111&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          },
+          "2023-Q4": {
+            "eps": -3.08,
+            "basis": "合併營業收入",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=112&season=04",
+            "source_reviewed_at": "2026-10-04",
+            "eps_only": true
+          }
+        },
+        "rolling": {
+          "period": "2026-Q2",
+          "start_period": "2025-Q3",
+          "basis": "合併營業收入",
+          "quarters": [
+            {
+              "period": "2025-Q3",
+              "revenue": 9.69866,
+              "eps": 0.07000000000000002,
+              "net_income": 0.06319000000000001
+            },
+            {
+              "period": "2025-Q4",
+              "revenue": 5.344400000000004,
+              "eps": -0.6900000000000001,
+              "net_income": -0.64927
+            },
+            {
+              "period": "2026-Q1",
+              "revenue": 4.61998,
+              "eps": -0.39,
+              "net_income": -0.40294
+            },
+            {
+              "period": "2026-Q2",
+              "revenue": 8.03869,
+              "eps": 0.18,
+              "net_income": 0.17984
+            }
+          ],
+          "ttms": 27.701730000000005,
+          "ttm_eps": -0.83,
+          "ttm_parent_profit": -0.8091800000000001,
+          "formula": "前一年全年＋今年截至本季累計－去年截至同季累計；第四季直接使用全年數字"
+        }
+      },
+      "summary": "最近 12 個月（2025-Q3 至 2026-Q2）合併營業收入 27.70 億元；每股盈餘 -0.83 元；歸母淨利 -0.81 億元。營收未扣成本與費用，不等於獲利。獲利機制：顯示與電池產品毛利；組合、材料、稼動與研發影響。",
+      "events": [
+        {
+          "period": "2025全年",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-0.52億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026H1",
+          "type": "虧損",
+          "status": "財報數值確認",
+          "text": "歸屬母公司淨損-0.22億元；原因尚未逐項核對。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=02"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2025Q4",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.65億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=114&season=04"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        },
+        {
+          "period": "2026Q1",
+          "type": "單季虧損",
+          "status": "累計差額計算",
+          "text": "歸屬母公司淨損-0.40億元；Q2／Q3／Q4由累計差額計算。",
+          "urls": [
+            "https://mopsov.twse.com.tw/mops/web/ajax_t163sb04?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=sii&year=115&season=01"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "outlooks": [
+        {
+          "type": "待補查／無可用金額",
+          "period": "未確認",
+          "scope": "整體營收",
+          "unit": null,
+          "low": null,
+          "high": null,
+          "published_at": null,
+          "limitations": "本次未取得可核對的整體营收金額預估；不代表公司從未提供財測或沒有法人研究",
+          "urls": [
+            "https://www.ritdisplay.com/en-us/index"
+          ],
+          "source_reviewed_at": "2026-10-03"
+        }
+      ],
+      "balance_sheet": {
+        "statements": [
+          {
+            "symbol": "8104",
+            "name": "錸寶",
+            "date": "2026-06-30",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 85.90872,
+            "liabilities": 52.66561,
+            "equity": 33.24311,
+            "parent_equity": 30.1245,
+            "cash": 5.50419,
+            "current_assets": 25.18067,
+            "current_liabilities": 25.14886,
+            "listed_borrowings": 35.404740000000004,
+            "listed_leases": 0.8191200000000001,
+            "operating_cashflow": 0.61101,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=8081&companyId=8101&companyId=8103&companyId=8104&companyId=8105",
+            "cashflow_source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=CashflowStatement&ys=20262&quarter=false&companyId=8081&companyId=8101&companyId=8103&companyId=8104&companyId=8105",
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": "2026 上半年累計"
+          },
+          {
+            "symbol": "8104",
+            "name": "錸寶",
+            "date": "2025-12-31",
+            "type": "ci",
+            "basis": "合併",
+            "assets": 84.72371,
+            "liabilities": 53.42877,
+            "equity": 31.29494,
+            "parent_equity": 28.08597,
+            "cash": 13.18296,
+            "current_assets": 33.18671,
+            "current_liabilities": 17.398,
+            "listed_borrowings": 38.17947,
+            "listed_leases": 0.8616900000000001,
+            "operating_cashflow": null,
+            "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20254&quarter=false&companyId=8081&companyId=8101&companyId=8103&companyId=8104&companyId=8105",
+            "cashflow_source_url": null,
+            "reviewed_at": "2026-10-04",
+            "unit": "億元",
+            "cashflow_period": null
+          }
+        ],
+        "note": "現金僅現金及約當現金，未含定存或其他金融資產。表列借款債券及其現金差非完整淨負債，一年內到期借款可能併入其他負債。",
+        "basis": "合併",
+        "source_url": "https://mopsfin.twse.com.tw/compare/report?compareItem=BalanceSheet&ys=20262&quarter=false&companyId=8081&companyId=8101&companyId=8103&companyId=8104&companyId=8105",
+        "regulatory": {
+          "capital_adequacy": null,
+          "npl_ratio": null,
+          "coverage_ratio": null,
+          "capital_type": "未取得／不適用"
+        }
+      }
+    }
+  },
+  "adopted_record_sha256": {
+    "4562.TW": "sha256:00c9b3fcc6a3d6421c03210337c2b3a7f5e4ad6fd08e8974f9eb140901716683",
+    "2409.TW": "sha256:d49dea2c4795f5f6efc9b2097e9c043bf87c30ea12cbb91867a6f1aba4356760",
+    "3711.TW": "sha256:504c28d6b9d5b5a15057d4d279d7ea0516a5e2989e81bff9e278b71dbbd6609a",
+    "8104.TW": "sha256:a58e70f19f9ee730cc6ae80549c7026e65d6655f2375759dd53098959a3f07d5"
+  },
+  "official_source_verification": [
+    {
+      "source_id": "4562-event-20261128",
+      "file_sha256_matched": true,
+      "event_key_matched": true,
+      "title_added_from_official_body": "公告本公司決議暫停115年現金增資發行普通股相關作業",
+      "statement_sha256": "sha256:5649b178bad7b9879e6a1544a583f8052e75f3425cdd41e90bcbc4e65a34cc9e"
+    },
+    {
+      "source_id": "2409-event-20261128",
+      "file_sha256_matched": true,
+      "event_key_matched": true,
+      "title_added_from_official_body": "本公司處分華亞廠不動產及其相關廠務附屬設施",
+      "statement_sha256": "sha256:c1c48ce6eff96f9301eec3d3f4f7c6fdf44a66cfff5e2aafee02b2eec0a1d024"
+    },
+    {
+      "source_id": "3711-event-20261128",
+      "file_sha256_matched": true,
+      "event_key_matched": true,
+      "title_added_from_official_body": "代子公司矽品精密工業(股)公司公告其董事會決議取得土地 及廠房(含附屬設施)",
+      "statement_sha256": "sha256:6d8973690773435a597116498e6043ec9f3819db2d43e8baf6017492c77cc0c0"
+    },
+    {
+      "source_id": "8104-event-20261128",
+      "file_sha256_matched": true,
+      "event_key_matched": true,
+      "title_added_from_official_body": "變更公告115.11.02代重要子公司 瀚泰能源股份有限公司公告董事會決議 通過辦理現金增資發行新股事宜",
+      "statement_sha256": "sha256:f6918e5f182b1cdbf57cb417b50dc474c0d8b7f37646a567a15606f66d0a4ac7"
+    }
+  ],
+  "adoption_rules": {
+    "company_reviewed_at_preserved": true,
+    "financial_tables_not_modified": true,
+    "whole_company_quota": 0,
+    "company_event_count": 4,
+    "distinct_underlying_events": 3,
+    "same_AUO_SPIL_transaction_linked": true,
+    "estimates_not_realized_profit": true,
+    "4562_meeting_not_counted": true,
+    "prior_93_impact_groups_and_19_meetings_not_marked_complete": true,
+    "cutoff_not_advanced": true
+  }
+}
